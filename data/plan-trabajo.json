@@ -390,14 +390,15 @@
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "22/11/2026: estado de solicitud vencida de Diputación Auxiliar C2 corregido en fuente privada según fecha final ya registrada (19/11); no equivale a auditoría de las 10 fichas pendientes.",
             "22/11/2026: métricas por fuente recientes leídas/no leídas y subtotal pendientes accionables, con prueba multifuente; no sustituye cotejo de 10 anuncios oficiales.",
-            "22/11/2026: fotografía verificada de 203 fuentes del rastreo directo, 10 fuentes municipales prioritarias con errores y exploración parcial categorizadas, informe ops/radar-priority-sources-20261122.json, test cruzado contra snapshot. No equivale a 10 convocatorias auditadas."
+            "22/11/2026: fotografía verificada de 203 fuentes del rastreo directo, 10 fuentes municipales prioritarias con errores y exploración parcial categorizadas, informe ops/radar-priority-sources-20261122.json, test cruzado contra snapshot. No equivale a 10 convocatorias auditadas.",
+            "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
             "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
           ],
-          "nextAction": "Auditar 10 anuncios de empleo reales, no solo fuentes: documento, fecha, requisitos, apertura y posible duplicado. Resolver primero accesibilidad de Getafe/Alcorcón/Illescas.",
+          "nextAction": "Cotejar bases completas, requisitos personales y presencia/duplicados en snapshot interno antes de cerrar auditoría de 10 fichas de OpoRadar; no confundir este muestreo BOE con auditoría completa.",
           "priority": "ALTA"
         },
         {
@@ -482,9 +483,10 @@
             "assets/radar-quality.js"
           ],
           "completedSubsteps": [
-            "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente."
+            "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente.",
+            "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados."
           ],
-          "nextAction": "Verificar requisitos literales de una muestra de 10 anuncios del último rastreo; etiquetar CUMPLE/REVISAR/NO CUMPLE solo con evidencia.",
+          "nextAction": "Cotejar bases completas, requisitos personales y presencia/duplicados en snapshot interno antes de cerrar auditoría de 10 fichas de OpoRadar; no confundir este muestreo BOE con auditoría completa.",
           "priority": "ALTA"
         },
         {
@@ -1803,6 +1805,18 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "Cotejo focal documental, no auditoría completa de las 61 preguntas. La validación del nuevo commit y rastreo directo posterior siguen pendientes."
+    },
+    {
+      "id": "LOG-20261122-RADAR-DIEZ-ANUNCIOS-BOE",
+      "at": "2026-11-22",
+      "taskIds": [
+        "RAD-04",
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Diez anuncios BOE individualizados, un plazo Getafe de 20 días naturales a 04/12 y exclusiones por promoción interna/provisión; contraste aún sin bases específicas de todos.",
+      "evidence": [],
+      "limit": "No se han leído las bases completas de los diez ni cotejado todas las fichas contra el feed interno; clasificación solo documental focal."
     }
   ],
   "decisions": [
