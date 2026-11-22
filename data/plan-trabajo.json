@@ -100,10 +100,11 @@
         {
           "id": "DIP-C1-01",
           "title": "Mantener preparación de Administrativo C1 Diputación (15/12/2026)",
-          "state": "EN_CURSO",
+          "state": "PARCIAL",
           "acceptance": "Repaso final con simulacros verificables y priorización por fecha; sin fingir cobertura completa.",
           "evidencePaths": [
-            "content/diputacion-toledo/simulacros.json"
+            "content/diputacion-toledo/simulacros.json",
+            "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
           ],
           "completedSubsteps": [
             "Los 3 modelos ya publicados (36 preguntas) revisados contra Anexo VII de 40 temas: 11 etiquetas temáticas corregidas y todas las referencias redirigidas al manual del tema, sin inventar anclas; solo cubren 14 temas, 20/11/2026.",
@@ -118,14 +119,16 @@
             "22/11/2026: corregido sesgo masivo en posición B de 61 preguntas de cinco modelos, con redistribución balanceada A-D, conservando exactamente texto correcto de cada respuesta, ID y tema. Auditoría por pregunta y regresión nueva.",
             "22/11/2026: corregido fallo funcional: fuentes normativas de las 25 preguntas C1 modelos 4/5 existían en JSON pero no se trasladaban al objeto ni se mostraban tras corregir. Ahora aparecen enlaces seguros BOE/Microsoft y aserción Chromium para 12+1.",
             "22/11/2026: corregido el dato FAT32 de aproximación 4 GB al máximo exacto 4 GiB menos 1 byte, con fuente fabricante; matizada excepción de registro electrónico sábados y añadidos artículos BOE a cuatro ítems previos sobre LPAC/LCSP.",
-            "22/11/2026: cotejo focal de 7 preguntas originales con art. 16 Ley 19/2013, arts. 99/101 LCSP y arts. 173/184 TRLRHL; corregida la justificación de acceso parcial para incluir la excepción legal de información distorsionada o carente de sentido."
+            "22/11/2026: cotejo focal de 7 preguntas originales con art. 16 Ley 19/2013, arts. 99/101 LCSP y arts. 173/184 TRLRHL; corregida la justificación de acceso parcial para incluir la excepción legal de información distorsionada o carente de sentido.",
+            "22/11/2026: CI global VALIDADA en Actions 45062741733: 40 manuales/fuentes/matrices/bancos, 807 preguntas y 3228 alternativas, 552 focos y tablas en todos los manuales; 39 temas AUDITADO, 24 preguntas del T22 en reserva, 2 pares de enunciado repetido. Modelo 006 de 50 preguntas/60 min reutilizadas de 61 previas, nota +0.20/-0.05, sin T22. Cierre técnico sí, jurídico al 100% no."
           ],
           "remainingSubsteps": [
-            "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
-            "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
-            "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
+            "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
+            "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
+            "Auditar 5 casos prácticos frente al alcance del segundo ejercicio",
+            "Completar 37 fichas rápidas estructuradas con fuentes oficiales"
           ],
-          "nextAction": "Auditar las restantes preguntas iniciales de contenido jurídico y ofimático a nivel de alternativas; el hecho de tener referencia BOE no convierte el conjunto en examen oficial. T22 OAPGT queda separado."
+          "nextAction": "Pendiente exclusivo para certificación 100%: vigencia completa OAPGT T22; revisión manual jurídico-semántica 807 preguntas/3228 alternativas; 5 casos prácticos y fichas 37 temas. Formato real 50/60 y QA estructural ya cerrados."
         },
         {
           "id": "DIP-C2-01",
@@ -274,7 +277,7 @@
             "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
             "Medir y corregir resúmenes demasiado genéricos, truncados o basados solo en primera frase de cada sección."
           ],
-          "nextAction": "Priorizar fichas de temas 2 y 3 de Diputación C1 sobre manuales auditados y medir cobertura real: 2 pilotos (Olías T01 + Diputación C1 T01), sin atribuir fichas a 40 temas.",
+          "nextAction": "Diputación C1: 3/40 fichas rápidas estructuradas verificadas. Los otros 37 temas tienen resumen extractivo, no ficha equivalente; trabajar solo si supera prioridades de examen.",
           "priority": "ALTA"
         },
         {
@@ -1931,6 +1934,21 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "No se leyó el PDF íntegro municipal de Alcorcón ni base Getafe; no afirmar acceso confirmado. Nuevo commit pendiente de CI."
+    },
+    {
+      "id": "LOG-20261122-C1-CIERRE-ESTRUCTURAL-39-40",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "DIP-C1-02",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cierre técnico de estudio C1: CI valida 40 temas y 807 bancos/3228 alternativas/552 focos; 6 modelos incluido entrenamiento remezclado 50/60, y 5 supuestos. Se mantiene reserva jurídica del tema 22 y de 3228 alternativas no revisadas manualmente. Estado PARCIAL por límites jurídicos, aunque el control estructural esté verificado.",
+      "evidence": [
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "CI no certifica jurídicamente respuestas ni texto consolidado OAPGT; solo 3/40 fichas rápidas estructuradas."
     }
   ],
   "decisions": [
@@ -2087,5 +2105,26 @@
       "publicationConclusion": "SUCCESS",
       "scope": "Verificación de workflows y sincronización técnica. No es certificación jurídica ni navegador físico."
     }
+  },
+  "c1AuditClosure20261122": {
+    "date": "2026-11-22",
+    "kind": "CIERRE_TECNICO_ESTRUCTURAL_CON_RESERVAS_JURIDICAS",
+    "ciRun": 45062741733,
+    "temas": 40,
+    "temasAuditadoEditorial": 39,
+    "temaBloqueado": 22,
+    "preguntasBanco": 807,
+    "alternativas": 3228,
+    "bloquesFoco": 552,
+    "manualesConTablas": 40,
+    "casosPracticos": 5,
+    "simulacrosBreves": 5,
+    "preguntasBreves": 61,
+    "modeloLargo": 50,
+    "minutosModeloLargo": 60,
+    "preguntasNuevasEnModeloLargo": 0,
+    "fichasEstructuradas": 3,
+    "legalIntegralCertified": false,
+    "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   }
 }
