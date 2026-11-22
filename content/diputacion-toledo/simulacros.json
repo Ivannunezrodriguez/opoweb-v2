@@ -582,7 +582,13 @@
           "correcta": 1,
           "justificacion": "El artículo 1.1 de la Constitución enumera libertad, justicia, igualdad y pluralismo político.",
           "trampa": "El principio de seguridad jurídica figura en el artículo 9.3, no en la lista de valores superiores.",
-          "referencia": "content/diputacion-toledo/tema-01/manual.md"
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "fuenteNormativa": {
+            "name": "Constitución Española",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+            "article": "art. 1.1",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q02",
@@ -597,7 +603,13 @@
           "correcta": 2,
           "justificacion": "El artículo 53.2 menciona el artículo 14 y la sección primera del capítulo II del título I, con eventual amparo constitucional.",
           "trampa": "El artículo 14 está fuera de esa sección, pero está incluido expresamente.",
-          "referencia": "content/diputacion-toledo/tema-02/manual.md"
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "fuenteNormativa": {
+            "name": "Constitución Española",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+            "article": "art. 53.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q03",
@@ -612,7 +624,13 @@
           "correcta": 2,
           "justificacion": "El Congreso es elegido por cuatro años; su mandato termina a los cuatro años de la elección o el día de disolución de la Cámara.",
           "trampa": "Los cinco años corresponden al mandato del Defensor del Pueblo, no al Congreso.",
-          "referencia": "content/diputacion-toledo/tema-03/manual.md"
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "fuenteNormativa": {
+            "name": "Constitución Española",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+            "article": "art. 68.4",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q04",
@@ -627,7 +645,13 @@
           "correcta": 1,
           "justificacion": "Si el recusado niega la causa, el superior resolverá en el plazo de tres días, tras el informe de aquel.",
           "trampa": "El recusado manifiesta al superior al día siguiente si concurre la causa; no es el plazo de resolución del superior.",
-          "referencia": "content/diputacion-toledo/tema-04/manual.md"
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 40/2015",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+            "article": "art. 24.4",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q05",
@@ -642,7 +666,13 @@
           "correcta": 1,
           "justificacion": "El artículo 40.2 de la Ley 39/2015 exige cursar la notificación dentro de los diez días a partir de la fecha en que el acto se haya dictado.",
           "trampa": "Cursar la notificación en diez días no equivale a plazo general de interposición de recursos.",
-          "referencia": "content/diputacion-toledo/tema-07/manual.md"
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "art. 40.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q06",
@@ -657,7 +687,13 @@
           "correcta": 2,
           "justificacion": "La audiencia previa del artículo 107.2 se practica conforme al artículo 82, que fija un plazo no inferior a diez días ni superior a quince.",
           "trampa": "No confundir el plazo de audiencia con el plazo máximo para declarar la lesividad.",
-          "referencia": "content/diputacion-toledo/tema-08/manual.md"
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "arts. 107.2 y 82.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q07",
@@ -672,7 +708,13 @@
           "correcta": 1,
           "justificacion": "El artículo 43.2 de la Ley 39/2015 establece diez días naturales desde la puesta a disposición sin acceder a su contenido, salvo imposibilidad técnica o material acreditada.",
           "trampa": "Los diez días son naturales, no hábiles; el aviso de puesta a disposición no sustituye la notificación.",
-          "referencia": "content/diputacion-toledo/tema-09/manual.md"
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "art. 43.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q08",
@@ -687,7 +729,13 @@
           "correcta": 1,
           "justificacion": "El artículo 81.1 de la Ley 39/2015 exige solicitar informe al servicio afectado, que deberá emitirse en un plazo no superior a diez días.",
           "trampa": "No confundir el plazo del informe del servicio con los plazos generales de resolución del procedimiento.",
-          "referencia": "content/diputacion-toledo/tema-10/manual.md"
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "art. 81.1",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q09",
@@ -702,7 +750,13 @@
           "correcta": 1,
           "justificacion": "El artículo 31.2.a de la Ley 39/2015 permite presentar documentos en el registro electrónico todos los días del año durante las 24 horas.",
           "trampa": "La presentación permanente no convierte días inhábiles en hábiles a efectos del cómputo.",
-          "referencia": "content/diputacion-toledo/tema-11/manual.md"
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "art. 31.2.a",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q10",
@@ -717,7 +771,13 @@
           "correcta": 1,
           "justificacion": "El artículo 137 CE cita municipios, provincias y comunidades autónomas que se constituyan; todas gozan de autonomía para gestionar sus respectivos intereses.",
           "trampa": "Las comarcas y mancomunidades no sustituyen a la provincia en la enumeración constitucional.",
-          "referencia": "content/diputacion-toledo/tema-12/manual.md"
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "fuenteNormativa": {
+            "name": "Constitución Española",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+            "article": "art. 137",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q11",
@@ -732,7 +792,13 @@
           "correcta": 1,
           "justificacion": "El artículo 169.1 del TRLRHL establece exposición al público durante quince días, previo anuncio en el boletín provincial, para examen y reclamaciones.",
           "trampa": "No confundir la exposición presupuestaria con los plazos de otras informaciones públicas.",
-          "referencia": "content/diputacion-toledo/tema-13/manual.md"
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "fuenteNormativa": {
+            "name": "RDL 2/2004, TRLRHL",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+            "article": "art. 169.1",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-004-Q12",
@@ -747,7 +813,13 @@
           "correcta": 2,
           "justificacion": "La celebración del Pleno extraordinario solicitado no puede demorarse más de quince días hábiles desde su solicitud.",
           "trampa": "No confundir la sesión extraordinaria solicitada con la convocatoria ordinaria del Pleno.",
-          "referencia": "content/diputacion-toledo/tema-14/manual.md"
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 7/1985",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+            "article": "art. 46.2.a",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         }
       ]
     },
@@ -770,7 +842,13 @@
           "justificacion": "El artículo 44 de la Ley 7/1985 reconoce personalidad y capacidad jurídica a las mancomunidades para sus fines específicos.",
           "trampa": "La mancomunidad es distinta de un simple convenio.",
           "referencia": "content/diputacion-toledo/tema-15/manual.md",
-          "normaClave": "LRBRL art. 44"
+          "normaClave": "LRBRL art. 44",
+          "fuenteNormativa": {
+            "name": "Ley 7/1985",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+            "article": "art. 44",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q02",
@@ -786,7 +864,13 @@
           "justificacion": "El personal eventual realiza funciones de confianza o asesoramiento especial y su nombramiento y cese son libres.",
           "trampa": "No es lo mismo que funcionario interino.",
           "referencia": "content/diputacion-toledo/tema-17/manual.md",
-          "normaClave": "TRLEBEP art. 12"
+          "normaClave": "TRLEBEP art. 12",
+          "fuenteNormativa": {
+            "name": "RDL 5/2015, TREBEP",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+            "article": "art. 12",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q03",
@@ -802,7 +886,13 @@
           "justificacion": "La carrera horizontal permite progresar de grado, categoría o escalón sin cambio necesario de puesto.",
           "trampa": "Distinguir carrera horizontal de promoción interna vertical.",
           "referencia": "content/diputacion-toledo/tema-18/manual.md",
-          "normaClave": "TRLEBEP art. 16"
+          "normaClave": "TRLEBEP art. 16",
+          "fuenteNormativa": {
+            "name": "RDL 5/2015, TREBEP",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+            "article": "art. 16.3.a",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q04",
@@ -818,7 +908,13 @@
           "justificacion": "El régimen disciplinario clasifica las faltas en muy graves, graves y leves.",
           "trampa": "No confundir faltas con la escala de sanciones.",
           "referencia": "content/diputacion-toledo/tema-19/manual.md",
-          "normaClave": "Ley 4/2011 régimen disciplinario"
+          "normaClave": "Ley 4/2011 régimen disciplinario",
+          "fuenteNormativa": {
+            "name": "Ley 4/2011 de Castilla-La Mancha",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+            "article": "régimen disciplinario",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q05",
@@ -898,7 +994,13 @@
           "justificacion": "En la exención se realiza el hecho imponible, pero la ley exime de la obligación tributaria principal.",
           "trampa": "La no sujeción queda fuera del hecho imponible.",
           "referencia": "content/diputacion-toledo/tema-25/manual.md",
-          "normaClave": "LGT art. 22"
+          "normaClave": "LGT art. 22",
+          "fuenteNormativa": {
+            "name": "Ley 58/2003 General Tributaria",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+            "article": "art. 22",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q10",
@@ -914,7 +1016,13 @@
           "justificacion": "El recargo ejecutivo es del 5 % cuando se satisface toda la deuda antes de notificarse la providencia de apremio.",
           "trampa": "El 10 % corresponde al recargo reducido y el 20 % al ordinario, con sus condiciones.",
           "referencia": "content/diputacion-toledo/tema-26/manual.md",
-          "normaClave": "LGT art. 28.2"
+          "normaClave": "LGT art. 28.2",
+          "fuenteNormativa": {
+            "name": "Ley 58/2003 General Tributaria",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+            "article": "art. 28.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q11",
@@ -930,7 +1038,13 @@
           "justificacion": "El IBI es tributo directo de carácter real que grava el valor de los bienes inmuebles conforme a la ley.",
           "trampa": "No confundir IBI con IAE ni con tasas municipales.",
           "referencia": "content/diputacion-toledo/tema-29/manual.md",
-          "normaClave": "TRLRHL art. 60"
+          "normaClave": "TRLRHL art. 60",
+          "fuenteNormativa": {
+            "name": "RDL 2/2004, TRLRHL",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+            "article": "art. 60",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q12",
@@ -946,7 +1060,13 @@
           "justificacion": "El IIVTNU es potestativo; IBI, IAE e IVTM son impuestos municipales de exacción obligatoria.",
           "trampa": "No todos los impuestos regulados en la ley son obligatorios para cada municipio.",
           "referencia": "content/diputacion-toledo/tema-30/manual.md",
-          "normaClave": "TRLRHL art. 59"
+          "normaClave": "TRLRHL art. 59",
+          "fuenteNormativa": {
+            "name": "RDL 2/2004, TRLRHL",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+            "article": "art. 59",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q13",
@@ -967,5 +1087,5 @@
       ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial."
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos BOE por artículo a 20 preguntas seleccionadas de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas."
 }
