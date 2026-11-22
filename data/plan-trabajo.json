@@ -111,14 +111,15 @@
             "Advertencia de alcance 14/40 y formato 12 preguntas/18 minutos publicada en centro de entrenamiento; cache actualizado.",
             "Chromium E2E del primer modelo C1 de 12 preguntas, 18 minutos e historial independiente: Actions #44692289280 SUCCESS.",
             "22/11/2026: fichas focales de temas 2/3 con CE y LO 3/1981 verificables, apartadas de modelo de simulacro; siguen pendientes preguntas/temas 4–40.",
-            "22/11/2026: cuarto modelo C1 de 12 preguntas/18 minutos sobre 12 temas nuevos (1,2,3,4,7,8,9,10,11,12,13,14), con artículo, explicación y trampa. Cobertura de modelos 26/40, 48 preguntas; sigue fuera tema 22. Prueba de integridad ampliada."
+            "22/11/2026: cuarto modelo C1 de 12 preguntas/18 minutos sobre 12 temas nuevos (1,2,3,4,7,8,9,10,11,12,13,14), con artículo, explicación y trampa. Cobertura de modelos 26/40, 48 preguntas; sigue fuera tema 22. Prueba de integridad ampliada.",
+            "22/11/2026: quinto modelo 13 preguntas/20 minutos para temas 15,17,18,19,20,21,23,24,25,26,29,30,34; cinco modelos y cobertura 39/40, excluido T22. E2E corregido para 39/40 y entrada de modelo 5."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
             "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
             "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
           ],
-          "nextAction": "Continuar por los 14 temas sin representación en los cuatro modelos; verificar clave jurídica contra fuente y no confundir modelo de 12 con examen completo."
+          "nextAction": "Cotejar todas las claves de modelos 4 y 5 contra normas vigentes y verificar E2E Chromium en Actions. T22 sigue bloqueado en tarea separada."
         },
         {
           "id": "DIP-C2-01",
@@ -358,7 +359,8 @@
             "20/11/2026: mitigada duplicación de alertas por mismo documento y puesto llegado por varias fuentes (solo en correo, no deduplicación total del feed).",
             "20/11/2026: filtradas en radar-core las diligencias de activación, relaciones de integrantes, estados de bolsa y órdenes de llamamiento sin convocatoria nueva; las aperturas efectivas se conservan. Añadidas pruebas en radar-fixtures.",
             "20/11/2026: evitada pérdida de bolsas/ofertas diferentes cuando la sede reutiliza una URL de índice o un PDF con varios puestos; solo fusionar URL específica y títulos equivalentes. Añadidos casos de regresión a tests/radar-fixtures.mjs.",
-            "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS."
+            "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
+            "22/11/2026: referencias de apoyo verificadas para Getafe (transparencia/recursos humanos), Alcorcón (documentos/procesos) e Illescas (sede/Convoca); resultado real requiere rastreo nuevo."
           ],
           "remainingSubsteps": [
             "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
@@ -524,7 +526,8 @@
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "22/11/2026: auditoría operativa ahora desglosa por fuente oportunidades recientes sin lectura y separa cuántas tienen puesto accionable; control con datos sintéticos en CI sin filtración de datos de opositores.",
-            "22/11/2026: fuente directa de 203 entradas de estado: 36 ERROR, 124 PARTIAL, 43 READABLE. Priorizadas 10 fuentes (sin afirmar cobertura ni plazos) y añadido test reproducible."
+            "22/11/2026: fuente directa de 203 entradas de estado: 36 ERROR, 124 PARTIAL, 43 READABLE. Priorizadas 10 fuentes (sin afirmar cobertura ni plazos) y añadido test reproducible.",
+            "22/11/2026: reintento de hasta dos URLs públicas de respaldo oficiales tras caída total de Getafe, Alcorcón e Illescas. Mantiene ERROR/PARCIAL, no silencia error TLS y no atribuye inscripción abierta; tests con fallo y rescate."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -534,7 +537,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Resolver accesibilidad de Getafe, Alcorcón e Illescas mediante fuentes institucionales alternativas y reducir listados pendientes de Toledo/Diputación; repetir snapshot para medir delta."
+          "nextAction": "Comprobar un rastreo posterior a la incorporación de respaldo, medir fallbackAttempted/fallbackRead y verificar individualmente anuncios con bases oficiales."
         },
         {
           "id": "RAD-13",
@@ -1769,6 +1772,21 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "No es un examen oficial; no se han auditado diez anuncios reales ni corregido los endpoints externos. La nueva CI debe verificarse."
+    },
+    {
+      "id": "LOG-20261122-DIP-C1-39-40-RADAR-FALLBACK",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "RAD-03",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Quinto modelo C1 con trece temas inéditos y rutas oficiales de respaldo Radar Getafe/Alcorcón/Illescas, con prueba determinista.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "Solo cobertura temática de entrenamiento y pruebas técnicas; no se han cotejado diez anuncios reales ni se acredita rescate de fuentes hasta rastreo posterior."
     }
   ],
   "decisions": [
