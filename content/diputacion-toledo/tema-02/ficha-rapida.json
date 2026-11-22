@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 2 · repaso jurídico focalizado",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-02/manual.md",
+  "source": {
+    "label": "Constitución Española; texto consolidado, BOE",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520"
+  },
+  "additionalSources": [],
+  "cards": [
+    {
+      "title": "Protección reforzada",
+      "articles": "CE arts. 14 y 53.2",
+      "fact": "El artículo 14 y los derechos de la sección 1.ª del capítulo II del título I disfrutan de tutela judicial preferente y sumaria y, en su caso, amparo ante el Tribunal Constitucional.",
+      "trap": "El artículo 14 está fuera de la sección 1.ª, pero sí se menciona expresamente en el art. 53.2."
+    },
+    {
+      "title": "Garantía de ley y contenido esencial",
+      "articles": "CE art. 53.1",
+      "fact": "Los derechos y libertades del capítulo II vinculan a todos los poderes públicos y su ejercicio solo puede regularse por ley respetando el contenido esencial.",
+      "trap": "No confundir el alcance del art. 53.1 con el amparo reforzado del art. 53.2."
+    },
+    {
+      "title": "Derechos frente a principios rectores",
+      "articles": "CE art. 53.3",
+      "fact": "Los principios rectores del capítulo III informan legislación, práctica judicial y actuación de poderes públicos; pueden alegarse ante la jurisdicción ordinaria conforme a sus leyes de desarrollo.",
+      "trap": "La tutela preferente y sumaria del art. 53.2 no se extiende automáticamente a todos los principios rectores."
+    },
+    {
+      "title": "Suspensión general de derechos",
+      "articles": "CE art. 55.1",
+      "fact": "El estado de excepción o de sitio puede permitir suspender derechos tasados en el art. 55.1, en los términos previstos en la Constitución.",
+      "trap": "No atribuir al estado de alarma la suspensión general de derechos del art. 55.1."
+    },
+    {
+      "title": "Suspensión individual",
+      "articles": "CE art. 55.2",
+      "fact": "Una ley orgánica puede determinar casos y formas de suspensión individual de los derechos de los arts. 17.2 y 18.2–3, con intervención judicial y control parlamentario, en investigaciones de bandas armadas o terrorismo.",
+      "trap": "No aplicar indiscriminadamente la suspensión individual a todos los derechos del art. 55.1."
+    },
+    {
+      "title": "Ley orgánica: materias y mayoría",
+      "articles": "CE art. 81",
+      "fact": "Son leyes orgánicas las relativas al desarrollo de derechos fundamentales y libertades públicas, estatutos de autonomía, régimen electoral general y otras previstas constitucionalmente; aprobación, modificación o derogación requieren mayoría absoluta del Congreso en votación final sobre el conjunto.",
+      "trap": "Mayoría absoluta del Congreso, no 3/5 de ambas Cámaras."
+    },
+    {
+      "title": "Decreto-ley y límites",
+      "articles": "CE art. 86",
+      "fact": "En caso de extraordinaria y urgente necesidad, el Gobierno puede dictar decretos-leyes; el Congreso debe convalidarlos o derogarlos en 30 días desde su promulgación. Tienen límites materiales tasados.",
+      "trap": "No confundir decreto-ley (art. 86) con decreto legislativo por delegación (arts. 82–85)."
+    }
+  ]
+}

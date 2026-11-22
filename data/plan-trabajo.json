@@ -109,7 +109,8 @@
             "Los 3 modelos ya publicados (36 preguntas) revisados contra Anexo VII de 40 temas: 11 etiquetas temáticas corregidas y todas las referencias redirigidas al manual del tema, sin inventar anclas; solo cubren 14 temas, 20/11/2026.",
             "Control automatizado de estructura, clasificación y existencia de manuales incorporado al workflow de publicación; Actions #44691823410 SUCCESS.",
             "Advertencia de alcance 14/40 y formato 12 preguntas/18 minutos publicada en centro de entrenamiento; cache actualizado.",
-            "Chromium E2E del primer modelo C1 de 12 preguntas, 18 minutos e historial independiente: Actions #44692289280 SUCCESS."
+            "Chromium E2E del primer modelo C1 de 12 preguntas, 18 minutos e historial independiente: Actions #44692289280 SUCCESS.",
+            "22/11/2026: fichas focales de temas 2/3 con CE y LO 3/1981 verificables, apartadas de modelo de simulacro; siguen pendientes preguntas/temas 4–40."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
@@ -249,14 +250,17 @@
             "content/olias-auxiliar-edificios/tema-01/ficha-rapida.json",
             "data/programa-olias-auxiliar-edificios-2026.json",
             "content/diputacion-toledo/tema-01/ficha-rapida.json",
-            "data/programa-diputacion-administrativo-2026.json"
+            "data/programa-diputacion-administrativo-2026.json",
+            "content/diputacion-toledo/tema-02/ficha-rapida.json",
+            "content/diputacion-toledo/tema-03/ficha-rapida.json"
           ],
           "completedSubsteps": [
             "21/11/2026: componente extractivo de hasta siete conceptos del manual real incorporado a la vista de tema, validado en test y navegador; NO resume de forma completa artículos, plazos y trampas.",
             "21/11/2026: ficha piloto estructurada Olías Tema 1 con 6 conceptos, artículos constitucionales, distinciones de examen y fuente BOE consolidada 20/05/2026, anclada al manual existente. El resto sigue en resumen extractivo. Validación automatizada y E2E añadidos a workflows; confirmar ejecución y publicación antes de cerrar piloto.",
             "21/11/2026: piloto Olías T01 verificado en GitHub Actions: E2E Chromium 44904721690 SUCCESS; publicación filtrada 44904755823 SUCCESS y seis fichas de conceptos visibles en JSON público. Queda abierto extender y cotejar el resto de materias.",
             "21/11/2026: segunda ficha estructurada para Diputación de Toledo C1 T01, 8 bloques (TC, art. 159, LOTC art. 9, reforma CE arts. 166-169), con dos fuentes BOE y test de esquema + prueba E2E navegador incorporados. No reabrir el cierre jurídico del manual sin incidencia.",
-            "21/11/2026: Diputación C1 T01: publicación SUCCESS run 44905357380 y E2E Chromium SUCCESS run 44905302260, ficha de 8 tarjetas con dos fuentes BOE."
+            "21/11/2026: Diputación C1 T01: publicación SUCCESS run 44905357380 y E2E Chromium SUCCESS run 44905302260, ficha de 8 tarjetas con dos fuentes BOE.",
+            "22/11/2026: nuevas fichas de repaso focal de Diputación C1 T02 y T03; 7 tarjetas cada una basadas en manuales ya existentes y artículos BOE, con fuentes y trampas; prueba de integridad nueva y actualizada para 3/40. Sin certificación global de manuales."
           ],
           "remainingSubsteps": [
             "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
@@ -380,7 +384,8 @@
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
-            "22/11/2026: estado de solicitud vencida de Diputación Auxiliar C2 corregido en fuente privada según fecha final ya registrada (19/11); no equivale a auditoría de las 10 fichas pendientes."
+            "22/11/2026: estado de solicitud vencida de Diputación Auxiliar C2 corregido en fuente privada según fecha final ya registrada (19/11); no equivale a auditoría de las 10 fichas pendientes.",
+            "22/11/2026: métricas por fuente recientes leídas/no leídas y subtotal pendientes accionables, con prueba multifuente; no sustituye cotejo de 10 anuncios oficiales."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
@@ -515,7 +520,8 @@
             "20/11/2026: invalidación explícita de caché de assets/radar.js y radar-quality.js; nuevo test de versión, métricas strict y legado sin medir incorporado a CI. Despliegue público pendiente de confirmación.",
             "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear.",
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
-            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo."
+            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
+            "22/11/2026: auditoría operativa ahora desglosa por fuente oportunidades recientes sin lectura y separa cuántas tienen puesto accionable; control con datos sintéticos en CI sin filtración de datos de opositores."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -525,7 +531,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Priorizar 38 registros detectados en 21 días sin constancia de lectura: separarlos por fase, vigencia, URL y error de documento; reintentar únicamente fuentes verificables y medir lecturas con datos nucleares."
+          "nextAction": "Revisar en el siguiente rastreo las fuentes con mayor recentUnreadActionable; contrastar documentos oficiales concretos y disminuir fallos verificables."
         },
         {
           "id": "RAD-13",
@@ -1728,6 +1734,23 @@
         "plan.html"
       ],
       "limit": "No se ha leído jurídicamente cada uno de los 1115 blobs; no equiparar 116/121 AUDITADO con validación integral. El nuevo commit aún debe superar CI/publish."
+    },
+    {
+      "id": "LOG-20261122-DIP-C1-02-03-RADAR-LECTURAS",
+      "at": "2026-11-22",
+      "taskIds": [
+        "STUDY-RECAP-01",
+        "DIP-C1-01",
+        "RAD-12",
+        "RAD-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Añadidas fichas rápidas Diputación C1 T02/T03 con cotejo BOE (14 tarjetas) y diagnóstico Radar de lecturas recientes pendientes por fuente y accionabilidad, con regresiones CI.",
+      "evidence": [
+        "content/diputacion-toledo/tema-02/ficha-rapida.json",
+        "content/diputacion-toledo/tema-03/ficha-rapida.json"
+      ],
+      "limit": "No se ha contrastado aún una muestra de 10 convocatorias reales del feed; no se certifica 40/40 fichas ni se ha verificado aún el nuevo SHA en CI."
     }
   ],
   "decisions": [
