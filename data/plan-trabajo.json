@@ -115,14 +115,15 @@
             "22/11/2026: quinto modelo 13 preguntas/20 minutos para temas 15,17,18,19,20,21,23,24,25,26,29,30,34; cinco modelos y cobertura 39/40, excluido T22. E2E corregido para 39/40 y entrada de modelo 5.",
             "22/11/2026: enlaces BOE y artículos para 20 de las 25 preguntas de los modelos 004/005, con controles de procedencia. Se deja explícito que otras 5 necesitan fuentes adicionales y que vincular fuente no equivale a validación jurídico-integral.",
             "22/11/2026: cinco preguntas restantes del quinto modelo enlazadas a normas BOE (ET arts. 45 y 16, LPRL art.14, LO 3/2007 art.6.2) y soporte Microsoft Windows 11; ya 25/25 preguntas nuevas de modelos 004-005 con fuente identificada, 24 BOE + 1 fabricante. Sigue sin equivaler a una auditoría jurídica íntegra.",
-            "22/11/2026: corregido sesgo masivo en posición B de 61 preguntas de cinco modelos, con redistribución balanceada A-D, conservando exactamente texto correcto de cada respuesta, ID y tema. Auditoría por pregunta y regresión nueva."
+            "22/11/2026: corregido sesgo masivo en posición B de 61 preguntas de cinco modelos, con redistribución balanceada A-D, conservando exactamente texto correcto de cada respuesta, ID y tema. Auditoría por pregunta y regresión nueva.",
+            "22/11/2026: corregido fallo funcional: fuentes normativas de las 25 preguntas C1 modelos 4/5 existían en JSON pero no se trasladaban al objeto ni se mostraban tras corregir. Ahora aparecen enlaces seguros BOE/Microsoft y aserción Chromium para 12+1."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
             "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
             "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
           ],
-          "nextAction": "Continuar cotejo jurídico de distractores y explicaciones de 61 preguntas; cobertura 39/40 no equivale a calidad certificada. Comprobar modificación con E2E de modelos y texto clave."
+          "nextAction": "Cotejar el contenido jurídico de distractores de 61 preguntas y resolver T22 con estatutos oficiales. Fuente primaria visible no certifica corrección de todas las alternativas."
         },
         {
           "id": "DIP-C2-01",
@@ -396,14 +397,15 @@
             "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados.",
             "22/11/2026: corregidos dos errores verificables de muestreo BOE: Illescas limpiadores 9 libre+1 discapacidad (no 10 libre); Diputación 17651 mixto 2 libre oficios+4 promoción interna (3 auxiliares internos). Añadido detalle 11 maestros Getafe y separación 3+1 Diputación 21908.",
             "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar.",
-            "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías."
+            "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías.",
+            "22/11/2026: discrepancia grave detectada para Getafe Maestro/a BOCM-20261105-68 (8 laborales libre +2 internas+1 funcionarial libre) vs BOE-A-2026-24343 (10 laborales libre+1 funcionarial libre). Señalada como conflicto no resuelto; titulación Grado en Magisterio Infantil acreditada por extracto BOCM."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
             "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
           ],
-          "nextAction": "Investigar 3 anuncios sin referencia directa (17651, 18486, 22924) y distinguir turnos en 3 anuncios con dos entradas. Cotejar bases BOP/BOCM para condiciones de Getafe y Alcorcón; no marcar CUMPLE hasta leerlas.",
+          "nextAction": "Obtener rectificación o confirmación oficial del conflicto Getafe 24343; contrastar bases íntegras de Auxiliar Apoyo Global Getafe 23854 y Cerrajero Alcorcón 23800, más entradas múltiples del feed.",
           "priority": "ALTA"
         },
         {
@@ -492,9 +494,10 @@
             "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados.",
             "22/11/2026: corregidos dos errores verificables de muestreo BOE: Illescas limpiadores 9 libre+1 discapacidad (no 10 libre); Diputación 17651 mixto 2 libre oficios+4 promoción interna (3 auxiliares internos). Añadido detalle 11 maestros Getafe y separación 3+1 Diputación 21908.",
             "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar.",
-            "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías."
+            "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías.",
+            "22/11/2026: discrepancia grave detectada para Getafe Maestro/a BOCM-20261105-68 (8 laborales libre +2 internas+1 funcionarial libre) vs BOE-A-2026-24343 (10 laborales libre+1 funcionarial libre). Señalada como conflicto no resuelto; titulación Grado en Magisterio Infantil acreditada por extracto BOCM."
           ],
-          "nextAction": "Investigar 3 anuncios sin referencia directa (17651, 18486, 22924) y distinguir turnos en 3 anuncios con dos entradas. Cotejar bases BOP/BOCM para condiciones de Getafe y Alcorcón; no marcar CUMPLE hasta leerlas.",
+          "nextAction": "Obtener rectificación o confirmación oficial del conflicto Getafe 24343; contrastar bases íntegras de Auxiliar Apoyo Global Getafe 23854 y Cerrajero Alcorcón 23800, más entradas múltiples del feed.",
           "priority": "ALTA"
         },
         {
@@ -1877,6 +1880,21 @@
       "summary": "Cruce real de diez BOE contra feed privado de 1388 registros: 7 anuncios con referencia directa, 3 sin coincidencia y 3 con dos entradas cada uno. Renombrado 'duplicados' a 'entradas múltiples' por posibles plazas/turnos distintos.",
       "evidence": [],
       "limit": "No es verificación completa de diez expedientes ni evidencia de error por no-match; aún faltan bases y contrastar variantes de plazas/turno. Ver GitHub Actions run 45058544813."
+    },
+    {
+      "id": "LOG-20261122-C1-LINKS-Y-GETAFE-DISCREPANCIA",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "RAD-04",
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fuentes jurídicas del simulacro pasan a mostrarse tras corregir, con aserción Chromium. Radar advierte discrepancia BOE/BOCM en 11 plazas docentes Getafe, y titulación exigida BOCM.",
+      "evidence": [
+        "assets/practice.js"
+      ],
+      "limit": "No resuelta discrepancia de turno hasta acto oficial; las bases completas Getafe/Alcorcón no han sido cotejadas. No concluye auditoría jurídica general."
     }
   ],
   "decisions": [
