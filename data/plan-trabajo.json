@@ -14,7 +14,7 @@
     "deduplication": "Usar id estable; buscar tarea existente antes de crear otra. Nuevos hallazgos se agregan como tareas sólo si tienen entregable y criterio de cierre.",
     "closePhases": "Una fase se considera completada únicamente cuando TODAS sus tareas están HECHO; los bloqueos pendientes impiden el cierre.",
     "sourceOfTruth": "Fuente editable única: opoweb-dev/main/data/plan-trabajo.json. La publicación pública la genera tools/build-public-site.mjs; AUDITORIA_CONTINUA.md, docs/PLAN_UNICO_OPOWEB_RADAR.md y demás planes son históricos, no colas activas.",
-    "priorities": "UC3M 21/11 (fecha histórica por confirmar), Diputación C1 15/12, incidencias La Puebla, Radar y QA. Respetar posposición C2 T06 OAPGT.",
+    "priorities": "Prioridad inmediata: Diputación Administrativo C1 (15/12/2026), incidencias de La Puebla y OpoRadar/QA. UC3M expresamente APARCADA por decisión del usuario de 22/11/2026; no realizar auditorías, búsquedas ni repasos de UC3M hasta nueva instrucción o convocatoria que el usuario decida preparar. Respetar posposición C2 T06 OAPGT.",
     "evidenceStandard": "HECHO acredita estrictamente la entrega definida, PARCIAL ejecución incompleta con hito verificable, EN_CURSO trabajo activo, BLOQUEADA dependencia objetiva, PENDIENTE sin entregar. Un archivo existente no prueba revisión jurídica, E2E o CI.",
     "syncRule": "NUNCA editar opoweb-v2/main ni site como repositorio fuente; toda corrección pasa por privado, filtro de privacidad, pruebas y publicación que sincroniza ambas ramas públicas.",
     "notGoingBackward": "Antes de iniciar tarea comprobar clave estable, hitos completados, variantes de archivos por SHA, notas históricas ya cerradas, resultado de última CI y si la tarea fue implementada en herramientas privadas.",
@@ -134,7 +134,11 @@
           "acceptance": "Fecha y medio de publicación primarios acreditados, versión legal al corte y 48+84+84 alternativas cotejadas. No afirmar que RD 855/2026 se exige sin corte.",
           "evidencePaths": [
             "data/cierre-pendientes-2026.json"
-          ]
+          ],
+          "priority": "APARCADA_POR_DECISION_USUARIO",
+          "deferredUntil": "NUEVA_CONVOCATORIA_Y_DECISION_EXPRESA_DEL_USUARIO",
+          "nextAction": "Ninguna. No continuar ni reactivar por vencimiento de plazos o búsquedas automáticas. Solo valorar recuperación cuando el usuario lo solicite por nueva convocatoria.",
+          "note": "Contenido previo conservado exclusivamente como archivo reutilizable; la tarea no forma parte de las prioridades activas y su bloqueo legal no se debe perseguir ahora."
         },
         {
           "id": "UC3M-02",
@@ -1298,7 +1302,9 @@
       "questions": "content/**/preguntas.json y paquetes extra",
       "notifications": "tools/radar*.mjs, datos rastreo en privado y JSON público filtrado",
       "archive": "Historial Git y documentos técnicos necesarios; no se consultan para decidir siguiente tarea cuando contradigan este plan."
-    }
+    },
+    "priorities": {},
+    "pausedScope": "UC3M: sin trabajo activo ni seguimientos por decisión del usuario (22/11/2026). Mantener materiales históricos y estado pendiente sin reabrir hasta petición expresa."
   },
   "bitacora": [
     {
@@ -1611,6 +1617,19 @@
         "data/plan-trabajo.json"
       ],
       "limit": "La salida pública, las pruebas del SHA, las notificaciones y la muestra de diez anuncios se verificarán por separado. No implica cierre de RAD-JCCM-2026 ni RAD-04."
+    },
+    {
+      "id": "LOG-20261122-UC3M-APARCADA-POR-USUARIO",
+      "at": "2026-11-22",
+      "taskIds": [
+        "UC3M-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "UC3M fuera de prioridades y seguimientos; conservar trabajo histórico para otra convocatoria únicamente si se solicita.",
+      "evidence": [
+        "data/plan-trabajo.json"
+      ],
+      "limit": "El bloqueo jurídico histórico permanece documentado, sin auditoría ni búsqueda activa. Los cierres realizados no se revierten."
     }
   ],
   "decisions": [
