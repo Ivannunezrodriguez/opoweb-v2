@@ -145,7 +145,8 @@ function normaliseQuestion(item, fallbackTheme = null) {
     correcta: Number(item.correcta ?? item.respuestaCorrecta),
     justificacion: item.justificacion || item.explicacion || '',
     trampa: item.trampa ?? item.trampaExamen ?? '',
-    referencia: item.referencia || (Array.isArray(item.referencias) ? item.referencias.join(' · ') : '')
+    referencia: item.referencia || (Array.isArray(item.referencias) ? item.referencias.join(' · ') : ''),
+    fuenteNormativa: item.fuenteNormativa && typeof item.fuenteNormativa==='object' ? item.fuenteNormativa : null
   };
 }
 
@@ -487,7 +488,10 @@ function finishExercise(items, timerId, metadata) {
     });
     const solution = card.querySelector('.solution');
     solution.hidden = false;
-    solution.innerHTML = `<p><strong>Respuesta correcta:</strong> ${String.fromCharCode(65 + item.correcta)}. ${escapeHtml(item.opciones[item.correcta])}</p><p><strong>Justificación:</strong> ${escapeHtml(item.justificacion)}</p>${item.trampa ? `<blockquote>⚠️ <strong>¡Foco Examen!:</strong> ${escapeHtml(item.trampa)}</blockquote>` : ''}${item.referencia ? `<p class="reference"><strong>Referencia:</strong> ${escapeHtml(item.referencia)}</p>` : ''}`;
+    const source = item.fuenteNormativa;
+    const safeOfficialLink = source && typeof source.url === 'string' && /^https:\/\/(?:www\.boe\.es\/buscar\/act\.php\?id=BOE-A-\d{4}-\d+|support\.microsoft\.com\/[\w\-/]+)(?:\?.*)?$/.test(source.url);
+    const primarySource = safeOfficialLink ? `<p class="reference"><strong>Fuente primaria:</strong> <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name||'Normativa oficial')} · ${escapeHtml(source.article||'')}</a> <small>(consulta normativa; no certificación integral)</small></p>` : '';
+    solution.innerHTML = `<p><strong>Respuesta correcta:</strong> ${String.fromCharCode(65 + item.correcta)}. ${escapeHtml(item.opciones[item.correcta])}</p><p><strong>Justificación:</strong> ${escapeHtml(item.justificacion)}</p>${item.trampa ? `<blockquote>⚠️ <strong>¡Foco Examen!:</strong> ${escapeHtml(item.trampa)}</blockquote>` : ''}${item.referencia ? `<p class="reference"><strong>Referencia:</strong> ${escapeHtml(item.referencia)}</p>` : ''}${primarySource}`;
   });
   const percentage = Math.round((correct / primaryCount) * 100);
   const examFormat = metadata.type === 'simulacro'
