@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
     "states": [
@@ -317,12 +317,14 @@
           ],
           "completedSubsteps": [
             "20/11/2026: confirmado BOE-A-2026-24345 de El Viso, distinto del BOE-A-2026-20416; ficha, banner Radar y catálogo actualizados a plazo relativo de 20 días hábiles sin calcular fin. BOE-A-2026-22826 de Olías confirma 3 limpieza y 4 auxiliar edificios y 20 días hábiles; falta resolver discrepancia de bases entre naturales y hábiles.",
-            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
+            "22/11/2026: nueva fuente oficial DOCM-2026/7843 de 05/11 confirma 20 días hábiles desde BOE, en línea con BOE-A-2026-22826 de 31/10. El conflicto BOP 204 todavía requiere el texto original/rectificaciones y no se resuelve por votación de fuentes. El parser de conflictos quedó cerrado separadamente como RAD-06."
           ],
           "remainingSubsteps": [
             "Cotejar directamente las bases BOP Toledo 204 de 23/10/2026 de Olías y rectificaciones del ayuntamiento para resolver días naturales vs hábiles y plazo prudente por proceso; no dar cierre único sin comprobar.",
             "Cotejar calendario de días inhábiles y posibles rectificaciones para calcular, por separado, fin de solicitudes de El Viso BOE 24345."
-          ]
+          ],
+          "nextAction": "Cotejar el BOP Toledo n.º 204, anuncio 2026/4833, páginas 49-59 y rectificaciones de Olías; confirmar si el plazo de 20 días naturales procede realmente de bases aplicables y pedir aclaración oficial si es necesario. Para El Viso, cotejar calendario municipal de inhábiles antes de fijar cierre."
         },
         {
           "id": "RAD-03",
@@ -393,24 +395,25 @@
         {
           "id": "RAD-06",
           "title": "Plazos y eventos de inicio: detectar conflictos BOE/BOP, hábiles/naturales",
-          "state": "PARCIAL",
-          "acceptance": "Casos reales y test con referencia de boletín, fecha inicial, cómputo y contradicciones; sin inventar fechas de cierre.",
+          "state": "HECHO",
+          "acceptance": "El extractor detecta días hábiles/naturales, número y boletín activador BOE/BOP/DOCM en expresiones oficiales; los tests con BOE-A-2026-22826 y DOCM-2026/7843 de Olías preservan fechas de publicación y detectan contradicciones, anulando vencimientos no confirmados. El cálculo jurídico del último día y la discrepancia BOP de Olías quedan expresamente en RAD-02.",
           "evidencePaths": [
             "assets/radar-quality.js",
-            "assets/radar.js"
+            "assets/radar.js",
+            "data/convocatorias.json",
+            "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826",
+            "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2026%2F11%2F05%2Fhtml%2F2026_7843.html&tipo=rutaDocm"
           ],
           "completedSubsteps": [
             "Extractor temporal por texto implementado en origen privado",
             "20/11/2026: se rechazan fechas ISO imposibles en la normalización de estados; pruebas de febrero, noviembre y bisiesto.",
             "20/11/2026: implementado bloqueo conservador de fecha ante reglas incompatibles de días hábiles/naturales o publicación activadora, con preservación de ambas reglas y aviso visible. Prueba de conflicto en tests/radar-enrich.mjs; validación en ejecución real pendiente.",
-            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
+            "22/11/2026: corregido parser de boletín activador al leer «publicación de esta resolución en el Boletín Oficial del Estado» y «publicación del anuncio de la convocatoria en el BOE», con precedencia del primer boletín tras «publicación». Pruebas con BOE 22826 (31/10), DOCM 7843 (05/11), BOP y DOCM independientes, conflicto naturales/hábiles y veto a fecha heredada; publicación Actions #45004137129 SUCCESS. Cierre técnico, no cierre jurídico de Olías."
           ],
-          "remainingSubsteps": [
-            "Calendario y publicación oficial cotejados",
-            "Contradicciones entre fuentes",
-            "Cotejar manualmente publicación BOE y bases BOP para resolver conflictos concretos, sin atribuir al algoritmo potestad interpretativa.",
-            "Comprobar resultado de CI, publicación de assets y caso real de discrepancia Olías con documentación oficial."
-          ]
+          "remainingSubsteps": [],
+          "closedAt": "2026-11-22",
+          "closeLimit": "RAD-06 solo garantiza clasificación segura de reglas y bloqueo de fecha sin base suficiente. RAD-02 conserva revisión de bases BOP 204/2026, posible rectificación y vencimiento de Olías/El Viso; no publicar fecha final como verificada por este cierre."
         },
         {
           "id": "RAD-07",
@@ -1437,6 +1440,21 @@
         "data/plan-trabajo.json"
       ],
       "limit": "No se obtuvo el PDF íntegro ni la plantilla definitiva; no se ha confirmado clave, anulación ni respuesta a reclamaciones. La tarea LP-EX-03 queda BLOQUEADA."
+    },
+    {
+      "id": "LOG-20261122-CIERRE-RAD06",
+      "at": "2026-11-22",
+      "taskIds": [
+        "RAD-06",
+        "RAD-02"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "RAD-06 cerrado: parser de plazos identifica boletín activador en redacciones oficiales BOE/DOCM/BOP y bloquea fecha heredada ante contradicciones, validado con Olías 2026 y CI exitoso.",
+      "evidence": [
+        "assets/radar-quality.js",
+        "data/convocatorias.json"
+      ],
+      "limit": "La discrepancia jurídica de las bases BOP 204/2026 de Olías y la fecha final de El Viso quedan abiertas en RAD-02; no se presenta una fecha automática como resolución oficial."
     }
   ],
   "decisions": [
