@@ -117,14 +117,15 @@
             "22/11/2026: cinco preguntas restantes del quinto modelo enlazadas a normas BOE (ET arts. 45 y 16, LPRL art.14, LO 3/2007 art.6.2) y soporte Microsoft Windows 11; ya 25/25 preguntas nuevas de modelos 004-005 con fuente identificada, 24 BOE + 1 fabricante. Sigue sin equivaler a una auditoría jurídica íntegra.",
             "22/11/2026: corregido sesgo masivo en posición B de 61 preguntas de cinco modelos, con redistribución balanceada A-D, conservando exactamente texto correcto de cada respuesta, ID y tema. Auditoría por pregunta y regresión nueva.",
             "22/11/2026: corregido fallo funcional: fuentes normativas de las 25 preguntas C1 modelos 4/5 existían en JSON pero no se trasladaban al objeto ni se mostraban tras corregir. Ahora aparecen enlaces seguros BOE/Microsoft y aserción Chromium para 12+1.",
-            "22/11/2026: corregido el dato FAT32 de aproximación 4 GB al máximo exacto 4 GiB menos 1 byte, con fuente fabricante; matizada excepción de registro electrónico sábados y añadidos artículos BOE a cuatro ítems previos sobre LPAC/LCSP."
+            "22/11/2026: corregido el dato FAT32 de aproximación 4 GB al máximo exacto 4 GiB menos 1 byte, con fuente fabricante; matizada excepción de registro electrónico sábados y añadidos artículos BOE a cuatro ítems previos sobre LPAC/LCSP.",
+            "22/11/2026: cotejo focal de 7 preguntas originales con art. 16 Ley 19/2013, arts. 99/101 LCSP y arts. 173/184 TRLRHL; corregida la justificación de acceso parcial para incluir la excepción legal de información distorsionada o carente de sentido."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
             "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
             "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
           ],
-          "nextAction": "Continuar auditoría jurídica de las restantes 31 preguntas originales y distractores; no confundir cotejo focal con certificación total. T22 OAPGT separado."
+          "nextAction": "Auditar las restantes preguntas iniciales de contenido jurídico y ofimático a nivel de alternativas; el hecho de tener referencia BOE no convierte el conjunto en examen oficial. T22 OAPGT queda separado."
         },
         {
           "id": "DIP-C2-01",
@@ -400,14 +401,15 @@
             "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar.",
             "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías.",
             "22/11/2026: discrepancia grave detectada para Getafe Maestro/a BOCM-20261105-68 (8 laborales libre +2 internas+1 funcionarial libre) vs BOE-A-2026-24343 (10 laborales libre+1 funcionarial libre). Señalada como conflicto no resuelto; titulación Grado en Magisterio Infantil acreditada por extracto BOCM.",
-            "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE."
+            "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE.",
+            "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
             "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
           ],
-          "nextAction": "Leer el texto íntegro de bases específicas de Getafe Apoyo Global y Alcorcón Cerrajero para titulación y condiciones; contrastar turnos duplicados y Getafe docentes BOCM/BOE.",
+          "nextAction": "Leer el documento íntegro municipal BASES 1 OFICIAL/A CERRAJERO/A y las bases Getafe EEII; determinar titulación, permiso B, experiencia, tasas y elegibilidad. Mantener ambos en REVISAR hasta cotejo primario.",
           "priority": "ALTA"
         },
         {
@@ -498,9 +500,10 @@
             "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar.",
             "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías.",
             "22/11/2026: discrepancia grave detectada para Getafe Maestro/a BOCM-20261105-68 (8 laborales libre +2 internas+1 funcionarial libre) vs BOE-A-2026-24343 (10 laborales libre+1 funcionarial libre). Señalada como conflicto no resuelto; titulación Grado en Magisterio Infantil acreditada por extracto BOCM.",
-            "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE."
+            "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE.",
+            "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE."
           ],
-          "nextAction": "Leer el texto íntegro de bases específicas de Getafe Apoyo Global y Alcorcón Cerrajero para titulación y condiciones; contrastar turnos duplicados y Getafe docentes BOCM/BOE.",
+          "nextAction": "Leer el documento íntegro municipal BASES 1 OFICIAL/A CERRAJERO/A y las bases Getafe EEII; determinar titulación, permiso B, experiencia, tasas y elegibilidad. Mantener ambos en REVISAR hasta cotejo primario.",
           "priority": "ALTA"
         },
         {
@@ -1913,6 +1916,21 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "Bases específicas de titulación no cotejadas íntegramente. Próximo SHA requiere CI/publish; no se ha generado snapshot Radar directo nuevo."
+    },
+    {
+      "id": "LOG-20261122-C1-7ARTICULOS-RADAR-BASES-INDICE",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "RAD-04",
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Siete preguntas antiguas C1 referenciadas a BOE con matiz legal de acceso parcial. Radar identifica documentos oficiales publicados para Alcorcón y diferencia indicios secundarios de requisitos acreditados; Getafe sin base íntegra leída.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "No se leyó el PDF íntegro municipal de Alcorcón ni base Getafe; no afirmar acceso confirmado. Nuevo commit pendiente de CI."
     }
   ],
   "decisions": [
