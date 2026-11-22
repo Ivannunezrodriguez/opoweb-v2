@@ -750,7 +750,222 @@
           "referencia": "content/diputacion-toledo/tema-14/manual.md"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-005",
+      "titulo": "Repaso transversal 5 · Empleo público, prevención y tributos",
+      "duracionMinutos": 20,
+      "preguntas": [
+        {
+          "id": "DIP-SIM-005-Q01",
+          "tema": 15,
+          "pregunta": "¿Qué personalidad atribuye la LRBRL a las mancomunidades?",
+          "opciones": [
+            "Carecen de personalidad jurídica",
+            "Tienen personalidad y capacidad jurídicas para sus fines específicos",
+            "Son ministerios territoriales",
+            "Son siempre consorcios provinciales"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 44 de la Ley 7/1985 reconoce personalidad y capacidad jurídica a las mancomunidades para sus fines específicos.",
+          "trampa": "La mancomunidad es distinta de un simple convenio.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "normaClave": "LRBRL art. 44"
+        },
+        {
+          "id": "DIP-SIM-005-Q02",
+          "tema": 17,
+          "pregunta": "¿Qué funciones corresponden al personal eventual?",
+          "opciones": [
+            "Interinidad por vacante",
+            "Confianza o asesoramiento especial, con nombramiento y cese libres",
+            "Dirección obligatoria por oposición",
+            "Carrera permanente por concurso"
+          ],
+          "correcta": 1,
+          "justificacion": "El personal eventual realiza funciones de confianza o asesoramiento especial y su nombramiento y cese son libres.",
+          "trampa": "No es lo mismo que funcionario interino.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "normaClave": "TRLEBEP art. 12"
+        },
+        {
+          "id": "DIP-SIM-005-Q03",
+          "tema": 18,
+          "pregunta": "¿En qué consiste la carrera horizontal?",
+          "opciones": [
+            "Ascender necesariamente de cuerpo",
+            "Progresar sin necesidad de cambiar de puesto",
+            "Ocupar provisionalmente una plaza",
+            "Un tipo de oposición de libre designación"
+          ],
+          "correcta": 1,
+          "justificacion": "La carrera horizontal permite progresar de grado, categoría o escalón sin cambio necesario de puesto.",
+          "trampa": "Distinguir carrera horizontal de promoción interna vertical.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "normaClave": "TRLEBEP art. 16"
+        },
+        {
+          "id": "DIP-SIM-005-Q04",
+          "tema": 19,
+          "pregunta": "¿Cómo se clasifican las faltas disciplinarias en la Ley 4/2011?",
+          "opciones": [
+            "Ordinarias y extraordinarias",
+            "Muy graves, graves y leves",
+            "Judiciales y administrativas",
+            "Relevantes y no relevantes"
+          ],
+          "correcta": 1,
+          "justificacion": "El régimen disciplinario clasifica las faltas en muy graves, graves y leves.",
+          "trampa": "No confundir faltas con la escala de sanciones.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "normaClave": "Ley 4/2011 régimen disciplinario"
+        },
+        {
+          "id": "DIP-SIM-005-Q05",
+          "tema": 20,
+          "pregunta": "¿Qué implica la suspensión del contrato de trabajo como regla general?",
+          "opciones": [
+            "Extinción del vínculo",
+            "Exoneración temporal de trabajar y remunerar",
+            "Despido indemnizado",
+            "Conversión automática a fijo-discontinuo"
+          ],
+          "correcta": 1,
+          "justificacion": "La suspensión libera de las obligaciones recíprocas de trabajar y remunerar el trabajo durante su vigencia.",
+          "trampa": "La suspensión no equivale a extinción.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "normaClave": "Estatuto de los Trabajadores art. 45.2"
+        },
+        {
+          "id": "DIP-SIM-005-Q06",
+          "tema": 21,
+          "pregunta": "¿Qué naturaleza tiene el contrato fijo-discontinuo?",
+          "opciones": [
+            "Temporal estacional",
+            "Indefinida con actividad intermitente",
+            "De formación por sustitución",
+            "De funcionario interino"
+          ],
+          "correcta": 1,
+          "justificacion": "El fijo-discontinuo es contrato indefinido para prestaciones estacionales o intermitentes en los términos del artículo 16.",
+          "trampa": "La intermitencia no convierte el vínculo en temporal.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "normaClave": "Estatuto de los Trabajadores art. 16"
+        },
+        {
+          "id": "DIP-SIM-005-Q07",
+          "tema": 23,
+          "pregunta": "¿Qué derecho reconoce el artículo 14 de la Ley 31/1995?",
+          "opciones": [
+            "Un plus de peligrosidad",
+            "Una protección eficaz en seguridad y salud laboral",
+            "Elegir cualquier equipo sin evaluación",
+            "Excluir la prevención por pacto"
+          ],
+          "correcta": 1,
+          "justificacion": "Los trabajadores tienen derecho a protección eficaz en materia de seguridad y salud en el trabajo.",
+          "trampa": "El pago de un plus no sustituye la prevención.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "normaClave": "Ley 31/1995 art. 14"
+        },
+        {
+          "id": "DIP-SIM-005-Q08",
+          "tema": 24,
+          "pregunta": "¿Qué es discriminación indirecta por sexo según la LO 3/2007?",
+          "opciones": [
+            "Un trato desfavorable declarado expresamente",
+            "Una regla aparentemente neutra que causa desventaja particular sin justificación proporcionada",
+            "Exclusivamente una agresión",
+            "Toda diferencia objetiva"
+          ],
+          "correcta": 1,
+          "justificacion": "La discriminación indirecta surge por un criterio aparentemente neutro que provoca desventaja particular sin justificación objetiva y proporcional.",
+          "trampa": "Distinguir discriminación directa, indirecta y acción positiva.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "normaClave": "LO 3/2007 art. 6.2"
+        },
+        {
+          "id": "DIP-SIM-005-Q09",
+          "tema": 25,
+          "pregunta": "¿Qué caracteriza la exención tributaria frente a la no sujeción?",
+          "opciones": [
+            "Nunca ocurre el hecho imponible",
+            "Se realiza el hecho imponible pero la ley libera de la obligación principal",
+            "El impuesto queda abolido",
+            "Se impone automáticamente un recargo"
+          ],
+          "correcta": 1,
+          "justificacion": "En la exención se realiza el hecho imponible, pero la ley exime de la obligación tributaria principal.",
+          "trampa": "La no sujeción queda fuera del hecho imponible.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "normaClave": "LGT art. 22"
+        },
+        {
+          "id": "DIP-SIM-005-Q10",
+          "tema": 26,
+          "pregunta": "¿Cuál es el recargo ejecutivo si se paga antes de notificarse la providencia de apremio?",
+          "opciones": [
+            "5 %",
+            "10 %",
+            "20 %",
+            "25 %"
+          ],
+          "correcta": 0,
+          "justificacion": "El recargo ejecutivo es del 5 % cuando se satisface toda la deuda antes de notificarse la providencia de apremio.",
+          "trampa": "El 10 % corresponde al recargo reducido y el 20 % al ordinario, con sus condiciones.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "normaClave": "LGT art. 28.2"
+        },
+        {
+          "id": "DIP-SIM-005-Q11",
+          "tema": 29,
+          "pregunta": "¿Cómo califica la ley el Impuesto sobre Bienes Inmuebles?",
+          "opciones": [
+            "Impuesto indirecto personal",
+            "Tributo directo de carácter real",
+            "Precio público",
+            "Contribución especial"
+          ],
+          "correcta": 1,
+          "justificacion": "El IBI es tributo directo de carácter real que grava el valor de los bienes inmuebles conforme a la ley.",
+          "trampa": "No confundir IBI con IAE ni con tasas municipales.",
+          "referencia": "content/diputacion-toledo/tema-29/manual.md",
+          "normaClave": "TRLRHL art. 60"
+        },
+        {
+          "id": "DIP-SIM-005-Q12",
+          "tema": 30,
+          "pregunta": "¿Cuál es un impuesto municipal potestativo?",
+          "opciones": [
+            "IBI",
+            "IAE",
+            "IVTM",
+            "IIVTNU"
+          ],
+          "correcta": 3,
+          "justificacion": "El IIVTNU es potestativo; IBI, IAE e IVTM son impuestos municipales de exacción obligatoria.",
+          "trampa": "No todos los impuestos regulados en la ley son obligatorios para cada municipio.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "normaClave": "TRLRHL art. 59"
+        },
+        {
+          "id": "DIP-SIM-005-Q13",
+          "tema": 34,
+          "pregunta": "¿Para qué sirve la cola de impresión en Windows 11?",
+          "opciones": [
+            "Convertir discos a NTFS",
+            "Consultar, pausar o cancelar trabajos de impresión",
+            "Borrar archivos de origen",
+            "Escanear siempre en automático"
+          ],
+          "correcta": 1,
+          "justificacion": "La cola de impresión permite supervisar y gestionar los trabajos de impresión pendientes o activos.",
+          "trampa": "Cancelar un trabajo de impresión no elimina el documento original.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "normaClave": "Windows 11 gestión de impresión"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cuatro repasos propios de 12 preguntas/18 minutos (48 preguntas en 26 de los 40 temas). El cuarto modelo incorpora una pregunta de cada uno de 12 temas antes no representados; referencias a manuales y artículos de legislación estatal. No son exámenes oficiales ni constituyen revisión jurídico-integral de cada banco. El tema 22 OAPGT permanece excluido."
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial."
 }
