@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 3 · repaso jurídico focalizado",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-03/manual.md",
+  "source": {
+    "label": "Constitución Española; texto consolidado, BOE",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520"
+  },
+  "additionalSources": [
+    {
+      "label": "LO 3/1981 del Defensor del Pueblo, BOE consolidado",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Organización territorial",
+      "articles": "CE art. 137",
+      "fact": "El Estado se organiza territorialmente en municipios, provincias y comunidades autónomas que se constituyan; todas estas entidades gozan de autonomía para gestionar sus respectivos intereses.",
+      "trap": "La provincia es también entidad territorial constitucional, no solo una circunscripción electoral."
+    },
+    {
+      "title": "Inviolabilidad y refrendo del Rey",
+      "articles": "CE arts. 56.3 y 64",
+      "fact": "La persona del Rey es inviolable y no está sujeta a responsabilidad; los actos del Rey se refrendan en la forma establecida y responde de ellos quien los refrenda, salvo la excepción constitucional prevista.",
+      "trap": "No confundir inviolabilidad del Rey con inmunidad parlamentaria."
+    },
+    {
+      "title": "Congreso y Senado",
+      "articles": "CE arts. 66, 68 y 69",
+      "fact": "Las Cortes Generales representan al pueblo español, ejercen la potestad legislativa, aprueban presupuestos y controlan al Gobierno. El Congreso tiene de 300 a 400 diputados; el Senado es la Cámara de representación territorial.",
+      "trap": "No atribuir al Senado la condición de cámara de representación directa en los términos del Congreso."
+    },
+    {
+      "title": "Mandato de las Cámaras",
+      "articles": "CE arts. 68.4 y 69.6",
+      "fact": "Congreso y Senado se eligen por cuatro años; sus mandatos terminan a los cuatro años de la elección o el día de disolución de la Cámara.",
+      "trap": "No confundir los cuatro años de las Cortes con los cinco años del Defensor del Pueblo."
+    },
+    {
+      "title": "Inviolabilidad, inmunidad y fuero",
+      "articles": "CE art. 71",
+      "fact": "Diputados y senadores gozan de inviolabilidad por opiniones manifestadas en el ejercicio de funciones e inmunidad durante su mandato; solo podrán ser detenidos en caso de flagrante delito, y su inculpación y procesamiento requieren autorización de la Cámara.",
+      "trap": "Inviolabilidad por opiniones no equivale a inmunidad procesal sin límites."
+    },
+    {
+      "title": "Defensor del Pueblo",
+      "articles": "CE art. 54; LO 3/1981 arts. 2–3",
+      "fact": "El Defensor del Pueblo es alto comisionado de las Cortes Generales; lo eligen por cinco años. La designación ordinaria exige tres quintos de cada Cámara, con procedimiento alternativo previsto por ley.",
+      "trap": "No confundir tres quintos iniciales con la regla de segunda votación ni los cinco años de mandato."
+    },
+    {
+      "title": "Tribunal de Cuentas",
+      "articles": "CE art. 136",
+      "fact": "El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público; depende directamente de las Cortes Generales.",
+      "trap": "No confundir fiscalización externa de cuentas con enjuiciamiento constitucional del Tribunal Constitucional."
+    }
+  ]
+}
