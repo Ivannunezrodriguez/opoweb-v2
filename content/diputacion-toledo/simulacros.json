@@ -13,12 +13,12 @@
           "tema": 6,
           "pregunta": "Cuando una solicitud no reúne los requisitos exigidos, el plazo general de subsanación es de:",
           "opciones": [
-            "Cinco días",
             "Diez días",
+            "Cinco días",
             "Quince días",
             "Un mes"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "La Administración debe requerir a la persona interesada para que subsane la falta o acompañe los documentos preceptivos en el plazo general de diez días.",
           "trampa": "El desistimiento no se produce automáticamente: debe declararse mediante resolución expresa.",
           "referencia": "content/diputacion-toledo/tema-06/manual.md"
@@ -29,11 +29,11 @@
           "pregunta": "Si un plazo se señala por días y no se indica otra cosa, se entiende referido a:",
           "opciones": [
             "Días naturales",
-            "Días hábiles",
             "Días laborables del órgano",
+            "Días hábiles",
             "Días de apertura del registro"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "Con carácter general, cuando los plazos se señalan por días se entiende que son hábiles, excluyéndose sábados, domingos y festivos.",
           "trampa": "Día hábil no equivale necesariamente a día de apertura física de una oficina.",
           "referencia": "content/diputacion-toledo/tema-05/manual.md"
@@ -60,10 +60,10 @@
           "opciones": [
             "Denegar siempre todo el expediente",
             "Conceder acceso íntegro",
-            "Facilitar acceso parcial previa disociación",
-            "Destruir los datos personales"
+            "Destruir los datos personales",
+            "Facilitar acceso parcial previa disociación"
           ],
-          "correcta": 2,
+          "correcta": 3,
           "justificacion": "Debe aplicarse, cuando sea posible, el acceso parcial mediante disociación u ocultación de la información afectada por límites.",
           "trampa": "La existencia de datos personales no impide automáticamente todo acceso.",
           "referencia": "content/diputacion-toledo/tema-28/manual.md"
@@ -89,11 +89,11 @@
           "pregunta": "La división artificiosa de una necesidad contractual homogénea para tramitar varios contratos menores constituye:",
           "opciones": [
             "Una división obligatoria en lotes",
-            "Un fraccionamiento indebido",
             "Una modificación contractual",
-            "Una contratación de emergencia"
+            "Una contratación de emergencia",
+            "Un fraccionamiento indebido"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "Existe fraccionamiento indebido cuando se divide artificialmente una unidad contractual para eludir publicidad, concurrencia o el procedimiento legalmente aplicable.",
           "trampa": "La división legítima en lotes no es sinónimo de fraccionamiento ilícito.",
           "referencia": "content/diputacion-toledo/tema-16/manual.md"
@@ -103,12 +103,12 @@
           "tema": 28,
           "pregunta": "Los datos relativos a la salud son:",
           "opciones": [
-            "Datos de libre difusión",
             "Categorías especiales de datos",
+            "Datos de libre difusión",
             "Datos meramente identificativos",
             "Datos anónimos por definición"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "Los datos de salud forman parte de las categorías especiales de datos y están sujetos a protección reforzada.",
           "trampa": "Que figuren en un expediente administrativo no elimina su protección reforzada.",
           "referencia": "content/diputacion-toledo/tema-28/manual.md"
@@ -119,11 +119,11 @@
           "pregunta": "La secuencia ordinaria de ejecución del gasto es:",
           "opciones": [
             "Pago, obligación, disposición y autorización",
-            "Autorización, disposición, reconocimiento de obligación y ordenación del pago",
             "Disposición, pago, autorización y obligación",
+            "Autorización, disposición, reconocimiento de obligación y ordenación del pago",
             "Obligación, autorización, pago y disposición"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "Las fases ordinarias son autorización, disposición o compromiso, reconocimiento de la obligación y ordenación del pago.",
           "trampa": "Que determinadas fases puedan acumularse no altera su orden lógico y jurídico.",
           "referencia": "content/diputacion-toledo/tema-27/manual.md"
@@ -134,11 +134,11 @@
           "pregunta": "El formato nativo de LibreOffice Writer es:",
           "opciones": [
             "ODS",
-            "ODT",
             "ODP",
-            "DOCX"
+            "DOCX",
+            "ODT"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "Writer utiliza ODT como formato nativo de documento de texto.",
           "trampa": "DOCX es compatible, pero no es el formato nativo de Writer.",
           "referencia": "content/diputacion-toledo/tema-35/manual.md"
@@ -149,11 +149,11 @@
           "pregunta": "En una fórmula de Calc, la referencia absoluta a la celda A1 se escribe:",
           "opciones": [
             "A1",
+            "$A$1",
             "$A1",
-            "A$1",
-            "$A$1"
+            "A$1"
           ],
-          "correcta": 3,
+          "correcta": 1,
           "justificacion": "La referencia $A$1 fija tanto la columna como la fila al copiar la fórmula.",
           "trampa": "$A1 y A$1 son referencias mixtas.",
           "referencia": "content/diputacion-toledo/tema-36/manual.md"
@@ -164,11 +164,11 @@
           "pregunta": "En una relación uno a muchos, la clave ajena se sitúa normalmente en:",
           "opciones": [
             "La tabla del lado uno",
-            "La tabla del lado muchos",
             "Las dos tablas como clave primaria",
+            "La tabla del lado muchos",
             "Ninguna tabla"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "La tabla del lado muchos contiene normalmente la clave ajena que referencia a la clave primaria de la tabla principal.",
           "trampa": "La clave primaria permanece en la tabla referenciada.",
           "referencia": "content/diputacion-toledo/tema-37/manual.md"
@@ -178,12 +178,12 @@
           "tema": 38,
           "pregunta": "¿Qué combinación inicia una presentación de Impress desde la diapositiva actual?",
           "opciones": [
-            "F5",
             "Mayús + F5",
+            "F5",
             "Ctrl + M",
             "Ctrl + F5"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "Mayús + F5 inicia el pase desde la diapositiva actual.",
           "trampa": "F5 inicia la presentación desde la primera diapositiva.",
           "referencia": "content/diputacion-toledo/tema-38/manual.md"
@@ -201,11 +201,11 @@
           "pregunta": "Para autorizar un gasto debe existir previamente:",
           "opciones": [
             "Una factura conformada",
-            "Crédito adecuado y suficiente",
             "Una transferencia bancaria",
+            "Crédito adecuado y suficiente",
             "Un informe del proveedor"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "La existencia de crédito adecuado y suficiente es presupuesto básico para autorizar válidamente un gasto.",
           "trampa": "La necesidad material del gasto no sustituye la cobertura presupuestaria.",
           "referencia": "content/diputacion-toledo/tema-27/manual.md"
@@ -215,12 +215,12 @@
           "tema": 27,
           "pregunta": "La limitación cuantitativa del crédito significa que:",
           "opciones": [
-            "Puede gastarse sin límite si el fin es público",
             "No puede comprometerse gasto por encima del crédito disponible",
+            "Puede gastarse sin límite si el fin es público",
             "Solo limita los pagos en efectivo",
             "Se aplica únicamente a contratos"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "No pueden adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados.",
           "trampa": "La insuficiencia de crédito no se corrige con la mera recepción de la factura.",
           "referencia": "content/diputacion-toledo/tema-27/manual.md"
@@ -230,12 +230,12 @@
           "tema": 31,
           "pregunta": "Una firma electrónica cualificada se basa en:",
           "opciones": [
-            "Un certificado cualificado y un dispositivo cualificado de creación de firma",
             "Una contraseña simple",
             "Un correo electrónico ordinario",
-            "Una imagen escaneada de la firma"
+            "Una imagen escaneada de la firma",
+            "Un certificado cualificado y un dispositivo cualificado de creación de firma"
           ],
-          "correcta": 0,
+          "correcta": 3,
           "justificacion": "La firma electrónica cualificada requiere un certificado cualificado y un dispositivo cualificado de creación de firma.",
           "trampa": "Una firma digitalizada o una contraseña no equivalen a firma electrónica cualificada.",
           "referencia": "content/diputacion-toledo/tema-31/manual.md"
@@ -245,12 +245,12 @@
           "tema": 32,
           "pregunta": "En Windows 11, el Explorador de archivos se utiliza principalmente para:",
           "opciones": [
-            "Gestionar archivos y carpetas",
             "Editar el registro civil",
+            "Gestionar archivos y carpetas",
             "Crear bases de datos relacionales",
             "Administrar exclusivamente impresoras"
           ],
-          "correcta": 0,
+          "correcta": 1,
           "justificacion": "El Explorador de archivos permite navegar, organizar, copiar, mover, renombrar y eliminar archivos y carpetas.",
           "trampa": "No debe confundirse con el navegador web.",
           "referencia": "content/diputacion-toledo/tema-32/manual.md"
@@ -261,11 +261,11 @@
           "pregunta": "En GroupWise, archivar un mensaje significa normalmente:",
           "opciones": [
             "Eliminarlo definitivamente",
-            "Conservarlo fuera del buzón operativo según la política de archivo",
             "Marcarlo como correo no deseado",
-            "Reenviarlo automáticamente"
+            "Reenviarlo automáticamente",
+            "Conservarlo fuera del buzón operativo según la política de archivo"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "El archivo permite conservar mensajes fuera del buzón operativo, de acuerdo con la configuración y política del sistema.",
           "trampa": "Archivar no equivale a borrar definitivamente.",
           "referencia": "content/diputacion-toledo/tema-33/manual.md"
@@ -276,11 +276,11 @@
           "pregunta": "Ante un correo sospechoso que solicita credenciales, la actuación correcta es:",
           "opciones": [
             "Responder con la contraseña",
-            "Abrir el enlace para comprobarlo",
             "No interactuar y comunicar el incidente",
+            "Abrir el enlace para comprobarlo",
             "Reenviarlo a toda la organización"
           ],
-          "correcta": 2,
+          "correcta": 1,
           "justificacion": "Debe evitarse la interacción, comprobarse el remitente y comunicarse el posible incidente al servicio competente.",
           "trampa": "El nombre visible del remitente no acredita su identidad real.",
           "referencia": "content/diputacion-toledo/tema-33/manual.md"
@@ -291,11 +291,11 @@
           "pregunta": "La función CONTARA de Calc cuenta:",
           "opciones": [
             "Solo celdas numéricas",
-            "Celdas no vacías",
             "Solo fórmulas",
+            "Celdas no vacías",
             "Solo textos"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "CONTARA cuenta las celdas no vacías, con independencia de que contengan números, texto u otros valores.",
           "trampa": "CONTAR se limita normalmente a celdas con valores numéricos.",
           "referencia": "content/diputacion-toledo/tema-36/manual.md"
@@ -305,12 +305,12 @@
           "tema": 37,
           "pregunta": "Una consulta de selección en Base, por regla general:",
           "opciones": [
-            "Modifica siempre las tablas",
             "Muestra datos según criterios sin alterar el origen",
+            "Modifica siempre las tablas",
             "Elimina los registros no mostrados",
             "Borra la estructura"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "Una consulta de selección recupera datos que cumplen criterios sin modificar por sí sola los registros de origen.",
           "trampa": "No debe confundirse SELECT con sentencias de actualización o eliminación.",
           "referencia": "content/diputacion-toledo/tema-37/manual.md"
@@ -336,11 +336,11 @@
           "pregunta": "M.2 y NVMe son, respectivamente:",
           "opciones": [
             "Un protocolo y un conector",
-            "Un formato físico y un protocolo",
             "Dos sistemas de archivos",
-            "Dos tipos de memoria RAM"
+            "Dos tipos de memoria RAM",
+            "Un formato físico y un protocolo"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "M.2 describe un formato físico, mientras que NVMe es un protocolo de almacenamiento optimizado para PCI Express.",
           "trampa": "No todo dispositivo M.2 utiliza NVMe.",
           "referencia": "content/diputacion-toledo/tema-39/manual.md"
@@ -350,12 +350,12 @@
           "tema": 39,
           "pregunta": "La memoria virtual utiliza:",
           "opciones": [
-            "La caché L1 para sustituir al SSD",
             "Espacio de almacenamiento como apoyo a la RAM",
+            "La caché L1 para sustituir al SSD",
             "La GPU como disco",
             "La BIOS como memoria principal"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "La memoria virtual utiliza espacio de almacenamiento para complementar la RAM disponible.",
           "trampa": "Es más lenta que la RAM y no equivale a ampliar físicamente la memoria.",
           "referencia": "content/diputacion-toledo/tema-39/manual.md"
@@ -366,11 +366,11 @@
           "pregunta": "El límite clásico de FAT32 para un archivo individual es:",
           "opciones": [
             "2 GB",
-            "4 GB",
             "8 GB",
+            "4 GB",
             "16 GB"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "FAT32 no admite archivos individuales que alcancen o superen 4 GB.",
           "trampa": "El límite se refiere al tamaño de cada archivo, no a la capacidad total de la unidad.",
           "referencia": "content/diputacion-toledo/tema-40/manual.md"
@@ -388,11 +388,11 @@
           "pregunta": "El acceso parcial a información pública procede cuando:",
           "opciones": [
             "Todo el documento está afectado por un límite",
-            "Puede separarse la información accesible de la restringida",
             "La persona solicitante no se identifica",
-            "La Administración quiere evitar resolver"
+            "La Administración quiere evitar resolver",
+            "Puede separarse la información accesible de la restringida"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "Debe facilitarse acceso parcial cuando sea posible separar la información afectada por límites de la restante.",
           "trampa": "La denegación total debe ser la última opción cuando la información pueda disociarse.",
           "referencia": "content/diputacion-toledo/tema-28/manual.md"
@@ -417,12 +417,12 @@
           "tema": 28,
           "pregunta": "Ante una posible brecha de datos personales, la primera obligación interna es:",
           "opciones": [
-            "Ocultarla",
             "Comunicarla por el canal establecido y activar la gestión del incidente",
+            "Ocultarla",
             "Publicarla en redes sociales",
             "Borrar todos los equipos"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "Debe activarse el procedimiento interno de gestión de brechas para evaluar el riesgo, contener el incidente y decidir las notificaciones procedentes.",
           "trampa": "Eliminar evidencias puede dificultar la investigación y la correcta notificación.",
           "referencia": "content/diputacion-toledo/tema-28/manual.md"
@@ -433,11 +433,11 @@
           "pregunta": "Un sello electrónico se utiliza principalmente para:",
           "opciones": [
             "Identificar a una persona física en todo caso",
-            "Garantizar origen e integridad de datos emitidos por una persona jurídica",
             "Sustituir cualquier firma manuscrita",
+            "Garantizar origen e integridad de datos emitidos por una persona jurídica",
             "Cifrar exclusivamente discos duros"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "El sello electrónico permite acreditar el origen y la integridad de datos o documentos vinculados a una persona jurídica.",
           "trampa": "Firma electrónica y sello electrónico cumplen funciones relacionadas, pero no idénticas.",
           "referencia": "content/diputacion-toledo/tema-31/manual.md"
@@ -447,12 +447,12 @@
           "tema": 33,
           "pregunta": "La opción Responder a todos debe utilizarse cuando:",
           "opciones": [
-            "Solo debe contestarse al remitente",
             "La respuesta resulta pertinente para todas las personas destinatarias",
+            "Solo debe contestarse al remitente",
             "Se desea ocultar destinatarios",
             "Se quiere archivar el mensaje"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "Responder a todos envía la contestación al remitente y a las demás personas incluidas, por lo que debe usarse solo cuando sea necesario.",
           "trampa": "Un uso indiscriminado genera exposición innecesaria y sobrecarga de correo.",
           "referencia": "content/diputacion-toledo/tema-33/manual.md"
@@ -463,11 +463,11 @@
           "pregunta": "Tras introducir credenciales en una web de phishing, debe hacerse inmediatamente:",
           "opciones": [
             "Esperar a comprobar si ocurre algo",
-            "Cambiar la contraseña desde un equipo seguro y comunicar el incidente",
             "Borrar el historial y no informar",
+            "Cambiar la contraseña desde un equipo seguro y comunicar el incidente",
             "Reutilizar la misma contraseña"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "Deben revocarse cuanto antes las credenciales comprometidas, cerrarse sesiones y comunicarse el incidente al servicio competente.",
           "trampa": "Borrar el mensaje no invalida las credenciales ya entregadas.",
           "referencia": "content/diputacion-toledo/tema-33/manual.md"
@@ -477,12 +477,12 @@
           "tema": 35,
           "pregunta": "La combinación de correspondencia permite:",
           "opciones": [
-            "Generar documentos personalizados a partir de una fuente de datos",
             "Convertir una tabla en una imagen",
+            "Generar documentos personalizados a partir de una fuente de datos",
             "Crear una base de datos sin campos",
             "Eliminar estilos"
           ],
-          "correcta": 0,
+          "correcta": 1,
           "justificacion": "La combinación de correspondencia genera documentos personalizados usando un documento principal y una fuente de datos.",
           "trampa": "No es lo mismo que copiar y pegar manualmente los datos de cada destinatario.",
           "referencia": "content/diputacion-toledo/tema-35/manual.md"
@@ -492,12 +492,12 @@
           "tema": 36,
           "pregunta": "El error #DIV/0! aparece normalmente cuando:",
           "opciones": [
-            "Se divide entre cero o una celda vacía equivalente",
             "La hoja está protegida",
             "Se usa texto en negrita",
-            "Se aplica un filtro"
+            "Se aplica un filtro",
+            "Se divide entre cero o una celda vacía equivalente"
           ],
-          "correcta": 0,
+          "correcta": 3,
           "justificacion": "Calc muestra #DIV/0! cuando una fórmula intenta dividir entre cero o entre una referencia cuyo valor es cero.",
           "trampa": "El problema está en el denominador, no en el formato de la celda.",
           "referencia": "content/diputacion-toledo/tema-36/manual.md"
@@ -508,11 +508,11 @@
           "pregunta": "La finalidad principal de un informe en Base es:",
           "opciones": [
             "Editar ordinariamente registros",
-            "Presentar datos para lectura o impresión",
             "Definir claves primarias",
+            "Presentar datos para lectura o impresión",
             "Crear controladores JDBC"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "Los informes organizan y presentan datos con formato, agrupaciones y totales para consulta o impresión.",
           "trampa": "El formulario está orientado a la introducción y edición; el informe, a la presentación.",
           "referencia": "content/diputacion-toledo/tema-37/manual.md"
@@ -522,12 +522,12 @@
           "tema": 38,
           "pregunta": "Ocultar una diapositiva implica que:",
           "opciones": [
-            "Se elimina definitivamente",
             "Se conserva pero no se muestra en el pase ordinario",
+            "Se elimina definitivamente",
             "Se convierte en nota",
             "Se bloquea el archivo"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "La diapositiva permanece en el archivo, pero queda excluida de la presentación ordinaria.",
           "trampa": "Ocultar no equivale a eliminar.",
           "referencia": "content/diputacion-toledo/tema-38/manual.md"
@@ -538,11 +538,11 @@
           "pregunta": "USB-C identifica principalmente:",
           "opciones": [
             "Una velocidad garantizada",
-            "La forma física del conector",
             "Un sistema operativo",
-            "Un tipo de disco"
+            "Un tipo de disco",
+            "La forma física del conector"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "USB-C describe el formato físico del conector; las prestaciones dependen del puerto, cable y protocolo implementado.",
           "trampa": "No garantiza por sí solo USB4, carga rápida o salida de vídeo.",
           "referencia": "content/diputacion-toledo/tema-39/manual.md"
@@ -597,10 +597,10 @@
           "opciones": [
             "Solo los principios rectores del capítulo III",
             "Solo los artículos 30 a 38",
-            "El artículo 14 y los derechos de la sección primera del capítulo II",
-            "Todos los derechos del título I sin excepción"
+            "Todos los derechos del título I sin excepción",
+            "El artículo 14 y los derechos de la sección primera del capítulo II"
           ],
-          "correcta": 2,
+          "correcta": 3,
           "justificacion": "El artículo 53.2 menciona el artículo 14 y la sección primera del capítulo II del título I, con eventual amparo constitucional.",
           "trampa": "El artículo 14 está fuera de esa sección, pero está incluido expresamente.",
           "referencia": "content/diputacion-toledo/tema-02/manual.md",
@@ -637,12 +637,12 @@
           "tema": 4,
           "pregunta": "Si un recusado niega la causa de recusación, ¿en qué plazo resuelve el superior jerárquico conforme al artículo 24.4 de la Ley 40/2015?",
           "opciones": [
-            "Un día",
             "Tres días",
+            "Un día",
             "Diez días",
             "Un mes"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "Si el recusado niega la causa, el superior resolverá en el plazo de tres días, tras el informe de aquel.",
           "trampa": "El recusado manifiesta al superior al día siguiente si concurre la causa; no es el plazo de resolución del superior.",
           "referencia": "content/diputacion-toledo/tema-04/manual.md",
@@ -659,11 +659,11 @@
           "pregunta": "Con carácter general, ¿en qué plazo debe cursarse la notificación de un acto administrativo desde que se dicta?",
           "opciones": [
             "Cinco días",
-            "Diez días",
             "Quince días hábiles",
+            "Diez días",
             "Un mes"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "El artículo 40.2 de la Ley 39/2015 exige cursar la notificación dentro de los diez días a partir de la fecha en que el acto se haya dictado.",
           "trampa": "Cursar la notificación en diez días no equivale a plazo general de interposición de recursos.",
           "referencia": "content/diputacion-toledo/tema-07/manual.md",
@@ -679,12 +679,12 @@
           "tema": 8,
           "pregunta": "En un procedimiento de declaración de lesividad, ¿cuánto dura el trámite de audiencia a los interesados según la Ley 39/2015?",
           "opciones": [
+            "Entre 10 y 15 días",
             "Entre 3 y 5 días",
             "Entre 5 y 7 días",
-            "Entre 10 y 15 días",
             "Exactamente un mes"
           ],
-          "correcta": 2,
+          "correcta": 0,
           "justificacion": "La audiencia previa del artículo 107.2 se practica conforme al artículo 82, que fija un plazo no inferior a diez días ni superior a quince.",
           "trampa": "No confundir el plazo de audiencia con el plazo máximo para declarar la lesividad.",
           "referencia": "content/diputacion-toledo/tema-08/manual.md",
@@ -701,11 +701,11 @@
           "pregunta": "Una notificación electrónica obligatoria puesta a disposición sin acceso, ¿cuándo se entiende rechazada como regla general?",
           "opciones": [
             "A los 5 días hábiles",
-            "A los 10 días naturales",
             "A los 10 días hábiles",
-            "Al mes"
+            "Al mes",
+            "A los 10 días naturales"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "El artículo 43.2 de la Ley 39/2015 establece diez días naturales desde la puesta a disposición sin acceder a su contenido, salvo imposibilidad técnica o material acreditada.",
           "trampa": "Los diez días son naturales, no hábiles; el aviso de puesta a disposición no sustituye la notificación.",
           "referencia": "content/diputacion-toledo/tema-09/manual.md",
@@ -742,12 +742,12 @@
           "tema": 11,
           "pregunta": "¿Durante qué horario admite presentaciones el registro electrónico general de una Administración?",
           "opciones": [
-            "Solo durante horas de oficina",
             "Todos los días del año, durante las 24 horas",
+            "Solo durante horas de oficina",
             "Solo días hábiles, de 9 a 14 horas",
             "Solo de lunes a viernes hasta las 20 horas"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "El artículo 31.2.a de la Ley 39/2015 permite presentar documentos en el registro electrónico todos los días del año durante las 24 horas.",
           "trampa": "La presentación permanente no convierte días inhábiles en hábiles a efectos del cómputo.",
           "referencia": "content/diputacion-toledo/tema-11/manual.md",
@@ -764,11 +764,11 @@
           "pregunta": "Según el artículo 137 CE, ¿en qué entidades se organiza territorialmente el Estado?",
           "opciones": [
             "Comunidades autónomas y partidos judiciales",
-            "Municipios, provincias y comunidades autónomas que se constituyan",
             "Provincias y comarcas exclusivamente",
+            "Municipios, provincias y comunidades autónomas que se constituyan",
             "Municipios, distritos y mancomunidades"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "El artículo 137 CE cita municipios, provincias y comunidades autónomas que se constituyan; todas gozan de autonomía para gestionar sus respectivos intereses.",
           "trampa": "Las comarcas y mancomunidades no sustituyen a la provincia en la enumeración constitucional.",
           "referencia": "content/diputacion-toledo/tema-12/manual.md",
@@ -807,10 +807,10 @@
           "opciones": [
             "Cinco días naturales",
             "Diez días naturales",
-            "Quince días hábiles",
-            "Un mes"
+            "Un mes",
+            "Quince días hábiles"
           ],
-          "correcta": 2,
+          "correcta": 3,
           "justificacion": "La celebración del Pleno extraordinario solicitado no puede demorarse más de quince días hábiles desde su solicitud.",
           "trampa": "No confundir la sesión extraordinaria solicitada con la convocatoria ordinaria del Pleno.",
           "referencia": "content/diputacion-toledo/tema-14/manual.md",
@@ -834,11 +834,11 @@
           "pregunta": "¿Qué personalidad atribuye la LRBRL a las mancomunidades?",
           "opciones": [
             "Carecen de personalidad jurídica",
-            "Tienen personalidad y capacidad jurídicas para sus fines específicos",
             "Son ministerios territoriales",
+            "Tienen personalidad y capacidad jurídicas para sus fines específicos",
             "Son siempre consorcios provinciales"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "El artículo 44 de la Ley 7/1985 reconoce personalidad y capacidad jurídica a las mancomunidades para sus fines específicos.",
           "trampa": "La mancomunidad es distinta de un simple convenio.",
           "referencia": "content/diputacion-toledo/tema-15/manual.md",
@@ -855,12 +855,12 @@
           "tema": 17,
           "pregunta": "¿Qué funciones corresponden al personal eventual?",
           "opciones": [
-            "Interinidad por vacante",
             "Confianza o asesoramiento especial, con nombramiento y cese libres",
+            "Interinidad por vacante",
             "Dirección obligatoria por oposición",
             "Carrera permanente por concurso"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "El personal eventual realiza funciones de confianza o asesoramiento especial y su nombramiento y cese son libres.",
           "trampa": "No es lo mismo que funcionario interino.",
           "referencia": "content/diputacion-toledo/tema-17/manual.md",
@@ -878,11 +878,11 @@
           "pregunta": "¿En qué consiste la carrera horizontal?",
           "opciones": [
             "Ascender necesariamente de cuerpo",
-            "Progresar sin necesidad de cambiar de puesto",
             "Ocupar provisionalmente una plaza",
-            "Un tipo de oposición de libre designación"
+            "Un tipo de oposición de libre designación",
+            "Progresar sin necesidad de cambiar de puesto"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "La carrera horizontal permite progresar de grado, categoría o escalón sin cambio necesario de puesto.",
           "trampa": "Distinguir carrera horizontal de promoción interna vertical.",
           "referencia": "content/diputacion-toledo/tema-18/manual.md",
@@ -922,11 +922,11 @@
           "pregunta": "¿Qué implica la suspensión del contrato de trabajo como regla general?",
           "opciones": [
             "Extinción del vínculo",
-            "Exoneración temporal de trabajar y remunerar",
             "Despido indemnizado",
-            "Conversión automática a fijo-discontinuo"
+            "Conversión automática a fijo-discontinuo",
+            "Exoneración temporal de trabajar y remunerar"
           ],
-          "correcta": 1,
+          "correcta": 3,
           "justificacion": "La suspensión libera de las obligaciones recíprocas de trabajar y remunerar el trabajo durante su vigencia.",
           "trampa": "La suspensión no equivale a extinción.",
           "referencia": "content/diputacion-toledo/tema-20/manual.md",
@@ -944,11 +944,11 @@
           "pregunta": "¿Qué naturaleza tiene el contrato fijo-discontinuo?",
           "opciones": [
             "Temporal estacional",
-            "Indefinida con actividad intermitente",
             "De formación por sustitución",
+            "Indefinida con actividad intermitente",
             "De funcionario interino"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "El fijo-discontinuo es contrato indefinido para prestaciones estacionales o intermitentes en los términos del artículo 16.",
           "trampa": "La intermitencia no convierte el vínculo en temporal.",
           "referencia": "content/diputacion-toledo/tema-21/manual.md",
@@ -965,12 +965,12 @@
           "tema": 23,
           "pregunta": "¿Qué derecho reconoce el artículo 14 de la Ley 31/1995?",
           "opciones": [
-            "Un plus de peligrosidad",
             "Una protección eficaz en seguridad y salud laboral",
+            "Un plus de peligrosidad",
             "Elegir cualquier equipo sin evaluación",
             "Excluir la prevención por pacto"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "Los trabajadores tienen derecho a protección eficaz en materia de seguridad y salud en el trabajo.",
           "trampa": "El pago de un plus no sustituye la prevención.",
           "referencia": "content/diputacion-toledo/tema-23/manual.md",
@@ -1010,11 +1010,11 @@
           "pregunta": "¿Qué caracteriza la exención tributaria frente a la no sujeción?",
           "opciones": [
             "Nunca ocurre el hecho imponible",
-            "Se realiza el hecho imponible pero la ley libera de la obligación principal",
             "El impuesto queda abolido",
+            "Se realiza el hecho imponible pero la ley libera de la obligación principal",
             "Se impone automáticamente un recargo"
           ],
-          "correcta": 1,
+          "correcta": 2,
           "justificacion": "En la exención se realiza el hecho imponible, pero la ley exime de la obligación tributaria principal.",
           "trampa": "La no sujeción queda fuera del hecho imponible.",
           "referencia": "content/diputacion-toledo/tema-25/manual.md",
@@ -1031,12 +1031,12 @@
           "tema": 26,
           "pregunta": "¿Cuál es el recargo ejecutivo si se paga antes de notificarse la providencia de apremio?",
           "opciones": [
-            "5 %",
             "10 %",
             "20 %",
-            "25 %"
+            "25 %",
+            "5 %"
           ],
-          "correcta": 0,
+          "correcta": 3,
           "justificacion": "El recargo ejecutivo es del 5 % cuando se satisface toda la deuda antes de notificarse la providencia de apremio.",
           "trampa": "El 10 % corresponde al recargo reducido y el 20 % al ordinario, con sus condiciones.",
           "referencia": "content/diputacion-toledo/tema-26/manual.md",
@@ -1075,12 +1075,12 @@
           "tema": 30,
           "pregunta": "¿Cuál es un impuesto municipal potestativo?",
           "opciones": [
+            "IIVTNU",
             "IBI",
             "IAE",
-            "IVTM",
-            "IIVTNU"
+            "IVTM"
           ],
-          "correcta": 3,
+          "correcta": 0,
           "justificacion": "El IIVTNU es potestativo; IBI, IAE e IVTM son impuestos municipales de exacción obligatoria.",
           "trampa": "No todos los impuestos regulados en la ley son obligatorios para cada municipio.",
           "referencia": "content/diputacion-toledo/tema-30/manual.md",
@@ -1097,12 +1097,12 @@
           "tema": 34,
           "pregunta": "¿Para qué sirve la cola de impresión en Windows 11?",
           "opciones": [
-            "Convertir discos a NTFS",
             "Consultar, pausar o cancelar trabajos de impresión",
+            "Convertir discos a NTFS",
             "Borrar archivos de origen",
             "Escanear siempre en automático"
           ],
-          "correcta": 1,
+          "correcta": 0,
           "justificacion": "La cola de impresión permite supervisar y gestionar los trabajos de impresión pendientes o activos.",
           "trampa": "Cancelar un trabajo de impresión no elimina el documento original.",
           "referencia": "content/diputacion-toledo/tema-34/manual.md",
@@ -1117,5 +1117,5 @@
       ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas."
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json."
 }
