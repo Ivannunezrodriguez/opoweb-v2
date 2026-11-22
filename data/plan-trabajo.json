@@ -113,14 +113,15 @@
             "22/11/2026: fichas focales de temas 2/3 con CE y LO 3/1981 verificables, apartadas de modelo de simulacro; siguen pendientes preguntas/temas 4–40.",
             "22/11/2026: cuarto modelo C1 de 12 preguntas/18 minutos sobre 12 temas nuevos (1,2,3,4,7,8,9,10,11,12,13,14), con artículo, explicación y trampa. Cobertura de modelos 26/40, 48 preguntas; sigue fuera tema 22. Prueba de integridad ampliada.",
             "22/11/2026: quinto modelo 13 preguntas/20 minutos para temas 15,17,18,19,20,21,23,24,25,26,29,30,34; cinco modelos y cobertura 39/40, excluido T22. E2E corregido para 39/40 y entrada de modelo 5.",
-            "22/11/2026: enlaces BOE y artículos para 20 de las 25 preguntas de los modelos 004/005, con controles de procedencia. Se deja explícito que otras 5 necesitan fuentes adicionales y que vincular fuente no equivale a validación jurídico-integral."
+            "22/11/2026: enlaces BOE y artículos para 20 de las 25 preguntas de los modelos 004/005, con controles de procedencia. Se deja explícito que otras 5 necesitan fuentes adicionales y que vincular fuente no equivale a validación jurídico-integral.",
+            "22/11/2026: cinco preguntas restantes del quinto modelo enlazadas a normas BOE (ET arts. 45 y 16, LPRL art.14, LO 3/2007 art.6.2) y soporte Microsoft Windows 11; ya 25/25 preguntas nuevas de modelos 004-005 con fuente identificada, 24 BOE + 1 fabricante. Sigue sin equivaler a una auditoría jurídica íntegra."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
             "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
             "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
           ],
-          "nextAction": "Cotejar todas las claves de modelos 4 y 5 contra normas vigentes y verificar E2E Chromium en Actions. T22 sigue bloqueado en tarea separada."
+          "nextAction": "Cotejar en detalle alternativas y justificaciones de las 25 preguntas nuevas y ampliar validación a 36 previas; resolver T22 con estatutos oficiales, no mediante inferencias."
         },
         {
           "id": "DIP-C2-01",
@@ -1817,6 +1818,19 @@
       "summary": "Diez anuncios BOE individualizados, un plazo Getafe de 20 días naturales a 04/12 y exclusiones por promoción interna/provisión; contraste aún sin bases específicas de todos.",
       "evidence": [],
       "limit": "No se han leído las bases completas de los diez ni cotejado todas las fichas contra el feed interno; clasificación solo documental focal."
+    },
+    {
+      "id": "LOG-20261122-DIP-C1-25-FUENTES-PRIMARIAS",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Completada trazabilidad primaria para 25 preguntas de modelos 4/5: 24 referencias BOE y una guía Microsoft; test exige fuente en cada ítem.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "No se atribuye certificación legal integral ni se declara resuelto el T22 OAPGT. Nuevo commit pendiente de CI."
     }
   ],
   "decisions": [
