@@ -112,7 +112,8 @@
             "Chromium E2E del primer modelo C1 de 12 preguntas, 18 minutos e historial independiente: Actions #44692289280 SUCCESS.",
             "22/11/2026: fichas focales de temas 2/3 con CE y LO 3/1981 verificables, apartadas de modelo de simulacro; siguen pendientes preguntas/temas 4–40.",
             "22/11/2026: cuarto modelo C1 de 12 preguntas/18 minutos sobre 12 temas nuevos (1,2,3,4,7,8,9,10,11,12,13,14), con artículo, explicación y trampa. Cobertura de modelos 26/40, 48 preguntas; sigue fuera tema 22. Prueba de integridad ampliada.",
-            "22/11/2026: quinto modelo 13 preguntas/20 minutos para temas 15,17,18,19,20,21,23,24,25,26,29,30,34; cinco modelos y cobertura 39/40, excluido T22. E2E corregido para 39/40 y entrada de modelo 5."
+            "22/11/2026: quinto modelo 13 preguntas/20 minutos para temas 15,17,18,19,20,21,23,24,25,26,29,30,34; cinco modelos y cobertura 39/40, excluido T22. E2E corregido para 39/40 y entrada de modelo 5.",
+            "22/11/2026: enlaces BOE y artículos para 20 de las 25 preguntas de los modelos 004/005, con controles de procedencia. Se deja explícito que otras 5 necesitan fuentes adicionales y que vincular fuente no equivale a validación jurídico-integral."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
@@ -527,7 +528,8 @@
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "22/11/2026: auditoría operativa ahora desglosa por fuente oportunidades recientes sin lectura y separa cuántas tienen puesto accionable; control con datos sintéticos en CI sin filtración de datos de opositores.",
             "22/11/2026: fuente directa de 203 entradas de estado: 36 ERROR, 124 PARTIAL, 43 READABLE. Priorizadas 10 fuentes (sin afirmar cobertura ni plazos) y añadido test reproducible.",
-            "22/11/2026: reintento de hasta dos URLs públicas de respaldo oficiales tras caída total de Getafe, Alcorcón e Illescas. Mantiene ERROR/PARCIAL, no silencia error TLS y no atribuye inscripción abierta; tests con fallo y rescate."
+            "22/11/2026: reintento de hasta dos URLs públicas de respaldo oficiales tras caída total de Getafe, Alcorcón e Illescas. Mantiene ERROR/PARCIAL, no silencia error TLS y no atribuye inscripción abierta; tests con fallo y rescate.",
+            "22/11/2026: detección de shell Angular/Convoca antes de contar páginas como LEÍDO, con test de plantilla dinámica y control anti-falso positivo; protege específicamente portales tipo Illescas."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -537,7 +539,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Comprobar un rastreo posterior a la incorporación de respaldo, medir fallbackAttempted/fallbackRead y verificar individualmente anuncios con bases oficiales."
+          "nextAction": "Obtener snapshot nuevo para los tres fallbacks y medir lecturas de documentos efectivos; confirmar posibles convocatorias frente a bases BOE/BOP."
         },
         {
           "id": "RAD-13",
@@ -1787,6 +1789,20 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "Solo cobertura temática de entrenamiento y pruebas técnicas; no se han cotejado diez anuncios reales ni se acredita rescate de fuentes hasta rastreo posterior."
+    },
+    {
+      "id": "LOG-20261122-DIP-C1-BOE20-RADAR-ANGULAR",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "20 ítems de los modelos C1-004/005 enlazados a artículos BOE; OpoRadar distingue shell dinámico Convoca de listado con plazas legibles.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "Cotejo focal documental, no auditoría completa de las 61 preguntas. La validación del nuevo commit y rastreo directo posterior siguen pendientes."
     }
   ],
   "decisions": [
