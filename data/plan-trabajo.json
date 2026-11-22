@@ -14,18 +14,18 @@
     "deduplication": "Usar id estable; buscar tarea existente antes de crear otra. Nuevos hallazgos se agregan como tareas sólo si tienen entregable y criterio de cierre.",
     "closePhases": "Una fase se considera completada únicamente cuando TODAS sus tareas están HECHO; los bloqueos pendientes impiden el cierre.",
     "sourceOfTruth": "Fuente editable única: opoweb-dev/main/data/plan-trabajo.json. La publicación pública la genera tools/build-public-site.mjs; AUDITORIA_CONTINUA.md, docs/PLAN_UNICO_OPOWEB_RADAR.md y demás planes son históricos, no colas activas.",
-    "priorities": "Prioridad inmediata: Diputación Administrativo C1 (15/12/2026), incidencias de La Puebla y OpoRadar/QA. UC3M expresamente APARCADA por decisión del usuario de 22/11/2026; no realizar auditorías, búsquedas ni repasos de UC3M hasta nueva instrucción o convocatoria que el usuario decida preparar. Respetar posposición C2 T06 OAPGT.",
+    "priorities": "EJECUTAR SOLO executionBoard.lanes AHORA; consulta única de estado en este JSON. Archivar HECHO, diferenciar ESPERA_OFICIAL, DESPUES y APARCADA. Diputación C1 hasta 15/12; Radar por muestra oficial y JCCM OEP sin inscripción. UC3M no se reactiva.",
     "evidenceStandard": "HECHO acredita estrictamente la entrega definida, PARCIAL ejecución incompleta con hito verificable, EN_CURSO trabajo activo, BLOQUEADA dependencia objetiva, PENDIENTE sin entregar. Un archivo existente no prueba revisión jurídica, E2E o CI.",
     "syncRule": "NUNCA editar opoweb-v2/main ni site como repositorio fuente; toda corrección pasa por privado, filtro de privacidad, pruebas y publicación que sincroniza ambas ramas públicas.",
     "notGoingBackward": "Antes de iniciar tarea comprobar clave estable, hitos completados, variantes de archivos por SHA, notas históricas ya cerradas, resultado de última CI y si la tarea fue implementada en herramientas privadas.",
-    "archivePolicy": "Guardar solo fuentes o evidencia necesarias y referencias técnicas; eliminar redirecciones y planes antiguos exclusivamente tras comprobar que no son dependencias. Git conserva el historial recuperable.",
+    "archivePolicy": "No eliminar archivos de contenido, pruebas o actas solo porque una tarea terminó. Archivar tareas HECHO en la vista, conservar Git/hitos. Eliminar físicamente solo artefactos obsoletos sin referencias verificadas y con respaldo recuperable.",
     "projectPremisesLocation": "projectPremises (obligatorio antes de cualquier trabajo o cierre)",
     "singleStatusContract": "Solo este fichero gobierna estado, prioridades, hitos, tareas, motivos de cierre y decisiones; fuentes y pruebas técnicas no son listas alternativas de trabajo.",
     "bitacora": "Cada actuación sustantiva lleva evento con id inmutable, fecha, taskIds existentes, resultado, evidencia pública y alcance. Los nuevos eventos se añaden, no se reescribe el pasado; una corrección posterior se registra con otro ID y relación supersedes.",
     "nextAction": "Cada tarea abierta puede declarar nextAction y blockers: una sola acción siguiente concreta, sin duplicar el trabajo ya registrado en completedSubsteps.",
     "decisionRule": "Las decisiones del selector, fuentes, privacidad y estados se conservan en decisions con clave estable. Cambiar una decisión exige evento posterior que indique motivo y referencia previa.",
     "priorityRule": "Priorizar trabajo con evidencia legal y utilidad de estudio; no cerrar tareas por publicación de UI o prueba parcial. No equiparar OEP a convocatoria ni manual relacionado a tema auditado.",
-    "executionOrder": "CIERRE_PRIMERO: no crear nuevas tareas ni ampliar fichas de temas mientras haya cierres alcanzables en la cola actual. Reabrir un tema AUDITADO solo por incidencia jurídica concreta; tareas BLOQUEADA permanecen con evidencia exigida. Excepciones: cambios legales oficiales urgentes, privacidad o fallo crítico.",
+    "executionOrder": "CIERRE_PRIMERO: respetar executionBoard como orden único; HECHO queda fuera del tablero activo, evidencias y bitácora accesibles como histórico. No ampliar tareas salvo incidencia sustantiva y verificable.",
     "publicReadOnly": true
   },
   "phases": [
@@ -46,18 +46,21 @@
         },
         {
           "id": "LP-EX-02",
-          "title": "Recuperar preguntas ordinarias 5 a 9 y cotejar todas las claves",
-          "state": "PARCIAL",
-          "blocker": "50 enunciados recuperados; las 50 claves ordinarias y 5 reservas están contrastadas con la plantilla provisional oficial de 16/11/2026. Falta plantilla definitiva del Tribunal y verificar marcas individuales ambiguas de la fotografía antes de acreditar nota personal.",
-          "acceptance": "50/50 enunciados legibles, claves revisadas y correspondencia con plantilla definitiva; referencias para dudas.",
+          "title": "Recuperar preguntas 5–9 y cotejar las 50 claves de la plantilla provisional",
+          "state": "HECHO",
+          "blocker": null,
+          "acceptance": "Preguntas 5–9 transcritas en visor; 50 claves ordinarias y 5 reservas contrastadas con la plantilla PROVISIONAL oficial firmada el 16/11/2026, con CSV y cautela sobre definitividad.",
           "evidencePaths": [
             "content/la-puebla/examen-real-2026.html"
           ],
-          "nextAction": "Cotejar plantilla definitiva cuando esté disponible y resolver anulaciones; completar el examen histórico sin confundir plantilla provisional con definitiva.",
+          "nextAction": null,
           "completedSubsteps": [
             "22/11/2026: fotografía de preguntas 5–9 aportada; enunciados/opciones transcritos en el visor. Soluciones orientativas 5 B, 6 A, 7 B, 8 C, 9 A fundamentadas. Aún no equivalen a plantilla oficial.",
-            "22/11/2026: documento oficial provisional de dos páginas recibido; cotejadas 50/50 claves y 5/5 reservas; incorporadas 26 A y 38 B. CSV eRr82/L69JZqFgLyM4sd."
-          ]
+            "22/11/2026: documento oficial provisional de dos páginas recibido; cotejadas 50/50 claves y 5/5 reservas; incorporadas 26 A y 38 B. CSV eRr82/L69JZqFgLyM4sd.",
+            "22/11/2026: se cierra el cotejo de la plantilla provisional; CI de publicación SUCCESS run 45054938970, validación SUCCESS run 45054939037; claves 26=A y 38=B; cinco reservas D,D,D,B,A."
+          ],
+          "closedAt": "2026-11-22",
+          "closeLimit": "Cierre estrictamente de recuperación documental y claves provisionales. No certifica plantilla definitiva, resolución de alegaciones, transcripción de 50 enunciados en simulacro ni nota oficial. Esos alcances permanecen en LP-EX-03 y LP-EX-04."
         },
         {
           "id": "LP-EX-03",
@@ -70,7 +73,7 @@
             "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a21"
           ],
           "blocker": "Plantilla provisional oficial del 16/11/2026 recibida: Tribunal marca pregunta 26=A; análisis jurídico de la alternativa C permanece como posible incidencia, pero no hay decisión oficial de anulación ni plantilla definitiva.",
-          "nextAction": "Obtener plantilla definitiva y resolución de alegaciones cuando exista; no marcar anulada la 26 sin acuerdo del Tribunal.",
+          "nextAction": "Localizar la plantilla definitiva y acuerdos de reclamaciones en la sede; comprobar específicamente 26 y sustituciones, sin presumir anulaciones.",
           "completedSubsteps": [
             "21/11/2026: comprobada en sede municipal referencia a '2º ANUNCIO PLANTILLA PROVISIONAL FIRMADO' fechado 16/11/2026; cotejado plazo literal de cinco días hábiles de BOP Toledo 82/2026, anuncio 1965, y art. 21.1.g/q LRBRL con BOE consolidado. Página de examen actualizada; fecha 23/11 presentada exclusivamente como cómputo condicionado sin calendario municipal ni fecha efectiva del PDF confirmados.",
             "22/11/2026: plantilla provisional auténtica facilitada; pregunta 26 marcada A, pregunta 38 B; cinco reservas D,D,D,B,A."
@@ -81,11 +84,11 @@
           "title": "Generar simulacro oficial histórico reutilizable",
           "state": "PENDIENTE",
           "dependsOn": [
-            "LP-EX-02",
             "LP-EX-03"
           ],
           "acceptance": "50 preguntas evaluables, reservas separadas y sustitución por anulaciones documentada; test real desde practice.",
-          "evidencePaths": []
+          "evidencePaths": [],
+          "nextAction": "Cuando el Tribunal publique plantilla definitiva, incorporar 50 enunciados verificables y sustitución de reservas al simulacro histórico."
         }
       ]
     },
@@ -112,7 +115,8 @@
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
             "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
             "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
-          ]
+          ],
+          "nextAction": "Revisar y ampliar modelos de 12 preguntas a los 26 temas C1 aún sin cobertura temática, priorizando el examen 15/12; cotejar claves jurídicas con BOE."
         },
         {
           "id": "DIP-C2-01",
@@ -276,7 +280,7 @@
             "Diseñar selección sin repetición ni preguntas inventadas para tamaños superiores al banco existente.",
             "Implementar reintento de errores, filtros por tema y estadísticas por convocatoria; probar que no se mezclan historiales."
           ],
-          "nextAction": "Auditar los bancos existentes por tema y número de preguntas; diseñar botón de repetir falladas sin duplicar lógica de scoring.",
+          "nextAction": "Inventariar volumen y calidad de bancos reales antes de ofrecer 10/20/50 preguntas y repetición de fallos.",
           "priority": "ALTA"
         },
         {
@@ -295,7 +299,7 @@
             "Unificar estadísticas desde historiales locales sin migraciones destructivas.",
             "Añadir exportación o respaldo local opcional y comprobación de privacidad, escritorio/móvil."
           ],
-          "nextAction": "Inventariar claves localStorage existentes y diseñar una vista de lectura sin cambiar el formato de los intentos.",
+          "nextAction": "Mapear claves de almacenamiento local de práctica sin modificar datos guardados; diseñar lectura de estadísticas por convocatoria.",
           "priority": "MEDIA"
         }
       ]
@@ -355,7 +359,8 @@
             "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
             "Auditar un muestreo real de documentos municipales que comparten URL y comprobar resultado de tests del rastreo antes de cerrar la tarea."
-          ]
+          ],
+          "nextAction": "Tomar muestra concreta de bolsas, sustituciones e interinidades Toledo/sur de Madrid y contrastar fuente, plazo y duplicados sin crear plazas inventadas."
         },
         {
           "id": "RAD-04",
@@ -438,7 +443,7 @@
           "state": "PENDIENTE",
           "acceptance": "Avisos de fase validados para procesos seguidos, sin repetir solicitud ya presentada y sin exponer datos personales.",
           "evidencePaths": [],
-          "nextAction": "Crear calendario de fases y fechas verificadas, sin computar plazos contradictorios; separar alertas de seguimiento de novedades.",
+          "nextAction": "Diseñar avisos de cambio de fase para procesos ya seguidos sin duplicar anuncios ni fechas no verificadas.",
           "priority": "MEDIA"
         },
         {
@@ -477,7 +482,8 @@
           "title": "Distancia y tiempo de desplazamiento: solo con ruta y método verificables",
           "state": "PENDIENTE",
           "acceptance": "Añadir datos únicamente si origen/destino, medio, fuente y momento de cálculo están comprobados.",
-          "evidencePaths": []
+          "evidencePaths": [],
+          "nextAction": "Mantener en reserva hasta disponer de método y fuente de rutas; no mostrar distancias inferidas."
         },
         {
           "id": "RAD-11",
@@ -563,13 +569,13 @@
             "20/11/2026: estado OEP diferenciado técnicamente de inscripción, incluso ante fecha importada; visualización pública filtrada como OEP futura.",
             "22/11/2026: fuente privada incorpora desglose oficial de cupos y fechas límite de publicación en cuatro fichas OEP; no se abre inscripción ni se dan por comprobadas notificaciones.",
             "22/11/2026: añadidas aserciones de exportación pública para tres OEP prioritarias (plazas, cupo general, fechas límite y no inscripción) y cierre de plazo Diputación C2.",
-            "22/11/2026: diagnóstico de Actions 45052820983: error real en validate-public-export por omisión de desglosePlazas del exportador. Se incluyen exclusivamente cupos, fase OEP, fuente y límites públicos, sin trasladar campo de seguimiento reservado ni datos privados."
+            "22/11/2026: diagnóstico de Actions 45052820983: error real en validate-public-export por omisión de desglosePlazas del exportador. Se incluyen exclusivamente cupos, fase OEP, fuente y límites públicos, sin trasladar campo de seguimiento reservado ni datos privados.",
+            "22/11/2026: exportación y validación SUCCESS en Actions 45054938970/45054939037 para commit 7b26e6f; ramas públicas site/main tienen árbol Git idéntico 31778468ac04c998db0fc6bcf563acb065728ca2."
           ],
           "remainingSubsteps": [
-            "Probar exportación pública y distinción entre OEP y convocatoria",
             "Confirmar notificaciones y cambios reales desde fuentes oficiales"
           ],
-          "nextAction": "Verificar Actions del commit corrector y sincronización de site/main; si ambas son correctas, cerrar subpaso de exportación, manteniendo seguimiento quincenal de convocatorias."
+          "nextAction": "Vigilar publicación de convocatoria que abra solicitudes en JCCM; solo modificar estado tras documento oficial. Los controles OEP ya están publicados y probados."
         }
       ],
       "operatingMode": "OPERATIVO_EN_MANTENIMIENTO_CON_BRECHAS_DE_CALIDAD",
@@ -713,7 +719,8 @@
             "La política offline queda protegida con tests de exportación: sw.js se desregistra y no intercepta fetch. No se afirma que la PWA funcione sin red.",
             "Diputación Toledo C1, modelo 1 de 12 preguntas/18 min, historial aislado y aviso de cobertura 14/40 verificados en Chromium #44692289280 SUCCESS.",
             "21/11/2026: Playwright Chromium + axe del selector de estudio, repaso por tema y opciones verticales superado en el flujo E2E; no acredita móvil físico ni Firefox/Safari.",
-            "22/11/2026: identificada prueba obsoleta de exportación que buscaba ausencia de PDF oficial, tras haberse recibido plantilla provisional. Prueba actualizada para exigir CSV, 50 claves, reservas y no atribuir anulación."
+            "22/11/2026: identificada prueba obsoleta de exportación que buscaba ausencia de PDF oficial, tras haberse recibido plantilla provisional. Prueba actualizada para exigir CSV, 50 claves, reservas y no atribuir anulación.",
+            "22/11/2026: pipeline de exportación/publicación de contenido oficial y OEP SUCCESS en Actions #45054939037/#45054938970; esta prueba no sustituye el E2E Safari/Firefox/móvil físico."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -722,7 +729,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Pasar comprobación real de Pages en móvil y teclado/lector de pantalla; mantener offline desactivado.",
+          "nextAction": "Ejecutar pruebas Playwright Firefox y WebKit sobre el plan y práctica, después ampliar teclado y accesibilidad; no activar offline.",
           "priority": "ALTA"
         },
         {
@@ -903,7 +910,8 @@
           "remainingSubsteps": [
             "Revisar por riesgo los scripts y pruebas exclusivos del privado, no solo nombres y SHA",
             "Cerrar dependencias nuevas detectadas sin reiniciar temas ya auditados"
-          ]
+          ],
+          "nextAction": "Inventariar scripts/workflows exclusivos del privado por riesgo y detectar dependencias activas; no reexaminar 37 actas históricas ya reconciliadas."
         }
       ]
     }
@@ -963,16 +971,17 @@
       "docs/PLAN_UNICO_OPOWEB_RADAR.md#R09": "OPS-04"
     },
     "verifiedPublication": {
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-22",
       "mode": "GITHUB_API_GIT_TREE_AND_BLOB",
-      "mainTree": "a77b68208a7f83419334843f066c2584cad95447",
-      "siteTree": "5a853663a545971a0f425463c9ba3488e35d35c3",
+      "mainTree": "31778468ac04c998db0fc6bcf563acb065728ca2",
+      "siteTree": "31778468ac04c998db0fc6bcf563acb065728ca2",
       "mainAndSiteSameBlobs": true,
       "publicBlobs": 821,
       "publicPlanSanitized": true,
       "publicPagesRestored": true,
       "browserE2eVerified": false,
-      "actionsConclusionVerified": false
+      "actionsConclusionVerified": true,
+      "verificationRun": 45054938970
     },
     "historicalAuditReview": {
       "date": "2026-11-19",
@@ -1066,19 +1075,19 @@
       "MIGRACION_PRIVADA.md"
     ],
     "latestVerifiedCI": {
-      "date": "2026-11-19",
-      "sourceCommit": "b29d5862c370c04cb40abe34a44bcd095409c023",
+      "date": "2026-11-22",
+      "sourceCommit": "7b26e6f20d891a14d6f5022a7df1b5300db4c61b",
       "publish": {
-        "runId": 44554106609,
+        "runId": 45054938970,
         "status": "completed",
         "conclusion": "success"
       },
       "validation": {
-        "runId": 44554107001,
+        "runId": 45054939037,
         "status": "completed",
         "conclusion": "success"
       },
-      "scope": "Puntuación de simulacros, reserva, historial y esquema de respuestas comprobados en CI; E2E real pendiente."
+      "scope": "Exportación completa y publicación filtrada de cambios La Puebla/JCCM/Radar, con validación de privacidad; otras pruebas E2E independientes."
     },
     "lastQualityImprovement": {
       "id": "PLAN-EVIDENCE-DIRECTORY",
@@ -1701,6 +1710,24 @@
         "data/convocatorias.json"
       ],
       "limit": "La prueba y la publicación deben comprobarse en el SHA corrector; no certifica vigilancia ni E2E."
+    },
+    {
+      "id": "LOG-20261122-REORDEN-PLAN-CIERRES-CON-REPO",
+      "at": "2026-11-22",
+      "taskIds": [
+        "LP-EX-02",
+        "OPS-04",
+        "RAD-JCCM-2026",
+        "QA-02",
+        "OPS-05"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Reconciliado árbol Git privado completo (1115 blobs), ramas site/main idénticas y CI+publicación 7b26e6f SUCCESS. Cerrado LP-EX-02 solo en alcance provisional, archivado HECHO en la vista y creada cola única de tareas activas, bloqueadas, futuras y UC3M aparcada.",
+      "evidence": [
+        "data/plan-trabajo.json",
+        "plan.html"
+      ],
+      "limit": "No se ha leído jurídicamente cada uno de los 1115 blobs; no equiparar 116/121 AUDITADO con validación integral. El nuevo commit aún debe superar CI/publish."
     }
   ],
   "decisions": [
@@ -1774,5 +1801,88 @@
       "decision": "Priorizar cierres verificables del inventario actual; no abrir tareas por inercia, informes redundantes ni fichas nuevas a costa de problemas sin resolver. Solo ampliar por necesidad real documentada o urgencia legal/técnica.",
       "state": "VIGENTE"
     }
-  ]
+  ],
+  "executionBoard": {
+    "date": "2026-11-22",
+    "description": "Vista de ejecución: los HECHO permanecen exclusivamente como historial consultable; no se repiten. Cada tarea abierta pertenece a una sola cola.",
+    "lanes": [
+      {
+        "id": "AHORA",
+        "title": "Prioridad operativa",
+        "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
+        "taskIds": [
+          "DIP-C1-01",
+          "RAD-02",
+          "RAD-04",
+          "RAD-09",
+          "RAD-12",
+          "RAD-05",
+          "RAD-13",
+          "RAD-03",
+          "JCCM-2026-01",
+          "RAD-JCCM-2026",
+          "STUDY-RECAP-01"
+        ]
+      },
+      {
+        "id": "ESPERA_OFICIAL",
+        "title": "Bloqueos y dependencias oficiales",
+        "description": "No consumir tiempo sin fuente oficial o entrega de la tarea precedente; conservar pruebas existentes.",
+        "taskIds": [
+          "LP-EX-03",
+          "LP-EX-04",
+          "DIP-C1-02",
+          "DIP-C2-01"
+        ]
+      },
+      {
+        "id": "DESPUES",
+        "title": "Mejoras secundarias",
+        "description": "No ejecutar hasta cerrar lo prioritario; accesibilidad en navegadores adicionales sí tiene alcance concreto.",
+        "taskIds": [
+          "QA-02",
+          "STUDY-TEST-01",
+          "STUDY-PROGRESS-01",
+          "RAD-07",
+          "RAD-10",
+          "OPS-05"
+        ]
+      },
+      {
+        "id": "APARCADA",
+        "title": "Suspendido por decisión del usuario",
+        "description": "No reabrir UC3M sin instrucción expresa. Entregables históricos terminados se preservan.",
+        "taskIds": [
+          "UC3M-01"
+        ]
+      }
+    ],
+    "recentClosures": [
+      {
+        "id": "LP-EX-02",
+        "scope": "Preguntas 5–9 y todas las claves de la plantilla provisional; no definitiva ni simulacro 50 enunciados"
+      },
+      {
+        "id": "OPS-04",
+        "scope": "Sincronización y publicación; último pipeline 22/11 success y árboles públicos idénticos"
+      },
+      {
+        "id": "RAD-06",
+        "scope": "Detector de normas de plazo; controversia Olías sigue en RAD-02"
+      }
+    ],
+    "sourceSnapshot": {
+      "branch": "opoweb-dev/main",
+      "sourceCommit": "7b26e6f20d891a14d6f5022a7df1b5300db4c61b",
+      "trackedFiles": 1115,
+      "gitTreeEntries": 1258,
+      "source": "Git tree API recursive 22/11/2026; inventario de rutas, no lectura jurídico-semántica integral",
+      "publicTree": "31778468ac04c998db0fc6bcf563acb065728ca2",
+      "publicMainSiteSameTree": true,
+      "validationRun": 45054939037,
+      "publishRun": 45054938970,
+      "publicationConclusion": "SUCCESS",
+      "scope": "Verificación de workflows y sincronización técnica. No es certificación jurídica ni navegador físico."
+    }
+  }
 }
