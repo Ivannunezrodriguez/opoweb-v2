@@ -930,7 +930,13 @@
           "justificacion": "La suspensión libera de las obligaciones recíprocas de trabajar y remunerar el trabajo durante su vigencia.",
           "trampa": "La suspensión no equivale a extinción.",
           "referencia": "content/diputacion-toledo/tema-20/manual.md",
-          "normaClave": "Estatuto de los Trabajadores art. 45.2"
+          "normaClave": "Estatuto de los Trabajadores art. 45.2",
+          "fuenteNormativa": {
+            "name": "Estatuto de los Trabajadores",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+            "article": "art. 45.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q06",
@@ -946,7 +952,13 @@
           "justificacion": "El fijo-discontinuo es contrato indefinido para prestaciones estacionales o intermitentes en los términos del artículo 16.",
           "trampa": "La intermitencia no convierte el vínculo en temporal.",
           "referencia": "content/diputacion-toledo/tema-21/manual.md",
-          "normaClave": "Estatuto de los Trabajadores art. 16"
+          "normaClave": "Estatuto de los Trabajadores art. 16",
+          "fuenteNormativa": {
+            "name": "Estatuto de los Trabajadores",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+            "article": "art. 16",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q07",
@@ -962,7 +974,13 @@
           "justificacion": "Los trabajadores tienen derecho a protección eficaz en materia de seguridad y salud en el trabajo.",
           "trampa": "El pago de un plus no sustituye la prevención.",
           "referencia": "content/diputacion-toledo/tema-23/manual.md",
-          "normaClave": "Ley 31/1995 art. 14"
+          "normaClave": "Ley 31/1995 art. 14",
+          "fuenteNormativa": {
+            "name": "Ley 31/1995, Prevención de Riesgos Laborales",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+            "article": "art. 14",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q08",
@@ -978,7 +996,13 @@
           "justificacion": "La discriminación indirecta surge por un criterio aparentemente neutro que provoca desventaja particular sin justificación objetiva y proporcional.",
           "trampa": "Distinguir discriminación directa, indirecta y acción positiva.",
           "referencia": "content/diputacion-toledo/tema-24/manual.md",
-          "normaClave": "LO 3/2007 art. 6.2"
+          "normaClave": "LO 3/2007 art. 6.2",
+          "fuenteNormativa": {
+            "name": "LO 3/2007, igualdad efectiva",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+            "article": "art. 6.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-005-Q09",
@@ -1082,10 +1106,16 @@
           "justificacion": "La cola de impresión permite supervisar y gestionar los trabajos de impresión pendientes o activos.",
           "trampa": "Cancelar un trabajo de impresión no elimina el documento original.",
           "referencia": "content/diputacion-toledo/tema-34/manual.md",
-          "normaClave": "Windows 11 gestión de impresión"
+          "normaClave": "Windows 11 gestión de impresión",
+          "fuenteNormativa": {
+            "name": "Microsoft Support — Cola de impresión Windows 11",
+            "url": "https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows",
+            "article": "Guía Windows 11",
+            "estado": "REFERENCIA_FABRICANTE_NO_NORMA_LEGAL"
+          }
         }
       ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos BOE por artículo a 20 preguntas seleccionadas de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas."
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas."
 }
