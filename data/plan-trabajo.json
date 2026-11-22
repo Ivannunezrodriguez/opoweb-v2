@@ -47,10 +47,16 @@
         {
           "id": "LP-EX-02",
           "title": "Recuperar preguntas ordinarias 5 a 9 y cotejar todas las claves",
-          "state": "BLOQUEADA",
-          "blocker": "No hay imagen de preguntas 5–9 en las fotografías recibidas; falta plantilla oficial cotejada.",
+          "state": "PARCIAL",
+          "blocker": "Enunciados y opciones 5–9 recuperados y soluciones orientativas justificadas; falta cotejar las 50 claves con la plantilla oficial definitiva, incluida la pregunta 38 sin clave orientativa y la incidencia de la 26.",
           "acceptance": "50/50 enunciados legibles, claves revisadas y correspondencia con plantilla definitiva; referencias para dudas.",
-          "evidencePaths": []
+          "evidencePaths": [
+            "content/la-puebla/examen-real-2026.html"
+          ],
+          "nextAction": "Obtener plantilla provisional y definitiva del Tribunal; verificar preguntas 1–50 y reservas, y decidir cómo tratar 26/38 únicamente según documento oficial.",
+          "completedSubsteps": [
+            "22/11/2026: fotografía de preguntas 5–9 aportada; enunciados/opciones transcritos en el visor. Soluciones orientativas 5 B, 6 A, 7 B, 8 C, 9 A fundamentadas. Aún no equivalen a plantilla oficial."
+          ]
         },
         {
           "id": "LP-EX-03",
@@ -1630,6 +1636,21 @@
         "data/plan-trabajo.json"
       ],
       "limit": "El bloqueo jurídico histórico permanece documentado, sin auditoría ni búsqueda activa. Los cierres realizados no se revierten."
+    },
+    {
+      "id": "LOG-20261122-LP-PREGUNTAS-05-09",
+      "at": "2026-11-22",
+      "taskIds": [
+        "LP-EX-02",
+        "LP-EX-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Recuperadas preguntas reales 5–9, incorporadas en visor y completadas claves orientativas documentadas.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html",
+        "data/plan-trabajo.json"
+      ],
+      "limit": "No están verificadas las claves contra Tribunal; 26 y 38 siguen sin clave en el calculador, por lo que todavía no se cierra el examen histórico."
     }
   ],
   "decisions": [
