@@ -395,14 +395,15 @@
             "22/11/2026: fotografía verificada de 203 fuentes del rastreo directo, 10 fuentes municipales prioritarias con errores y exploración parcial categorizadas, informe ops/radar-priority-sources-20261122.json, test cruzado contra snapshot. No equivale a 10 convocatorias auditadas.",
             "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados.",
             "22/11/2026: corregidos dos errores verificables de muestreo BOE: Illescas limpiadores 9 libre+1 discapacidad (no 10 libre); Diputación 17651 mixto 2 libre oficios+4 promoción interna (3 auxiliares internos). Añadido detalle 11 maestros Getafe y separación 3+1 Diputación 21908.",
-            "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar."
+            "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar.",
+            "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
             "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
           ],
-          "nextAction": "Cotejar requisitos de bases BOCM/BOP y vinculación con feed interno; clasificar acceso externo por cada puesto, nunca solo por BOE general.",
+          "nextAction": "Investigar 3 anuncios sin referencia directa (17651, 18486, 22924) y distinguir turnos en 3 anuncios con dos entradas. Cotejar bases BOP/BOCM para condiciones de Getafe y Alcorcón; no marcar CUMPLE hasta leerlas.",
           "priority": "ALTA"
         },
         {
@@ -490,9 +491,10 @@
             "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente.",
             "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados.",
             "22/11/2026: corregidos dos errores verificables de muestreo BOE: Illescas limpiadores 9 libre+1 discapacidad (no 10 libre); Diputación 17651 mixto 2 libre oficios+4 promoción interna (3 auxiliares internos). Añadido detalle 11 maestros Getafe y separación 3+1 Diputación 21908.",
-            "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar."
+            "22/11/2026: añadido cotejo reproducible no divulgativo entre 10 BOE de muestreo y referencias directas del feed privado, con resumen de coincidencias y posibles duplicados en Actions; resultados aún por ejecutar.",
+            "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías."
           ],
-          "nextAction": "Cotejar requisitos de bases BOCM/BOP y vinculación con feed interno; clasificar acceso externo por cada puesto, nunca solo por BOE general.",
+          "nextAction": "Investigar 3 anuncios sin referencia directa (17651, 18486, 22924) y distinguir turnos en 3 anuncios con dos entradas. Cotejar bases BOP/BOCM para condiciones de Getafe y Alcorcón; no marcar CUMPLE hasta leerlas.",
           "priority": "ALTA"
         },
         {
@@ -1863,6 +1865,18 @@
       "summary": "Se añadió control CI para cruzar los diez BOE cotejados con el feed privado mediante referencias documentales directas y contar duplicados sin publicar datos personales.",
       "evidence": [],
       "limit": "La ejecución tiene que arrojar coincidencias; no inferir ausencia de convocatorias de un no-match. Requisitos BOP/BOCM aún sin cotejo completo."
+    },
+    {
+      "id": "LOG-20261122-RADAR-FEED-1388-7-10",
+      "at": "2026-11-22",
+      "taskIds": [
+        "RAD-04",
+        "RAD-09"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cruce real de diez BOE contra feed privado de 1388 registros: 7 anuncios con referencia directa, 3 sin coincidencia y 3 con dos entradas cada uno. Renombrado 'duplicados' a 'entradas múltiples' por posibles plazas/turnos distintos.",
+      "evidence": [],
+      "limit": "No es verificación completa de diez expedientes ni evidencia de error por no-match; aún faltan bases y contrastar variantes de plazas/turno. Ver GitHub Actions run 45058544813."
     }
   ],
   "decisions": [
