@@ -318,13 +318,14 @@
           "completedSubsteps": [
             "20/11/2026: confirmado BOE-A-2026-24345 de El Viso, distinto del BOE-A-2026-20416; ficha, banner Radar y catálogo actualizados a plazo relativo de 20 días hábiles sin calcular fin. BOE-A-2026-22826 de Olías confirma 3 limpieza y 4 auxiliar edificios y 20 días hábiles; falta resolver discrepancia de bases entre naturales y hábiles.",
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
-            "22/11/2026: nueva fuente oficial DOCM-2026/7843 de 05/11 confirma 20 días hábiles desde BOE, en línea con BOE-A-2026-22826 de 31/10. El conflicto BOP 204 todavía requiere el texto original/rectificaciones y no se resuelve por votación de fuentes. El parser de conflictos quedó cerrado separadamente como RAD-06."
+            "22/11/2026: nueva fuente oficial DOCM-2026/7843 de 05/11 confirma 20 días hábiles desde BOE, en línea con BOE-A-2026-22826 de 31/10. El conflicto BOP 204 todavía requiere el texto original/rectificaciones y no se resuelve por votación de fuentes. El parser de conflictos quedó cerrado separadamente como RAD-06.",
+            "22/11/2026: fuente secundaria localiza posible corrección de las bases de Olías en BOP Toledo 209 de 30/10/2026, posterior al BOP 204 de 23/10 (referencia BOP id=26104817, inserción 4833). No se ha abierto el documento oficial de la rectificación; NO considerar confirmado su contenido ni que resuelva días naturales/hábiles."
           ],
           "remainingSubsteps": [
             "Cotejar directamente las bases BOP Toledo 204 de 23/10/2026 de Olías y rectificaciones del ayuntamiento para resolver días naturales vs hábiles y plazo prudente por proceso; no dar cierre único sin comprobar.",
             "Cotejar calendario de días inhábiles y posibles rectificaciones para calcular, por separado, fin de solicitudes de El Viso BOE 24345."
           ],
-          "nextAction": "Cotejar el BOP Toledo n.º 204, anuncio 2026/4833, páginas 49-59 y rectificaciones de Olías; confirmar si el plazo de 20 días naturales procede realmente de bases aplicables y pedir aclaración oficial si es necesario. Para El Viso, cotejar calendario municipal de inhábiles antes de fijar cierre."
+          "nextAction": "Obtener y cotejar las BASES ORIGINALES BOP Toledo 204 de 23/10/2026 (inserción 4833, documento 26104817), y comprobar una POSIBLE CORRECCIÓN BOP 209 de 30/10/2026 identificada por fuente secundaria. Comparar plazo de auxiliares y limpieza con BOE 22826 y DOCM 7843. No dar fecha final sin calendario oficial. El Viso queda separado."
         },
         {
           "id": "RAD-03",
@@ -1455,6 +1456,19 @@
         "data/convocatorias.json"
       ],
       "limit": "La discrepancia jurídica de las bases BOP 204/2026 de Olías y la fecha final de El Viso quedan abiertas en RAD-02; no se presenta una fecha automática como resolución oficial."
+    },
+    {
+      "id": "LOG-20261122-OLIAS-RECTIFICACION-POR-VERIFICAR",
+      "at": "2026-11-22",
+      "taskIds": [
+        "RAD-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Pista documental para Olías: una fuente secundaria enlaza bases BOP 204 e indica posible corrección BOP 209 del 30/10; comprobar originales antes de resolver discrepancia de plazos.",
+      "evidence": [
+        "data/convocatorias.json"
+      ],
+      "limit": "La corrección BOP 209 todavía NO ha sido leída ni certificada en fuente primaria; no se deduce su contenido ni se confirma el vencimiento."
     }
   ],
   "decisions": [
