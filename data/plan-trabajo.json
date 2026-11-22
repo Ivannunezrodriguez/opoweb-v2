@@ -114,14 +114,15 @@
             "22/11/2026: cuarto modelo C1 de 12 preguntas/18 minutos sobre 12 temas nuevos (1,2,3,4,7,8,9,10,11,12,13,14), con artículo, explicación y trampa. Cobertura de modelos 26/40, 48 preguntas; sigue fuera tema 22. Prueba de integridad ampliada.",
             "22/11/2026: quinto modelo 13 preguntas/20 minutos para temas 15,17,18,19,20,21,23,24,25,26,29,30,34; cinco modelos y cobertura 39/40, excluido T22. E2E corregido para 39/40 y entrada de modelo 5.",
             "22/11/2026: enlaces BOE y artículos para 20 de las 25 preguntas de los modelos 004/005, con controles de procedencia. Se deja explícito que otras 5 necesitan fuentes adicionales y que vincular fuente no equivale a validación jurídico-integral.",
-            "22/11/2026: cinco preguntas restantes del quinto modelo enlazadas a normas BOE (ET arts. 45 y 16, LPRL art.14, LO 3/2007 art.6.2) y soporte Microsoft Windows 11; ya 25/25 preguntas nuevas de modelos 004-005 con fuente identificada, 24 BOE + 1 fabricante. Sigue sin equivaler a una auditoría jurídica íntegra."
+            "22/11/2026: cinco preguntas restantes del quinto modelo enlazadas a normas BOE (ET arts. 45 y 16, LPRL art.14, LO 3/2007 art.6.2) y soporte Microsoft Windows 11; ya 25/25 preguntas nuevas de modelos 004-005 con fuente identificada, 24 BOE + 1 fabricante. Sigue sin equivaler a una auditoría jurídica íntegra.",
+            "22/11/2026: corregido sesgo masivo en posición B de 61 preguntas de cinco modelos, con redistribución balanceada A-D, conservando exactamente texto correcto de cada respuesta, ID y tema. Auditoría por pregunta y regresión nueva."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
             "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
             "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
           ],
-          "nextAction": "Cotejar en detalle alternativas y justificaciones de las 25 preguntas nuevas y ampliar validación a 36 previas; resolver T22 con estatutos oficiales, no mediante inferencias."
+          "nextAction": "Continuar cotejo jurídico de distractores y explicaciones de 61 preguntas; cobertura 39/40 no equivale a calidad certificada. Comprobar modificación con E2E de modelos y texto clave."
         },
         {
           "id": "DIP-C2-01",
@@ -392,14 +393,15 @@
             "22/11/2026: estado de solicitud vencida de Diputación Auxiliar C2 corregido en fuente privada según fecha final ya registrada (19/11); no equivale a auditoría de las 10 fichas pendientes.",
             "22/11/2026: métricas por fuente recientes leídas/no leídas y subtotal pendientes accionables, con prueba multifuente; no sustituye cotejo de 10 anuncios oficiales.",
             "22/11/2026: fotografía verificada de 203 fuentes del rastreo directo, 10 fuentes municipales prioritarias con errores y exploración parcial categorizadas, informe ops/radar-priority-sources-20261122.json, test cruzado contra snapshot. No equivale a 10 convocatorias auditadas.",
-            "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados."
+            "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados.",
+            "22/11/2026: corregidos dos errores verificables de muestreo BOE: Illescas limpiadores 9 libre+1 discapacidad (no 10 libre); Diputación 17651 mixto 2 libre oficios+4 promoción interna (3 auxiliares internos). Añadido detalle 11 maestros Getafe y separación 3+1 Diputación 21908."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
             "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
           ],
-          "nextAction": "Cotejar bases completas, requisitos personales y presencia/duplicados en snapshot interno antes de cerrar auditoría de 10 fichas de OpoRadar; no confundir este muestreo BOE con auditoría completa.",
+          "nextAction": "Cotejar requisitos de bases BOCM/BOP y vinculación con feed interno; clasificar acceso externo por cada puesto, nunca solo por BOE general.",
           "priority": "ALTA"
         },
         {
@@ -485,9 +487,10 @@
           ],
           "completedSubsteps": [
             "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente.",
-            "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados."
+            "22/11/2026: muestreo focal externo de 10 anuncios BOE, clasificados por turno libre, provisión, promoción interna y especialidad. Getafe BOE-A-2026-23854: 3 Auxiliares Apoyo Global, plazo 20 días naturales hasta 04/12; requisitos de bases BOCM no cotejados.",
+            "22/11/2026: corregidos dos errores verificables de muestreo BOE: Illescas limpiadores 9 libre+1 discapacidad (no 10 libre); Diputación 17651 mixto 2 libre oficios+4 promoción interna (3 auxiliares internos). Añadido detalle 11 maestros Getafe y separación 3+1 Diputación 21908."
           ],
-          "nextAction": "Cotejar bases completas, requisitos personales y presencia/duplicados en snapshot interno antes de cerrar auditoría de 10 fichas de OpoRadar; no confundir este muestreo BOE con auditoría completa.",
+          "nextAction": "Cotejar requisitos de bases BOCM/BOP y vinculación con feed interno; clasificar acceso externo por cada puesto, nunca solo por BOE general.",
           "priority": "ALTA"
         },
         {
@@ -1831,6 +1834,21 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "No se atribuye certificación legal integral ni se declara resuelto el T22 OAPGT. Nuevo commit pendiente de CI."
+    },
+    {
+      "id": "LOG-20261122-DIP-C1-EQUILIBRIO-RADAR-PLAZAS",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "RAD-04",
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Eliminado sesgo sistemático de respuestas B de los cinco modelos C1 (61 respuestas textuales preservadas). Corregidos desgloses de plazas Illescas y convocatoria mixta Diputación, basados en BOE.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "Rotación de posición no acredita corrección jurídica de todas las claves. Aún no se han cotejado todas las bases específicas ni el feed Radar; nuevo SHA pendiente CI."
     }
   ],
   "decisions": [
