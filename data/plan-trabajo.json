@@ -362,7 +362,8 @@
             "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear.",
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
-            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo."
+            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
+            "22/11/2026: estado de solicitud vencida de Diputación Auxiliar C2 corregido en fuente privada según fecha final ya registrada (19/11); no equivale a auditoría de las 10 fichas pendientes."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
@@ -547,12 +548,14 @@
           "completedSubsteps": [
             "Perfil privado registra tres objetivos y vigilancia quincenal",
             "Automatización existente ampliada con comprobación alterna desde 04/12/2026",
-            "20/11/2026: estado OEP diferenciado técnicamente de inscripción, incluso ante fecha importada; visualización pública filtrada como OEP futura."
+            "20/11/2026: estado OEP diferenciado técnicamente de inscripción, incluso ante fecha importada; visualización pública filtrada como OEP futura.",
+            "22/11/2026: fuente privada incorpora desglose oficial de cupos y fechas límite de publicación en cuatro fichas OEP; no se abre inscripción ni se dan por comprobadas notificaciones."
           ],
           "remainingSubsteps": [
             "Probar exportación pública y distinción entre OEP y convocatoria",
             "Confirmar notificaciones y cambios reales desde fuentes oficiales"
-          ]
+          ],
+          "nextAction": "Confirmar resultado de exportación y CI para el commit de origen privado; después comprobar nuevas convocatorias por fuentes oficiales en fecha prevista, sin reabrir inscripciones por OEP."
         }
       ],
       "operatingMode": "OPERATIVO_EN_MANTENIMIENTO_CON_BRECHAS_DE_CALIDAD",
@@ -1593,6 +1596,21 @@
         "assets/radar.js"
       ],
       "limit": "Éxito técnico y 6/6 fuentes no implican cobertura integral ni aviso listo. RAD-04/05/12/13 permanecen abiertas hasta muestra oficial, plazo/alertas y deduplicación contrastadas."
+    },
+    {
+      "id": "LOG-20261122-RADAR-FUENTE-PRIVADA-OEP-CIERRE",
+      "at": "2026-11-22",
+      "taskIds": [
+        "RAD-JCCM-2026",
+        "RAD-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corrección en la fuente privada: cuatro OEP JCCM/SESCAM con cupo y límite de convocatoria, y cierre de plazo vencido en Diputación C2.",
+      "evidence": [
+        "data/convocatorias.json",
+        "data/plan-trabajo.json"
+      ],
+      "limit": "La salida pública, las pruebas del SHA, las notificaciones y la muestra de diez anuncios se verificarán por separado. No implica cierre de RAD-JCCM-2026 ni RAD-04."
     }
   ],
   "decisions": [
