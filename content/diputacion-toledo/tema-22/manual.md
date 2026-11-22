@@ -1,5 +1,7 @@
 # Tema 22 · Acuerdo regulador y OAPGT
 
+> **CONTROL VIGENTE DE FUENTES (22/11/2026):** [Matriz de citas estatutarias **2015–2026** y bloqueo de vigencia **2004/2005**](CONTROL_VIGENCIA_ESTATUTARIA_20261122.md). Los documentos oficiales de **2015**, **2024**, **2025** y **2026** emplean **art. 12.2.l).8**, mientras que actos de **2022** invocan **art. 12.1.8**. Estas son **citas documentadas de actos fechados**, no demostración de una reforma ni de texto consolidado. Para examen distinguir **publicación normativa**, **uso administrativo** e **hipótesis pendiente**. El texto histórico hasta **2011** está disponible; **no** se ha certificado la vigencia integral del articulado. **ESTADO: EN AUDITORÍA**.
+
 ## Corrección oficial de la convocatoria OAPGT 2026 — **BOP 37, 25/02/2026**
 
 La [**rectificación oficial BOP Toledo n.º 37, de 25/02/2026, anuncio 882**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=37&insert_year=2026&publication_date=25022026) **corrigió expresamente** el número de decreto de convocatoria de la OEP 2026 publicado en el BOP n.º 34 de **20/02/2026**: donde figuraba **2025-003964** debe leerse **2026-003964, de 17/02/2026**. Esta fe de erratas **RESUELVE** la discordancia que en revisiones previas se trataba como pendiente. No mantener el número erróneo como referencia de examen.
@@ -66,7 +68,7 @@ El [**BOP de Toledo n.º 246, 28/12/2023, texto del Acuerdo Regulador**](https:/
 > **ACTUALIZACIÓN DOCUMENTAL PRIORITARIA — 09/11/2026.** Recibida y leída una **recopilación de 20 páginas de los Estatutos del OAPGT hasta la reforma de 2011** (SHA-256 `835013e5925a6342178c744449009c431b910d3a82b42000d6dd0aa605f892fb`). El **articulado 1–30 y 8 bis**, disposiciones, composición del **Consejo Rector**, quórums, **mayorías**, competencias y plazos **ya están disponibles** en [guía completa de extracción y contraste](../../diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md). Por tanto, todos los avisos inferiores que afirman «texto íntegro no localizado» son **históricos y están superados**. Aún falta acreditar **eficacia definitiva de reforma inicial 2004**, corrección 1996, ausencia de reformas posteriores y cierre de **Acuerdo Regulador 2023/2025/2026**. **El tema completo sigue en revisión**, sin certificar vigencia estatutaria integral ni E2E.
 
 
-> **Control de fuentes 05/11/2026:** incorporados el **Acuerdo Regulador original BOP 246/2023**, sus modificaciones **enero/febrero 2026** y preceptos estatutarios OAPGT publicados en **2011**. **Pendiente: Estatutos completos consolidados del OAPGT**, por lo que no se certifica composición, quórums ni articulado no acreditado.
+> **Control de fuentes 05/11/2026:** incorporados el **Acuerdo Regulador original BOP 246/2023**, sus modificaciones **enero/febrero 2026** y preceptos estatutarios OAPGT publicados en **2011**. **Nota histórica del 05/11/2026, superada en parte:** la recopilación histórica completa **hasta 2011** se recibió posteriormente; permanece **pendiente demostrar vigencia y consolidación definitivas**, por lo que no se certifican composición, quórums ni articulado que dependa de reformas no acreditadas.
 
 ## Epígrafe oficial
 
