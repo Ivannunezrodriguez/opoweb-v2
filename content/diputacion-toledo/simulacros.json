@@ -1,7 +1,7 @@
 {
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
   "estado": "GENERACION_DESDE_CERO",
-  "version": "2026-11-20",
+  "version": "2026-11-22",
   "simulacros": [
     {
       "id": "DIP-SIM-001",
@@ -563,7 +563,194 @@
           "referencia": "content/diputacion-toledo/tema-40/manual.md"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-004",
+      "titulo": "Repaso transversal 4 · Constitución, organización y régimen local",
+      "duracionMinutos": 18,
+      "preguntas": [
+        {
+          "id": "DIP-SIM-004-Q01",
+          "tema": 1,
+          "pregunta": "Según el artículo 1.1 de la Constitución, ¿cuáles son los valores superiores del ordenamiento jurídico español?",
+          "opciones": [
+            "Legalidad, jerarquía normativa, publicidad e irretroactividad",
+            "Libertad, justicia, igualdad y pluralismo político",
+            "Autonomía, suficiencia financiera, solidaridad y coordinación",
+            "Soberanía, monarquía, representación y unidad"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 1.1 de la Constitución enumera libertad, justicia, igualdad y pluralismo político.",
+          "trampa": "El principio de seguridad jurídica figura en el artículo 9.3, no en la lista de valores superiores.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q02",
+          "tema": 2,
+          "pregunta": "¿Qué derechos incluye expresamente el artículo 53.2 CE en la tutela judicial preferente y sumaria?",
+          "opciones": [
+            "Solo los principios rectores del capítulo III",
+            "Solo los artículos 30 a 38",
+            "El artículo 14 y los derechos de la sección primera del capítulo II",
+            "Todos los derechos del título I sin excepción"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 53.2 menciona el artículo 14 y la sección primera del capítulo II del título I, con eventual amparo constitucional.",
+          "trampa": "El artículo 14 está fuera de esa sección, pero está incluido expresamente.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q03",
+          "tema": 3,
+          "pregunta": "¿Cuál es la duración ordinaria del mandato del Congreso de los Diputados según el artículo 68.4 CE?",
+          "opciones": [
+            "Dos años",
+            "Tres años",
+            "Cuatro años",
+            "Cinco años"
+          ],
+          "correcta": 2,
+          "justificacion": "El Congreso es elegido por cuatro años; su mandato termina a los cuatro años de la elección o el día de disolución de la Cámara.",
+          "trampa": "Los cinco años corresponden al mandato del Defensor del Pueblo, no al Congreso.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q04",
+          "tema": 4,
+          "pregunta": "Si un recusado niega la causa de recusación, ¿en qué plazo resuelve el superior jerárquico conforme al artículo 24.4 de la Ley 40/2015?",
+          "opciones": [
+            "Un día",
+            "Tres días",
+            "Diez días",
+            "Un mes"
+          ],
+          "correcta": 1,
+          "justificacion": "Si el recusado niega la causa, el superior resolverá en el plazo de tres días, tras el informe de aquel.",
+          "trampa": "El recusado manifiesta al superior al día siguiente si concurre la causa; no es el plazo de resolución del superior.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q05",
+          "tema": 7,
+          "pregunta": "Con carácter general, ¿en qué plazo debe cursarse la notificación de un acto administrativo desde que se dicta?",
+          "opciones": [
+            "Cinco días",
+            "Diez días",
+            "Quince días hábiles",
+            "Un mes"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 40.2 de la Ley 39/2015 exige cursar la notificación dentro de los diez días a partir de la fecha en que el acto se haya dictado.",
+          "trampa": "Cursar la notificación en diez días no equivale a plazo general de interposición de recursos.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q06",
+          "tema": 8,
+          "pregunta": "En un procedimiento de declaración de lesividad, ¿cuánto dura el trámite de audiencia a los interesados según la Ley 39/2015?",
+          "opciones": [
+            "Entre 3 y 5 días",
+            "Entre 5 y 7 días",
+            "Entre 10 y 15 días",
+            "Exactamente un mes"
+          ],
+          "correcta": 2,
+          "justificacion": "La audiencia previa del artículo 107.2 se practica conforme al artículo 82, que fija un plazo no inferior a diez días ni superior a quince.",
+          "trampa": "No confundir el plazo de audiencia con el plazo máximo para declarar la lesividad.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q07",
+          "tema": 9,
+          "pregunta": "Una notificación electrónica obligatoria puesta a disposición sin acceso, ¿cuándo se entiende rechazada como regla general?",
+          "opciones": [
+            "A los 5 días hábiles",
+            "A los 10 días naturales",
+            "A los 10 días hábiles",
+            "Al mes"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 43.2 de la Ley 39/2015 establece diez días naturales desde la puesta a disposición sin acceder a su contenido, salvo imposibilidad técnica o material acreditada.",
+          "trampa": "Los diez días son naturales, no hábiles; el aviso de puesta a disposición no sustituye la notificación.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q08",
+          "tema": 10,
+          "pregunta": "En un procedimiento de responsabilidad patrimonial, ¿cuál es el plazo máximo del informe del servicio cuyo funcionamiento habría causado la lesión?",
+          "opciones": [
+            "Cinco días",
+            "Diez días",
+            "Quince días",
+            "Tres meses"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 81.1 de la Ley 39/2015 exige solicitar informe al servicio afectado, que deberá emitirse en un plazo no superior a diez días.",
+          "trampa": "No confundir el plazo del informe del servicio con los plazos generales de resolución del procedimiento.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q09",
+          "tema": 11,
+          "pregunta": "¿Durante qué horario admite presentaciones el registro electrónico general de una Administración?",
+          "opciones": [
+            "Solo durante horas de oficina",
+            "Todos los días del año, durante las 24 horas",
+            "Solo días hábiles, de 9 a 14 horas",
+            "Solo de lunes a viernes hasta las 20 horas"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 31.2.a de la Ley 39/2015 permite presentar documentos en el registro electrónico todos los días del año durante las 24 horas.",
+          "trampa": "La presentación permanente no convierte días inhábiles en hábiles a efectos del cómputo.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q10",
+          "tema": 12,
+          "pregunta": "Según el artículo 137 CE, ¿en qué entidades se organiza territorialmente el Estado?",
+          "opciones": [
+            "Comunidades autónomas y partidos judiciales",
+            "Municipios, provincias y comunidades autónomas que se constituyan",
+            "Provincias y comarcas exclusivamente",
+            "Municipios, distritos y mancomunidades"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 137 CE cita municipios, provincias y comunidades autónomas que se constituyan; todas gozan de autonomía para gestionar sus respectivos intereses.",
+          "trampa": "Las comarcas y mancomunidades no sustituyen a la provincia en la enumeración constitucional.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q11",
+          "tema": 13,
+          "pregunta": "Tras la aprobación inicial del presupuesto local, ¿durante cuántos días se expone al público para examen y reclamaciones?",
+          "opciones": [
+            "Diez días hábiles",
+            "Quince días",
+            "Veinte días naturales",
+            "Treinta días"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 169.1 del TRLRHL establece exposición al público durante quince días, previo anuncio en el boletín provincial, para examen y reclamaciones.",
+          "trampa": "No confundir la exposición presupuestaria con los plazos de otras informaciones públicas.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md"
+        },
+        {
+          "id": "DIP-SIM-004-Q12",
+          "tema": 14,
+          "pregunta": "Según el artículo 46.2.a de la Ley 7/1985, ¿cuánto puede demorarse como máximo la sesión extraordinaria del Pleno solicitada por el número legal de miembros exigido?",
+          "opciones": [
+            "Cinco días naturales",
+            "Diez días naturales",
+            "Quince días hábiles",
+            "Un mes"
+          ],
+          "correcta": 2,
+          "justificacion": "La celebración del Pleno extraordinario solicitado no puede demorarse más de quince días hábiles desde su solicitud.",
+          "trampa": "No confundir la sesión extraordinaria solicitada con la convocatoria ordinaria del Pleno.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Temas y referencias verificados frente al Anexo VII del programa C1. Referencias al manual completo del tema, sin anclas históricas no verificadas. Preguntas propias de entrenamiento, no preguntas oficiales; no implica auditoría jurídica integral de las respuestas."
+  "notaEditorial": "Cuatro repasos propios de 12 preguntas/18 minutos (48 preguntas en 26 de los 40 temas). El cuarto modelo incorpora una pregunta de cada uno de 12 temas antes no representados; referencias a manuales y artículos de legislación estatal. No son exámenes oficiales ni constituyen revisión jurídico-integral de cada banco. El tema 22 OAPGT permanece excluido."
 }

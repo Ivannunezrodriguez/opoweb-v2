@@ -110,14 +110,15 @@
             "Control automatizado de estructura, clasificación y existencia de manuales incorporado al workflow de publicación; Actions #44691823410 SUCCESS.",
             "Advertencia de alcance 14/40 y formato 12 preguntas/18 minutos publicada en centro de entrenamiento; cache actualizado.",
             "Chromium E2E del primer modelo C1 de 12 preguntas, 18 minutos e historial independiente: Actions #44692289280 SUCCESS.",
-            "22/11/2026: fichas focales de temas 2/3 con CE y LO 3/1981 verificables, apartadas de modelo de simulacro; siguen pendientes preguntas/temas 4–40."
+            "22/11/2026: fichas focales de temas 2/3 con CE y LO 3/1981 verificables, apartadas de modelo de simulacro; siguen pendientes preguntas/temas 4–40.",
+            "22/11/2026: cuarto modelo C1 de 12 preguntas/18 minutos sobre 12 temas nuevos (1,2,3,4,7,8,9,10,11,12,13,14), con artículo, explicación y trampa. Cobertura de modelos 26/40, 48 preguntas; sigue fuera tema 22. Prueba de integridad ampliada."
           ],
           "remainingSubsteps": [
             "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
             "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
             "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
           ],
-          "nextAction": "Revisar y ampliar modelos de 12 preguntas a los 26 temas C1 aún sin cobertura temática, priorizando el examen 15/12; cotejar claves jurídicas con BOE."
+          "nextAction": "Continuar por los 14 temas sin representación en los cuatro modelos; verificar clave jurídica contra fuente y no confundir modelo de 12 con examen completo."
         },
         {
           "id": "DIP-C2-01",
@@ -385,14 +386,15 @@
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "22/11/2026: estado de solicitud vencida de Diputación Auxiliar C2 corregido en fuente privada según fecha final ya registrada (19/11); no equivale a auditoría de las 10 fichas pendientes.",
-            "22/11/2026: métricas por fuente recientes leídas/no leídas y subtotal pendientes accionables, con prueba multifuente; no sustituye cotejo de 10 anuncios oficiales."
+            "22/11/2026: métricas por fuente recientes leídas/no leídas y subtotal pendientes accionables, con prueba multifuente; no sustituye cotejo de 10 anuncios oficiales.",
+            "22/11/2026: fotografía verificada de 203 fuentes del rastreo directo, 10 fuentes municipales prioritarias con errores y exploración parcial categorizadas, informe ops/radar-priority-sources-20261122.json, test cruzado contra snapshot. No equivale a 10 convocatorias auditadas."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
             "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
           ],
-          "nextAction": "Cotejar manualmente 10 de los 44 puestos recientes con las fuentes oficiales, incluir fecha de publicación, requisitos, fase real y falsos positivos. No confundir 6/6 fuentes con 100 % de cobertura.",
+          "nextAction": "Auditar 10 anuncios de empleo reales, no solo fuentes: documento, fecha, requisitos, apertura y posible duplicado. Resolver primero accesibilidad de Getafe/Alcorcón/Illescas.",
           "priority": "ALTA"
         },
         {
@@ -521,7 +523,8 @@
             "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear.",
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
-            "22/11/2026: auditoría operativa ahora desglosa por fuente oportunidades recientes sin lectura y separa cuántas tienen puesto accionable; control con datos sintéticos en CI sin filtración de datos de opositores."
+            "22/11/2026: auditoría operativa ahora desglosa por fuente oportunidades recientes sin lectura y separa cuántas tienen puesto accionable; control con datos sintéticos en CI sin filtración de datos de opositores.",
+            "22/11/2026: fuente directa de 203 entradas de estado: 36 ERROR, 124 PARTIAL, 43 READABLE. Priorizadas 10 fuentes (sin afirmar cobertura ni plazos) y añadido test reproducible."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -531,7 +534,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Revisar en el siguiente rastreo las fuentes con mayor recentUnreadActionable; contrastar documentos oficiales concretos y disminuir fallos verificables."
+          "nextAction": "Resolver accesibilidad de Getafe, Alcorcón e Illescas mediante fuentes institucionales alternativas y reducir listados pendientes de Toledo/Diputación; repetir snapshot para medir delta."
         },
         {
           "id": "RAD-13",
@@ -1751,6 +1754,21 @@
         "content/diputacion-toledo/tema-03/ficha-rapida.json"
       ],
       "limit": "No se ha contrastado aún una muestra de 10 convocatorias reales del feed; no se certifica 40/40 fichas ni se ha verificado aún el nuevo SHA en CI."
+    },
+    {
+      "id": "LOG-20261122-DIP-C1-SIM004-RADAR-10-FUENTES",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "RAD-04",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Nuevo cuarto simulacro C1: 12 ítems de 12 temas antes ausentes (26/40). Auditoría técnica reproducible de diez fuentes prioritarias OpoRadar basada en snapshot con 203 resultados.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "No es un examen oficial; no se han auditado diez anuncios reales ni corregido los endpoints externos. La nueva CI debe verificarse."
     }
   ],
   "decisions": [
