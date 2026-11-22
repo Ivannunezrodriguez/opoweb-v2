@@ -12,6 +12,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": 10,
       "ponderacion": null,
       "publicacionBOE": {
@@ -47,6 +51,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": 7,
       "ponderacion": null,
       "publicacionBOE": {
@@ -82,6 +90,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": null,
@@ -109,6 +121,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": {
@@ -140,6 +156,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": {
@@ -171,6 +191,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": null,
@@ -198,6 +222,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": {
@@ -229,6 +257,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": null,
@@ -256,6 +288,10 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": {
@@ -287,6 +323,10 @@
       "expediente": "2860/2026",
       "titulacion": "Graduado en Educación Secundaria Obligatoria o equivalente",
       "permisoConducir": "B vigente, con copia junto a solicitud (exigido expresamente en las bases)",
+      "fase": null,
+      "desglosePlazas": null,
+      "publicacionConvocatoria": null,
+      "fuenteOEP": null,
       "tasa": 30,
       "ponderacion": {
         "oposicion": "75 %",
@@ -325,6 +365,21 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": "OEP_SIN_CONVOCATORIA",
+      "desglosePlazas": {
+        "cupoGeneral": 118,
+        "reservaDiscapacidadGeneral": 9,
+        "reservaDiscapacidadIntelectual": 16
+      },
+      "publicacionConvocatoria": {
+        "limiteExclusivo": "2027-03-31",
+        "nota": "El límite de publicación de convocatoria no es inscripción abierta ni fecha de examen."
+      },
+      "fuenteOEP": {
+        "referencia": "DOCM 223 de 20/11/2026, acuerdo 2026/8357",
+        "url": "https://docm.jccm.es/portaldocm/verArchivoHtml.do?ruta=2026%2F11%2F20%2Fhtml%2F2026_8357.html&tipo=rutaDocm",
+        "anexo": "I, turno libre"
+      },
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": null,
@@ -352,6 +407,21 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": "OEP_SIN_CONVOCATORIA",
+      "desglosePlazas": {
+        "cupoGeneral": 48,
+        "reservaDiscapacidadGeneral": 6,
+        "reservaDiscapacidadIntelectual": 0
+      },
+      "publicacionConvocatoria": {
+        "limiteExclusivo": "2027-03-31",
+        "nota": "El límite de publicación de convocatoria no es inscripción abierta ni fecha de examen."
+      },
+      "fuenteOEP": {
+        "referencia": "DOCM 223 de 20/11/2026, acuerdo 2026/8357",
+        "url": "https://docm.jccm.es/portaldocm/verArchivoHtml.do?ruta=2026%2F11%2F20%2Fhtml%2F2026_8357.html&tipo=rutaDocm",
+        "anexo": "I, turno libre"
+      },
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": null,
@@ -379,6 +449,21 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": "OEP_SIN_CONVOCATORIA",
+      "desglosePlazas": {
+        "cupoGeneral": 23,
+        "reservaDiscapacidadGeneral": 2,
+        "reservaDiscapacidadIntelectual": 0
+      },
+      "publicacionConvocatoria": {
+        "limiteExclusivo": "2027-03-31",
+        "nota": "El límite de publicación de convocatoria no es inscripción abierta ni fecha de examen."
+      },
+      "fuenteOEP": {
+        "referencia": "DOCM 223 de 20/11/2026, acuerdo 2026/8357",
+        "url": "https://docm.jccm.es/portaldocm/verArchivoHtml.do?ruta=2026%2F11%2F20%2Fhtml%2F2026_8357.html&tipo=rutaDocm",
+        "anexo": "I, turno libre"
+      },
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": null,
@@ -406,6 +491,21 @@
       "expediente": null,
       "titulacion": null,
       "permisoConducir": null,
+      "fase": "OEP_SIN_CONVOCATORIA",
+      "desglosePlazas": {
+        "cupoGeneral": 125,
+        "reservaDiscapacidadGeneral": 9,
+        "reservaDiscapacidadIntelectual": 4
+      },
+      "publicacionConvocatoria": {
+        "limiteExclusivo": "2028-11-30",
+        "nota": "El límite de publicación de convocatoria no es inscripción abierta ni fecha de examen."
+      },
+      "fuenteOEP": {
+        "referencia": "DOCM 223 de 20/11/2026, acuerdo 2026/8357",
+        "url": "https://docm.jccm.es/portaldocm/verArchivoHtml.do?ruta=2026%2F11%2F20%2Fhtml%2F2026_8357.html&tipo=rutaDocm",
+        "anexo": "I, turno libre"
+      },
       "tasa": null,
       "ponderacion": null,
       "publicacionBOE": null,
