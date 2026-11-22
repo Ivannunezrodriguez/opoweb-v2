@@ -82,9 +82,15 @@
             "Facilitar acceso parcial previa disociación"
           ],
           "correcta": 3,
-          "justificacion": "Debe aplicarse, cuando sea posible, el acceso parcial mediante disociación u ocultación de la información afectada por límites.",
-          "trampa": "La existencia de datos personales no impide automáticamente todo acceso.",
-          "referencia": "content/diputacion-toledo/tema-28/manual.md"
+          "justificacion": "Cuando la aplicación de un límite del artículo 14 de la Ley 19/2013 no afecta a la totalidad de la información, su artículo 16 permite acceso parcial omitiendo la información afectada, salvo que la parte restante resulte distorsionada o carezca de sentido. Si aparecen datos personales, procede además aplicar las garantías del artículo 15.",
+          "trampa": "El acceso parcial NO es automático si lo restante queda distorsionado o sin sentido; diferenciar los límites del art. 14 de la protección de datos del art. 15.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 19/2013 de transparencia",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+            "article": "art. 16",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-001-Q05",
@@ -97,9 +103,15 @@
             "Importe abonado el año anterior"
           ],
           "correcta": 1,
-          "justificacion": "El valor estimado del contrato se calcula sin IVA e incluye las prestaciones homogéneas, opciones y prórrogas que correspondan.",
+          "justificacion": "Según el artículo 101 LCSP, el valor estimado se calcula sin IVA y teniendo en cuenta el importe total pagadero, las opciones, prórrogas y demás componentes previstos, según el tipo contractual. No es el presupuesto base de licitación (artículo 100).",
           "trampa": "No debe fragmentarse una necesidad homogénea tomando como referencia facturas aisladas.",
-          "referencia": "content/diputacion-toledo/tema-16/manual.md"
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 9/2017 de Contratos del Sector Público",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+            "article": "art. 101",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-001-Q06",
@@ -114,7 +126,13 @@
           "correcta": 3,
           "justificacion": "Existe fraccionamiento indebido cuando se divide artificialmente una unidad contractual para eludir publicidad, concurrencia o el procedimiento legalmente aplicable.",
           "trampa": "La división legítima en lotes no es sinónimo de fraccionamiento ilícito.",
-          "referencia": "content/diputacion-toledo/tema-16/manual.md"
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 9/2017 de Contratos del Sector Público",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+            "article": "art. 99.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-001-Q07",
@@ -144,7 +162,13 @@
           "correcta": 2,
           "justificacion": "Las fases ordinarias son autorización, disposición o compromiso, reconocimiento de la obligación y ordenación del pago.",
           "trampa": "Que determinadas fases puedan acumularse no altera su orden lógico y jurídico.",
-          "referencia": "content/diputacion-toledo/tema-27/manual.md"
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "fuenteNormativa": {
+            "name": "TR Ley Reguladora de las Haciendas Locales",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+            "article": "art. 184",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-001-Q09",
@@ -224,9 +248,15 @@
             "Un informe del proveedor"
           ],
           "correcta": 2,
-          "justificacion": "La existencia de crédito adecuado y suficiente es presupuesto básico para autorizar válidamente un gasto.",
+          "justificacion": "El artículo 173.5 del TRLRHL prohíbe adquirir compromisos de gasto por cuantía superior a los créditos autorizados. Además, la autorización debe ampararse en crédito adecuado y suficiente, conforme al régimen presupuestario aplicable.",
           "trampa": "La necesidad material del gasto no sustituye la cobertura presupuestaria.",
-          "referencia": "content/diputacion-toledo/tema-27/manual.md"
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "fuenteNormativa": {
+            "name": "TR Ley Reguladora de las Haciendas Locales",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+            "article": "art. 173.5",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-002-Q02",
@@ -241,7 +271,13 @@
           "correcta": 0,
           "justificacion": "No pueden adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados.",
           "trampa": "La insuficiencia de crédito no se corrige con la mera recepción de la factura.",
-          "referencia": "content/diputacion-toledo/tema-27/manual.md"
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "fuenteNormativa": {
+            "name": "TR Ley Reguladora de las Haciendas Locales",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+            "article": "art. 173.5",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-002-Q03",
@@ -417,9 +453,15 @@
             "Puede separarse la información accesible de la restringida"
           ],
           "correcta": 3,
-          "justificacion": "Debe facilitarse acceso parcial cuando sea posible separar la información afectada por límites de la restante.",
-          "trampa": "La denegación total debe ser la última opción cuando la información pueda disociarse.",
-          "referencia": "content/diputacion-toledo/tema-28/manual.md"
+          "justificacion": "Cuando la aplicación de un límite del artículo 14 de la Ley 19/2013 no afecta a la totalidad de la información, su artículo 16 permite acceso parcial omitiendo la información afectada, salvo que la parte restante resulte distorsionada o carezca de sentido. Si aparecen datos personales, procede además aplicar las garantías del artículo 15.",
+          "trampa": "El acceso parcial NO es automático si lo restante queda distorsionado o sin sentido; diferenciar los límites del art. 14 de la protección de datos del art. 15.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 19/2013 de transparencia",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+            "article": "art. 16",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-003-Q02",
@@ -1147,5 +1189,5 @@
       ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json."
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial."
 }
