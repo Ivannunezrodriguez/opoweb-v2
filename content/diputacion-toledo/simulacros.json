@@ -21,7 +21,13 @@
           "correcta": 0,
           "justificacion": "La Administración debe requerir a la persona interesada para que subsane la falta o acompañe los documentos preceptivos en el plazo general de diez días.",
           "trampa": "El desistimiento no se produce automáticamente: debe declararse mediante resolución expresa.",
-          "referencia": "content/diputacion-toledo/tema-06/manual.md"
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015, procedimiento administrativo",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "art. 68.1",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-001-Q02",
@@ -36,12 +42,18 @@
           "correcta": 2,
           "justificacion": "Con carácter general, cuando los plazos se señalan por días se entiende que son hábiles, excluyéndose sábados, domingos y festivos.",
           "trampa": "Día hábil no equivale necesariamente a día de apertura física de una oficina.",
-          "referencia": "content/diputacion-toledo/tema-05/manual.md"
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015, procedimiento administrativo",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "art. 30.2",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-001-Q03",
           "tema": 5,
-          "pregunta": "Una presentación realizada en registro electrónico un sábado se entiende efectuada, a efectos del cómputo de plazos, en:",
+          "pregunta": "Una presentación realizada un sábado en el registro electrónico, ¿cuándo se entiende efectuada a efectos del cómputo del plazo del interesado, salvo norma que permita expresamente la recepción en día inhábil?",
           "opciones": [
             "La misma hora del sábado",
             "La primera hora del primer día hábil siguiente",
@@ -49,9 +61,15 @@
             "El siguiente día natural"
           ],
           "correcta": 1,
-          "justificacion": "La presentación en día inhábil se entiende realizada, a efectos del cómputo de plazos, en la primera hora del primer día hábil siguiente.",
-          "trampa": "Que el registro esté disponible las veinticuatro horas no convierte un día inhábil en hábil.",
-          "referencia": "content/diputacion-toledo/tema-05/manual.md"
+          "justificacion": "El artículo 31.2.b de la Ley 39/2015 entiende presentada la documentación en la primera hora del primer día hábil siguiente, salvo norma que permita expresamente la recepción en día inhábil. La plataforma puede recibir el documento los sábados, pero eso no altera por sí solo su cómputo.",
+          "trampa": "Registro disponible 24 horas (art. 31.2.a) no significa que un sábado sea día hábil para el cómputo del interesado (art. 31.2.b).",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 39/2015, procedimiento administrativo",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+            "article": "art. 31.2.b",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-001-Q04",
@@ -363,17 +381,23 @@
         {
           "id": "DIP-SIM-002-Q12",
           "tema": 40,
-          "pregunta": "El límite clásico de FAT32 para un archivo individual es:",
+          "pregunta": "¿Cuál es el tamaño máximo exacto que puede tener un archivo individual en FAT32?",
           "opciones": [
             "2 GB",
             "8 GB",
-            "4 GB",
+            "4 GiB menos 1 byte (4.294.967.295 bytes)",
             "16 GB"
           ],
           "correcta": 2,
-          "justificacion": "FAT32 no admite archivos individuales que alcancen o superen 4 GB.",
-          "trampa": "El límite se refiere al tamaño de cada archivo, no a la capacidad total de la unidad.",
-          "referencia": "content/diputacion-toledo/tema-40/manual.md"
+          "justificacion": "El campo de longitud de archivo FAT32 admite como máximo 2^32−1 bytes, es decir, 4.294.967.295 bytes (4 GiB menos 1 byte). La aproximación habitual «4 GB» no expresa con precisión ese límite.",
+          "trampa": "No confundir GB (decimal) y GiB (binario), tamaño de un archivo y capacidad de la partición. El máximo NO son exactamente 4 GiB.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "fuenteNormativa": {
+            "name": "Microsoft Learn: File System Functionality Comparison",
+            "url": "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison",
+            "article": "Límite de tamaño de archivo FAT32",
+            "estado": "REFERENCIA_FABRICANTE_NO_NORMA_LEGAL"
+          }
         }
       ]
     },
@@ -410,7 +434,13 @@
           "correcta": 1,
           "justificacion": "El presupuesto base de licitación expresa el límite máximo de gasto e incluye normalmente el IVA, mientras que el valor estimado se calcula sin IVA.",
           "trampa": "Valor estimado y presupuesto base de licitación no son magnitudes intercambiables.",
-          "referencia": "content/diputacion-toledo/tema-16/manual.md"
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "fuenteNormativa": {
+            "name": "Ley 9/2017, contratos del sector público",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+            "article": "arts. 100.1 y 101",
+            "estado": "REFERENCIA_CONTRASTADA_NO_AUDITORIA_INTEGRAL"
+          }
         },
         {
           "id": "DIP-SIM-003-Q03",
