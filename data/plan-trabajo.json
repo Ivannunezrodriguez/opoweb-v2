@@ -48,14 +48,15 @@
           "id": "LP-EX-02",
           "title": "Recuperar preguntas ordinarias 5 a 9 y cotejar todas las claves",
           "state": "PARCIAL",
-          "blocker": "Enunciados y opciones 5–9 recuperados y soluciones orientativas justificadas; falta cotejar las 50 claves con la plantilla oficial definitiva, incluida la pregunta 38 sin clave orientativa y la incidencia de la 26.",
+          "blocker": "50 enunciados recuperados; las 50 claves ordinarias y 5 reservas están contrastadas con la plantilla provisional oficial de 16/11/2026. Falta plantilla definitiva del Tribunal y verificar marcas individuales ambiguas de la fotografía antes de acreditar nota personal.",
           "acceptance": "50/50 enunciados legibles, claves revisadas y correspondencia con plantilla definitiva; referencias para dudas.",
           "evidencePaths": [
             "content/la-puebla/examen-real-2026.html"
           ],
-          "nextAction": "Obtener plantilla provisional y definitiva del Tribunal; verificar preguntas 1–50 y reservas, y decidir cómo tratar 26/38 únicamente según documento oficial.",
+          "nextAction": "Cotejar plantilla definitiva cuando esté disponible y resolver anulaciones; completar el examen histórico sin confundir plantilla provisional con definitiva.",
           "completedSubsteps": [
-            "22/11/2026: fotografía de preguntas 5–9 aportada; enunciados/opciones transcritos en el visor. Soluciones orientativas 5 B, 6 A, 7 B, 8 C, 9 A fundamentadas. Aún no equivalen a plantilla oficial."
+            "22/11/2026: fotografía de preguntas 5–9 aportada; enunciados/opciones transcritos en el visor. Soluciones orientativas 5 B, 6 A, 7 B, 8 C, 9 A fundamentadas. Aún no equivalen a plantilla oficial.",
+            "22/11/2026: documento oficial provisional de dos páginas recibido; cotejadas 50/50 claves y 5/5 reservas; incorporadas 26 A y 38 B. CSV eRr82/L69JZqFgLyM4sd."
           ]
         },
         {
@@ -68,10 +69,11 @@
             "https://lapueblademontalban.sedelectronica.es/info.0",
             "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a21"
           ],
-          "blocker": "La sede municipal lista un anuncio de plantilla provisional fechado 16/11/2026, pero su PDF y las claves de la pregunta 26 no han podido verificarse. No consta resolución definitiva. Para cerrar se requiere archivo auténtico de plantilla provisional/definitiva y decisión del Tribunal, sin confundir el análisis jurídico de A/C con anulación.",
-          "nextAction": "Obtener de la sede electrónica municipal el anuncio íntegro de plantilla provisional del 16/11/2026 y la definitiva cuando se publique; cotejar pregunta 26 (alternativas A/C) y reclamaciones según artículo 21 de la Ley 7/1985; actualizar clave solo tras fuente oficial.",
+          "blocker": "Plantilla provisional oficial del 16/11/2026 recibida: Tribunal marca pregunta 26=A; análisis jurídico de la alternativa C permanece como posible incidencia, pero no hay decisión oficial de anulación ni plantilla definitiva.",
+          "nextAction": "Obtener plantilla definitiva y resolución de alegaciones cuando exista; no marcar anulada la 26 sin acuerdo del Tribunal.",
           "completedSubsteps": [
-            "21/11/2026: comprobada en sede municipal referencia a '2º ANUNCIO PLANTILLA PROVISIONAL FIRMADO' fechado 16/11/2026; cotejado plazo literal de cinco días hábiles de BOP Toledo 82/2026, anuncio 1965, y art. 21.1.g/q LRBRL con BOE consolidado. Página de examen actualizada; fecha 23/11 presentada exclusivamente como cómputo condicionado sin calendario municipal ni fecha efectiva del PDF confirmados."
+            "21/11/2026: comprobada en sede municipal referencia a '2º ANUNCIO PLANTILLA PROVISIONAL FIRMADO' fechado 16/11/2026; cotejado plazo literal de cinco días hábiles de BOP Toledo 82/2026, anuncio 1965, y art. 21.1.g/q LRBRL con BOE consolidado. Página de examen actualizada; fecha 23/11 presentada exclusivamente como cómputo condicionado sin calendario municipal ni fecha efectiva del PDF confirmados.",
+            "22/11/2026: plantilla provisional auténtica facilitada; pregunta 26 marcada A, pregunta 38 B; cinco reservas D,D,D,B,A."
           ]
         },
         {
@@ -559,13 +561,15 @@
             "Perfil privado registra tres objetivos y vigilancia quincenal",
             "Automatización existente ampliada con comprobación alterna desde 04/12/2026",
             "20/11/2026: estado OEP diferenciado técnicamente de inscripción, incluso ante fecha importada; visualización pública filtrada como OEP futura.",
-            "22/11/2026: fuente privada incorpora desglose oficial de cupos y fechas límite de publicación en cuatro fichas OEP; no se abre inscripción ni se dan por comprobadas notificaciones."
+            "22/11/2026: fuente privada incorpora desglose oficial de cupos y fechas límite de publicación en cuatro fichas OEP; no se abre inscripción ni se dan por comprobadas notificaciones.",
+            "22/11/2026: añadidas aserciones de exportación pública para tres OEP prioritarias (plazas, cupo general, fechas límite y no inscripción) y cierre de plazo Diputación C2.",
+            "22/11/2026: diagnóstico de Actions 45052820983: error real en validate-public-export por omisión de desglosePlazas del exportador. Se incluyen exclusivamente cupos, fase OEP, fuente y límites públicos, sin trasladar campo de seguimiento reservado ni datos privados."
           ],
           "remainingSubsteps": [
             "Probar exportación pública y distinción entre OEP y convocatoria",
             "Confirmar notificaciones y cambios reales desde fuentes oficiales"
           ],
-          "nextAction": "Confirmar resultado de exportación y CI para el commit de origen privado; después comprobar nuevas convocatorias por fuentes oficiales en fecha prevista, sin reabrir inscripciones por OEP."
+          "nextAction": "Verificar Actions del commit corrector y sincronización de site/main; si ambas son correctas, cerrar subpaso de exportación, manteniendo seguimiento quincenal de convocatorias."
         }
       ],
       "operatingMode": "OPERATIVO_EN_MANTENIMIENTO_CON_BRECHAS_DE_CALIDAD",
@@ -708,7 +712,8 @@
             "Contraste de etiqueta OpoRadar corregido en assets/radar.css; primer axe detectó color-contrast, nueva prueba completa pasó.",
             "La política offline queda protegida con tests de exportación: sw.js se desregistra y no intercepta fetch. No se afirma que la PWA funcione sin red.",
             "Diputación Toledo C1, modelo 1 de 12 preguntas/18 min, historial aislado y aviso de cobertura 14/40 verificados en Chromium #44692289280 SUCCESS.",
-            "21/11/2026: Playwright Chromium + axe del selector de estudio, repaso por tema y opciones verticales superado en el flujo E2E; no acredita móvil físico ni Firefox/Safari."
+            "21/11/2026: Playwright Chromium + axe del selector de estudio, repaso por tema y opciones verticales superado en el flujo E2E; no acredita móvil físico ni Firefox/Safari.",
+            "22/11/2026: identificada prueba obsoleta de exportación que buscaba ausencia de PDF oficial, tras haberse recibido plantilla provisional. Prueba actualizada para exigir CSV, 50 claves, reservas y no atribuir anulación."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -1651,6 +1656,51 @@
         "data/plan-trabajo.json"
       ],
       "limit": "No están verificadas las claves contra Tribunal; 26 y 38 siguen sin clave en el calculador, por lo que todavía no se cierra el examen histórico."
+    },
+    {
+      "id": "LOG-20261122-LP-PLANTILLA-OFICIAL-PROVISIONAL",
+      "at": "2026-11-22",
+      "taskIds": [
+        "LP-EX-02",
+        "LP-EX-03",
+        "LP-EX-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Recibida plantilla provisional oficial firmada 16/11: 50 claves ordinarias y cinco reservas contrastadas e integradas en calculadora.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html",
+        "data/plan-trabajo.json"
+      ],
+      "limit": "No existe aún en el proyecto plantilla definitiva verificada ni confirmación de anulaciones. Nota individual depende de transcripción exacta de hoja de respuestas; no publicar datos personales."
+    },
+    {
+      "id": "LOG-20261122-CI-REGRESION-PLANTILLA-RADAR",
+      "at": "2026-11-22",
+      "taskIds": [
+        "QA-02",
+        "RAD-JCCM-2026"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Reparada expectativa obsoleta de exportación tras plantilla oficial de La Puebla y añadidos controles OEP/fechas de Radar.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html",
+        "data/convocatorias.json"
+      ],
+      "limit": "La validación GitHub Actions del nuevo SHA sigue siendo necesaria; no confundir CI con auditoría jurídica ni E2E."
+    },
+    {
+      "id": "LOG-20261122-REPARACION-EXPORT-OEP",
+      "at": "2026-11-22",
+      "taskIds": [
+        "RAD-JCCM-2026",
+        "QA-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corregida exportación filtrada de cupos y fechas límite OEP que provocaba fallo CI; se mantienen privados los estados personales.",
+      "evidence": [
+        "data/convocatorias.json"
+      ],
+      "limit": "La prueba y la publicación deben comprobarse en el SHA corrector; no certifica vigilancia ni E2E."
     }
   ],
   "decisions": [
