@@ -450,7 +450,8 @@ function validateProgressBackup(payload) {
   const wrongEntries=Object.entries(input.errors);
   if(wrongEntries.length>2000)throw new Error('La copia contiene demasiados errores.');
   for(const [id,v] of wrongEntries){
-    if(!/^[A-Za-z0-9._:-]{1,100}$/.test(id)||!v||
+    if(['__proto__','prototype','constructor'].includes(id)||
+       !/^[A-Za-z0-9._:-]{1,100}$/.test(id)||!v||
       !Number.isInteger(v.count)||v.count<1||v.count>10000||
       !Number.isInteger(v.theme)||v.theme<1||v.theme>activeCall.themeCount)
       throw new Error('Error pendiente no válido en la copia.');
