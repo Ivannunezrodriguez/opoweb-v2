@@ -189,14 +189,15 @@
             "23/11/2026: dos errores reproducibles de validación del plan corregidos: tipo de bitácora de cierre normalizado a VERIFICADO con scope explícito, y nextAction eliminado de OPS-04 HECHO trasladándolo a DIP-C1-01. Revisión de invariante de estados/tipos/IDs/fechas y acciones de tareas cerradas: cero infracciones. No CI verde acreditada.",
             "23/11/2026: nueva huella de versión generada en cada exportación pública (data/estado-publicacion.json): timestamp, hashes SHA-256 de app, radar, programa C1 y feed radar, y conteo automático de 40 fichas y tarjetas. Validador de exportación comprueba integridad de hashes/40 rutas; pipeline coteja blob remoto del manifiesto en site y main.",
             "23/11/2026: exportador crea data/estado-publicacion.json con fecha estable del commit, 40 fichas, tarjetas y SHA-256 de visor, Radar, programa y feed; validador coteja manifiesto con archivos públicos y workflow publica con comprobación de blob remoto. Programada recuperación de publicación diaria 05:37 y 17:37 UTC si push no desencadena Actions, sin diferencias de artefacto para commits idénticos.",
-            "23/11/2026: el usuario aportó el log real de run manual #399: primer error exacto en tests/validate-radar-priority-sources-20261122.mjs, por exigir igualdad de timestamps del informe histórico (13:26Z) y del rastreo posterior (21:08Z). Corregido test con auditoría histórica independiente, comparación estricta solo si snapshotUtc coincide y garantía de URL estable de las diez fuentes. Sus invariantes verificadas con datos actuales; CI pendiente rerun."
+            "23/11/2026: el usuario aportó el log real de run manual #399: primer error exacto en tests/validate-radar-priority-sources-20261122.mjs, por exigir igualdad de timestamps del informe histórico (13:26Z) y del rastreo posterior (21:08Z). Corregido test con auditoría histórica independiente, comparación estricta solo si snapshotUtc coincide y garantía de URL estable de las diez fuentes. Sus invariantes verificadas con datos actuales; CI pendiente rerun.",
+            "23/11/2026: run real #402 aportado por el usuario: nueva prueba Radar histórica pasa, suite C1 de 40 fichas, 361 tarjetas, render runtime y pruebas Radar pasan hasta tests/validate-ficha-rapida-dip-c1-t01-20261121.mjs. Fallaba su aserción heredada de cobertura 3 fichas frente a 40; corregida a cobertura real de 40 con IDs consecutivos, conservando comprobaciones jurídicas focales del tema 1."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Reejecutar workflow publish-public-site.yml tras fix commit 1fc60984, leer primer fallo restante si lo hay; una vez verde, comprobar blobs/huella y plan del 23/11 en opoweb-v2/site. No seguir cambiando infraestructura sin leer logs de nueva ejecución."
+          "nextAction": "Reejecutar publicación desde HEAD que contiene fix(ci) 9813665f; si falla, leer nuevo primer error del run, no inventar resultado. Cuando complete, cotejar opoweb-v2/site/main y fecha pública 23/11."
         },
         {
           "id": "DIP-C2-01",
@@ -2497,6 +2498,17 @@
       "summary": "A partir del log REAL de GitHub Actions #399 se corrigió el bloqueo de publicación en tests/validate-radar-priority-sources-20261122.mjs: el reporte del 22/11 13:26 UTC no debe exigir igualdad exacta con el rastreo actualizado a las 21:08 UTC. Se mantienen coherencia interna, las diez fuentes, la URL vigente y los números estrictos sólo para una misma instantánea. Comprobación de invariantes sobre ambos JSON válida; pendiente nuevo run CI.",
       "evidence": [],
       "limit": "El usuario confirmó fallo en CI por captura y se corrigió la condición, pero no se ha ejecutado aún el workflow con el commit nuevo ni acreditado su resultado."
+    },
+    {
+      "id": "LOG-20261123-PUBLISH-RUN402-FICHAS40-LEGACY",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Log real de GitHub Actions #402: la corrección histórica de OpoRadar ya pasa; las 40 fichas y 361 tarjetas y pruebas funcionales de renderizador pasan; la siguiente falla porque test histórico de T01 seguía exigiendo 3 fichas, corregido a 40 con IDs completos y comprobación focal T01 intacta.",
+      "evidence": [],
+      "limit": "Test actualizado en repositorio; aún falta nueva ejecución CI verde y sincronización pública."
     }
   ],
   "decisions": [
