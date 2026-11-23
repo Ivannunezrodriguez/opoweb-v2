@@ -376,6 +376,45 @@ function connectSmartTraining() {
   refresh();
 }
 
+function renderProgressDetails(progress) {
+  const themeStats=Object.entries(progress.themeStats);
+  const totalAnswered=themeStats.reduce((sum,[,stat])=>sum+(Number(stat.answered)||0),0);
+  const totalCorrect=themeStats.reduce((sum,[,stat])=>sum+(Number(stat.correct)||0),0);
+  const percentage=totalAnswered?Math.round(totalCorrect*100/totalAnswered):0;
+  const opened=progress.openedThemes.length;
+  const wrong=Object.values(progress.errors).filter(value=>Number(value?.count)>0).length;
+  const weak=progress.weakThemes
+    .filter(item=>item.answered>0 && [...questionMap.values()].some(q=>q.tema===item.theme))
+    .slice(0,5);
+  const weakest=weak.length
+    ? '<h3>Temas que conviene reforzar</h3><div class="weak-theme-list">'+
+      weak.map(stat=>{
+        const name=programme.temas.find(t=>t.numero===stat.theme)?.titulo||'';
+        return '<button type="button" class="weak-theme" data-weak-theme="'+stat.theme+'"><span><strong>Tema '+stat.theme+' · '+escapeHtml(name)+'</strong><small>'+stat.correct+'/'+stat.answered+' respuestas correctas acumuladas</small></span><b>'+stat.percentage+'%</b></button>';
+      }).join('')+'</div>'
+    : '<p class="empty-state">Los temas débiles aparecerán cuando corrijas preguntas.</p>';
+  return '<div class="smart-summary" aria-label="Resumen de progreso">'+
+    '<div><span>Temas abiertos</span><strong>'+opened+' / '+activeCall.themeCount+'</strong></div>'+
+    '<div><span>Respuestas corregidas</span><strong>'+totalAnswered+'</strong></div>'+
+    '<div><span>Acierto acumulado</span><strong>'+percentage+'%</strong></div>'+
+    '<div><span>Errores por repasar</span><strong>'+wrong+'</strong></div>'+
+    '</div>'+weakest;
+}
+
+function exportProgressBackup() {
+  const progress=readProgress();
+  const safe={schemaVersion:1,callId:activeCall.id,exportedAt:new Date().toISOString(),progress};
+  const blob=new Blob([JSON.stringify(safe,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement('a');
+  link.href=url;
+  link.download='opoweb-progreso-'+activeCall.id+'.json';
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 function callSelector() {
   return `<label class="search-box convocatoria-selector"><span>Convocatoria</span><select id="practice-call-selector">${CALLS.map(call => `<option value="${call.id}" ${call.id === activeCall.id ? 'selected' : ''}>${escapeHtml(call.label)}</option>`).join('')}</select></label>`;
 }
@@ -407,7 +446,7 @@ function renderHub() {
   app.innerHTML = `
     <section class="panel intro"><div class="intro-row"><div><h2>Centro de entrenamiento · ${escapeHtml(activeCall.shortLabel)}</h2><p>Tests por tema, supuestos prácticos y simulacros con justificación, trampa y referencia.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${supuestos.supuestos.length}</strong><span>supuestos prácticos</span></div><div class="summary-card"><strong>${simulacros.simulacros.length + practicalModels.length}</strong><span>simulacros</span></div><div class="summary-card"><strong>${progress.attempts.length}</strong><span>intentos guardados</span></div></div></section>
     ${examBanner}
-    <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
+    <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div><div class="progress-actions"><button id="backup-progress" class="btn secondary" type="button">Guardar copia JSON</button>${progress.attempts.length || progress.openedThemes.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div></div>${renderProgressDetails(progress)}${renderHistory(progress)}</section>
     ${smartTrainingPanel(progress)}
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? (theme.estado === 'AUDITADO' ? ' · AUDITADO documental' : ' · EN REVISIÓN jurídica') : ''}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
     ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Itinerario específico · 24 apartados de repaso</h2><p>Mapa de los apartados que no tenían preguntas históricas en sus matrices. Reutiliza bancos complementarios sin duplicar los ítems ni contarlos como oficiales.</p><a class="btn secondary" href="uc3m-24-bloques.html">Abrir los 24 apartados y sus repasos</a></section>' : ''}
@@ -424,6 +463,8 @@ function renderHub() {
       app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
     });
   });
+  document.querySelector('#backup-progress')?.addEventListener('click', exportProgressBackup);
+  document.querySelectorAll('[data-weak-theme]').forEach(button=>button.addEventListener('click',()=>startThemeTest(Number(button.dataset.weakTheme))));
   document.querySelector('#reset-progress')?.addEventListener('click', () => {
     if (confirm('¿Borrar el historial de esta convocatoria?')) {
       localStorage.removeItem(activeCall.progressKey);
