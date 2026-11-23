@@ -103,3 +103,9 @@
   outline-offset:2px;
 }
 @media(max-width:720px) { .smart-controls { grid-template-columns:1fr; } }
+
+.progress-actions { display:flex;flex-wrap:wrap;gap:.5rem; }
+.progress-actions .btn { white-space:normal; }
+.smart-summary { grid-template-columns:repeat(4,minmax(0,1fr)); }
+@media(max-width:860px) { .smart-summary { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:620px) { .smart-summary { grid-template-columns:repeat(2,minmax(0,1fr)); } }
