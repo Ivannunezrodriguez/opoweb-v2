@@ -83,9 +83,9 @@
       "id": "la-puebla-auxiliar-2026",
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
       "plazas": 4,
-      "plazasTurnoLibre": null,
-      "subgrupo": null,
-      "regimen": null,
+      "plazasTurnoLibre": 4,
+      "subgrupo": "C2",
+      "regimen": "FUNCIONARIO_CARRERA",
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "expediente": null,
       "titulacion": null,
@@ -94,20 +94,31 @@
       "desglosePlazas": null,
       "publicacionConvocatoria": null,
       "fuenteOEP": null,
-      "tasa": null,
-      "ponderacion": null,
-      "publicacionBOE": null,
-      "publicacionBOP": null,
+      "tasa": 7,
+      "ponderacion": {
+        "oposicion": "80 %",
+        "concurso": "20 %"
+      },
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-11030",
+        "fecha": "2026-05-22",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11030"
+      },
+      "publicacionBOP": {
+        "fecha": "2026-05-05",
+        "numero": 82,
+        "anuncio": "2026/1965"
+      },
       "plazoSolicitudes": {
-        "estado": null,
-        "regla": null,
-        "advertencia": null,
+        "estado": "CERRADO",
+        "regla": "20 días hábiles desde el día siguiente al BOE de 22/05/2026",
+        "advertencia": "La fecha de cierre de instancias no supone la finalización del concurso-oposición. La base 12 prevé bolsa prioritaria para quienes aprueben al menos el primer ejercicio. No confundir esta convocatoria de cuatro plazas con otras convocatorias posteriores del mismo municipio.",
         "hasta": null,
         "fechaConfirmada": null,
         "fechaPrudente": null,
         "fechaTeoricaBOE": null,
-        "bop": null,
-        "boe": null
+        "bop": "20 días hábiles",
+        "boe": "20 días hábiles"
       }
     },
     {
@@ -282,8 +293,8 @@
       "nombre": "Las Ventas con Peña Aguilera · Auxiliar Administrativo C2",
       "plazas": 1,
       "plazasTurnoLibre": null,
-      "subgrupo": null,
-      "regimen": null,
+      "subgrupo": "C2",
+      "regimen": "FUNCIONARIO_CARRERA",
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "expediente": null,
       "titulacion": null,
@@ -293,23 +304,30 @@
       "publicacionConvocatoria": null,
       "fuenteOEP": null,
       "tasa": null,
-      "ponderacion": null,
+      "ponderacion": {
+        "oposicion": "80 puntos de 100",
+        "concurso": "20 puntos de 100"
+      },
       "publicacionBOE": {
         "referencia": "BOE-A-2026-14274",
         "fecha": "2026-07-01",
-        "url": null
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14274"
       },
-      "publicacionBOP": null,
+      "publicacionBOP": {
+        "fecha": "2026-05-14",
+        "numero": 89,
+        "anuncio": "2026/2099"
+      },
       "plazoSolicitudes": {
-        "estado": "CERRADO",
-        "regla": null,
-        "advertencia": null,
+        "estado": "CERRADO_DISCREPANCIA_DOCUMENTAL",
+        "regla": "20 días naturales según BOE y base 3.3 del BOP; el encabezado del BOP dice 20 días hábiles",
+        "advertencia": "Discrepancia interna de la publicación BOP 89/2026: su párrafo introductorio indica 20 días hábiles, mientras que la base 3.3 y el BOE-A-2026-14274 indican 20 días naturales. La fecha 21/07/2026 es el resultado del cómputo de 20 naturales desde 02/07/2026, no una resolución de aclaración municipal. Convocatoria ya cerrada; conservar la discrepancia en la ficha para no presentar como unívoco el texto.",
         "hasta": "2026-07-21",
         "fechaConfirmada": null,
         "fechaPrudente": null,
         "fechaTeoricaBOE": null,
-        "bop": null,
-        "boe": null
+        "bop": "20 días hábiles (introducción); 20 días naturales (base 3.3)",
+        "boe": "20 días naturales"
       }
     },
     {
