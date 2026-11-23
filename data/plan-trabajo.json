@@ -363,38 +363,40 @@
         {
           "id": "STUDY-TEST-01",
           "title": "Tests inteligentes por tema y repetición de errores",
-          "state": "PENDIENTE",
+          "state": "PARCIAL",
           "acceptance": "Elegir paquetes 10/20/50 según preguntas realmente disponibles, reintentar errores persistidos de forma local, respetar puntuación por convocatoria y cotejar respuestas; pruebas E2E escritorio/móvil.",
           "evidencePaths": [
-            "assets/practice.js"
+            "assets/practice.js",
+            "assets/practice-smart.js",
+            "practice.html"
           ],
           "completedSubsteps": [
-            "21/11/2026: motor previo de simulacros, corrección y almacenamiento local existe; opciones A-D en columna ya verificadas. No equivale a modo inteligente implantado."
+            "21/11/2026: motor previo de simulacros, corrección y almacenamiento local existe; opciones A-D en columna ya verificadas. No equivale a modo inteligente implantado.",
+            "23/11/2026: entrega funcional publicada en ambas ramas: selector de tema, test aleatorio 10/20/50 con tamaños según banco, reintento prioritario de errores locales, pregunta sin duplicar y puntuación orientativa proporcional de La Puebla/C1, A-E/3 UC3M/Olías y sin penalización inventada en Diputación C2. Pruebas de unidad ejecutadas y superadas con archivo real del repositorio. Añadido test E2E Chromium desktop/móvil local y Pages, pendiente ejecución verde."
           ],
           "remainingSubsteps": [
-            "Diseñar selección sin repetición ni preguntas inventadas para tamaños superiores al banco existente.",
-            "Implementar reintento de errores, filtros por tema y estadísticas por convocatoria; probar que no se mezclan historiales."
+            "Comprobar resultado SUCCESS de la nueva ejecución de tests/e2e-study-smart-20261123.mjs en Chromium, escritorio y móvil, sobre servidor local y Pages. Después cerrar el ID sin iniciar más implementaciones."
           ],
-          "nextAction": "Inventariar volumen y calidad de bancos reales antes de ofrecer 10/20/50 preguntas y repetición de fallos.",
+          "nextAction": "Ejecutar/revisar E2E automático de entrenamiento inteligente Chromium local y Pages; código de selección 10/20/50 y reintento de errores, calificación por convocatoria, historial e integración de CI ya publicados. Cerrar esta tarea cuando el test de navegador real resulte verde.",
           "priority": "ALTA"
         },
         {
           "id": "STUDY-PROGRESS-01",
           "title": "Panel de progreso de estudio por convocatoria",
-          "state": "PENDIENTE",
+          "state": "HECHO",
           "acceptance": "Mostrar temas abiertos, resultados históricos, aciertos y errores por convocatoria con almacenamiento privado local, sin atribuir progreso no registrado ni exponerlo en exportación pública.",
           "evidencePaths": [
             "assets/practice-progress.css",
-            "assets/practice.js"
+            "assets/practice.js",
+            "practice.html",
+            "assets/practice-smart.js"
           ],
           "completedSubsteps": [
-            "21/11/2026: el historial de intentos por convocatoria existe; un panel global de estudio todavía no está entregado."
+            "21/11/2026: el historial de intentos por convocatoria existe; un panel global de estudio todavía no está entregado.",
+            "23/11/2026: HECHO. Panel funcional por convocatoria con temas abiertos, intentos históricos, acierto acumulado, errores pendientes y ranking de temas débiles con acceso directo al test; almacenamiento local aislado. Respaldo JSON descargable y restauración validada por convocatoria, con confirmación y rechazo de datos externos. Pruebas de lógica y restauración ejecutadas sobre código leído de GitHub, superadas; archivos app/practice/estilos coincidentes en main y site de opoweb-v2. La auditoría E2E transversal permanece en QA-02 y no forma parte de esta tarea cerrada."
           ],
-          "remainingSubsteps": [
-            "Unificar estadísticas desde historiales locales sin migraciones destructivas.",
-            "Añadir exportación o respaldo local opcional y comprobación de privacidad, escritorio/móvil."
-          ],
-          "nextAction": "Mapear claves de almacenamiento local de práctica sin modificar datos guardados; diseñar lectura de estadísticas por convocatoria.",
+          "remainingSubsteps": [],
+          "nextAction": null,
           "priority": "MEDIA"
         }
       ]
@@ -844,7 +846,8 @@
             "21/11/2026: Playwright Chromium + axe del selector de estudio, repaso por tema y opciones verticales superado en el flujo E2E; no acredita móvil físico ni Firefox/Safari.",
             "22/11/2026: identificada prueba obsoleta de exportación que buscaba ausencia de PDF oficial, tras haberse recibido plantilla provisional. Prueba actualizada para exigir CSV, 50 claves, reservas y no atribuir anulación.",
             "22/11/2026: pipeline de exportación/publicación de contenido oficial y OEP SUCCESS en Actions #45054939037/#45054938970; esta prueba no sustituye el E2E Safari/Firefox/móvil físico.",
-            "23/11/2026: test de comportamiento del renderizador añadido a suites y gates de publicación: cinco fichas y rechazo de host imitador. No es todavía un navegador E2E."
+            "23/11/2026: test de comportamiento del renderizador añadido a suites y gates de publicación: cinco fichas y rechazo de host imitador. No es todavía un navegador E2E.",
+            "23/11/2026: añadida prueba E2E de tests inteligentes y panel: entrenamiento 20, repetir 10 errores, simulacro adaptativo 50, exportación/importación local, aislamiento de convocatorias y pantalla móvil de 390 px. Integrada al workflow E2E existente, a correr en Chromium local y Pages."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -853,7 +856,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Con publicación del 23/11 confirmada, ejecutar nuevo E2E Chromium en el sitio público de las fichas C1 de distintos proveedores (BOE/BOP/LibreOffice), simulacros y puntuación; después ampliar teclado/Firefox/WebKit. No reiterar bloqueo de despliegue cerrado.",
+          "nextAction": "Verificar el resultado del workflow e2e-uc3m-browser.yml posterior al 23/11 sobre nueva prueba tests/e2e-study-smart-20261123.mjs; resolver solo fallo real. Ampliación Firefox/WebKit/accesibilidad manual restante independiente.",
           "priority": "ALTA"
         },
         {
@@ -1403,6 +1406,17 @@
         "content/diputacion-toledo/tema-22/ficha-rapida.json"
       ],
       "limit": "Cierre operativo de disponibilidad de fichas, no certificación jurídica integral ni E2E."
+    },
+    {
+      "id": "STUDY-PROGRESS-20261123",
+      "at": "2026-11-23",
+      "title": "Panel privado de progreso: temas, aciertos, errores y copia JSON restaurable",
+      "evidence": [
+        "assets/practice.js",
+        "assets/practice-progress.css",
+        "practice.html"
+      ],
+      "limit": "Disponible y comprobado en pruebas unitarias y archivos publicados; E2E navegador transversal queda en QA-02."
     }
   ],
   "projectPremises": {
@@ -2529,6 +2543,24 @@
         "data/programa-diputacion-administrativo-2026.json"
       ],
       "limit": "La prueba de igualdad corresponde a ocho blobs y a controles del workflow, no a revisión manual de todas las ramas históricas ni a E2E nuevo de C1 sobre el navegador. La rama site se mantiene por la configuración actual de Pages."
+    },
+    {
+      "id": "LOG-20261123-STUDY-SMART-PROGRESS-DELIVERY",
+      "at": "2026-11-23",
+      "taskIds": [
+        "STUDY-PROGRESS-01",
+        "STUDY-TEST-01",
+        "QA-02"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Entrega material y cierre de STUDY-PROGRESS-01: panel de progreso local, abiertos, estadísticas, fallos/temas débiles y copia JSON exportable/restaurable validada. Función de tests inteligentes 10/20/50 y repetir errores publicada con pruebas unitarias pasadas; su ID queda PARCIAL únicamente por verificación E2E Chromium nueva. Cuatro archivos críticos idénticos entre repos privados y públicos main/site.",
+      "evidence": [
+        "assets/practice.js",
+        "assets/practice-smart.js",
+        "assets/practice-progress.css",
+        "practice.html"
+      ],
+      "limit": "El modo inteligente requiere resultado E2E del nuevo workflow para cierre; las pruebas unitarias y sincronización de archivos no equivalen por sí solas a E2E. No afirmar ejecución verde E2E aún."
     }
   ],
   "decisions": [
@@ -2622,7 +2654,8 @@
           "RAD-03",
           "JCCM-2026-01",
           "RAD-JCCM-2026",
-          "STUDY-RECAP-01"
+          "STUDY-RECAP-01",
+          "STUDY-TEST-01"
         ]
       },
       {
@@ -2642,8 +2675,6 @@
         "description": "No ejecutar hasta cerrar lo prioritario; accesibilidad en navegadores adicionales sí tiene alcance concreto.",
         "taskIds": [
           "QA-02",
-          "STUDY-TEST-01",
-          "STUDY-PROGRESS-01",
           "RAD-07",
           "RAD-10",
           "OPS-05"
