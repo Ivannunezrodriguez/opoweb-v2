@@ -190,14 +190,15 @@
             "23/11/2026: nueva huella de versión generada en cada exportación pública (data/estado-publicacion.json): timestamp, hashes SHA-256 de app, radar, programa C1 y feed radar, y conteo automático de 40 fichas y tarjetas. Validador de exportación comprueba integridad de hashes/40 rutas; pipeline coteja blob remoto del manifiesto en site y main.",
             "23/11/2026: exportador crea data/estado-publicacion.json con fecha estable del commit, 40 fichas, tarjetas y SHA-256 de visor, Radar, programa y feed; validador coteja manifiesto con archivos públicos y workflow publica con comprobación de blob remoto. Programada recuperación de publicación diaria 05:37 y 17:37 UTC si push no desencadena Actions, sin diferencias de artefacto para commits idénticos.",
             "23/11/2026: el usuario aportó el log real de run manual #399: primer error exacto en tests/validate-radar-priority-sources-20261122.mjs, por exigir igualdad de timestamps del informe histórico (13:26Z) y del rastreo posterior (21:08Z). Corregido test con auditoría histórica independiente, comparación estricta solo si snapshotUtc coincide y garantía de URL estable de las diez fuentes. Sus invariantes verificadas con datos actuales; CI pendiente rerun.",
-            "23/11/2026: run real #402 aportado por el usuario: nueva prueba Radar histórica pasa, suite C1 de 40 fichas, 361 tarjetas, render runtime y pruebas Radar pasan hasta tests/validate-ficha-rapida-dip-c1-t01-20261121.mjs. Fallaba su aserción heredada de cobertura 3 fichas frente a 40; corregida a cobertura real de 40 con IDs consecutivos, conservando comprobaciones jurídicas focales del tema 1."
+            "23/11/2026: run real #402 aportado por el usuario: nueva prueba Radar histórica pasa, suite C1 de 40 fichas, 361 tarjetas, render runtime y pruebas Radar pasan hasta tests/validate-ficha-rapida-dip-c1-t01-20261121.mjs. Fallaba su aserción heredada de cobertura 3 fichas frente a 40; corregida a cobertura real de 40 con IDs consecutivos, conservando comprobaciones jurídicas focales del tema 1.",
+            "23/11/2026: CIERRE VERIFICADO de incidencia de publicación #399-#402: los runs GitHub Actions #403 y #404 aparecen SUCCESS en captura del usuario, y comprobación GitHub en el repositorio público confirmó plan actualizado 23/11, manifiesto 40 fichas/361 tarjetas, visor actualizado y blobs idénticos en ambas ramas main/site para plan, manifiesto, app.js, index, radar, practice y fichas T01/T40. La preparación del examen del 15/12 sigue abierta."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Reejecutar publicación desde HEAD que contiene fix(ci) 9813665f; si falla, leer nuevo primer error del run, no inventar resultado. Cuando complete, cotejar opoweb-v2/site/main y fecha pública 23/11."
+          "nextAction": "Preparación efectiva del examen C1 del 15/12/2026: validar 40 fichas en flujo completo de navegador y simulacros/penalización con QA-02; priorizar mejora de preguntas y repaso de debilidades. Publicación #403/#404 cerrada, no volver a ejecutar auditoría de sincronización sin cambios."
         },
         {
           "id": "DIP-C2-01",
@@ -349,13 +350,14 @@
             "21/11/2026: piloto Olías T01 verificado en GitHub Actions: E2E Chromium 44904721690 SUCCESS; publicación filtrada 44904755823 SUCCESS y seis fichas de conceptos visibles en JSON público. Queda abierto extender y cotejar el resto de materias.",
             "21/11/2026: segunda ficha estructurada para Diputación de Toledo C1 T01, 8 bloques (TC, art. 159, LOTC art. 9, reforma CE arts. 166-169), con dos fuentes BOE y test de esquema + prueba E2E navegador incorporados. No reabrir el cierre jurídico del manual sin incidencia.",
             "21/11/2026: Diputación C1 T01: publicación SUCCESS run 44905357380 y E2E Chromium SUCCESS run 44905302260, ficha de 8 tarjetas con dos fuentes BOE.",
-            "22/11/2026: nuevas fichas de repaso focal de Diputación C1 T02 y T03; 7 tarjetas cada una basadas en manuales ya existentes y artículos BOE, con fuentes y trampas; prueba de integridad nueva y actualizada para 3/40. Sin certificación global de manuales."
+            "22/11/2026: nuevas fichas de repaso focal de Diputación C1 T02 y T03; 7 tarjetas cada una basadas en manuales ya existentes y artículos BOE, con fuentes y trampas; prueba de integridad nueva y actualizada para 3/40. Sin certificación global de manuales.",
+            "23/11/2026: SUBENTREGA DIPUTACIÓN C1 CERRADA: 40 de 40 fichas rápidas estructuradas (361 tarjetas), ligadas al programa, presentes en ambos repositorios públicos y verificadas en CI #403/#404 con prueba de estructura y renderizador focal. No confundir esta cobertura con certificación legal integral de los manuales ni con cobertura de fichas para los demás itinerarios."
           ],
           "remainingSubsteps": [
             "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
             "Medir y corregir resúmenes demasiado genéricos, truncados o basados solo en primera frase de cada sección."
           ],
-          "nextAction": "Diputación C1: 3/40 fichas rápidas estructuradas verificadas. Los otros 37 temas tienen resumen extractivo, no ficha equivalente; trabajar solo si supera prioridades de examen.",
+          "nextAction": "Diputación C1: 40/40 fichas rápidas estructuradas cerradas; siguientes fichas de otros itinerarios solo cuando la prioridad de examen y radar lo permita. Revisar alcance específico por convocatoria antes de marcar esta tarea transversal HECHO.",
           "priority": "ALTA"
         },
         {
@@ -851,7 +853,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Después de una publicación verde, abrir web pública en Chromium y móvil, comprobar fichas BOE/BOP/LibreOffice, realización de test y puntuación; ampliar Firefox/WebKit, teclado y accesibilidad.",
+          "nextAction": "Con publicación del 23/11 confirmada, ejecutar nuevo E2E Chromium en el sitio público de las fichas C1 de distintos proveedores (BOE/BOP/LibreOffice), simulacros y puntuación; después ampliar teclado/Firefox/WebKit. No reiterar bloqueo de despliegue cerrado.",
           "priority": "ALTA"
         },
         {
@@ -1029,13 +1031,14 @@
           "note": "Se ha completado inventario de metadatos y lectura de fuentes de planificación principales; no se afirma lectura textual de cada uno de los 1.905 blobs.",
           "completedSubsteps": [
             "37/37 informes históricos audit/*.md leídos y reconciliados con los manifiestos y planes",
-            "Comparación de SHA/rutas para 824 públicos y 1081 privados en snapshot inicial"
+            "Comparación de SHA/rutas para 824 públicos y 1081 privados en snapshot inicial",
+            "23/11/2026: revisión de ramas: opoweb-v2 tiene main y site con blobs coincidentes en ocho recursos de publicación críticos, pero GitHub compara las historias con 404 No common ancestor. La publicación declara Pages sobre site y escribe a ambas; NO borrar site ni main hasta migrar configuración de Pages y workflow y verificar E2E tras migración. Se pospone limpieza de ramas históricas hasta contraste de PR y referencias."
           ],
           "remainingSubsteps": [
             "Revisar por riesgo los scripts y pruebas exclusivos del privado, no solo nombres y SHA",
             "Cerrar dependencias nuevas detectadas sin reiniciar temas ya auditados"
           ],
-          "nextAction": "Inventariar scripts/workflows exclusivos del privado por riesgo y detectar dependencias activas; no reexaminar 37 actas históricas ya reconciliadas."
+          "nextAction": "Auditar ramas históricas y dependencias PR antes de borrar; mantener main+site en público porque Pages se sirve desde site y no comparten ancestro aunque los archivos sean iguales. Simplificar a una rama solo mediante migración separada con rollback y prueba de Pages."
         }
       ]
     }
@@ -2509,6 +2512,23 @@
       "summary": "Log real de GitHub Actions #402: la corrección histórica de OpoRadar ya pasa; las 40 fichas y 361 tarjetas y pruebas funcionales de renderizador pasan; la siguiente falla porque test histórico de T01 seguía exigiendo 3 fichas, corregido a 40 con IDs completos y comprobación focal T01 intacta.",
       "evidence": [],
       "limit": "Test actualizado en repositorio; aún falta nueva ejecución CI verde y sincronización pública."
+    },
+    {
+      "id": "LOG-20261123-PUBLISH-403-404-BRANCHES-C1-40-CLOSED",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01",
+        "QA-02",
+        "OPS-05"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Dos runs #403 y #404 de publicación SUCCESS aportados en captura; comprobación GitHub posterior confirma plan público actualizado 23/11 y 40 fichas/361 tarjetas. Se contrastaron ocho blobs entre main/site, iguales. La comparación del historial de las ramas devuelve No common ancestor; no se borra site (Pages actual) ni main. Se cierra subentrega de fichas C1 y la incidencia de despliegue, manteniendo abiertas preparación C1, fichas de otros programas y E2E específico nuevo.",
+      "evidence": [
+        "data/plan-trabajo.json",
+        "data/programa-diputacion-administrativo-2026.json"
+      ],
+      "limit": "La prueba de igualdad corresponde a ocho blobs y a controles del workflow, no a revisión manual de todas las ramas históricas ni a E2E nuevo de C1 sobre el navegador. La rama site se mantiene por la configuración actual de Pages."
     }
   ],
   "decisions": [
@@ -2584,7 +2604,7 @@
     }
   ],
   "executionBoard": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "description": "Vista de ejecución: los HECHO permanecen exclusivamente como historial consultable; no se repiten. Cada tarea abierta pertenece a una sola cola.",
     "lanes": [
       {
