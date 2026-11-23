@@ -138,7 +138,7 @@ function card(o){
    meta('Localidad / destino',o.location)+meta('Tipo',o.kind)+
    (o.vacancies?meta('Plazas',o.vacancies):'')+
    (o.group&&o.group!=='REVISAR'?meta('Grupo',o.group):'')+
-   (o.deadline?meta('Fecha límite de solicitudes',day(o.deadline)):o.trackingDeadline?.disputed?meta('Fecha de cierre','Discrepancia entre fuentes: sin fecha confirmada'):'')+
+   (o.deadline?meta('Fecha límite de solicitudes',day(o.deadline)):o.trackingDeadline?.disputed?meta('Límite prudente / teórico','20/11/2026 · 30/11/2026 (discrepancia oficial)'):'')+
    (o.applicationTerm?meta('Cómputo publicado',o.applicationTerm):'')+
    (o.access?meta('Forma de acceso',o.access):'')+
    (o.qualification?meta('Titulación requerida',o.qualification):'')+
@@ -157,7 +157,7 @@ function card(o){
 function render(){
  const all=entries;
  const asOf=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'});
- const recent=all.filter(x=>x.actionable&&x.state!=='CERRADA'&&x.state!=='CIERRE_PROBABLE'&&ageDays(x.firstSeen,asOf)<=30);
+ const recent=all.filter(x=>x.actionable&&x.state!=='CERRADA'&&ageDays(x.firstSeen,asOf)<=30);
  const actionable=all.filter(x=>x.actionable&&!x.phaseFollowup);
  const confirmed=actionable.filter(x=>x.state==='PLAZO_ABIERTO');
  const discarded=all.filter(x=>x.phaseFollowup);
