@@ -104,7 +104,7 @@ function initTheme() {
 }
 
 function emptyProgress() {
-  return { attempts: [], errors: {}, themeStats: {} };
+  return { attempts: [], errors: {}, themeStats: {}, openedThemes: [] };
 }
 
 function readProgress() {
@@ -115,7 +115,8 @@ function readProgress() {
       return {
         attempts: Array.isArray(value.attempts) ? value.attempts : [],
         errors: value.errors && typeof value.errors === 'object' ? value.errors : {},
-        themeStats: value.themeStats && typeof value.themeStats === 'object' ? value.themeStats : {}
+        themeStats: value.themeStats && typeof value.themeStats === 'object' ? value.themeStats : {},
+        openedThemes: Array.isArray(value.openedThemes) ? value.openedThemes.filter(n => Number.isInteger(n) && n >= 1 && n <= activeCall.themeCount) : []
       };
     }
     if (activeCall.legacyProgressKey) {
@@ -128,6 +129,15 @@ function readProgress() {
 
 function writeProgress(progress) {
   localStorage.setItem(activeCall.progressKey, JSON.stringify(progress));
+}
+
+function markThemeOpened(theme) {
+  if(!Number.isInteger(theme) || theme < 1 || theme > activeCall.themeCount) return;
+  const progress=readProgress();
+  if(progress.openedThemes.includes(theme))return;
+  progress.openedThemes.push(theme);
+  progress.openedThemes.sort((a,b)=>a-b);
+  writeProgress(progress);
 }
 
 function themeFromQuestion(question) {
@@ -359,6 +369,7 @@ function connectSmartTraining() {
       refresh();return;
     }
     const chosen=chooseSmartQuestions(pool,{size,mode,errors:progress.errors});
+    if(theme!==null)markThemeOpened(theme);
     const title=`${mode==='errors'?'Repaso de errores':'Test inteligente'} · ${theme===null?'todos los temas':'Tema '+theme} · ${size} preguntas`;
     renderExercise(chosen,title,`SMART-${activeCall.id}-${mode}-${theme??'all'}-${Date.now()}`,'inteligente');
   });
@@ -460,6 +471,7 @@ function renderHub() {
 
 function startThemeTest(theme) {
   const questions = [...questionMap.values()].filter(question => question.tema === theme);
+  if(questions.length)markThemeOpened(theme);
   if (!questions.length) {
     renderHub();
     const warning = document.createElement('p');
