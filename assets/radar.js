@@ -179,6 +179,17 @@ function render(){
  const directCoverage=directStatuses.length
    ?'Rastreo directo: '+directReadable+' legibles, '+directPartial+' parciales y '+directErrors+' con error ('+directStatuses.length+' estados).'
    :'El estado del rastreo municipal directo no está disponible.';
+ const blockedSources=directStatuses.filter(x=>x.status==='ERROR');
+ const linkOfficialSource=x=>{
+   const url=String(x.url||'');
+   if(!/^https?:\/\/[^\s/?#]+(?:[/?#]|$)/i.test(url))return esc(x.source||'Fuente sin identificar');
+   return '<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.source||'Fuente sin identificar')+'</a>';
+ };
+ const unreadableSources=blockedSources.length
+   ?'<details class="radar-source-errors"><summary>Fuentes no comprobadas individualmente ('+blockedSources.length+')</summary>'+
+    '<p>El rastreador no pudo leer estos portales. Esto <strong>no significa que no existan convocatorias</strong>. Consulta la fuente oficial directamente cuando necesites comprobar una oportunidad.</p>'+
+    '<ul>'+blockedSources.map(x=>'<li>'+linkOfficialSource(x)+'</li>').join('')+'</ul></details>'
+   :'';
  const scopeFallback={
   'DIRECT':'Sedes configuradas y directorio municipal; cobertura desigual',
   'BOE':'Sumarios de los últimos siete días',
@@ -230,6 +241,7 @@ function render(){
  historicalDocPending>0?'<p class="notice warning">Cobertura documental acumulada: <strong>'+historicalDocRead+' de '+all.length+' registros ('+historicalDocPct+'%)</strong> tienen constancia de lectura automática; <strong>'+historicalDocPending+'</strong> no la tienen, incluidos <strong>'+recentWithoutDocument+'</strong> detectados en los últimos 21 días. Una lectura automática no certifica que el anuncio sea una convocatoria nueva, ni que se hayan comprobado sus requisitos y plazos. Comprueba siempre las bases oficiales.</p>':'',
  lowDocumentCoverage?'<p class="notice warning">Extracción documental limitada: se obtuvo texto de '+docsRead+' de '+docsAttempted+' documentos, pero solo '+docsWithDetails+' aportaron algún dato estructurado. Lectura técnica no equivale a requisitos y plazos comprobados; consulta las bases oficiales.</p>':'',
  directHasGaps?'<p class="notice warning">'+esc(directCoverage)+' El radar no cubre de forma completa todas estas fuentes; contrasta también las sedes y boletines oficiales.</p>':'',
+ unreadableSources,
  !directStatuses.length?'<p class="notice warning">'+esc(directCoverage)+' No se puede certificar cobertura municipal.</p>':'',
  (crawlOld||crawlUnavailable)?'<p class="notice warning">Rastreo local: '+esc(crawlDate?day(crawlDate):'fecha no disponible')+'. '+(crawlUnavailable?'No consta una ejecución directa válida en la última actualización. ':'')+(crawlOld?'La medición local no está fechada o tiene más de 3 días. ':'')+'Verifica anuncios y plazos en sedes oficiales.</p>':'',
  '</div><div class="radar-stats">',
