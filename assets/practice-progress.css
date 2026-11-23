@@ -83,3 +83,23 @@
   .history-item,
   .weak-theme { align-items: flex-start; }
 }
+/* Entrenamiento inteligente: controles legibles en escritorio y móvil. */
+.smart-controls {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:.8rem;
+  margin:1rem 0;
+}
+.smart-controls label { display:grid;gap:.35rem;font-weight:600;min-width:0; }
+.smart-controls select {
+  width:100%;max-width:100%;min-width:0;
+  border:1px solid var(--border-soft);
+  background:var(--surface);color:var(--text);
+  border-radius:8px;padding:.65rem;
+  font:inherit;font-weight:400;
+}
+.smart-controls select:focus-visible {
+  outline:3px solid var(--primary);
+  outline-offset:2px;
+}
+@media(max-width:720px) { .smart-controls { grid-template-columns:1fr; } }
