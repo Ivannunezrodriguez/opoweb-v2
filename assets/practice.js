@@ -1,3 +1,5 @@
+import {smartPool,smartSizeOptions,chooseSmartQuestions,smartScore} from './practice-smart.js';
+
 const app = document.querySelector('#practice-app');
 const THEME_KEY = 'opoweb-theme';
 const SELECTED_CALL_KEY = 'opoweb-selected-convocatoria';
@@ -309,6 +311,60 @@ function renderHistory(progress) {
   return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.notaDirecta != null ? `${Number(item.notaDirecta).toFixed(2).replace('.', ',')}/${item.total} directa` : `${item.correct}/${item.total} · ${item.percentage}%`}`}</b></article>`).join('')}</div>`;
 }
 
+function smartTrainingPanel(progress) {
+  const available=questionMap.size;
+  const failures=smartPool([...questionMap.values()],{mode:'errors',errors:progress.errors}).length;
+  return `<section class="panel" id="smart-training"><h2>Entrenamiento inteligente</h2>
+    <p>Selecciona un tema o mezcla varios. Práctica con preguntas reales y sin repetir. Repite los errores guardados hasta acertarlos; todo queda en este navegador y solo en esta convocatoria.</p>
+    <div class="smart-controls">
+      <label>Tema <select id="smart-theme"><option value="all">Todos los temas disponibles</option>${programme.temas.filter(t=>[...questionMap.values()].some(q=>q.tema===t.numero)).map(t=>`<option value="${t.numero}">Tema ${t.numero} · ${escapeHtml(t.titulo)}</option>`).join('')}</select></label>
+      <label>Tipo <select id="smart-mode"><option value="mix">Test aleatorio sin duplicados</option><option value="errors">Repetir errores pendientes (${failures})</option></select></label>
+      <label>Preguntas <select id="smart-count"></select></label>
+    </div>
+    <p class="search-count" id="smart-availability" role="status">${available} preguntas reales disponibles en esta convocatoria.</p>
+    <button id="smart-start" class="btn" type="button">Iniciar test inteligente</button>
+    <p class="small">La puntuación es orientativa: aplica la penalización conocida cuando corresponde. No confunde un test reducido con un examen oficial ni incluye preguntas apartadas del banco.</p>
+  </section>`;
+}
+
+function connectSmartTraining() {
+  const themeInput=document.querySelector('#smart-theme');
+  const modeInput=document.querySelector('#smart-mode');
+  const sizeInput=document.querySelector('#smart-count');
+  const startButton=document.querySelector('#smart-start');
+  const availability=document.querySelector('#smart-availability');
+  if(!themeInput||!modeInput||!sizeInput||!startButton)return;
+  const refresh=()=>{
+    const theme=themeInput.value==='all'?null:Number(themeInput.value);
+    const mode=modeInput.value;
+    const pool=smartPool([...questionMap.values()],{theme,mode,errors:readProgress().errors});
+    const sizes=smartSizeOptions(pool.length);
+    const previous=Number(sizeInput.value);
+    sizeInput.innerHTML=sizes.map(n=>`<option value="${n}">${n} preguntas</option>`).join('');
+    if(sizes.includes(previous))sizeInput.value=String(previous);
+    startButton.disabled=!pool.length;
+    availability.textContent=pool.length
+      ? `${pool.length} preguntas diferentes disponibles. ${mode==='errors'?'Los fallos repetidos tienen prioridad.':'Selección aleatoria en cada intento.'}`
+      : (mode==='errors'?'No tienes errores pendientes en este tema. Corrige un test o elige otro tema.':'No hay preguntas evaluables para esta selección.');
+  };
+  themeInput.addEventListener('change',refresh);
+  modeInput.addEventListener('change',refresh);
+  startButton.addEventListener('click',()=>{
+    const theme=themeInput.value==='all'?null:Number(themeInput.value);
+    const mode=modeInput.value;
+    const progress=readProgress();
+    const pool=smartPool([...questionMap.values()],{theme,mode,errors:progress.errors});
+    const size=Number(sizeInput.value);
+    if(!smartSizeOptions(pool.length).includes(size)){
+      refresh();return;
+    }
+    const chosen=chooseSmartQuestions(pool,{size,mode,errors:progress.errors});
+    const title=`${mode==='errors'?'Repaso de errores':'Test inteligente'} · ${theme===null?'todos los temas':'Tema '+theme} · ${size} preguntas`;
+    renderExercise(chosen,title,`SMART-${activeCall.id}-${mode}-${theme??'all'}-${Date.now()}`,'inteligente');
+  });
+  refresh();
+}
+
 function callSelector() {
   return `<label class="search-box convocatoria-selector"><span>Convocatoria</span><select id="practice-call-selector">${CALLS.map(call => `<option value="${call.id}" ${call.id === activeCall.id ? 'selected' : ''}>${escapeHtml(call.label)}</option>`).join('')}</select></label>`;
 }
@@ -341,6 +397,7 @@ function renderHub() {
     <section class="panel intro"><div class="intro-row"><div><h2>Centro de entrenamiento · ${escapeHtml(activeCall.shortLabel)}</h2><p>Tests por tema, supuestos prácticos y simulacros con justificación, trampa y referencia.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${supuestos.supuestos.length}</strong><span>supuestos prácticos</span></div><div class="summary-card"><strong>${simulacros.simulacros.length + practicalModels.length}</strong><span>simulacros</span></div><div class="summary-card"><strong>${progress.attempts.length}</strong><span>intentos guardados</span></div></div></section>
     ${examBanner}
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
+    ${smartTrainingPanel(progress)}
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? (theme.estado === 'AUDITADO' ? ' · AUDITADO documental' : ' · EN REVISIÓN jurídica') : ''}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
     ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Itinerario específico · 24 apartados de repaso</h2><p>Mapa de los apartados que no tenían preguntas históricas en sus matrices. Reutiliza bancos complementarios sin duplicar los ítems ni contarlos como oficiales.</p><a class="btn secondary" href="uc3m-24-bloques.html">Abrir los 24 apartados y sus repasos</a></section>' : ''}
     ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Repaso exprés · antes del examen</h2><p><strong>30 preguntas en 30 minutos</strong>, desde los temas 2 a 20, con penalización de <strong>−1/3</strong> por error. Es un entrenamiento original que reutiliza bancos existentes, no un examen oficial ni una predicción de nota de corte.</p><button type="button" class="btn" id="uc3m-quick-review">Empezar repaso exprés (30 min)</button></section>' : ''}
@@ -363,6 +420,7 @@ function renderHub() {
       renderHub();
     }
   });
+  connectSmartTraining();
   document.querySelectorAll('[data-theme-test]').forEach(button => button.addEventListener('click', () => startThemeTest(Number(button.dataset.themeTest))));
   document.querySelector('#uc3m-quick-review')?.addEventListener('click', () => {
     const questions = buildUC3MQuickReview();
