@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 31 · Ley 6/2020 y servicios electrónicos de confianza",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-31/manual.md",
+  "source": {
+    "label": "Ley 6/2020, servicios electrónicos de confianza",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+  },
+  "additionalSources": [
+    {
+      "label": "Reglamento eIDAS UE 910/2014",
+      "url": "https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
+    },
+    {
+      "label": "Ley 39/2015 identificación y firma",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Firma electrónica simple, avanzada y cualificada",
+      "articles": "Reglamento eIDAS arts. 25 y 26",
+      "fact": "La cualificada reúne requisitos de firma avanzada, certificado cualificado y dispositivo cualificado de creación.",
+      "trap": "No toda firma electrónica equivale automáticamente a la manuscrita."
+    },
+    {
+      "title": "Efecto de firma cualificada",
+      "articles": "eIDAS art. 25.2",
+      "fact": "La firma electrónica cualificada produce efecto jurídico equivalente a firma manuscrita.",
+      "trap": "Una firma no cualificada puede tener efecto probatorio sin esa equivalencia automática."
+    },
+    {
+      "title": "Firma y sello",
+      "articles": "Reglamento eIDAS art. 3",
+      "fact": "Firma vinculada a firmante persona física; sello electrónico vinculado a persona jurídica creadora del sello.",
+      "trap": "Un certificado de sello no es idéntico a una firma del empleado."
+    },
+    {
+      "title": "Vigencia certificados cualificados",
+      "articles": "Ley 6/2020 art. 4.2",
+      "fact": "Período de vigencia no superior a cinco años.",
+      "trap": "Máximo legal no equivale a que todos duren exactamente cinco años."
+    },
+    {
+      "title": "Conservación de evidencias",
+      "articles": "Ley 6/2020 art. 9.3.a",
+      "fact": "Prestadores cualificados conservan información pertinente durante quince años desde extinción de certificado o finalización de servicio, en términos de la norma.",
+      "trap": "Quince años de conservación no son duración del certificado."
+    },
+    {
+      "title": "Responsabilidad civil y cese",
+      "articles": "Ley 6/2020 art. 9.3.b–c",
+      "fact": "Se prevé cobertura financiera mínima de 1.500.000 euros y 500.000 adicionales por tipo de servicio, con excepciones; preaviso de cese de al menos dos meses.",
+      "trap": "No aplicar regla de seguro sin considerar excepción a prestadores públicos."
+    },
+    {
+      "title": "Firma en procedimiento administrativo",
+      "articles": "Ley 39/2015 art. 11.2",
+      "fact": "Firma exigida entre otros actos para solicitudes, recursos, desistimiento y renuncia a derechos.",
+      "trap": "Identificación y firma no son la misma actuación."
+    },
+    {
+      "title": "CSV frente a certificado",
+      "articles": "Ley 40/2015 art. 42; RD 203/2021",
+      "fact": "Código seguro de verificación permite contrastar autenticidad de acto en sede; los certificados vinculan identidad y datos de validación.",
+      "trap": "El CSV no equivale por sí solo a firma personal del interesado."
+    },
+    {
+      "title": "Nuevos servicios de eIDAS 2",
+      "articles": "Reglamento (UE) 2024/1183",
+      "fact": "Incorpora identidad digital europea, declaraciones electrónicas de atributos, archivo electrónico y libros mayores electrónicos, entre otros.",
+      "trap": "No limitar catálogo de confianza exclusivamente a firmas y certificados."
+    }
+  ],
+  "editorialNote": "Ficha focal basada en manual y fuentes de referencia; pendiente cotejo integral de alternativas, integración web y pruebas técnicas E2E."
+}

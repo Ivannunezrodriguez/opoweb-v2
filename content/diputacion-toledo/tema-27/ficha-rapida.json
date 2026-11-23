@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 27 · Presupuesto local: elaboración, bases, aprobación y prórroga",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-27/manual.md",
+  "source": {
+    "label": "TRLRHL, RDL 2/2004",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+  },
+  "additionalSources": [
+    {
+      "label": "RD 500/1990, presupuestos locales",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1990-9664"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Concepto de presupuesto",
+      "articles": "TRLRHL, art. 162",
+      "fact": "Expresión cifrada conjunta y sistemática de las obligaciones máximas y derechos previstos de entidad y organismos, y previsiones de sociedades íntegramente locales.",
+      "trap": "Los ingresos son previsiones; los créditos de gasto limitan las obligaciones."
+    },
+    {
+      "title": "Integración",
+      "articles": "TRLRHL, art. 164",
+      "fact": "Presupuesto de entidad local, de organismos autónomos y estados de previsión de sociedades mercantiles de capital íntegramente local.",
+      "trap": "Presupuesto general no es solo el presupuesto propio de la Diputación."
+    },
+    {
+      "title": "Bases de ejecución",
+      "articles": "TRLRHL, art. 165.1",
+      "fact": "Adaptan disposiciones presupuestarias generales a organización local, sin modificar legislación ni introducir preceptos ajenos a presupuesto.",
+      "trap": "Una base de ejecución no puede derogar norma presupuestaria superior."
+    },
+    {
+      "title": "Documentos integrantes",
+      "articles": "TRLRHL, art. 168.1",
+      "fact": "Se adjuntan memoria, liquidación anterior y avance del corriente de al menos seis meses, anexos e informe económico-financiero.",
+      "trap": "El avance del ejercicio corriente no es necesariamente de todo el año."
+    },
+    {
+      "title": "Remisión por entes dependientes",
+      "articles": "TRLRHL, art. 168.2–3",
+      "fact": "Organismos autónomos y sociedades comprendidas remiten documentación antes del 15 de septiembre.",
+      "trap": "No confundir con remisión del proyecto general al Pleno el 15 de octubre."
+    },
+    {
+      "title": "Formación y aprobación",
+      "articles": "TRLRHL, arts. 168.4–5 y 169",
+      "fact": "La Presidencia forma presupuesto informado por Intervención, remite al Pleno antes del 15 de octubre; Pleno aprueba mediante acuerdo único.",
+      "trap": "Intervención emite informe: no ejerce la competencia de aprobación."
+    },
+    {
+      "title": "Exposición y reclamaciones",
+      "articles": "TRLRHL, art. 169.1",
+      "fact": "Exposición pública por quince días; sin reclamaciones, aprobación definitiva; con ellas, Pleno dispone de un mes para resolver.",
+      "trap": "No confundir plazo de exposición con plazo de resolver reclamaciones."
+    },
+    {
+      "title": "Aprobación definitiva y prórroga",
+      "articles": "TRLRHL, art. 169.2 y 6",
+      "fact": "Aprobación definitiva antes del 31 de diciembre; si el nuevo presupuesto no entra en vigor al comenzar año, se prorroga automáticamente el anterior con límites.",
+      "trap": "Prórroga no es renovación íntegra de todos los créditos."
+    }
+  ],
+  "editorialNote": "Ficha focal: datos de examen cotejados con el manual y fuentes oficiales de referencia, sin certificación integral del banco ni pruebas E2E."
+}

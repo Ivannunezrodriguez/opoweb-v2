@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 16 · Contratación pública local: órganos, garantías, ejecución y revisión",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-16/manual.md",
+  "source": {
+    "label": "Ley 9/2017 de Contratos del Sector Público",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 7/1985 régimen local",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Órgano de contratación local",
+      "articles": "LCSP disposición adicional segunda",
+      "fact": "Con carácter general, Alcaldía o Presidencia dentro de límites del 10 % de recursos ordinarios y 6 millones de euros; Pleno en los casos no atribuidos a aquella, con especialidades legales.",
+      "trap": "En municipios de gran población hay especialidad de Junta de Gobierno Local."
+    },
+    {
+      "title": "Valor estimado y presupuesto base",
+      "articles": "LCSP arts. 100–101",
+      "fact": "El valor estimado se calcula sin IVA; el presupuesto base de licitación contempla IVA desglosado cuando proceda.",
+      "trap": "No seleccionar procedimiento contractual usando únicamente el total de factura con IVA."
+    },
+    {
+      "title": "Fraccionamiento",
+      "articles": "LCSP art. 99.2",
+      "fact": "No puede fraccionarse el contrato para disminuir su cuantía y eludir publicidad o procedimiento de adjudicación.",
+      "trap": "La división legal en lotes no es fraccionamiento ilícito."
+    },
+    {
+      "title": "Mesa de contratación",
+      "articles": "LCSP arts. 326 y DA 2.ª",
+      "fact": "La mesa presta asistencia al órgano de contratación y formula propuestas según el procedimiento.",
+      "trap": "No atribuir a la mesa potestad general para adjudicar."
+    },
+    {
+      "title": "Garantías provisional y definitiva",
+      "articles": "LCSP arts. 106–107",
+      "fact": "La provisional es excepcional y su límite ordinario es 3 % del presupuesto base sin IVA; la definitiva normalmente 5 % del precio final ofertado sin IVA.",
+      "trap": "Distinguir base de cálculo y no sumar automáticamente ambas garantías."
+    },
+    {
+      "title": "Garantía complementaria",
+      "articles": "LCSP art. 107.2",
+      "fact": "En supuestos especiales cabe garantía complementaria de hasta otro 5 % del precio final ofertado, con garantía total de hasta 10 %.",
+      "trap": "El 10 % no es la garantía definitiva exigida de modo general."
+    },
+    {
+      "title": "Modificación prevista",
+      "articles": "LCSP art. 204",
+      "fact": "Debe contemplarse de manera clara, precisa e inequívoca en pliegos; máximo acumulado del 20 % del precio inicial según régimen del artículo.",
+      "trap": "Una modificación no puede cambiar la naturaleza global contractual."
+    },
+    {
+      "title": "Revisión de precios",
+      "articles": "LCSP art. 103.5",
+      "fact": "Como regla general deben transcurrir un año desde formalización y ejecutarse al menos 20 % del importe, con excepciones legales.",
+      "trap": "No usar el dato antiguo de dos años ni aplicar sin examinar excepciones del artículo."
+    },
+    {
+      "title": "Pago al contratista",
+      "articles": "LCSP art. 198.4",
+      "fact": "La Administración debe abonar el precio dentro de 30 días siguientes a la aprobación de certificaciones o documentos de conformidad conforme a los requisitos legales.",
+      "trap": "No contar siempre desde fecha de la factura sin atender al acto de conformidad."
+    },
+    {
+      "title": "Suspensión y extinción",
+      "articles": "LCSP arts. 208–213",
+      "fact": "La suspensión documenta paralización e indemnizaciones legalmente debidas; la extinción se produce por cumplimiento o resolución en los casos legales.",
+      "trap": "Suspender no extingue automáticamente el contrato."
+    }
+  ],
+  "editorialNote": "Ficha de repaso focal contrastada contra manual y fuentes documentadas. No acredita auditoría jurídica integral del banco ni prueba E2E."
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 20 · Contrato de trabajo, modificaciones, suspensiones y extinción",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-20/manual.md",
+  "source": {
+    "label": "Estatuto de los Trabajadores, RDL 2/2015",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+  },
+  "additionalSources": [],
+  "cards": [
+    {
+      "title": "Elementos del contrato",
+      "articles": "ET arts. 1 y 3",
+      "fact": "Prestación voluntaria de servicios retribuidos por cuenta ajena bajo dirección y organización de empleador, según fuentes laborales.",
+      "trap": "No exigir siempre contrato escrito para reconocer la relación laboral."
+    },
+    {
+      "title": "Forma y presunción",
+      "articles": "ET art. 8",
+      "fact": "La falta de forma escrita cuando sea legalmente exigida origina presunción de contrato indefinido y a jornada completa, salvo prueba en contrario.",
+      "trap": "No implica nulidad automática del vínculo."
+    },
+    {
+      "title": "Salario en especie",
+      "articles": "ET art. 26.1",
+      "fact": "No puede superar el 30 % de percepciones salariales ni reducir dinero por debajo de salario mínimo.",
+      "trap": "No incluir indiscriminadamente indemnizaciones extrasalariales como salario."
+    },
+    {
+      "title": "Movilidad funcional",
+      "articles": "ET art. 39",
+      "fact": "Para funciones superiores, más de 6 meses en 1 año u 8 meses en 2 años puede permitir reclamar ascenso conforme a requisitos y convenio.",
+      "trap": "No todas las funciones superiores dan ascenso automático."
+    },
+    {
+      "title": "Traslado",
+      "articles": "ET art. 40.1",
+      "fact": "Preaviso individual al menos 30 días; opción de extinción indemnizada de 20 días por año hasta 12 mensualidades cuando proceda.",
+      "trap": "Traslado requiere cambio de residencia; no confundir con simple desplazamiento."
+    },
+    {
+      "title": "Desplazamiento",
+      "articles": "ET art. 40.6",
+      "fact": "Desplazamiento temporal con gastos y dietas; por duración superior a tres meses existe permiso de cuatro días laborables por cada tres meses de desplazamiento, en términos legales.",
+      "trap": "Traslado y desplazamiento tienen derechos distintos."
+    },
+    {
+      "title": "Modificación sustancial",
+      "articles": "ET art. 41.3",
+      "fact": "Decisión individual notificada con antelación mínima de 15 días; extinción indemnizada en casos legales: 20 días por año, máximo 9 mensualidades.",
+      "trap": "No confundir tope de 9 mensualidades con 12 del traslado."
+    },
+    {
+      "title": "Suspensión",
+      "articles": "ET arts. 45–48",
+      "fact": "Interrumpe obligaciones recíprocas principales de trabajar y remunerar, sin finalizar relación laboral.",
+      "trap": "No confundir con extinción del contrato."
+    },
+    {
+      "title": "Despido objetivo",
+      "articles": "ET arts. 52–53",
+      "fact": "Como regla: comunicación escrita, indemnización 20 días por año con máximo 12 mensualidades y preaviso 15 días; licencia de 6 horas semanales para buscar empleo.",
+      "trap": "No aplicar automáticamente las reglas del despido disciplinario."
+    },
+    {
+      "title": "Despido improcedente",
+      "articles": "ET art. 56",
+      "fact": "Indemnización general de 33 días por año con límite de 24 mensualidades, sujeto a régimen transitorio para antigüedad anterior a febrero de 2012.",
+      "trap": "No olvidar régimen transitorio para contratos anteriores a 12/02/2012."
+    }
+  ],
+  "editorialNote": "Tarjetas focalizadas en trampas normativas. Auditoría completa de distractores y pruebas E2E pendientes."
+}

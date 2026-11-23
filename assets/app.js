@@ -456,6 +456,25 @@ async function loadManualDocument(theme, rawFile) {
   }
 }
 
+// Las fichas C1 citan BOE y también documentación oficial de proveedores.
+// Comprobar el hostname exacto evita aceptar sitios que imiten una fuente.
+const QUICK_FICHA_HOSTS = new Set([
+  'www.boe.es', 'boe.es', 'eur-lex.europa.eu',
+  'bop.diputoledo.es', 'www.diputoledo.es', 'diputoledo.es',
+  'support.microsoft.com', 'learn.microsoft.com',
+  'help.libreoffice.org', 'books.libreoffice.org',
+  'www.novell.com', 'novell.com', 'www.usb.org', 'usb.org',
+  'www.intel.com', 'intel.com', 'nvmexpress.org', 'www.nvmexpress.org'
+]);
+function validQuickFichaSource(source) {
+  if (!source || typeof source.label !== 'string' || !source.label.trim()) return false;
+  try {
+    const url = new URL(source.url);
+    return url.protocol === 'https:' && QUICK_FICHA_HOSTS.has(url.hostname) &&
+      !url.username && !url.password;
+  } catch (_) { return false; }
+}
+
 async function renderVerifiedQuickFicha(theme, recap) {
   if (!theme.fichaRapida || !recap) return;
   try {
@@ -466,11 +485,11 @@ async function renderVerifiedQuickFicha(theme, recap) {
     if (!recap.isConnected || document.querySelector('#quick-recap')!==recap) return;
     if (ficha.schemaVersion!==1 || ficha.kind!=='FICHA_COTEJO_FOCAL' ||
       !Array.isArray(ficha.cards) || !ficha.cards.length ||
-      !/^https:\/\/www\.boe\.es\//.test(ficha.source?.url||'')) throw new Error('Esquema de ficha no cotejable');
+      !validQuickFichaSource(ficha.source)) throw new Error('Esquema de ficha no cotejable');
     const cards=ficha.cards.filter(c=>c.title&&c.articles&&c.fact&&c.trap);
     if (cards.length!==ficha.cards.length) throw new Error('Ficha incompleta');
     const extra=Array.isArray(ficha.additionalSources)?ficha.additionalSources:[];
-    if(extra.some(src=>!/^https:\/\/www\.boe\.es\//.test(src?.url||'')||!src?.label))
+    if(extra.some(src=>!validQuickFichaSource(src)))
       throw new Error('Fuente complementaria no permitida');
     const sources=[ficha.source,...extra];
     recap.innerHTML='<h3>Ficha rápida · conceptos que caen en test</h3>'+

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 12 · Régimen local español: autonomía, entidades y competencias",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-12/manual.md",
+  "source": {
+    "label": "Constitución Española, arts. 137–142",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 7/1985, régimen local",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Organización territorial",
+      "articles": "CE, art. 137",
+      "fact": "El Estado se organiza territorialmente en municipios, provincias y comunidades autónomas, con autonomía para gestionar sus intereses.",
+      "trap": "La lista constitucional no coincide con la lista de entidades locales territoriales del art. 3 LRBRL."
+    },
+    {
+      "title": "Municipio",
+      "articles": "CE, art. 140",
+      "fact": "La Constitución garantiza autonomía y personalidad jurídica plena del municipio, gobernado por ayuntamientos integrados por alcaldes y concejales.",
+      "trap": "La autonomía no es soberanía."
+    },
+    {
+      "title": "Provincia",
+      "articles": "CE, art. 141",
+      "fact": "Entidad local determinada por agrupación de municipios; también división territorial del Estado. Cambio de límites provinciales por ley orgánica.",
+      "trap": "Alterar límites provinciales no es una mera decisión del Pleno provincial."
+    },
+    {
+      "title": "Hacienda local",
+      "articles": "CE, art. 142",
+      "fact": "Las haciendas locales dispondrán de medios suficientes, nutridos fundamentalmente por tributos propios y participación en los del Estado y comunidades autónomas.",
+      "trap": "Suficiencia financiera no implica autonomía financiera ilimitada."
+    },
+    {
+      "title": "Entidades locales territoriales",
+      "articles": "Ley 7/1985, art. 3",
+      "fact": "Son municipio, provincia e isla de archipiélagos balear y canario. Comarcas, áreas metropolitanas y mancomunidades son otras entidades locales.",
+      "trap": "Las comunidades autónomas no integran la enumeración de entidades locales territoriales del artículo 3."
+    },
+    {
+      "title": "Competencias propias",
+      "articles": "Ley 7/1985, art. 7.2",
+      "fact": "Determinadas por ley, ejercidas en régimen de autonomía y bajo responsabilidad propia.",
+      "trap": "No convertir automáticamente toda cooperación o asistencia en competencia propia."
+    },
+    {
+      "title": "Competencias distintas de propias y delegadas",
+      "articles": "Ley 7/1985, art. 7.4",
+      "fact": "Exigen no poner en riesgo sostenibilidad financiera ni ejecutar simultáneamente mismo servicio, con informes previos necesarios y vinculantes establecidos en el precepto.",
+      "trap": "No confundir con delegación: el art. 7.4 exige doble control sobre duplicidad y sostenibilidad."
+    },
+    {
+      "title": "Delegación en municipios",
+      "articles": "Ley 7/1985, art. 27.1",
+      "fact": "La delegación del Estado o comunidad autónoma en municipios debe acompañarse de medios y condiciones, con duración no inferior a cinco años.",
+      "trap": "La duración mínima de cinco años corresponde a esta delegación legalmente regulada, no a todos los convenios."
+    }
+  ],
+  "editorialNote": "Ficha de repaso focal basada en manual C1 y artículos de fuente oficial. No supone validación de todas las alternativas ni certificación técnica E2E."
+}

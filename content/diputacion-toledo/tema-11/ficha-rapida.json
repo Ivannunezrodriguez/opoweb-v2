@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 11 · Procedimiento administrativo local: registros y notificaciones",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-11/manual.md",
+  "source": {
+    "label": "Ley 39/2015, procedimiento común",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 7/1985, bases del régimen local",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "label": "RD 2568/1986, ROF",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Normativa del procedimiento local",
+      "articles": "Ley 39/2015; Ley 7/1985; RD 2568/1986",
+      "fact": "La Administración local aplica el procedimiento común y sus especialidades organizativas válidas, con prevalencia de la ley básica sobre reglamentos incompatibles.",
+      "trap": "El procedimiento local no constituye un sistema aislado de la Ley 39/2015."
+    },
+    {
+      "title": "Registro electrónico general",
+      "articles": "Ley 39/2015, art. 16",
+      "fact": "Registra documentos de entrada y salida, con constancia de fecha y hora, identificador y recibo según previsión legal.",
+      "trap": "El registro de salida y el de entrada tienen efectos diferentes."
+    },
+    {
+      "title": "Otros lugares de presentación",
+      "articles": "Ley 39/2015, art. 16.4",
+      "fact": "Se admiten documentos en otros registros electrónicos, Correos con condiciones reglamentarias, oficinas consulares o diplomáticas y oficinas de asistencia, entre otros lugares permitidos.",
+      "trap": "El registro del órgano destinatario no es la única vía legal."
+    },
+    {
+      "title": "Digitalización en oficinas",
+      "articles": "Ley 39/2015, art. 16.5",
+      "fact": "Los documentos aportados presencialmente se digitalizan para su incorporación al expediente electrónico y se devuelven los originales salvo excepciones.",
+      "trap": "No confundir copia escaneada sin garantía con copia auténtica."
+    },
+    {
+      "title": "Presentación electrónica obligatoria",
+      "articles": "Ley 39/2015, arts. 14.2 y 68.4",
+      "fact": "Si una persona obligada presenta presencialmente una solicitud, se requiere subsanación electrónica y esa fecha será la de presentación.",
+      "trap": "La presentación inicial en papel no se conserva automáticamente."
+    },
+    {
+      "title": "Notificación: plazo y contenido",
+      "articles": "Ley 39/2015, art. 40.2",
+      "fact": "Debe cursarse en diez días desde acto, con texto íntegro, fin de vía, recursos, órgano y plazo.",
+      "trap": "No confundir diez días para cursar con diez días naturales de rechazo electrónico."
+    },
+    {
+      "title": "Notificación en domicilio",
+      "articles": "Ley 39/2015, art. 42.2",
+      "fact": "Puede recibir una persona mayor de catorce años en domicilio que identifique; si nadie recibe, segundo intento dentro de tres días, franja horaria distinta y tres horas mínimas de diferencia.",
+      "trap": "No basta repetir el intento a la misma hora."
+    },
+    {
+      "title": "Notificación no practicable",
+      "articles": "Ley 39/2015, art. 44",
+      "fact": "Cuando no sea posible practicar notificación por destinatario desconocido, domicilio ignorado o intento fallido, publicación mediante anuncio en BOE; medios territoriales pueden complementar.",
+      "trap": "Un tablón municipal no sustituye siempre al BOE."
+    },
+    {
+      "title": "Publicación selectiva",
+      "articles": "Ley 39/2015, art. 45.1.b",
+      "fact": "Los actos integrantes de procedimientos selectivos se publican en el medio indicado en la convocatoria, vinculante para aspirantes.",
+      "trap": "No cambiar el medio oficial indicado por preferencia personal."
+    },
+    {
+      "title": "Aviso de notificación",
+      "articles": "Ley 39/2015, art. 41.6",
+      "fact": "El aviso de puesta a disposición al correo o dispositivo no equivale a la notificación, y su falta no impide la validez de la correctamente practicada.",
+      "trap": "No sostener que la falta del email de aviso anula por sí sola el acto."
+    }
+  ],
+  "editorialNote": "Ficha focal de repaso basada en el manual C1 y preceptos oficiales. Sin certificación de todo el banco temático."
+}

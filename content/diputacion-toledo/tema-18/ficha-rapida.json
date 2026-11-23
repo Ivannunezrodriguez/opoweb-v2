@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 18 · Carrera profesional, provisión, movilidad y situaciones administrativas",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-18/manual.md",
+  "source": {
+    "label": "Ley 4/2011, empleo público CLM",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+  },
+  "additionalSources": [
+    {
+      "label": "TREBEP, RDL 5/2015",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Carrera horizontal y vertical",
+      "articles": "Ley 4/2011, arts. 62–64",
+      "fact": "Carrera horizontal: progresión sin cambio de puesto; vertical: ascenso en estructura de puestos mediante provisión.",
+      "trap": "Carrera no equivale automáticamente a promoción interna a otro cuerpo."
+    },
+    {
+      "title": "Tramos de carrera horizontal",
+      "articles": "Ley 4/2011, art. 64.2–4",
+      "fact": "La regulación contempla entre 3 y 5 tramos, incluido inicial no retribuido; progresión ordinaria exige permanencia mínima de 4 años y evaluación.",
+      "trap": "Previsión legal no equivale a implantación efectiva en todas las Administraciones."
+    },
+    {
+      "title": "Evaluación del desempeño",
+      "articles": "Ley 4/2011, arts. 64 y concordantes",
+      "fact": "Valora conducta profesional, rendimiento y resultados con objetividad y transparencia; puede tener efectos en carrera y provisión.",
+      "trap": "La evaluación del desempeño no es una sanción disciplinaria por sí sola."
+    },
+    {
+      "title": "Provisión ordinaria",
+      "articles": "Ley 4/2011, art. 67.2",
+      "fact": "Concurso es el procedimiento normal; libre designación requiere convocatoria pública para puestos legalmente previstos.",
+      "trap": "Libre designación no es nombramiento secreto ni exento de requisitos."
+    },
+    {
+      "title": "Remoción de puesto por concurso",
+      "articles": "Ley 4/2011, art. 69",
+      "fact": "La remoción requiere causas legales y procedimiento con audiencia y resolución motivada.",
+      "trap": "La adjudicación por concurso no es inamovilidad absoluta en ese puesto."
+    },
+    {
+      "title": "Redistribución entre provincias",
+      "articles": "Ley 4/2011, art. 73.4",
+      "fact": "La redistribución de efectivos que implique cambio de provincia requiere conformidad del personal funcionario titular del puesto.",
+      "trap": "No generalizar el requisito de conformidad a toda modificación de lugar de trabajo."
+    },
+    {
+      "title": "Servicio activo y especiales",
+      "articles": "Ley 4/2011, art. 113 y siguientes",
+      "fact": "Servicio activo conserva deberes y derechos del puesto; servicios especiales atiende a cargos y funciones legalmente previstos.",
+      "trap": "Estar en servicios especiales no significa perder condición de funcionario de carrera."
+    },
+    {
+      "title": "Suspensión firme y provisional",
+      "articles": "Ley 4/2011, arts. 113 y 125",
+      "fact": "La provisional es cautelar; la firme deriva de sanción o sentencia y produce efectos legales propios.",
+      "trap": "No tratar suspensión cautelar como sanción firme."
+    },
+    {
+      "title": "Méritos y antigüedad",
+      "articles": "Ley 4/2011, art. 64.6",
+      "fact": "La carrera horizontal valora los méritos legales; la antigüedad por sí sola no determina la progresión.",
+      "trap": "Cuatro años de permanencia no garantizan promoción sin evaluación y méritos."
+    }
+  ],
+  "editorialNote": "Tarjetas focalizadas en trampas normativas. Auditoría completa de distractores y pruebas E2E pendientes."
+}

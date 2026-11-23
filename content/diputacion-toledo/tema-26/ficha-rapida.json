@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 26 · Recaudación tributaria local y procedimiento de apremio",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-26/manual.md",
+  "source": {
+    "label": "Ley 58/2003 General Tributaria",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+  },
+  "additionalSources": [
+    {
+      "label": "Reglamento General de Recaudación RD 939/2005",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803"
+    },
+    {
+      "label": "TRLRHL RDL 2/2004",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Voluntario y ejecutivo",
+      "articles": "LGT arts. 160–161",
+      "fact": "El período ejecutivo nace al terminar voluntaria sin pago bajo requisitos legales; el apremio arranca mediante notificación de providencia.",
+      "trap": "Inicio del período ejecutivo no es idéntico a inicio del procedimiento de apremio."
+    },
+    {
+      "title": "Liquidaciones voluntarias",
+      "articles": "LGT art. 62.2",
+      "fact": "Notificación días 1–15: hasta día 20 del mes siguiente; del 16 al último: hasta 5 del segundo mes siguiente.",
+      "trap": "No usar los plazos reducidos de la providencia de apremio."
+    },
+    {
+      "title": "Cobro periódico y colectivo",
+      "articles": "LGT art. 62.3",
+      "fact": "Sin previsión especial, del 1 de septiembre al 20 de noviembre, con posibilidad de modificación y mínimo de dos meses.",
+      "trap": "La ordenanza o calendario fiscal puede modificar el período."
+    },
+    {
+      "title": "Aplazamiento en voluntaria",
+      "articles": "LGT art. 65.5",
+      "fact": "Solicitud en período voluntario impide iniciar el período ejecutivo mientras se tramita, pero no excluye intereses de demora.",
+      "trap": "No confundir impedir ejecutivo con eximir de intereses."
+    },
+    {
+      "title": "Recargos ejecutivos",
+      "articles": "LGT art. 28",
+      "fact": "Ejecutivo 5 %, apremio reducido 10 % y ordinario 20 %, incompatibles entre sí; el ordinario es compatible con intereses de demora en sus términos.",
+      "trap": "Nunca sumar 5 + 10 + 20 % como si fueran sucesivos."
+    },
+    {
+      "title": "Providencia de apremio",
+      "articles": "LGT art. 167",
+      "fact": "Título ejecutivo para actuar sobre bienes y derechos del obligado, con la fuerza que establece la ley.",
+      "trap": "La providencia es un acto administrativo, no sentencia judicial."
+    },
+    {
+      "title": "Pago tras providencia",
+      "articles": "LGT art. 62.5",
+      "fact": "Notificada días 1–15: hasta 20 del mismo mes; notificada del 16 al final: hasta 5 del mes siguiente, con ajuste a inhábil.",
+      "trap": "La misma fecha de notificación produce plazos distintos de una liquidación ordinaria."
+    },
+    {
+      "title": "Devolución de ingresos indebidos",
+      "articles": "LGT arts. 32 y 66",
+      "fact": "Se devuelven cantidades ingresadas indebidamente con intereses en términos legales; los derechos para solicitar u obtener devolución prescriben en general en cuatro años.",
+      "trap": "No confundir devolución por ingreso indebido con devolución derivada de la norma del tributo."
+    }
+  ],
+  "editorialNote": "Ficha temática de repaso contrastada con manual y referencias normativas. No constituye certificación jurídica integral del banco ni E2E."
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 34 · Windows 11 Pro: impresión y escaneado",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-34/manual.md",
+  "source": {
+    "label": "Microsoft Support: impresión en Windows",
+    "url": "https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows"
+  },
+  "additionalSources": [
+    {
+      "label": "Microsoft Support: instalar y usar escáner",
+      "url": "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Impresión y cola",
+      "articles": "Microsoft Support: print queue",
+      "fact": "La cola muestra trabajos pendientes o en proceso de una impresora y permite revisar estado, pausar, reanudar o cancelar según permisos.",
+      "trap": "Cancelar un trabajo no desinstala la impresora."
+    },
+    {
+      "title": "Impresora predeterminada",
+      "articles": "Microsoft Support: default printer",
+      "fact": "Windows permite elegir impresora predeterminada o administrar automáticamente la última utilizada, según configuración.",
+      "trap": "La impresora predeterminada no tiene por qué ser la última conectada."
+    },
+    {
+      "title": "Imprimir a PDF",
+      "articles": "Microsoft Print to PDF",
+      "fact": "Una impresora virtual genera archivo PDF en lugar de producir papel.",
+      "trap": "Guardar PDF no equivale a escanear una hoja física."
+    },
+    {
+      "title": "Impresión a doble cara",
+      "articles": "Microsoft Support: impresión",
+      "fact": "Dúplex imprime en ambas caras si dispositivo/controlador lo admiten.",
+      "trap": "Dúplex de impresión no implica dúplex de escaneo del ADF."
+    },
+    {
+      "title": "Servicio de cola de impresión",
+      "articles": "Microsoft Support: Print Spooler",
+      "fact": "El servicio Print Spooler gestiona trabajos de impresión; fallos pueden bloquear impresión o provocar trabajos atascados.",
+      "trap": "Reiniciar el servicio no arregla necesariamente un fallo físico de impresora."
+    },
+    {
+      "title": "Detección de escáner",
+      "articles": "Microsoft Support: scanner",
+      "fact": "Una multifunción instalada como impresora no garantiza que la función de escáner esté configurada o disponible.",
+      "trap": "El controlador de impresión y de escáner pueden diferir."
+    },
+    {
+      "title": "Aplicación de escaneo",
+      "articles": "Microsoft Support: scanner",
+      "fact": "La aplicación Escáner de Windows puede requerir instalación desde Microsoft Store; según configuración, ofrece origen, formato y carpeta.",
+      "trap": "No afirmar que está siempre preinstalada en Windows 11."
+    },
+    {
+      "title": "ADF y cristal",
+      "articles": "Microsoft Support: escáner",
+      "fact": "El alimentador automático de documentos (ADF) captura hojas múltiples; cristal plano es adecuado para originales sueltos o encuadernados.",
+      "trap": "ADF no significa necesariamente escaneo automático a doble cara."
+    },
+    {
+      "title": "Resolución y formato",
+      "articles": "Microsoft Support: opciones escáner",
+      "fact": "DPI indica resolución de captura; PDF sirve para documentos y formatos de imagen para fotografías según tarea.",
+      "trap": "Aumentar DPI siempre incrementa peso y no garantiza mejorar legibilidad de original deficiente."
+    }
+  ],
+  "editorialNote": "Ficha técnica basada en manual específico y fuentes oficiales de proveedor; atajos dependientes del idioma/configuración cuando se indique. Sin certificación E2E."
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 19 · Régimen disciplinario del personal empleado público",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-19/manual.md",
+  "source": {
+    "label": "Ley 4/2011, empleo público CLM",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+  },
+  "additionalSources": [
+    {
+      "label": "TREBEP, texto refundido",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Principios disciplinarios",
+      "articles": "Ley 4/2011, título X",
+      "fact": "Legalidad y tipicidad, culpabilidad, proporcionalidad, audiencia, defensa y presunción de inocencia.",
+      "trap": "No se crean faltas mediante analogía en perjuicio del empleado."
+    },
+    {
+      "title": "Concurrencia de sanciones",
+      "articles": "Ley 4/2011, art. 132",
+      "fact": "El principio non bis in idem exige identidad de sujeto, hecho y fundamento para impedir duplicidad sancionadora.",
+      "trap": "No basta que dos expedientes versen sobre la misma persona."
+    },
+    {
+      "title": "Faltas disciplinarias",
+      "articles": "Ley 4/2011, arts. 133–136",
+      "fact": "Se clasifican en muy graves, graves y leves, con tipificación normativa aplicable.",
+      "trap": "No elevar por intuición una falta leve a muy grave."
+    },
+    {
+      "title": "Separación del servicio",
+      "articles": "Ley 4/2011, arts. 137–138",
+      "fact": "La separación es una sanción reservada a faltas muy graves bajo los requisitos del régimen disciplinario.",
+      "trap": "No puede imponerse separación por mera falta leve."
+    },
+    {
+      "title": "Prescripción de faltas",
+      "articles": "Ley 4/2011, art. 141.1",
+      "fact": "Muy graves: 3 años; graves: 2 años; leves: 6 meses. El cómputo tiene reglas especiales para faltas continuadas.",
+      "trap": "No confundir con prescripción de sanciones."
+    },
+    {
+      "title": "Prescripción de sanciones",
+      "articles": "Ley 4/2011, art. 141.3",
+      "fact": "Muy graves: 3 años; graves: 2 años; leves: 1 año, con reglas de inicio e interrupción del artículo.",
+      "trap": "La sanción por falta leve prescribe al año, no a los seis meses."
+    },
+    {
+      "title": "Cancelación de anotaciones",
+      "articles": "Ley 4/2011, art. 142",
+      "fact": "Plazos ordinarios desde cumplimiento: leves 1 año, graves 2, muy graves 3; reiteración o reincidencia duplica plazos.",
+      "trap": "La anotación por separación del servicio no se cancela."
+    },
+    {
+      "title": "Procedimiento disciplinario",
+      "articles": "Ley 4/2011, art. 143",
+      "fact": "Se distinguen instrucción y sanción; faltas leves tienen procedimiento sumario con audiencia; graves y muy graves, máximo 12 meses.",
+      "trap": "El máximo de 12 meses no es el periodo de suspensión provisional."
+    },
+    {
+      "title": "Suspensión provisional",
+      "articles": "Ley 4/2011, art. 144.2",
+      "fact": "Límite ordinario de 6 meses, con excepciones por paralización imputable al interesado o procedimiento judicial.",
+      "trap": "No confundir cautela con cumplimiento de sanción."
+    },
+    {
+      "title": "Vinculación con proceso penal",
+      "articles": "Ley 4/2011, art. 145",
+      "fact": "Los hechos declarados probados por sentencia penal firme vinculan conforme a la regulación correspondiente.",
+      "trap": "Un procedimiento penal y disciplinario requieren distinguir hechos, fundamento y efectos."
+    }
+  ],
+  "editorialNote": "Tarjetas focalizadas en trampas normativas. Auditoría completa de distractores y pruebas E2E pendientes."
+}

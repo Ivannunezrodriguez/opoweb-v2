@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 17 · Ley 4/2011 empleo público CLM: personal, acceso y pérdida de condición",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-17/manual.md",
+  "source": {
+    "label": "Ley 4/2011 de Empleo Público de Castilla-La Mancha",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+  },
+  "additionalSources": [
+    {
+      "label": "TREBEP, Real Decreto Legislativo 5/2015",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Clases de personal público",
+      "articles": "Ley 4/2011; TREBEP arts. 8–13",
+      "fact": "Funcionariado de carrera, interino, personal laboral y eventual presentan vínculos y funciones distintos; el régimen directivo profesional tiene reglas específicas.",
+      "trap": "No confundir eventual de confianza con funcionario interino nombrado por necesidad temporal."
+    },
+    {
+      "title": "Principios de acceso",
+      "articles": "Ley 4/2011 arts. 37–38; TREBEP arts. 55–56",
+      "fact": "Igualdad, mérito, capacidad y publicidad, con imparcialidad y profesionalidad de órganos selectivos.",
+      "trap": "La publicidad y la transparencia no sustituyen evaluación de mérito y capacidad."
+    },
+    {
+      "title": "Edad mínima general",
+      "articles": "Ley 4/2011 art. 38; TREBEP art. 56",
+      "fact": "Edad mínima de 16 años, salvo requisitos específicos válidos; demás requisitos al fin del plazo de solicitudes según las bases.",
+      "trap": "No confundir 16 años con edad mínima general de 18."
+    },
+    {
+      "title": "Sistemas selectivos",
+      "articles": "Ley 4/2011 arts. 46–47",
+      "fact": "Oposición y concurso-oposición son sistemas ordinarios de acceso funcionarial; el concurso puro solo en supuestos habilitados legalmente.",
+      "trap": "Concurso puro de méritos no es forma ordinaria universal de acceso a funcionario de carrera."
+    },
+    {
+      "title": "Concurso-oposición, méritos",
+      "articles": "Ley 4/2011 art. 46.5",
+      "fact": "Según la regulación autonómica documentada, la valoración de méritos no debe superar el 25 % de la puntuación total.",
+      "trap": "El 25 % es límite de esta regulación, no regla indiscriminada de todo proceso público."
+    },
+    {
+      "title": "Acceso de nacionales UE",
+      "articles": "Ley 4/2011 art. 39; TREBEP art. 57",
+      "fact": "Acceso en igualdad con las excepciones correspondientes a puestos que impliquen ejercicio de poder público o salvaguarda de intereses generales.",
+      "trap": "No está prohibido a todos los nacionales UE ser personal funcionario."
+    },
+    {
+      "title": "Condición de funcionario de carrera",
+      "articles": "Ley 4/2011 art. 55",
+      "fact": "Exige sucesivamente superar selección, nombramiento competente, acatamiento del ordenamiento y toma de posesión en plazo, junto con publicidad del nombramiento que proceda.",
+      "trap": "Aprobar la oposición sin toma de posesión no completa adquisición de condición."
+    },
+    {
+      "title": "Renuncia",
+      "articles": "Ley 4/2011 art. 57",
+      "fact": "Debe presentarse por escrito y aceptarse expresamente; existen causas disciplinarias o penales que impiden aceptarla.",
+      "trap": "La renuncia no inhabilita para presentarse nuevamente a un proceso selectivo."
+    },
+    {
+      "title": "Pérdida: separación e inhabilitación",
+      "articles": "Ley 4/2011 arts. 56 y 59",
+      "fact": "Separación requiere sanción firme en vía administrativa; inhabilitación requiere sentencia firme, con distintos efectos de absoluta y especial.",
+      "trap": "La inhabilitación especial no afecta automáticamente a todos los cargos."
+    },
+    {
+      "title": "Rehabilitación",
+      "articles": "Ley 4/2011 art. 61",
+      "fact": "Desaparecida la causa objetiva de pérdida por nacionalidad o incapacidad, cabe rehabilitación en los términos legales; la derivada de inhabilitación es excepcional.",
+      "trap": "No confundir rehabilitación por desaparición de causa objetiva con rehabilitación discrecional por condena."
+    }
+  ],
+  "editorialNote": "Ficha de repaso focal contrastada contra manual y fuentes documentadas. No acredita auditoría jurídica integral del banco ni prueba E2E."
+}

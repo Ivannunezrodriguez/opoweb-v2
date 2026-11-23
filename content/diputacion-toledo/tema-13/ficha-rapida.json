@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 13 · Municipio, padrón, servicios y presupuestos",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-13/manual.md",
+  "source": {
+    "label": "Ley 7/1985, régimen local",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+  },
+  "additionalSources": [
+    {
+      "label": "TRLRHL, RDL 2/2004",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Elementos municipales",
+      "articles": "Ley 7/1985, art. 11",
+      "fact": "El municipio es entidad local básica; sus elementos son territorio, población y organización.",
+      "trap": "La población municipal no es el censo electoral."
+    },
+    {
+      "title": "Creación de municipios",
+      "articles": "Ley 7/1985, art. 13.2",
+      "fact": "La creación de nuevos municipios exige núcleos territorialmente diferenciados de al menos 4.000 habitantes y restantes condiciones legales.",
+      "trap": "No basta con contar cuatro mil residentes; deben satisfacerse sostenibilidad y servicios."
+    },
+    {
+      "title": "Empadronamiento",
+      "articles": "Ley 7/1985, arts. 15–16",
+      "fact": "Toda persona que viva en España debe inscribirse en el municipio donde resida habitualmente; el padrón acredita residencia y domicilio habitual.",
+      "trap": "Vecindad administrativa se adquiere con inscripción, sin convertirla en nacionalidad o condición electoral."
+    },
+    {
+      "title": "Órganos municipales necesarios",
+      "articles": "Ley 7/1985, art. 20.1",
+      "fact": "En todos los ayuntamientos hay Alcalde, Tenientes de Alcalde y Pleno; Junta de Gobierno Local obligatoria en municipios con más de 5.000 habitantes.",
+      "trap": "La Comisión Especial de Cuentas también existe en todos los municipios según el art. 20."
+    },
+    {
+      "title": "Servicios mínimos",
+      "articles": "Ley 7/1985, art. 26.1",
+      "fact": "Obligaciones acumulativas: todos los municipios prestan servicios básicos; más de 5.000 añaden parque, biblioteca y tratamiento de residuos; más de 20.000 añaden protección civil y otros; más de 50.000 transporte colectivo urbano y medio ambiente urbano.",
+      "trap": "No confundir materias de competencia del artículo 25 con prestaciones mínimas del artículo 26."
+    },
+    {
+      "title": "Presupuesto general local",
+      "articles": "RDL 2/2004, arts. 162 y 164",
+      "fact": "Comprende previsiones de derechos y obligaciones e integra presupuestos de entidad y organismos autónomos, más estados de previsión de sociedades íntegramente locales.",
+      "trap": "El presupuesto de un organismo autónomo no queda fuera del general de su entidad matriz."
+    },
+    {
+      "title": "Exposición y reclamaciones",
+      "articles": "RDL 2/2004, art. 169.1",
+      "fact": "Tras aprobación inicial del Pleno, exposición pública por quince días; sin reclamaciones queda aprobado definitivamente; si las hay, Pleno resuelve en un mes.",
+      "trap": "Exposición de quince días no equivale siempre a aprobación definitiva."
+    },
+    {
+      "title": "Aprobación y prórroga presupuestarias",
+      "articles": "RDL 2/2004, art. 169",
+      "fact": "Aprobación definitiva antes de 31 de diciembre; si no entra en vigor el nuevo presupuesto al iniciar el ejercicio, se prorroga automáticamente el anterior con ajustes legales.",
+      "trap": "La prórroga no mantiene indistintamente todos los créditos afectados por excepciones legales."
+    }
+  ],
+  "editorialNote": "Ficha de repaso focal basada en manual C1 y artículos de fuente oficial. No supone validación de todas las alternativas ni certificación técnica E2E."
+}

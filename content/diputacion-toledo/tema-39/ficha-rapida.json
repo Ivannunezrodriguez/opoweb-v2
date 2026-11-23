@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 39 · Componentes del ordenador personal",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-39/manual.md",
+  "source": {
+    "label": "Microsoft Learn: firmware y arranque UEFI",
+    "url": "https://learn.microsoft.com/es-es/windows-hardware/manufacture/desktop/boot-to-uefi-mode-or-legacy-bios-mode?view=windows-11"
+  },
+  "additionalSources": [
+    {
+      "label": "NVM Express: especificaciones",
+      "url": "https://nvmexpress.org/SPECIFICATIONS/"
+    },
+    {
+      "label": "Intel: memoria gráfica compartida",
+      "url": "https://www.intel.com/content/www/us/en/support/articles/000020962/graphics.html"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Hardware, software y firmware",
+      "articles": "Manual T39: componentes",
+      "fact": "Hardware son elementos físicos; software, programas e instrucciones; firmware, software de bajo nivel integrado en el dispositivo.",
+      "trap": "Firmware no es hardware por estar guardado en memoria del equipo."
+    },
+    {
+      "title": "CPU, núcleos y caché",
+      "articles": "Manual T39: CPU",
+      "fact": "La CPU ejecuta instrucciones y coordina operaciones; registros y caché aportan acceso rápido a datos y operaciones.",
+      "trap": "La CPU no es el ordenador completo ni un dispositivo de almacenamiento permanente."
+    },
+    {
+      "title": "RAM frente a SSD/HDD",
+      "articles": "Manual T39: memorias",
+      "fact": "RAM es memoria de trabajo normalmente volátil; SSD y HDD conservan datos tras apagar el equipo.",
+      "trap": "La memoria virtual usa almacenamiento pero no añade módulos físicos de RAM."
+    },
+    {
+      "title": "GPU integrada y dedicada",
+      "articles": "Intel: memoria de gráficos integrados",
+      "fact": "GPU integrada puede compartir RAM de sistema; dedicada suele disponer de memoria gráfica propia.",
+      "trap": "GPU integrada no implica ausencia de aceleración gráfica."
+    },
+    {
+      "title": "M.2 frente a NVMe",
+      "articles": "NVM Express, especificaciones",
+      "fact": "M.2 describe un formato/conector físico; NVMe es un protocolo de acceso a almacenamiento no volátil.",
+      "trap": "Un SSD M.2 puede emplear SATA, no necesariamente NVMe."
+    },
+    {
+      "title": "USB-C y capacidades",
+      "articles": "USB-IF, conectores USB",
+      "fact": "USB-C define forma física del conector; velocidad de datos, vídeo y potencia dependen de protocolo y soporte de equipo/cable.",
+      "trap": "No asegurar USB4 por ver una clavija USB-C."
+    },
+    {
+      "title": "UEFI y Secure Boot",
+      "articles": "Microsoft Learn, UEFI y arranque seguro",
+      "fact": "UEFI inicializa hardware y establece entorno de arranque; Secure Boot verifica confianza del software de arranque cuando está habilitado.",
+      "trap": "UEFI no es el sistema operativo ni equivale automáticamente a Secure Boot."
+    },
+    {
+      "title": "Unidades de información",
+      "articles": "Manual T39: medidas",
+      "fact": "Un byte tiene 8 bits; 1 kB son 1000 bytes, mientras 1 KiB son 1024 bytes.",
+      "trap": "No confundir MB y Mb ni prefijos decimales y binarios."
+    },
+    {
+      "title": "Potencia nominal y consumo",
+      "articles": "Manual T39: alimentación",
+      "fact": "Una fuente de 750 W declara capacidad nominal de suministro, no consumo constante de 750 W.",
+      "trap": "La potencia instalada no es automáticamente el gasto eléctrico instantáneo."
+    },
+    {
+      "title": "Temperatura y pasta térmica",
+      "articles": "Intel: refrigeración",
+      "fact": "La pasta térmica facilita transferencia entre chip y disipador; ventilación/disipación evacuan calor.",
+      "trap": "La pasta térmica no enfría activamente como un ventilador."
+    }
+  ],
+  "editorialNote": "Tarjetas de repaso focal basadas en manual y fuentes técnicas de referencia. Pendiente cotejo exhaustivo de alternativas, CI, E2E y despliegue público."
+}

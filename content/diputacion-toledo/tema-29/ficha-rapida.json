@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 29 · IBI e IAE: hecho imponible, bonificaciones, cuotas y devengo",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-29/manual.md",
+  "source": {
+    "label": "TRLRHL, RDL 2/2004",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+  },
+  "additionalSources": [
+    {
+      "label": "RDL 29/2026, reforma de IBI de octubre 2026",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823"
+    },
+    {
+      "label": "Tarifas e Instrucción IAE, RDL 1175/1990",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1990-23930"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Tributos obligatorios",
+      "articles": "TRLRHL, art. 59",
+      "fact": "IBI e IAE son impuestos municipales de exacción obligatoria; ICIO e IIVTNU son potestativos.",
+      "trap": "Una ordenanza regula aspectos habilitados, pero no convierte IBI en potestativo."
+    },
+    {
+      "title": "Orden de derechos gravados en IBI",
+      "articles": "TRLRHL, art. 61",
+      "fact": "Prelación: concesión administrativa, derecho real de superficie, usufructo y propiedad, según caso legal.",
+      "trap": "Propietario no es siempre sujeto pasivo si otro derecho tiene prioridad."
+    },
+    {
+      "title": "Exención y no sujeción",
+      "articles": "TRLRHL, arts. 61.5 y 62",
+      "fact": "Bien patrimonial propio municipal sin cesión onerosa puede estar no sujeto; bienes comunales y montes vecinales en mano común aparecen exentos.",
+      "trap": "No sujeción y exención no equivalen."
+    },
+    {
+      "title": "Base y devengo IBI",
+      "articles": "TRLRHL, arts. 65, 66 y 75",
+      "fact": "Base imponible: valor catastral; base liquidable tras reducción aplicable; devengo ordinario primer día del año natural.",
+      "trap": "Valor catastral no equivale siempre a cuota ni a base liquidable."
+    },
+    {
+      "title": "Tipos IBI urbanos y rústicos",
+      "articles": "TRLRHL, art. 72",
+      "fact": "Tipos generales supletorios: urbano 0,4 % y rústico 0,3 %, con límites y supuestos de incremento legal.",
+      "trap": "Los tipos supletorios no son los tipos aprobados en toda ordenanza."
+    },
+    {
+      "title": "Bonificación familia numerosa",
+      "articles": "TRLRHL, art. 74.4",
+      "fact": "Bonificación potestativa hasta el 90 % de la cuota íntegra a sujetos pasivos titulares de familia numerosa, cuando lo regule ordenanza.",
+      "trap": "Ser familia numerosa no concede automáticamente un 90 % en cualquier municipio."
+    },
+    {
+      "title": "Recargos por viviendas y alojamientos turísticos",
+      "articles": "TRLRHL, art. 72.4 y 4 ter; RDL 29/2026",
+      "fact": "La reforma de octubre de 2026 permite recargos potestativos bajo condiciones de desocupación o alojamiento turístico en zona tensionada; hasta 150 % en supuestos turísticos legalmente definidos.",
+      "trap": "No confundir recargo sobre cuota líquida con porcentaje sobre valor catastral ni aplicarlo sin ordenanza."
+    },
+    {
+      "title": "IAE: hecho imponible y exención",
+      "articles": "TRLRHL, arts. 78 y 82",
+      "fact": "El IAE grava mero ejercicio de actividades empresariales, profesionales y artísticas; entre exentos, personas físicas y entidades que cumplan umbral de cifra de negocios inferior a un millón de euros.",
+      "trap": "El IAE puede estar sujeto pero exento; no se exige beneficio positivo."
+    },
+    {
+      "title": "IAE: agrupación económica",
+      "articles": "TRLRHL, art. 82.1.c",
+      "fact": "El volumen de operaciones puede exigir cómputo de conjunto de entidades bajo control de grupo conforme a reglas legales.",
+      "trap": "No usar cifra individual si las condiciones del grupo obligan a computarla conjuntamente."
+    }
+  ],
+  "editorialNote": "Ficha focal: datos de examen cotejados con el manual y fuentes oficiales de referencia, sin certificación integral del banco ni pruebas E2E."
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 14 · Provincia, Diputación de Toledo y régimen electoral local",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-14/manual.md",
+  "source": {
+    "label": "Ley 7/1985, bases régimen local",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+  },
+  "additionalSources": [
+    {
+      "label": "LOREG, arts. 204–207",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Naturaleza provincial",
+      "articles": "CE art. 141; Ley 7/1985, art. 31",
+      "fact": "La provincia es entidad local con personalidad propia, agrupación de municipios y división territorial para actividades del Estado.",
+      "trap": "Sus límites requieren ley orgánica de Cortes Generales."
+    },
+    {
+      "title": "Competencias de Diputación",
+      "articles": "Ley 7/1985, art. 36",
+      "fact": "Asistencia jurídica, económica y técnica a municipios, coordinación de servicios y actividades supramunicipales, con especial atención a menor capacidad municipal.",
+      "trap": "La Diputación no sustituye sin más la totalidad de competencias municipales."
+    },
+    {
+      "title": "Órganos necesarios",
+      "articles": "Ley 7/1985, art. 32",
+      "fact": "En todas las diputaciones existen Presidencia, Vicepresidencias, Junta de Gobierno y Pleno.",
+      "trap": "No confundir estructura política con organigrama de áreas administrativas."
+    },
+    {
+      "title": "Junta de Gobierno",
+      "articles": "Ley 7/1985, art. 35",
+      "fact": "Integrada por Presidencia y diputados en número no superior al tercio del número legal de miembros de la corporación.",
+      "trap": "El tercio se calcula sobre número legal, no sobre asistentes a una sesión."
+    },
+    {
+      "title": "Periodicidad y sesiones extraordinarias",
+      "articles": "Ley 7/1985, art. 46.2",
+      "fact": "Pleno provincial ordinario al menos una vez al mes; extraordinario puede solicitarlo al menos una cuarta parte del número legal, con reglas sobre plazo de celebración.",
+      "trap": "No confundir un cuarto para solicitar con un tercio de quórum para constituir."
+    },
+    {
+      "title": "Quórum y acuerdos del Pleno",
+      "articles": "Ley 7/1985, arts. 46.2.c y 47",
+      "fact": "Quórum de un tercio del número legal de miembros, nunca inferior a tres, y presidencia y secretaría. Regla general mayoría simple; casos tasados mayoría absoluta del número legal.",
+      "trap": "Mayoría simple no equivale a mayoría absoluta y tampoco a quórum de constitución."
+    },
+    {
+      "title": "Número de diputados provinciales",
+      "articles": "LOREG, art. 204.1",
+      "fact": "25 hasta 500.000 residentes; 27 entre 500.001 y 1.000.000; 31 entre 1.000.001 y 3.500.000; 51 desde 3.500.001.",
+      "trap": "Toledo tiene 27 diputados en corporación 2023–2027, no es cupo fijo para toda provincia."
+    },
+    {
+      "title": "Reparto por partidos judiciales",
+      "articles": "LOREG, art. 204.2",
+      "fact": "La Junta Electoral Provincial distribuye diputados por partidos judiciales, con al menos uno por partido y sin superar tres quintos del total en uno.",
+      "trap": "No todos los partidos judiciales tienen idéntico número de diputados."
+    },
+    {
+      "title": "Elección de Presidencia",
+      "articles": "LOREG, art. 207.2",
+      "fact": "Entre diputados provinciales: mayoría absoluta en primera votación y mayoría simple en segunda.",
+      "trap": "Diputados provinciales se eligen indirectamente; Presidencia no se elige por sufragio vecinal directo."
+    }
+  ],
+  "editorialNote": "Ficha de repaso focal basada en manual C1 y artículos de fuente oficial. No supone validación de todas las alternativas ni certificación técnica E2E."
+}

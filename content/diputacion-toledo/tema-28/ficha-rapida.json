@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 28 · Protección de datos, transparencia y buen gobierno",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-28/manual.md",
+  "source": {
+    "label": "LO 3/2018, protección de datos y derechos digitales",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+  },
+  "additionalSources": [
+    {
+      "label": "Reglamento (UE) 2016/679, RGPD",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa"
+    },
+    {
+      "label": "Ley 19/2013, transparencia y buen gobierno",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Dato personal",
+      "articles": "RGPD, art. 4.1",
+      "fact": "Toda información sobre persona física identificada o identificable; identificadores y datos de localización pueden identificar.",
+      "trap": "Un dato sin nombre puede seguir siendo personal si permite identificar indirectamente."
+    },
+    {
+      "title": "Responsabilidad proactiva",
+      "articles": "RGPD, art. 5.2",
+      "fact": "El responsable debe cumplir los principios de tratamiento y ser capaz de demostrarlo.",
+      "trap": "Cumplir sin documentación suficiente no acredita responsabilidad proactiva."
+    },
+    {
+      "title": "Consentimiento menores",
+      "articles": "LO 3/2018, art. 7",
+      "fact": "Edad general de consentimiento autónomo para tratamiento de datos en España: catorce años, con salvedades legales.",
+      "trap": "No adoptar automáticamente los trece o dieciséis años de otros sistemas."
+    },
+    {
+      "title": "Ejercicio de derechos",
+      "articles": "RGPD, art. 12.3",
+      "fact": "Responder ordinariamente en un mes; ampliación posible de otros dos meses bajo complejidad o número de solicitudes.",
+      "trap": "El plazo no es dos meses totales sino un mes más hasta dos adicionales."
+    },
+    {
+      "title": "Notificación de brechas",
+      "articles": "RGPD, arts. 33–34",
+      "fact": "Brecha con riesgo no improbable a autoridad sin dilación indebida, si es posible dentro de setenta y dos horas; alto riesgo puede requerir aviso a afectados.",
+      "trap": "El plazo de setenta y dos horas no es regla universal de aviso a cada afectado."
+    },
+    {
+      "title": "Delegado de protección de datos",
+      "articles": "RGPD, art. 37.1.a",
+      "fact": "Las autoridades y organismos públicos deben designar DPD, con excepción relativa a tribunales en ejercicio de función judicial.",
+      "trap": "El DPD no sustituye jurídicamente al responsable del tratamiento."
+    },
+    {
+      "title": "Suministro de información",
+      "articles": "Ley 19/2013, art. 4",
+      "fact": "Quienes prestan servicios públicos o ejercen potestades administrativas suministran información necesaria al sujeto obligado, previo requerimiento, en los términos legales.",
+      "trap": "El prestador no tiene siempre obligación de publicación activa por cuenta propia."
+    },
+    {
+      "title": "Acceso a información pública",
+      "articles": "Ley 19/2013, art. 20.1 y 4",
+      "fact": "Resolver en un mes, ampliable otro por volumen o complejidad previa notificación; silencio desestimatorio.",
+      "trap": "No aplicar al acceso los dos meses extra del RGPD."
+    },
+    {
+      "title": "Procedimiento de acceso",
+      "articles": "Ley 19/2013, arts. 19 y 24",
+      "fact": "Concreción de solicitud diez días; alegaciones de terceros quince días; resolución de reclamación en tres meses.",
+      "trap": "Los quince días corresponden a terceros, no al plazo general de respuesta."
+    }
+  ],
+  "editorialNote": "Ficha focal: datos de examen cotejados con el manual y fuentes oficiales de referencia, sin certificación integral del banco ni pruebas E2E."
+}
