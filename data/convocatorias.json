@@ -282,8 +282,8 @@
       "nombre": "Las Ventas con Peña Aguilera · Auxiliar Administrativo C2",
       "plazas": 1,
       "plazasTurnoLibre": null,
-      "subgrupo": null,
-      "regimen": null,
+      "subgrupo": "C2",
+      "regimen": "FUNCIONARIO_CARRERA",
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "expediente": null,
       "titulacion": null,
@@ -293,17 +293,24 @@
       "publicacionConvocatoria": null,
       "fuenteOEP": null,
       "tasa": null,
-      "ponderacion": null,
+      "ponderacion": {
+        "oposicion": "80 puntos de 100",
+        "concurso": "20 puntos de 100"
+      },
       "publicacionBOE": {
         "referencia": "BOE-A-2026-14274",
         "fecha": "2026-07-01",
-        "url": null
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14274"
       },
-      "publicacionBOP": null,
+      "publicacionBOP": {
+        "fecha": "2026-05-14",
+        "numero": 89,
+        "anuncio": "2026/2099"
+      },
       "plazoSolicitudes": {
         "estado": "CERRADO",
-        "regla": null,
-        "advertencia": null,
+        "regla": "20 días naturales según BOE y base 3.3 del BOP; introducción BOP indica 20 días hábiles",
+        "advertencia": "Discrepancia documental en BOP Toledo 89 de 14/05/2026: introducción dice 20 días hábiles, base 3.3 dice 20 días naturales y BOE-A-2026-14274 confirma 20 naturales. Cierre histórico calculado 21/07/2026; no consta aquí aclaración oficial municipal.",
         "hasta": "2026-07-21",
         "fechaConfirmada": null,
         "fechaPrudente": null,
