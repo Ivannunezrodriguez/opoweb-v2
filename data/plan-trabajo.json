@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
     "states": [
@@ -104,7 +104,49 @@
           "acceptance": "Repaso final con simulacros verificables y priorización por fecha; sin fingir cobertura completa.",
           "evidencePaths": [
             "content/diputacion-toledo/simulacros.json",
-            "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+            "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md",
+            "content/diputacion-toledo/AUDITORIA_SEGUNDO_EJERCICIO_20261122.md",
+            "content/diputacion-toledo/tema-22/preguntas.json",
+            "content/diputacion-toledo/tema-05/ficha-rapida.json",
+            "content/diputacion-toledo/tema-06/ficha-rapida.json",
+            "content/diputacion-toledo/tema-07/ficha-rapida.json",
+            "content/diputacion-toledo/tema-08/ficha-rapida.json",
+            "content/diputacion-toledo/tema-09/ficha-rapida.json",
+            "content/diputacion-toledo/tema-10/ficha-rapida.json",
+            "content/diputacion-toledo/tema-11/ficha-rapida.json",
+            "content/diputacion-toledo/tema-12/ficha-rapida.json",
+            "content/diputacion-toledo/tema-13/ficha-rapida.json",
+            "content/diputacion-toledo/tema-14/ficha-rapida.json",
+            "content/diputacion-toledo/tema-15/ficha-rapida.json",
+            "content/diputacion-toledo/tema-16/ficha-rapida.json",
+            "content/diputacion-toledo/tema-17/ficha-rapida.json",
+            "content/diputacion-toledo/tema-18/ficha-rapida.json",
+            "content/diputacion-toledo/tema-19/ficha-rapida.json",
+            "content/diputacion-toledo/tema-20/ficha-rapida.json",
+            "content/diputacion-toledo/tema-21/ficha-rapida.json",
+            "content/diputacion-toledo/tema-23/ficha-rapida.json",
+            "content/diputacion-toledo/tema-22/AUDITORIA_CLASIFICACION_BANCO_20261123.md",
+            "content/diputacion-toledo/tema-24/ficha-rapida.json",
+            "content/diputacion-toledo/tema-25/ficha-rapida.json",
+            "content/diputacion-toledo/tema-26/ficha-rapida.json",
+            "content/diputacion-toledo/tema-22/manual.md",
+            "content/diputacion-toledo/tema-27/ficha-rapida.json",
+            "content/diputacion-toledo/tema-28/ficha-rapida.json",
+            "content/diputacion-toledo/tema-29/ficha-rapida.json",
+            "content/diputacion-toledo/tema-30/ficha-rapida.json",
+            "content/diputacion-toledo/tema-31/ficha-rapida.json",
+            "content/diputacion-toledo/tema-32/ficha-rapida.json",
+            "content/diputacion-toledo/tema-33/ficha-rapida.json",
+            "content/diputacion-toledo/tema-34/ficha-rapida.json",
+            "content/diputacion-toledo/tema-35/ficha-rapida.json",
+            "content/diputacion-toledo/tema-36/ficha-rapida.json",
+            "content/diputacion-toledo/tema-37/ficha-rapida.json",
+            "content/diputacion-toledo/tema-38/ficha-rapida.json",
+            "content/diputacion-toledo/tema-39/ficha-rapida.json",
+            "content/diputacion-toledo/tema-40/ficha-rapida.json",
+            "content/diputacion-toledo/tema-22/ficha-rapida.json",
+            "assets/app.js",
+            "index.html"
           ],
           "completedSubsteps": [
             "Los 3 modelos ya publicados (36 preguntas) revisados contra Anexo VII de 40 temas: 11 etiquetas temáticas corregidas y todas las referencias redirigidas al manual del tema, sin inventar anclas; solo cubren 14 temas, 20/11/2026.",
@@ -120,15 +162,41 @@
             "22/11/2026: corregido fallo funcional: fuentes normativas de las 25 preguntas C1 modelos 4/5 existían en JSON pero no se trasladaban al objeto ni se mostraban tras corregir. Ahora aparecen enlaces seguros BOE/Microsoft y aserción Chromium para 12+1.",
             "22/11/2026: corregido el dato FAT32 de aproximación 4 GB al máximo exacto 4 GiB menos 1 byte, con fuente fabricante; matizada excepción de registro electrónico sábados y añadidos artículos BOE a cuatro ítems previos sobre LPAC/LCSP.",
             "22/11/2026: cotejo focal de 7 preguntas originales con art. 16 Ley 19/2013, arts. 99/101 LCSP y arts. 173/184 TRLRHL; corregida la justificación de acceso parcial para incluir la excepción legal de información distorsionada o carente de sentido.",
-            "22/11/2026: CI global VALIDADA en Actions 45062741733: 40 manuales/fuentes/matrices/bancos, 807 preguntas y 3228 alternativas, 552 focos y tablas en todos los manuales; 39 temas AUDITADO, 24 preguntas del T22 en reserva, 2 pares de enunciado repetido. Modelo 006 de 50 preguntas/60 min reutilizadas de 61 previas, nota +0.20/-0.05, sin T22. Cierre técnico sí, jurídico al 100% no."
+            "22/11/2026: CI global VALIDADA en Actions 45062741733: 40 manuales/fuentes/matrices/bancos, 807 preguntas y 3228 alternativas, 552 focos y tablas en todos los manuales; 39 temas AUDITADO, 24 preguntas del T22 en reserva, 2 pares de enunciado repetido. Modelo 006 de 50 preguntas/60 min reutilizadas de 61 previas, nota +0.20/-0.05, sin T22. Cierre técnico sí, jurídico al 100% no.",
+            "22/11/2026: nueva prueba de uso administrativo del art. 12.2.l).8 OAPGT desde BOP 79/2015 y BOP 113/2024, frente a cita 12.1.8 de BOP 196/2022; expediente inicial 2004 sigue sin aprobación definitiva acreditada. Fuente y aviso enlazados en T22.",
+            "22/11/2026: ficha rápida estructurada T04 publicada en opoweb-dev y vinculada en manifiesto; 4/40 disponibles, restan 36, sin elevar certificación jurídica integral.",
+            "22/11/2026: inspección de cinco casos prácticos, 10 cuestiones, 15 temas con matriz de lagunas jurídicas y de simulación; control documental parcial sin relectura íntegra del BOP 118/2026.",
+            "22/11/2026: pregunta DIP-T22-015 corregida por TREBEP art. 38.6: 'Pactos celebrados' frente a 'Acuerdos ratificados'; clave y orden de alternativas preservados. Comprobada integridad de 24 claves mecánicas T22.",
+            "22/11/2026: dos fichas estructuradas adicionales, T05 y T06, con 10 tarjetas por tema y artículos de Ley 39/2015 contrastados con BOE consolidado; fichas 6/40 (15%), 34 pendientes.",
+            "22/11/2026: fichas T07-T09 con 26 tarjetas jurídicas nuevas, todas enlazadas al programa; auditoría estructural de las 9 fichas existentes (78 tarjetas, referencias y rutas) correcta. 9/40 = 22,5 %, restantes 31.",
+            "22/11/2026: fichas estructuradas T10 y T11 creadas (20 tarjetas de responsabilidad patrimonial y procedimiento local). Cobertura total 11/40 (27,5 %), restan 29; enlazadas a manifiesto.",
+            "22/11/2026: fichas rápidas estructuradas T12–T14 (25 tarjetas) con referencias CE, LRBRL, TRLRHL y LOREG; vinculadas en programa. Cobertura 14/40 (35 %), 26 restantes.",
+            "23/11/2026: fichas rápidas T15–T17 añadidas (28 tarjetas) con LRBRL, LCSP, Ley 4/2011 y TREBEP; fichas estructuradas 17/40 = 42,5 %, restan 23. Revisada regla LCSP 103.5 en BOE de un año y 20% ejecutado con excepciones.",
+            "23/11/2026: nuevas fichas T18–T20 sobre carrera, procedimiento disciplinario y ET, 29 tarjetas; cobertura total 20/40 (50%), pendientes 20. Tema22 continúa con bloqueo documental de eficacia de modificación inicial 2004 y consolidación ulterior.",
+            "23/11/2026: fichas rápidas T21 y T23 creadas, 20 tarjetas; cobertura 22/40 (55 %), faltan 18. Clasificado T22 por fuente: 11 preguntas generales y 13 específicas/fechadas, SIN revisión jurídica exhaustiva de 96 alternativas.",
+            "23/11/2026: fichas T24–T26 (24 tarjetas), cobertura 25/40 = 62,5 %; T22 cierre operativo editorial ORIENTATIVO 90 %, sin certificación jurídica, banco puntuable 23/24 con 1 ítem en cuarentena.",
+            "23/11/2026: fichas rápidas T27–T29 con 26 tarjetas (presupuestos, RGPD/transparencia, IBI/IAE). Total 28/40 = 70 %, 12 restantes: tema 22 y 30–40.",
+            "23/11/2026: fichas rápidas de T30–T32 (27 tarjetas), cobertura 31/40 (77,5 %), restan 9: tema 22 y 33–40. Cotejo focal con TRLRHL, Ley 6/2020/eIDAS y documentación Windows 11.",
+            "23/11/2026: fichas T33–T35 con 27 tarjetas focales Edge/GroupWise, impresión/escaneado y Writer español 24.8. Cobertura 34/40 (85%), quedan 6 fichas, incluyendo T22 bajo reserva.",
+            "23/11/2026: fichas T36–T38 LibreOffice 24 (Calc/Base/Impress), 28 tarjetas. Cobertura 37/40 (92,5%), restan T22, T39, T40.",
+            "23/11/2026: fichas rápidas T39 y T40 creadas, 20 tarjetas de hardware y periféricos; cobertura 39/40 (97,5 %), 1 ficha pendiente.",
+            "23/11/2026: FINALIZADA OPERATIVAMENTE la elaboración de fichas rápidas de los 40 temas C1; último archivo T22 con 9 tarjetas y fuentes explícitas; 40/40 en programa.",
+            "23/11/2026: integración del visor: reparado rechazo de fuentes técnicas/institucionales no-BOE; lista HTTPS por hostname exacto, caché de app invalidada; regresión 40 fichas añadida a test:diputacion; tres validadores antiguos adaptados a banco de 806 preguntas activas y 1 archivada, sin renumerar IDs. Revisión estática de fuentes de fichas T01–T40: 0 dominios ajenos a lista permitida.",
+            "23/11/2026: segunda pasada de regresión de C1: identificado CI sin estados comprobables en último commit; validador de fichas corregido para aceptar longitud real (T02/T03 tienen 7), reparación de cotejo histórico T20–T23 para 23 activas + 1 archivada sin alterar IDs; `npm test` incorpora regresión de 40 fichas y `test:diputacion` revisa sintaxis del visor. No CI/E2E comprobada.",
+            "23/11/2026: controles de 40 fichas C1 (361 tarjetas en total) incorporados y re-leídos del repositorio editable por lotes 01–10, 11–20, 21–30, 31–40: sin campos incompletos ni fuentes de dominios ajenos a la lista. Ambos workflows, publicación y exportación, incluyen nueva regresión de fichas y verificador del banco antes de emitir paquete público.",
+            "23/11/2026: publicación reforzada con comparación de blobs remotos site y main para index.html, app.js, manifiesto y cada una de 40 fichas; mensaje PUBLICATION_40_FICHAS_REMOTE_BLOBS_OK solo tras cotejo. Nueva prueba runtime VM del renderizador auténtico sobre T01/T22/T33/T35/T39, más rechazo host imitador, integrada en test y test:diputacion y en dos workflows.",
+            "23/11/2026: detectada regresión concreta en npm test: tests/validate-cinco-bancos-pendientes-20261111.mjs esperaba 24 preguntas en array puntuable de un banco con 23 y una archivada. Corregido inventario a 106 activas + 1 archivada para los cinco bancos, manteniendo control de 107 registros históricos/428 opciones.",
+            "23/11/2026: dos errores reproducibles de validación del plan corregidos: tipo de bitácora de cierre normalizado a VERIFICADO con scope explícito, y nextAction eliminado de OPS-04 HECHO trasladándolo a DIP-C1-01. Revisión de invariante de estados/tipos/IDs/fechas y acciones de tareas cerradas: cero infracciones. No CI verde acreditada.",
+            "23/11/2026: nueva huella de versión generada en cada exportación pública (data/estado-publicacion.json): timestamp, hashes SHA-256 de app, radar, programa C1 y feed radar, y conteo automático de 40 fichas y tarjetas. Validador de exportación comprueba integridad de hashes/40 rutas; pipeline coteja blob remoto del manifiesto en site y main.",
+            "23/11/2026: exportador crea data/estado-publicacion.json con fecha estable del commit, 40 fichas, tarjetas y SHA-256 de visor, Radar, programa y feed; validador coteja manifiesto con archivos públicos y workflow publica con comprobación de blob remoto. Programada recuperación de publicación diaria 05:37 y 17:37 UTC si push no desencadena Actions, sin diferencias de artefacto para commits idénticos.",
+            "23/11/2026: el usuario aportó el log real de run manual #399: primer error exacto en tests/validate-radar-priority-sources-20261122.mjs, por exigir igualdad de timestamps del informe histórico (13:26Z) y del rastreo posterior (21:08Z). Corregido test con auditoría histórica independiente, comparación estricta solo si snapshotUtc coincide y garantía de URL estable de las diez fuentes. Sus invariantes verificadas con datos actuales; CI pendiente rerun."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
-            "Auditar 5 casos prácticos frente al alcance del segundo ejercicio",
-            "Completar 37 fichas rápidas estructuradas con fuentes oficiales"
+            "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Pendiente exclusivo para certificación 100%: vigencia completa OAPGT T22; revisión manual jurídico-semántica 807 preguntas/3228 alternativas; 5 casos prácticos y fichas 37 temas. Formato real 50/60 y QA estructural ya cerrados."
+          "nextAction": "Reejecutar workflow publish-public-site.yml tras fix commit 1fc60984, leer primer fallo restante si lo hay; una vez verde, comprobar blobs/huella y plan del 23/11 en opoweb-v2/site. No seguir cambiando infraestructura sin leer logs de nueva ejecución."
         },
         {
           "id": "DIP-C2-01",
@@ -147,8 +215,17 @@
           "blocker": "Falta confirmar eficacia definitiva OAPGT y artículos vigentes: 12.1.8 (2022) versus 12.2.l.8 (2026), más cotejo de las 96 opciones.",
           "acceptance": "Cadena de eficacia y banco integral cotejados",
           "evidencePaths": [
-            "data/cierre-pendientes-2026.json"
-          ]
+            "data/cierre-pendientes-2026.json",
+            "content/diputacion-toledo/tema-22/CONTROL_VIGENCIA_ESTATUTARIA_20261122.md",
+            "content/diputacion-toledo/tema-22/AUDITORIA_CLASIFICACION_BANCO_20261123.md",
+            "content/diputacion-toledo/tema-22/preguntas.json",
+            "content/diputacion-toledo/tema-22/manual.md"
+          ],
+          "completedSubsteps": [
+            "22/11/2026: identificado BOP 79/2015 art. 12.2.l).8 y continuidad en 2024/2025/2026, frente a cita 12.1.8 en 2022; fuente de control publicada sin reclamar texto consolidado.",
+            "23/11/2026: aviso de certificación Secretaría 2004/05 y 2011, referencias artículo 12 divergentes descritas como citas fechadas, 24 ítems clasificados; 23 en array activo, 1 (DIP-T22-022) trasladada a cuarentena. Indicador operativo orientativo 90%, no jurídico."
+          ],
+          "nextAction": "Esperar certificación Secretaría reforma 2004/05, historial de Estatutos vigente, validar atribuciones art 12 y composición/quórums, reauditar banco; comprobar que UI pública importa banco actualizado."
         },
         {
           "id": "UC3M-01",
@@ -369,14 +446,16 @@
             "20/11/2026: filtradas en radar-core las diligencias de activación, relaciones de integrantes, estados de bolsa y órdenes de llamamiento sin convocatoria nueva; las aperturas efectivas se conservan. Añadidas pruebas en radar-fixtures.",
             "20/11/2026: evitada pérdida de bolsas/ofertas diferentes cuando la sede reutiliza una URL de índice o un PDF con varios puestos; solo fusionar URL específica y títulos equivalentes. Añadidos casos de regresión a tests/radar-fixtures.mjs.",
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
-            "22/11/2026: referencias de apoyo verificadas para Getafe (transparencia/recursos humanos), Alcorcón (documentos/procesos) e Illescas (sede/Convoca); resultado real requiere rastreo nuevo."
+            "22/11/2026: referencias de apoyo verificadas para Getafe (transparencia/recursos humanos), Alcorcón (documentos/procesos) e Illescas (sede/Convoca); resultado real requiere rastreo nuevo.",
+            "23/11/2026: Getafe queda con dos fuentes municipales INDEPENDIENTES de ofertas y bolsas, para leer ambas incluso cuando la primera funciona. Se amplió el reconocimiento de 'lista de espera' oficial y se añadió test de dos fuentes con línea base e incorporación de una nueva convocatoria. Corregida laguna funcional real; pendiente primer rastreo posterior.",
+            "23/11/2026: eliminada duplicación de rutas de bolsas dentro de los respaldos de ofertas de Getafe; cada fuente conserva solo URLs de su categoría, con identidades y estados de rastreo separados. Test actualizado de no solapamiento y fallback propio ante TLS."
           ],
           "remainingSubsteps": [
             "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
             "Auditar un muestreo real de documentos municipales que comparten URL y comprobar resultado de tests del rastreo antes de cerrar la tarea."
           ],
-          "nextAction": "Tomar muestra concreta de bolsas, sustituciones e interinidades Toledo/sur de Madrid y contrastar fuente, plazo y duplicados sin crear plazas inventadas."
+          "nextAction": "Comprobar un rastreo nuevo de las dos fuentes independientes de Getafe y el resultado de sus respaldos sin alertas duplicadas. Ejecutar tests/radar-direct-test.py antes de declarar validado."
         },
         {
           "id": "RAD-04",
@@ -551,7 +630,12 @@
             "22/11/2026: auditoría operativa ahora desglosa por fuente oportunidades recientes sin lectura y separa cuántas tienen puesto accionable; control con datos sintéticos en CI sin filtración de datos de opositores.",
             "22/11/2026: fuente directa de 203 entradas de estado: 36 ERROR, 124 PARTIAL, 43 READABLE. Priorizadas 10 fuentes (sin afirmar cobertura ni plazos) y añadido test reproducible.",
             "22/11/2026: reintento de hasta dos URLs públicas de respaldo oficiales tras caída total de Getafe, Alcorcón e Illescas. Mantiene ERROR/PARCIAL, no silencia error TLS y no atribuye inscripción abierta; tests con fallo y rescate.",
-            "22/11/2026: detección de shell Angular/Convoca antes de contar páginas como LEÍDO, con test de plantilla dinámica y control anti-falso positivo; protege específicamente portales tipo Illescas."
+            "22/11/2026: detección de shell Angular/Convoca antes de contar páginas como LEÍDO, con test de plantilla dinámica y control anti-falso positivo; protege específicamente portales tipo Illescas.",
+            "23/11/2026: Getafe incorpora tercera ruta municipal de respaldo específica de bolsas (getafe.es/bolsa-de-empleo/); se conserva TLS estricto, ruta institucional original y separación de OEP y ofertas. Test de regresión de fallo primario y recuperación alternativa añadido. No se ha ejecutado un rastreo real posterior.",
+            "23/11/2026: fuente Getafe ampliada con endpoint oficial específico PTS2_EMPLEO_BOLSA, manteniendo cuatro respaldos y límite total de cinco páginas; rastreador intenta los cuatro tras fallo principal y el test exige registrar fallo TLS y recorrido por sede oficial de bolsas. Fuente oficial comprobada públicamente; rastreo real todavía pendiente.",
+            "23/11/2026: añadido segundo listado de Getafe con ID estable propio y prueba de seguimiento independiente; la vista de ofertas ya no condiciona lectura de bolsas, de acuerdo con origen oficial observado.",
+            "23/11/2026: configuración y test de Getafe releídos tras separar rutas: ofertas con 2 respaldos propios, bolsas con 1 respaldo propio, cero URL de respaldo compartidas; test exige no solapamiento y lectura de alternativa oficial tras fallo TLS. No se ha ejecutado aún CI.",
+            "23/11/2026: corregida en test de auditoría de diez fuentes la falsa obligación de que reporte histórico y rastreo posterior compartan fecha y estados; Getafe y Móstoles cambiaron entre capturas. El informe queda marcado explícitamente como histórico."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -561,7 +645,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Obtener snapshot nuevo para los tres fallbacks y medir lecturas de documentos efectivos; confirmar posibles convocatorias frente a bases BOE/BOP."
+          "nextAction": "Verificar próximo snapshot de Radar y resultado de test Python real; comparar sources/status y detectar repetición de URLs entre dos fuentes de Getafe."
         },
         {
           "id": "RAD-13",
@@ -756,7 +840,8 @@
             "Diputación Toledo C1, modelo 1 de 12 preguntas/18 min, historial aislado y aviso de cobertura 14/40 verificados en Chromium #44692289280 SUCCESS.",
             "21/11/2026: Playwright Chromium + axe del selector de estudio, repaso por tema y opciones verticales superado en el flujo E2E; no acredita móvil físico ni Firefox/Safari.",
             "22/11/2026: identificada prueba obsoleta de exportación que buscaba ausencia de PDF oficial, tras haberse recibido plantilla provisional. Prueba actualizada para exigir CSV, 50 claves, reservas y no atribuir anulación.",
-            "22/11/2026: pipeline de exportación/publicación de contenido oficial y OEP SUCCESS en Actions #45054939037/#45054938970; esta prueba no sustituye el E2E Safari/Firefox/móvil físico."
+            "22/11/2026: pipeline de exportación/publicación de contenido oficial y OEP SUCCESS en Actions #45054939037/#45054938970; esta prueba no sustituye el E2E Safari/Firefox/móvil físico.",
+            "23/11/2026: test de comportamiento del renderizador añadido a suites y gates de publicación: cinco fichas y rechazo de host imitador. No es todavía un navegador E2E."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -765,7 +850,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Ejecutar pruebas Playwright Firefox y WebKit sobre el plan y práctica, después ampliar teclado y accesibilidad; no activar offline.",
+          "nextAction": "Después de una publicación verde, abrir web pública en Chromium y móvil, comprobar fichas BOE/BOP/LibreOffice, realización de test y puntuación; ampliar Firefox/WebKit, teclado y accesibilidad.",
           "priority": "ALTA"
         },
         {
@@ -923,12 +1008,14 @@
             "Se confirmó que la retirada offline es intencionada; exportación comprueba que sw.js no intercepta recursos ni conserva cachés antiguos.",
             "axe-core + Chromium en datos cargados de OpoWeb/OpoRadar/tablero: Actions #44607297702 completed/success",
             "21/11/2026: el selector JCCM/SESCAM, la eliminación de El Viso, el resumen y los tests de opciones verticales se publicaron con pipeline success y Playwright Chromium success local; falta E2E desde dominio final.",
-            "21/11/2026: GitHub Actions 44915328773 SUCCESS: suite Playwright ejecutada DOS VECES con OPOWEB_BROWSER_E2E_OK, en servidor local y dominio final https://ivannunezrodriguez.github.io/opoweb-v2; desktop 1366x900 y móvil Chromium simulado 390x844, repaso UC3M, simulacros, OpoRadar, plan, WCAG axe; test privacidad local también OK. Publicación filtrada site/main y retirada de SW previamente validadas."
+            "21/11/2026: GitHub Actions 44915328773 SUCCESS: suite Playwright ejecutada DOS VECES con OPOWEB_BROWSER_E2E_OK, en servidor local y dominio final https://ivannunezrodriguez.github.io/opoweb-v2; desktop 1366x900 y móvil Chromium simulado 390x844, repaso UC3M, simulacros, OpoRadar, plan, WCAG axe; test privacidad local también OK. Publicación filtrada site/main y retirada de SW previamente validadas.",
+            "La sincronización comprobada el 22/11 permanece cerrada como hito histórico; la publicación posterior se verifica en DIP-C1-01 y QA-02, sin reabrir ni añadir siguiente acción a OPS-04."
           ],
           "remainingSubsteps": [],
           "priority": "ALTA",
           "closedAt": "2026-11-21",
-          "closeLimit": "Entrega cerrada para sincronización site/main y pruebas Chromium reales contra dominio publicado, con viewport móvil simulado. No acredita Safari, Firefox, móviles físicos ni funcionamiento offline; esas pruebas permanecen QA-02."
+          "closeLimit": "Entrega cerrada para sincronización site/main y pruebas Chromium reales contra dominio publicado, con viewport móvil simulado. No acredita Safari, Firefox, móviles físicos ni funcionamiento offline; esas pruebas permanecen QA-02.",
+          "nextAction": null
         },
         {
           "id": "OPS-05",
@@ -1302,6 +1389,16 @@
       "status": "HECHO_DOCUMENTAL",
       "evidence": "opoweb-dev/content/diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md",
       "scope": "CADENA_EFICACIA_ESTATUTOS_PENDIENTE"
+    },
+    {
+      "id": "C1-FICHAS-40-DE-40-20261123",
+      "at": "2026-11-23",
+      "title": "Fichas rápidas C1: 40/40 disponibles",
+      "evidence": [
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/tema-22/ficha-rapida.json"
+      ],
+      "limit": "Cierre operativo de disponibilidad de fichas, no certificación jurídica integral ni E2E."
     }
   ],
   "projectPremises": {
@@ -1949,6 +2046,457 @@
         "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
       ],
       "limit": "CI no certifica jurídicamente respuestas ni texto consolidado OAPGT; solo 3/40 fichas rápidas estructuradas."
+    },
+    {
+      "id": "LOG-20261122-C1-OAPGT-CITAS-FICHA04",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "DIP-C1-02",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Nueva serie de referencias estatutarias de OAPGT BOP 2015/2022/2024/2025/2026; corregida nota contradictoria de manual C1 T22. Ficha jurídica estructurada T04 enlazada al programa: 4 de 40, 36 pendientes.",
+      "evidence": [
+        "content/diputacion-toledo/tema-22/CONTROL_VIGENCIA_ESTATUTARIA_20261122.md",
+        "content/diputacion-toledo/tema-22/manual.md",
+        "content/diputacion-toledo/tema-04/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json"
+      ],
+      "limit": "No se ha acreditado eficacia definitiva reforma de 2004; no hay cotejo integral T22 ni 807 preguntas. CI de estos cambios pendiente."
+    },
+    {
+      "id": "LOG-20261122-C1-T22-Q015-SUPUESTOS",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "DIP-C1-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "En T22 pregunta 015 corregida la equiparación incorrecta de ratificación de Pactos y Acuerdos, con base TREBEP art.38.6. Cinco supuestos clasificados y documentadas lagunas para examen C1 sin presumir equivalencia con segundo ejercicio.",
+      "evidence": [
+        "content/diputacion-toledo/tema-22/preguntas.json",
+        "content/diputacion-toledo/AUDITORIA_SEGUNDO_EJERCICIO_20261122.md"
+      ],
+      "limit": "1 de 24 preguntas T22 con corrección semántica específica, no revisión íntegra 24/96; cinco casos examinados en alcance, soluciones todavía no validadas todas frente a primarias. CI pendiente."
+    },
+    {
+      "id": "LOG-20261122-C1-FICHAS05-06",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Se incorporan fichas T05 y T06 Ley 39/2015 con 10 tarjetas normativas cada una; 6/40 fichas en manifiesto. Recuento de pendientes 34, sin alterar 39/40 AUDITADO ni certificación integral.",
+      "evidence": [
+        "content/diputacion-toledo/tema-05/ficha-rapida.json",
+        "content/diputacion-toledo/tema-06/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "No se ha ejecutado la batería CI posterior a los cambios. Revisión de tarjetas focal, no validación integral de alternativas."
+    },
+    {
+      "id": "LOG-20261122-C1-FICHAS07-09",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas estructuradas C1 7, 8 y 9 incorporadas a manifiesto (26 tarjetas); comprobadas 9 fichas/78 tarjetas con campos y fuentes. Cobertura 9/40 = 22,5 % y 31 pendientes; no se declara auditoría jurídica completa.",
+      "evidence": [
+        "content/diputacion-toledo/tema-07/ficha-rapida.json",
+        "content/diputacion-toledo/tema-08/ficha-rapida.json",
+        "content/diputacion-toledo/tema-09/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Validación de integridad vía GitHub connector, no CI ni E2E ni auditoría manual exhaustiva de bancos."
+    },
+    {
+      "id": "LOG-20261122-C1-FICHAS10-11",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas focales de los temas 10 y 11 C1 (20 tarjetas), y cobertura de fichas 11/40 (27,5%), restantes 29. Se preservan 39/40 estados editoriales y falta validación jurídico-integral.",
+      "evidence": [
+        "content/diputacion-toledo/tema-10/ficha-rapida.json",
+        "content/diputacion-toledo/tema-11/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Aún no validado con CI actual ni navegador; enlaces y estructura a comprobar en este mismo pase."
+    },
+    {
+      "id": "LOG-20261122-C1-FICHAS12-14",
+      "at": "2026-11-22",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Nuevas fichas rápidas estructuradas T12–T14, 25 tarjetas con referencia normativa; total 14/40 = 35 %, 26 pendientes. No se aumenta auditoría editorial 39/40 ni certificación integral.",
+      "evidence": [
+        "content/diputacion-toledo/tema-12/ficha-rapida.json",
+        "content/diputacion-toledo/tema-13/ficha-rapida.json",
+        "content/diputacion-toledo/tema-14/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Integridad estructural a comprobar; falta batería CI y E2E posteriores y auditoría semántica de alternativas."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS15-17",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas C1 15, 16 y 17 incorporadas con 28 tarjetas. Cobertura 17/40 = 42,5%, restan 23. Verificada regla LCSP art. 103.5: un año y 20 %.",
+      "evidence": [
+        "content/diputacion-toledo/tema-15/ficha-rapida.json",
+        "content/diputacion-toledo/tema-16/ficha-rapida.json",
+        "content/diputacion-toledo/tema-17/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a103"
+      ],
+      "limit": "Fichas no equivalen a validación jurídica integral de bancos; CI nueva y E2E pendientes."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS18-20",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas T18–T20 con 29 tarjetas de carrera y situaciones, régimen disciplinario, contrato de trabajo. Cobertura 20/40 (50 %), pendientes 20; reserva de vigencia OAPGT T22 detallada al usuario.",
+      "evidence": [
+        "content/diputacion-toledo/tema-18/ficha-rapida.json",
+        "content/diputacion-toledo/tema-19/ficha-rapida.json",
+        "content/diputacion-toledo/tema-20/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md",
+        "content/diputacion-toledo/tema-22/CONTROL_VIGENCIA_ESTATUTARIA_20261122.md"
+      ],
+      "limit": "No CI nueva, despliegue público o relectura exhaustiva de distractores. Reforma inicial 2004/05 pendiente de acreditar eficacia."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS21-23-BANCO22",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "DIP-C1-02",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas T21 y T23 con 20 tarjetas y vínculo en programa, 22/40=55%, 18 pendientes. Clasificación T22: 11 ítems de legislación general y 13 de publicaciones concretas, no revisión integral de 96 alternativas.",
+      "evidence": [
+        "content/diputacion-toledo/tema-21/ficha-rapida.json",
+        "content/diputacion-toledo/tema-23/ficha-rapida.json",
+        "content/diputacion-toledo/tema-22/AUDITORIA_CLASIFICACION_BANCO_20261123.md",
+        "data/programa-diputacion-administrativo-2026.json"
+      ],
+      "limit": "Revisión jurídica de respuestas/distractores queda pendiente, igual que certificación de reforma 2004/2005 y pruebas CI/E2E."
+    },
+    {
+      "id": "LOG-20261123-C1-CUARENTENA-T22-FICHAS24-26",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "DIP-C1-02",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Aviso de bloqueo documental estatutario T22 y citas divergentes art 12; examen T22 clasificado 24/24, 23 activos y DIP-T22-022 segregado en preguntasEnCuarentena. Cierre operativo 90 % meramente editorial. Fichas nuevas T24–T26 (+24 tarjetas): 25/40 = 62,5 %.",
+      "evidence": [
+        "content/diputacion-toledo/tema-22/manual.md",
+        "content/diputacion-toledo/tema-22/preguntas.json",
+        "content/diputacion-toledo/tema-24/ficha-rapida.json",
+        "content/diputacion-toledo/tema-25/ficha-rapida.json",
+        "content/diputacion-toledo/tema-26/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json"
+      ],
+      "limit": "El archivo pregunta T22-022 no se sirve desde array preguntas, pero no se ha probado UI desplegada ni CI. No certificación jurídica del Estatuto vigente."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS27-29",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Creadas y enlazadas fichas T27–T29 (26 tarjetas), total 28/40 = 70%, restan 12. T22 sigue operativo condicionado y no jurídicamente certificado.",
+      "evidence": [
+        "content/diputacion-toledo/tema-27/ficha-rapida.json",
+        "content/diputacion-toledo/tema-28/ficha-rapida.json",
+        "content/diputacion-toledo/tema-29/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Sin acreditación CI nueva ni despliegue, auditoría legal integral de distractores no terminada."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS30-32",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas temáticas T30–T32 creadas y vinculadas al programa, 27 tarjetas, cobertura 31/40 = 77,5%; 9 pendientes (T22 y T33–40). T22 permanece condicionado y no certificado.",
+      "evidence": [
+        "content/diputacion-toledo/tema-30/ficha-rapida.json",
+        "content/diputacion-toledo/tema-31/ficha-rapida.json",
+        "content/diputacion-toledo/tema-32/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Falta cotejo integral de las alternativas y confirmación CI/E2E o despliegue público."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS33-35",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas T33–T35 creadas y enlazadas, 27 tarjetas, cobertura 34/40 (85 %). Mantiene tema 22 bajo revisión jurídica no certificada.",
+      "evidence": [
+        "content/diputacion-toledo/tema-33/ficha-rapida.json",
+        "content/diputacion-toledo/tema-34/ficha-rapida.json",
+        "content/diputacion-toledo/tema-35/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Tarjetas presentes y vinculadas, pero sin certificación E2E de UI, despliegue ni banco completo de alternativas."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS36-38",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas LibreOffice Calc T36, Base T37 e Impress T38 creadas con 28 tarjetas y vinculadas; 37/40 = 92,5% cobertura, quedan T22, T39, T40. T22 sin certificar Estatutos.",
+      "evidence": [
+        "content/diputacion-toledo/tema-36/ficha-rapida.json",
+        "content/diputacion-toledo/tema-37/ficha-rapida.json",
+        "content/diputacion-toledo/tema-38/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Sin certificación CI/E2E o despliegue; tarjetas focales no equivalen a cotejo íntegro de los bancos."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS39-40",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Fichas temáticas T39–T40, 20 tarjetas de hardware y periféricos, enlazadas. Cobertura 39/40 = 97,5 %. Separa verificación funcional y documental.",
+      "evidence": [
+        "content/diputacion-toledo/tema-39/ficha-rapida.json",
+        "content/diputacion-toledo/tema-40/ficha-rapida.json",
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "No se ha acreditado CI/E2E ni despliegue público de cambios; fichas focales no equivalen a auditoría integral de distractores."
+    },
+    {
+      "id": "LOG-20261123-C1-FICHAS-CIERRE-40-40",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Elaboración de fichas rápidas finalizada: 40/40 temas con ficha específica y enlace desde programa. Validación integral jurídica y funcional sigue como fase diferente.",
+      "evidence": [
+        "data/programa-diputacion-administrativo-2026.json",
+        "content/diputacion-toledo/tema-22/ficha-rapida.json",
+        "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md"
+      ],
+      "limit": "Sin nuevas pruebas de CI ni despliegue.",
+      "scope": "CIERRE_OPERATIVO_DE_FICHAS"
+    },
+    {
+      "id": "LOG-20261123-C1-INTEGRACION-FICHAS-40",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corregida incompatibilidad del visor de fichas con fuentes institucionales distintas del BOE, cache-bust HTML, nueva prueba estática 40/40 incluida en test:diputacion y actualización de validadores de preguntas (806 activas, 1 segregada); 40 fichas revisadas por hosts admitidos.",
+      "evidence": [
+        "assets/app.js",
+        "index.html"
+      ],
+      "limit": "Pendiente ejecución real GitHub Actions y comprobación E2E en web publicada."
+    },
+    {
+      "id": "LOG-20261123-C1-REGRESION-SEGUNDA-PASADA",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cotejos CI revisados: prueba de fichas sin umbral arbitrario, cotejo histórico T20–T23 adaptado a preguntas preservadas fuera de banco, regresión integrada en npm test y chequeo de sintaxis en test:diputacion; no se ha recibido estado CI en último commit ni verificado la publicación pública.",
+      "evidence": [],
+      "limit": "Sin ejecución de npm ni navegador real, y sin estado de GitHub Actions accesible en el commit inspeccionado."
+    },
+    {
+      "id": "LOG-20261123-PRIO1-GATES-FICHAS-361",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "QA-02",
+        "OPS-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cerrada incorporación de regresión para 40 fichas y verificador del banco a workflows de publicación y validación de exportación. Comprobación independiente por lotes de 40 fichas: 361 tarjetas con campos requeridos y fuentes dentro de dominios permitidos. El repositorio público sigue en commit del 22/11; sincronización E2E pendiente.",
+      "evidence": [
+        "assets/app.js",
+        "data/programa-diputacion-administrativo-2026.json"
+      ],
+      "limit": "No se ha confirmado ejecución de Actions verde posterior a los cambios ni navegador publicado. No marcar OPS-04 como nueva verificación."
+    },
+    {
+      "id": "LOG-20261123-PRIORIDADES-CI-RADAR-GETAFE",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "QA-02",
+        "RAD-12",
+        "RAD-03"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Prioridad 1: dos workflows de publicación/exportación ejecutarán validación C1 de 40 fichas y banco. Lectura independiente de 40 fichas: 361 tarjetas completas y dominios HTTPS permitidos. El código público aún no refleja las nuevas correcciones. Radar: tercer respaldo oficial Getafe para bolsas más prueba de fallback TLS, sin afirmar disponibilidad real de plazas.",
+      "evidence": [
+        "data/programa-diputacion-administrativo-2026.json"
+      ],
+      "limit": "CI verde posterior, E2E, despliegue y nuevo rastreo Radar siguen sin evidencia de ejecución."
+    },
+    {
+      "id": "LOG-20261123-PRIO1-BLOBS-REMOTOS-RUNTIME",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "QA-02",
+        "OPS-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Workflow publicación: cotejo de blobs remotos y 40 fichas en site/main; prueba real del renderizador en entorno VM con 5 fichas y control de seguridad incorporada a npm test, test:diputacion, build/export y publish. Registro de cambios sin atribuir éxito a CI ni navegador.",
+      "evidence": [],
+      "limit": "No se ha podido ejecutar npm/GitHub Actions ni validar Pages en navegador desde estas herramientas; se necesitan run/log y prueba E2E."
+    },
+    {
+      "id": "LOG-20261123-C1-CI-LEGACY-FIVE-BANKS-FIX",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corregido fallo verificable en prueba histórica que exigía 24 elementos activos: valida 106 activos y uno archivado de los cinco bancos, preserva 107 enunciados y 428 alternativas históricas sin reincorporar ítem al test. Publicación y CI siguen sin ejecución verde acreditada.",
+      "evidence": [],
+      "limit": "Archivo corregido y releído, no ejecutada batería npm test/CI en herramienta con entorno de repositorio completo."
+    },
+    {
+      "id": "LOG-20261123-CI-PLAN-INVARIANTES-REPARADAS",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "OPS-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corregidos dos errores objetivos frente a tests/validate-plan-bitacora-20261121.mjs: un valor kind no permitido y una nextAction en tarea HECHO; cierre editorial histórico preservado en scope. Control estructural posterior de plan sin fallos en clases, estados, fechas, referencias y próximos pasos.",
+      "evidence": [
+        "data/plan-trabajo.json"
+      ],
+      "limit": "No ejecutado workflow ni npm test completo sobre un checkout; resultado CI y despliegue público pendientes."
+    },
+    {
+      "id": "LOG-20261123-RAD-GETAFE-BOLSAS-OFICIALES",
+      "at": "2026-11-23",
+      "taskIds": [
+        "RAD-12",
+        "RAD-03"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Se añadió enlace institucional verificado de Bolsas de Empleo de la sede de Getafe a la lista de respaldos, se amplió de 3 a 4 el recorrido tras fallo primario y se actualizó test de regresión para comprobar intento de bolsa oficial, registro TLS y rescate municipal. Archivos releídos en GitHub tras edición.",
+      "evidence": [],
+      "limit": "No se ha comprobado ejecución de rastreo, pipeline ni publicación posterior; las fichas de oportunidades y sus plazos siguen requiriendo lectura primaria de bases."
+    },
+    {
+      "id": "LOG-20261123-PUBLIC-BUILD-FINGERPRINT",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "QA-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Exportación pública incorpora huella de versión con fecha, cobertura de fichas y hashes de app.js, radar.js, programa C1 y feed Radar. Test de exportación coteja cuatro hashes y presencia de 40 fichas; workflow verifica blob del manifiesto en ambas ramas remotas. Se facilita diagnóstico independiente de desfase público.",
+      "evidence": [],
+      "limit": "Cambios confirmados por lectura del código en GitHub; no se ha ejecutado el pipeline ni se ha comprobado que el archivo aparezca en Pages."
+    },
+    {
+      "id": "LOG-20261123-PUBLICACION-RECUPERACION-PROGRAMADA",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "QA-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Añadida huella de versión de los archivos públicos (SHA-256, 40 fichas, tarjetas, fecha estable del commit); añadido test de integridad de exportación y cotejo remoto site/main. Configurada ejecución de recuperación 05:37 y 17:37 UTC para publicaciones no disparadas por push; sin regenerar commits por hora de compilación.",
+      "evidence": [],
+      "limit": "La acción está configurada y sus archivos releídos en GitHub, pero no hay evidencia de un nuevo workflow SUCCESS ni del manifiesto en ramas públicas."
+    },
+    {
+      "id": "LOG-20261123-RAD-GETAFE-SOURCES-INDEPENDENT",
+      "at": "2026-11-23",
+      "taskIds": [
+        "RAD-03",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corregida omisión de bolsas cuando ofertas Getafe resultaba legible: fuente oficial de Bolsas creada como identidad y rastreo autónomos, y reconocimiento de LISTA DE ESPERA añadido al parser con pruebas contra listas de admitidos y dos fuentes concurrentes. Primer rastreo no ejecutado.",
+      "evidence": [],
+      "limit": "Configuración y código guardados; la ejecución del nuevo test, las métricas de rastreo y la publicación pública no están acreditadas."
+    },
+    {
+      "id": "LOG-20261123-RAD-GETAFE-FALLBACKS-SEPARADOS",
+      "at": "2026-11-23",
+      "taskIds": [
+        "RAD-03",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Separados por categoría los respaldos institucionales de ofertas y bolsas en Getafe para evitar visitas cruzadas; se preservan IDs propios y base por fuente. Regresión Python exige ausencia de solapamiento y respaldo de bolsas ante error TLS. Cambios confirmados mediante relectura de JSON y código en GitHub.",
+      "evidence": [],
+      "limit": "Validación de código y configuración, no ejecución de Python/CI ni rastreo real posterior."
+    },
+    {
+      "id": "LOG-20261123-CI-PUBLISH-RADAR-HISTORICAL-SNAPSHOT-FIX",
+      "at": "2026-11-23",
+      "taskIds": [
+        "DIP-C1-01",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "A partir del log REAL de GitHub Actions #399 se corrigió el bloqueo de publicación en tests/validate-radar-priority-sources-20261122.mjs: el reporte del 22/11 13:26 UTC no debe exigir igualdad exacta con el rastreo actualizado a las 21:08 UTC. Se mantienen coherencia interna, las diez fuentes, la URL vigente y los números estrictos sólo para una misma instantánea. Comprobación de invariantes sobre ambos JSON válida; pendiente nuevo run CI.",
+      "evidence": [],
+      "limit": "El usuario confirmó fallo en CI por captura y se corrigió la condición, pero no se ha ejecutado aún el workflow con el commit nuevo ni acreditado su resultado."
     }
   ],
   "decisions": [

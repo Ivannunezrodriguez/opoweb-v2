@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 25 · Obligación tributaria y haciendas locales",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-25/manual.md",
+  "source": {
+    "label": "Ley 58/2003 General Tributaria",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+  },
+  "additionalSources": [
+    {
+      "label": "RDL 2/2004 TRLRHL",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Hecho imponible, no sujeción y exención",
+      "articles": "LGT arts. 20–22",
+      "fact": "La realización del hecho imponible origina obligación principal; en exención se realiza pero dispensa pago, en no sujeción queda fuera.",
+      "trap": "Exención no equivale a ausencia de hecho imponible."
+    },
+    {
+      "title": "Contribuyente y sustituto",
+      "articles": "LGT art. 36",
+      "fact": "Contribuyente realiza hecho imponible; sustituto cumple obligación principal en su lugar por imposición legal.",
+      "trap": "Sustituto no es nombrado libremente por la Administración."
+    },
+    {
+      "title": "Base imponible y liquidable",
+      "articles": "LGT arts. 50 y 54",
+      "fact": "Base imponible cuantifica hecho imponible; base liquidable resulta tras reducciones legales.",
+      "trap": "No confundir reducciones de base con deducciones de cuota."
+    },
+    {
+      "title": "Deuda tributaria y sanciones",
+      "articles": "LGT art. 58",
+      "fact": "La deuda comprende cuota y conceptos legalmente previstos; sanciones tributarias no forman parte de la deuda tributaria.",
+      "trap": "Las sanciones pueden recaudarse por vías tributarias sin integrar deuda tributaria."
+    },
+    {
+      "title": "Prescripción general",
+      "articles": "LGT art. 66",
+      "fact": "La ley establece plazos generales de cuatro años para derechos tributarios tasados, atendiendo al inicio de cómputo de cada uno.",
+      "trap": "No calcular el plazo sin identificar el derecho concreto."
+    },
+    {
+      "title": "Impuestos obligatorios y potestativos",
+      "articles": "TRLRHL art. 59",
+      "fact": "IBI, IAE e IVTM son obligatorios; ICIO e IIVTNU potestativos.",
+      "trap": "No considerar obligatorio el impuesto sobre construcciones."
+    },
+    {
+      "title": "Plazo de ingreso de liquidaciones",
+      "articles": "LGT art. 62.2",
+      "fact": "Notificación días 1–15: hasta 20 del mes siguiente; días 16–fin: hasta 5 del segundo mes posterior, salvo inhábiles.",
+      "trap": "La fecha de la notificación cambia el mes de vencimiento."
+    },
+    {
+      "title": "Reposición tributaria local",
+      "articles": "TRLRHL art. 14.2",
+      "fact": "Plazo general de un mes para interponer y un mes para resolver; silencio desestimatorio en términos del régimen aplicable.",
+      "trap": "No confundir resolución con plazo de diez días para notificar lo resuelto."
+    }
+  ],
+  "editorialNote": "Ficha temática de repaso contrastada con manual y referencias normativas. No constituye certificación jurídica integral del banco ni E2E."
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 23 · Prevención de riesgos laborales: derechos, servicios y representación",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-23/manual.md",
+  "source": {
+    "label": "Ley 31/1995 de Prevención de Riesgos Laborales",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+  },
+  "additionalSources": [
+    {
+      "label": "RD 39/1997, Reglamento de los Servicios de Prevención",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Derecho a la protección eficaz",
+      "articles": "LPRL art. 14",
+      "fact": "La protección eficaz frente a riesgos laborales constituye derecho de trabajadores y deber del empresario o Administración; el coste no recae sobre el personal.",
+      "trap": "No afirmar que medidas preventivas pueden descontarse de la nómina."
+    },
+    {
+      "title": "Jerarquía de protección",
+      "articles": "LPRL art. 15",
+      "fact": "Prevalencia de protección colectiva sobre la individual, junto a evitación, evaluación y combate del riesgo en origen.",
+      "trap": "Un EPI no sustituye automáticamente medidas colectivas eficaces."
+    },
+    {
+      "title": "Formación preventiva",
+      "articles": "LPRL art. 19",
+      "fact": "Formación teórica y práctica, suficiente, adecuada y adaptada al puesto, sin coste para trabajador; dentro de jornada o compensada según ley.",
+      "trap": "No confundir información general de riesgos con formación efectiva de la tarea."
+    },
+    {
+      "title": "Riesgo grave e inminente",
+      "articles": "LPRL art. 21.3",
+      "fact": "Los representantes pueden acordar paralización bajo condiciones; la autoridad laboral la ratifica o anula en 24 horas.",
+      "trap": "Es la autoridad laboral la que decide en 24 horas, no el Comité de Seguridad y Salud."
+    },
+    {
+      "title": "Vigilancia de la salud",
+      "articles": "LPRL art. 22",
+      "fact": "Regla general de consentimiento del trabajador, con excepciones legales, informe previo de representantes y confidencialidad.",
+      "trap": "Voluntaria como regla no implica imposibilidad de reconocimientos obligatorios previstos legalmente."
+    },
+    {
+      "title": "Deberes del trabajador",
+      "articles": "LPRL art. 29",
+      "fact": "Uso apropiado de equipos y medios, no inutilizar dispositivos de seguridad, informar riesgos y cooperar con prevención.",
+      "trap": "La existencia de deber empresarial no elimina responsabilidades del personal."
+    },
+    {
+      "title": "Delegados por plantilla",
+      "articles": "LPRL art. 35.2",
+      "fact": "Hasta 30 trabajadores, el delegado de personal desempeña función preventiva; entre 31 y 49 hay uno elegido entre delegados; de 50 a 100, dos.",
+      "trap": "Al cumplir 50 cambia el número de delegados y nace obligación general de Comité."
+    },
+    {
+      "title": "Informe de delegados",
+      "articles": "LPRL art. 36.3",
+      "fact": "Los informes previos de los Delegados de Prevención se emiten en 15 días, o tiempo imprescindible para riesgos inminentes.",
+      "trap": "No confundir 15 días del informe con 24 horas de autoridad laboral."
+    },
+    {
+      "title": "Comité de Seguridad y Salud",
+      "articles": "LPRL art. 38",
+      "fact": "Se constituye en empresas o centros con 50 o más trabajadores, es paritario y colegiado; reuniones trimestrales y cuando lo solicite una representación.",
+      "trap": "Comité de 50 trabajadores no es servicio de prevención propio."
+    },
+    {
+      "title": "Servicio de prevención propio",
+      "articles": "RD 39/1997 art. 14",
+      "fact": "Con carácter general, obligatorio en empresas de más de 500 trabajadores, o 250 a 500 con actividades del anexo I, además de otros supuestos legales.",
+      "trap": "No trasladar sin matices la regulación empresarial a las especialidades organizativas del sector público."
+    }
+  ],
+  "editorialNote": "Tarjetas de apoyo focal; pendiente revisión semántica completa de alternativas y pruebas E2E. No extrapolar excepciones ni especialidades del sector público."
+}

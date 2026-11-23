@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 10 · Responsabilidad patrimonial de la Administración y del personal",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-10/manual.md",
+  "source": {
+    "label": "Ley 40/2015, responsabilidad patrimonial",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 39/2015, procedimiento",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Fundamento y fuerza mayor",
+      "articles": "CE art. 106.2; Ley 40/2015, art. 32",
+      "fact": "El particular puede ser indemnizado por lesiones ocasionadas por funcionamiento de servicios públicos en los términos legales, salvo fuerza mayor.",
+      "trap": "No toda anulación administrativa implica indemnización automática."
+    },
+    {
+      "title": "Daño indemnizable",
+      "articles": "Ley 40/2015, art. 32.2",
+      "fact": "Daño efectivo, evaluable económicamente, individualizado y que el interesado no tenga deber jurídico de soportar.",
+      "trap": "La mera expectativa económica hipotética no acredita lesión indemnizable."
+    },
+    {
+      "title": "Relación causal y servicio",
+      "articles": "Ley 40/2015, art. 32.1",
+      "fact": "La lesión ha de ser consecuencia del funcionamiento normal o anormal del servicio público.",
+      "trap": "Responsabilidad objetiva no significa aseguramiento universal ante cualquier daño."
+    },
+    {
+      "title": "Concurrencia de Administraciones",
+      "articles": "Ley 40/2015, art. 33",
+      "fact": "En fórmulas conjuntas de actuación la responsabilidad frente al particular es solidaria; cabe distribución interna. En concurrencias de otra clase se atiende a criterios legales.",
+      "trap": "No confundir solidaridad externa con reparto de responsabilidad entre Administraciones."
+    },
+    {
+      "title": "Prescripción",
+      "articles": "Ley 39/2015, art. 67.1",
+      "fact": "Por regla general, un año desde hecho o manifestación del daño; en daños físicos o psíquicos desde curación o determinación de secuelas.",
+      "trap": "En lesión física no contar necesariamente desde el primer síntoma."
+    },
+    {
+      "title": "Informe del servicio",
+      "articles": "Ley 39/2015, art. 81.1",
+      "fact": "Es preceptivo solicitar informe del servicio cuyo funcionamiento causó la lesión; su emisión no debe superar diez días.",
+      "trap": "Diez días del informe no son el plazo para resolver la reclamación."
+    },
+    {
+      "title": "Dictamen consultivo",
+      "articles": "Ley 39/2015, art. 81.2",
+      "fact": "Dictamen preceptivo para reclamaciones de cuantía igual o superior a 50.000 € o umbral de legislación autonómica; plazo de dos meses para emitir dictamen.",
+      "trap": "No aplicar ciegamente 50.000 € cuando la ley autonómica ha fijado otra cuantía."
+    },
+    {
+      "title": "Resolución y silencio",
+      "articles": "Ley 39/2015, art. 91.3",
+      "fact": "Tras seis meses sin resolución expresa, puede entenderse desestimada la reclamación.",
+      "trap": "Silencio desestimatorio no extingue la obligación de resolver."
+    },
+    {
+      "title": "Acción de regreso",
+      "articles": "Ley 40/2015, art. 36.1–2",
+      "fact": "El particular exige directamente a la Administración; tras indemnizar, esta exige responsabilidad de oficio al personal causante si hubo dolo o culpa o negligencia grave.",
+      "trap": "Un error leve del empleado no basta para acción de regreso."
+    },
+    {
+      "title": "Trámites de responsabilidad del personal",
+      "articles": "Ley 40/2015, art. 36.4",
+      "fact": "Alegaciones 15 días, pruebas 15, audiencia 10, propuesta 5 y resolución 5, conforme al procedimiento legal.",
+      "trap": "No confundir el plazo para alegar con el de proponer resolución."
+    }
+  ],
+  "editorialNote": "Ficha focal de repaso basada en el manual C1 y preceptos oficiales. Sin certificación de todo el banco temático."
+}

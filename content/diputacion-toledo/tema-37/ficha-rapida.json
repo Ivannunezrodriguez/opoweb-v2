@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 37 · LibreOffice 24 Base",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-37/manual.md",
+  "source": {
+    "label": "Ayuda oficial LibreOffice Base",
+    "url": "https://help.libreoffice.org/latest/es/text/sdatabase/main.html"
+  },
+  "additionalSources": [
+    {
+      "label": "Ayuda oficial de relaciones",
+      "url": "https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Formato y conexión",
+      "articles": "LibreOffice Base, formato ODB",
+      "fact": "El archivo ODB contiene objetos y configuración de base; si conecta una base externa, los datos pueden permanecer fuera del archivo.",
+      "trap": "Guardar ODB no implica copiar la tabla remota al equipo."
+    },
+    {
+      "title": "Tabla, campo y registro",
+      "articles": "LibreOffice Base, manual de tema 37",
+      "fact": "Tabla organiza registros; cada fila suele ser registro y cada columna campo con tipo de dato.",
+      "trap": "Una tabla de Base no es una hoja de Calc."
+    },
+    {
+      "title": "Clave primaria y ajena",
+      "articles": "Ayuda Base, Relaciones",
+      "fact": "Clave primaria identifica inequívocamente un registro; clave foránea referencia clave de otra tabla.",
+      "trap": "Clave foránea puede repetirse al modelar relación uno-a-muchos."
+    },
+    {
+      "title": "Integridad referencial",
+      "articles": "Ayuda Base, relaciones",
+      "fact": "Evita referencias huérfanas cuando el motor y las restricciones están configurados; acciones en cascada pueden actualizar o eliminar dependencias.",
+      "trap": "Eliminar en cascada no es sinónimo de impedir eliminación."
+    },
+    {
+      "title": "Consulta de selección",
+      "articles": "Ayuda Base, consultas",
+      "fact": "Consulta permite seleccionar registros y columnas con filtros y ordenación sin destruir necesariamente los datos.",
+      "trap": "SELECT no equivale a DELETE."
+    },
+    {
+      "title": "COUNT en consultas",
+      "articles": "Ayuda Base, diseño de consultas",
+      "fact": "COUNT(*) cuenta filas del conjunto; COUNT(columna) cuenta valores no nulos de esa columna.",
+      "trap": "Con valores NULL los dos recuentos pueden diferir."
+    },
+    {
+      "title": "Parámetros de consulta",
+      "articles": "Ayuda Base, consultas parametrizadas",
+      "fact": "Un marcador como :parametro permite solicitar un valor durante la ejecución de consulta, según el motor.",
+      "trap": "No tratar un parámetro de consulta como texto literal fijo."
+    },
+    {
+      "title": "Formularios, subformularios e informes",
+      "articles": "Ayuda Base, formularios",
+      "fact": "Formularios permiten consultar/editar datos; subformulario puede mostrar registros relacionados; informe prepara salida presentada o imprimible.",
+      "trap": "Un informe no sustituye la tabla de datos."
+    },
+    {
+      "title": "Conectividad y controlador",
+      "articles": "LibreOffice Base, fuentes externas",
+      "fact": "Base puede trabajar con bases incrustadas o conectar sistemas externos mediante interfaces como JDBC y ODBC según controladores.",
+      "trap": "Base no exige que todas las bases sean internas en ODB."
+    }
+  ],
+  "editorialNote": "Ficha técnica focal apoyada en manual y fuentes oficiales. No acredita prueba funcional, certificación integral de distractores ni despliegue público."
+}

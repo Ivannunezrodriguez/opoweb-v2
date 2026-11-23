@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 36 · LibreOffice 24 Calc",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-36/manual.md",
+  "source": {
+    "label": "Ayuda oficial de LibreOffice Calc",
+    "url": "https://help.libreoffice.org/latest/es/text/scalc/main0000.html"
+  },
+  "additionalSources": [
+    {
+      "label": "Guía oficial LibreOffice 24.8 española",
+      "url": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Formato nativo y organización",
+      "articles": "LibreOffice Calc, manual de tema 36",
+      "fact": "El libro de cálculo utiliza formato ODS, puede contener varias hojas y cada celda se identifica por columna y fila.",
+      "trap": "ODS no equivale a CSV: CSV pierde fórmulas, formato y hojas múltiples."
+    },
+    {
+      "title": "Referencias relativas, absolutas y mixtas",
+      "articles": "Ayuda Calc, referencias",
+      "fact": "A1 cambia fila y columna al copiar; $A$1 fija ambas; $A1 fija columna; A$1 fija fila.",
+      "trap": "El símbolo $ solo inmoviliza la coordenada a la que precede."
+    },
+    {
+      "title": "Cambio de tipo de referencia",
+      "articles": "Ayuda Calc, tecla F4",
+      "fact": "Al editar una referencia de fórmula, F4 alterna entre formas relativa, absoluta y mixtas.",
+      "trap": "F4 no calcula la hoja: modifica el tipo de referencia seleccionado."
+    },
+    {
+      "title": "Funciones de conteo",
+      "articles": "Ayuda Calc, CONTAR y CONTARA",
+      "fact": "CONTAR contabiliza valores numéricos; CONTARA contabiliza celdas no vacías.",
+      "trap": "Una celda de texto cuenta para CONTARA, no para CONTAR."
+    },
+    {
+      "title": "Fórmulas y precedencia",
+      "articles": "Ayuda Calc, fórmulas",
+      "fact": "Las fórmulas empiezan por =; paréntesis alteran precedencia: =1+2*3 devuelve 7 y =(1+2)*3 devuelve 9.",
+      "trap": "Multiplicación precede suma si no hay paréntesis."
+    },
+    {
+      "title": "Función condicional SI",
+      "articles": "Ayuda Calc, función SI",
+      "fact": "=SI(A1>=5;\"APTO\";\"NO APTO\") devuelve APTO si A1 vale 7, en configuración española usual.",
+      "trap": "Los argumentos aparecen separados por punto y coma según configuración."
+    },
+    {
+      "title": "Ordenar, filtrar y validar",
+      "articles": "Ayuda Calc",
+      "fact": "Ordenar modifica la disposición de las filas; filtrar restringe su visualización; validar limita entradas admitidas.",
+      "trap": "Filtrar no elimina registros y validar no protege por sí solo la hoja."
+    },
+    {
+      "title": "Protección de celdas",
+      "articles": "Ayuda Calc",
+      "fact": "Marcar celdas como protegidas tiene efecto operativo cuando se activa la protección de hoja.",
+      "trap": "Formato protegido no equivale a hoja protegida."
+    },
+    {
+      "title": "Atajos españoles 24.8",
+      "articles": "Guía LibreOffice 24.8 española",
+      "fact": "En la guía de referencia Ctrl + G guarda, Ctrl + B busca y Ctrl + U crea nuevo; F2 edita una celda.",
+      "trap": "No mezclar combinaciones internacionales sin advertir distribución e idioma."
+    }
+  ],
+  "editorialNote": "Ficha técnica focal apoyada en manual y fuentes oficiales. No acredita prueba funcional, certificación integral de distractores ni despliegue público."
+}

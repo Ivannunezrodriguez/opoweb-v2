@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 30 · IVTM, IIVTNU y tasas locales",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-30/manual.md",
+  "source": {
+    "label": "TRLRHL, RDL 2/2004",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 58/2003 General Tributaria",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Naturaleza IVTM",
+      "articles": "TRLRHL arts. 92 y 95",
+      "fact": "El IVTM grava la titularidad de vehículos aptos para circular, es impuesto municipal de exacción obligatoria; la cuota se calcula por clase y parámetros reglados.",
+      "trap": "No confundir titular registrado con conductor habitual ni IIVTNU potestativo."
+    },
+    {
+      "title": "Remolques excluidos",
+      "articles": "TRLRHL art. 92.3.b",
+      "fact": "No están sujetos remolques y semirremolques cuya carga útil no sea superior a 750 kilogramos.",
+      "trap": "La referencia es carga útil, no masa máxima autorizada."
+    },
+    {
+      "title": "Sujeto pasivo de IVTM",
+      "articles": "TRLRHL art. 94",
+      "fact": "Quien figure como titular del vehículo en el permiso de circulación.",
+      "trap": "No atribuir automáticamente el impuesto a quien paga el seguro."
+    },
+    {
+      "title": "Devengo IVTM",
+      "articles": "TRLRHL art. 96",
+      "fact": "Período normalmente anual con devengo el 1 de enero; prorrateo por trimestres naturales en supuestos legales.",
+      "trap": "Primera adquisición y determinadas bajas tienen reglas especiales."
+    },
+    {
+      "title": "IIVTNU hecho imponible",
+      "articles": "TRLRHL art. 104",
+      "fact": "Grava el incremento del valor de terrenos urbanos puesto de manifiesto por transmisión o constitución/transmisión de derechos reales de goce limitativos del dominio.",
+      "trap": "No se grava automáticamente toda construcción ni se exige si se acredita inexistencia de incremento."
+    },
+    {
+      "title": "IIVTNU sujeto pasivo",
+      "articles": "TRLRHL art. 106",
+      "fact": "Transmisión lucrativa: adquirente o beneficiario; onerosa: transmitente, con supuestos legales de sustitución.",
+      "trap": "En compraventa no es ordinariamente el comprador el contribuyente."
+    },
+    {
+      "title": "IIVTNU declaración",
+      "articles": "TRLRHL art. 110.2",
+      "fact": "Actos entre vivos: treinta días hábiles; por causa de muerte: seis meses, prorrogables hasta un año a solicitud.",
+      "trap": "El plazo de treinta días no se cuenta como natural."
+    },
+    {
+      "title": "Concepto de tasa",
+      "articles": "TRLRHL art. 20",
+      "fact": "Puede exigirse por uso privativo o aprovechamiento especial de dominio público local y por ciertos servicios o actividades administrativas individualizables.",
+      "trap": "No confundir tasa por recogida de residuos con limpieza general de vías públicas."
+    },
+    {
+      "title": "Límite tasas por servicios",
+      "articles": "TRLRHL art. 24.2",
+      "fact": "El importe total de tasas por servicios o actividades no puede exceder en su conjunto el coste real o previsible del servicio o actividad o el valor de la prestación recibida.",
+      "trap": "No se configura como precio privado para obtener libremente beneficio."
+    }
+  ],
+  "editorialNote": "Ficha focal basada en manual y fuentes de referencia; pendiente cotejo integral de alternativas, integración web y pruebas técnicas E2E."
+}

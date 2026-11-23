@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 32 · Windows 11 Pro: archivos, carpetas y unidades locales y de red",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-32/manual.md",
+  "source": {
+    "label": "Microsoft Support, Explorador de archivos en Windows",
+    "url": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+  },
+  "additionalSources": [
+    {
+      "label": "Microsoft Support, uso compartido y unidades de red",
+      "url": "https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Abrir Explorador de archivos",
+      "articles": "Microsoft Support Windows 11",
+      "fact": "Windows + E abre Explorador de archivos.",
+      "trap": "No confundir Windows + E con pantalla de ejecutar o búsqueda."
+    },
+    {
+      "title": "Crear carpeta",
+      "articles": "Microsoft Support; atajos Windows",
+      "fact": "Ctrl + Mayús + N crea una carpeta nueva en la ubicación activa.",
+      "trap": "No confundir con Ctrl + N, que abre otra ventana en aplicaciones."
+    },
+    {
+      "title": "Copiar y mover",
+      "articles": "Microsoft Support; Explorador",
+      "fact": "Copiar: Ctrl + C y Ctrl + V conserva original; mover mediante cortar: Ctrl + X y Ctrl + V cambia ubicación.",
+      "trap": "Arrastrar puede copiar o mover según unidades, teclas o configuración."
+    },
+    {
+      "title": "Renombrar",
+      "articles": "Microsoft Support; Explorador",
+      "fact": "F2 permite cambiar el nombre del elemento seleccionado.",
+      "trap": "Modificar extensión no convierte formato interno."
+    },
+    {
+      "title": "Eliminar y Papelera",
+      "articles": "Microsoft Support; Explorador",
+      "fact": "Supr normalmente envía a Papelera en ubicación local compatible; Mayús + Supr evita la Papelera.",
+      "trap": "En ciertas unidades de red o soportes extraíbles Supr puede no pasar por Papelera."
+    },
+    {
+      "title": "Unidad lógica frente a disco físico",
+      "articles": "Microsoft Support; Explorador",
+      "fact": "C: y D: representan letras de volumen, pero no necesariamente dos discos físicos.",
+      "trap": "No confundir particiones con dispositivos."
+    },
+    {
+      "title": "Ruta UNC",
+      "articles": "Microsoft Support; recursos compartidos",
+      "fact": "Ruta de red UNC identifica servidor y recurso compartido: \\\\servidor\\recurso.",
+      "trap": "Una ruta UNC no requiere estar mapeada a una letra local."
+    },
+    {
+      "title": "Unidad de red mapeada",
+      "articles": "Microsoft Support; asignación de unidad",
+      "fact": "Asignar unidad de red conecta una letra como Z: con recurso remoto, sin copiar automáticamente sus archivos.",
+      "trap": "La disponibilidad depende de red, servidor y permisos."
+    },
+    {
+      "title": "Seguridad de ubicación",
+      "articles": "Microsoft Support; permisos y acceso",
+      "fact": "Acceso a un recurso puede depender de permisos de compartición y NTFS, credenciales y conectividad.",
+      "trap": "Que aparezca carpeta no demuestra permiso para modificar archivos."
+    }
+  ],
+  "editorialNote": "Ficha focal basada en manual y fuentes de referencia; pendiente cotejo integral de alternativas, integración web y pruebas técnicas E2E."
+}

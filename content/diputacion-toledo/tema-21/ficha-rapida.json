@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 21 · Modalidades de contratación laboral y Seguridad Social",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-21/manual.md",
+  "source": {
+    "label": "ET, Real Decreto Legislativo 2/2015",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley General de la Seguridad Social, RDL 8/2015",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+    },
+    {
+      "label": "Reglamento afiliación y altas, RD 84/1996",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Presunción de contrato indefinido",
+      "articles": "ET art. 15.1",
+      "fact": "El contrato de trabajo se presume concertado por tiempo indefinido; la temporalidad requiere causa legal y concreción suficiente.",
+      "trap": "La etiqueta temporal del contrato no convalida una causa inexistente."
+    },
+    {
+      "title": "Fijo-discontinuo",
+      "articles": "ET art. 16",
+      "fact": "Es una modalidad de contratación indefinida para trabajos estacionales o intermitentes reiterados.",
+      "trap": "Intermitencia de periodos de trabajo no equivale a duración determinada."
+    },
+    {
+      "title": "Circunstancias de producción imprevisibles",
+      "articles": "ET art. 15.2",
+      "fact": "Duración máxima general seis meses, ampliable por convenio colectivo sectorial a un año.",
+      "trap": "No aplicar el máximo ampliado sin convenio sectorial habilitante."
+    },
+    {
+      "title": "Producción previsible",
+      "articles": "ET art. 15.2",
+      "fact": "Límite de 90 días no continuados por empresa y año; en supuestos agrarios/agroalimentarios indicados en el artículo pueden ser 120.",
+      "trap": "El cupo temporal no corresponde individualmente a cada trabajador."
+    },
+    {
+      "title": "Sustitución por proceso de selección",
+      "articles": "ET art. 15.3",
+      "fact": "La contratación por sustitución durante selección o promoción tiene máximo general de tres meses, salvo menor duración por convenio.",
+      "trap": "No confundir cobertura provisional durante selección con contrato temporal por aumento de producción."
+    },
+    {
+      "title": "Contratos formativos",
+      "articles": "ET art. 11",
+      "fact": "Alternancia: duración general de tres meses a dos años; práctica profesional: seis meses a un año, con los requisitos y especialidades legales.",
+      "trap": "Formación en alternancia y práctica profesional tienen finalidades y requisitos diferentes."
+    },
+    {
+      "title": "Afiliación, altas y bajas",
+      "articles": "LGSS art. 15; RD 84/1996 art. 32",
+      "fact": "La afiliación es única y vitalicia; el alta se solicita antes de prestar servicios; la baja y la variación de datos tienen, en general, seis días naturales tras el hecho causante.",
+      "trap": "La ampliación de tres a seis días naturales en 2026 no autoriza altas ordinarias posteriores al comienzo."
+    },
+    {
+      "title": "Cotización y prorrateo",
+      "articles": "LGSS arts. 144 y 147",
+      "fact": "La cotización nace con el comienzo de los servicios, incluido periodo de prueba; pagas extraordinarias se prorratean a efectos de base de cotización.",
+      "trap": "No confundir remuneración efectivamente pagada en un mes con base de cotización."
+    },
+    {
+      "title": "Ingreso fuera de plazo",
+      "articles": "LGSS art. 30",
+      "fact": "Si se liquidó en plazo, los recargos generales por ingreso extemporáneo son 10 % en primer mes natural posterior y 20 % a partir del segundo.",
+      "trap": "La cuantía cambia si se incumplen además las obligaciones de liquidación."
+    },
+    {
+      "title": "Prescripción de cuotas",
+      "articles": "LGSS art. 24",
+      "fact": "El derecho a determinar y exigir cuotas prescribe, con carácter general, a los cuatro años, con causas de interrupción.",
+      "trap": "No confundir cuatro años de cotización con duración de un contrato de trabajo."
+    }
+  ],
+  "editorialNote": "Tarjetas de apoyo focal; pendiente revisión semántica completa de alternativas y pruebas E2E. No extrapolar excepciones ni especialidades del sector público."
+}

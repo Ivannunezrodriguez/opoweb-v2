@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 9 · Administración electrónica: derechos, sedes y trámites",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-09/manual.md",
+  "source": {
+    "label": "Ley 39/2015, BOE consolidado",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 40/2015, régimen jurídico",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "label": "RD 203/2021, administración electrónica",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Personas obligadas a relación electrónica",
+      "articles": "Ley 39/2015, art. 14.2",
+      "fact": "Entre los obligados: personas jurídicas, entidades sin personalidad, profesionales con colegiación obligatoria en trámites profesionales, representantes de obligados y empleados públicos en los términos previstos.",
+      "trap": "Una persona física común puede escoger vía electrónica o no, salvo imposición válida específica."
+    },
+    {
+      "title": "Firma frente a identificación",
+      "articles": "Ley 39/2015, arts. 9–11",
+      "fact": "Con carácter general se exige firma para solicitudes, declaraciones responsables o comunicaciones, recursos, desistimiento y renuncia.",
+      "trap": "No todos los trámites que exigen identificación exigen firma."
+    },
+    {
+      "title": "Sede electrónica y portal",
+      "articles": "Ley 40/2015, arts. 38–39; RD 203/2021, arts. 5 y 9",
+      "fact": "Sede: dirección electrónica con responsabilidad pública sobre integridad, veracidad y actualización de información y servicios; portal: acceso electrónico a información y, en su caso, sedes.",
+      "trap": "El portal institucional no adquiere automáticamente todas las garantías de una sede."
+    },
+    {
+      "title": "Punto de Acceso General electrónico",
+      "articles": "RD 203/2021, art. 7",
+      "fact": "Las Administraciones cuentan con PAGe para acceso a servicios, trámites e información. Puede disponer de sede y accesos a sedes asociadas.",
+      "trap": "El PAGe no debe confundirse con una página web cualquiera."
+    },
+    {
+      "title": "Sede asociada",
+      "articles": "RD 203/2021, art. 10",
+      "fact": "Tiene consideración de sede electrónica a todos los efectos y debe cumplir los requisitos del reglamento.",
+      "trap": "No es únicamente un enlace externo o una página informativa."
+    },
+    {
+      "title": "Presentación en papel por obligado",
+      "articles": "Ley 39/2015, art. 68.4",
+      "fact": "Se requiere subsanación mediante presentación electrónica y, para estos efectos, la fecha de presentación es la de subsanación electrónica.",
+      "trap": "No conservar como fecha de presentación la entrega original en papel del sujeto obligado."
+    },
+    {
+      "title": "Registro electrónico en inhábiles",
+      "articles": "Ley 39/2015, art. 31.2",
+      "fact": "Disponible 24 horas todos los días; cuando el plazo se fija en días hábiles, la recepción en día inhábil se entiende realizada en primera hora del siguiente hábil, salvo especialidad.",
+      "trap": "Disponibilidad continua no equivale a cómputo de todos los días como hábiles."
+    },
+    {
+      "title": "Notificación y aviso",
+      "articles": "Ley 39/2015, arts. 41.6 y 43.2",
+      "fact": "El aviso al correo/dispositivo es complementario; no recibirlo no invalida por sí solo la notificación. Transcurridos 10 días naturales sin acceder a notificación electrónica obligatoria o elegida, se entiende rechazada salvo imposibilidad técnica o material.",
+      "trap": "No confundir aviso por email con notificación en sede/DEHú."
+    },
+    {
+      "title": "Actuación administrativa automatizada",
+      "articles": "Ley 40/2015, arts. 41–42",
+      "fact": "Actuación íntegramente electrónica sin intervención directa de empleado; deben determinarse órganos responsables y el órgano para impugnar; pueden emplearse sello y CSV.",
+      "trap": "Automatización no significa ausencia de responsables administrativos."
+    }
+  ],
+  "editorialNote": "Ficha focal con referencias a normas oficiales, no sustituye la revisión de todas las alternativas ni una certificación E2E del tema."
+}

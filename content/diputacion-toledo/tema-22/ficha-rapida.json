@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 22 · Acuerdo Regulador y funcionamiento del organismo tributario",
+  "asOf": "2026-11-23",
+  "status": "CIERRE_OPERATIVO_CON_FUENTES_ACREDITADAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-22/manual.md",
+  "source": {
+    "label": "Acuerdo Regulador Diputación BOP 246/2023",
+    "url": "https://bop.diputoledo.es/webEbop/DocGet?id=23122632%3B0&insert_number=7344&insert_year=2023"
+  },
+  "additionalSources": [
+    {
+      "label": "TREBEP",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "label": "TRLRHL",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "label": "BOP 10/2026",
+      "url": "https://www.diputoledo.es/global/ver-pdf/36759"
+    },
+    {
+      "label": "BOP 34/2026",
+      "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Acuerdo Regulador: ámbito personal",
+      "articles": "Acuerdo Regulador Diputación de Toledo 2023, art. 2.1.1",
+      "fact": "Incluye personal provincial en servicio activo y personal de organismos autónomos hasta que dispongan de regulación propia negociada.",
+      "trap": "No se aplica sin condiciones a cualquier persona de un organismo autónomo."
+    },
+    {
+      "title": "Entrada en vigor del Acuerdo",
+      "articles": "Acuerdo Regulador 2023, art. 3",
+      "fact": "Entrada en vigor el 1 de enero de 2024, con periodo inicial hasta 31 de diciembre de 2027 y prórroga prevista.",
+      "trap": "El fin de vigencia inicial no impide la prórroga que establece el acuerdo."
+    },
+    {
+      "title": "Parte negociadora",
+      "articles": "Acuerdo Regulador 2023, art. 1",
+      "fact": "Partes: Diputación Provincial de Toledo y centrales sindicales CC.OO., CSI-F, FSP-UGT y SAE-SAP.",
+      "trap": "No atribuir a un organismo autónomo por separado la aprobación del acuerdo provincial."
+    },
+    {
+      "title": "Organismo autónomo y potestad tributaria",
+      "articles": "LRBRL art. 106; TRLRHL",
+      "fact": "La potestad tributaria propia corresponde al ente local titular; determinadas facultades de gestión/recaudación pueden delegarse en los términos legales.",
+      "trap": "Delegar el ejercicio de una facultad no transmite la titularidad del tributo."
+    },
+    {
+      "title": "Gestión y recaudación frente a inspección",
+      "articles": "LRBRL art. 106; LGT",
+      "fact": "Gestión, inspección y recaudación son funciones diferenciadas de aplicación de los tributos que requieren fundamento normativo o delegación suficiente.",
+      "trap": "No asumir que delegar recaudación incluye automáticamente todas las facultades inspectoras."
+    },
+    {
+      "title": "Régimen presupuestario de organismos autónomos",
+      "articles": "TRLRHL arts. 164 y 165",
+      "fact": "El presupuesto general provincial integra presupuesto de entidad local y de sus organismos autónomos en los términos legales.",
+      "trap": "No confundir el presupuesto integrado con un tributo provincial distinto."
+    },
+    {
+      "title": "Pactos y Acuerdos",
+      "articles": "TREBEP art. 38",
+      "fact": "Pactos y Acuerdos tienen régimen diferente de competencia, eficacia, ratificación cuando procede y publicación.",
+      "trap": "La publicación y ratificación no se formulan de modo idéntico para Pactos y Acuerdos."
+    },
+    {
+      "title": "Carrera profesional C1 grado II, tabla de 2026",
+      "articles": "BOP Toledo 10/2026, anuncio 228",
+      "fact": "El importe anual publicado para C1 grado II en 2026 es 1.327,80 euros.",
+      "trap": "No usar el importe de 2025, 1.264,56 euros."
+    },
+    {
+      "title": "Nocturnidad especial publicada en 2026",
+      "articles": "BOP Toledo 34/2026, anuncio 821",
+      "fact": "La modificación publicada fija el concepto de nocturnidad especial en 97,45 euros.",
+      "trap": "No mezclar nocturnidad especial con nocturnidad ordinaria."
+    }
+  ],
+  "editorialNote": "Cierre operativo con puntos de estudio apoyados en legislación general y publicaciones específicas. No constituye certificación integral de toda regulación estatutaria ni del banco de examen."
+}

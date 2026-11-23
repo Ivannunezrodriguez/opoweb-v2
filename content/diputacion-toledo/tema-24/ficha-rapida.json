@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 24 · Igualdad efectiva estatal y de Castilla-La Mancha",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-24/manual.md",
+  "source": {
+    "label": "LO 3/2007",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 12/2010 Castilla-La Mancha",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Discriminación directa e indirecta",
+      "articles": "LO 3/2007 art. 6",
+      "fact": "Directa: trato menos favorable por sexo; indirecta: criterio aparentemente neutro que crea desventaja particular sin justificación objetiva suficiente.",
+      "trap": "El criterio neutro puede causar discriminación indirecta."
+    },
+    {
+      "title": "Embarazo y maternidad",
+      "articles": "LO 3/2007 art. 8",
+      "fact": "Todo trato desfavorable relacionado con embarazo o maternidad constituye discriminación directa por razón de sexo.",
+      "trap": "No hace falta que exista un despido para la discriminación directa."
+    },
+    {
+      "title": "Protección frente a represalias",
+      "articles": "LO 3/2007 art. 9",
+      "fact": "La persona no debe sufrir trato adverso por presentar queja, reclamación, denuncia, demanda o recurso para exigir igualdad.",
+      "trap": "La garantía de indemnidad también protege reclamaciones previas a juicio."
+    },
+    {
+      "title": "Acción positiva",
+      "articles": "LO 3/2007 art. 11",
+      "fact": "Medidas específicas razonables y proporcionadas para corregir desigualdades de hecho mientras subsistan.",
+      "trap": "La acción positiva no autoriza cualquier trato diferente arbitrario."
+    },
+    {
+      "title": "Presencia equilibrada",
+      "articles": "LO 3/2007 DA 1.ª",
+      "fact": "En la composición referida, personas de cada sexo no superan 60 % ni son menos de 40 %.",
+      "trap": "La regla 40/60 no exige siempre mitad exacta."
+    },
+    {
+      "title": "Transversalidad",
+      "articles": "LO 3/2007 art. 15",
+      "fact": "El principio de igualdad informa actuación de todos los poderes públicos, incluyendo elaboración de políticas y presupuestos.",
+      "trap": "La perspectiva de género no se limita a política de personal."
+    },
+    {
+      "title": "Impacto de género CLM",
+      "articles": "Ley 12/2010 art. 6.3",
+      "fact": "La legislación autonómica prevé informe de impacto de género en anteproyectos, disposiciones y planes sometidos al Consejo de Gobierno.",
+      "trap": "No confundir con informe estatal de otra norma."
+    },
+    {
+      "title": "Comisión y unidades de igualdad",
+      "articles": "Ley 12/2010 arts. 9, 14 y 15",
+      "fact": "Comisión de Igualdad vinculada al anteproyecto de presupuestos autonómicos; unidades de igualdad operan en las consejerías.",
+      "trap": "La Comisión y las unidades no son un mismo órgano."
+    }
+  ],
+  "editorialNote": "Ficha temática de repaso contrastada con manual y referencias normativas. No constituye certificación jurídica integral del banco ni E2E."
+}

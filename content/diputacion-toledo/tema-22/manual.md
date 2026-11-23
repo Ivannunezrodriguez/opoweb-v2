@@ -1,5 +1,9 @@
 # Tema 22 · Acuerdo regulador y OAPGT
 
+> ⚠️ **AVISO EDITORIAL OBLIGATORIO — TEXTO EN REVISIÓN DOCUMENTAL PENDIENTE DE CERTIFICACIÓN DE SECRETARÍA GENERAL (REFORMAS 2004/2005 Y 2011).** La modificación de **2011** consta publicada parcialmente en BOP; falta certificar la secuencia estatutaria completa y el resultado definitivo de **2004/2005**. **Cierre operativo orientativo: 90 %**, NO equivale a vigencia jurídica certificada. Los enunciados sobre órganos y competencias se apoyarán únicamente en fuentes concretas y fechadas.
+
+> **Competencias de Presidencia y citas oficiales:** resoluciones del OAPGT de **2015, 2024, 2025 y 2026** invocan el **art. 12.2.l).8** (cita más utilizada en actos recientes) para aprobación de bases/convocatorias de selección. **No se presenta como redacción estatutaria vigente certificada**. [Nota documental 1](#nota-documental-1): actos publicados en **2022** citan **art. 12.1.8**. Hasta obtener la versión certificada, no enfrentar ambas citas en una pregunta tipo test.
+
 > **CONTROL VIGENTE DE FUENTES (22/11/2026):** [Matriz de citas estatutarias **2015–2026** y bloqueo de vigencia **2004/2005**](CONTROL_VIGENCIA_ESTATUTARIA_20261122.md). Los documentos oficiales de **2015**, **2024**, **2025** y **2026** emplean **art. 12.2.l).8**, mientras que actos de **2022** invocan **art. 12.1.8**. Estas son **citas documentadas de actos fechados**, no demostración de una reforma ni de texto consolidado. Para examen distinguir **publicación normativa**, **uso administrativo** e **hipótesis pendiente**. El texto histórico hasta **2011** está disponible; **no** se ha certificado la vigencia integral del articulado. **ESTADO: EN AUDITORÍA**.
 
 ## Corrección oficial de la convocatoria OAPGT 2026 — **BOP 37, 25/02/2026**
@@ -521,3 +525,12 @@ El [**BOP de Toledo 196, de 13/10/2022, anuncio 5131**](https://bop.diputoledo.e
 **Reserva:** esta diferencia de numeración **no acredita por sí sola una reforma**: pueden existir especialidades funcionales, error de cita o modificaciones intermedias. El [**BOP de 25/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=37&insert_year=2026&publication_date=25022026) **solo corrigió el número del decreto de convocatoria a 2026-003964**, no la numeración estatutaria.
 
 > ⚠️ **¡Foco Examen!:** **Art. 12.1.8 de 2022 no debe equipararse automáticamente al 12.2.l.8 de 2026.** El decreto **2026-003964** sí está rectificado oficialmente. No confundir la **rectificación de un decreto** con una **reforma estatutaria**.
+
+
+## Nota documental 1 · referencias del artículo 12
+
+- **Art. 12.2.l).8:** cita utilizada por resoluciones publicadas en **2015, 2024, 2025 y 2026** (véase [control de vigencia documental](CONTROL_VIGENCIA_ESTATUTARIA_20261122.md)); es la **referencia administrativa reciente**, no prueba autónoma de literalidad estatutaria consolidada.
+- **Art. 12.1.8:** aparece en actos de **2022**, pese al uso anterior y posterior de la otra cita. No está probado si se trata de errata, plantilla o redacción diferente.
+- No afirmar una causa de renumeración en **2011**: el anuncio oficial de **2011** modifica artículos concretos pero **no identifica una modificación del art. 12** en ese anuncio.
+
+> ⚠️ **¡Foco Examen!:** La **Presidencia del OAPGT** figura como órgano en las resoluciones de selección referidas; **12.2.l).8** y **12.1.8** son citas documentales divergentes, **no respuestas alternativas válidas enfrentables** sin texto certificado de Secretaría.

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 15 · Otras entidades locales: mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-15/manual.md",
+  "source": {
+    "label": "Ley 7/1985 LRBRL",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley 3/1991 de Entidades Locales de Castilla-La Mancha",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1991-10111"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Entidades locales territoriales",
+      "articles": "LRBRL art. 3",
+      "fact": "Las territoriales son municipio, provincia e isla; las comarcas, áreas metropolitanas y mancomunidades son otras entidades locales.",
+      "trap": "No equiparar comarcas con provincias ni dar personalidad automática a un nuevo ente inframunicipal."
+    },
+    {
+      "title": "Mancomunidad",
+      "articles": "LRBRL art. 44.1–2",
+      "fact": "Asociación voluntaria de municipios para ejecutar en común obras y servicios; posee personalidad y capacidad jurídica para sus fines.",
+      "trap": "No puede absorber todas las competencias de sus municipios integrantes."
+    },
+    {
+      "title": "Estatutos de mancomunidad",
+      "articles": "LRBRL art. 44.3",
+      "fact": "El procedimiento incluye elaboración estatutaria en asamblea de concejales, informe de la Diputación o diputaciones interesadas y aprobación de los plenos de todos los ayuntamientos.",
+      "trap": "La aprobación final no corresponde exclusivamente a la asamblea preparatoria."
+    },
+    {
+      "title": "Mancomunidades interautonómicas",
+      "articles": "LRBRL art. 44.5",
+      "fact": "Pueden integrar municipios de diferentes comunidades autónomas si las normativas autonómicas respectivas lo permiten.",
+      "trap": "La pertenencia a provincias distintas no es lo mismo que pertenecer a comunidades distintas."
+    },
+    {
+      "title": "Creación de comarcas",
+      "articles": "LRBRL art. 42",
+      "fact": "Requiere ley de la comunidad autónoma y respeto a los límites de oposición municipal legalmente previstos.",
+      "trap": "No basta un convenio informal de los ayuntamientos para crear la comarca."
+    },
+    {
+      "title": "Oposición a comarca",
+      "articles": "LRBRL art. 42.2",
+      "fact": "La oposición expresa de dos quintas partes de los municipios afectados que representen al menos la mitad del censo electoral correspondiente impide su creación.",
+      "trap": "Las dos condiciones se exigen conjuntamente."
+    },
+    {
+      "title": "Área metropolitana",
+      "articles": "LRBRL art. 43",
+      "fact": "Se crea, modifica o suprime por ley autonómica, previa audiencia de Administración estatal, ayuntamientos y diputaciones afectados.",
+      "trap": "No confundir coordinación metropolitana con una simple mancomunidad."
+    },
+    {
+      "title": "Nuevo ente inframunicipal",
+      "articles": "LRBRL art. 24 bis",
+      "fact": "Para administrar núcleos separados, la ley autonómica puede regular entes como organización desconcentrada municipal sin personalidad jurídica.",
+      "trap": "El régimen transitorio de entidades ya existentes no se equipara al de los nuevos entes."
+    }
+  ],
+  "editorialNote": "Ficha de repaso focal contrastada contra manual y fuentes documentadas. No acredita auditoría jurídica integral del banco ni prueba E2E."
+}

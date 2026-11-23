@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 8 · Revisión de oficio y recursos administrativos",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-08/manual.md",
+  "source": {
+    "label": "Ley 39/2015, Título V, arts. 106–126",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  },
+  "cards": [
+    {
+      "title": "Revisión de oficio de actos nulos",
+      "articles": "Ley 39/2015, art. 106",
+      "fact": "Para nulidad del art. 47: en cualquier momento, en los supuestos previstos y con dictamen favorable del Consejo de Estado u órgano consultivo equivalente. Tramitación máxima 6 meses.",
+      "trap": "Inicio de oficio: caducidad a los 6 meses; a solicitud: silencio desestimatorio en ese plazo."
+    },
+    {
+      "title": "Lesividad de actos favorables",
+      "articles": "Ley 39/2015, art. 107",
+      "fact": "Acto favorable anulable: declaración de lesividad dentro de 4 años desde que se dictó; el procedimiento caduca a los 6 meses. En entidad local corresponde al Pleno u órgano colegiado superior.",
+      "trap": "La Administración no anula por sí misma el acto favorable anulable mediante la lesividad: lo impugna judicialmente."
+    },
+    {
+      "title": "Revocación y rectificación",
+      "articles": "Ley 39/2015, art. 109",
+      "fact": "Revocación de actos desfavorables dentro del plazo de prescripción y límites legales. Errores materiales, de hecho o aritméticos pueden rectificarse en cualquier momento.",
+      "trap": "Un error de Derecho no es un mero error aritmético."
+    },
+    {
+      "title": "Recurso de alzada",
+      "articles": "Ley 39/2015, arts. 121–122",
+      "fact": "Contra actos que no ponen fin a la vía administrativa. Acto expreso: un mes para interponer; resolución y notificación: tres meses.",
+      "trap": "Se presenta ante órgano autor o competente para resolver; resuelve el superior jerárquico."
+    },
+    {
+      "title": "Reposición potestativa",
+      "articles": "Ley 39/2015, arts. 123–124",
+      "fact": "Contra actos que ponen fin a la vía administrativa, ante el mismo órgano; un mes para interponer contra acto expreso y un mes para resolver.",
+      "trap": "Puede acudirse directamente al contencioso; si se interpone reposición se espera su resolución expresa o presunta."
+    },
+    {
+      "title": "Revisión extraordinaria",
+      "articles": "Ley 39/2015, arts. 125–126",
+      "fact": "Contra actos firmes y por causas tasadas: error de hecho del expediente en cuatro años desde notificación; otros supuestos en tres meses desde conocimiento o firmeza que corresponda. Se resuelve en tres meses.",
+      "trap": "No es una reposición fuera de plazo ni una segunda alzada."
+    },
+    {
+      "title": "Suspensión del acto recurrido",
+      "articles": "Ley 39/2015, art. 117",
+      "fact": "Interponer recurso no suspende automáticamente. Si una solicitud de suspensión no se resuelve y notifica en un mes desde su entrada en registro competente, se entiende suspendida.",
+      "trap": "No confundir el silencio sobre la suspensión con la resolución del recurso principal."
+    },
+    {
+      "title": "Recursos contra trámites",
+      "articles": "Ley 39/2015, art. 112.1",
+      "fact": "Recurribles separadamente si deciden el fondo, imposibilitan continuar, provocan indefensión o perjuicio irreparable.",
+      "trap": "El trámite ordinario no admite recurso independiente por el simple hecho de ser desfavorable."
+    }
+  ],
+  "editorialNote": "Ficha focal con referencias a normas oficiales, no sustituye la revisión de todas las alternativas ni una certificación E2E del tema."
+}

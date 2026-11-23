@@ -15,7 +15,13 @@
       "justificacion": "La negociación colectiva del sector público está subordinada al principio de legalidad y no puede alterar competencias indisponibles ni normas de rango superior.",
       "trampa": "Un acuerdo regulador no puede modificar una ley ni atribuir competencias a un órgano distinto del legalmente competente.",
       "referencia": "TB art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a38",
-      "respuestaLiteral": "Debe respetar la Constitución, las leyes y las competencias de los órganos"
+      "respuestaLiteral": "Debe respetar la Constitución, las leyes y las competencias de los órganos",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "TREBEP art. 38: límite de legalidad general.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-002",
@@ -30,7 +36,13 @@
       "justificacion": "El Organismo Autónomo Provincial de Gestión Tributaria de Toledo es un organismo autónomo provincial adscrito a la Diputación Provincial de Toledo.",
       "trampa": "Su personalidad jurídica diferenciada no lo convierte en una Administración territorial independiente.",
       "referencia": "B11 art. 1 · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
-      "respuestaLiteral": "Un organismo autónomo de la Diputación Provincial de Toledo"
+      "respuestaLiteral": "Un organismo autónomo de la Diputación Provincial de Toledo",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Naturaleza de organismo autónomo local documentada en BOP 2011; sin cuota ni órgano colegiado.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-003",
@@ -45,7 +57,13 @@
       "justificacion": "La entidad titular conserva la titularidad del recurso; la delegación desplaza únicamente el ejercicio de las funciones expresamente atribuidas.",
       "trampa": "No debe confundirse la titularidad del ingreso con el ejercicio delegado de su gestión o recaudación.",
       "referencia": "LR art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a106",
-      "respuestaLiteral": "No altera por sí misma la titularidad del tributo"
+      "respuestaLiteral": "No altera por sí misma la titularidad del tributo",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "LRBRL art. 106: titularidad frente a ejercicio delegado.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-004",
@@ -60,7 +78,13 @@
       "justificacion": "El OAPGT puede gestionar y recaudar tributos y otros ingresos de derecho público cuando esas funciones le hayan sido atribuidas o delegadas conforme al ordenamiento jurídico.",
       "trampa": "El organismo solo puede ejercer competencias amparadas por la ley, sus Estatutos y los correspondientes acuerdos de atribución o delegación.",
       "referencia": "B11 art. 4 · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
-      "respuestaLiteral": "Gestionar y recaudar ingresos de derecho público"
+      "respuestaLiteral": "Gestionar y recaudar ingresos de derecho público",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Funciones generales de gestión y recaudación atribuidas o delegadas, sin enumeración de competencias exclusivas dudosas.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-005",
@@ -75,7 +99,13 @@
       "justificacion": "El **art. 3 del Acuerdo BOP 246/2023** establece vigencia **01/01/2024 a 31/12/2027** y **prórroga automática** hasta aprobación de nuevo Acuerdo.",
       "trampa": "La vigencia hasta **2027** no implica extinción sin **prórroga automática**.",
       "referencia": "B23 art. 3 · https://bop.diputoledo.es/webEbop/DocGet?id=23122632%3B0&insert_number=7344&insert_year=2023",
-      "respuestaLiteral": "31 de diciembre de 2027, prorrogado automáticamente hasta nuevo acuerdo"
+      "respuestaLiteral": "31 de diciembre de 2027, prorrogado automáticamente hasta nuevo acuerdo",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Acuerdo Regulador publicado BOP 246/2023, art. 3, con fecha en pregunta.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-006",
@@ -90,7 +120,13 @@
       "justificacion": "Gestión, recaudación e inspección son funciones diferenciadas, y la inspección solo puede ejercerse cuando exista habilitación normativa y atribución competencial suficiente.",
       "trampa": "La atribución de la recaudación no arrastra automáticamente la competencia inspectora.",
       "referencia": "B11 art. 4 · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
-      "respuestaLiteral": "No; la inspección requiere atribución competencial suficiente"
+      "respuestaLiteral": "No; la inspección requiere atribución competencial suficiente",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Diferenciación normativa de inspección y recaudación; no afirma órgano exclusivo.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-007",
@@ -105,7 +141,13 @@
       "justificacion": "El **art. 1 de los Estatutos del OAPGT** (BOP **284/2011**) lo adscribe al **Presidente de la Diputación**, sin perjuicio de delegaciones admitidas.",
       "trampa": "La adscripción estatutaria no convierte al OAPGT en una entidad territorial independiente.",
       "referencia": "B11 art. 1 · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
-      "respuestaLiteral": "Al Presidente de la Diputación Provincial de Toledo"
+      "respuestaLiteral": "Al Presidente de la Diputación Provincial de Toledo",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Artículo 1 citado explícitamente como redacción publicada en BOP 284/2011; no extrapolado a consolidación integral de 2026.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-008",
@@ -120,7 +162,13 @@
       "justificacion": "La disposición adicional primera.2.a de la Ley 39/2015 establece la aplicación de la normativa tributaria específica y, supletoriamente, la Ley 39/2015; el artículo 97 de la Ley 58/2003 confirma la prevalencia de las normas especiales de aplicación de los tributos y la supletoriedad del procedimiento administrativo general.",
       "trampa": "NO confundir el artículo 38 del TREBEP (negociación colectiva) con la disposición adicional primera de la Ley 39/2015 y el artículo 97 de la Ley General Tributaria (supletoriedad procedimental).",
       "referencia": "Ley 39/2015, disposición adicional primera.2.a (procedimientos tributarios): https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#daprimera · Ley 58/2003, artículo 97.a y b: https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a97",
-      "respuestaLiteral": "Con carácter supletorio cuando proceda respecto de la normativa tributaria especial"
+      "respuestaLiteral": "Con carácter supletorio cuando proceda respecto de la normativa tributaria especial",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Procedimiento tributario: L39/2015 DA primera y Ley General Tributaria.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-009",
@@ -135,7 +183,13 @@
       "justificacion": "El ayuntamiento conserva la titularidad de sus recursos, su potestad reglamentaria sobre las ordenanzas fiscales y las competencias no delegadas.",
       "trampa": "La delegación queda limitada a las funciones expresamente asumidas por el organismo provincial.",
       "referencia": "LR art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a106",
-      "respuestaLiteral": "La titularidad de sus recursos y las competencias no delegadas"
+      "respuestaLiteral": "La titularidad de sus recursos y las competencias no delegadas",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "LRBRL art. 106: conservación de titularidad tributaria.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-010",
@@ -150,7 +204,13 @@
       "justificacion": "El presupuesto propio del organismo autónomo se integra en el presupuesto general de la entidad local y queda sometido a contabilidad pública, control interno y fiscalización externa.",
       "trampa": "La personalidad diferenciada del organismo no lo excluye del marco presupuestario y de control de la entidad matriz.",
       "referencia": "TH art. 164 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a164",
-      "respuestaLiteral": "Se integra en el presupuesto general de la entidad local"
+      "respuestaLiteral": "Se integra en el presupuesto general de la entidad local",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "TRLRHL art. 164: presupuesto de organismo autónomo local.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-011",
@@ -165,7 +225,13 @@
       "justificacion": "El **art. 8 bis**, añadido en **BOP 284/2011**, establece que las resoluciones de órganos de **gobierno, dirección y administración** ponen fin a la **vía administrativa**.",
       "trampa": "**Fin de vía administrativa** no significa ausencia de control judicial o impugnación.",
       "referencia": "B11 art. 8bis · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
-      "respuestaLiteral": "Ponen fin a la vía administrativa cuando las adoptan sus órganos de gobierno, dirección y administración"
+      "respuestaLiteral": "Ponen fin a la vía administrativa cuando las adoptan sus órganos de gobierno, dirección y administración",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Artículo 8 bis descrito expresamente como inserción publicada en 2011, no como confirmación de vigencia actual.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-012",
@@ -180,7 +246,13 @@
       "justificacion": "El **BOP Toledo 34/2026, anuncio 2026.00000821**, incorpora **97,45 € de nocturnidad especial**, distinto del resto de complementos.",
       "trampa": "**Nocturnidad especial = 97,45 €** en la modificación de **20/02/2026**.",
       "referencia": "B26B art. extra · https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026",
-      "respuestaLiteral": "97,45 euros"
+      "respuestaLiteral": "97,45 euros",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "BOP 34/2026: importe de nocturnidad especial en publicación concreta.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-013",
@@ -195,7 +267,13 @@
       "justificacion": "Los **Acuerdos** requieren **aprobación expresa y formal** por los correspondientes órganos de gobierno.",
       "trampa": "No confundir normativa estatal verificada con contenido particular del Acuerdo o Estatutos no cotejados.",
       "referencia": "TB art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a38",
-      "respuestaLiteral": "Aprobación expresa y formal por los órganos de gobierno"
+      "respuestaLiteral": "Aprobación expresa y formal por los órganos de gobierno",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "TREBEP art. 38: aprobación de Acuerdos.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-014",
@@ -210,11 +288,17 @@
       "justificacion": "Los **Pactos** se ciñen a competencias del órgano suscriptor; los **Acuerdos** requieren aprobación formal de órgano de gobierno.",
       "trampa": "No confundir normativa estatal verificada con contenido particular del Acuerdo o Estatutos no cotejados.",
       "referencia": "TB art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a38",
-      "respuestaLiteral": "El Pacto se limita a competencia del órgano que lo suscribe; el Acuerdo versa sobre competencia de órganos de gobierno"
+      "respuestaLiteral": "El Pacto se limita a competencia del órgano que lo suscribe; el Acuerdo versa sobre competencia de órganos de gobierno",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "TREBEP art. 38: diferencia entre Pactos y Acuerdos.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-015",
-      "pregunta": "¿Cómo debe darse publicidad a los Pactos y Acuerdos ratificados conforme al TREBEP?",
+      "pregunta": "Según el artículo 38.6 del TREBEP, ¿cómo se da publicidad a los Pactos celebrados y a los Acuerdos una vez ratificados?",
       "opciones": [
         "Remisión a oficina pública y publicación en boletín oficial correspondiente",
         "Mediante correo privado a interesados",
@@ -222,10 +306,16 @@
         "Mediante un anuncio verbal"
       ],
       "correcta": 0,
-      "justificacion": "Los Pactos y Acuerdos ratificados se remiten a **oficina pública** y se publican en el **boletín oficial** correspondiente.",
-      "trampa": "No confundir normativa estatal verificada con contenido particular del Acuerdo o Estatutos no cotejados.",
-      "referencia": "TB art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a38",
-      "respuestaLiteral": "Remisión a oficina pública y publicación en boletín oficial correspondiente"
+      "justificacion": "El **art. 38.6 TREBEP** distingue los **Pactos celebrados** de los **Acuerdos, una vez ratificados**: ambos se remiten a la **Oficina Pública** determinada por cada Administración y la autoridad respectiva ordena su publicación en el **Boletín Oficial** correspondiente al ámbito territorial.",
+      "trampa": "No afirmar que los **Pactos** necesitan la ratificación formal de los **Acuerdos**. **Pacto = competencia del órgano suscriptor y aplicación directa** (art. 38.2); **Acuerdo = competencia de órganos de gobierno y aprobación formal** (art. 38.3).",
+      "referencia": "TREBEP arts. 38.2, 38.3 y 38.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a38",
+      "respuestaLiteral": "Remisión a oficina pública y publicación en boletín oficial correspondiente",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "TREBEP art. 38.6: publicidad de Pactos y Acuerdos.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-016",
@@ -240,7 +330,13 @@
       "justificacion": "Deben especificar las **partes**, ámbitos **personal, funcional, territorial y temporal** y denuncia.",
       "trampa": "No confundir normativa estatal verificada con contenido particular del Acuerdo o Estatutos no cotejados.",
       "referencia": "TB art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a38",
-      "respuestaLiteral": "Determinar partes, ámbito personal, funcional, territorial y temporal, preaviso y denuncia"
+      "respuestaLiteral": "Determinar partes, ámbito personal, funcional, territorial y temporal, preaviso y denuncia",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "TREBEP art. 38.4: contenido mínimo de Pactos y Acuerdos.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-017",
@@ -255,7 +351,13 @@
       "justificacion": "La competencia corresponde a las **entidades locales**, que pueden delegar funciones de conformidad con la ley.",
       "trampa": "No confundir normativa estatal verificada con contenido particular del Acuerdo o Estatutos no cotejados.",
       "referencia": "LR art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a106",
-      "respuestaLiteral": "Las entidades locales, sin perjuicio de las delegaciones legales"
+      "respuestaLiteral": "Las entidades locales, sin perjuicio de las delegaciones legales",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "LRBRL art. 106: titularidad y posible delegación de funciones tributarias.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-018",
@@ -270,7 +372,13 @@
       "justificacion": "La potestad reglamentaria tributaria se ejerce mediante **ordenanzas fiscales** y ordenanzas generales tributarias.",
       "trampa": "No confundir normativa estatal verificada con contenido particular del Acuerdo o Estatutos no cotejados.",
       "referencia": "LR art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a106",
-      "respuestaLiteral": "Las ordenanzas fiscales"
+      "respuestaLiteral": "Las ordenanzas fiscales",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "LRBRL art. 106: ordenanzas fiscales.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-019",
@@ -285,7 +393,13 @@
       "justificacion": "**BOP nº 10 de 16/01/2026**, modificación DA 1ª, **subgrupo C1 grado II = 1.327,80 € anuales**, efectos económicos desde **01/01/2026**.",
       "trampa": "**C1 grado II = 1.327,80 €/año**; grado I = **816,84 €**.",
       "referencia": "BOP Toledo n.º 10, 16/01/2026, anuncio 2026.00000228, DA 1.ª · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026",
-      "respuestaLiteral": "1.327,80 euros"
+      "respuestaLiteral": "1.327,80 euros",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "BOP 10/2026: tabla C1 grado II, año 2026 explícito.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-020",
@@ -300,7 +414,13 @@
       "justificacion": "La disposición adicional de los **Estatutos modificados en 2011** vincula órganos instructores al **organigrama aprobado por Consejo Rector** y obliga a la **Presidencia** a publicar la **identidad** de sus titulares en BOP.",
       "trampa": "**Consejo Rector aprueba organigrama**, **Presidencia publica identidad del instructor**.",
       "referencia": "B11 art. DA · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
-      "respuestaLiteral": "La identidad de los titulares de los órganos instructores en el BOP de Toledo"
+      "respuestaLiteral": "La identidad de los titulares de los órganos instructores en el BOP de Toledo",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Disposición adicional publicada en BOP 284/2011, con fecha en enunciado.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-021",
@@ -315,22 +435,13 @@
       "justificacion": "El **Consejo Rector del OAPGT**, en sesión de **11/05/2023**, delegó facultades de contratación para **dos contratos identificados**.",
       "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
       "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
-      "respuestaLiteral": "El Consejo Rector del OAPGT"
-    },
-    {
-      "id": "DIP-T22-022",
-      "pregunta": "¿A qué órgano atribuyen los Estatutos del OAPGT, según la reproducción literal del BOP de 2023, la representación originaria del organismo en actos y contratos?",
-      "opciones": [
-        "A la Presidencia del OAPGT",
-        "A cualquier trabajador",
-        "Solo al Alcalde del municipio delegante",
-        "A la Agencia Tributaria Estatal"
-      ],
-      "correcta": 0,
-      "justificacion": "El **art. 12.1 de los Estatutos**, reproducido en el anuncio **2824/2023**, atribuye a **Presidencia** la representación del organismo.",
-      "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
-      "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
-      "respuestaLiteral": "A la Presidencia del OAPGT"
+      "respuestaLiteral": "El Consejo Rector del OAPGT",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Acuerdo del Consejo Rector de 11/05/2023: hecho fechado según BOP 92/2023; no requiere verificar quórum o composición.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-023",
@@ -345,7 +456,13 @@
       "justificacion": "El acuerdo delega facultades del órgano de contratación sobre el expediente de **servicios postales 5_2023** y otro identificado de infraestructura/ciberseguridad.",
       "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
       "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
-      "respuestaLiteral": "El contrato de servicios postales 5_2023"
+      "respuestaLiteral": "El contrato de servicios postales 5_2023",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Identificación de expediente concreto delegado en acuerdo fechado 11/05/2023; sin inferir atribuciones generales actuales.",
+      "control_documental_fecha": "2026-11-23"
     },
     {
       "id": "DIP-T22-024",
@@ -360,7 +477,13 @@
       "justificacion": "La **delegación traslada el ejercicio**, pero las resoluciones **se consideran dictadas por el órgano delegante**, dejando constancia expresa de la delegación.",
       "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
       "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
-      "respuestaLiteral": "Dictadas por el órgano delegante, con constancia de la delegación"
+      "respuestaLiteral": "Dictadas por el órgano delegante, con constancia de la delegación",
+      "grupo_auditoria": "A_ACTIVA_FUENTE_DETERMINADA",
+      "pendiente_verificacion": false,
+      "activa": true,
+      "excluir_de_simulacros": false,
+      "motivo_clasificacion": "Efectos de delegación según art. 9.4 Ley 40/2015 y acuerdo fechado; sin numeraciones rivales.",
+      "control_documental_fecha": "2026-11-23"
     }
   ],
   "controlCalidadOpciones": {
@@ -429,5 +552,42 @@
       "Cadena completa de modificaciones y cotejo estatutario artículo por artículo",
       "Certificación jurídica de todos los distractores"
     ]
-  }
+  },
+  "controlCuarentena20261123": {
+    "criterio": "Se activa solo si la respuesta y las cuatro alternativas son contestables con norma general o publicación concreta fechada, sin arbitrar versiones vigentes de competencias, quórums ni composición. La actividad efectiva requiere que el consumidor respete el filtro activa y excluir_de_simulacros.",
+    "revisados": 24,
+    "activas": 23,
+    "en_cuarentena": 1,
+    "ids_bloqueados": [
+      "DIP-T22-022"
+    ],
+    "pendiente": "Cotejo definitivo contra certificación de Secretaría y verificación de filtro en interfaz. La clasificación no acredita revisión semántica formal íntegra contra BOE.",
+    "filtroEfectivo": "La pregunta DIP-T22-022 ha sido retirada físicamente del array preguntas; el objeto íntegro permanece en preguntasEnCuarentena. Cargadores que consumen preguntas NO la mostrarán, sin depender de filtros de UI.",
+    "totalOriginal": 24,
+    "totalActivas": 23,
+    "totalFueraDeBanco": 1
+  },
+  "preguntasEnCuarentena": [
+    {
+      "id": "DIP-T22-022",
+      "pregunta": "¿A qué órgano atribuyen los Estatutos del OAPGT, según la reproducción literal del BOP de 2023, la representación originaria del organismo en actos y contratos?",
+      "opciones": [
+        "A la Presidencia del OAPGT",
+        "A cualquier trabajador",
+        "Solo al Alcalde del municipio delegante",
+        "A la Agencia Tributaria Estatal"
+      ],
+      "correcta": 0,
+      "justificacion": "El **art. 12.1 de los Estatutos**, reproducido en el anuncio **2824/2023**, atribuye a **Presidencia** la representación del organismo.",
+      "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
+      "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
+      "respuestaLiteral": "A la Presidencia del OAPGT",
+      "grupo_auditoria": "B_CUARENTENA",
+      "pendiente_verificacion": true,
+      "activa": false,
+      "excluir_de_simulacros": true,
+      "motivo_clasificacion": "Pregunta sobre atribución originaria de representación fundada en art. 12.1 reproducido en anuncio 2023; reservar por dependencia de arquitectura estatutaria del artículo 12 mientras no conste versión eficaz.",
+      "control_documental_fecha": "2026-11-23"
+    }
+  ]
 }

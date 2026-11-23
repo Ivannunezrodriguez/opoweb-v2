@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 6 · Procedimiento administrativo común",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-06/manual.md",
+  "source": {
+    "label": "Ley 39/2015, BOE texto consolidado",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  },
+  "cards": [
+    {
+      "title": "Derechos del interesado",
+      "articles": "Ley 39/2015, art. 53",
+      "fact": "El interesado puede conocer estado, órgano responsable y sentido del silencio, acceder al expediente, obtener copias y formular alegaciones, entre otros derechos.",
+      "trap": "Diferenciar derechos del interesado del art. 53 y derechos generales de las personas del art. 13."
+    },
+    {
+      "title": "Iniciación",
+      "articles": "Ley 39/2015, arts. 54 y 58–62",
+      "fact": "Puede iniciarse de oficio o a solicitud; de oficio por iniciativa propia, orden superior, petición razonada o denuncia.",
+      "trap": "La denuncia no confiere por sí sola condición de interesado."
+    },
+    {
+      "title": "Medidas provisionales previas",
+      "articles": "Ley 39/2015, art. 56.2",
+      "fact": "En urgencia inaplazable, el órgano competente para iniciar o instruir puede adoptar medidas previas que deben confirmarse, modificarse o levantarse en acuerdo de inicio dentro de 15 días.",
+      "trap": "Las medidas quedan sin efecto si no se inicia en ese plazo o si el acuerdo no contiene pronunciamiento expreso."
+    },
+    {
+      "title": "Subsanación de la solicitud",
+      "articles": "Ley 39/2015, art. 68.1–2",
+      "fact": "Si la solicitud no reúne requisitos, se concede un plazo general de 10 días; puede ampliarse prudencialmente hasta 5 días en casos permitidos.",
+      "trap": "En procedimientos selectivos o de concurrencia competitiva no se aplica la ampliación del art. 68.2."
+    },
+    {
+      "title": "Trámites y decaimiento",
+      "articles": "Ley 39/2015, art. 73",
+      "fact": "Regla general: 10 días para cumplimentar trámites por interesados, salvo plazo distinto. Puede admitirse actuación antes o dentro del día de notificación de la resolución de pérdida del trámite.",
+      "trap": "Decaer en un trámite no equivale necesariamente a desistir de todo el procedimiento."
+    },
+    {
+      "title": "Prueba",
+      "articles": "Ley 39/2015, art. 77.2",
+      "fact": "Periodo ordinario no inferior a 10 ni superior a 30 días; periodo extraordinario de prueba hasta 10 días en los casos previstos.",
+      "trap": "No confundir plazo de prueba con audiencia ni información pública."
+    },
+    {
+      "title": "Audiencia e información pública",
+      "articles": "Ley 39/2015, arts. 82.2 y 83.2",
+      "fact": "Audiencia: no menos de 10 ni más de 15 días; información pública: plazo de alegaciones no inferior a 20 días.",
+      "trap": "La información pública no confiere por sí sola condición de interesado a toda persona compareciente."
+    },
+    {
+      "title": "Finalización y caducidad",
+      "articles": "Ley 39/2015, arts. 84 y 95",
+      "fact": "Resolución, desistimiento, renuncia admisible, caducidad, imposibilidad material sobrevenida y terminación convencional. En procedimientos a solicitud paralizados por causa imputable al interesado y actividad indispensable, advertencia y 3 meses.",
+      "trap": "Una simple omisión de trámite no indispensable no provoca caducidad del procedimiento."
+    },
+    {
+      "title": "Ejecución forzosa",
+      "articles": "Ley 39/2015, arts. 99–104",
+      "fact": "Medios: apremio sobre patrimonio, ejecución subsidiaria, multa coercitiva y compulsión sobre personas, con proporcionalidad y requisitos legales.",
+      "trap": "La multa coercitiva no es idéntica a una sanción; necesita habilitación legal."
+    },
+    {
+      "title": "Tramitación simplificada",
+      "articles": "Ley 39/2015, art. 96",
+      "fact": "Procede por interés público o falta de complejidad en los términos legales; plazo general de resolución de 30 días, contado desde el siguiente al de notificación del acuerdo de tramitación simplificada, salvo que reste menos para la ordinaria.",
+      "trap": "Si un interesado se opone a simplificación de oficio se sigue la ordinaria, salvo particularidades legales como sancionadores leves."
+    }
+  ],
+  "editorialNote": "Ficha focal sobre procedimiento; no sustituye revisión íntegra de las 80 alternativas ni casos excepcionales del manual."
+}

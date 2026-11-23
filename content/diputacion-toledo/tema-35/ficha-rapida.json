@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 35 · LibreOffice 24 Writer: documentos de texto",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-35/manual.md",
+  "source": {
+    "label": "Guía LibreOffice 24.8 española: atajos",
+    "url": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
+  },
+  "additionalSources": [
+    {
+      "label": "Ayuda LibreOffice Writer",
+      "url": "https://help.libreoffice.org/latest/es/text/swriter/main0000.html"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Documento nativo",
+      "articles": "LibreOffice Writer",
+      "fact": "Writer guarda de forma nativa en ODT; puede interoperar con DOCX, con posibles diferencias de formato.",
+      "trap": "Exportar PDF no conserva un documento editable equivalente al ODT."
+    },
+    {
+      "title": "Nuevo, abrir y guardar",
+      "articles": "Guía LibreOffice 24.8 española, apéndice A",
+      "fact": "En la guía española Windows/Linux: Ctrl + U nuevo; Ctrl + A o Ctrl + O abrir; Ctrl + G guardar.",
+      "trap": "No sustituir por atajos internacionales Ctrl + N y Ctrl + S sin especificar contexto."
+    },
+    {
+      "title": "Formato directo",
+      "articles": "Guía LibreOffice 24.8 española, apéndice A",
+      "fact": "En el perfil de la guía: Ctrl + N negrita; Ctrl + S subrayado; Ctrl + I cursiva.",
+      "trap": "Ctrl + S no debe asumirse como guardar en la distribución española documentada."
+    },
+    {
+      "title": "Seleccionar y buscar",
+      "articles": "Guía LibreOffice 24.8 española, apéndice A",
+      "fact": "En la guía española: Ctrl + E seleccionar todo y Ctrl + B buscar, con variantes según configuración.",
+      "trap": "La ayuda internacional usa atajos distintos; distinguir versión e idioma."
+    },
+    {
+      "title": "Estilos frente a formato directo",
+      "articles": "LibreOffice Writer, estilos",
+      "fact": "El estilo aporta propiedades reutilizables y consistentes a distintos elementos; formato directo afecta selección.",
+      "trap": "Un cambio manual de tamaño de fuente no genera automáticamente estilo de título."
+    },
+    {
+      "title": "Estilos de página",
+      "articles": "Ayuda Writer: page styles",
+      "fact": "Orientación, márgenes, encabezados y pies se configuran mediante estilo de página.",
+      "trap": "Para páginas con distintas orientaciones hay que emplear estilos y saltos adecuados."
+    },
+    {
+      "title": "Saltos de línea y página",
+      "articles": "Ayuda Writer: page break",
+      "fact": "Ctrl + Intro inserta salto de página; Mayús + Intro salto de línea sin nuevo párrafo.",
+      "trap": "Pulsar Intro muchas veces no es sustituto estable de salto de página."
+    },
+    {
+      "title": "Tabla y campos",
+      "articles": "Ayuda Writer: insertar tabla",
+      "fact": "Ctrl + F12 permite insertar tabla; campos de número de página crean numeración automática.",
+      "trap": "Escribir 1 manualmente en pie no crea numeración dinámica."
+    },
+    {
+      "title": "Sumario y exportación",
+      "articles": "LibreOffice Writer",
+      "fact": "Sumario automático usa estilos de títulos; exportación a PDF crea documento de distribución.",
+      "trap": "La exportación PDF no reemplaza copia editable nativa."
+    }
+  ],
+  "editorialNote": "Ficha técnica basada en manual específico y fuentes oficiales de proveedor; atajos dependientes del idioma/configuración cuando se indique. Sin certificación E2E."
+}

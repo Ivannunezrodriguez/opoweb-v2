@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 33 · Microsoft Edge y OpenText GroupWise 24",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-33/manual.md",
+  "source": {
+    "label": "Microsoft Support: atajos de Edge",
+    "url": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  "additionalSources": [
+    {
+      "label": "GroupWise 24 documentación oficial",
+      "url": "https://www.novell.com/documentation/groupwise24/"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Edge: pestañas",
+      "articles": "Microsoft Edge, atajos",
+      "fact": "Ctrl + T abre pestaña; Ctrl + W la cierra; Ctrl + Mayús + T reabre pestaña cerrada.",
+      "trap": "No confundir Ctrl + N (ventana) con Ctrl + T (pestaña)."
+    },
+    {
+      "title": "Edge: privados",
+      "articles": "Microsoft Edge, InPrivate",
+      "fact": "Ctrl + Mayús + N abre ventana InPrivate; reduce persistencia local al cerrarla, pero no oculta toda actividad ante red, empresa o proveedor.",
+      "trap": "InPrivate no equivale a anonimato ni elimina descargas."
+    },
+    {
+      "title": "Historial y descargas",
+      "articles": "Microsoft Edge, atajos",
+      "fact": "Ctrl + H muestra historial, Ctrl + J muestra descargas; borrar una entrada de descargas no implica borrar archivo físico.",
+      "trap": "No confundir eliminar lista de descargas con eliminar contenido del disco."
+    },
+    {
+      "title": "Favoritos",
+      "articles": "Microsoft Edge, atajos",
+      "fact": "Ctrl + D agrega favorito; Ctrl + Mayús + B muestra u oculta barra de favoritos.",
+      "trap": "Favorito conserva enlace, no necesariamente copia offline."
+    },
+    {
+      "title": "GroupWise: destinatarios",
+      "articles": "GroupWise 24 Client User Guide",
+      "fact": "Para es destinatario principal; CC es copia visible; CCO/BC oculta otros destinatarios.",
+      "trap": "Responder a todos no añade automáticamente destinatarios ocultos de CCO."
+    },
+    {
+      "title": "GroupWise: respuesta y reenvío",
+      "articles": "GroupWise 24 Client User Guide",
+      "fact": "Responder contesta remitente; responder a todos incluye otros destinatarios visibles; reenviar envía a nuevos receptores.",
+      "trap": "Reenviar no es retractar un correo ni responder."
+    },
+    {
+      "title": "GroupWise: retractar mensaje",
+      "articles": "GroupWise 24, Managing Sent Email",
+      "fact": "La retracción puede funcionar para un mensaje interno de GroupWise que aún no haya sido abierto por destinatario.",
+      "trap": "No vale para correo ya leído ni para destinatarios externos de Internet."
+    },
+    {
+      "title": "GroupWise: papelera",
+      "articles": "GroupWise 24, Emptying Trash",
+      "fact": "Eliminar y purgar son operaciones distintas; purga puede estar condicionada por políticas y configuración administrativa.",
+      "trap": "Vaciar Papelera no equivale a retirar mensaje del buzón ajeno."
+    },
+    {
+      "title": "GroupWise: colaboración",
+      "articles": "GroupWise 24 Client User Guide",
+      "fact": "Integra correo, calendario, contactos, tareas, citas y carpetas compartidas según permisos.",
+      "trap": "Una cita personal no envía invitaciones a asistentes por sí sola."
+    }
+  ],
+  "editorialNote": "Ficha técnica basada en manual específico y fuentes oficiales de proveedor; atajos dependientes del idioma/configuración cuando se indique. Sin certificación E2E."
+}

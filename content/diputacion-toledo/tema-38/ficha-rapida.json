@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 38 · LibreOffice 24 Impress",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-38/manual.md",
+  "source": {
+    "label": "Ayuda oficial LibreOffice Impress",
+    "url": "https://help.libreoffice.org/latest/es/text/simpress/main0000.html"
+  },
+  "additionalSources": [
+    {
+      "label": "Atajos de Impress",
+      "url": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+    },
+    {
+      "label": "Guía LibreOffice 24.8 española",
+      "url": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Formato de presentación",
+      "articles": "LibreOffice Impress",
+      "fact": "ODP es formato nativo editable; PPTX es interoperable y PDF se usa para difusión.",
+      "trap": "Exportar PDF no conserva toda la edición de la presentación ODP."
+    },
+    {
+      "title": "Normal frente a clasificador",
+      "articles": "Ayuda Impress, vistas",
+      "fact": "Normal edita diapositiva; Clasificador facilita ordenar/copiar/ocultar diapositivas.",
+      "trap": "Clasificador no equivale a modo de presentación."
+    },
+    {
+      "title": "Patrón, plantilla y diseño",
+      "articles": "Ayuda Impress",
+      "fact": "Patrón define elementos visuales compartidos; plantilla es modelo para nuevos documentos; diseño dispone marcadores de posición.",
+      "trap": "No intercambiar patrón, plantilla y diseño como sinónimos."
+    },
+    {
+      "title": "Transiciones y animaciones",
+      "articles": "Ayuda Impress",
+      "fact": "Transición actúa en cambio entre diapositivas; animación afecta a objetos dentro de una diapositiva.",
+      "trap": "Una animación de título no es una transición de diapositivas."
+    },
+    {
+      "title": "Pase de diapositivas",
+      "articles": "Ayuda Impress, atajos",
+      "fact": "F5 inicia presentación desde el principio; Mayús + F5 inicia desde la actual; Esc sale del pase.",
+      "trap": "F5 no inserta una diapositiva nueva."
+    },
+    {
+      "title": "Ocultar diapositiva",
+      "articles": "Ayuda Impress, operaciones",
+      "fact": "Ocultar omite una diapositiva en pase ordinario sin eliminarla del archivo.",
+      "trap": "Ocultar no es borrar y puede revertirse."
+    },
+    {
+      "title": "Agrupar y combinar",
+      "articles": "Ayuda Impress, atajos",
+      "fact": "Ctrl + Mayús + G agrupa objetos; Ctrl + Mayús + K combina objetos en uno, según contexto.",
+      "trap": "Grupo mantiene partes operables; combinación modifica geometría conjunta."
+    },
+    {
+      "title": "Pantalla negra y blanca",
+      "articles": "Ayuda Impress, pase",
+      "fact": "Durante el pase, B muestra pantalla negra temporal y W pantalla blanca temporal.",
+      "trap": "No modifica el fondo del documento ODP."
+    },
+    {
+      "title": "Notas y folletos",
+      "articles": "LibreOffice Impress",
+      "fact": "Notas apoyan al presentador; folletos permiten imprimir varias diapositivas por página.",
+      "trap": "Las notas no se proyectan necesariamente al público."
+    },
+    {
+      "title": "Atajos españoles 24.8",
+      "articles": "Guía LibreOffice 24.8 española",
+      "fact": "Ctrl + U nueva presentación y Ctrl + G guardar, frente a otras combinaciones en perfiles internacionales.",
+      "trap": "No memorizar Ctrl + N o Ctrl + S como universales sin contexto."
+    }
+  ],
+  "editorialNote": "Ficha técnica focal apoyada en manual y fuentes oficiales. No acredita prueba funcional, certificación integral de distractores ni despliegue público."
+}

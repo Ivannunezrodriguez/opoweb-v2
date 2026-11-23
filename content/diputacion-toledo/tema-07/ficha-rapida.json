@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 7 · El acto administrativo: eficacia, notificación y validez",
+  "asOf": "2026-11-22",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-07/manual.md",
+  "source": {
+    "label": "Ley 39/2015, arts. 34–52, BOE consolidado",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  },
+  "cards": [
+    {
+      "title": "Acto y reglamento",
+      "articles": "Ley 39/2015, arts. 34–37",
+      "fact": "Un acto aplica la potestad administrativa a un supuesto; las disposiciones reglamentarias tienen contenido normativo y no pueden ser excepcionadas por una resolución singular.",
+      "trap": "El reglamento no es un acto administrativo individual."
+    },
+    {
+      "title": "Motivación",
+      "articles": "Ley 39/2015, art. 35",
+      "fact": "Se motivan con sucinta referencia de hechos y fundamentos jurídicos, entre otros, actos limitativos, recursos, apartamiento de precedentes y ejercicio de potestades discrecionales.",
+      "trap": "No equiparar motivación con extensión larga del texto; debe identificar razones suficientes."
+    },
+    {
+      "title": "Eficacia y retroactividad",
+      "articles": "Ley 39/2015, art. 39",
+      "fact": "Los actos se presumen válidos y surten efectos desde que se dictan, salvo disposición contraria; retroactividad excepcional al sustituir actos anulados o en actos favorables si concurren sus requisitos.",
+      "trap": "Un acto válido puede tener eficacia demorada por notificación o publicación."
+    },
+    {
+      "title": "Notificación: contenido y expedición",
+      "articles": "Ley 39/2015, art. 40.2",
+      "fact": "Debe cursarse dentro de 10 días desde que se dicta el acto y contener texto íntegro, carácter de fin de vía, recursos, órgano y plazo.",
+      "trap": "Los 10 días para cursar notificación no son un plazo de recurso."
+    },
+    {
+      "title": "Segundo intento domiciliario",
+      "articles": "Ley 39/2015, art. 42.2",
+      "fact": "Si nadie recibe el primer intento, se repite una sola vez dentro de los 3 días siguientes, en franja distinta antes/después de 15:00 y diferencia mínima de 3 horas.",
+      "trap": "La repetición no exige hacerlo al día siguiente."
+    },
+    {
+      "title": "Notificación electrónica no abierta",
+      "articles": "Ley 39/2015, art. 43.2",
+      "fact": "Cuando sea obligatoria o elegida expresamente, se entiende rechazada si transcurren 10 días naturales desde la puesta a disposición sin acceso, salvo imposibilidad técnica o material de acceso.",
+      "trap": "No confundir los 10 días naturales de rechazo con los 10 días para cursar notificación."
+    },
+    {
+      "title": "Nulidad de pleno derecho",
+      "articles": "Ley 39/2015, art. 47.1",
+      "fact": "Entre las causas tasadas: lesión de derechos susceptibles de amparo, incompetencia manifiesta por materia o territorio, contenido imposible y omisión total y absoluta del procedimiento.",
+      "trap": "La incompetencia jerárquica no se convierte automáticamente en nulidad."
+    },
+    {
+      "title": "Anulabilidad y convalidación",
+      "articles": "Ley 39/2015, arts. 48 y 52",
+      "fact": "Infracciones ordinarias, incluida desviación de poder, generan anulabilidad; un defecto de forma requiere indefensión o falta de requisito indispensable. Pueden convalidarse los actos anulables subsanando el vicio.",
+      "trap": "No cabe convalidar un acto nulo como si fuera meramente anulable."
+    },
+    {
+      "title": "Publicación en procesos selectivos",
+      "articles": "Ley 39/2015, art. 45.1.b",
+      "fact": "En procedimientos selectivos o de concurrencia competitiva la convocatoria debe indicar el medio de sucesivas publicaciones y carecen de validez las realizadas en lugares distintos.",
+      "trap": "No sustituir por intuición una sede/tablón específico señalado expresamente en la convocatoria."
+    }
+  ],
+  "editorialNote": "Ficha focal con referencias a normas oficiales, no sustituye la revisión de todas las alternativas ni una certificación E2E del tema."
+}

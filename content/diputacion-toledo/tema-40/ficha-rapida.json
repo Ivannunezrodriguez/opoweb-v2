@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación Toledo · Administrativo C1 · Tema 40 · Periféricos del ordenador personal",
+  "asOf": "2026-11-23",
+  "status": "COTEJO_FOCAL_FUENTES_TECNICAS_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-40/manual.md",
+  "source": {
+    "label": "Microsoft Learn: límites de sistemas de archivos",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison"
+  },
+  "additionalSources": [
+    {
+      "label": "Microsoft Learn: extracción de unidades externas",
+      "url": "https://learn.microsoft.com/en-us/windows/client-management/client-tools/change-default-removal-policy-external-storage-media"
+    },
+    {
+      "label": "Microsoft Support: escáneres",
+      "url": "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "label": "USB-IF: conectores tipo C",
+      "url": "https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Clasificación de periféricos",
+      "articles": "Manual T40: clasificación",
+      "fact": "Teclado y escáner son entrada; impresora y pantalla convencional, salida; pantalla táctil permite entrada y salida.",
+      "trap": "Un mismo dispositivo puede cumplir varias categorías."
+    },
+    {
+      "title": "Impresoras láser, inyección y matriciales",
+      "articles": "Manual T40: impresión",
+      "fact": "Láser usa tóner, inyección usa tinta; matricial golpea cinta y puede imprimir formularios autocopiativos.",
+      "trap": "No recomendar impresora PDF o térmica no impactante para copias autocopiativas multicapa."
+    },
+    {
+      "title": "Resolución frente a velocidad",
+      "articles": "Manual T40: impresoras",
+      "fact": "DPI/ppp expresa resolución; ppm, páginas por minuto, expresa velocidad nominal de impresión.",
+      "trap": "Más DPI no significa necesariamente más páginas por minuto."
+    },
+    {
+      "title": "Escáner, ADF y OCR",
+      "articles": "Microsoft Support: uso de escáner",
+      "fact": "ADF alimenta documentos; escáner crea imagen digital; OCR intenta reconocer texto para hacerlo buscable o editable.",
+      "trap": "ADF no implica doble cara y escanear no garantiza texto seleccionable."
+    },
+    {
+      "title": "Límite por archivo FAT32",
+      "articles": "Microsoft Learn: file system functionality",
+      "fact": "El máximo teórico de archivo en FAT32 es 2^32−1 bytes, igual a 4 GiB menos 1 byte.",
+      "trap": "Un pendrive de 64 GB con FAT32 no admite un archivo de 5 GiB aunque haya espacio."
+    },
+    {
+      "title": "NTFS, exFAT y FAT32",
+      "articles": "Microsoft Learn: sistemas de archivos",
+      "fact": "NTFS admite permisos; exFAT resulta útil en soportes extraíbles y admite archivos grandes; FAT32 tiene límite por archivo.",
+      "trap": "No confundir límite por archivo con capacidad total de unidad."
+    },
+    {
+      "title": "Políticas de retirada USB",
+      "articles": "Microsoft Learn: removal policy",
+      "fact": "Extracción rápida prioriza retirada sin caché de escritura cuando no hay actividad; Mejor rendimiento exige extracción segura para finalizar escrituras.",
+      "trap": "Nunca retirar una unidad mientras se copian archivos aunque esté en Extracción rápida."
+    },
+    {
+      "title": "USB-C y USB 2.0",
+      "articles": "USB-IF, Type-C",
+      "fact": "Cable USB-C limitado a USB 2.0 puede transferir hasta 480 Mb/s teóricos sin soportar señales USB 3.2/USB4.",
+      "trap": "Mb/s son megabits por segundo, no MB/s."
+    },
+    {
+      "title": "CD-R, CD-RW, DVD",
+      "articles": "Manual T40: medios ópticos",
+      "fact": "Los soportes R son grabables una vez; RW son regrabables, con necesidad de unidad compatible.",
+      "trap": "Un lector de DVD no graba necesariamente DVD."
+    },
+    {
+      "title": "Driver y Plug and Play",
+      "articles": "Microsoft Support: hardware",
+      "fact": "Plug and Play automatiza detección y configuración; controlador permite al sistema operativo comunicarse con periférico.",
+      "trap": "Plug and Play no implica ausencia de controlador."
+    }
+  ],
+  "editorialNote": "Tarjetas de repaso focal basadas en manual y fuentes técnicas de referencia. Pendiente cotejo exhaustivo de alternativas, CI, E2E y despliegue público."
+}
