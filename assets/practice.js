@@ -415,6 +415,82 @@ function exportProgressBackup() {
   setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 
+function validateProgressBackup(payload) {
+  if(!payload||payload.schemaVersion!==1||payload.callId!==activeCall.id||
+     !payload.progress||typeof payload.progress!=='object')
+    throw new Error('La copia no corresponde a esta convocatoria o a esta versión.');
+  const input=payload.progress;
+  if(!Array.isArray(input.attempts)||input.attempts.length>100||
+     !input.errors||typeof input.errors!=='object'||Array.isArray(input.errors)||
+     !input.themeStats||typeof input.themeStats!=='object'||Array.isArray(input.themeStats))
+    throw new Error('La copia de progreso no tiene la estructura esperada.');
+  const attempts=input.attempts.map(a=>{
+    if(!a||typeof a!=='object'||typeof a.title!=='string'||a.title.length>300||
+       typeof a.completedAt!=='string'||!Number.isFinite(Date.parse(a.completedAt))||
+       !Number.isInteger(a.total)||a.total<1||a.total>1000||
+       !Number.isInteger(a.correct)||a.correct<0||a.correct>a.total||
+       !Number.isFinite(a.percentage)||a.percentage<0||a.percentage>100)
+      throw new Error('La copia contiene un intento no válido.');
+    const item={title:a.title,completedAt:a.completedAt,total:a.total,
+      correct:a.correct,percentage:a.percentage};
+    for(const key of ['id','type']){
+      if(typeof a[key]==='string'&&a[key].length<=180)item[key]=a[key];
+    }
+    if(Number.isInteger(a.answered)&&a.answered>=0&&a.answered<=a.total)
+      item.answered=a.answered;
+    for(const key of ['notaExamen','notaDirecta','notaOliasTeoria','notaOliasPsico',
+                       'notaPractica','notaPracticaMax']){
+      if(a[key]===null)item[key]=null;
+      else if(typeof a[key]==='number'&&Number.isFinite(a[key])&&Math.abs(a[key])<=1000)
+        item[key]=a[key];
+    }
+    return item;
+  });
+  const errors=Object.create(null);
+  const wrongEntries=Object.entries(input.errors);
+  if(wrongEntries.length>2000)throw new Error('La copia contiene demasiados errores.');
+  for(const [id,v] of wrongEntries){
+    if(!/^[A-Za-z0-9._:-]{1,100}$/.test(id)||!v||
+      !Number.isInteger(v.count)||v.count<1||v.count>10000||
+      !Number.isInteger(v.theme)||v.theme<1||v.theme>activeCall.themeCount)
+      throw new Error('Error pendiente no válido en la copia.');
+    errors[id]={count:v.count,theme:v.theme};
+    if(typeof v.lastWrongAt==='string'&&Number.isFinite(Date.parse(v.lastWrongAt)))
+      errors[id].lastWrongAt=v.lastWrongAt;
+  }
+  const themeStats=Object.create(null);
+  for(const [theme,stat] of Object.entries(input.themeStats)){
+    const n=Number(theme);
+    if(!/^\d{1,3}$/.test(theme)||!Number.isInteger(n)||n<1||n>activeCall.themeCount||
+       !stat||!Number.isInteger(stat.answered)||stat.answered<0||
+       !Number.isInteger(stat.correct)||stat.correct<0||stat.correct>stat.answered)
+      throw new Error('Estadística temática no válida en la copia.');
+    themeStats[theme]={answered:stat.answered,correct:stat.correct};
+  }
+  const openedThemes=input.openedThemes??[];
+  if(!Array.isArray(openedThemes)||openedThemes.some(n=>!Number.isInteger(n)||n<1||n>activeCall.themeCount))
+    throw new Error('Temas abiertos no válidos en la copia.');
+  return {attempts,errors,themeStats,openedThemes:[...new Set(openedThemes)].sort((a,b)=>a-b)};
+}
+
+async function restoreProgressBackup(file) {
+  if(!file)return;
+  try {
+    if(file.size>2_000_000)throw new Error('La copia supera el límite de 2 MB.');
+    const payload=JSON.parse(await file.text());
+    const validated=validateProgressBackup(payload);
+    if(!confirm('¿Restaurar esta copia? Sustituirá el historial local de la convocatoria seleccionada.'))return;
+    writeProgress(validated);
+    renderHub();
+  } catch(error){
+    const notice=document.createElement('p');
+    notice.className='notice warning';
+    notice.setAttribute('role','alert');
+    notice.textContent='No se ha restaurado el historial: '+error.message;
+    document.querySelector('#backup-progress')?.after(notice);
+  }
+}
+
 function callSelector() {
   return `<label class="search-box convocatoria-selector"><span>Convocatoria</span><select id="practice-call-selector">${CALLS.map(call => `<option value="${call.id}" ${call.id === activeCall.id ? 'selected' : ''}>${escapeHtml(call.label)}</option>`).join('')}</select></label>`;
 }
@@ -446,7 +522,7 @@ function renderHub() {
   app.innerHTML = `
     <section class="panel intro"><div class="intro-row"><div><h2>Centro de entrenamiento · ${escapeHtml(activeCall.shortLabel)}</h2><p>Tests por tema, supuestos prácticos y simulacros con justificación, trampa y referencia.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${supuestos.supuestos.length}</strong><span>supuestos prácticos</span></div><div class="summary-card"><strong>${simulacros.simulacros.length + practicalModels.length}</strong><span>simulacros</span></div><div class="summary-card"><strong>${progress.attempts.length}</strong><span>intentos guardados</span></div></div></section>
     ${examBanner}
-    <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div><div class="progress-actions"><button id="backup-progress" class="btn secondary" type="button">Guardar copia JSON</button>${progress.attempts.length || progress.openedThemes.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div></div>${renderProgressDetails(progress)}${renderHistory(progress)}</section>
+    <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div><div class="progress-actions"><button id="backup-progress" class="btn secondary" type="button">Guardar copia JSON</button><button id="restore-progress" class="btn secondary" type="button">Restaurar copia JSON</button><input id="restore-progress-file" type="file" accept=".json,application/json" hidden>${progress.attempts.length || progress.openedThemes.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div></div>${renderProgressDetails(progress)}${renderHistory(progress)}</section>
     ${smartTrainingPanel(progress)}
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? (theme.estado === 'AUDITADO' ? ' · AUDITADO documental' : ' · EN REVISIÓN jurídica') : ''}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
     ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Itinerario específico · 24 apartados de repaso</h2><p>Mapa de los apartados que no tenían preguntas históricas en sus matrices. Reutiliza bancos complementarios sin duplicar los ítems ni contarlos como oficiales.</p><a class="btn secondary" href="uc3m-24-bloques.html">Abrir los 24 apartados y sus repasos</a></section>' : ''}
@@ -464,6 +540,8 @@ function renderHub() {
     });
   });
   document.querySelector('#backup-progress')?.addEventListener('click', exportProgressBackup);
+  document.querySelector('#restore-progress')?.addEventListener('click',()=>document.querySelector('#restore-progress-file')?.click());
+  document.querySelector('#restore-progress-file')?.addEventListener('change',event=>restoreProgressBackup(event.target.files?.[0]));
   document.querySelectorAll('[data-weak-theme]').forEach(button=>button.addEventListener('click',()=>startThemeTest(Number(button.dataset.weakTheme))));
   document.querySelector('#reset-progress')?.addEventListener('click', () => {
     if (confirm('¿Borrar el historial de esta convocatoria?')) {
