@@ -1682,7 +1682,7 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Por determinar",
       "phaseFollowup": false,
@@ -1729,7 +1729,7 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Por determinar",
       "phaseFollowup": false,
@@ -1776,7 +1776,7 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Por determinar",
       "phaseFollowup": false,
@@ -1823,7 +1823,7 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Bolsa",
       "phaseFollowup": false,
@@ -1870,7 +1870,7 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Por determinar",
       "phaseFollowup": false,
@@ -1917,7 +1917,7 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Por determinar",
       "phaseFollowup": false,
@@ -1964,7 +1964,7 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Por determinar",
       "phaseFollowup": false,
@@ -2011,9 +2011,56 @@
       ],
       "verifiedAt": "2026-11-24",
       "firstSeen": "2026-11-24",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Por determinar",
+      "phaseFollowup": false,
+      "offerWithoutCall": false,
+      "notAccessible": false,
+      "actionable": false,
+      "knownQualification": false,
+      "completeness": 0,
+      "informationPending": true,
+      "detailsCheckedAt": "2026-11-24",
+      "enrichmentVersion": 3,
+      "applicationRuleConflict": false,
+      "applicationRuleConflicts": null,
+      "applicationRule": null,
+      "detailSource": "Lectura automática HTML",
+      "detailsStatus": "LEIDO"
+    },
+    {
+      "id": "232fc11c12c4b153f26a",
+      "title": "Solicitud para acreditar la EXCLUSIÓN TEMPORAL O ALTA de la BOLSA DE TRABAJO",
+      "organism": "ILLESCAS · ILLESCAS (Toledo)",
+      "location": "ILLESCAS (Toledo)",
+      "publishedAt": null,
+      "zone": "TOLEDO",
+      "group": "REVISAR",
+      "state": "REVISAR",
+      "compatibility": "REVISAR",
+      "reason": "Coincidencia en un anuncio oficial. Comprueba destino, acceso, titulación y plazo en las bases.",
+      "category": "Empleo público",
+      "position": null,
+      "vacancies": null,
+      "deadline": null,
+      "applicationTerm": null,
+      "access": null,
+      "qualification": null,
+      "source": "DIRECT",
+      "officialUrl": "https://illescas.sedelectronica.es/info.0?x=RyVfspQWgp6EXIXacjzb2ZSlv7Glp6W-Hg1zBJOAQC9PSke9jHX0cY5nL-jCUkHWHU74yr6H-lELKtZ76dvDC80qijRmTg-%2AZTCIx76Ld7o",
+      "sourceReferences": [
+        {
+          "source": "DIRECT",
+          "label": "Sede o web institucional",
+          "url": "https://illescas.sedelectronica.es/info.0?x=RyVfspQWgp6EXIXacjzb2ZSlv7Glp6W-Hg1zBJOAQC9PSke9jHX0cY5nL-jCUkHWHU74yr6H-lELKtZ76dvDC80qijRmTg-%2AZTCIx76Ld7o"
+        }
+      ],
+      "verifiedAt": "2026-11-24",
+      "firstSeen": "2026-11-24",
+      "isNew": true,
+      "deadlineIso": null,
+      "kind": "Bolsa",
       "phaseFollowup": false,
       "offerWithoutCall": false,
       "notAccessible": false,
@@ -50980,21 +51027,21 @@
     {
       "source": "DIRECT",
       "ok": true,
-      "checkedAt": "2026-11-24T08:58:31.594Z",
+      "checkedAt": "2026-11-24T09:05:37.356Z",
       "scope": "Sedes configuradas y directorio provincial; cobertura desigual y posibles bloqueos",
       "coverage": null
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-24T08:58:31.594Z",
+      "checkedAt": "2026-11-24T09:05:37.356Z",
       "scope": "Sumarios de los últimos siete días",
       "coverage": null
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-24T08:58:31.594Z",
+      "checkedAt": "2026-11-24T09:05:37.356Z",
       "scope": "Sumarios XML de los últimos siete días localizados desde RSS oficial (algunos días pueden faltar)",
       "coverage": {
         "windowDays": 7,
@@ -51017,14 +51064,14 @@
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-24T08:58:31.594Z",
+      "checkedAt": "2026-11-24T09:05:37.356Z",
       "scope": "Sumarios de los últimos siete días",
       "coverage": null
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-24T08:58:31.594Z",
+      "checkedAt": "2026-11-24T09:05:37.356Z",
       "scope": "Sumarios de los últimos siete días por fecha oficial (sin número en días no publicados)",
       "coverage": {
         "windowDays": 7,
@@ -51056,7 +51103,7 @@
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-24T08:58:31.594Z",
+      "checkedAt": "2026-11-24T09:05:37.356Z",
       "scope": "Exportación de convocatorias con plazo indicado en la fuente",
       "coverage": null
     }
@@ -51128,6 +51175,53 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "Diputación de Toledo",
+      "id": "3a69691b4200f33b",
+      "url": "https://www.diputoledo.es/global/50/304/6699/destacados-rrhh",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 32,
+      "unvisitedListingLinks": 1,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "Toledo municipal",
+      "id": "76d8ca9dfe84d69a",
+      "url": "https://www.toledo.es/el-ayuntamiento/empleo-publico/",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 109,
+      "unvisitedListingLinks": 12,
+      "errors": [
+        {
+          "url": "https://sede.toledo.es",
+          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "Valdemoro",
+      "id": "6a6895a33405fc78",
+      "url": "https://www.valdemoro.es/ope",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 27,
+      "unvisitedListingLinks": 3,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "Getafe",
       "id": "12445bfb77d4c243",
       "url": "https://sede.getafe.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_EMPLEO_EMPLEO",
@@ -51170,58 +51264,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "Humanes",
-      "id": "4560040eb2e2094c",
-      "url": "https://ayto-humanesdemadrid.es/menu-concejalias/empleo-formacion-concejalia/",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://ayto-humanesdemadrid.es/menu-concejalias/empleo-formacion-concejalia/",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "Diputación de Toledo",
-      "id": "3a69691b4200f33b",
-      "url": "https://www.diputoledo.es/global/50/304/6699/destacados-rrhh",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 48,
-      "unvisitedListingLinks": 1,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "Toledo municipal",
-      "id": "76d8ca9dfe84d69a",
-      "url": "https://www.toledo.es/el-ayuntamiento/empleo-publico/",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 113,
-      "unvisitedListingLinks": 12,
-      "errors": [
-        {
-          "url": "https://sede.toledo.es",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "Torrejón de Velasco",
       "id": "d8bff30da7a2875f",
       "url": "https://www.ayto-torrejondevelasco.es/areas-municipales/trabajo/formacion-y-empleo",
@@ -51236,13 +51278,32 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "Valdemoro",
-      "id": "6a6895a33405fc78",
-      "url": "https://www.valdemoro.es/ope",
+      "source": "Humanes",
+      "id": "4560040eb2e2094c",
+      "url": "https://ayto-humanesdemadrid.es/menu-concejalias/empleo-formacion-concejalia/oferta-publica-de-empleo/",
       "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 9,
+      "unvisitedListingLinks": 13,
+      "errors": [
+        {
+          "url": "https://ayto-humanesdemadrid.es/?page_id=16485",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "Aranjuez",
+      "id": "669c3a0457695da6",
+      "url": "https://www.aranjuez.es/ofertas-de-empleo-publico/",
+      "status": "READABLE",
       "pagesRead": 5,
-      "candidateLinks": 27,
-      "unvisitedListingLinks": 3,
+      "candidateLinks": 5,
+      "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
@@ -51256,20 +51317,6 @@
       "status": "READABLE",
       "pagesRead": 1,
       "candidateLinks": 29,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "Aranjuez",
-      "id": "669c3a0457695da6",
-      "url": "https://www.aranjuez.es/ofertas-de-empleo-publico/",
-      "status": "READABLE",
-      "pagesRead": 5,
-      "candidateLinks": 5,
       "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
@@ -51325,25 +51372,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "Navalcarnero",
-      "id": "7796db379399c6a2",
-      "url": "https://navalcarnero.es/navalcarnero/tablondeanuncios/",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 16,
-      "unvisitedListingLinks": 2,
-      "errors": [
-        {
-          "url": "https://navalcarnero.es/navalcarnero/tablondeanuncios/feed//",
-          "error": "NON_HTML"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "SERMAS",
       "id": "1b687b37f558575f",
       "url": "https://sede.comunidad.madrid/oferta-empleo/auxiliar-administrativo-0?page=0",
@@ -51366,6 +51394,67 @@
         },
         {
           "url": "https://sede.comunidad.madrid/ofertas-formacion",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 1
+    },
+    {
+      "source": "Navalcarnero",
+      "id": "7796db379399c6a2",
+      "url": "https://navalcarnero.es/navalcarnero/tablondeanuncios/",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 16,
+      "unvisitedListingLinks": 2,
+      "errors": [
+        {
+          "url": "https://navalcarnero.es/navalcarnero/tablondeanuncios/feed//",
+          "error": "NON_HTML"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "Griñón",
+      "id": "4a67f86554c9e29f",
+      "url": "https://grinon.sedelectronica.es/info.0",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://grinon.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": true,
+      "fallbackRead": true,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "Madrid centros docentes",
+      "id": "68eb2d87ebd22172",
+      "url": "https://www.comunidad.madrid/educacion/personal-administracion-servicios",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 2,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://www.comunidad.madrid/empleo",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.comunidad.madrid/servicios/empleo/bolsas-trabajo-personal-laboral-centros-docentes",
           "error": "HTTP Error 404: Not Found"
         }
       ],
@@ -51406,29 +51495,6 @@
       "browserRenderedPages": 1
     },
     {
-      "source": "Madrid centros docentes",
-      "id": "68eb2d87ebd22172",
-      "url": "https://www.comunidad.madrid/educacion/personal-administracion-servicios",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 2,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://www.comunidad.madrid/empleo",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "url": "https://www.comunidad.madrid/servicios/empleo/bolsas-trabajo-personal-laboral-centros-docentes",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 1
-    },
-    {
       "source": "Madrid interinos",
       "id": "d27888ae72623b05",
       "url": "https://www.comunidad.madrid/empleo/oposiciones-administracion-servicios-comunidad-madrid",
@@ -51458,39 +51524,6 @@
       "fallbackRead": true,
       "baseline": false,
       "browserRenderedPages": 1
-    },
-    {
-      "source": "Griñón",
-      "id": "4a67f86554c9e29f",
-      "url": "https://grinon.sedelectronica.es/info.0",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://grinon.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": true,
-      "fallbackRead": true,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "UC3M empleo",
-      "id": "70e85698cf5cb23d",
-      "url": "https://www.uc3m.es/empleo/pas",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
     },
     {
       "source": "Madrid bolsas",
@@ -51524,20 +51557,6 @@
       "browserRenderedPages": 1
     },
     {
-      "source": "UCLM bolsas",
-      "id": "283e9b483d86183e",
-      "url": "https://convocatorias.rrhh.uclm.es/bolsas_trabajo.aspx",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 5,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "Torrejón de la Calzada",
       "id": "f770406bb92dfd01",
       "url": "https://aytotorrejoncalzada.sedelectronica.es/info.0",
@@ -51561,6 +51580,34 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "UC3M empleo",
+      "id": "70e85698cf5cb23d",
+      "url": "https://www.uc3m.es/empleo/pas",
+      "status": "READABLE",
+      "pagesRead": 2,
+      "candidateLinks": 3,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "UCLM bolsas",
+      "id": "283e9b483d86183e",
+      "url": "https://convocatorias.rrhh.uclm.es/bolsas_trabajo.aspx",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 5,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "UC3M bolsas",
       "id": "8f234d4498426cd8",
       "url": "https://www.uc3m.es/empleo/consulta_bolsas_trabajo_pas",
@@ -51580,7 +51627,7 @@
       "url": "https://www.sede.uclm.es/eAdmin/Tablon.do?action=verAnuncios",
       "status": "READABLE",
       "pagesRead": 3,
-      "candidateLinks": 106,
+      "candidateLinks": 98,
       "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
@@ -51594,8 +51641,8 @@
       "url": "https://www.geacam.es/empleo/categorias/ofertas-de-empleo",
       "status": "PARTIAL",
       "pagesRead": 1,
-      "candidateLinks": 20,
-      "unvisitedListingLinks": 10,
+      "candidateLinks": 3,
+      "unvisitedListingLinks": 1,
       "errors": [
         {
           "url": "https://www.geacam.es/empleo",
@@ -51648,6 +51695,25 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "Leganés",
+      "id": "48c29ca74373f308",
+      "url": "https://www.leganes.org/bolsas-vigentes",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 72,
+      "unvisitedListingLinks": 6,
+      "errors": [
+        {
+          "url": "https://sede.leganes.org/sta/CarpetaPublic/Public?APP_CODE=STA&PAGE_CODE=PTS2_HOME",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "ALCABÓN",
       "id": "d1a23c9ab5f36a79cba25f27",
       "url": "http://alcabon.es",
@@ -51662,39 +51728,12 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "AJOFRÍN",
-      "id": "0a4ab5ab01a2ef0bb710184a",
-      "url": "http://www.ajofrin.es",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://ajofrin.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://ajofrin.es/empleo-publico/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://ajofrin.es/ofertas-de-empleo/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "ALBARREAL DE TAJO",
       "id": "398e1537b31e55762687f89b",
       "url": "http://albarrealdetajo.es",
       "status": "PARTIAL",
       "pagesRead": 2,
-      "candidateLinks": 23,
+      "candidateLinks": 15,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -51735,49 +51774,16 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "ALCAUDETE DE LA JARA",
-      "id": "03a66f33607d299d04994179",
-      "url": "http://alcaudetedelajara.es",
+      "source": "AJOFRÍN",
+      "id": "0a4ab5ab01a2ef0bb710184a",
+      "url": "http://www.ajofrin.es",
       "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
+      "pagesRead": 4,
+      "candidateLinks": 38,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://alcaudetedelajara.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "Parla",
-      "id": "a0db7ffbac721751",
-      "url": "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000116277475407756&PAGE_CODE=CATALOGO",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 4,
-      "unvisitedListingLinks": 5,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "ALCOLEA DE TAJO",
-      "id": "2971cd0e6213097bc2506837",
-      "url": "https://www.alcoleadetajo.es/",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://alcoleadetajo.sedelectronica.es/",
+          "url": "https://ajofrin.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -51810,6 +51816,44 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "ALCOLEA DE TAJO",
+      "id": "2971cd0e6213097bc2506837",
+      "url": "https://www.alcoleadetajo.es/",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://alcoleadetajo.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "ALCAUDETE DE LA JARA",
+      "id": "03a66f33607d299d04994179",
+      "url": "http://alcaudetedelajara.es",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://alcaudetedelajara.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "ALDEANUEVA DE SAN BARTOLOMÉ",
       "id": "b62251f805a047ea338f0f56",
       "url": "http://aldeanovita.es",
@@ -51829,6 +51873,20 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "Parla",
+      "id": "a0db7ffbac721751",
+      "url": "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000116277475407756&PAGE_CODE=CATALOGO",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 4,
+      "unvisitedListingLinks": 5,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "AÑOVER DE TAJO",
       "id": "92df1e003b0df991bbf4d261",
       "url": "http://anoverdetajo.es",
@@ -51843,31 +51901,12 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "Leganés",
-      "id": "48c29ca74373f308",
-      "url": "https://www.leganes.org/bolsas-vigentes",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 72,
-      "unvisitedListingLinks": 6,
-      "errors": [
-        {
-          "url": "https://sede.leganes.org/sta/CarpetaPublic/Public?APP_CODE=STA&PAGE_CODE=PTS2_HOME",
-          "error": "<urlopen error timed out>"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "ALMENDRAL DE LA CAÑADA",
       "id": "d2bfc56201a758f678d3ef98",
       "url": "https://almendraldelacanada.sedelectronica.es/info.0",
       "status": "PARTIAL",
       "pagesRead": 3,
-      "candidateLinks": 1,
+      "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -51886,7 +51925,7 @@
       "url": "https://almonaciddetoledo.sedelectronica.es/info.0",
       "status": "PARTIAL",
       "pagesRead": 3,
-      "candidateLinks": 2,
+      "candidateLinks": 1,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -51898,6 +51937,25 @@
       "fallbackRead": false,
       "baseline": false,
       "browserRenderedPages": 1
+    },
+    {
+      "source": "ALDEANUEVA DE BARBARROYA",
+      "id": "a24f800c91c556d65bebc80b",
+      "url": "http://aldeanuevadebarbarroya.org",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 2,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://aldeanuevadebarbarroya.sedelectronica.es/info",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
     },
     {
       "source": "ARISGOTAS (*)",
@@ -51914,16 +51972,16 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "ALDEANUEVA DE BARBARROYA",
-      "id": "a24f800c91c556d65bebc80b",
-      "url": "http://aldeanuevadebarbarroya.org",
+      "source": "ARGÉS",
+      "id": "4254b7f5f054161acb0eec51",
+      "url": "http://arges.es",
       "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 2,
+      "pagesRead": 2,
+      "candidateLinks": 3,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "http://aldeanuevadebarbarroya.sedelectronica.es/info",
+          "url": "https://arges.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -51952,16 +52010,16 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "ARGÉS",
-      "id": "4254b7f5f054161acb0eec51",
-      "url": "http://arges.es",
+      "source": "BARCIENCE",
+      "id": "f7d270899ab4532a68e78336",
+      "url": "http://barcience.com",
       "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 0,
+      "pagesRead": 4,
+      "candidateLinks": 12,
+      "unvisitedListingLinks": 2,
       "errors": [
         {
-          "url": "https://arges.sedelectronica.es/",
+          "url": "https://barcience.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -51979,25 +52037,6 @@
       "candidateLinks": 70,
       "unvisitedListingLinks": 6,
       "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "BARCIENCE",
-      "id": "f7d270899ab4532a68e78336",
-      "url": "http://barcience.com",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 15,
-      "unvisitedListingLinks": 2,
-      "errors": [
-        {
-          "url": "https://barcience.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -52028,7 +52067,7 @@
       "url": "http://ayuntamientodeborox.com",
       "status": "PARTIAL",
       "pagesRead": 2,
-      "candidateLinks": 13,
+      "candidateLinks": 12,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -52056,25 +52095,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "CALERA Y CHOZAS",
-      "id": "5c2c09257c9d9745076202ac",
-      "url": "http://caleraychozas.com",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 4,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://caleraychozas.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "BURGUILLOS DE TOLEDO",
       "id": "75817968efde77c9d0f936a5",
       "url": "http://burguillosdetoledo.org",
@@ -52085,6 +52105,25 @@
       "errors": [
         {
           "url": "https://burguillosdetoledo.sedelectronica.es/info.1",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "CALERA Y CHOZAS",
+      "id": "5c2c09257c9d9745076202ac",
+      "url": "http://caleraychozas.com",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 4,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://caleraychozas.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -52173,17 +52212,17 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "CARRANQUE",
-      "id": "8587a45efb55564a8af40d15",
-      "url": "http://carranque.es",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
+      "source": "BUENAVENTURA",
+      "id": "3662212cdc596fd1c2c6f45d",
+      "url": "http://aytobuenaventura.es",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 13,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "http://carranque.es",
-          "error": "HTTP Error 429: Too Many Requests"
+          "url": "http://buenaventura.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "fallbackAttempted": false,
@@ -52206,38 +52245,14 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "BUENAVENTURA",
-      "id": "3662212cdc596fd1c2c6f45d",
-      "url": "http://aytobuenaventura.es",
+      "source": "CARRANQUE",
+      "id": "8587a45efb55564a8af40d15",
+      "url": "http://carranque.es",
       "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 13,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://buenaventura.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "CAMUÑAS",
-      "id": "9d4833448fc340f9a3639b43",
-      "url": "http://camunas.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 17,
-      "unvisitedListingLinks": 1,
-      "errors": [
-        {
-          "url": "https://camunas.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
+      "pagesRead": 5,
+      "candidateLinks": 5,
+      "unvisitedListingLinks": 3,
+      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -52263,33 +52278,19 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "CAZALEGAS",
-      "id": "cf6a1f3251a710af0c373bc2",
-      "url": "http://cazalegas.es",
+      "source": "CAMUÑAS",
+      "id": "9d4833448fc340f9a3639b43",
+      "url": "http://camunas.es",
       "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
+      "pagesRead": 4,
+      "candidateLinks": 8,
+      "unvisitedListingLinks": 1,
       "errors": [
         {
-          "url": "https://cazalegas.sedelectronica.es/info.0",
+          "url": "https://camunas.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "CHOZAS DE CANALES",
-      "id": "5762d16ae382dbbd066b5e11",
-      "url": "http://aytochozasdecanales.es",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -52334,52 +52335,33 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "CEBOLLA",
-      "id": "c2686126f97f3da7a85a8514",
-      "url": "http://ayuntamientodecebolla.com",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 22,
-      "unvisitedListingLinks": 2,
-      "errors": [
-        {
-          "url": "https://ayuntamientodecebolla.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "CEDILLO DEL CONDADO",
-      "id": "5d758be60ea2f4ccfb3c6c90",
-      "url": "http://cedillodelcondado.es",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://cedillodelcondado.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "CONSUEGRA",
-      "id": "d434ce23ad9a1dc079b128ab",
-      "url": "http://consuegra.es",
+      "source": "CHOZAS DE CANALES",
+      "id": "5762d16ae382dbbd066b5e11",
+      "url": "http://aytochozasdecanales.es",
       "status": "READABLE",
-      "pagesRead": 1,
+      "pagesRead": 2,
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "CAZALEGAS",
+      "id": "cf6a1f3251a710af0c373bc2",
+      "url": "http://cazalegas.es",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://cazalegas.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -52413,6 +52395,95 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "CEBOLLA",
+      "id": "c2686126f97f3da7a85a8514",
+      "url": "http://ayuntamientodecebolla.com",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 22,
+      "unvisitedListingLinks": 2,
+      "errors": [
+        {
+          "url": "https://ayuntamientodecebolla.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "CONSUEGRA",
+      "id": "d434ce23ad9a1dc079b128ab",
+      "url": "http://consuegra.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "CAMARENA",
+      "id": "a843f3d6756b17d54fd4fb46",
+      "url": "http://ayto-camarena.com",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 6,
+      "unvisitedListingLinks": 1,
+      "errors": [
+        {
+          "url": "https://camarena.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        },
+        {
+          "url": "https://camarena.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "CEDILLO DEL CONDADO",
+      "id": "5d758be60ea2f4ccfb3c6c90",
+      "url": "http://cedillodelcondado.es",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 1,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://cedillodelcondado.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "CIRUELOS",
+      "id": "11f1e524138526ac9f082b7e",
+      "url": "http://ciruelos.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 4,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "CORRAL DE ALMAGUER",
       "id": "afd5bb2fd4b40e589590a10d",
       "url": "http://corraldealmaguer.es",
@@ -52427,12 +52498,12 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "CIRUELOS",
-      "id": "11f1e524138526ac9f082b7e",
-      "url": "http://ciruelos.es",
+      "source": "ESCALONA",
+      "id": "76633ef92209009abe7b4725",
+      "url": "https://sede.escalona.es/eAdmin/Tablon.do?action=inicioTablon",
       "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 3,
+      "pagesRead": 2,
+      "candidateLinks": 2,
       "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
@@ -52460,37 +52531,19 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "CAMARENA",
-      "id": "a843f3d6756b17d54fd4fb46",
-      "url": "http://ayto-camarena.com",
+      "source": "DOSBARRIOS",
+      "id": "1c63ff5cc8f333de42b924c7",
+      "url": "http://dosbarrios.com",
       "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 8,
-      "unvisitedListingLinks": 1,
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://camarena.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://camarena.sedelectronica.es/",
+          "url": "https://dosbarrios.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "ESCALONA",
-      "id": "76633ef92209009abe7b4725",
-      "url": "https://sede.escalona.es/eAdmin/Tablon.do?action=inicioTablon",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 2,
-      "unvisitedListingLinks": 0,
-      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -52511,32 +52564,13 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "DOSBARRIOS",
-      "id": "1c63ff5cc8f333de42b924c7",
-      "url": "http://dosbarrios.com",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://dosbarrios.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "ESPINOSO DEL REY",
       "id": "b101e905ad1eadec34393fa4",
       "url": "http://espinosodelrey.es",
       "status": "PARTIAL",
       "pagesRead": 5,
-      "candidateLinks": 20,
-      "unvisitedListingLinks": 3,
+      "candidateLinks": 18,
+      "unvisitedListingLinks": 4,
       "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
@@ -52544,21 +52578,29 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "GÁLVEZ",
-      "id": "fda2a3f706408fe0f845eac1",
-      "url": "https://galvez.sedelectronica.es/info.0",
+      "source": "Pinto",
+      "id": "22b9e34b11962124",
+      "url": "https://empleo.ayto-pinto.es/ofertas-de-empleo-publico",
       "status": "ERROR",
       "pagesRead": 0,
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://galvez.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+          "url": "https://empleo.ayto-pinto.es/ofertas-de-empleo-publico",
+          "error": "<urlopen error timed out>"
         },
         {
-          "url": "https://ayto-galvez.es/ayuntamiento/tabl%C3%B3n-de-anuncios",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
+          "url": "https://empleo.ayto-pinto.es/portal-de-empleo-p%C3%BAblico",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.ayto-pinto.es/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://pinto.convoca.online/",
+          "error": "DYNAMIC_APP_NOT_RENDERED"
         }
       ],
       "fallbackAttempted": true,
@@ -52646,6 +52688,25 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "GÁLVEZ",
+      "id": "fda2a3f706408fe0f845eac1",
+      "url": "https://galvez.sedelectronica.es/info.0",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 9,
+      "unvisitedListingLinks": 1,
+      "errors": [
+        {
+          "url": "https://galvez.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": true,
+      "fallbackRead": true,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "COBEJA",
       "id": "911247a32e543441327a6b34",
       "url": "http://aytocobeja.es",
@@ -52669,39 +52730,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "HONTANAR",
-      "id": "f400aba056d8fb516d11f18d",
-      "url": "http://hontanar.es",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "GUADAMUR",
-      "id": "3a615e45d78ade1a6f7b47d3",
-      "url": "http://guadamur.es",
-      "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://guadamur.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "CUERVA",
       "id": "5d320cccbe7b8303926257cb",
       "url": "http://www.cuerva.es",
@@ -52715,6 +52743,20 @@
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "HONTANAR",
+      "id": "f400aba056d8fb516d11f18d",
+      "url": "http://hontanar.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -52748,6 +52790,25 @@
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "GUADAMUR",
+      "id": "3a615e45d78ade1a6f7b47d3",
+      "url": "http://guadamur.es",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://guadamur.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -52811,6 +52872,20 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "LILLO",
+      "id": "5b1fa4a3e26d64f8edbb681b",
+      "url": "https://www.aytodelillo.es/areas-y-servicios/empleo-y-agencia-de-desarrollo-local/empleo/ofertas-de-empleo",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 46,
+      "unvisitedListingLinks": 3,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "GUARDIA, LA",
       "id": "eb2fecb3448ef92631afa627",
       "url": "http://laguardiatoledo.es",
@@ -52829,83 +52904,6 @@
         }
       ],
       "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "LILLO",
-      "id": "5b1fa4a3e26d64f8edbb681b",
-      "url": "https://www.aytodelillo.es/areas-y-servicios/empleo-y-agencia-de-desarrollo-local/empleo/ofertas-de-empleo",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://www.aytodelillo.es/areas-y-servicios/empleo-y-agencia-de-desarrollo-local/empleo/ofertas-de-empleo",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        },
-        {
-          "url": "https://aytodelillo.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": true,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "LOMINCHAR",
-      "id": "76f7786f7c3c00082333fd98",
-      "url": "https://lominchar.sedelectronica.es/info.0",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://lominchar.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://ayuntamiento-de-lominchar.es/",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "fallbackAttempted": true,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "Pinto",
-      "id": "22b9e34b11962124",
-      "url": "https://empleo.ayto-pinto.es/ofertas-de-empleo-publico",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://empleo.ayto-pinto.es/ofertas-de-empleo-publico",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://empleo.ayto-pinto.es/portal-de-empleo-p%C3%BAblico",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.ayto-pinto.es/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://pinto.convoca.online/",
-          "error": "DYNAMIC_APP_NOT_RENDERED"
-        }
-      ],
-      "fallbackAttempted": true,
       "fallbackRead": false,
       "baseline": false,
       "browserRenderedPages": 0
@@ -52963,44 +52961,40 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "HERENCIAS, LAS",
-      "id": "b85868481bab06507609b968",
-      "url": "http://lasherencias.es",
+      "source": "LOMINCHAR",
+      "id": "76f7786f7c3c00082333fd98",
+      "url": "https://lominchar.sedelectronica.es/info.0",
       "status": "PARTIAL",
-      "pagesRead": 2,
+      "pagesRead": 3,
       "candidateLinks": 0,
-      "unvisitedListingLinks": 1,
+      "unvisitedListingLinks": 2,
       "errors": [
         {
-          "url": "https://www.lasherencias.es/empleo/",
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "url": "http://lasherencias.sedelectronica.es/info.0",
+          "url": "https://lominchar.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         },
         {
-          "url": "https://lasherencias.sedelectronica.es/info.0",
+          "url": "https://lominchar.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
+      "fallbackAttempted": true,
+      "fallbackRead": true,
       "baseline": false,
       "browserRenderedPages": 0
     },
     {
-      "source": "MAZARAMBROZ",
-      "id": "a8d9d621ab0cb0dbe228e045",
-      "url": "https://mazarambroz.net/",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
+      "source": "HUECAS",
+      "id": "598faab2541e82a9c92fa74a",
+      "url": "http://huecas.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 18,
+      "unvisitedListingLinks": 2,
       "errors": [
         {
-          "url": "https://mazarambroz.net/",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
+          "url": "http://huecas.sedelectronica.es",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "fallbackAttempted": false,
@@ -53047,30 +53041,24 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "MASCARAQUE",
-      "id": "7e996f2f318526462d35611a",
-      "url": "http://mascaraque.es",
-      "status": "READABLE",
-      "pagesRead": 3,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "HUECAS",
-      "id": "598faab2541e82a9c92fa74a",
-      "url": "http://huecas.es",
+      "source": "HERENCIAS, LAS",
+      "id": "b85868481bab06507609b968",
+      "url": "http://lasherencias.es",
       "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 18,
-      "unvisitedListingLinks": 2,
+      "pagesRead": 2,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 1,
       "errors": [
         {
-          "url": "http://huecas.sedelectronica.es",
+          "url": "https://www.lasherencias.es/empleo/",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "http://lasherencias.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        },
+        {
+          "url": "https://lasherencias.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -53085,7 +53073,7 @@
       "url": "https://malpicadetajo.sedelectronica.es/info.0",
       "status": "PARTIAL",
       "pagesRead": 3,
-      "candidateLinks": 1,
+      "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -53099,12 +53087,12 @@
       "browserRenderedPages": 1
     },
     {
-      "source": "MONTESCLAROS",
-      "id": "d96febf9e5925282f97d75a1",
-      "url": "http://ayuntamientodemontesclaros.com",
+      "source": "MASCARAQUE",
+      "id": "7e996f2f318526462d35611a",
+      "url": "http://mascaraque.es",
       "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 2,
+      "pagesRead": 3,
+      "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
@@ -53127,6 +53115,34 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "MAZARAMBROZ",
+      "id": "a8d9d621ab0cb0dbe228e045",
+      "url": "https://www.mazarambroz.net/ayuntamiento/administracion-y-gestion/tablon-de-anuncios",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 1,
+      "unvisitedListingLinks": 1,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "MONTESCLAROS",
+      "id": "d96febf9e5925282f97d75a1",
+      "url": "http://ayuntamientodemontesclaros.com",
+      "status": "READABLE",
+      "pagesRead": 2,
+      "candidateLinks": 2,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "MORA",
       "id": "ea1cc3e07b0d93bf5aa13bb6",
       "url": "http://mora.es",
@@ -53136,33 +53152,6 @@
       "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "MÉNTRIDA",
-      "id": "0cee887bfe07ec80c9532399",
-      "url": "https://mentrida.es/%C3%A1reas-y-servicios/empleo/oferta-p%C3%BAblica",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://mentrida.es/%C3%A1reas-y-servicios/empleo/oferta-p%C3%BAblica",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        },
-        {
-          "url": "https://mentrida.es/ayuntamiento/tabl%C3%B3n-de-anuncios-y-bandos",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        },
-        {
-          "url": "https://mentrida.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": true,
       "fallbackRead": false,
       "baseline": false,
       "browserRenderedPages": 0
@@ -53187,25 +53176,16 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "NAMBROCA",
-      "id": "7d2aefd08f5df7a28a221dd1",
-      "url": "https://nambroca.sedelectronica.es/info.0",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://nambroca.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://nambroca.com/",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
+      "source": "MÉNTRIDA",
+      "id": "0cee887bfe07ec80c9532399",
+      "url": "https://mentrida.es/%C3%A1reas-y-servicios/empleo/oferta-p%C3%BAblica",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 31,
+      "unvisitedListingLinks": 5,
+      "errors": [],
       "fallbackAttempted": true,
-      "fallbackRead": false,
+      "fallbackRead": true,
       "baseline": false,
       "browserRenderedPages": 0
     },
@@ -53271,25 +53251,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "NAVALUCILLOS, LOS",
-      "id": "2b8294a154cfe1078a57a9b2",
-      "url": "http://losnavalucillos.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 2,
-      "unvisitedListingLinks": 3,
-      "errors": [
-        {
-          "url": "https://losnavalucillos.sedelectronica.es/board/9753e838-f59b-11de-b600-00237da12c6a/",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "NAVALCÁN",
       "id": "d16204abb6ef630e28be8dd9",
       "url": "http://navalcan.com",
@@ -53309,17 +53270,17 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "NOVÉS",
-      "id": "7562cba5f5273a82132079da",
-      "url": "http://noves.es",
+      "source": "NAVALUCILLOS, LOS",
+      "id": "2b8294a154cfe1078a57a9b2",
+      "url": "http://losnavalucillos.es",
       "status": "PARTIAL",
       "pagesRead": 4,
-      "candidateLinks": 1,
+      "candidateLinks": 2,
       "unvisitedListingLinks": 3,
       "errors": [
         {
-          "url": "https://noves.sedelectronica.es/info.2",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+          "url": "https://losnavalucillos.sedelectronica.es/board/9753e838-f59b-11de-b600-00237da12c6a/",
+          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
         }
       ],
       "fallbackAttempted": false,
@@ -53328,54 +53289,25 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "NUMANCIA DE LA SAGRA",
-      "id": "a998669df56b911ac58882de",
-      "url": "http://ayuntamientonumanciadelasagra.com",
+      "source": "NAMBROCA",
+      "id": "7d2aefd08f5df7a28a221dd1",
+      "url": "https://nambroca.sedelectronica.es/info.0",
       "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://ayuntamientonumanciadelasagra.sedelectronica.es/info.8",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "NAVALMORALES, LOS",
-      "id": "c97f6ee21a8798b5a902e979",
-      "url": "http://www.losnavalmorales.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 2,
-      "errors": [
-        {
-          "url": "http://losnavalmorales.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "NOMBELA",
-      "id": "c43eacdc08274a0b293928e0",
-      "url": "http://nombela.es",
-      "status": "READABLE",
       "pagesRead": 3,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
+      "candidateLinks": 10,
+      "unvisitedListingLinks": 1,
+      "errors": [
+        {
+          "url": "https://nambroca.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        },
+        {
+          "url": "https://nambroca.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": true,
+      "fallbackRead": true,
       "baseline": false,
       "browserRenderedPages": 0
     },
@@ -53405,6 +53337,91 @@
       "fallbackRead": true,
       "baseline": false,
       "browserRenderedPages": 1
+    },
+    {
+      "source": "NUMANCIA DE LA SAGRA",
+      "id": "a998669df56b911ac58882de",
+      "url": "http://ayuntamientonumanciadelasagra.com",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://ayuntamientonumanciadelasagra.sedelectronica.es/info.8",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "NOMBELA",
+      "id": "c43eacdc08274a0b293928e0",
+      "url": "http://nombela.es",
+      "status": "READABLE",
+      "pagesRead": 3,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "NOVÉS",
+      "id": "7562cba5f5273a82132079da",
+      "url": "http://noves.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 2,
+      "unvisitedListingLinks": 4,
+      "errors": [
+        {
+          "url": "https://noves.sedelectronica.es/info.2",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "NAVALMORALES, LOS",
+      "id": "c97f6ee21a8798b5a902e979",
+      "url": "http://www.losnavalmorales.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 1,
+      "unvisitedListingLinks": 2,
+      "errors": [
+        {
+          "url": "http://losnavalmorales.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "PAREDES DE ESCALONA",
+      "id": "49f7d1211d6d3f14066b5c60",
+      "url": "http://www.paredesdeescalona.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
     },
     {
       "source": "NOBLEJAS",
@@ -53444,13 +53461,13 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "PAREDES DE ESCALONA",
-      "id": "49f7d1211d6d3f14066b5c60",
-      "url": "http://www.paredesdeescalona.es",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
+      "source": "NAVAHERMOSA",
+      "id": "25ce98eb433811a9b18a815c",
+      "url": "http://navahermosa.es",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 35,
+      "unvisitedListingLinks": 4,
       "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
@@ -53472,51 +53489,19 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "POLÁN",
-      "id": "83e005384c9cd7746bb8048f",
-      "url": "https://aytopolan.es/ciudadania/empleo",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
+      "source": "OLÍAS DEL REY",
+      "id": "f2342e6bc6635e0465cac01f",
+      "url": "http://oliasdelrey.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 66,
+      "unvisitedListingLinks": 3,
       "errors": [
         {
-          "url": "https://aytopolan.es/ciudadania/empleo",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        },
-        {
-          "url": "https://aytopolan.sedelectronica.es/info.0",
+          "url": "https://oliasdelrey.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "fallbackAttempted": true,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "NAVAHERMOSA",
-      "id": "25ce98eb433811a9b18a815c",
-      "url": "http://navahermosa.es",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 36,
-      "unvisitedListingLinks": 3,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "PUEBLA DE MONTALBÁN, LA",
-      "id": "151ed9f6271e491277dfe32c",
-      "url": "http://pueblademontalban.com",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 0,
-      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -53550,16 +53535,30 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "OLÍAS DEL REY",
-      "id": "f2342e6bc6635e0465cac01f",
-      "url": "http://oliasdelrey.es",
+      "source": "PUEBLA DE MONTALBÁN, LA",
+      "id": "151ed9f6271e491277dfe32c",
+      "url": "http://pueblademontalban.com",
+      "status": "READABLE",
+      "pagesRead": 2,
+      "candidateLinks": 3,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "POLÁN",
+      "id": "83e005384c9cd7746bb8048f",
+      "url": "https://aytopolan.es/ciudadania/empleo",
       "status": "PARTIAL",
       "pagesRead": 4,
-      "candidateLinks": 70,
-      "unvisitedListingLinks": 3,
+      "candidateLinks": 10,
+      "unvisitedListingLinks": 2,
       "errors": [
         {
-          "url": "https://oliasdelrey.sedelectronica.es/info.0",
+          "url": "https://aytopolan.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -53584,25 +53583,6 @@
         {
           "url": "https://www.ontigola.es/mi-ayuntamiento/bolsas-de-trabajo/",
           "error": "HTTP Error 404: Not Found"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "OROPESA",
-      "id": "a0baaac4dd838fb99239be73",
-      "url": "http://oropesadetoledo.org",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 2,
-      "errors": [
-        {
-          "url": "https://oropesadetoledo.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "fallbackAttempted": false,
@@ -53649,38 +53629,15 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "RINCONADA, LA (*)",
-      "id": "95a909c06a919b5caf7de051",
-      "url": "http://larinconadadetajo.es",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 5,
-      "unvisitedListingLinks": 0,
+      "source": "RECAS",
+      "id": "71c97a3bad6b48d7fd063147",
+      "url": "http://recas.es",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 4,
+      "unvisitedListingLinks": 1,
       "errors": [],
       "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "QUERO",
-      "id": "977abedc521729e2742cf246",
-      "url": "https://tuaytoquero.sedelectronica.es/info.0",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://tuaytoquero.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://quero.es/",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "fallbackAttempted": true,
       "fallbackRead": false,
       "baseline": false,
       "browserRenderedPages": 0
@@ -53696,110 +53653,6 @@
       "errors": [
         {
           "url": "http://lapueblanueva.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "RIELVES",
-      "id": "1dff1ccce836a2e1e057caaf",
-      "url": "http://aytorielves.es",
-      "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://rielves.sedeelectronica.es",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "RECAS",
-      "id": "71c97a3bad6b48d7fd063147",
-      "url": "http://recas.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 4,
-      "unvisitedListingLinks": 1,
-      "errors": [
-        {
-          "url": "https://recas.sedipualba.es/tablondeanuncios/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "SAN MARTÍN DE PUSA",
-      "id": "bccd3758ff16b07da56ad1c8",
-      "url": "http://sanmartindepusa.com",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "SAN MARTÍN DE MONTALBÁN",
-      "id": "b9a3c3614c5897b10c95e7a0",
-      "url": "http://sanmartindemontalban.com",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "ROMERAL, EL",
-      "id": "3e755a109ba1653d286c1b8b",
-      "url": "https://elromeral.sedelectronica.es/info.0",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://elromeral.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 1
-    },
-    {
-      "source": "QUINTANAR DE LA ORDEN",
-      "id": "b56bae584956c6f732369765",
-      "url": "http://quintanardelaorden.es",
-      "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 5,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://quintanardelaorden.sedelectronica.es/info.30",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -53832,6 +53685,124 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "QUINTANAR DE LA ORDEN",
+      "id": "b56bae584956c6f732369765",
+      "url": "http://quintanardelaorden.es",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 5,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://quintanardelaorden.sedelectronica.es/info.30",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "QUERO",
+      "id": "977abedc521729e2742cf246",
+      "url": "https://tuaytoquero.sedelectronica.es/info.0",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 7,
+      "unvisitedListingLinks": 4,
+      "errors": [
+        {
+          "url": "https://tuaytoquero.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": true,
+      "fallbackRead": true,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "RINCONADA, LA (*)",
+      "id": "95a909c06a919b5caf7de051",
+      "url": "http://larinconadadetajo.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 5,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "RIELVES",
+      "id": "1dff1ccce836a2e1e057caaf",
+      "url": "http://aytorielves.es",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 1,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://rielves.sedeelectronica.es",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "OROPESA",
+      "id": "a0baaac4dd838fb99239be73",
+      "url": "http://oropesadetoledo.org",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 1,
+      "unvisitedListingLinks": 2,
+      "errors": [
+        {
+          "url": "https://oropesadetoledo.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "SAN MARTÍN DE MONTALBÁN",
+      "id": "b9a3c3614c5897b10c95e7a0",
+      "url": "http://sanmartindemontalban.com",
+      "status": "READABLE",
+      "pagesRead": 2,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "SAN MARTÍN DE PUSA",
+      "id": "bccd3758ff16b07da56ad1c8",
+      "url": "http://sanmartindepusa.com",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "SANTA ANA DE PUSA",
       "id": "70358346406c5e760d744383",
       "url": "https://santaanadepusa.es/",
@@ -53846,46 +53817,23 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "SAN BARTOLOMÉ DE LAS ABIERTAS",
-      "id": "45fee7c06451123ab6b180ee",
-      "url": "http://ayun-sanbartolomedelasabiertas.com",
+      "source": "ROMERAL, EL",
+      "id": "3e755a109ba1653d286c1b8b",
+      "url": "https://elromeral.sedelectronica.es/info.0",
       "status": "PARTIAL",
       "pagesRead": 3,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://ayun-sanbartolomedelasabiertas.com",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://sanbartolomedelasabiertas.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": true,
-      "fallbackRead": true,
-      "baseline": false,
-      "browserRenderedPages": 1
-    },
-    {
-      "source": "SAN PABLO DE LOS MONTES",
-      "id": "c72cf5963118d232e4d0185d",
-      "url": "http://aytosanpablodelosmontes.es",
-      "status": "PARTIAL",
-      "pagesRead": 1,
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://sanpablodelosmontes.sedelectronica.es",
+          "url": "https://elromeral.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
-      "browserRenderedPages": 0
+      "browserRenderedPages": 1
     },
     {
       "source": "SAN ROMÁN DE LOS MONTES",
@@ -53907,6 +53855,25 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "SAN PABLO DE LOS MONTES",
+      "id": "c72cf5963118d232e4d0185d",
+      "url": "http://aytosanpablodelosmontes.es",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://sanpablodelosmontes.sedelectronica.es",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "SESEÑA",
       "id": "b454aa173fc3a1bcfa1bc0fe",
       "url": "http://ayto-sesena.org",
@@ -53916,33 +53883,6 @@
       "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "SANTA CRUZ DE LA ZARZA",
-      "id": "8134c15ae2a0e271c36d2d40",
-      "url": "https://aytosantacruzdelazarza.sedelectronica.es/info.0",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://aytosantacruzdelazarza.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://santacruzdelazarza.es/ayuntamiento/empleo-p%C3%BAblico",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        },
-        {
-          "url": "https://santacruzdelazarza.es/ayuntamiento/tabl%C3%B3n-de-anuncios",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "fallbackAttempted": true,
       "fallbackRead": false,
       "baseline": false,
       "browserRenderedPages": 0
@@ -53972,7 +53912,7 @@
       "url": "http://santacruzdelretamar.es",
       "status": "PARTIAL",
       "pagesRead": 2,
-      "candidateLinks": 20,
+      "candidateLinks": 12,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -53986,11 +53926,53 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "TORRALBA DE OROPESA",
-      "id": "c6086d94f8c173f8d53a6178",
-      "url": "http://torralbadeoropesa.org",
+      "source": "SAN BARTOLOMÉ DE LAS ABIERTAS",
+      "id": "45fee7c06451123ab6b180ee",
+      "url": "http://ayun-sanbartolomedelasabiertas.com",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://ayun-sanbartolomedelasabiertas.com",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://sanbartolomedelasabiertas.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": true,
+      "fallbackRead": true,
+      "baseline": false,
+      "browserRenderedPages": 1
+    },
+    {
+      "source": "SANTA CRUZ DE LA ZARZA",
+      "id": "8134c15ae2a0e271c36d2d40",
+      "url": "https://aytosantacruzdelazarza.sedelectronica.es/info.0",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 14,
+      "unvisitedListingLinks": 8,
+      "errors": [
+        {
+          "url": "https://aytosantacruzdelazarza.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": true,
+      "fallbackRead": true,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "TEMBLEQUE",
+      "id": "d41ebbb14d74fc9d04d0ea0a",
+      "url": "http://www.ayuntamientodetembleque.es",
       "status": "READABLE",
-      "pagesRead": 1,
+      "pagesRead": 2,
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [],
@@ -54019,11 +54001,11 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "TEMBLEQUE",
-      "id": "d41ebbb14d74fc9d04d0ea0a",
-      "url": "http://www.ayuntamientodetembleque.es",
+      "source": "TORRALBA DE OROPESA",
+      "id": "c6086d94f8c173f8d53a6178",
+      "url": "http://torralbadeoropesa.org",
       "status": "READABLE",
-      "pagesRead": 2,
+      "pagesRead": 1,
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [],
@@ -54033,17 +54015,17 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "TOLEDO",
-      "id": "04c465e6c917be03b261cf51",
-      "url": "http://toledo.es",
+      "source": "SONSECA",
+      "id": "44b6dcac3bcd03756464d625",
+      "url": "http://sonseca.es",
       "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 68,
-      "unvisitedListingLinks": 12,
+      "pagesRead": 3,
+      "candidateLinks": 7,
+      "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://sede.toledo.es",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
+          "url": "https://sonseca.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "fallbackAttempted": false,
@@ -54071,19 +54053,14 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "SONSECA",
-      "id": "44b6dcac3bcd03756464d625",
-      "url": "http://sonseca.es",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 7,
+      "source": "TURLEQUE",
+      "id": "8b04dee1876825a68a88c39a",
+      "url": "http://ayuntamiento.es/turleque",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
       "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://sonseca.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
+      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -54109,21 +54086,17 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "TORRIJOS",
-      "id": "489cd1deac3c3121adbbdf05",
-      "url": "http://torrijos.es",
+      "source": "TOLEDO",
+      "id": "04c465e6c917be03b261cf51",
+      "url": "http://toledo.es",
       "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 7,
+      "pagesRead": 4,
+      "candidateLinks": 65,
+      "unvisitedListingLinks": 12,
       "errors": [
         {
-          "url": "https://www.torrijos.es/ayuntamiento/inversiones-y-proyectos/programa-de-apoyo-activo-al-empleo-2024.html",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.torrijos.es/ayuntamiento/inversiones-y-proyectos/programa-de-apoyo-activo-al-empleo-2026.html",
-          "error": "HTTP Error 429: Too Many Requests"
+          "url": "https://sede.toledo.es",
+          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
         }
       ],
       "fallbackAttempted": false,
@@ -54132,14 +54105,52 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "TURLEQUE",
-      "id": "8b04dee1876825a68a88c39a",
-      "url": "http://ayuntamiento.es/turleque",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
+      "source": "TORRIJOS",
+      "id": "489cd1deac3c3121adbbdf05",
+      "url": "http://torrijos.es",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 3,
+      "unvisitedListingLinks": 7,
       "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "PEPINO",
+      "id": "f86692d57dbddaaa9c265ca8",
+      "url": "http://ayto-pepino.com",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 16,
+      "unvisitedListingLinks": 4,
+      "errors": [
+        {
+          "url": "https://pepino.sede-virtual.es/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "UGENA",
+      "id": "002231eb229ec367b3db9811",
+      "url": "https://www.ugena.es/",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 3,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://ugena.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -54169,44 +54180,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "UGENA",
-      "id": "002231eb229ec367b3db9811",
-      "url": "https://www.ugena.es/",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://ugena.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "VILLACAÑAS",
-      "id": "b32cc9fec38da5c32cb867a4",
-      "url": "https://aytovillacanas.com/ayuntamiento/tabl%C3%B3n-de-anuncios",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://aytovillacanas.com/ayuntamiento/tabl%C3%B3n-de-anuncios",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "fallbackAttempted": true,
-      "fallbackRead": true,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "URDA",
       "id": "00cb0f9d4007d7a6f6c4cb5a",
       "url": "http://urda.es",
@@ -54221,43 +54194,6 @@
         }
       ],
       "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "VILLALUENGA DE LA SAGRA",
-      "id": "efcf3c666185e629b481364b",
-      "url": "http://villaluengadelasagra.es",
-      "status": "READABLE",
-      "pagesRead": 3,
-      "candidateLinks": 5,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "VILLAFRANCA DE LOS CABALLEROS",
-      "id": "d6d8c10955fd9e0d942af142",
-      "url": "https://www.villafrancadeloscaballeros.es/ayuntamiento/tabl%C3%B3n-de-anuncios",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://www.villafrancadeloscaballeros.es/ayuntamiento/tabl%C3%B3n-de-anuncios",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        },
-        {
-          "url": "https://villafrancadeloscaballeros.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": true,
       "fallbackRead": false,
       "baseline": false,
       "browserRenderedPages": 0
@@ -54301,19 +54237,42 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "VILLAMIEL DE TOLEDO",
-      "id": "6c908d114135c5c2ebf7bcee",
-      "url": "http://villamieldetoledo.com",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 3,
+      "source": "VILLALUENGA DE LA SAGRA",
+      "id": "efcf3c666185e629b481364b",
+      "url": "http://villaluengadelasagra.es",
+      "status": "READABLE",
+      "pagesRead": 3,
+      "candidateLinks": 4,
       "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://villamieldetoledo.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "VILLACAÑAS",
+      "id": "b32cc9fec38da5c32cb867a4",
+      "url": "https://aytovillacanas.com/ayuntamiento/tabl%C3%B3n-de-anuncios",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 27,
+      "unvisitedListingLinks": 2,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "VILLAFRANCA DE LOS CABALLEROS",
+      "id": "d6d8c10955fd9e0d942af142",
+      "url": "https://www.villafrancadeloscaballeros.es/ayuntamiento/tabl%C3%B3n-de-anuncios",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 6,
+      "unvisitedListingLinks": 3,
+      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -54335,25 +54294,6 @@
         {
           "url": "https://lasventasderetamosa.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
-      "source": "PEPINO",
-      "id": "f86692d57dbddaaa9c265ca8",
-      "url": "http://ayto-pepino.com",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 17,
-      "unvisitedListingLinks": 3,
-      "errors": [
-        {
-          "url": "https://pepino.sede-virtual.es/",
-          "error": "<urlopen error timed out>"
         }
       ],
       "fallbackAttempted": false,
@@ -54400,7 +54340,7 @@
       "url": "https://villamuelas.sedelectronica.es/info.0",
       "status": "PARTIAL",
       "pagesRead": 3,
-      "candidateLinks": 1,
+      "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -54414,17 +54354,17 @@
       "browserRenderedPages": 1
     },
     {
-      "source": "YÉBENES, LOS",
-      "id": "d530665158ab6b5dfed5b9e3",
-      "url": "https://ayuntamiento.losyebenes.es/ofertas-de-empleo",
+      "source": "VILLAMIEL DE TOLEDO",
+      "id": "6c908d114135c5c2ebf7bcee",
+      "url": "http://villamieldetoledo.com",
       "status": "PARTIAL",
-      "pagesRead": 1,
+      "pagesRead": 3,
       "candidateLinks": 2,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://losyebenes.sede-virtual.es/",
-          "error": "HTTP Error 403: Forbidden"
+          "url": "https://villamieldetoledo.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "fallbackAttempted": false,
@@ -54447,12 +54387,31 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "YÉBENES, LOS",
+      "id": "d530665158ab6b5dfed5b9e3",
+      "url": "https://ayuntamiento.losyebenes.es/ofertas-de-empleo",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 2,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://losyebenes.sede-virtual.es/",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "YUNCLER",
       "id": "6af061239b73e5c3af2e4b76",
       "url": "https://www.aytoyuncler.com/",
       "status": "PARTIAL",
       "pagesRead": 4,
-      "candidateLinks": 1,
+      "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
@@ -54480,25 +54439,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "VILLANUEVA DE ALCARDETE",
-      "id": "1d6c2896d85d4f71562afb6c",
-      "url": "http://villanuevadealcardete.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 31,
-      "unvisitedListingLinks": 4,
-      "errors": [
-        {
-          "url": "http://villanuevadealcardete.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "San Martín de la Vega",
       "id": "6c0562aafbd8cbbb",
       "url": "https://empleo.ayto-smv.es/empleo-puacuteblico-oposiciones-concursos-bolsas-de-empleo/category/all",
@@ -54507,6 +54447,25 @@
       "candidateLinks": 55,
       "unvisitedListingLinks": 0,
       "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "VILLANUEVA DE ALCARDETE",
+      "id": "1d6c2896d85d4f71562afb6c",
+      "url": "http://villanuevadealcardete.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 28,
+      "unvisitedListingLinks": 5,
+      "errors": [
+        {
+          "url": "http://villanuevadealcardete.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -54536,20 +54495,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "Correos",
-      "id": "a4d44477d6d2ab92",
-      "url": "https://www.correos.com/personas-y-talento/",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "VILLASECA DE LA SAGRA",
       "id": "6e18b324e47637696513a807",
       "url": "http://villasecadelasagra.es",
@@ -54567,6 +54512,20 @@
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "Correos",
+      "id": "a4d44477d6d2ab92",
+      "url": "https://www.correos.com/personas-y-talento/",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
       "baseline": false,
@@ -54644,12 +54603,45 @@
       "browserRenderedPages": 0
     },
     {
+      "source": "VILLA DE DON FADRIQUE, LA",
+      "id": "040172bf934e6f995013ceb7",
+      "url": "http://villadonfadrique.com",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 53,
+      "unvisitedListingLinks": 3,
+      "errors": [
+        {
+          "url": "https://villadonfadrique.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
+      "source": "El Álamo",
+      "id": "c40bb7c0ffdd47d6",
+      "url": "https://ayuntamientoelalamo.org/tablon-anuncios/",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 97,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "fallbackAttempted": false,
+      "fallbackRead": false,
+      "baseline": false,
+      "browserRenderedPages": 0
+    },
+    {
       "source": "Serranillos del Valle",
       "id": "62f183f67e0c2fb3",
       "url": "https://sede.serranillosdelvalle.es/eAdmin/InfoSede.do",
       "status": "READABLE",
       "pagesRead": 3,
-      "candidateLinks": 11,
+      "candidateLinks": 10,
       "unvisitedListingLinks": 0,
       "errors": [],
       "fallbackAttempted": false,
@@ -54677,13 +54669,13 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "El Álamo",
-      "id": "c40bb7c0ffdd47d6",
-      "url": "https://ayuntamientoelalamo.org/tablon-anuncios/",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 97,
-      "unvisitedListingLinks": 0,
+      "source": "Arroyomolinos",
+      "id": "f13693b6ca274586",
+      "url": "https://www.ayto-arroyomolinos.org/ayuntamiento/concejalias/comunicacion-tecnologia-de-la-informacion-transparencia-y-protocolo/personal-y-formacion",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 70,
+      "unvisitedListingLinks": 1,
       "errors": [],
       "fallbackAttempted": false,
       "fallbackRead": false,
@@ -54752,20 +54744,6 @@
       "browserRenderedPages": 0
     },
     {
-      "source": "Arroyomolinos",
-      "id": "f13693b6ca274586",
-      "url": "https://www.ayto-arroyomolinos.org/ayuntamiento/concejalias/comunicacion-tecnologia-de-la-informacion-transparencia-y-protocolo/personal-y-formacion",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 70,
-      "unvisitedListingLinks": 1,
-      "errors": [],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
-    },
-    {
       "source": "Cubas de la Sagra",
       "id": "fdd2d58dab8d58c6",
       "url": "https://cubasdelasagra.sedelectronica.es/info.0",
@@ -54806,44 +54784,40 @@
       "fallbackRead": false,
       "baseline": false,
       "browserRenderedPages": 0
-    },
-    {
-      "source": "VILLA DE DON FADRIQUE, LA",
-      "id": "040172bf934e6f995013ceb7",
-      "url": "http://villadonfadrique.com",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 19,
-      "unvisitedListingLinks": 2,
-      "errors": [
-        {
-          "url": "https://villadonfadrique.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://www.villadonfadrique.com/index.php/servicios/servicios-sociales/bolsa-de-empleo.html",
-          "error": "The read operation timed out"
-        }
-      ],
-      "fallbackAttempted": false,
-      "fallbackRead": false,
-      "baseline": false,
-      "browserRenderedPages": 0
     }
   ],
   "enrichmentStatus": {
-    "attempted": 8,
-    "read": 8,
+    "attempted": 1,
+    "read": 1,
     "withDetails": 0,
     "withCoreDetails": 0,
     "failures": 0,
     "failureReasons": {},
+    "bySource": {
+      "DIRECT": {
+        "attempted": 1,
+        "read": 1,
+        "withDetails": 0,
+        "withCoreDetails": 0,
+        "failures": 0,
+        "failureReasons": {}
+      }
+    },
+    "attempts": [
+      {
+        "id": "232fc11c12c4b153f26a",
+        "source": "DIRECT",
+        "status": "LEIDO",
+        "hasDetails": false,
+        "hasCoreDetails": false
+      }
+    ],
     "asOf": "2026-11-24",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
   },
   "directCrawl": {
     "available": true,
-    "checkedAtUtc": "2026-11-24T09:03:16.433719+00:00",
+    "checkedAtUtc": "2026-11-24T09:09:51.523615+00:00",
     "configuredSources": 206,
     "uniqueSources": 200,
     "sharedSourceAliases": 6
