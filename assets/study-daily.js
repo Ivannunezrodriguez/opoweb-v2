@@ -35,7 +35,8 @@ export function dailyPlan({themes=[],progress={},minutes=120,day,exam=null,pract
  const due=stats.reduce((n,s)=>n+s.due,0);
  const errorCount=Object.values(progress.errors||{}).filter(e=>Number(e.count)>0&&stats.some(s=>s.theme===Number(e.theme))).length;
  const remaining=daysUntil(day,exam);
- const allocations=[['review',30],['test',30],['errors',due?15:0],['practical',practical?25:0]].filter(x=>x[1]>0);
+ // Increase practice share in the last week, without claiming an official exam date.
+ const allocations=[['review',target?(remaining!==null&&remaining>=0&&remaining<=7?20:30):0],['test',testTarget?(remaining!==null&&remaining>=0&&remaining<=7?40:30):0],['errors',due?15:0],['practical',practical?25:0]].filter(x=>x[1]>0);
  const weight=allocations.reduce((n,x)=>n+x[1],0);
  let used=0;
  const tasks=allocations.map(([id,w],i)=>{
@@ -44,4 +45,17 @@ export function dailyPlan({themes=[],progress={},minutes=120,day,exam=null,pract
   return {id,minutes:mins,theme:chosen?.theme??null,title:chosen?.title??null};
  }).filter(t=>(t.id!=='review'&&t.id!=='test')||t.theme!==null);
  return {day,minutes:budget,remaining,due,errorCount,observedThemes:stats.filter(s=>s.answered>=5).length,totalThemes:stats.length,stats,tasks};
+}
+
+export const DAILY_STORAGE_PREFIX='opoweb-daily-plan:';
+export function readDailyStorage(storage,callId){
+ try{const v=JSON.parse(storage.getItem(DAILY_STORAGE_PREFIX+callId)||'null');return v&&Array.isArray(v.tasks)?v:null;}catch{return null;}
+}
+export function saveDailyStorage(storage,callId,plan){
+ try{storage.setItem(DAILY_STORAGE_PREFIX+callId,JSON.stringify(plan));return true;}catch{return false;}
+}
+export function dailySnapshot(input,saved){
+ if(saved?.day===input.day&&saved.minutes===Number(input.minutes)&&Array.isArray(saved.tasks))return saved;
+ const plan=dailyPlan({...input,previous:saved?.tasks||[]});
+ return {...plan,tasks:plan.tasks.map(t=>({...t,done:saved?.day===input.day&&saved.tasks.some(p=>p.id===t.id&&p.theme===t.theme&&p.done===true)}))};
 }
