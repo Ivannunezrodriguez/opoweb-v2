@@ -372,12 +372,13 @@
           ],
           "completedSubsteps": [
             "21/11/2026: motor previo de simulacros, corrección y almacenamiento local existe; opciones A-D en columna ya verificadas. No equivale a modo inteligente implantado.",
-            "23/11/2026: entrega funcional publicada en ambas ramas: selector de tema, test aleatorio 10/20/50 con tamaños según banco, reintento prioritario de errores locales, pregunta sin duplicar y puntuación orientativa proporcional de La Puebla/C1, A-E/3 UC3M/Olías y sin penalización inventada en Diputación C2. Pruebas de unidad ejecutadas y superadas con archivo real del repositorio. Añadido test E2E Chromium desktop/móvil local y Pages, pendiente ejecución verde."
+            "23/11/2026: entrega funcional publicada en ambas ramas: selector de tema, test aleatorio 10/20/50 con tamaños según banco, reintento prioritario de errores locales, pregunta sin duplicar y puntuación orientativa proporcional de La Puebla/C1, A-E/3 UC3M/Olías y sin penalización inventada en Diputación C2. Pruebas de unidad ejecutadas y superadas con archivo real del repositorio. Añadido test E2E Chromium desktop/móvil local y Pages, pendiente ejecución verde.",
+            "24/11/2026: corregida pérdida de smart/smartTheme al renderizar el centro; ampliadas aserciones URL y tema tras recarga en escritorio/móvil. CI pendiente."
           ],
           "remainingSubsteps": [
             "Comprobar resultado SUCCESS de la nueva ejecución de tests/e2e-study-smart-20261123.mjs en Chromium, escritorio y móvil, sobre servidor local y Pages. Después cerrar el ID sin iniciar más implementaciones."
           ],
-          "nextAction": "Ejecutar/revisar E2E automático de entrenamiento inteligente Chromium local y Pages; código de selección 10/20/50 y reintento de errores, calificación por convocatoria, historial e integración de CI ya publicados. Cerrar esta tarea cuando el test de navegador real resulte verde.",
+          "nextAction": "Verificar CI Chromium de los commits de persistencia adaptativa y publicación filtrada; corregir cualquier regresión antes de cerrar.",
           "priority": "ALTA"
         },
         {
@@ -2912,6 +2913,18 @@
         "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
       ],
       "limit": "No certificar cierre Olías sin BOP y rectificación; no declarar recuperación real SERMAS hasta finalizar rastreo; no se envían correos por push."
+    },
+    {
+      "id": "LOG-20261124-STUDY-ADAPTIVE-RELOAD",
+      "at": "2026-11-24",
+      "atUtc": "2026-11-24T21:20:00Z",
+      "taskIds": [
+        "STUDY-TEST-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corrección de persistencia de enlace adaptativo y ampliación E2E de recarga.",
+      "evidence": [],
+      "limit": "Sin cierre hasta CI verde y aceptación completa; no acredita publicación ni navegador físico."
     }
   ],
   "decisions": [
@@ -3092,5 +3105,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-24T10:41:46.000Z"
+  "updatedAtUtc": "2026-11-24T21:21:19.000Z"
 }
