@@ -1,4 +1,4 @@
-import {nextReview,adaptiveQuestions,cleanSchedule} from './practice-adaptive.js?v=2026.11.24.1';
+import {nextReview,adaptiveQuestions,cleanSchedule} from './practice-adaptive.js?v=2026.11.24.2';
 import {smartPool,smartSizeOptions,chooseSmartQuestions,smartScore} from './practice-smart.js';
 
 const app = document.querySelector('#practice-app');
@@ -178,7 +178,7 @@ function saveAttempt(attempt, results) {
     stat.answered += 1;
     if (result.correct) stat.correct += 1;
     progress.themeStats[key] = stat;
-    if(questionMap.has(result.question.id)) progress.schedule[result.question.id]=nextReview(progress.schedule[result.question.id],result.correct,attempt.completedAt);
+    if(questionMap.has(result.question.id)) progress.schedule[result.question.id]={...nextReview(progress.schedule[result.question.id],result.correct,attempt.completedAt),theme};
     if (result.correct) {
       if (progress.errors[result.question.id]) {
         progress.errors[result.question.id].count -= 1;
@@ -748,7 +748,7 @@ function finishExercise(items, timerId, metadata) {
   scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-async function loadCall(id, requestedTheme = null, requestedRepaso = null, requestedRepasoTema = null) {
+async function loadCall(id, requestedTheme = null, requestedRepaso = null, requestedRepasoTema = null, requestedSmart = null, requestedSmartTheme = null) {
   const requestId = ++latestCallLoad;
   const call = CALLS.find(candidate => candidate.id === id) || CALLS[0];
   activeCall = call;
@@ -762,7 +762,10 @@ async function loadCall(id, requestedTheme = null, requestedRepaso = null, reque
   const repasoQuery = selectedTheme === null && call.id === 'uc3m-auxiliar-administrativa-c2-2026' && requestedRepaso
     ? `&repaso=${encodeURIComponent(requestedRepaso)}${requestedRepasoTema ? `&temaRepaso=${encodeURIComponent(requestedRepasoTema)}` : ''}`
     : '';
-  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}${themeQuery}${repasoQuery}`);
+  const smartMode=['adaptive','spaced'].includes(requestedSmart)?requestedSmart:null;
+  const smartTheme=Number(requestedSmartTheme);
+  const smartQuery=smartMode?'&smart='+smartMode+(Number.isInteger(smartTheme)&&smartTheme>0&&smartTheme<=call.themeCount?'&smartTheme='+smartTheme:''):'';
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}${themeQuery}${repasoQuery}${smartQuery}`);
   document.title = `OpoWeb v2 · Práctica · ${call.shortLabel}`;
   app.innerHTML = '<section class="panel intro"><h2>Cargando entrenamiento…</h2></section>';
   const [programmeResponse, supuestosResponse, simulacrosResponse, banks] = await Promise.all([
@@ -813,14 +816,20 @@ async function loadCall(id, requestedTheme = null, requestedRepaso = null, reque
         app.querySelector('.panel.intro')?.after(warning);
       }
     } else renderHub();
-  } else renderHub();
+  } else {
+    renderHub();
+    if(smartMode){
+      const mode=document.querySelector('#smart-mode'), theme=document.querySelector('#smart-theme');
+      if(mode&&theme){mode.value=smartMode;if([...theme.options].some(o=>o.value===String(smartTheme)))theme.value=String(smartTheme);mode.dispatchEvent(new Event('change'));document.querySelector('#smart-training')?.scrollIntoView();}
+    }
+  }
 }
 
 async function boot() {
   initTheme();
   try {
     const params = new URLSearchParams(location.search);
-    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'), params.get('repaso'), params.get('temaRepaso'));
+    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'), params.get('repaso'), params.get('temaRepaso'), params.get('smart'), params.get('smartTheme'));
   } catch (error) {
     app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
   }
