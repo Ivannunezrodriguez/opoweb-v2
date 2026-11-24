@@ -471,7 +471,8 @@
           "evidencePaths": [
             "assets/radar.js",
             "assets/radar-quality.js",
-            "radar.html"
+            "radar.html",
+            "data/radar.json"
           ],
           "completedSubsteps": [
             "20/11/2026: auditoría del snapshot 18/11, 70 intentos, 68 con texto, 18 con detalles y 2 fallos; el panel ahora muestra estas magnitudes separadas, sin afirmar cobertura total.",
@@ -491,7 +492,8 @@
             "22/11/2026: discrepancia grave detectada para Getafe Maestro/a BOCM-20261105-68 (8 laborales libre +2 internas+1 funcionarial libre) vs BOE-A-2026-24343 (10 laborales libre+1 funcionarial libre). Señalada como conflicto no resuelto; titulación Grado en Magisterio Infantil acreditada por extracto BOCM.",
             "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE.",
             "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE.",
-            "24/11/2026: inspección feed 1438: 28/44 incorporaciones del día son etiquetas genéricas de contratación y tres actas/composición/bolsa provisional; filtro reparado en RAD-12 y conservado histórico. La ficha institucional SERMAS auxiliar administrativo de inscripción permanente sigue visible en web aunque runner 404; no afirmar cierre."
+            "24/11/2026: inspección feed 1438: 28/44 incorporaciones del día son etiquetas genéricas de contratación y tres actas/composición/bolsa provisional; filtro reparado en RAD-12 y conservado histórico. La ficha institucional SERMAS auxiliar administrativo de inscripción permanente sigue visible en web aunque runner 404; no afirmar cierre.",
+            "24/11/2026: snapshot 09:03 UTC todavía sin nuevo diagnóstico de intentos y con navegación genérica. Se introduce navigationOnly para registros DIRECT de categoría desnuda, excluidos de oportunidades visibles sin borrar histórico; se amplía clasificación de trámites de gestión de bolsas como seguimiento. Versiones radar.js y radar-quality.js 2026.11.24.1, control estático añadido. Pendiente CI y publicación."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
@@ -649,7 +651,8 @@
             "24/11/2026: Polán, Quero, Santa Cruz de la Zarza y Villafranca de los Caballeros: cuatro raíces fallidas sustituidas por listados oficiales verificados en consulta web, con respaldos e IDs conservados. Total 11/18 configuraciones corregidas; lectura automática posterior sin acreditar.",
             "24/11/2026: log CI aportado por usuario confirma PASS de fallback, Chromium alternativo, Getafe independiente y cuatro fuentes municipales previas; falla después el validador de bitácora por URL Polán. Reparada lista de cuatro URLs exactas HTTPS, con cinco casos negativos; revisión estática de referencias externas actuales sin rechazos. Polán/Villafranca legibles en consulta web; Quero/Santa Cruz devuelven bucle de redirección en esa consulta, no afirmar lectura. Falta CI completo y rastreo posterior.",
             "24/11/2026: rastreo 08:55:49 UTC confirma recuperación 11/11 fuentes previamente modificadas (1 READABLE, 10 PARTIAL); 44 páginas/189 enlaces candidatos; global 47 READABLE, 136 PARTIAL, 18 ERROR de 201. Nuevos fallos 404 de portales Madrid/SERMAS y 302 de sedes. Feed privado: último enriquecimiento 5 intentos, 3 leídos, 2 con algún dato, 0 con datos nucleares, 2 fallos OTRO. Se priorizan problemas de cobertura y datos útiles. Humanes y Mazarambroz, antes ERROR y ahora PARTIAL, pasan a sección municipal específica en commit a07fb83101fdbdc675ed7b6e4ebdacf74782b9b9, pendiente medir mejora.",
-            "24/11/2026: feed real actualizado a 1438 registros; de 44 firstSeen del día, 28 etiquetas genéricas de Contratación en siete municipios (28 marcadas LEIDO), tres títulos de acta/composición/bolsa provisional, 13 restantes sin clasificar íntegramente. Último enriquecimiento 8/8 leídos, 0/8 con algún dato, 0/8 datos nucleares. Filtro de navegación genérica y fases en rastreador directo, conservación de histórico sin gastar presupuesto de enriquecimiento en etiquetas desnudas. Nuevo summary.bySource y summary.attempts con ID, fuente, resultado y métricas; distingue TLS, DNS, conexión, timeout y errores documentales. Pruebas añadidas; CI y rastreo posterior aún no comprobados."
+            "24/11/2026: feed real actualizado a 1438 registros; de 44 firstSeen del día, 28 etiquetas genéricas de Contratación en siete municipios (28 marcadas LEIDO), tres títulos de acta/composición/bolsa provisional, 13 restantes sin clasificar íntegramente. Último enriquecimiento 8/8 leídos, 0/8 con algún dato, 0/8 datos nucleares. Filtro de navegación genérica y fases en rastreador directo, conservación de histórico sin gastar presupuesto de enriquecimiento en etiquetas desnudas. Nuevo summary.bySource y summary.attempts con ID, fuente, resultado y métricas; distingue TLS, DNS, conexión, timeout y errores documentales. Pruebas añadidas; CI y rastreo posterior aún no comprobados.",
+            "24/11/2026: snapshot 09:03 UTC todavía sin nuevo diagnóstico de intentos y con navegación genérica. Se introduce navigationOnly para registros DIRECT de categoría desnuda, excluidos de oportunidades visibles sin borrar histórico; se amplía clasificación de trámites de gestión de bolsas como seguimiento. Versiones radar.js y radar-quality.js 2026.11.24.1, control estático añadido. Pendiente CI y publicación."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -659,7 +662,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Verificar tests nuevos y primer snapshot con enrichmentStatus.attempts/bySource; reconciliar intentos y contadores, verificar desaparición de nuevas etiquetas Contratación y revisar fallos específicos. Madrid/SERMAS: ficha oficial de inscripción permanente visible en consulta web pese a 404 en runner; mantener fuente y diagnóstico sin tratar 404 como ausencia de bolsa. Validar extracción de requisitos reales, publicación y exclusión de alertas no contrastadas."
+          "nextAction": "Verificar CI y snapshot con attempts/bySource, ausencia de nuevas entradas genéricas y coherencia de lectura por fuente. Verificar interfaz publicada sin navegación histórica y conservar los registros para auditoría."
         },
         {
           "id": "RAD-13",
@@ -2658,6 +2661,23 @@
         "data/radar.json"
       ],
       "limit": "Cambios guardados sin CI nueva acreditada ni rastreo posterior; no se borra histórico ni se promete ausencia de falsos positivos. RAD-12 continúa parcial."
+    },
+    {
+      "id": "LOG-20261124-RAD12-LEGACY-NAVIGATION-UI",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-12",
+        "RAD-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Separación de registros históricos de navegación en la interfaz, clasificación de gestión de bolsas como seguimiento, invalidación de caché y prueba estática. Snapshot anterior todavía sin métricas nuevas.",
+      "evidence": [
+        "assets/radar-quality.js",
+        "assets/radar.js",
+        "radar.html",
+        "data/radar.json"
+      ],
+      "limit": "Código guardado; falta CI, publicación y verificación de nuevo rastreo. Sin cierre de tarea."
     }
   ],
   "decisions": [
