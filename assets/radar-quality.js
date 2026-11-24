@@ -65,7 +65,9 @@ function institution(o){
  return org||'Organismo por identificar';
 }
 export function normalizeOpportunity(o,asOf){
- const title=clean(o.title), phaseFollowup=followup.test(title)||amendNotice.test(title)||existingBagStatus.test(title);
+ const title=clean(o.title);
+ const navigationOnly=o.source==='DIRECT'&&/^(?:contrataci[oó]n(?:\s+p[uú]blica)?|selecci[oó]n(?:\s+de\s+personal)?|personal|recursos\s+humanos)$/i.test(title);
+ const phaseFollowup=followup.test(title)||amendNotice.test(title)||existingBagStatus.test(title)||/\b(?:composici[oó]n\s+de\s+(?:la\s+)?(?:ampliaci[oó]n\s+de\s+)?bolsa|bolsa\s+[uú]nica\s+provisional|exclusi[oó]n\s+temporal\s+o\s+alta\s+de\s+la\s+bolsa)\b/i.test(title);
  const role=clean(o.position)||rawRole(title);
  const knownRole=!!role && roleNames.test(role);
  const officialUrl=/^https:\/\//i.test(o.officialUrl||'')?o.officialUrl:null;
@@ -85,9 +87,9 @@ export function normalizeOpportunity(o,asOf){
  const ineligible=universityRequirement.test(group)||universityRequirement.test(qualification);
  const access=clean(o.access);
  const kind=isOffer?'Oferta de empleo (sin convocatoria)':/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/sustituci[oó]n|interin|contrataci[oó]n\s+temporal/i.test(title)?'Temporal':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
- const actionable=!isOffer && !phaseFollowup && !ineligible && knownRole && !!officialUrl;
+ const actionable=!navigationOnly && !isOffer && !phaseFollowup && !ineligible && knownRole && !!officialUrl;
  return {
-  ...o,title,position:knownRole?role:null,organism:institution(o),
+  ...o,title,navigationOnly,position:knownRole?role:null,organism:institution(o),
   location:municipality(o),vacancies,deadline:isOffer?null:(iso?o.deadline:null),
   deadlineIso:isOffer?null:iso,group,qualification:knownQualification?qualification:null,
   access:access&&!qualificationDefault.test(access)?access:null,
