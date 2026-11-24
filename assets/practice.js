@@ -213,6 +213,23 @@ function formatAttemptDate(value) {
   }).format(new Date(value));
 }
 
+// Static Pages may briefly fail a resource request during deployment.
+// Retry only transient failures, with a strict per-request timeout; never
+// substitute a missing question bank or silently render a reduced exam.
+async function fetchPracticeResource(path){
+ for(let attempt=0;attempt<2;attempt++){
+  try{
+   const response=await fetch(path,{cache:'no-cache',signal:AbortSignal.timeout(8000)});
+   if(attempt===0&&(response.status===429||response.status>=500)){await new Promise(resolve=>setTimeout(resolve,350));continue;}
+   return response;
+  }catch(error){
+   if(attempt===1)throw error;
+   await new Promise(resolve=>setTimeout(resolve,350));
+  }
+ }
+ throw new Error('No se pudo cargar '+path);
+}
+
 async function loadQuestionBanks(call = activeCall) {
   const banks = await Promise.all(Array.from({ length: call.themeCount }, async (_, index) => {
     const tema = index + 1;
@@ -223,7 +240,7 @@ async function loadQuestionBanks(call = activeCall) {
     // no pueden ser evaluables mientras no concluyan sus auditorías.
     if (call.id === 'diputacion-toledo-administrativo-c1-2026' && tema === 22) return [];
     const path = `${call.contentRoot}/tema-${String(tema).padStart(2, '0')}/preguntas.json`;
-    const response = await fetch(path, { cache: 'no-cache' }).catch(error=>{
+    const response = await fetchPracticeResource(path).catch(error=>{
       throw new Error(`Error de conexión al cargar el banco del tema ${tema}: ${path} (${error.message})`);
     });
     if (!response.ok) throw new Error(`No se pudo cargar el banco del tema ${tema}: ${path} (HTTP ${response.status})`);
@@ -743,9 +760,9 @@ async function loadCall(id, requestedTheme = null, requestedRepaso = null, reque
   document.title = `OpoWeb v2 · Práctica · ${call.shortLabel}`;
   app.innerHTML = '<section class="panel intro"><h2>Cargando entrenamiento…</h2></section>';
   const [programmeResponse, supuestosResponse, simulacrosResponse, banks] = await Promise.all([
-    fetch(call.programmeUrl, { cache: 'no-cache' }),
-    call.supuestosUrl ? fetch(call.supuestosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
-    call.simulacrosUrl ? fetch(call.simulacrosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
+    fetchPracticeResource(call.programmeUrl),
+    call.supuestosUrl ? fetchPracticeResource(call.supuestosUrl) : Promise.resolve(null),
+    call.simulacrosUrl ? fetchPracticeResource(call.simulacrosUrl) : Promise.resolve(null),
     loadQuestionBanks(call)
   ]);
   // Los resultados de una convocatoria anterior nunca deben sustituir a la
