@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
     "states": [
@@ -453,14 +453,15 @@
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
             "22/11/2026: referencias de apoyo verificadas para Getafe (transparencia/recursos humanos), Alcorcón (documentos/procesos) e Illescas (sede/Convoca); resultado real requiere rastreo nuevo.",
             "23/11/2026: Getafe queda con dos fuentes municipales INDEPENDIENTES de ofertas y bolsas, para leer ambas incluso cuando la primera funciona. Se amplió el reconocimiento de 'lista de espera' oficial y se añadió test de dos fuentes con línea base e incorporación de una nueva convocatoria. Corregida laguna funcional real; pendiente primer rastreo posterior.",
-            "23/11/2026: eliminada duplicación de rutas de bolsas dentro de los respaldos de ofertas de Getafe; cada fuente conserva solo URLs de su categoría, con identidades y estados de rastreo separados. Test actualizado de no solapamiento y fallback propio ante TLS."
+            "23/11/2026: eliminada duplicación de rutas de bolsas dentro de los respaldos de ofertas de Getafe; cada fuente conserva solo URLs de su categoría, con identidades y estados de rastreo separados. Test actualizado de no solapamiento y fallback propio ante TLS.",
+            "24/11/2026: snapshot 07:40 UTC: 46 READABLE, 137 PARTIAL, 18 ERROR (incluye directorio); Getafe dos fuentes parciales con respaldo, 6 candidatos directos sin URL duplicada. Corregidos indicadores de respaldo leído y Chromium alternativo, tests añadidos; tres raíces HTTP fallidas (Fuensalida, Gálvez, Nambroca) sustituidas por sedes oficiales conservando IDs. CI y rastreo posterior no acreditados."
           ],
           "remainingSubsteps": [
             "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
             "Auditar un muestreo real de documentos municipales que comparten URL y comprobar resultado de tests del rastreo antes de cerrar la tarea."
           ],
-          "nextAction": "Comprobar un rastreo nuevo de las dos fuentes independientes de Getafe y el resultado de sus respaldos sin alertas duplicadas. Ejecutar tests/radar-direct-test.py antes de declarar validado."
+          "nextAction": "Comprobar ejecución real del test Python tras commits de métricas y sedes; comparar snapshot posterior para Getafe y las tres sedes nuevas, sin declarar cobertura completa."
         },
         {
           "id": "RAD-04",
@@ -640,7 +641,8 @@
             "23/11/2026: fuente Getafe ampliada con endpoint oficial específico PTS2_EMPLEO_BOLSA, manteniendo cuatro respaldos y límite total de cinco páginas; rastreador intenta los cuatro tras fallo principal y el test exige registrar fallo TLS y recorrido por sede oficial de bolsas. Fuente oficial comprobada públicamente; rastreo real todavía pendiente.",
             "23/11/2026: añadido segundo listado de Getafe con ID estable propio y prueba de seguimiento independiente; la vista de ofertas ya no condiciona lectura de bolsas, de acuerdo con origen oficial observado.",
             "23/11/2026: configuración y test de Getafe releídos tras separar rutas: ofertas con 2 respaldos propios, bolsas con 1 respaldo propio, cero URL de respaldo compartidas; test exige no solapamiento y lectura de alternativa oficial tras fallo TLS. No se ha ejecutado aún CI.",
-            "23/11/2026: corregida en test de auditoría de diez fuentes la falsa obligación de que reporte histórico y rastreo posterior compartan fecha y estados; Getafe y Móstoles cambiaron entre capturas. El informe queda marcado explícitamente como histórico."
+            "23/11/2026: corregida en test de auditoría de diez fuentes la falsa obligación de que reporte histórico y rastreo posterior compartan fecha y estados; Getafe y Móstoles cambiaron entre capturas. El informe queda marcado explícitamente como histórico.",
+            "24/11/2026: snapshot 07:40 UTC: 46 READABLE, 137 PARTIAL, 18 ERROR (incluye directorio); Getafe dos fuentes parciales con respaldo, 6 candidatos directos sin URL duplicada. Corregidos indicadores de respaldo leído y Chromium alternativo, tests añadidos; tres raíces HTTP fallidas (Fuensalida, Gálvez, Nambroca) sustituidas por sedes oficiales conservando IDs. CI y rastreo posterior no acreditados."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -650,7 +652,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Verificar próximo snapshot de Radar y resultado de test Python real; comparar sources/status y detectar repetición de URLs entre dos fuentes de Getafe."
+          "nextAction": "Comprobar ejecución real del test Python tras commits de métricas y sedes; comparar snapshot posterior para Getafe y las tres sedes nuevas, sin declarar cobertura completa."
         },
         {
           "id": "RAD-13",
@@ -2561,6 +2563,18 @@
         "practice.html"
       ],
       "limit": "El modo inteligente requiere resultado E2E del nuevo workflow para cierre; las pruebas unitarias y sincronización de archivos no equivalen por sí solas a E2E. No afirmar ejecución verde E2E aún."
+    },
+    {
+      "id": "LOG-20261124-RADAR-FALLBACK-METRICS-THREE-SEATS",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-03",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corregidos indicadores de lectura de respaldos y Chromium; tres fuentes oficiales sustituyen raíces HTTP fallidas, conservando IDs. Snapshot previo 201 registros, 46 legibles, 137 parciales, 18 errores; cero URLs repetidas entre seis candidatos nuevos.",
+      "evidence": [],
+      "limit": "Código y configuración guardados; sin resultado CI del nuevo código ni rastreo posterior. No se cambia el estado de cierre."
     }
   ],
   "decisions": [
