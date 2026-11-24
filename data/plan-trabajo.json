@@ -653,7 +653,9 @@
             "24/11/2026: rastreo 08:55:49 UTC confirma recuperación 11/11 fuentes previamente modificadas (1 READABLE, 10 PARTIAL); 44 páginas/189 enlaces candidatos; global 47 READABLE, 136 PARTIAL, 18 ERROR de 201. Nuevos fallos 404 de portales Madrid/SERMAS y 302 de sedes. Feed privado: último enriquecimiento 5 intentos, 3 leídos, 2 con algún dato, 0 con datos nucleares, 2 fallos OTRO. Se priorizan problemas de cobertura y datos útiles. Humanes y Mazarambroz, antes ERROR y ahora PARTIAL, pasan a sección municipal específica en commit a07fb83101fdbdc675ed7b6e4ebdacf74782b9b9, pendiente medir mejora.",
             "24/11/2026: feed real actualizado a 1438 registros; de 44 firstSeen del día, 28 etiquetas genéricas de Contratación en siete municipios (28 marcadas LEIDO), tres títulos de acta/composición/bolsa provisional, 13 restantes sin clasificar íntegramente. Último enriquecimiento 8/8 leídos, 0/8 con algún dato, 0/8 datos nucleares. Filtro de navegación genérica y fases en rastreador directo, conservación de histórico sin gastar presupuesto de enriquecimiento en etiquetas desnudas. Nuevo summary.bySource y summary.attempts con ID, fuente, resultado y métricas; distingue TLS, DNS, conexión, timeout y errores documentales. Pruebas añadidas; CI y rastreo posterior aún no comprobados.",
             "24/11/2026: snapshot 09:03 UTC todavía sin nuevo diagnóstico de intentos y con navegación genérica. Se introduce navigationOnly para registros DIRECT de categoría desnuda, excluidos de oportunidades visibles sin borrar histórico; se amplía clasificación de trámites de gestión de bolsas como seguimiento. Versiones radar.js y radar-quality.js 2026.11.24.1, control estático añadido. Pendiente CI y publicación.",
-            "24/11/2026: snapshot 09:09:51 UTC, dos candidatos directos, cero etiquetas Contratación frente a siete del anterior. Feed 1439; nuevo registro de intentos y desglose por fuente realmente presentes: DIRECT 1 intento/1 leído/0 datos/0 fallos, sumas coincidentes. Auditor de conciliación exacta y exclusión de navegación histórica guardado, pruebas positivas/negativas añadidas. Corregido trámite de exclusión temporal/alta de bolsa observado en el snapshot."
+            "24/11/2026: snapshot 09:09:51 UTC, dos candidatos directos, cero etiquetas Contratación frente a siete del anterior. Feed 1439; nuevo registro de intentos y desglose por fuente realmente presentes: DIRECT 1 intento/1 leído/0 datos/0 fallos, sumas coincidentes. Auditor de conciliación exacta y exclusión de navegación histórica guardado, pruebas positivas/negativas añadidas. Corregido trámite de exclusión temporal/alta de bolsa observado en el snapshot.",
+            "24/11/2026: snapshot 09:22:53 UTC registra 47 READABLE, 149 PARTIAL y 5 ERROR de 201; 18 a 5 errores totales frente al corte inicial, cero nuevos candidatos directos. Persisten Alcorcón, Aldeanueva de San Bartolomé, Las Hunfrías, Pinto y Tragsa temporal. Feed 1440; último ciclo 0 intentos, no acredita mejor extracción. Muestreo de 228 registros LEIDO recientes con campos esenciales incompletos (DOCM 6, BOCM 19, DIRECT 115, BOP Toledo 64, BOE 24) con filtros de estado y fecha. BOCM: añadido reintento de PDF oficial por identificador exacto cuando falla la URL corta, sin atribuir lectura hasta recibir PDF válido. Pruebas positivas y negativas añadidas; no se ha podido abrir el ejemplo de Arroyomolinos mediante consulta web ni acreditar recuperación real.",
+            "24/11/2026: snapshot continúa 09:22:53 UTC, 0 intentos; sin nueva evidencia de recuperación PDF. Detectado patrón de titulación no reconocido en BOCM-20251121-76, p. 402 (bases específicas Mancomunidad Las Cañadas, texto oficial consultado; captura PDF no disponible): condición de obtención a fecha de cierre entre estar en posesión y título exigido. Añadida extracción contextual conservando equivalencias y prueba de no extraer titulaciones citadas solo en temario/méritos. No extrapolar requisitos a otras convocatorias."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -663,7 +665,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Confirmar ejecución CI de reconciliación y publicación; comprobar nuevo rastreo con ausencia de trámites de exclusión/alta y auditar documentos con fallos o sin datos nucleares antes de cerrar RAD-12."
+          "nextAction": "Confirmar CI de las pruebas de titulación y PDF BOCM, rastreo documental no vacío y publicación; auditar requisitos adicionales y distinguir extractos sin bases completas. Mantener 5 errores del último snapshot como pendientes de recuperación."
         },
         {
           "id": "RAD-13",
@@ -2693,6 +2695,31 @@
         "data/radar.json"
       ],
       "limit": "No se acredita ejecución de nuevas pruebas, publicación ni mejora en datos nucleares. RAD-12 continúa parcial."
+    },
+    {
+      "id": "LOG-20261124-RAD12-FIVE-ERRORS-BOCM-PDF-RETRY",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Nuevo rastreo 09:22 UTC: 5 errores frente a 18 iniciales, cero entradas directas nuevas. Ciclo documental vacío, 228 registros recientes leídos con campos incompletos. Implementado reintento BOCM PDF por mismo identificador y pruebas de seguridad y trazabilidad.",
+      "evidence": [
+        "data/radar.json"
+      ],
+      "limit": "La reducción de errores es observada entre snapshots, no atribuible íntegramente a una sola corrección. PDF derivado pendiente de lectura real; CI y publicación no acreditados."
+    },
+    {
+      "id": "LOG-20261124-RAD12-QUALIFICATION-CONDITIONAL-CLAUSE",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-12",
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Mejorada extracción de cláusulas de titulación condicionadas a fecha de cierre y equivalencias; caso histórico oficial BOCM-20251121-76 p. 402 identificado, prueba positiva y negativa incorporadas.",
+      "evidence": [],
+      "limit": "Fuente oficial textual consultada; captura PDF fallida. Prueba incorporada no ejecutada en CI verificado. Último rastreo documental vacío; no se cambia cierre formal."
     }
   ],
   "decisions": [
