@@ -523,13 +523,14 @@
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
-            "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos."
+            "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
+            "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas."
           ],
           "remainingSubsteps": [
             "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
             "Confirmar ejecución CI completa y pruebas de notificación sin envío real; revisar ventana y calidad de fuentes."
           ],
-          "nextAction": "Verificar CI y dry-run con feed real y ledger privado, sin envíos; diferenciar revisión documental de plazo abierto y comprobar transición sin duplicar avisos."
+          "nextAction": "Validar CI y ejecutar dry-run real con selector y ledger privado; contrastar los 47 anuncios REVISAR y separar aviso de revisión de plazo abierto antes de habilitar envíos. Verificar relectura de reglas obsoletas."
         },
         {
           "id": "RAD-06",
@@ -666,7 +667,8 @@
             "24/11/2026: snapshot 09:22:53 UTC registra 47 READABLE, 149 PARTIAL y 5 ERROR de 201; 18 a 5 errores totales frente al corte inicial, cero nuevos candidatos directos. Persisten Alcorcón, Aldeanueva de San Bartolomé, Las Hunfrías, Pinto y Tragsa temporal. Feed 1440; último ciclo 0 intentos, no acredita mejor extracción. Muestreo de 228 registros LEIDO recientes con campos esenciales incompletos (DOCM 6, BOCM 19, DIRECT 115, BOP Toledo 64, BOE 24) con filtros de estado y fecha. BOCM: añadido reintento de PDF oficial por identificador exacto cuando falla la URL corta, sin atribuir lectura hasta recibir PDF válido. Pruebas positivas y negativas añadidas; no se ha podido abrir el ejemplo de Arroyomolinos mediante consulta web ni acreditar recuperación real.",
             "24/11/2026: snapshot continúa 09:22:53 UTC, 0 intentos; sin nueva evidencia de recuperación PDF. Detectado patrón de titulación no reconocido en BOCM-20251121-76, p. 402 (bases específicas Mancomunidad Las Cañadas, texto oficial consultado; captura PDF no disponible): condición de obtención a fecha de cierre entre estar en posesión y título exigido. Añadida extracción contextual conservando equivalencias y prueba de no extraer titulaciones citadas solo en temario/méritos. No extrapolar requisitos a otras convocatorias.",
             "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos.",
-            "24/11/2026: sin cambio de snapshot directo 09:22:53 UTC ni de último enriquecimiento (0 intentos). Interfaz pública main coincide con privado en radar.html y assets/radar.js; no acredita navegador ni CI. No repetir modificaciones de extractor sin muestra documental nueva."
+            "24/11/2026: sin cambio de snapshot directo 09:22:53 UTC ni de último enriquecimiento (0 intentos). Interfaz pública main coincide con privado en radar.html y assets/radar.js; no acredita navegador ni CI. No repetir modificaciones de extractor sin muestra documental nueva.",
+            "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -676,7 +678,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Verificar próximo ciclo documental no vacío y reconciliación, obtener logs de CI y evaluar cinco fuentes fallidas; no cerrar por sincronización de archivos ni por cero intentos."
+          "nextAction": "Verificar CI, ciclo documental no vacío tras relectura acotada de reglas antiguas y reconciliación de métricas; mantener fechas sin acreditar como REVISAR."
         },
         {
           "id": "RAD-13",
@@ -2842,6 +2844,20 @@
         "assets/practice.js"
       ],
       "limit": "No acredita CI/E2E nuevo, deduplicación exhaustiva entre expedientes ni envío real. No se modifican registros de entrega ni se activan correos."
+    },
+    {
+      "id": "LOG-20261124-RAD05-REAL-FEED-STALE-RULE",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-05",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Auditoría estática del feed real y ledger privado vacío: 47 anuncios recientes leídos en REVISAR, cero con fecha abierta. Identificadas reglas BOE antiguas sin trigger, añadida relectura acotada y pruebas.",
+      "evidence": [
+        "data/radar.json"
+      ],
+      "limit": "Inspección de campos almacenados, no ejecución del selector Node ni CI acreditada. Sin envío ni modificación de ledger; no se certifican fechas ni requisitos."
     }
   ],
   "decisions": [
