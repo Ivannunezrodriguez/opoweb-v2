@@ -18,6 +18,14 @@ export function cleanSchedule(input){
  for(const [id,v] of Object.entries(input||{}).slice(0,10000)){
   if(!/^[A-Za-z0-9._:-]{1,100}$/.test(id)||['__proto__','constructor','prototype'].includes(id)||!v||!Number.isInteger(v.streak)||v.streak<0||v.streak>6||!Number.isFinite(Date.parse(v.lastAt))||!Number.isFinite(Date.parse(v.dueAt)))continue;
   out[id]={streak:v.streak,lastAt:v.lastAt,dueAt:v.dueAt};
+  if(Number.isInteger(v.theme)&&v.theme>0)out[id].theme=v.theme;
  }
  return out;
+}
+
+export function dueReviewIds(progress,now=Date.now()){
+ const schedule=cleanSchedule(progress.schedule);
+ const ids=new Set(Object.entries(schedule).filter(([,v])=>Date.parse(v.dueAt)<=now).map(([id])=>id));
+ for(const [id,v] of Object.entries(progress.errors||{}))if(!Object.hasOwn(schedule,id)&&Number(v?.count)>0)ids.add(id);
+ return [...ids];
 }
