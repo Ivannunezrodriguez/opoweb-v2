@@ -1,4 +1,4 @@
-import {classifyRadarEntries} from './radar-quality.js?v=2026.11.20.3';
+import {classifyRadarEntries} from './radar-quality.js?v=2026.11.24.1';
 import {assessOpportunityEvidence} from './radar-provenance.js';
 import {matchTrackedCall,trackingState,decorateTracking} from './radar-tracking.js?v=2';
 import {orderRadar,deadlineAlert} from './radar-sort.js?v=1';
@@ -302,6 +302,7 @@ try{
    if(t.ok){const body=await t.json();trackedCalls=Array.isArray(body.convocatorias)?body.convocatorias:[];}
  }catch(e){console.warn('Seguimiento no disponible',e);}
  entries=classifyRadarEntries(data.opportunities||[],new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}))
+   .filter(o=>!o.navigationOnly)
    .map(o=>{
      const match=matchTrackedCall(o,trackedCalls);
      const personalStatus=match?localTracking[match.id]:null;
