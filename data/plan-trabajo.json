@@ -524,13 +524,14 @@
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
-            "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas."
+            "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas.",
+            "24/11/2026: añadido previewReview exclusivamente diagnóstico, separado del selector de plazo abierto. Exige antigüedad <=21 días, documento LEIDO, puesto accionable, estado REVISAR, regla de plazo con días/unidad/boletín identificado, URL específica BOE/BOP Toledo/DOCM, sin conflictos ni seguimiento/OEP; comparte identidad y supresión de ledger. Dry-run muestra reviewCandidateCount/reviewIds y reviewDeliveryEnabled=false. Doce aserciones nuevas incorporadas; no se modifica entrega real ni ledger."
           ],
           "remainingSubsteps": [
             "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
             "Confirmar ejecución CI completa y pruebas de notificación sin envío real; revisar ventana y calidad de fuentes."
           ],
-          "nextAction": "Validar CI y ejecutar dry-run real con selector y ledger privado; contrastar los 47 anuncios REVISAR y separar aviso de revisión de plazo abierto antes de habilitar envíos. Verificar relectura de reglas obsoletas."
+          "nextAction": "Ejecutar CI y dry-run real con nuevo selector de revisión, contrastar cada candidato oficial y medir cobertura; confirmar transición de revisión a abierto y ausencia de duplicados sin habilitar envío de revisión. Verificar que la política satisface newOnly y compatibilidad."
         },
         {
           "id": "RAD-06",
@@ -2858,6 +2859,17 @@
         "data/radar.json"
       ],
       "limit": "Inspección de campos almacenados, no ejecución del selector Node ni CI acreditada. Sin envío ni modificación de ledger; no se certifican fechas ni requisitos."
+    },
+    {
+      "id": "LOG-20261124-RAD05-REVIEW-PREVIEW-ONLY",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-05"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Separados avisos de revisión documental y plazo abierto en simulación sin envío. Filtro conservador de fuentes específicas, regla publicada, antigüedad, identidad compartida y exclusiones; doce aserciones añadidas.",
+      "evidence": [],
+      "limit": "Pruebas añadidas sin ejecución CI acreditada. No se ha ejecutado dry-run nuevo ni activado envío de avisos de revisión; no certifica fechas ni requisitos."
     }
   ],
   "decisions": [
