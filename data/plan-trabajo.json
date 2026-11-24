@@ -582,7 +582,9 @@
           "acceptance": "Distinguir CUMPLE/REVISAR/NO CUMPLE con cita literal a bases y requisito; no inferir solo del grupo.",
           "evidencePaths": [
             "data/radar-profile.json",
-            "assets/radar-quality.js"
+            "assets/radar-quality.js",
+            "assets/radar.js",
+            "radar.html"
           ],
           "completedSubsteps": [
             "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente.",
@@ -593,9 +595,10 @@
             "22/11/2026: discrepancia grave detectada para Getafe Maestro/a BOCM-20261105-68 (8 laborales libre +2 internas+1 funcionarial libre) vs BOE-A-2026-24343 (10 laborales libre+1 funcionarial libre). Señalada como conflicto no resuelto; titulación Grado en Magisterio Infantil acreditada por extracto BOCM.",
             "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE.",
             "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE.",
-            "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos."
+            "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos.",
+            "24/11/2026: ficha Radar incorpora sección desplegable de requisitos adicionales (permiso y experiencia), cláusulas escapadas, enlace HTTPS sin credenciales al documento de procedencia y aviso de extracción parcial. Caché radar.js 2026.11.24.2; prueba estática añadida. Feed 1440, último ciclo sin intentos; no hay todavía ejemplo real extraído con estos campos ni validación CI acreditada."
           ],
-          "nextAction": "Verificar CI de cláusulas adicionales y lectura de bases completas de Alcorcón Cerrajero y Getafe Apoyo Global; contrastar literalmente condiciones de acceso y separar requisitos obligatorios de méritos. Incorporar visualización con fuente y evaluar compatibilidad sin inferencias por grupo.",
+          "nextAction": "Verificar CI y render público de requisitos adicionales con documento real. Cotejar bases completas Getafe Apoyo Global y Alcorcón Cerrajero y evaluar CUMPLE/REVISAR/NO CUMPLE con evidencia literal; no inferir compatibilidad.",
           "priority": "ALTA"
         },
         {
@@ -2734,6 +2737,20 @@
       "summary": "Extracción prudente de permiso de conducir y experiencia profesional mínima con procedencia documental y pruebas. Reconsulta oficial de Getafe y Alcorcón sin acceso íntegro a bases específicas.",
       "evidence": [],
       "limit": "No se certifica cumplimiento, no se afirma lectura íntegra de bases, pruebas nuevas sin ejecución CI acreditada ni nuevo ciclo documental."
+    },
+    {
+      "id": "LOG-20261124-RAD09-ADDITIONAL-REQUIREMENTS-UI",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Requisitos adicionales visibles en ficha Radar, con procedencia documental, escape de texto, protección de enlace e invalidación de caché. Prueba estática incorporada.",
+      "evidence": [
+        "assets/radar.js",
+        "radar.html"
+      ],
+      "limit": "Sin ejecución CI ni publicación acreditada. Último ciclo documental vacío; no se afirma extracción real de requisitos ni cierre RAD-09."
     }
   ],
   "decisions": [
