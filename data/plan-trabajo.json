@@ -455,14 +455,15 @@
             "23/11/2026: Getafe queda con dos fuentes municipales INDEPENDIENTES de ofertas y bolsas, para leer ambas incluso cuando la primera funciona. Se amplió el reconocimiento de 'lista de espera' oficial y se añadió test de dos fuentes con línea base e incorporación de una nueva convocatoria. Corregida laguna funcional real; pendiente primer rastreo posterior.",
             "23/11/2026: eliminada duplicación de rutas de bolsas dentro de los respaldos de ofertas de Getafe; cada fuente conserva solo URLs de su categoría, con identidades y estados de rastreo separados. Test actualizado de no solapamiento y fallback propio ante TLS.",
             "24/11/2026: snapshot 07:40 UTC: 46 READABLE, 137 PARTIAL, 18 ERROR (incluye directorio); Getafe dos fuentes parciales con respaldo, 6 candidatos directos sin URL duplicada. Corregidos indicadores de respaldo leído y Chromium alternativo, tests añadidos; tres raíces HTTP fallidas (Fuensalida, Gálvez, Nambroca) sustituidas por sedes oficiales conservando IDs. CI y rastreo posterior no acreditados.",
-            "24/11/2026: Lillo, Lominchar, Méntrida y Villacañas: sustituidas raíces HTTP fallidas por secciones oficiales de empleo/tablón y respaldos institucionales; se conservan IDs y se añade regresión de no alertar listas históricas. Fuentes públicas consultadas; CI y nuevo rastreo pendientes."
+            "24/11/2026: Lillo, Lominchar, Méntrida y Villacañas: sustituidas raíces HTTP fallidas por secciones oficiales de empleo/tablón y respaldos institucionales; se conservan IDs y se añade regresión de no alertar listas históricas. Fuentes públicas consultadas; CI y nuevo rastreo pendientes.",
+            "24/11/2026: Polán, Quero, Santa Cruz de la Zarza y Villafranca de los Caballeros: cuatro raíces fallidas sustituidas por listados oficiales verificados en consulta web, con respaldos e IDs conservados. Total 11/18 configuraciones corregidas; lectura automática posterior sin acreditar."
           ],
           "remainingSubsteps": [
             "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
             "Auditar un muestreo real de documentos municipales que comparten URL y comprobar resultado de tests del rastreo antes de cerrar la tarea."
           ],
-          "nextAction": "Verificar CI y snapshot posterior a las siete sustituciones de fuentes y corrección de métricas; comprobar recuperación efectiva, filtros y estados de Getafe. No cerrar por cambio de URL."
+          "nextAction": "Verificar CI y snapshot posterior a las once sustituciones de fuentes y corrección de métricas; comprobar recuperación efectiva y estados de Getafe. No cerrar por cambio de URL."
         },
         {
           "id": "RAD-04",
@@ -644,7 +645,8 @@
             "23/11/2026: configuración y test de Getafe releídos tras separar rutas: ofertas con 2 respaldos propios, bolsas con 1 respaldo propio, cero URL de respaldo compartidas; test exige no solapamiento y lectura de alternativa oficial tras fallo TLS. No se ha ejecutado aún CI.",
             "23/11/2026: corregida en test de auditoría de diez fuentes la falsa obligación de que reporte histórico y rastreo posterior compartan fecha y estados; Getafe y Móstoles cambiaron entre capturas. El informe queda marcado explícitamente como histórico.",
             "24/11/2026: snapshot 07:40 UTC: 46 READABLE, 137 PARTIAL, 18 ERROR (incluye directorio); Getafe dos fuentes parciales con respaldo, 6 candidatos directos sin URL duplicada. Corregidos indicadores de respaldo leído y Chromium alternativo, tests añadidos; tres raíces HTTP fallidas (Fuensalida, Gálvez, Nambroca) sustituidas por sedes oficiales conservando IDs. CI y rastreo posterior no acreditados.",
-            "24/11/2026: Lillo, Lominchar, Méntrida y Villacañas: sustituidas raíces HTTP fallidas por secciones oficiales de empleo/tablón y respaldos institucionales; se conservan IDs y se añade regresión de no alertar listas históricas. Fuentes públicas consultadas; CI y nuevo rastreo pendientes."
+            "24/11/2026: Lillo, Lominchar, Méntrida y Villacañas: sustituidas raíces HTTP fallidas por secciones oficiales de empleo/tablón y respaldos institucionales; se conservan IDs y se añade regresión de no alertar listas históricas. Fuentes públicas consultadas; CI y nuevo rastreo pendientes.",
+            "24/11/2026: Polán, Quero, Santa Cruz de la Zarza y Villafranca de los Caballeros: cuatro raíces fallidas sustituidas por listados oficiales verificados en consulta web, con respaldos e IDs conservados. Total 11/18 configuraciones corregidas; lectura automática posterior sin acreditar."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -654,7 +656,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Verificar CI y snapshot posterior a las siete sustituciones de fuentes y corrección de métricas; comprobar recuperación efectiva, filtros y estados de Getafe. No cerrar por cambio de URL."
+          "nextAction": "Verificar CI y snapshot posterior a las once sustituciones de fuentes y corrección de métricas; comprobar recuperación efectiva y estados de Getafe. No cerrar por cambio de URL."
         },
         {
           "id": "RAD-13",
@@ -2589,6 +2591,23 @@
       "summary": "Cuatro fuentes municipales fallidas sustituidas por listados oficiales de Lillo, Lominchar, Méntrida y Villacañas. Regresión añadida; siete fuentes corregidas acumuladas de las 18 con error en snapshot anterior.",
       "evidence": [],
       "limit": "No se ha acreditado ejecución CI ni nueva lectura automática de las sedes; no cambia cierre formal."
+    },
+    {
+      "id": "LOG-20261124-RADAR-POLAN-QUERO-SANTA-CRUZ-VILLAFRANCA",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-03",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cuatro fuentes oficiales contrastadas y configuradas, 11/18 acumuladas. Commit b8f102ff3df29749901d2a53bc3c89a855fa3109.",
+      "evidence": [
+        "https://aytopolan.es/ciudadania/empleo",
+        "https://tuaytoquero.sedelectronica.es/info.0",
+        "https://aytosantacruzdelazarza.sedelectronica.es/info.0",
+        "https://www.villafrancadeloscaballeros.es/ayuntamiento/tabl%C3%B3n-de-anuncios"
+      ],
+      "limit": "Consulta web y configuración verificadas, no nuevo rastreo ni CI; estados de cierre sin cambio."
     }
   ],
   "decisions": [
