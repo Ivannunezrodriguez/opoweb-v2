@@ -511,7 +511,10 @@
           "evidencePaths": [
             "data/radar-profile.json",
             "assets/radar.js",
-            "assets/radar-quality.js"
+            "assets/radar-quality.js",
+            "data/radar.json",
+            "practice.html",
+            "assets/practice.js"
           ],
           "completedSubsteps": [
             "20/11/2026: separadas OEP sin convocatoria, plazas con fecha y seguimiento mediante estado derivado; nuevos casos automatizados para OEP, bolsas, temporal, listas y convocatorias que citan su OEP.",
@@ -519,13 +522,14 @@
             "20/11/2026: correo privado ya no descarta oportunida­des con requisitos incompletos si las bases fueron leídas y hay fecha; etiqueta REVISAR y test de política.",
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
             "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS.",
-            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo."
+            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
+            "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos."
           ],
           "remainingSubsteps": [
             "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
             "Confirmar ejecución CI completa y pruebas de notificación sin envío real; revisar ventana y calidad de fuentes."
           ],
-          "nextAction": "Validar en dry-run sobre anuncios reales alertas de revisión para oportunidades con bases leídas pero sin fecha final, distinguiéndolas de las solicitudes abiertas; actualmente 0 candidatos a correo y envíos deshabilitados. No activar envíos hasta completar pruebas."
+          "nextAction": "Verificar CI y dry-run con feed real y ledger privado, sin envíos; diferenciar revisión documental de plazo abierto y comprobar transición sin duplicar avisos."
         },
         {
           "id": "RAD-06",
@@ -681,7 +685,10 @@
           "acceptance": "Separar bolsa/interinidades/sustituciones/fijo, deduplicación por expediente y no alertar antiguos procesos como nuevas convocatorias.",
           "evidencePaths": [
             "assets/radar.js",
-            "assets/radar-quality.js"
+            "assets/radar-quality.js",
+            "data/radar.json",
+            "practice.html",
+            "assets/practice.js"
           ],
           "completedSubsteps": [
             "Filtros implementados",
@@ -693,14 +700,15 @@
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "24/11/2026: feed 1430 IDs únicos; 4 BOE reales con dos entradas cada uno (Olías 3+4, Getafe 10+1, Diputación 3+1, Illescas 9+1), 8 isNew=false. Esto verifica conservación de puestos/turnos y ausencia de ID duplicado, no deduplicación semántica exhaustiva. La muestra de 10 BOE sigue con tres sin referencia directa.",
-            "24/11/2026: 28 etiquetas genéricas Contratación con URLs opacas variables en siete municipios; se evita nueva emisión y enriquecimiento sin fusionar por URL arbitraria ni borrar histórico; comprobación posterior pendiente en RAD-12."
+            "24/11/2026: 28 etiquetas genéricas Contratación con URLs opacas variables en siete municipios; se evita nueva emisión y enriquecimiento sin fusionar por URL arbitraria ni borrar histórico; comprobación posterior pendiente en RAD-12.",
+            "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
           ],
-          "nextAction": "Comparar diez expedientes reales repetidos entre fuentes y documentos; probar que se deduplica el mismo proceso sin perder puestos distintos, frente a simples índices municipales."
+          "nextAction": "Verificar CI de turnos/ledger y contrastar expedientes realmente repetidos entre documentos de fuentes distintas, conservando plazas y especialidades; no cerrar por muestra de referencias compartidas."
         },
         {
           "id": "RAD-JCCM-2026",
@@ -876,7 +884,8 @@
             "23/11/2026: añadida prueba E2E de tests inteligentes y panel: entrenamiento 20, repetir 10 errores, simulacro adaptativo 50, exportación/importación local, aislamiento de convocatorias y pantalla móvil de 390 px. Integrada al workflow E2E existente, a correr en Chromium local y Pages.",
             "24/11/2026: captura aportada E2E Chromium #92 muestra pruebas locales y exportación satisfactorias, fallo en Pages real a los 30 s esperando OLIAS-SIM-EXAM-01. Cotejo privado/público confirma igualdad SHA de practice.html, practice.js, practice-route.js, programa, supuestos y simulacros Olías; ambos modelos de 70 preguntas están presentes. Se mejora diagnóstico E2E y carga de bancos (ruta, HTTP, error de conexión), se invalida caché; causa exacta no determinada.",
             "24/11/2026: carga de recursos de prácticas con máximo dos intentos ante error de red, HTTP 429 o 5xx; timeout por petición 8 s, pausa 350 ms. No omite bancos ni reintenta HTTP 404. E2E local incluye un HTTP 503 controlado en banco Olías T01, exige dos peticiones y conserva las aserciones de 70 preguntas, nota e historial; Pages real sin interceptación. Al comprobar los árboles, practice.html y assets/practice.js públicos todavía anteriores a los cambios privados. CI nuevo no acreditado.",
-            "24/11/2026: logs Actions recuperados desde avisos Gmail: run 45370962210 job 138364809532 falla en validate-practice-smart-20261123.mjs:48 por exigir versión literal 2026.11.23.smart1 tras invalidación de caché. Reparado control: una única carga versionada, fecha válida no anterior a 23/11/2026, conserva comprobaciones funcionales. Run E2E 45370316446 job 138362619182: exportación y tres suites locales OK, Pages supera Olías y falla después esperando DIP-SIM-001. No se acredita causa exacta de timeout remoto ni éxito de la reparación posterior."
+            "24/11/2026: logs Actions recuperados desde avisos Gmail: run 45370962210 job 138364809532 falla en validate-practice-smart-20261123.mjs:48 por exigir versión literal 2026.11.23.smart1 tras invalidación de caché. Reparado control: una única carga versionada, fecha válida no anterior a 23/11/2026, conserva comprobaciones funcionales. Run E2E 45370316446 job 138362619182: exportación y tres suites locales OK, Pages supera Olías y falla después esperando DIP-SIM-001. No se acredita causa exacta de timeout remoto ni éxito de la reparación posterior.",
+            "24/11/2026: después de reparar validador de caché, practice.html y assets/practice.js coinciden por SHA en repositorios privado/público; no se acredita todavía ejecución E2E remota ni despliegue Pages. Sin nuevos logs de ejecución recuperados en esta consulta."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -885,7 +894,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Confirmar publicación tras corrección del validador de caché y E2E completo de nueva versión; mantener pruebas locales de reintento 503 y pruebas Pages sin interceptación. Si vuelve a fallar, diagnosticar recursos de Diputación y demás convocatorias.",
+          "nextAction": "Confirmar CI y Chromium Pages completo; sincronización de archivos de prácticas acreditada. Mantener incidencia abierta.",
           "priority": "ALTA"
         },
         {
@@ -2816,6 +2825,23 @@
         "practice.html"
       ],
       "limit": "Corrección guardada; ejecución nueva y publicación aún no verificadas. No cerrar QA-02."
+    },
+    {
+      "id": "LOG-20261124-QA02-SYNC-RAD13-TURN-LEDGER",
+      "at": "2026-11-24",
+      "taskIds": [
+        "QA-02",
+        "RAD-05",
+        "RAD-13"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Sincronización de archivos de práctica comprobada. Retomado Radar: diez BOE con entradas múltiples históricas; identidad de notificaciones preserva turno, régimen y especialidad, con protección del ledger anterior y pruebas.",
+      "evidence": [
+        "data/radar.json",
+        "practice.html",
+        "assets/practice.js"
+      ],
+      "limit": "No acredita CI/E2E nuevo, deduplicación exhaustiva entre expedientes ni envío real. No se modifican registros de entrega ni se activan correos."
     }
   ],
   "decisions": [
