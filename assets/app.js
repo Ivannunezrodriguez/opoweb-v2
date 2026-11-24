@@ -1,3 +1,4 @@
+import {madridDay,dailySnapshot,readDailyStorage,saveDailyStorage} from './study-daily.js?v=2026.11.24.daily1';
 import {extractQuickConcepts} from './study-quick-recap.js?v=2026.11.21.1';
 const app = document.querySelector('#app');
 const THEME_KEY = 'opoweb-theme';
@@ -342,6 +343,46 @@ function renderTracking() {
   return `<section class="panel tracking-panel" data-tracking-call="${escapeHtml(activeCall.id)}"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Solicitud registrada' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(humanizeApplicationStatus(personal.estado))}</strong></div><div><span>Convocatoria</span><strong>${escapeHtml(convocatoria)}</strong></div>${siguienteHito}</div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad || 'Los datos personales no se publican en el repositorio.')}</p></section>`;
 }
 
+
+const dailyKeys={
+ 'la-puebla-auxiliar-administrativo-2026':'opoweb-la-puebla-practice-progress-v2',
+ 'diputacion-toledo-administrativo-c1-2026':'opoweb-diputacion-practice-progress-v1',
+ 'diputacion-toledo-auxiliar-c2-2026':'opoweb-diputacion-auxiliar-c2-practice-progress-v1',
+ 'uc3m-auxiliar-administrativa-c2-2026':'opoweb-uc3m-practice-progress-v1',
+ 'olias-del-rey-auxiliar-edificios-c2-2026':'opoweb-olias-c2-practice-progress-v1'
+};
+function renderDailyStudy(){
+ const key=dailyKeys[activeCall.id];if(!key)return;
+ const id=activeCall.id,day=madridDay();
+ let progress={};try{progress=JSON.parse(localStorage.getItem(key)||'{}')||{};}catch{}
+ let saved=readDailyStorage(localStorage,id);
+ const panel=document.createElement('section');panel.className='panel';panel.id='daily-study';
+ app.querySelector('.panel.intro')?.after(panel);
+ const themes=activeProgramme.temas.filter(isThemeAvailable);
+ const practical=['la-puebla-auxiliar-administrativo-2026','diputacion-toledo-administrativo-c1-2026'].includes(id);
+ const practice='practice.html?convocatoria='+encodeURIComponent(id);
+ function draw(minutes,refresh=false){
+  const input={themes,progress,minutes,day,exam:saved?.exam||null,practical};
+  const plan=dailySnapshot(input,refresh&&saved?{...saved,minutes:0}:saved);
+  plan.exam=input.exam;saved=plan;
+  const stored=saveDailyStorage(localStorage,id,plan);
+  const labels={review:'Repasar tema',test:'Practicar tema',errors:'Revisar errores pendientes',practical:'Resolver supuesto práctico'};
+  panel.innerHTML='<div class="section-heading"><div><p class="eyebrow section-eyebrow">Preparador personal</p><h2>Mi plan de hoy</h2><p class="small">Plan local basado en tus resultados, no en una predicción de aprobado.</p></div></div>'+
+   '<div class="smart-controls"><label>Tiempo disponible <select id="daily-minutes">'+[60,120,180,240].map(n=>'<option value="'+n+'" '+(n===plan.minutes?'selected':'')+'>'+n/60+' h</option>').join('')+'</select></label>'+
+   '<label>Fecha objetivo de examen (editable) <input id="daily-exam" type="date" value="'+escapeHtml(plan.exam||'')+'"></label></div>'+
+   '<p>'+ (plan.remaining===null?'Sin fecha objetivo configurada.':plan.remaining<0?'Fecha objetivo pasada.':plan.remaining===0?'Hoy es la fecha objetivo.':plan.remaining+' días hasta tu fecha objetivo.')+' · '+plan.observedThemes+'/'+plan.totalThemes+' temas con al menos 5 respuestas · '+plan.due+' errores con repaso recomendado.</p>'+
+   '<p class="small">Las tareas pendientes de un día anterior conservan prioridad temática. Marca las realizadas al finalizar. Los errores se programan según reincidencia y fecha del último fallo.</p>'+
+   '<div id="daily-tasks">'+plan.tasks.map(t=>{const href=t.id==='review'?'index.html#'+id+'/tema-'+String(t.theme).padStart(2,'0'):t.id==='test'?practice+'&tema='+t.theme:t.id==='errors'?practice+'#smart-training':practice;return '<div class="weak-theme" style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap"><label><input type="checkbox" data-daily-done="'+t.id+'" '+(t.done?'checked':'')+'> '+escapeHtml(labels[t.id])+(t.theme?' '+t.theme+' · '+escapeHtml(t.title):'')+' · '+t.minutes+' min</label><a class="btn secondary" href="'+escapeHtml(href)+'">Abrir</a></div>';}).join('')+'</div>'+
+   '<p id="daily-count" role="status">'+plan.tasks.filter(t=>t.done).length+'/'+plan.tasks.length+' realizadas</p><button id="daily-refresh" class="btn secondary" type="button">Recalcular con mis resultados</button>'+
+   (!stored?'<p class="notice">No se ha podido guardar el plan en este navegador.</p>':'');
+  panel.querySelector('#daily-minutes').addEventListener('change',e=>draw(Number(e.target.value)));
+  panel.querySelector('#daily-exam').addEventListener('change',e=>{saved.exam=e.target.value||null;draw(plan.minutes,true);});
+  panel.querySelector('#daily-refresh').addEventListener('click',()=>draw(plan.minutes,true));
+  panel.querySelectorAll('[data-daily-done]').forEach(el=>el.addEventListener('change',()=>{const task=plan.tasks.find(t=>t.id===el.dataset.dailyDone);task.done=el.checked;const ok=saveDailyStorage(localStorage,id,plan);panel.querySelector('#daily-count').textContent=plan.tasks.filter(t=>t.done).length+'/'+plan.tasks.length+' realizadas'+(ok?'':' · No guardado');}));
+ }
+ draw(saved?.minutes||120);
+}
+
 function renderProgramme(query = activeSearchQuery) {
   activeSearchQuery = query;
   const themes = activeProgramme.temas;
@@ -366,6 +407,7 @@ function renderProgramme(query = activeSearchQuery) {
   const statLabel=activeCall.programmePending?'epígrafes de referencia':'temas oficiales';
   app.innerHTML = `${oliaNotice}<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>${introDescription}</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>${statLabel}</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${infoOnly}${renderTracking()}${programmePanel}`;
 
+  renderDailyStudy();
   document.querySelector('#call-selector')?.addEventListener('change', event => {
     activeSearchQuery = '';
     history.pushState({ view: 'programme', callId: event.target.value }, '', location.pathname);
