@@ -521,9 +521,9 @@ function callSelector() {
   return `<label class="search-box convocatoria-selector"><span>Convocatoria</span><select id="practice-call-selector">${CALLS.map(call => `<option value="${call.id}" ${call.id === activeCall.id ? 'selected' : ''}>${escapeHtml(call.label)}</option>`).join('')}</select></label>`;
 }
 
-function renderHub() {
-  // Al volver al centro de entrenamiento, retirar parámetros de ejercicio obsoletos.
-  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(activeCall.id)}`);
+function renderHub(smartQuery = '') {
+  // Retirar parámetros de ejercicio obsoletos, conservando enlaces de entrenamiento inteligente al entrar.
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(activeCall.id)}${smartQuery}`);
   const progress = progressSummary();
   const uc3mPending = activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026'
     ? programme.temas.filter(theme => theme.estado !== 'AUDITADO').map(theme => theme.numero)
@@ -817,7 +817,7 @@ async function loadCall(id, requestedTheme = null, requestedRepaso = null, reque
       }
     } else renderHub();
   } else {
-    renderHub();
+    renderHub(smartQuery);
     if(smartMode){
       const mode=document.querySelector('#smart-mode'), theme=document.querySelector('#smart-theme');
       if(mode&&theme){mode.value=smartMode;if([...theme.options].some(o=>o.value===String(smartTheme)))theme.value=String(smartTheme);mode.dispatchEvent(new Event('change'));document.querySelector('#smart-training')?.scrollIntoView();}
