@@ -852,7 +852,9 @@
             "uc3m-24-bloques.html",
             "assets/practice.js",
             "assets/styles.css",
-            "assets/radar.css"
+            "assets/radar.css",
+            "practice.html",
+            "content/olias-auxiliar-edificios/simulacros.json"
           ],
           "completedSubsteps": [
             "Chromium E2E REAL (Actions #44581330433, SUCCESS): 30 preguntas, temporizador, contestar/corregir, nota A-E/3, un solo intento, historial persistente y regreso al hub",
@@ -871,7 +873,9 @@
             "22/11/2026: identificada prueba obsoleta de exportación que buscaba ausencia de PDF oficial, tras haberse recibido plantilla provisional. Prueba actualizada para exigir CSV, 50 claves, reservas y no atribuir anulación.",
             "22/11/2026: pipeline de exportación/publicación de contenido oficial y OEP SUCCESS en Actions #45054939037/#45054938970; esta prueba no sustituye el E2E Safari/Firefox/móvil físico.",
             "23/11/2026: test de comportamiento del renderizador añadido a suites y gates de publicación: cinco fichas y rechazo de host imitador. No es todavía un navegador E2E.",
-            "23/11/2026: añadida prueba E2E de tests inteligentes y panel: entrenamiento 20, repetir 10 errores, simulacro adaptativo 50, exportación/importación local, aislamiento de convocatorias y pantalla móvil de 390 px. Integrada al workflow E2E existente, a correr en Chromium local y Pages."
+            "23/11/2026: añadida prueba E2E de tests inteligentes y panel: entrenamiento 20, repetir 10 errores, simulacro adaptativo 50, exportación/importación local, aislamiento de convocatorias y pantalla móvil de 390 px. Integrada al workflow E2E existente, a correr en Chromium local y Pages.",
+            "24/11/2026: captura aportada E2E Chromium #92 muestra pruebas locales y exportación satisfactorias, fallo en Pages real a los 30 s esperando OLIAS-SIM-EXAM-01. Cotejo privado/público confirma igualdad SHA de practice.html, practice.js, practice-route.js, programa, supuestos y simulacros Olías; ambos modelos de 70 preguntas están presentes. Se mejora diagnóstico E2E y carga de bancos (ruta, HTTP, error de conexión), se invalida caché; causa exacta no determinada.",
+            "24/11/2026: carga de recursos de prácticas con máximo dos intentos ante error de red, HTTP 429 o 5xx; timeout por petición 8 s, pausa 350 ms. No omite bancos ni reintenta HTTP 404. E2E local incluye un HTTP 503 controlado en banco Olías T01, exige dos peticiones y conserva las aserciones de 70 preguntas, nota e historial; Pages real sin interceptación. Al comprobar los árboles, practice.html y assets/practice.js públicos todavía anteriores a los cambios privados. CI nuevo no acreditado."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -880,7 +884,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Verificar el resultado del workflow e2e-uc3m-browser.yml posterior al 23/11 sobre nueva prueba tests/e2e-study-smart-20261123.mjs; resolver solo fallo real. Ampliación Firefox/WebKit/accesibilidad manual restante independiente.",
+          "nextAction": "Confirmar publicación de practice.html y assets/practice.js actualizados, E2E local con recuperación 503 y E2E Pages sin interceptación; si falla, usar diagnóstico de Olías y corregir causa. No cerrar QA-02 sin éxito acreditado.",
           "priority": "ALTA"
         },
         {
@@ -2768,6 +2772,35 @@
         "radar.html"
       ],
       "limit": "Verificado únicamente el árbol público de los dos archivos, no despliegue Pages, CI ni navegador. Sin cierre ni compatibilidad confirmada."
+    },
+    {
+      "id": "LOG-20261124-E2E-OLIAS-PAGES-TIMEOUT",
+      "at": "2026-11-24",
+      "taskIds": [
+        "QA-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Incidencia E2E #92 en Pages real: timeout del simulacro Olías; archivos y modelos presentes e idénticos en árboles privado/público. Añadido diagnóstico de carga y de prueba E2E, invalidada caché.",
+      "evidence": [
+        "assets/practice.js",
+        "practice.html",
+        "content/olias-auxiliar-edificios/simulacros.json"
+      ],
+      "limit": "No se ha reproducido ni resuelto la causa exacta del fallo remoto. La prueba permanece obligatoria; falta nueva ejecución."
+    },
+    {
+      "id": "LOG-20261124-QA02-PRACTICE-TRANSIENT-RETRY",
+      "at": "2026-11-24",
+      "taskIds": [
+        "QA-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Reintento acotado de recursos de prácticas y prueba de regresión Chromium local con HTTP 503 controlado; mantiene comprobación remota real y simulacro íntegro.",
+      "evidence": [
+        "assets/practice.js",
+        "practice.html"
+      ],
+      "limit": "Prueba incorporada, no ejecutada aquí. Causa del timeout original no demostrada y sincronización pública pendiente al cotejar."
     }
   ],
   "decisions": [
