@@ -91,6 +91,15 @@ function visible(o,query){
   (!query||searchableText(o).includes(query));
 }
 function meta(label,value){return '<div><span>'+esc(label)+'</span><strong>'+esc(value??missing)+'</strong></div>';}
+function additionalRequirementsMarkup(o){
+ const requirements=Array.isArray(o.additionalRequirements)?o.additionalRequirements:[];
+ const rows=requirements.filter(r=>r&&typeof r.literal==='string'&&r.literal.trim()&&['PERMISO_CONDUCIR','EXPERIENCIA_MINIMA'].includes(r.type)).slice(0,12).map(r=>{
+  let link='';
+  try{const u=new URL(r.sourceUrl);if(u.protocol==='https:'&&!u.username&&!u.password)link='<a href="'+esc(u.href)+'" target="_blank" rel="noopener noreferrer">Documento de procedencia</a>';}catch{}
+  return '<li><strong>'+esc(r.type==='PERMISO_CONDUCIR'?'Permiso de conducir':'Experiencia mínima')+':</strong> '+esc(r.literal)+(link?' · '+link:' · Procedencia pendiente de comprobar')+'</li>';
+ });
+ return rows.length?'<details class="radar-source"><summary><strong>Requisitos adicionales detectados</strong></summary><ul>'+rows.join('')+'</ul><p>Extracción automática parcial. No acredita el cumplimiento ni sustituye la lectura íntegra de las bases.</p></details>':'';
+}
 function card(o){
  const heading=o.position||'Puesto no identificado en el anuncio';
  const detail=o.title===heading?'':o.title;
@@ -146,6 +155,7 @@ function card(o){
   '</div>'+ 
   '<p class="radar-note">'+esc([!o.deadline?'Fecha límite sin acreditar':null,!o.qualification?'Titulación pendiente':null,o.group==='REVISAR'?'Grupo pendiente':null].filter(Boolean).join(' · ')||'Datos principales extraídos; revisar posibles rectificaciones oficiales.')+'</p>'+
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
+  additionalRequirementsMarkup(o)+
   trackControl+
   '<div class="radar-actions">'+official+'</div>'+
   '<div class="radar-source"><strong>Información disponible: '+esc(originBadge)+'</strong>'+esc(missingEvidence)+'</div>'+
