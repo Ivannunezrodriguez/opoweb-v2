@@ -443,7 +443,7 @@
         {
           "id": "RAD-03",
           "title": "Mejorar cobertura de bolsas, interinidades y sustituciones Toledo/sur de Madrid",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Fuentes específicas auditables; entradas duplicadas colapsadas; anuncios históricos no presentados como nuevas oportunidades.",
           "evidencePaths": [],
           "completedSubsteps": [
@@ -457,14 +457,11 @@
             "24/11/2026: snapshot 07:40 UTC: 46 READABLE, 137 PARTIAL, 18 ERROR (incluye directorio); Getafe dos fuentes parciales con respaldo, 6 candidatos directos sin URL duplicada. Corregidos indicadores de respaldo leído y Chromium alternativo, tests añadidos; tres raíces HTTP fallidas (Fuensalida, Gálvez, Nambroca) sustituidas por sedes oficiales conservando IDs. CI y rastreo posterior no acreditados.",
             "24/11/2026: Lillo, Lominchar, Méntrida y Villacañas: sustituidas raíces HTTP fallidas por secciones oficiales de empleo/tablón y respaldos institucionales; se conservan IDs y se añade regresión de no alertar listas históricas. Fuentes públicas consultadas; CI y nuevo rastreo pendientes.",
             "24/11/2026: Polán, Quero, Santa Cruz de la Zarza y Villafranca de los Caballeros: cuatro raíces fallidas sustituidas por listados oficiales verificados en consulta web, con respaldos e IDs conservados. Total 11/18 configuraciones corregidas; lectura automática posterior sin acreditar.",
-            "24/11/2026: log CI aportado por usuario confirma PASS de fallback, Chromium alternativo, Getafe independiente y cuatro fuentes municipales previas; falla después el validador de bitácora por URL Polán. Reparada lista de cuatro URLs exactas HTTPS, con cinco casos negativos; revisión estática de referencias externas actuales sin rechazos. Polán/Villafranca legibles en consulta web; Quero/Santa Cruz devuelven bucle de redirección en esa consulta, no afirmar lectura. Falta CI completo y rastreo posterior."
+            "24/11/2026: log CI aportado por usuario confirma PASS de fallback, Chromium alternativo, Getafe independiente y cuatro fuentes municipales previas; falla después el validador de bitácora por URL Polán. Reparada lista de cuatro URLs exactas HTTPS, con cinco casos negativos; revisión estática de referencias externas actuales sin rechazos. Polán/Villafranca legibles en consulta web; Quero/Santa Cruz devuelven bucle de redirección en esa consulta, no afirmar lectura. Falta CI completo y rastreo posterior.",
+            "24/11/2026: rastreo efectivo 08:55:49 UTC (blob radar-direct-latest.json consultado) recupera 11/11 fuentes antes fallidas, 1 READABLE + 10 PARTIAL, 44 páginas, 189 enlaces candidatos. Getafe ofertas y bolsas separadas, 3+4 páginas, ambos respaldos leídos; TLS de sede sigue fallando. Log CI aportado confirma tests Python de bolsas, fuentes independientes, respaldos, históricos y deduplicación; fallo posterior de bitácora no invalida los tests ejecutados. Feed privado blob a172934134e6a2dd9b738ef3fc386fd3397a96e0: 1430 registros, cero ID duplicados. Muestreo real de Olías, Getafe, Diputación e Illescas: 8 entradas de 4 BOE con misma URL, puestos/turnos conservados y 8 isNew=false. El alcance es funcional; no se acredita cobertura exhaustiva, ni ausencia de duplicados semánticos por expediente, ni requisitos/plazos."
           ],
-          "remainingSubsteps": [
-            "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
-            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
-            "Auditar un muestreo real de documentos municipales que comparten URL y comprobar resultado de tests del rastreo antes de cerrar la tarea."
-          ],
-          "nextAction": "Confirmar rerun completo tras fix de bitácora y nuevo rastreo de 11 fuentes modificadas; comprobar especialmente Quero y Santa Cruz por bucle de redirección y Getafe; no cerrar por pruebas sintéticas."
+          "closedAt": "2026-11-24",
+          "closeLimit": "Cierre del alcance funcional de RAD-03: fuentes específicas auditables, deduplicación técnica probada sin fusionar puestos distintos y filtrado histórico. La cobertura completa, los errores SSL/302/404, el diagnóstico documental y la deduplicación semántica quedan en RAD-12, RAD-04 y RAD-13; no acredita publicación posterior ni CI integral."
         },
         {
           "id": "RAD-04",
@@ -648,7 +645,8 @@
             "24/11/2026: snapshot 07:40 UTC: 46 READABLE, 137 PARTIAL, 18 ERROR (incluye directorio); Getafe dos fuentes parciales con respaldo, 6 candidatos directos sin URL duplicada. Corregidos indicadores de respaldo leído y Chromium alternativo, tests añadidos; tres raíces HTTP fallidas (Fuensalida, Gálvez, Nambroca) sustituidas por sedes oficiales conservando IDs. CI y rastreo posterior no acreditados.",
             "24/11/2026: Lillo, Lominchar, Méntrida y Villacañas: sustituidas raíces HTTP fallidas por secciones oficiales de empleo/tablón y respaldos institucionales; se conservan IDs y se añade regresión de no alertar listas históricas. Fuentes públicas consultadas; CI y nuevo rastreo pendientes.",
             "24/11/2026: Polán, Quero, Santa Cruz de la Zarza y Villafranca de los Caballeros: cuatro raíces fallidas sustituidas por listados oficiales verificados en consulta web, con respaldos e IDs conservados. Total 11/18 configuraciones corregidas; lectura automática posterior sin acreditar.",
-            "24/11/2026: log CI aportado por usuario confirma PASS de fallback, Chromium alternativo, Getafe independiente y cuatro fuentes municipales previas; falla después el validador de bitácora por URL Polán. Reparada lista de cuatro URLs exactas HTTPS, con cinco casos negativos; revisión estática de referencias externas actuales sin rechazos. Polán/Villafranca legibles en consulta web; Quero/Santa Cruz devuelven bucle de redirección en esa consulta, no afirmar lectura. Falta CI completo y rastreo posterior."
+            "24/11/2026: log CI aportado por usuario confirma PASS de fallback, Chromium alternativo, Getafe independiente y cuatro fuentes municipales previas; falla después el validador de bitácora por URL Polán. Reparada lista de cuatro URLs exactas HTTPS, con cinco casos negativos; revisión estática de referencias externas actuales sin rechazos. Polán/Villafranca legibles en consulta web; Quero/Santa Cruz devuelven bucle de redirección en esa consulta, no afirmar lectura. Falta CI completo y rastreo posterior.",
+            "24/11/2026: rastreo 08:55:49 UTC confirma recuperación 11/11 fuentes previamente modificadas (1 READABLE, 10 PARTIAL); 44 páginas/189 enlaces candidatos; global 47 READABLE, 136 PARTIAL, 18 ERROR de 201. Nuevos fallos 404 de portales Madrid/SERMAS y 302 de sedes. Feed privado: último enriquecimiento 5 intentos, 3 leídos, 2 con algún dato, 0 con datos nucleares, 2 fallos OTRO. Se priorizan problemas de cobertura y datos útiles. Humanes y Mazarambroz, antes ERROR y ahora PARTIAL, pasan a sección municipal específica en commit a07fb83101fdbdc675ed7b6e4ebdacf74782b9b9, pendiente medir mejora."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -658,7 +656,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Confirmar rerun completo tras fix de bitácora y nuevo rastreo de 11 fuentes modificadas; comprobar especialmente Quero y Santa Cruz por bucle de redirección y Getafe; no cerrar por pruebas sintéticas."
+          "nextAction": "Auditar nuevos fallos 404 de Madrid/SERMAS y 302 de sedes; cotejar estado y motivos de los documentos del último enriquecimiento, y verificar resultado de secciones específicas Humanes/Mazarambroz. Obtener CI/publicación completos; no cerrar por lectura parcial."
         },
         {
           "id": "RAD-13",
@@ -677,7 +675,8 @@
             "20/11/2026: diligencias de activación, estado de bolsa, relación de integrantes y llamamientos ya no se clasifican como nuevas inscripciones; test automatizado.",
             "20/11/2026: excluido del feed inicial seguimiento de bolsas constituidas sin nueva convocatoria, evitando nuevas detecciones falsas.",
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
-            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo."
+            "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
+            "24/11/2026: feed 1430 IDs únicos; 4 BOE reales con dos entradas cada uno (Olías 3+4, Getafe 10+1, Diputación 3+1, Illescas 9+1), 8 isNew=false. Esto verifica conservación de puestos/turnos y ausencia de ID duplicado, no deduplicación semántica exhaustiva. La muestra de 10 BOE sigue con tres sin referencia directa."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
@@ -2625,6 +2624,21 @@
         "data/plan-trabajo.json"
       ],
       "limit": "No equivale a rerun completo ni publicación. Dos sedes municipales devuelven bucle de redirección en consulta web; cobertura real pendiente."
+    },
+    {
+      "id": "LOG-20261124-RAD03-GETAFE-RECOVERY-LIVE-CLOSE",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-03",
+        "RAD-12",
+        "RAD-13"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre funcional RAD-03: test Python satisfactorio según log aportado y nuevo rastreo efectivo de fuentes Getafe independientes y once municipios recuperados. Feed 1430 IDs únicos; comprobados ocho registros históricos de cuatro BOE compartidos sin perder puestos/turnos. Se actualizan Humanes y Mazarambroz a secciones específicas.",
+      "evidence": [
+        "data/radar.json"
+      ],
+      "limit": "Cierre del alcance funcional de RAD-03: fuentes específicas auditables, deduplicación técnica probada sin fusionar puestos distintos y filtrado histórico. La cobertura completa, los errores SSL/302/404, el diagnóstico documental y la deduplicación semántica quedan en RAD-12, RAD-04 y RAD-13; no acredita publicación posterior ni CI integral. Último enriquecimiento 0/5 con datos nucleares; RAD-12 y RAD-13 siguen PARCIAL."
     }
   ],
   "decisions": [
@@ -2700,7 +2714,7 @@
     }
   ],
   "executionBoard": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "description": "Vista de ejecución: los HECHO permanecen exclusivamente como historial consultable; no se repiten. Cada tarea abierta pertenece a una sola cola.",
     "lanes": [
       {
@@ -2715,7 +2729,6 @@
           "RAD-12",
           "RAD-05",
           "RAD-13",
-          "RAD-03",
           "JCCM-2026-01",
           "RAD-JCCM-2026",
           "STUDY-RECAP-01",
@@ -2765,6 +2778,10 @@
       {
         "id": "RAD-06",
         "scope": "Detector de normas de plazo; controversia Olías sigue en RAD-02"
+      },
+      {
+        "id": "RAD-03",
+        "scope": "Cierre del alcance funcional de RAD-03: fuentes específicas auditables, deduplicación técnica probada sin fusionar puestos distintos y filtrado histórico. La cobertura completa, los errores SSL/302/404, el diagnóstico documental y la deduplicación semántica quedan en RAD-12, RAD-04 y RAD-13; no acredita publicación posterior ni CI integral."
       }
     ],
     "sourceSnapshot": {
