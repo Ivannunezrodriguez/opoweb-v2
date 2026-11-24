@@ -525,13 +525,14 @@
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
             "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas.",
-            "24/11/2026: añadido previewReview exclusivamente diagnóstico, separado del selector de plazo abierto. Exige antigüedad <=21 días, documento LEIDO, puesto accionable, estado REVISAR, regla de plazo con días/unidad/boletín identificado, URL específica BOE/BOP Toledo/DOCM, sin conflictos ni seguimiento/OEP; comparte identidad y supresión de ledger. Dry-run muestra reviewCandidateCount/reviewIds y reviewDeliveryEnabled=false. Doce aserciones nuevas incorporadas; no se modifica entrega real ni ledger."
+            "24/11/2026: añadido previewReview exclusivamente diagnóstico, separado del selector de plazo abierto. Exige antigüedad <=21 días, documento LEIDO, puesto accionable, estado REVISAR, regla de plazo con días/unidad/boletín identificado, URL específica BOE/BOP Toledo/DOCM, sin conflictos ni seguimiento/OEP; comparte identidad y supresión de ledger. Dry-run muestra reviewCandidateCount/reviewIds y reviewDeliveryEnabled=false. Doce aserciones nuevas incorporadas; no se modifica entrega real ni ledger.",
+            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real."
           ],
           "remainingSubsteps": [
             "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
             "Confirmar ejecución CI completa y pruebas de notificación sin envío real; revisar ventana y calidad de fuentes."
           ],
-          "nextAction": "Ejecutar CI y dry-run real con nuevo selector de revisión, contrastar cada candidato oficial y medir cobertura; confirmar transición de revisión a abierto y ausencia de duplicados sin habilitar envío de revisión. Verificar que la política satisface newOnly y compatibilidad."
+          "nextAction": "Confirmar CI, actualizar ficha Polán a partir de bases oficiales mediante mecanismo reproducible y ejecutar dry-run sobre feed real, excluyendo titulación universitaria acreditada. No activar revisión automática hasta validar candidatos."
         },
         {
           "id": "RAD-06",
@@ -590,7 +591,8 @@
             "data/radar-profile.json",
             "assets/radar-quality.js",
             "assets/radar.js",
-            "radar.html"
+            "radar.html",
+            "data/radar.json"
           ],
           "completedSubsteps": [
             "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente.",
@@ -603,7 +605,8 @@
             "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE.",
             "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos.",
             "24/11/2026: ficha Radar incorpora sección desplegable de requisitos adicionales (permiso y experiencia), cláusulas escapadas, enlace HTTPS sin credenciales al documento de procedencia y aviso de extracción parcial. Caché radar.js 2026.11.24.2; prueba estática añadida. Feed 1440, último ciclo sin intentos; no hay todavía ejemplo real extraído con estos campos ni validación CI acreditada.",
-            "24/11/2026: cotejo GitHub privado/público main: radar.html SHA 5a5632510e8141d9cd09728192db059b430b11bc y assets/radar.js SHA 72161ca69258e7808fe2d489d811d895f7ddadbc idénticos, versión 2026.11.24.2. Reconsulta BOE-A-2026-23800 y anuncio BOCM 258: turno libre y plaza confirmados; no se ha conseguido texto íntegro de base 4. ESO/permiso B siguen indicio secundario. Feed 1440, 0 requisitos adicionales extraídos, último enriquecimiento 0 intentos. Consultas de estado CI y runs PR no devuelven registros; no equivalen a éxito."
+            "24/11/2026: cotejo GitHub privado/público main: radar.html SHA 5a5632510e8141d9cd09728192db059b430b11bc y assets/radar.js SHA 72161ca69258e7808fe2d489d811d895f7ddadbc idénticos, versión 2026.11.24.2. Reconsulta BOE-A-2026-23800 y anuncio BOCM 258: turno libre y plaza confirmados; no se ha conseguido texto íntegro de base 4. ESO/permiso B siguen indicio secundario. Feed 1440, 0 requisitos adicionales extraídos, último enriquecimiento 0 intentos. Consultas de estado CI y runs PR no devuelven registros; no equivalen a éxito.",
+            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real."
           ],
           "nextAction": "Obtener bases específicas completas y evidencia de CI; validar ejemplo real de requisitos adicionales y render de navegador. No seguir ampliando extractor sin evidencia.",
           "priority": "ALTA"
@@ -669,7 +672,8 @@
             "24/11/2026: snapshot continúa 09:22:53 UTC, 0 intentos; sin nueva evidencia de recuperación PDF. Detectado patrón de titulación no reconocido en BOCM-20251121-76, p. 402 (bases específicas Mancomunidad Las Cañadas, texto oficial consultado; captura PDF no disponible): condición de obtención a fecha de cierre entre estar en posesión y título exigido. Añadida extracción contextual conservando equivalencias y prueba de no extraer titulaciones citadas solo en temario/méritos. No extrapolar requisitos a otras convocatorias.",
             "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos.",
             "24/11/2026: sin cambio de snapshot directo 09:22:53 UTC ni de último enriquecimiento (0 intentos). Interfaz pública main coincide con privado en radar.html y assets/radar.js; no acredita navegador ni CI. No repetir modificaciones de extractor sin muestra documental nueva.",
-            "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas."
+            "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas.",
+            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -2870,6 +2874,22 @@
       "summary": "Separados avisos de revisión documental y plazo abierto en simulación sin envío. Filtro conservador de fuentes específicas, regla publicada, antigüedad, identidad compartida y exclusiones; doce aserciones añadidas.",
       "evidence": [],
       "limit": "Pruebas añadidas sin ejecución CI acreditada. No se ha ejecutado dry-run nuevo ni activado envío de avisos de revisión; no certifica fechas ni requisitos."
+    },
+    {
+      "id": "LOG-20261124-RAD05-POLAN-REAL-REVIEW-EXCLUSION",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-05",
+        "RAD-09",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cotejado único candidato preliminar de revisión (Polán), BOP 215/2026 anuncio 5159, base tercera e): exige grado universitario específico. Añadido patrón de extracción y exclusión de avisos para cláusula explícita, con pruebas.",
+      "evidence": [
+        "assets/radar-quality.js",
+        "data/radar.json"
+      ],
+      "limit": "Texto oficial consultado en copia municipal; captura no disponible. No se afirma ejecución CI ni selector real ni actualización de ficha almacenada. Sin envíos."
     }
   ],
   "decisions": [
