@@ -84,7 +84,8 @@ export function normalizeOpportunity(o,asOf){
  const qualification=clean(o.qualification);
  const knownQualification=qualification&&!qualificationDefault.test(qualification);
  const group=/^(?:AP|B|C1|C2|A1|A2)$/.test(o.group||'')?o.group:(clean(o.organism).match(/(?:^|[·|,;])\s*(A1|A2|B|C1|C2|AP)(?=\s*(?:[·|,;]|$))/i)?.[1]||'REVISAR');
- const ineligible=universityRequirement.test(group)||universityRequirement.test(qualification);
+ const specificDegree=/^Grado\s+en\s+/i.test(qualification)&&!/\b(?:t[eé]cnic[oa]|formaci[oó]n\s+profesional|bachiller|ESO)\b/i.test(qualification);
+ const ineligible=universityRequirement.test(group)||universityRequirement.test(qualification)||specificDegree;
  const access=clean(o.access);
  const kind=isOffer?'Oferta de empleo (sin convocatoria)':/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/sustituci[oó]n|interin|contrataci[oó]n\s+temporal/i.test(title)?'Temporal':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
  const actionable=!navigationOnly && !isOffer && !phaseFollowup && !ineligible && knownRole && !!officialUrl;
