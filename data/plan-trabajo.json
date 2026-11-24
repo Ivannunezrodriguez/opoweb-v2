@@ -875,7 +875,8 @@
             "23/11/2026: test de comportamiento del renderizador añadido a suites y gates de publicación: cinco fichas y rechazo de host imitador. No es todavía un navegador E2E.",
             "23/11/2026: añadida prueba E2E de tests inteligentes y panel: entrenamiento 20, repetir 10 errores, simulacro adaptativo 50, exportación/importación local, aislamiento de convocatorias y pantalla móvil de 390 px. Integrada al workflow E2E existente, a correr en Chromium local y Pages.",
             "24/11/2026: captura aportada E2E Chromium #92 muestra pruebas locales y exportación satisfactorias, fallo en Pages real a los 30 s esperando OLIAS-SIM-EXAM-01. Cotejo privado/público confirma igualdad SHA de practice.html, practice.js, practice-route.js, programa, supuestos y simulacros Olías; ambos modelos de 70 preguntas están presentes. Se mejora diagnóstico E2E y carga de bancos (ruta, HTTP, error de conexión), se invalida caché; causa exacta no determinada.",
-            "24/11/2026: carga de recursos de prácticas con máximo dos intentos ante error de red, HTTP 429 o 5xx; timeout por petición 8 s, pausa 350 ms. No omite bancos ni reintenta HTTP 404. E2E local incluye un HTTP 503 controlado en banco Olías T01, exige dos peticiones y conserva las aserciones de 70 preguntas, nota e historial; Pages real sin interceptación. Al comprobar los árboles, practice.html y assets/practice.js públicos todavía anteriores a los cambios privados. CI nuevo no acreditado."
+            "24/11/2026: carga de recursos de prácticas con máximo dos intentos ante error de red, HTTP 429 o 5xx; timeout por petición 8 s, pausa 350 ms. No omite bancos ni reintenta HTTP 404. E2E local incluye un HTTP 503 controlado en banco Olías T01, exige dos peticiones y conserva las aserciones de 70 preguntas, nota e historial; Pages real sin interceptación. Al comprobar los árboles, practice.html y assets/practice.js públicos todavía anteriores a los cambios privados. CI nuevo no acreditado.",
+            "24/11/2026: logs Actions recuperados desde avisos Gmail: run 45370962210 job 138364809532 falla en validate-practice-smart-20261123.mjs:48 por exigir versión literal 2026.11.23.smart1 tras invalidación de caché. Reparado control: una única carga versionada, fecha válida no anterior a 23/11/2026, conserva comprobaciones funcionales. Run E2E 45370316446 job 138362619182: exportación y tres suites locales OK, Pages supera Olías y falla después esperando DIP-SIM-001. No se acredita causa exacta de timeout remoto ni éxito de la reparación posterior."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -884,7 +885,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Confirmar publicación de practice.html y assets/practice.js actualizados, E2E local con recuperación 503 y E2E Pages sin interceptación; si falla, usar diagnóstico de Olías y corregir causa. No cerrar QA-02 sin éxito acreditado.",
+          "nextAction": "Confirmar publicación tras corrección del validador de caché y E2E completo de nueva versión; mantener pruebas locales de reintento 503 y pruebas Pages sin interceptación. Si vuelve a fallar, diagnosticar recursos de Diputación y demás convocatorias.",
           "priority": "ALTA"
         },
         {
@@ -2801,6 +2802,20 @@
         "practice.html"
       ],
       "limit": "Prueba incorporada, no ejecutada aquí. Causa del timeout original no demostrada y sincronización pública pendiente al cotejar."
+    },
+    {
+      "id": "LOG-20261124-QA02-PUBLISH-CACHE-GATE-REPAIR",
+      "at": "2026-11-24",
+      "taskIds": [
+        "QA-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Bloqueo real de publicación identificado mediante logs Actions 45370962210 y corregido en validador de versión de caché; E2E 45370316446 acredita tres suites locales OK y fallo posterior en Diputación C1 de Pages real.",
+      "evidence": [
+        "assets/practice.js",
+        "practice.html"
+      ],
+      "limit": "Corrección guardada; ejecución nueva y publicación aún no verificadas. No cerrar QA-02."
     }
   ],
   "decisions": [
