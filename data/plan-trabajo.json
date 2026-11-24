@@ -592,9 +592,10 @@
             "22/11/2026: ejecución real CI 45058544813: feed 1388 oportunidades; 7 de 10 BOE con referencia directa, 3 ausencias de referencia directa y 3 BOE con dos entradas cada uno. No clasificar entradas múltiples como duplicado hasta distinguir turnos/categorías.",
             "22/11/2026: discrepancia grave detectada para Getafe Maestro/a BOCM-20261105-68 (8 laborales libre +2 internas+1 funcionarial libre) vs BOE-A-2026-24343 (10 laborales libre+1 funcionarial libre). Señalada como conflicto no resuelto; titulación Grado en Magisterio Infantil acreditada por extracto BOCM.",
             "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE.",
-            "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE."
+            "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE.",
+            "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos."
           ],
-          "nextAction": "Leer el documento íntegro municipal BASES 1 OFICIAL/A CERRAJERO/A y las bases Getafe EEII; determinar titulación, permiso B, experiencia, tasas y elegibilidad. Mantener ambos en REVISAR hasta cotejo primario.",
+          "nextAction": "Verificar CI de cláusulas adicionales y lectura de bases completas de Alcorcón Cerrajero y Getafe Apoyo Global; contrastar literalmente condiciones de acceso y separar requisitos obligatorios de méritos. Incorporar visualización con fuente y evaluar compatibilidad sin inferencias por grupo.",
           "priority": "ALTA"
         },
         {
@@ -655,7 +656,8 @@
             "24/11/2026: snapshot 09:03 UTC todavía sin nuevo diagnóstico de intentos y con navegación genérica. Se introduce navigationOnly para registros DIRECT de categoría desnuda, excluidos de oportunidades visibles sin borrar histórico; se amplía clasificación de trámites de gestión de bolsas como seguimiento. Versiones radar.js y radar-quality.js 2026.11.24.1, control estático añadido. Pendiente CI y publicación.",
             "24/11/2026: snapshot 09:09:51 UTC, dos candidatos directos, cero etiquetas Contratación frente a siete del anterior. Feed 1439; nuevo registro de intentos y desglose por fuente realmente presentes: DIRECT 1 intento/1 leído/0 datos/0 fallos, sumas coincidentes. Auditor de conciliación exacta y exclusión de navegación histórica guardado, pruebas positivas/negativas añadidas. Corregido trámite de exclusión temporal/alta de bolsa observado en el snapshot.",
             "24/11/2026: snapshot 09:22:53 UTC registra 47 READABLE, 149 PARTIAL y 5 ERROR de 201; 18 a 5 errores totales frente al corte inicial, cero nuevos candidatos directos. Persisten Alcorcón, Aldeanueva de San Bartolomé, Las Hunfrías, Pinto y Tragsa temporal. Feed 1440; último ciclo 0 intentos, no acredita mejor extracción. Muestreo de 228 registros LEIDO recientes con campos esenciales incompletos (DOCM 6, BOCM 19, DIRECT 115, BOP Toledo 64, BOE 24) con filtros de estado y fecha. BOCM: añadido reintento de PDF oficial por identificador exacto cuando falla la URL corta, sin atribuir lectura hasta recibir PDF válido. Pruebas positivas y negativas añadidas; no se ha podido abrir el ejemplo de Arroyomolinos mediante consulta web ni acreditar recuperación real.",
-            "24/11/2026: snapshot continúa 09:22:53 UTC, 0 intentos; sin nueva evidencia de recuperación PDF. Detectado patrón de titulación no reconocido en BOCM-20251121-76, p. 402 (bases específicas Mancomunidad Las Cañadas, texto oficial consultado; captura PDF no disponible): condición de obtención a fecha de cierre entre estar en posesión y título exigido. Añadida extracción contextual conservando equivalencias y prueba de no extraer titulaciones citadas solo en temario/méritos. No extrapolar requisitos a otras convocatorias."
+            "24/11/2026: snapshot continúa 09:22:53 UTC, 0 intentos; sin nueva evidencia de recuperación PDF. Detectado patrón de titulación no reconocido en BOCM-20251121-76, p. 402 (bases específicas Mancomunidad Las Cañadas, texto oficial consultado; captura PDF no disponible): condición de obtención a fecha de cierre entre estar en posesión y título exigido. Añadida extracción contextual conservando equivalencias y prueba de no extraer titulaciones citadas solo en temario/méritos. No extrapolar requisitos a otras convocatorias.",
+            "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -2720,6 +2722,18 @@
       "summary": "Mejorada extracción de cláusulas de titulación condicionadas a fecha de cierre y equivalencias; caso histórico oficial BOCM-20251121-76 p. 402 identificado, prueba positiva y negativa incorporadas.",
       "evidence": [],
       "limit": "Fuente oficial textual consultada; captura PDF fallida. Prueba incorporada no ejecutada en CI verificado. Último rastreo documental vacío; no se cambia cierre formal."
+    },
+    {
+      "id": "LOG-20261124-RAD09-ADDITIONAL-ADMISSION-CLAUSES",
+      "at": "2026-11-24",
+      "taskIds": [
+        "RAD-09",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Extracción prudente de permiso de conducir y experiencia profesional mínima con procedencia documental y pruebas. Reconsulta oficial de Getafe y Alcorcón sin acceso íntegro a bases específicas.",
+      "evidence": [],
+      "limit": "No se certifica cumplimiento, no se afirma lectura íntegra de bases, pruebas nuevas sin ejecución CI acreditada ni nuevo ciclo documental."
     }
   ],
   "decisions": [
