@@ -1,4 +1,4 @@
-import {madridDay,dailySnapshot,readDailyStorage,saveDailyStorage} from './study-daily.js?v=2026.11.24.daily1';
+import {madridDay,dailySnapshot,readDailyStorage,saveDailyStorage} from './study-daily.js?v=2026.11.24.daily2';
 import {extractQuickConcepts} from './study-quick-recap.js?v=2026.11.21.1';
 const app = document.querySelector('#app');
 const THEME_KEY = 'opoweb-theme';
@@ -362,17 +362,18 @@ function renderDailyStudy(){
  const practical=['la-puebla-auxiliar-administrativo-2026','diputacion-toledo-administrativo-c1-2026'].includes(id);
  const practice='practice.html?convocatoria='+encodeURIComponent(id);
  function draw(minutes,refresh=false){
+  try{progress=JSON.parse(localStorage.getItem(key)||'{}')||{};}catch{progress={};}
   const input={themes,progress,minutes,day,exam:saved?.exam||null,practical};
-  const plan=dailySnapshot(input,refresh&&saved?{...saved,minutes:0}:saved);
+  const plan=dailySnapshot(input,saved);
   plan.exam=input.exam;saved=plan;
   const stored=saveDailyStorage(localStorage,id,plan);
-  const labels={review:'Repasar tema',test:'Practicar tema',errors:'Revisar errores pendientes',practical:'Resolver supuesto práctico'};
+  const labels={review:'Repasar tema',test:'Test adaptativo del tema',errors:'Repaso espaciado vencido',practical:'Resolver supuesto práctico'};
   panel.innerHTML='<div class="section-heading"><div><p class="eyebrow section-eyebrow">Preparador personal</p><h2>Mi plan de hoy</h2><p class="small">Plan local basado en tus resultados, no en una predicción de aprobado.</p></div></div>'+
    '<div class="smart-controls"><label>Tiempo disponible <select id="daily-minutes">'+[60,120,180,240].map(n=>'<option value="'+n+'" '+(n===plan.minutes?'selected':'')+'>'+n/60+' h</option>').join('')+'</select></label>'+
    '<label>Fecha objetivo de examen (editable) <input id="daily-exam" type="date" value="'+escapeHtml(plan.exam||'')+'"></label></div>'+
-   '<p>'+ (plan.remaining===null?'Sin fecha objetivo configurada.':plan.remaining<0?'Fecha objetivo pasada.':plan.remaining===0?'Hoy es la fecha objetivo.':plan.remaining+' días hasta tu fecha objetivo.')+' · '+plan.observedThemes+'/'+plan.totalThemes+' temas con al menos 5 respuestas · '+plan.due+' errores con repaso recomendado.</p>'+
-   '<p class="small">Las tareas pendientes de un día anterior conservan prioridad temática. Marca las realizadas al finalizar. Los errores se programan según reincidencia y fecha del último fallo.</p>'+
-   '<div id="daily-tasks">'+plan.tasks.map(t=>{const href=t.id==='review'?'index.html#'+id+'/tema-'+String(t.theme).padStart(2,'0'):t.id==='test'?practice+'&tema='+t.theme:t.id==='errors'?practice+'#smart-training':practice;return '<div class="weak-theme" style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap"><label><input type="checkbox" data-daily-done="'+t.id+'" '+(t.done?'checked':'')+'> '+escapeHtml(labels[t.id])+(t.theme?' '+t.theme+' · '+escapeHtml(t.title):'')+' · '+t.minutes+' min</label><a class="btn secondary" href="'+escapeHtml(href)+'">Abrir</a></div>';}).join('')+'</div>'+
+   '<p>'+ (plan.remaining===null?'Sin fecha objetivo configurada.':plan.remaining<0?'Fecha objetivo pasada.':plan.remaining===0?'Hoy es la fecha objetivo.':plan.remaining+' días hasta tu fecha objetivo.')+' · '+plan.observedThemes+'/'+plan.totalThemes+' temas con al menos 5 respuestas · '+plan.due+' preguntas con repaso vencido.</p>'+
+   '<p class="small">Las tareas pendientes de un día anterior conservan prioridad temática. Marca las realizadas al finalizar. El calendario de cada pregunta se actualiza al corregir los tests.</p>'+
+   '<div id="daily-tasks">'+plan.tasks.map(t=>{const href=t.id==='review'?'index.html#'+id+'/tema-'+String(t.theme).padStart(2,'0'):t.id==='test'?practice+'&smart=adaptive&smartTheme='+t.theme:t.id==='errors'?practice+'&smart=spaced':practice;return '<div class="weak-theme" style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap"><label><input type="checkbox" data-daily-done="'+t.id+'" '+(t.done?'checked':'')+'> '+escapeHtml(labels[t.id])+(t.theme?' '+t.theme+' · '+escapeHtml(t.title):'')+' · '+t.minutes+' min</label><a class="btn secondary" href="'+escapeHtml(href)+'">Abrir</a></div>';}).join('')+'</div>'+
    '<p id="daily-count" role="status">'+plan.tasks.filter(t=>t.done).length+'/'+plan.tasks.length+' realizadas</p><button id="daily-refresh" class="btn secondary" type="button">Recalcular con mis resultados</button>'+
    (!stored?'<p class="notice">No se ha podido guardar el plan en este navegador.</p>':'');
   panel.querySelector('#daily-minutes').addEventListener('change',e=>draw(Number(e.target.value)));
