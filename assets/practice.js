@@ -223,8 +223,10 @@ async function loadQuestionBanks(call = activeCall) {
     // no pueden ser evaluables mientras no concluyan sus auditorías.
     if (call.id === 'diputacion-toledo-administrativo-c1-2026' && tema === 22) return [];
     const path = `${call.contentRoot}/tema-${String(tema).padStart(2, '0')}/preguntas.json`;
-    const response = await fetch(path, { cache: 'no-cache' });
-    if (!response.ok) throw new Error(`No se pudo cargar el banco del tema ${tema}`);
+    const response = await fetch(path, { cache: 'no-cache' }).catch(error=>{
+      throw new Error(`Error de conexión al cargar el banco del tema ${tema}: ${path} (${error.message})`);
+    });
+    if (!response.ok) throw new Error(`No se pudo cargar el banco del tema ${tema}: ${path} (HTTP ${response.status})`);
     const payload = await response.json();
     const raw = Array.isArray(payload) ? payload : payload.preguntas || [];
     return raw.map(item => normaliseQuestion(item, tema));
