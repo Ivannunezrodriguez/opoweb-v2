@@ -426,13 +426,16 @@
             "data/convocatorias.json",
             "radar.html",
             "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24345",
-            "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
+            "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826",
+            "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2025%2F11%2F28%2Fhtml%2F2025_8998.html&tipo=rutaDocm",
+            "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2025%2F12%2F12%2Fhtml%2F2025_9468.html&tipo=rutaDocm"
           ],
           "completedSubsteps": [
             "20/11/2026: confirmado BOE-A-2026-24345 de El Viso, distinto del BOE-A-2026-20416; ficha, banner Radar y catálogo actualizados a plazo relativo de 20 días hábiles sin calcular fin. BOE-A-2026-22826 de Olías confirma 3 limpieza y 4 auxiliar edificios y 20 días hábiles; falta resolver discrepancia de bases entre naturales y hábiles.",
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
             "22/11/2026: nueva fuente oficial DOCM-2026/7843 de 05/11 confirma 20 días hábiles desde BOE, en línea con BOE-A-2026-22826 de 31/10. El conflicto BOP 204 todavía requiere el texto original/rectificaciones y no se resuelve por votación de fuentes. El parser de conflictos quedó cerrado separadamente como RAD-06.",
-            "22/11/2026: fuente secundaria localiza posible corrección de las bases de Olías en BOP Toledo 209 de 30/10/2026, posterior al BOP 204 de 23/10 (referencia BOP id=26104817, inserción 4833). No se ha abierto el documento oficial de la rectificación; NO considerar confirmado su contenido ni que resuelva días naturales/hábiles."
+            "22/11/2026: fuente secundaria localiza posible corrección de las bases de Olías en BOP Toledo 209 de 30/10/2026, posterior al BOP 204 de 23/10 (referencia BOP id=26104817, inserción 4833). No se ha abierto el documento oficial de la rectificación; NO considerar confirmado su contenido ni que resuelva días naturales/hábiles.",
+            "24/11/2026: calendario administrativo DOCM 2025/8998 y fiestas locales DOCM 2025/9468 (El Viso 22/07 y 24/08) cotejados; 20 hábiles desde BOE 24345 de 20/11 excluyendo fines de semana y 08/12 arrojan 2026-12-21 como cómputo ordinario, sujeto a rectificaciones o festivos aplicables adicionales. Olías: BOE 22826 y DOCM 7843 coinciden, cómputo autonómico 2026-11-30 excluyendo 02/11; BOP original y rectificación no accesibles en consulta, no se certifica cierre."
           ],
           "remainingSubsteps": [
             "Cotejar directamente las bases BOP Toledo 204 de 23/10/2026 de Olías y rectificaciones del ayuntamiento para resolver días naturales vs hábiles y plazo prudente por proceso; no dar cierre único sin comprobar.",
@@ -673,7 +676,8 @@
             "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos.",
             "24/11/2026: sin cambio de snapshot directo 09:22:53 UTC ni de último enriquecimiento (0 intentos). Interfaz pública main coincide con privado en radar.html y assets/radar.js; no acredita navegador ni CI. No repetir modificaciones de extractor sin muestra documental nueva.",
             "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas.",
-            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real."
+            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
+            "24/11/2026: recuperación de ruta específica SERMAS E3707 y pruebas de identidad, reintento limitado por versión; publicación 45376826464 SUCCESS. Rastreo real 45376833312 iniciado; correos desactivados para eventos push. No consta lectura efectiva del trámite ni extracción nuclear posterior."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -2890,6 +2894,24 @@
         "data/radar.json"
       ],
       "limit": "Texto oficial consultado en copia municipal; captura no disponible. No se afirma ejecución CI ni selector real ni actualización de ficha almacenada. Sin envíos."
+    },
+    {
+      "id": "LOG-20261124-RAD02-RAD12-CALENDARIO-REINTENTO",
+      "at": "2026-11-24",
+      "atUtc": "2026-11-24T10:41:44.508Z",
+      "taskIds": [
+        "RAD-02",
+        "RAD-12"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Calendario administrativo de El Viso contrastado y recuperación acotada de ruta SERMAS implementada con CI verde; rastreo nuevo iniciado.",
+      "evidence": [
+        "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2025%2F11%2F28%2Fhtml%2F2025_8998.html&tipo=rutaDocm",
+        "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2025%2F12%2F12%2Fhtml%2F2025_9468.html&tipo=rutaDocm",
+        "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24345",
+        "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
+      ],
+      "limit": "No certificar cierre Olías sin BOP y rectificación; no declarar recuperación real SERMAS hasta finalizar rastreo; no se envían correos por push."
     }
   ],
   "decisions": [
@@ -3070,5 +3092,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-24T10:22:47.000Z"
+  "updatedAtUtc": "2026-11-24T10:41:46.000Z"
 }
