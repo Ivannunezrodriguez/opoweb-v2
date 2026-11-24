@@ -1,3 +1,4 @@
+import {nextReview,adaptiveQuestions,cleanSchedule} from './practice-adaptive.js?v=2026.11.24.1';
 import {smartPool,smartSizeOptions,chooseSmartQuestions,smartScore} from './practice-smart.js';
 
 const app = document.querySelector('#practice-app');
@@ -104,7 +105,7 @@ function initTheme() {
 }
 
 function emptyProgress() {
-  return { attempts: [], errors: {}, themeStats: {}, openedThemes: [] };
+  return { attempts: [], errors: {}, themeStats: {}, openedThemes: [], schedule: {} };
 }
 
 function readProgress() {
@@ -115,6 +116,7 @@ function readProgress() {
       return {
         attempts: Array.isArray(value.attempts) ? value.attempts : [],
         errors: value.errors && typeof value.errors === 'object' ? value.errors : {},
+        schedule: cleanSchedule(value.schedule),
         themeStats: value.themeStats && typeof value.themeStats === 'object' ? value.themeStats : {},
         openedThemes: Array.isArray(value.openedThemes) ? value.openedThemes.filter(n => Number.isInteger(n) && n >= 1 && n <= activeCall.themeCount) : []
       };
@@ -176,6 +178,7 @@ function saveAttempt(attempt, results) {
     stat.answered += 1;
     if (result.correct) stat.correct += 1;
     progress.themeStats[key] = stat;
+    if(questionMap.has(result.question.id)) progress.schedule[result.question.id]=nextReview(progress.schedule[result.question.id],result.correct,attempt.completedAt);
     if (result.correct) {
       if (progress.errors[result.question.id]) {
         progress.errors[result.question.id].count -= 1;
@@ -347,7 +350,7 @@ function smartTrainingPanel(progress) {
     <p>Selecciona un tema o mezcla varios. Práctica con preguntas reales y sin repetir. Repite los errores guardados hasta acertarlos; todo queda en este navegador y solo en esta convocatoria.</p>
     <div class="smart-controls">
       <label>Tema <select id="smart-theme"><option value="all">Todos los temas disponibles</option>${programme.temas.filter(t=>[...questionMap.values()].some(q=>q.tema===t.numero)).map(t=>`<option value="${t.numero}">Tema ${t.numero} · ${escapeHtml(t.titulo)}</option>`).join('')}</select></label>
-      <label>Tipo <select id="smart-mode"><option value="mix">Test aleatorio sin duplicados</option><option value="errors">Repetir errores pendientes (${failures})</option></select></label>
+      <label>Tipo <select id="smart-mode"><option value="mix">Test aleatorio sin duplicados</option><option value="adaptive">Test adaptado a mi rendimiento</option><option value="spaced">Repaso espaciado vencido</option><option value="errors">Repetir errores pendientes (${failures})</option></select></label>
       <label>Preguntas <select id="smart-count"></select></label>
     </div>
     <p class="search-count" id="smart-availability" role="status">${available} preguntas reales disponibles en esta convocatoria.</p>
@@ -366,15 +369,17 @@ function connectSmartTraining() {
   const refresh=()=>{
     const theme=themeInput.value==='all'?null:Number(themeInput.value);
     const mode=modeInput.value;
-    const pool=smartPool([...questionMap.values()],{theme,mode,errors:readProgress().errors});
+    const progress=readProgress();
+    let pool=smartPool([...questionMap.values()],{theme,mode,errors:progress.errors});
+    if(['adaptive','spaced'].includes(mode))pool=adaptiveQuestions(pool,progress,mode);
     const sizes=smartSizeOptions(pool.length);
     const previous=Number(sizeInput.value);
     sizeInput.innerHTML=sizes.map(n=>`<option value="${n}">${n} preguntas</option>`).join('');
     if(sizes.includes(previous))sizeInput.value=String(previous);
     startButton.disabled=!pool.length;
     availability.textContent=pool.length
-      ? `${pool.length} preguntas diferentes disponibles. ${mode==='errors'?'Los fallos repetidos tienen prioridad.':'Selección aleatoria en cada intento.'}`
-      : (mode==='errors'?'No tienes errores pendientes en este tema. Corrige un test o elige otro tema.':'No hay preguntas evaluables para esta selección.');
+      ? `${pool.length} preguntas diferentes disponibles. ${mode==='errors'?'Los fallos repetidos tienen prioridad.':mode==='spaced'?'Preguntas cuyo repaso ya corresponde.':mode==='adaptive'?'Prioridad por vencimiento, cobertura y rendimiento.':'Selección aleatoria en cada intento.'}`
+      : (mode==='spaced'?'No hay repasos vencidos en esta selección.':mode==='errors'?'No tienes errores pendientes en este tema. Corrige un test o elige otro tema.':'No hay preguntas evaluables para esta selección.');
   };
   themeInput.addEventListener('change',refresh);
   modeInput.addEventListener('change',refresh);
@@ -382,12 +387,13 @@ function connectSmartTraining() {
     const theme=themeInput.value==='all'?null:Number(themeInput.value);
     const mode=modeInput.value;
     const progress=readProgress();
-    const pool=smartPool([...questionMap.values()],{theme,mode,errors:progress.errors});
+    let pool=smartPool([...questionMap.values()],{theme,mode,errors:progress.errors});
+    if(['adaptive','spaced'].includes(mode))pool=adaptiveQuestions(pool,progress,mode);
     const size=Number(sizeInput.value);
     if(!smartSizeOptions(pool.length).includes(size)){
       refresh();return;
     }
-    const chosen=chooseSmartQuestions(pool,{size,mode,errors:progress.errors});
+    const chosen=['adaptive','spaced'].includes(mode)?pool.slice(0,size):chooseSmartQuestions(pool,{size,mode,errors:progress.errors});
     if(theme!==null)markThemeOpened(theme);
     const title=`${mode==='errors'?'Repaso de errores':'Test inteligente'} · ${theme===null?'todos los temas':'Tema '+theme} · ${size} preguntas`;
     renderExercise(chosen,title,`SMART-${activeCall.id}-${mode}-${theme??'all'}-${Date.now()}`,'inteligente');
@@ -490,7 +496,7 @@ function validateProgressBackup(payload) {
   const openedThemes=input.openedThemes??[];
   if(!Array.isArray(openedThemes)||openedThemes.some(n=>!Number.isInteger(n)||n<1||n>activeCall.themeCount))
     throw new Error('Temas abiertos no válidos en la copia.');
-  return {attempts,errors,themeStats,openedThemes:[...new Set(openedThemes)].sort((a,b)=>a-b)};
+  return {attempts,errors,themeStats,schedule:cleanSchedule(input.schedule),openedThemes:[...new Set(openedThemes)].sort((a,b)=>a-b)};
 }
 
 async function restoreProgressBackup(file) {
