@@ -88,7 +88,7 @@ export function normalizeOpportunity(o,asOf){
  const specificDegree=/^Grado\s+en\s+/i.test(qualification)&&!/\b(?:t[eé]cnic[oa]|formaci[oó]n\s+profesional|bachiller|ESO)\b/i.test(qualification);
  // El grupo es una señal de revisión, nunca prueba literal de un requisito.
  const explicitUniversity= /\b(?:t[ií]tulo\s+de\s+grado\s+universitario|licenciatura|diplomatura|doctorado|graduad[oa]\s+universitari[oa])\b/i.test(qualification)||specificDegree;
- const alternativeFP=/\b(?:o|alternativamente)\s+(?:el\s+)?(?:t[ií]tulo\s+de\s+)?(?:t[eé]cnic[oa](?:\s+superior)?|formaci[oó]n\s+profesional|bachiller|ESO)\b/i.test(qualification);
+ const alternativeFP=/\b(?:o|alternativamente)\s+(?:(?:el|la|un|una)\s+)?(?:t[ií]tulo\s+de\s+)?(?:t[eé]cnic[oa](?:\s+superior)?|formaci[oó]n\s+profesional|bachiller|ESO|graduad[oa]\s+en\s+educaci[oó]n\s+secundaria)\b/i.test(qualification);
  const ineligible=knownQualification&&explicitUniversity&&!alternativeFP&&o.detailsStatus==='LEIDO';
  const compatibility=ineligible?'NO_CUMPLE':'REVISAR';
  const access=clean(o.access);
