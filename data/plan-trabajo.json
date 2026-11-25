@@ -142,9 +142,10 @@
             "25/11/2026: publicación 45605234184 SUCCESS tras corrección de metadatos; pendiente E2E específico de rúbricas.",
             "25/11/2026: E2E 45606952096 SUCCESS sobre 09c9722: comprobación de cuatro modelos, rúbricas 0/9/10, navegación y móvil.",
             "25/11/2026: añadidos prácticos 5 cálculo IBI/ICIO y recargos y 6 modificaciones presupuestarias; 6 modelos, 30 cuestiones, 60 criterios, commit ba8998c. Importes y tipos ficticios; referencias BOE; modelo presupuestario inspirado en acta plenaria aportada. Pendiente CI y revisión técnica.",
-            "25/11/2026: prácticos 7 registro, plazos, silencio y recursos y 8 Excel añadidos en 79e1a2e; 8 modelos, 40 cuestiones, 80 criterios. Referencias BOE Ley 39/2015 y Microsoft Support. Publicación y E2E pendientes de comprobación."
+            "25/11/2026: prácticos 7 registro, plazos, silencio y recursos y 8 Excel añadidos en 79e1a2e; 8 modelos, 40 cuestiones, 80 criterios. Referencias BOE Ley 39/2015 y Microsoft Support. Publicación y E2E pendientes de comprobación.",
+            "25/11/2026: ocho modelos acreditados por publicación y E2E 45630473447/45630473382 SUCCESS. Integración test c7cfb65, pruebas e2ecb28 y 391f469, modelos 9 y 10 en 09f1bf9. Diez modelos, 50 cuestiones, 90 criterios manuales y cinco preguntas de corrección objetiva. Publicación 45632479254 SUCCESS; contenido público comprobado."
           ],
-          "nextAction": "Confirmar publicación y E2E de ocho modelos; desarrollar práctico transversal tipo test e integral con evaluación diferenciada y cerrar solo tras verificar aceptación."
+          "nextAction": "Confirmar E2E 45632479405; si falla, diagnosticar y corregir; cerrar al verificar. Adaptar posteriormente al formato oficial."
         }
       ]
     },
@@ -3574,5 +3575,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T14:06:42.000Z"
+  "updatedAtUtc": "2026-11-25T14:18:47.000Z"
 }
