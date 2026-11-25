@@ -7,10 +7,10 @@
       "id": "DIP-SP-001",
       "titulo": "Registro electrónico, cómputo de plazos y subsanación",
       "temas": [
-        3,
-        4,
         5,
-        7
+        6,
+        9,
+        11
       ],
       "enunciado": "Una persona presenta por registro electrónico una solicitud dirigida a la Diputación un sábado a las 23:40. El procedimiento exige aportar un documento acreditativo que no se adjunta. El órgano competente detecta la omisión y debe requerir la subsanación. Para las cuestiones adicionales, suponga que el requerimiento se notifica válidamente el lunes 9 de noviembre de 2026 y que no hay festivos entre el 10 y el 24 de noviembre; el procedimiento no es selectivo ni de concurrencia competitiva.",
       "cuestiones": [
@@ -114,7 +114,6 @@
       "id": "DIP-SP-002",
       "titulo": "Contrato menor y prohibición de fraccionamiento",
       "temas": [
-        15,
         16
       ],
       "enunciado": "Un servicio gestor necesita adquirir material informático homogéneo para varias dependencias durante el mismo ejercicio. Se propone tramitar varios contratos menores sucesivos con el mismo objeto para evitar acudir a un procedimiento abierto. La necesidad anual es única y previsible: tres entregas de 6.000 euros cada una, sin IVA, sin opciones ni prórrogas. Se aplica IVA del 21 %.",
@@ -216,7 +215,6 @@
       "id": "DIP-SP-003",
       "titulo": "Acceso a la información pública y protección de datos",
       "temas": [
-        10,
         28
       ],
       "enunciado": "Una persona solicita copia íntegra de un expediente de subvención que contiene datos identificativos, bancarios y de salud de terceras personas. La unidad tramitadora debe resolver la solicitud de acceso.",
@@ -320,8 +318,8 @@
       "id": "DIP-SP-004",
       "titulo": "Fases del gasto y control presupuestario",
       "temas": [
-        29,
-        30
+        13,
+        27
       ],
       "enunciado": "Un servicio propone adquirir equipamiento por importe superior al crédito disponible. La factura llega antes de que se haya aprobado formalmente el gasto y se pretende abonarla de inmediato. El crédito disponible al nivel de vinculación jurídica es de 8.000 euros y el gasto propuesto asciende a 12.000 euros. Para las cuestiones 3 y 4, considere una variante preventiva, antes de contratar: el gasto no puede demorarse al siguiente ejercicio, el crédito no es ampliable y existe financiación legal suficiente.",
       "cuestiones": [
@@ -423,11 +421,8 @@
       "id": "DIP-SP-005",
       "titulo": "Phishing, GroupWise y respuesta ante incidentes",
       "temas": [
-        32,
-        33,
-        34,
-        39,
-        40
+        28,
+        33
       ],
       "enunciado": "Una empleada recibe en GroupWise un mensaje que aparenta proceder del servicio informático. El correo incluye un enlace para renovar la contraseña y un archivo comprimido. Tras abrir el enlace, introduce sus credenciales y observa actividad anómala en su buzón. Para las cuestiones 3 y 4, suponga que se confirma acceso no autorizado a datos personales y que el responsable del tratamiento tiene constancia de la brecha el lunes a las 09:00.",
       "cuestiones": [
@@ -823,6 +818,205 @@
               },
               {
                 "descripcion": "Explica interrupción y reanudación",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-009",
+      "titulo": "Recaudación ejecutiva: cálculo de recargos",
+      "temas": [
+        25,
+        26
+      ],
+      "enunciado": "Tres contribuyentes tienen cada uno una deuda de 1.000 euros íntegramente impagada al finalizar el periodo voluntario. A paga toda su deuda antes de recibir la providencia de apremio; B paga deuda y recargo dentro del plazo del artículo 62.5 tras recibirla; C paga después de ese plazo. Suponga que no concurren suspensiones u otras especialidades.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-009-Q1",
+          "pregunta": "¿Qué recargo corresponde a A y cuánto suma principal más recargo?",
+          "respuesta": "Recargo ejecutivo del 5 %, 50 euros. Total 1.050 euros; no se exigen intereses devengados desde el inicio del periodo ejecutivo.",
+          "trampa": "No confundir inicio del periodo ejecutivo con notificación de la providencia.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 5 %",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 50 y 1.050 euros",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-009-Q2",
+          "pregunta": "¿Qué recargo corresponde a B?",
+          "respuesta": "Recargo de apremio reducido del 10 %, 100 euros; total 1.100 euros. No se exigen intereses devengados desde el inicio del periodo ejecutivo.",
+          "trampa": "Debe pagarse tanto la deuda como el recargo dentro del plazo aplicable.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 10 % y requisito de pago",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 100 y 1.100 euros",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-009-Q3",
+          "pregunta": "¿Qué recargo corresponde a C?",
+          "respuesta": "Recargo de apremio ordinario del 20 %, 200 euros. Principal y recargo suman 1.200 euros, sin incluir intereses de demora ni posibles costas.",
+          "trampa": "El recargo ordinario es compatible con intereses de demora.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 20 %",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 200 y 1.200 euros y distingue intereses",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-009-Q4",
+          "pregunta": "¿Son acumulables los tres recargos y sobre qué importe se calculan?",
+          "respuesta": "Son incompatibles entre sí; se calculan sobre la totalidad de la deuda no ingresada en periodo voluntario.",
+          "trampa": "No sumar 5 %, 10 % y 20 %.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica incompatibilidad",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica base de cálculo",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-010",
+      "titulo": "Calc: control de importes y referencias",
+      "temas": [
+        36
+      ],
+      "enunciado": "En LibreOffice Calc con nombres de funciones en español, una hoja contiene en B2:B4 importes de 100, 200 y 300 euros; C2:C4 contiene unidades 2, 3 y 4 respectivamente. E1 contiene un factor fijo de 1,10. Se usa la notación A1.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-010-Q1",
+          "pregunta": "¿Qué fórmula calcula el total de importes y qué resultado devuelve?",
+          "respuesta": "=SUMA(B2:B4), resultado 600.",
+          "trampa": "Los dos puntos delimitan un intervalo contiguo.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html",
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/formulas.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Escribe fórmula válida",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 600",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-010-Q2",
+          "pregunta": "¿Qué fórmula en D2 multiplica importe por unidades y qué ocurre al copiarla a D3?",
+          "respuesta": "=B2*C2 devuelve 200; al copiar a D3 se convierte en =B3*C3 y devuelve 600.",
+          "trampa": "Las referencias relativas se ajustan al desplazamiento.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html",
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/formulas.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Escribe fórmula D2 y resultado",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica ajuste y resultado D3",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-010-Q3",
+          "pregunta": "¿Qué fórmula permite multiplicar cada importe por el factor fijo de E1 al copiar hacia abajo?",
+          "respuesta": "=B2*$E$1. Al copiar a la fila 3 resulta =B3*$E$1 y devuelve 220.",
+          "trampa": "Los signos dólar fijan columna y fila.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Fija E1 correctamente",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica fórmula copiada y resultado",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-010-Q4",
+          "pregunta": "Si se copia =B2*$E$1 una columna a la derecha, ¿cómo queda?",
+          "respuesta": "=C2*$E$1. B2 cambia de columna, E1 permanece fija.",
+          "trampa": "Una referencia absoluta no se desplaza al copiar la fórmula.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica cambio a C2",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Conserva $E$1",
                 "puntos": 1
               }
             ]
