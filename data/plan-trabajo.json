@@ -721,14 +721,15 @@
             "24/11/2026: feed 1430 IDs únicos; 4 BOE reales con dos entradas cada uno (Olías 3+4, Getafe 10+1, Diputación 3+1, Illescas 9+1), 8 isNew=false. Esto verifica conservación de puestos/turnos y ausencia de ID duplicado, no deduplicación semántica exhaustiva. La muestra de 10 BOE sigue con tres sin referencia directa.",
             "24/11/2026: 28 etiquetas genéricas Contratación con URLs opacas variables en siete municipios; se evita nueva emisión y enriquecimiento sin fusionar por URL arbitraria ni borrar histórico; comprobación posterior pendiente en RAD-12.",
             "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
-            "25/11/2026: separación explícita de bolsa, sustitución, interinidad, otra contratación temporal, laboral fijo y funcionario de carrera; filtro web y siete regresiones de modalidad, sin inferir empleo fijo de la palabra plaza. Versionado 2026.11.25.1. Pendiente CI y deduplicación por expediente real."
+            "25/11/2026: separación explícita de bolsa, sustitución, interinidad, otra contratación temporal, laboral fijo y funcionario de carrera; filtro web y siete regresiones de modalidad, sin inferir empleo fijo de la palabra plaza. Versionado 2026.11.25.1. Pendiente CI y deduplicación por expediente real.",
+            "25/11/2026: modalidades publicadas SUCCESS 45586833899. Se añade extracción acotada de expediente explícito y evidencia de documento/fecha; identidad de notificación entre documentos con mismo órgano, número, puesto, plazas, grupo, turno y régimen explícitos. No fusiona fichas ni borra histórico. Regresiones de colisión y ledger; pendiente CI y cotejo real."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
           ],
-          "nextAction": "Verificar CI de modalidades y rastreo posterior; contrastar expedientes realmente repetidos en diferentes documentos, conservar puestos/turnos y no fusionar sin identidad oficial."
+          "nextAction": "Confirmar CI de identidad de expediente; comprobar extracción y coincidencias en feed posterior sin fusionar fichas ni notificar en pruebas."
         },
         {
           "id": "RAD-JCCM-2026",
@@ -3195,6 +3196,17 @@
         "radar.html"
       ],
       "limit": "Pendiente CI y contraste de expediente cruzado; no acredita deduplicación semántica ni cierre."
+    },
+    {
+      "id": "LOG-20261125-RAD13-EXPEDIENTE",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-13"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Identidad conservadora de notificación por expediente expreso y modalidades publicadas.",
+      "evidence": [],
+      "limit": "Pruebas sintéticas; no acredita coincidencias reales entre documentos ni cierre; no se borran fichas ni se envían correos."
     }
   ],
   "decisions": [
@@ -3396,5 +3408,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:35:18.000Z"
+  "updatedAtUtc": "2026-11-25T09:37:43.000Z"
 }
