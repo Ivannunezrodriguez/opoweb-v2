@@ -5770,9 +5770,918 @@
           "referenciaOriginal": "Ley 39/2015, artículo 48 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a48"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-011",
+      "titulo": "Simulacro 11 · Entidades locales, trabajo, igualdad, tributos y sistemas informáticos",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-011-Q01",
+          "pregunta": "¿Qué caracteriza esencialmente a una mancomunidad de municipios?",
+          "opciones": [
+            "La creación obligatoria por ley autonómica",
+            "La sustitución de la provincia",
+            "La asociación voluntaria de municipios para ejecutar obras o servicios comunes",
+            "La absorción de todas las competencias municipales"
+          ],
+          "correcta": 2,
+          "justificacion": "La mancomunidad nace de la asociación voluntaria de municipios para ejecutar en común obras o servicios de su competencia.",
+          "trampa": "No debe confundirse con la comarca o el área metropolitana, cuya creación requiere ley autonómica.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "La asociación voluntaria de municipios para ejecutar obras o servicios comunes",
+          "tema": 15,
+          "origenId": "DIP-T15-001",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44"
+        },
+        {
+          "id": "DIP-SIM-011-Q02",
+          "pregunta": "¿Cuál de las siguientes notas NO caracteriza por sí sola una relación laboral común?",
+          "opciones": [
+            "Gratuidad",
+            "Ajenidad",
+            "Voluntariedad",
+            "Dependencia"
+          ],
+          "correcta": 0,
+          "justificacion": "La relación laboral común exige una prestación voluntaria, personal, dependiente, por cuenta ajena y retribuida; la gratuidad excluye una de sus notas esenciales.",
+          "trampa": "No debe confundirse una colaboración voluntaria y gratuita con una relación laboral retribuida.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "Gratuidad",
+          "tema": 20,
+          "origenId": "DIP-T20-001",
+          "referenciaOriginal": "ET art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a1"
+        },
+        {
+          "id": "DIP-SIM-011-Q03",
+          "pregunta": "¿Qué caracteriza a la discriminación indirecta por razón de sexo?",
+          "opciones": [
+            "Un trato menos favorable expresamente basado en el sexo",
+            "Cualquier diferencia estadística",
+            "Una disposición aparentemente neutra que ocasiona una desventaja particular salvo justificación objetiva y proporcional",
+            "Únicamente una conducta penal"
+          ],
+          "correcta": 2,
+          "justificacion": "La discriminación indirecta surge cuando una disposición, criterio o práctica aparentemente neutros sitúan a personas de un sexo en desventaja particular respecto de las del otro, salvo que exista una justificación objetiva, legítima y proporcionada.",
+          "trampa": "La apariencia de neutralidad no impide que exista discriminación indirecta.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Una disposición aparentemente neutra que ocasiona una desventaja particular salvo justificación objetiva y proporcional",
+          "tema": 24,
+          "origenId": "DIP-T24-001",
+          "referenciaOriginal": "LO 3/2007 · art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a6"
+        },
+        {
+          "id": "DIP-SIM-011-Q04",
+          "pregunta": "¿Cuándo nace la obligación tributaria principal?",
+          "opciones": [
+            "Cuando se notifica la liquidación",
+            "Cuando se realiza el hecho imponible",
+            "Cuando termina el período voluntario",
+            "Cuando se interpone un recurso"
+          ],
+          "correcta": 1,
+          "justificacion": "La obligación tributaria principal nace cuando se realiza el hecho imponible definido por la ley para configurar cada tributo.",
+          "trampa": "No debe confundirse el nacimiento de la obligación con su posterior liquidación, notificación o exigibilidad.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "Cuando se realiza el hecho imponible",
+          "tema": 25,
+          "origenId": "DIP-T25-001",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a20"
+        },
+        {
+          "id": "DIP-SIM-011-Q05",
+          "pregunta": "¿Qué combinación abre directamente el Explorador de archivos en Windows 11?",
+          "opciones": [
+            "Ctrl + E",
+            "Windows + E",
+            "Alt + E",
+            "Windows + F"
+          ],
+          "correcta": 1,
+          "justificacion": "La combinación Windows + E abre directamente el Explorador de archivos en Windows 11.",
+          "trampa": "Ctrl + E suele situar el foco en un cuadro de búsqueda, pero no abre el Explorador de archivos.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Windows + E",
+          "tema": 32,
+          "origenId": "DIP-T32-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#1-explorador-de-archivos"
+        },
+        {
+          "id": "DIP-SIM-011-Q06",
+          "pregunta": "¿Cuál es el formato nativo de un archivo de LibreOffice Base?",
+          "opciones": [
+            "ODS",
+            "ODT",
+            "ODB",
+            "ODP"
+          ],
+          "correcta": 2,
+          "justificacion": "LibreOffice Base utiliza ODB como formato nativo de sus documentos de base de datos.",
+          "trampa": "ODS corresponde a Calc, ODT a Writer y ODP a Impress.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "ODB",
+          "tema": 37,
+          "origenId": "DIP-T37-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#2-el-archivo-de-base"
+        },
+        {
+          "id": "DIP-SIM-011-Q07",
+          "pregunta": "¿Puede una mancomunidad asumir la totalidad de las competencias de los municipios asociados?",
+          "opciones": [
+            "No",
+            "Sí, si lo aprueba la diputación",
+            "Sí, por unanimidad",
+            "Solo durante cinco años"
+          ],
+          "correcta": 0,
+          "justificacion": "La mancomunidad tiene fines determinados y no puede asumir la totalidad de las competencias municipales ni vaciar íntegramente las atribuciones de los municipios asociados.",
+          "trampa": "La personalidad jurídica propia no convierte a la mancomunidad en un municipio superior.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "No",
+          "tema": 15,
+          "origenId": "DIP-T15-002",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44"
+        },
+        {
+          "id": "DIP-SIM-011-Q08",
+          "pregunta": "La falta de forma escrita cuando es legalmente exigible determina, como regla, la presunción de contrato:",
+          "opciones": [
+            "Nulo",
+            "Indefinido y a jornada completa",
+            "En prácticas",
+            "Temporal y a jornada parcial"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 8 del Estatuto de los Trabajadores establece la presunción de contrato indefinido y a jornada completa, salvo prueba en contrario.",
+          "trampa": "La omisión de la forma escrita no produce automáticamente la nulidad del contrato.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "Indefinido y a jornada completa",
+          "tema": 20,
+          "origenId": "DIP-T20-002",
+          "referenciaOriginal": "ET art. 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a8"
+        },
+        {
+          "id": "DIP-SIM-011-Q09",
+          "pregunta": "Según la Ley Orgánica 3/2007, el trato desfavorable relacionado con el embarazo o la maternidad constituye:",
+          "opciones": [
+            "Discriminación indirecta",
+            "Una infracción solo si existe despido",
+            "Discriminación directa por razón de sexo",
+            "Una acción positiva"
+          ],
+          "correcta": 2,
+          "justificacion": "Todo trato desfavorable relacionado con el embarazo o la maternidad constituye discriminación directa por razón de sexo.",
+          "trampa": "No es necesario que exista despido para que el trato sea discriminatorio.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Discriminación directa por razón de sexo",
+          "tema": 24,
+          "origenId": "DIP-T24-002",
+          "referenciaOriginal": "LO 3/2007 · art. 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a8"
+        },
+        {
+          "id": "DIP-SIM-011-Q10",
+          "pregunta": "¿Qué diferencia existe entre exención y no sujeción?",
+          "opciones": [
+            "En ambas se realiza el hecho imponible",
+            "No existe diferencia jurídica",
+            "La no sujeción exige siempre una bonificación",
+            "En la exención se realiza el hecho imponible y en la no sujeción no"
+          ],
+          "correcta": 3,
+          "justificacion": "En la exención se realiza el hecho imponible, pero la ley dispensa del pago; en la no sujeción, el supuesto queda fuera de la delimitación del hecho imponible.",
+          "trampa": "La exención no elimina el hecho imponible; únicamente dispensa del pago en los términos legales.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "En la exención se realiza el hecho imponible y en la no sujeción no",
+          "tema": 25,
+          "origenId": "DIP-T25-002",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a22"
+        },
+        {
+          "id": "DIP-SIM-011-Q11",
+          "pregunta": "¿Qué atajo crea una carpeta nueva en la ubicación activa?",
+          "opciones": [
+            "Ctrl + N",
+            "Alt + N",
+            "Windows + N",
+            "Ctrl + Mayús + N"
+          ],
+          "correcta": 3,
+          "justificacion": "La combinación Ctrl + Mayús + N crea una carpeta nueva en la ubicación activa del Explorador de archivos.",
+          "trampa": "Ctrl + N suele abrir una nueva ventana, no crear una carpeta.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Ctrl + Mayús + N",
+          "tema": 32,
+          "origenId": "DIP-T32-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#3-crear-archivos-y-carpetas"
+        },
+        {
+          "id": "DIP-SIM-011-Q12",
+          "pregunta": "En una tabla de base de datos, un campo equivale a:",
+          "opciones": [
+            "Una fila",
+            "Una columna",
+            "Una consulta",
+            "Un informe"
+          ],
+          "correcta": 1,
+          "justificacion": "Los campos corresponden a las columnas de una tabla y describen los atributos de cada registro.",
+          "trampa": "El registro corresponde a la fila completa, no a la columna.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Una columna",
+          "tema": 37,
+          "origenId": "DIP-T37-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#4-tablas-campos-y-registros"
+        },
+        {
+          "id": "DIP-SIM-011-Q13",
+          "pregunta": "¿Qué norma debe crear una comarca?",
+          "opciones": [
+            "Un reglamento estatal",
+            "Una ordenanza provincial",
+            "Una ley de la comunidad autónoma",
+            "Un convenio entre alcaldes"
+          ],
+          "correcta": 2,
+          "justificacion": "La creación de una comarca requiere una ley de la comunidad autónoma.",
+          "trampa": "La iniciativa municipal no sustituye la exigencia de ley autonómica.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "Una ley de la comunidad autónoma",
+          "tema": 15,
+          "origenId": "DIP-T15-003",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a42"
+        },
+        {
+          "id": "DIP-SIM-011-Q14",
+          "pregunta": "El salario en especie no puede superar, con carácter general:",
+          "opciones": [
+            "El 30 %",
+            "El 25 %",
+            "El 20 %",
+            "El 50 %"
+          ],
+          "correcta": 0,
+          "justificacion": "El salario en especie no puede superar el 30 % de las percepciones salariales ni reducir la cuantía íntegra en dinero por debajo del salario mínimo interprofesional.",
+          "trampa": "El límite porcentual no permite disminuir la parte dineraria por debajo del salario mínimo interprofesional.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "El 30 %",
+          "tema": 20,
+          "origenId": "DIP-T20-003",
+          "referenciaOriginal": "ET art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a26"
+        },
+        {
+          "id": "DIP-SIM-011-Q15",
+          "pregunta": "La presencia equilibrada supone que las personas de cada sexo:",
+          "opciones": [
+            "Representen exactamente el 50 %",
+            "No superen el 70 %",
+            "No superen el 60 % ni sean menos del 40 %",
+            "Sean al menos el 25 %"
+          ],
+          "correcta": 2,
+          "justificacion": "La presencia equilibrada exige que las personas de cada sexo no superen el 60 % ni sean menos del 40 % del conjunto considerado.",
+          "trampa": "Presencia equilibrada no significa paridad exacta del 50 %.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "No superen el 60 % ni sean menos del 40 %",
+          "tema": 24,
+          "origenId": "DIP-T24-003",
+          "referenciaOriginal": "LO 3/2007 · disposición adicional 1.ª · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#da1"
+        },
+        {
+          "id": "DIP-SIM-011-Q16",
+          "pregunta": "El contribuyente es el sujeto pasivo que:",
+          "opciones": [
+            "Sustituye al responsable",
+            "Responde siempre subsidiariamente",
+            "Practica necesariamente una retención",
+            "Realiza el hecho imponible"
+          ],
+          "correcta": 3,
+          "justificacion": "El contribuyente es el sujeto pasivo que realiza el hecho imponible.",
+          "trampa": "El sustituto también es sujeto pasivo, pero cumple la obligación principal en lugar del contribuyente por mandato legal.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "Realiza el hecho imponible",
+          "tema": 25,
+          "origenId": "DIP-T25-003",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 36 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a36"
+        },
+        {
+          "id": "DIP-SIM-011-Q17",
+          "pregunta": "¿Qué diferencia esencial existe entre copiar y mover un archivo?",
+          "opciones": [
+            "No existe diferencia",
+            "Copiar elimina el original",
+            "Mover conserva siempre dos copias",
+            "Copiar mantiene el original y mover cambia su ubicación"
+          ],
+          "correcta": 3,
+          "justificacion": "Copiar crea un duplicado y conserva el original, mientras que mover cambia la ubicación del elemento y no deja una copia en el origen.",
+          "trampa": "Cortar no elimina definitivamente el elemento; lo prepara para moverlo cuando se pega en otra ubicación.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Copiar mantiene el original y mover cambia su ubicación",
+          "tema": 32,
+          "origenId": "DIP-T32-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#5-copiar-y-mover"
+        },
+        {
+          "id": "DIP-SIM-011-Q18",
+          "pregunta": "La función principal de una clave primaria es:",
+          "opciones": [
+            "Identificar de forma única cada registro",
+            "Ordenar alfabéticamente",
+            "Crear automáticamente informes",
+            "Ocultar campos"
+          ],
+          "correcta": 0,
+          "justificacion": "La clave primaria identifica de forma única cada registro de la tabla y no admite duplicados ni valores nulos.",
+          "trampa": "Un índice puede mejorar búsquedas u ordenaciones, pero no equivale necesariamente a una clave primaria.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Identificar de forma única cada registro",
+          "tema": 37,
+          "origenId": "DIP-T37-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#6-clave-primaria"
+        },
+        {
+          "id": "DIP-SIM-011-Q19",
+          "pregunta": "¿Cuál es el rasgo definitorio de un área metropolitana?",
+          "opciones": [
+            "La existencia de municipios rurales dispersos",
+            "Una gran aglomeración urbana con vínculos económicos y sociales intensos",
+            "La identidad histórica provincial",
+            "La gestión exclusiva de montes comunales"
+          ],
+          "correcta": 1,
+          "justificacion": "Las áreas metropolitanas agrupan municipios de grandes aglomeraciones urbanas cuyos vínculos económicos y sociales hacen necesaria la planificación conjunta y la coordinación de servicios y obras.",
+          "trampa": "No debe confundirse con una comarca de base histórica, geográfica o funcional.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "Una gran aglomeración urbana con vínculos económicos y sociales intensos",
+          "tema": 15,
+          "origenId": "DIP-T15-004",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 43 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a43"
+        },
+        {
+          "id": "DIP-SIM-011-Q20",
+          "pregunta": "El periodo de abono de retribuciones periódicas y regulares no puede exceder de:",
+          "opciones": [
+            "15 días",
+            "1 mes",
+            "3 meses",
+            "2 meses"
+          ],
+          "correcta": 1,
+          "justificacion": "El Estatuto de los Trabajadores fija un periodo máximo de un mes para el pago de retribuciones periódicas y regulares.",
+          "trampa": "No debe confundirse la periodicidad máxima del pago con la posibilidad de anticipos a cuenta del trabajo ya realizado.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "1 mes",
+          "tema": 20,
+          "origenId": "DIP-T20-004",
+          "referenciaOriginal": "ET art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a29"
+        },
+        {
+          "id": "DIP-SIM-011-Q21",
+          "pregunta": "¿Cuál es la diferencia esencial entre acoso sexual y acoso por razón de sexo?",
+          "opciones": [
+            "No existe diferencia",
+            "El segundo solo puede producirse fuera del trabajo",
+            "El primero nunca es discriminatorio",
+            "El primero exige naturaleza sexual y el segundo se basa en el sexo de la persona"
+          ],
+          "correcta": 3,
+          "justificacion": "El acoso sexual consiste en un comportamiento verbal o físico de naturaleza sexual, mientras que el acoso por razón de sexo se realiza en función del sexo de la persona. Ambos son discriminatorios.",
+          "trampa": "El acoso por razón de sexo no necesita tener contenido sexual.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "El primero exige naturaleza sexual y el segundo se basa en el sexo de la persona",
+          "tema": 24,
+          "origenId": "DIP-T24-004",
+          "referenciaOriginal": "LO 3/2007 · art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a7"
+        },
+        {
+          "id": "DIP-SIM-011-Q22",
+          "pregunta": "La base liquidable se obtiene:",
+          "opciones": [
+            "Aplicando a la base imponible las reducciones previstas legalmente",
+            "Sumando sanciones a la cuota",
+            "Restando intereses de demora",
+            "Aplicando el recargo ejecutivo"
+          ],
+          "correcta": 0,
+          "justificacion": "La base liquidable resulta de practicar en la base imponible las reducciones establecidas por la ley.",
+          "trampa": "Las bonificaciones reducen ordinariamente la cuota; las reducciones transforman la base imponible en base liquidable.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "Aplicando a la base imponible las reducciones previstas legalmente",
+          "tema": 25,
+          "origenId": "DIP-T25-004",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a54"
+        },
+        {
+          "id": "DIP-SIM-011-Q23",
+          "pregunta": "¿Qué combinación se utiliza para mover mediante cortar y pegar?",
+          "opciones": [
+            "Ctrl + C y Ctrl + V",
+            "F2 y Ctrl + V",
+            "Ctrl + Z y Ctrl + V",
+            "Ctrl + X y Ctrl + V"
+          ],
+          "correcta": 3,
+          "justificacion": "Ctrl + X corta el elemento seleccionado y Ctrl + V lo pega en la nueva ubicación, completando la operación de movimiento.",
+          "trampa": "Ctrl + C y Ctrl + V copia el elemento, pero no lo mueve.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Ctrl + X y Ctrl + V",
+          "tema": 32,
+          "origenId": "DIP-T32-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#5-copiar-y-mover"
+        },
+        {
+          "id": "DIP-SIM-011-Q24",
+          "pregunta": "En una relación uno a muchos, la clave ajena suele situarse en:",
+          "opciones": [
+            "La tabla del lado muchos",
+            "Ambas tablas obligatoriamente",
+            "La tabla del lado uno",
+            "Ninguna tabla"
+          ],
+          "correcta": 0,
+          "justificacion": "En una relación uno a muchos, la tabla del lado muchos contiene normalmente la clave ajena que referencia a la clave primaria de la tabla principal.",
+          "trampa": "La clave primaria permanece en la tabla referenciada; la clave ajena puede repetirse en los registros relacionados del lado muchos.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "La tabla del lado muchos",
+          "tema": 37,
+          "origenId": "DIP-T37-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#8-relaciones-entre-tablas"
+        },
+        {
+          "id": "DIP-SIM-011-Q25",
+          "pregunta": "¿Qué administraciones deben ser oídas antes de crear un área metropolitana?",
+          "opciones": [
+            "Solo los ayuntamientos",
+            "La Administración del Estado, los ayuntamientos y las diputaciones afectadas",
+            "Únicamente el Senado",
+            "Solo la diputación"
+          ],
+          "correcta": 1,
+          "justificacion": "La ley autonómica de creación exige audiencia previa de la Administración del Estado, los ayuntamientos afectados y las diputaciones provinciales afectadas.",
+          "trampa": "La creación corresponde a la comunidad autónoma, pero exige la audiencia de otras administraciones.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "La Administración del Estado, los ayuntamientos y las diputaciones afectadas",
+          "tema": 15,
+          "origenId": "DIP-T15-005",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 43 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a43"
+        },
+        {
+          "id": "DIP-SIM-011-Q26",
+          "pregunta": "La realización de funciones superiores permite reclamar el ascenso, salvo lo dispuesto en convenio colectivo, cuando supera:",
+          "opciones": [
+            "3 meses en 1 año",
+            "6 meses en 1 año u 8 meses en 2 años",
+            "12 meses en 3 años",
+            "9 meses en 2 años"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 39 del Estatuto de los Trabajadores permite reclamar el ascenso cuando se realizan funciones superiores durante más de 6 meses en 1 año o más de 8 meses en 2 años, salvo lo dispuesto en convenio colectivo.",
+          "trampa": "La persona trabajadora también puede reclamar la diferencia salarial correspondiente a las funciones superiores efectivamente realizadas.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "6 meses en 1 año u 8 meses en 2 años",
+          "tema": 20,
+          "origenId": "DIP-T20-005",
+          "referenciaOriginal": "ET art. 39 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a39"
+        },
+        {
+          "id": "DIP-SIM-011-Q27",
+          "pregunta": "Las acciones positivas deben ser:",
+          "opciones": [
+            "Permanentes en todo caso",
+            "Aplicables solo al sector privado",
+            "Razonables, proporcionadas y temporales mientras subsista la desigualdad",
+            "Contrarias al principio de igualdad"
+          ],
+          "correcta": 2,
+          "justificacion": "Las acciones positivas son medidas legítimas dirigidas a corregir desigualdades de hecho y deben ser razonables, proporcionadas y temporales mientras subsista la desigualdad que pretenden corregir.",
+          "trampa": "No son privilegios permanentes ni medidas arbitrarias.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Razonables, proporcionadas y temporales mientras subsista la desigualdad",
+          "tema": 24,
+          "origenId": "DIP-T24-005",
+          "referenciaOriginal": "LO 3/2007 · art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a11"
+        },
+        {
+          "id": "DIP-SIM-011-Q28",
+          "pregunta": "¿Forman las sanciones tributarias parte de la deuda tributaria?",
+          "opciones": [
+            "No",
+            "Sí, siempre",
+            "Solo las sanciones graves",
+            "Solo cuando existe apremio"
+          ],
+          "correcta": 0,
+          "justificacion": "Las sanciones tributarias no forman parte de la deuda tributaria, aunque su recaudación se rige por las normas tributarias con las especialidades correspondientes.",
+          "trampa": "Que una sanción se recaude por cauces tributarios no la convierte en componente de la deuda tributaria.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "No",
+          "tema": 25,
+          "origenId": "DIP-T25-005",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 58 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a58"
+        },
+        {
+          "id": "DIP-SIM-011-Q29",
+          "pregunta": "¿Qué tecla permite renombrar el elemento seleccionado?",
+          "opciones": [
+            "F1",
+            "F12",
+            "F5",
+            "F2"
+          ],
+          "correcta": 3,
+          "justificacion": "La tecla F2 activa el cambio de nombre del archivo o carpeta seleccionado.",
+          "trampa": "F5 actualiza la vista del Explorador de archivos; no renombra el elemento.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "F2",
+          "tema": 32,
+          "origenId": "DIP-T32-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#6-renombrar"
+        },
+        {
+          "id": "DIP-SIM-011-Q30",
+          "pregunta": "¿Qué objeto de Base está orientado principalmente a seleccionar, filtrar y combinar datos?",
+          "opciones": [
+            "Tabla",
+            "Consulta",
+            "Formulario",
+            "Informe"
+          ],
+          "correcta": 1,
+          "justificacion": "Las consultas permiten seleccionar, combinar, filtrar, calcular u ordenar datos según los campos, criterios y relaciones definidos.",
+          "trampa": "La tabla almacena los datos, el formulario facilita su edición y el informe los presenta.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Consulta",
+          "tema": 37,
+          "origenId": "DIP-T37-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#3-objetos-principales-de-base"
+        },
+        {
+          "id": "DIP-SIM-011-Q31",
+          "pregunta": "¿Qué instrumento regula ordinariamente la organización y funcionamiento de una mancomunidad?",
+          "opciones": [
+            "El padrón municipal",
+            "El reglamento orgánico provincial",
+            "Sus estatutos",
+            "La Constitución"
+          ],
+          "correcta": 2,
+          "justificacion": "Los estatutos regulan los municipios integrantes, los fines, los órganos, los recursos y el régimen de incorporación, separación y disolución.",
+          "trampa": "No basta un convenio genérico entre municipios.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "Sus estatutos",
+          "tema": 15,
+          "origenId": "DIP-T15-006",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44"
+        },
+        {
+          "id": "DIP-SIM-011-Q32",
+          "pregunta": "El traslado individual debe notificarse con una antelación mínima de:",
+          "opciones": [
+            "10 días",
+            "20 días",
+            "15 días",
+            "30 días"
+          ],
+          "correcta": 3,
+          "justificacion": "La decisión de traslado individual debe notificarse a la persona trabajadora y a sus representantes con una antelación mínima de 30 días respecto de su efectividad.",
+          "trampa": "No debe intercambiarse este plazo con los 15 días de la modificación sustancial individual o del despido objetivo.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "30 días",
+          "tema": 20,
+          "origenId": "DIP-T20-006",
+          "referenciaOriginal": "ET art. 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a40"
+        },
+        {
+          "id": "DIP-SIM-011-Q33",
+          "pregunta": "¿Qué implica la transversalidad de género?",
+          "opciones": [
+            "Integrar la perspectiva de género en todas las políticas y actuaciones públicas",
+            "Limitar la igualdad a un departamento concreto",
+            "Aplicarla solo a la selección de personal",
+            "Sustituir todas las políticas sectoriales"
+          ],
+          "correcta": 0,
+          "justificacion": "La transversalidad exige incorporar de forma sistemática la perspectiva de género en la elaboración, aplicación y evaluación de todas las políticas y actuaciones públicas.",
+          "trampa": "No se limita al órgano específicamente competente en materia de igualdad.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Integrar la perspectiva de género en todas las políticas y actuaciones públicas",
+          "tema": 24,
+          "origenId": "DIP-T24-006",
+          "referenciaOriginal": "LO 3/2007 · art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a15"
+        },
+        {
+          "id": "DIP-SIM-011-Q34",
+          "pregunta": "¿Cuál es el plazo general de prescripción tributaria?",
+          "opciones": [
+            "4 años",
+            "3 años",
+            "1 año",
+            "5 años"
+          ],
+          "correcta": 0,
+          "justificacion": "La Ley General Tributaria fija, con carácter general, un plazo de 4 años para los principales derechos de la Administración y de los obligados tributarios.",
+          "trampa": "No debe aplicarse el plazo general de 5 años propio de otras acciones civiles.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "4 años",
+          "tema": 25,
+          "origenId": "DIP-T25-006",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 66 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a66"
+        },
+        {
+          "id": "DIP-SIM-011-Q35",
+          "pregunta": "La combinación Mayús + Supr:",
+          "opciones": [
+            "Envía siempre a la Papelera",
+            "Restaura un archivo",
+            "Elimina sin pasar por la Papelera",
+            "Copia el archivo"
+          ],
+          "correcta": 2,
+          "justificacion": "Mayús + Supr elimina el elemento sin enviarlo a la Papelera de reciclaje, normalmente previa confirmación según la configuración.",
+          "trampa": "Supr, sin la tecla Mayús, suele enviar el elemento a la Papelera cuando procede.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Elimina sin pasar por la Papelera",
+          "tema": 32,
+          "origenId": "DIP-T32-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#7-eliminar-y-papelera-de-reciclaje"
+        },
+        {
+          "id": "DIP-SIM-011-Q36",
+          "pregunta": "Una consulta de selección, por regla general:",
+          "opciones": [
+            "Modifica siempre las tablas",
+            "Elimina los registros no mostrados",
+            "Muestra datos según criterios sin alterar el origen",
+            "Borra la estructura de la tabla"
+          ],
+          "correcta": 2,
+          "justificacion": "Una consulta de selección devuelve los registros que cumplen los criterios sin modificar por sí sola los datos de las tablas de origen.",
+          "trampa": "No debe confundirse una consulta SELECT con consultas o sentencias de actualización, inserción o eliminación.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Muestra datos según criterios sin alterar el origen",
+          "tema": 37,
+          "origenId": "DIP-T37-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#101-consulta-de-selección"
+        },
+        {
+          "id": "DIP-SIM-011-Q37",
+          "pregunta": "¿Dónde se integra territorialmente un ente inframunicipal del artículo 24 bis LRBRL?",
+          "opciones": [
+            "En el término municipal del municipio al que pertenece",
+            "En una provincia distinta",
+            "En una mancomunidad obligatoriamente",
+            "En una comunidad autónoma sin municipio"
+          ],
+          "correcta": 0,
+          "justificacion": "El **art. 24 bis LRBRL** define una organización **desconcentrada** del municipio para administrar núcleos de población separados, no otro municipio independiente.",
+          "trampa": "Los entes del **art. 24 bis** pertenecen a un **municipio matriz** y no son municipios independientes.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "En el término municipal del municipio al que pertenece",
+          "tema": 15,
+          "origenId": "DIP-T15-007",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis"
+        },
+        {
+          "id": "DIP-SIM-011-Q38",
+          "pregunta": "La extinción del contrato por traslado da derecho a una indemnización máxima de:",
+          "opciones": [
+            "9 mensualidades",
+            "18 mensualidades",
+            "12 mensualidades",
+            "24 mensualidades"
+          ],
+          "correcta": 2,
+          "justificacion": "La extinción por traslado da derecho a 20 días de salario por año de servicio, prorrateándose por meses los periodos inferiores al año, con un máximo de 12 mensualidades.",
+          "trampa": "Las 9 mensualidades corresponden a determinados supuestos de modificación sustancial indemnizable.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "12 mensualidades",
+          "tema": 20,
+          "origenId": "DIP-T20-007",
+          "referenciaOriginal": "ET art. 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a40"
+        },
+        {
+          "id": "DIP-SIM-011-Q39",
+          "pregunta": "Los actos y cláusulas discriminatorios por razón de sexo son:",
+          "opciones": [
+            "Anulables únicamente",
+            "Válidos si existe acuerdo privado",
+            "Nulos y pueden generar reparación o indemnización",
+            "Irrecurribles"
+          ],
+          "correcta": 2,
+          "justificacion": "Los actos y cláusulas que constituyan discriminación por razón de sexo son nulos y generan responsabilidad mediante reparaciones o indemnizaciones reales, efectivas y proporcionadas.",
+          "trampa": "La consecuencia es la nulidad, no la mera anulabilidad.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Nulos y pueden generar reparación o indemnización",
+          "tema": 24,
+          "origenId": "DIP-T24-007",
+          "referenciaOriginal": "LO 3/2007 · art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a10"
+        },
+        {
+          "id": "DIP-SIM-011-Q40",
+          "pregunta": "¿Cuáles son impuestos municipales de exacción obligatoria?",
+          "opciones": [
+            "IBI, IAE e IVTM",
+            "Solo IBI",
+            "Tasas y contribuciones especiales",
+            "ICIO e IIVTNU"
+          ],
+          "correcta": 0,
+          "justificacion": "El IBI, el IAE y el IVTM son impuestos municipales de exacción obligatoria; el ICIO y el IIVTNU son potestativos.",
+          "trampa": "Las tasas y las contribuciones especiales son tributos locales, pero no forman parte de la relación de impuestos municipales obligatorios.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "IBI, IAE e IVTM",
+          "tema": 25,
+          "origenId": "DIP-T25-007",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a59"
+        },
+        {
+          "id": "DIP-SIM-011-Q41",
+          "pregunta": "¿Qué representa C: en una ruta de Windows?",
+          "opciones": [
+            "Una carpeta compartida",
+            "Una unidad lógica",
+            "Una extensión",
+            "Un servidor"
+          ],
+          "correcta": 1,
+          "justificacion": "C: identifica una unidad lógica local dentro del sistema de archivos de Windows.",
+          "trampa": "Una letra de unidad no implica necesariamente que exista un disco físico independiente.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Una unidad lógica",
+          "tema": 32,
+          "origenId": "DIP-T32-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#10-unidades-de-disco-locales"
+        },
+        {
+          "id": "DIP-SIM-011-Q42",
+          "pregunta": "¿Qué objeto está especialmente pensado para introducir y editar datos mediante controles?",
+          "opciones": [
+            "Informe",
+            "Relación",
+            "Índice",
+            "Formulario"
+          ],
+          "correcta": 3,
+          "justificacion": "Los formularios proporcionan controles vinculados a tablas, consultas o instrucciones SQL para introducir, revisar o modificar registros.",
+          "trampa": "El informe está orientado principalmente a presentar e imprimir datos, no a su edición ordinaria.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Formulario",
+          "tema": 37,
+          "origenId": "DIP-T37-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#12-formularios"
+        },
+        {
+          "id": "DIP-SIM-011-Q43",
+          "pregunta": "¿Es una EATIM equivalente jurídicamente a un municipio?",
+          "opciones": [
+            "No",
+            "Sí, siempre",
+            "Sí, cuando supera 5.000 habitantes",
+            "Solo si dispone de presupuesto propio"
+          ],
+          "correcta": 0,
+          "justificacion": "La EATIM es una figura inframunicipal y no posee la posición constitucional ni el término municipal propio de un municipio.",
+          "trampa": "**Nuevos** entes del **art. 24 bis** carecen de personalidad, pero existen supuestos **históricos** bajo transitorias.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "No",
+          "tema": 15,
+          "origenId": "DIP-T15-008",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis"
+        },
+        {
+          "id": "DIP-SIM-011-Q44",
+          "pregunta": "La modificación sustancial individual debe notificarse con al menos:",
+          "opciones": [
+            "15 días",
+            "10 días",
+            "7 días",
+            "30 días"
+          ],
+          "correcta": 0,
+          "justificacion": "La modificación sustancial de carácter individual debe notificarse con una antelación mínima de 15 días a la fecha de su efectividad.",
+          "trampa": "Los 30 días corresponden al traslado individual.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "15 días",
+          "tema": 20,
+          "origenId": "DIP-T20-008",
+          "referenciaOriginal": "ET art. 41 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a41"
+        },
+        {
+          "id": "DIP-SIM-011-Q45",
+          "pregunta": "Cuando existen indicios fundados de discriminación por razón de sexo, corresponde a la parte demandada:",
+          "opciones": [
+            "No aportar ninguna explicación",
+            "Justificar objetiva y razonablemente la medida y su proporcionalidad",
+            "Probar la intención de discriminar de la víctima",
+            "Solicitar el archivo automático"
+          ],
+          "correcta": 1,
+          "justificacion": "Ante indicios fundados de discriminación, la parte demandada debe aportar una justificación objetiva, razonable y suficientemente probada de la medida adoptada y de su proporcionalidad, salvo en los procesos penales.",
+          "trampa": "La regla probatoria especial no se aplica a los procesos penales.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Justificar objetiva y razonablemente la medida y su proporcionalidad",
+          "tema": 24,
+          "origenId": "DIP-T24-008",
+          "referenciaOriginal": "LO 3/2007 · art. 13 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a13"
+        },
+        {
+          "id": "DIP-SIM-011-Q46",
+          "pregunta": "La delegación de la gestión tributaria local:",
+          "opciones": [
+            "Transfiere necesariamente la titularidad del tributo",
+            "No altera la titularidad del tributo",
+            "Suprime la ordenanza fiscal",
+            "Convierte el tributo local en estatal"
+          ],
+          "correcta": 1,
+          "justificacion": "La delegación desplaza el ejercicio de las funciones acordadas, pero la titularidad del tributo permanece en la entidad delegante.",
+          "trampa": "La delegación de funciones no equivale a la transmisión de la titularidad del recurso tributario.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "No altera la titularidad del tributo",
+          "tema": 25,
+          "origenId": "DIP-T25-008",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7"
+        },
+        {
+          "id": "DIP-SIM-011-Q47",
+          "pregunta": "¿Cuál es una ruta UNC válida?",
+          "opciones": [
+            "C:\\Datos",
+            "https://servidor",
+            "D:/Red",
+            "\\\\SERVIDOR\\Compartido"
+          ],
+          "correcta": 3,
+          "justificacion": "Una ruta UNC adopta la forma \\\\servidor\\recurso y permite identificar un recurso compartido de red.",
+          "trampa": "C:\\Datos es una ruta local, no una ruta UNC.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "\\\\SERVIDOR\\Compartido",
+          "tema": 32,
+          "origenId": "DIP-T32-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#9-rutas-y-ubicaciones"
+        },
+        {
+          "id": "DIP-SIM-011-Q48",
+          "pregunta": "La finalidad principal de un informe es:",
+          "opciones": [
+            "Definir claves primarias",
+            "Presentar y preparar datos para lectura o impresión",
+            "Ejecutar copias de seguridad",
+            "Crear relaciones"
+          ],
+          "correcta": 1,
+          "justificacion": "Los informes organizan y presentan datos mediante encabezados, agrupaciones, totales y formato apto para lectura o impresión.",
+          "trampa": "Un informe suele basarse en una tabla o consulta, pero no almacena los datos originales.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Presentar y preparar datos para lectura o impresión",
+          "tema": 37,
+          "origenId": "DIP-T37-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#13-informes"
+        },
+        {
+          "id": "DIP-SIM-011-Q49",
+          "pregunta": "¿Pueden pertenecer a una misma mancomunidad municipios de distintas comunidades autónomas?",
+          "opciones": [
+            "No, está prohibido siempre",
+            "Solo si son capitales de provincia",
+            "Solo por autorización judicial",
+            "Sí, si lo permiten las normativas autonómicas afectadas"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo **44.5 LRBRL** lo permite si lo autorizan las **normativas autonómicas afectadas**.",
+          "trampa": "Mancomunidad con municipios de distintas **comunidades autónomas** solo si ambas **normativas autonómicas** lo permiten.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "Sí, si lo permiten las normativas autonómicas afectadas",
+          "tema": 15,
+          "origenId": "DIP-T15-009",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44"
+        },
+        {
+          "id": "DIP-SIM-011-Q50",
+          "pregunta": "La suspensión del contrato implica:",
+          "opciones": [
+            "Despido improcedente",
+            "Extinción definitiva del vínculo",
+            "Conversión automática en excedencia voluntaria",
+            "Interrupción temporal de trabajo y salario"
+          ],
+          "correcta": 3,
+          "justificacion": "La suspensión interrumpe temporalmente las obligaciones principales de trabajar y remunerar, pero mantiene vigente el vínculo contractual.",
+          "trampa": "Suspensión y extinción producen efectos jurídicos distintos.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "Interrupción temporal de trabajo y salario",
+          "tema": 20,
+          "origenId": "DIP-T20-009",
+          "referenciaOriginal": "ET art. 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a45"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
