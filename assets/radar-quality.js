@@ -90,7 +90,7 @@ export function normalizeOpportunity(o,asOf){
  const ineligible=knownQualification&&explicitUniversity&&!alternativeFP&&o.detailsStatus==='LEIDO';
  const compatibility=ineligible?'NO_CUMPLE':'REVISAR';
  const access=clean(o.access);
- const kind=isOffer?'Oferta de empleo (sin convocatoria)':/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/sustituci[oó]n|interin|contrataci[oó]n\s+temporal/i.test(title)?'Temporal':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
+ const kind=isOffer?'Oferta de empleo (sin convocatoria)':/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/\bsustituci[oó]n(?:es)?\b|\bsuplencia(?:s)?\b/i.test(title)?'Sustitución':/\binterin(?:o|a|os|as|idad|idades)\b/i.test(title)?'Interinidad':/contrataci[oó]n\s+temporal|personal\s+laboral\s+temporal|contrato\s+temporal/i.test(title)?'Temporal':/personal\s+laboral\s+fijo|contrato\s+indefinido/i.test(title)?'Laboral fijo':/funcionari[oa]\s+de\s+carrera/i.test(title)?'Funcionario de carrera':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
  const actionable=!navigationOnly && !isOffer && !phaseFollowup && !ineligible && knownRole && !!officialUrl;
  return {
   ...o,title,navigationOnly,position:knownRole?role:null,organism:institution(o),
