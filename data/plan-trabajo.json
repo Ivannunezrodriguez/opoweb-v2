@@ -363,7 +363,7 @@
         {
           "id": "STUDY-TEST-01",
           "title": "Tests inteligentes por tema y repetición de errores",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Elegir paquetes 10/20/50 según preguntas realmente disponibles, reintentar errores persistidos de forma local, respetar puntuación por convocatoria y cotejar respuestas; pruebas E2E escritorio/móvil.",
           "evidencePaths": [
             "assets/practice.js",
@@ -373,13 +373,14 @@
           "completedSubsteps": [
             "21/11/2026: motor previo de simulacros, corrección y almacenamiento local existe; opciones A-D en columna ya verificadas. No equivale a modo inteligente implantado.",
             "23/11/2026: entrega funcional publicada en ambas ramas: selector de tema, test aleatorio 10/20/50 con tamaños según banco, reintento prioritario de errores locales, pregunta sin duplicar y puntuación orientativa proporcional de La Puebla/C1, A-E/3 UC3M/Olías y sin penalización inventada en Diputación C2. Pruebas de unidad ejecutadas y superadas con archivo real del repositorio. Añadido test E2E Chromium desktop/móvil local y Pages, pendiente ejecución verde.",
-            "24/11/2026: corregida pérdida de smart/smartTheme al renderizar el centro; ampliadas aserciones URL y tema tras recarga en escritorio/móvil. CI pendiente."
+            "24/11/2026: corregida pérdida de smart/smartTheme al renderizar el centro; ampliadas aserciones URL y tema tras recarga en escritorio/móvil. CI pendiente.",
+            "24/11/2026: E2E 45490226728 SUCCESS local y Pages: C1_DAILY_ADAPTIVE_NAVIGATION_E2E_OK y OPOWEB_SMART_STUDY_E2E_OK; publicación 45490252213 SUCCESS."
           ],
-          "remainingSubsteps": [
-            "Comprobar resultado SUCCESS de la nueva ejecución de tests/e2e-study-smart-20261123.mjs en Chromium, escritorio y móvil, sobre servidor local y Pages. Después cerrar el ID sin iniciar más implementaciones."
-          ],
-          "nextAction": "Verificar CI Chromium de los commits de persistencia adaptativa y publicación filtrada; corregir cualquier regresión antes de cerrar.",
-          "priority": "ALTA"
+          "remainingSubsteps": [],
+          "nextAction": null,
+          "priority": "ALTA",
+          "closedAt": "2026-11-24",
+          "closeLimit": "Entrenamiento inteligente y persistencia comprobados en Chromium escritorio/móvil emulado, local y Pages; no certifica auditoría jurídica integral ni dispositivos físicos."
         },
         {
           "id": "STUDY-PROGRESS-01",
@@ -2925,6 +2926,30 @@
       "summary": "Corrección de persistencia de enlace adaptativo y ampliación E2E de recarga.",
       "evidence": [],
       "limit": "Sin cierre hasta CI verde y aceptación completa; no acredita publicación ni navegador físico."
+    },
+    {
+      "id": "LOG-20261124-STUDY-TEST-CLOSE",
+      "at": "2026-11-24",
+      "atUtc": "2026-11-24T21:24:00Z",
+      "taskIds": [
+        "STUDY-TEST-01"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre tras E2E verde local y Pages, incluida navegación adaptativa y repaso.",
+      "evidence": [],
+      "limit": "Entrenamiento inteligente y persistencia comprobados en Chromium escritorio/móvil emulado, local y Pages; no certifica auditoría jurídica integral ni dispositivos físicos."
+    },
+    {
+      "id": "LOG-20261125-STUDY-BITACORA-SCHEMA",
+      "at": "2026-11-25",
+      "atUtc": "2026-11-25T07:16:50Z",
+      "taskIds": [
+        "STUDY-TEST-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Normalizado el tipo de evento de cierre a VERIFICADO; HECHO permanece como estado de tarea. Corregida la infracción del esquema detectada por CI.",
+      "evidence": [],
+      "limit": "Pendiente CI de publicación del cambio; siguiente paso: comprobar publicación y continuar DIP-C1-01."
     }
   ],
   "decisions": [
@@ -3017,8 +3042,7 @@
           "RAD-13",
           "JCCM-2026-01",
           "RAD-JCCM-2026",
-          "STUDY-RECAP-01",
-          "STUDY-TEST-01"
+          "STUDY-RECAP-01"
         ]
       },
       {
@@ -3068,6 +3092,10 @@
       {
         "id": "RAD-03",
         "scope": "Cierre del alcance funcional de RAD-03: fuentes específicas auditables, deduplicación técnica probada sin fusionar puestos distintos y filtrado histórico. La cobertura completa, los errores SSL/302/404, el diagnóstico documental y la deduplicación semántica quedan en RAD-12, RAD-04 y RAD-13; no acredita publicación posterior ni CI integral."
+      },
+      {
+        "id": "STUDY-TEST-01",
+        "scope": "Entrenamiento inteligente y persistencia comprobados en Chromium escritorio/móvil emulado, local y Pages; no certifica auditoría jurídica integral ni dispositivos físicos."
       }
     ],
     "sourceSnapshot": {
@@ -3105,5 +3133,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-24T21:21:19.000Z"
+  "updatedAtUtc": "2026-11-25T07:17:06.000Z"
 }
