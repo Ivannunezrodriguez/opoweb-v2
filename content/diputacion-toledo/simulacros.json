@@ -8497,9 +8497,918 @@
           "referenciaOriginal": "Ley 7/1985 LRBRL, art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-014",
+      "titulo": "Simulacro 14 · Repaso transversal jurídico y técnico",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas del banco activo sin repetir enunciados normalizados de modelos anteriores. Distribución didáctica, no oficial. T22 excluido. Referencias originales conservadas; no supone nueva auditoría jurídica individual.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-014-Q01",
+          "pregunta": "¿Qué significa la inderogabilidad singular de los reglamentos?",
+          "opciones": [
+            "Que ningún reglamento puede ser derogado",
+            "Que una resolución particular no puede vulnerar un reglamento vigente",
+            "Que un reglamento prevalece siempre sobre la ley",
+            "Que solo el Parlamento puede modificar reglamentos"
+          ],
+          "correcta": 1,
+          "justificacion": "Una resolución administrativa singular no puede contradecir una disposición general, aunque proceda de un órgano de igual o superior jerarquía que el autor del reglamento.",
+          "trampa": "La inderogabilidad singular no impide derogar el reglamento mediante otra disposición general competente; impide excepcionarlo con un acto particular.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Que una resolución particular no puede vulnerar un reglamento vigente",
+          "tema": 2,
+          "origenId": "DIP-T02-010",
+          "referenciaOriginal": "Ley 39/2015, art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a37"
+        },
+        {
+          "id": "DIP-SIM-014-Q02",
+          "pregunta": "¿Cuándo produce anulabilidad un defecto de forma?",
+          "opciones": [
+            "Cuando falten requisitos formales indispensables o se produzca indefensión",
+            "Siempre",
+            "Nunca",
+            "Solo cuando falte firma manuscrita"
+          ],
+          "correcta": 0,
+          "justificacion": "El defecto formal solo invalida cuando el acto carece de requisitos formales indispensables para alcanzar su fin o produce indefensión.",
+          "trampa": "No todo defecto de forma anula el acto.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Cuando falten requisitos formales indispensables o se produzca indefensión",
+          "tema": 7,
+          "origenId": "DIP-T07-010",
+          "referenciaOriginal": "Ley 39/2015, artículo 48 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a48"
+        },
+        {
+          "id": "DIP-SIM-014-Q03",
+          "pregunta": "Si una notificación electrónica obligatoria no se abre, se entiende rechazada tras:",
+          "opciones": [
+            "5 días hábiles",
+            "10 días hábiles",
+            "15 días naturales",
+            "10 días naturales"
+          ],
+          "correcta": 3,
+          "justificacion": "El plazo legal es de 10 días naturales desde la puesta a disposición.",
+          "trampa": "Cambiar días naturales por días hábiles.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "10 días naturales",
+          "tema": 9,
+          "origenId": "DIP-T09-009",
+          "referenciaOriginal": "Ley 39/2015, art. 43.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43"
+        },
+        {
+          "id": "DIP-SIM-014-Q04",
+          "pregunta": "El procedimiento simplificado de responsabilidad patrimonial debe resolverse en:",
+          "opciones": [
+            "15 días",
+            "20 días",
+            "30 días",
+            "3 meses"
+          ],
+          "correcta": 2,
+          "justificacion": "La tramitación simplificada debe resolverse en treinta días.",
+          "trampa": "No confundir este plazo con el plazo general de seis meses.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "30 días",
+          "tema": 10,
+          "origenId": "DIP-T10-009",
+          "referenciaOriginal": "Ley 39/2015, art. 96.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96"
+        },
+        {
+          "id": "DIP-SIM-014-Q05",
+          "pregunta": "En una empresa de 31 a 49 trabajadores, el número de delegados de prevención es:",
+          "opciones": [
+            "Ninguno",
+            "1",
+            "2",
+            "3"
+          ],
+          "correcta": 1,
+          "justificacion": "En las empresas de 31 a 49 trabajadores existe un delegado de prevención, elegido por y entre los delegados de personal.",
+          "trampa": "En empresas de hasta 30 trabajadores coincide con el delegado de personal; entre 31 y 49 hay uno elegido entre los delegados de personal.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "1",
+          "tema": 23,
+          "origenId": "DIP-T23-009",
+          "referenciaOriginal": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35"
+        },
+        {
+          "id": "DIP-SIM-014-Q06",
+          "pregunta": "¿Qué formato se utiliza habitualmente para documentos digitalizados de varias páginas?",
+          "opciones": [
+            "PDF",
+            "BMP exclusivamente",
+            "EXE",
+            "TXT sin imágenes"
+          ],
+          "correcta": 0,
+          "justificacion": "El formato PDF se utiliza habitualmente para conservar documentos digitalizados y reunir varias páginas en un solo archivo.",
+          "trampa": "La disponibilidad concreta de cada formato depende de la aplicación y del dispositivo.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "PDF",
+          "tema": 34,
+          "origenId": "DIP-T34-009",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#10-formatos-de-archivo"
+        },
+        {
+          "id": "DIP-SIM-014-Q07",
+          "pregunta": "¿Qué debe respetar necesariamente la creación de una comarca?",
+          "opciones": [
+            "La desaparición de todos los municipios integrantes",
+            "La absorción de la diputación",
+            "La elección directa de un presidente por todos los vecinos",
+            "La autonomía municipal y los servicios mínimos municipales"
+          ],
+          "correcta": 3,
+          "justificacion": "La comarca no puede vaciar por completo las competencias municipales ni privar a los municipios de los servicios mínimos que deben prestar.",
+          "trampa": "Entidad supramunicipal no significa sustitución integral del municipio.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "La autonomía municipal y los servicios mínimos municipales",
+          "tema": 15,
+          "origenId": "DIP-T15-010",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a42"
+        },
+        {
+          "id": "DIP-SIM-014-Q08",
+          "pregunta": "La indemnización ordinaria por despido improcedente es de:",
+          "opciones": [
+            "20 días por año, máximo 12 mensualidades",
+            "45 días por año, máximo 42 mensualidades en todo caso",
+            "33 días por año, máximo 24 mensualidades",
+            "12 días por año"
+          ],
+          "correcta": 2,
+          "justificacion": "La regla vigente es de 33 días de salario por año de servicio, con un máximo de 24 mensualidades, sin perjuicio del régimen transitorio aplicable al tiempo trabajado antes del 12 de febrero de 2012.",
+          "trampa": "Los 45 días no se aplican a toda la antigüedad ni a todos los contratos actuales.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "33 días por año, máximo 24 mensualidades",
+          "tema": 20,
+          "origenId": "DIP-T20-010",
+          "referenciaOriginal": "ET art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a56"
+        },
+        {
+          "id": "DIP-SIM-014-Q09",
+          "pregunta": "¿Qué consecuencia tiene, con carácter general, que un reglamento vulnere una ley?",
+          "opciones": [
+            "Anulabilidad",
+            "Nulidad de pleno derecho",
+            "Convalidación automática",
+            "Conversión en ley"
+          ],
+          "correcta": 1,
+          "justificacion": "Las disposiciones administrativas que vulneren la Constitución, las leyes u otras disposiciones de rango superior son nulas de pleno derecho.",
+          "trampa": "En materia reglamentaria, la infracción de una norma superior conduce a nulidad, no a simple anulabilidad.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Nulidad de pleno derecho",
+          "tema": 2,
+          "origenId": "DIP-T02-011",
+          "referenciaOriginal": "Ley 39/2015, art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a47"
+        },
+        {
+          "id": "DIP-SIM-014-Q10",
+          "pregunta": "¿Qué figura permite subsanar los vicios de un acto anulable?",
+          "opciones": [
+            "Convalidación",
+            "Conversión",
+            "Conservación",
+            "Revocación automática"
+          ],
+          "correcta": 0,
+          "justificacion": "La Administración puede convalidar los actos anulables subsanando sus vicios.",
+          "trampa": "Los actos nulos de pleno derecho no son convalidables.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Convalidación",
+          "tema": 7,
+          "origenId": "DIP-T07-011",
+          "referenciaOriginal": "Ley 39/2015, artículo 52 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a52"
+        },
+        {
+          "id": "DIP-SIM-014-Q11",
+          "pregunta": "La falta del aviso al correo electrónico sobre una notificación:",
+          "opciones": [
+            "Invalida siempre la notificación",
+            "Suspende el procedimiento",
+            "Convierte la notificación en presencial",
+            "No invalida la notificación"
+          ],
+          "correcta": 3,
+          "justificacion": "El aviso es meramente complementario y su ausencia no impide que la notificación sea válida.",
+          "trampa": "Atribuir al aviso valor constitutivo.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "No invalida la notificación",
+          "tema": 9,
+          "origenId": "DIP-T09-010",
+          "referenciaOriginal": "Ley 39/2015, art. 41.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a41"
+        },
+        {
+          "id": "DIP-SIM-014-Q12",
+          "pregunta": "El particular perjudicado por la actuación de un empleado público debe reclamar directamente:",
+          "opciones": [
+            "Al empleado",
+            "Al superior jerárquico",
+            "A la Administración correspondiente",
+            "Al Ministerio Fiscal"
+          ],
+          "correcta": 2,
+          "justificacion": "El particular debe dirigir su reclamación directamente contra la Administración correspondiente.",
+          "trampa": "La eventual acción contra el empleado público es interna y posterior.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "A la Administración correspondiente",
+          "tema": 10,
+          "origenId": "DIP-T10-010",
+          "referenciaOriginal": "Ley 40/2015, art. 36.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36"
+        },
+        {
+          "id": "DIP-SIM-014-Q13",
+          "pregunta": "¿A partir de qué plantilla se constituye el Comité de Seguridad y Salud?",
+          "opciones": [
+            "25 trabajadores",
+            "50 trabajadores",
+            "30 trabajadores",
+            "100 trabajadores"
+          ],
+          "correcta": 1,
+          "justificacion": "El Comité de Seguridad y Salud se constituye en empresas o centros de trabajo con 50 o más trabajadores.",
+          "trampa": "El umbral es 50 trabajadores, no 49 ni 100.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "50 trabajadores",
+          "tema": 23,
+          "origenId": "DIP-T23-010",
+          "referenciaOriginal": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38"
+        },
+        {
+          "id": "DIP-SIM-014-Q14",
+          "pregunta": "Una ruta como \\\\servidor\\impresora identifica normalmente:",
+          "opciones": [
+            "Una impresora compartida en red",
+            "Una carpeta local oculta",
+            "Un archivo PDF",
+            "Una dirección de correo"
+          ],
+          "correcta": 0,
+          "justificacion": "Una ruta UNC del tipo \\\\servidor\\impresora puede identificar una impresora compartida o un recurso de impresión en red.",
+          "trampa": "Que la impresora esté instalada no garantiza su disponibilidad si falla la red o el servidor.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Una impresora compartida en red",
+          "tema": 34,
+          "origenId": "DIP-T34-010",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#13-impresión-y-escaneado-en-red"
+        },
+        {
+          "id": "DIP-SIM-014-Q15",
+          "pregunta": "En Castilla-La Mancha, la norma autonómica general sobre entidades locales es:",
+          "opciones": [
+            "La Ley 39/2015",
+            "La Ley Orgánica 5/1985",
+            "El Real Decreto 203/2021",
+            "La Ley 3/1991, de 14 de marzo"
+          ],
+          "correcta": 3,
+          "justificacion": "La Ley 3/1991, de 14 de marzo, regula las entidades locales de Castilla-La Mancha dentro del marco básico estatal.",
+          "trampa": "La Ley 7/1985 es la norma básica estatal; la Ley 3/1991 es la norma autonómica de Castilla-La Mancha.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "La Ley 3/1991, de 14 de marzo",
+          "tema": 15,
+          "origenId": "DIP-T15-011",
+          "referenciaOriginal": "Ley 3/1991 Castilla-La Mancha, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1991-10111#a1"
+        },
+        {
+          "id": "DIP-SIM-014-Q16",
+          "pregunta": "En la extinción por causas objetivas, el preaviso general es de:",
+          "opciones": [
+            "7 días",
+            "10 días",
+            "15 días",
+            "30 días"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 53 del Estatuto de los Trabajadores fija un preaviso general de 15 días desde la entrega de la comunicación personal hasta la extinción del contrato.",
+          "trampa": "No deben aplicarse los 30 días previstos para el traslado individual.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "15 días",
+          "tema": 20,
+          "origenId": "DIP-T20-011",
+          "referenciaOriginal": "ET art. 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a53"
+        },
+        {
+          "id": "DIP-SIM-014-Q17",
+          "pregunta": "¿Cómo se relacionan, con carácter general, la ley orgánica y la ley ordinaria?",
+          "opciones": [
+            "La ley orgánica es siempre jerárquicamente superior",
+            "La relación es principalmente de competencia material",
+            "La ley ordinaria puede modificar cualquier ley orgánica",
+            "Ambas tienen idéntico procedimiento de aprobación"
+          ],
+          "correcta": 1,
+          "justificacion": "La distinción fundamental es material: la Constitución reserva determinadas materias a ley orgánica. No existe una superioridad jerárquica general de toda ley orgánica sobre toda ley ordinaria.",
+          "trampa": "El error frecuente consiste en afirmar una jerarquía universal. La clave es la reserva material del artículo 81.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "La relación es principalmente de competencia material",
+          "tema": 2,
+          "origenId": "DIP-T02-012",
+          "referenciaOriginal": "CE, art. 81 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a81"
+        },
+        {
+          "id": "DIP-SIM-014-Q18",
+          "pregunta": "Según el artículo 49.1 de la Ley 39/2015, ¿qué ocurre con los actos sucesivos independientes de otro que ha sido declarado nulo o anulable?",
+          "opciones": [
+            "No quedan invalidados automáticamente por la nulidad o anulabilidad del acto anterior",
+            "Son siempre nulos de pleno derecho",
+            "Deben convertirse en disposiciones generales",
+            "Solo tienen validez tras acuerdo unánime de los interesados"
+          ],
+          "correcta": 0,
+          "justificacion": "El **artículo 49.1** establece que **la nulidad o anulabilidad de un acto no implicará la de los sucesivos en el procedimiento que sean independientes del primero**.",
+          "trampa": "**Actos sucesivos independientes** conservan su eficacia frente al vicio del acto previo; no confundir con los actos que dependen causalmente de él.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "No quedan invalidados automáticamente por la nulidad o anulabilidad del acto anterior",
+          "tema": 7,
+          "origenId": "DIP-T07-012",
+          "referenciaOriginal": "Ley 39/2015, artículo 49 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a49"
+        },
+        {
+          "id": "DIP-SIM-014-Q19",
+          "pregunta": "La actuación administrativa automatizada se caracteriza por:",
+          "opciones": [
+            "Requerir intervención directa de un funcionario en cada acto",
+            "No producir efectos jurídicos",
+            "Ser exclusivamente informativa",
+            "Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público"
+          ],
+          "correcta": 3,
+          "justificacion": "La actuación administrativa automatizada se realiza íntegramente por medios electrónicos sin intervención directa de un empleado público.",
+          "trampa": "Confundir automatización con simple apoyo informático.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público",
+          "tema": 9,
+          "origenId": "DIP-T09-011",
+          "referenciaOriginal": "Ley 40/2015, art. 41 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41"
+        },
+        {
+          "id": "DIP-SIM-014-Q20",
+          "pregunta": "La Administración ejercerá acción de regreso contra su autoridad o empleado cuando concurra:",
+          "opciones": [
+            "Cualquier error",
+            "Solo dolo",
+            "Dolo, culpa grave o negligencia grave",
+            "Culpa leve"
+          ],
+          "correcta": 2,
+          "justificacion": "La acción de regreso exige dolo, culpa grave o negligencia grave.",
+          "trampa": "La culpa leve no basta para exigir responsabilidad por esta vía.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "Dolo, culpa grave o negligencia grave",
+          "tema": 10,
+          "origenId": "DIP-T10-011",
+          "referenciaOriginal": "Ley 40/2015, art. 36.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36"
+        },
+        {
+          "id": "DIP-SIM-014-Q21",
+          "pregunta": "El Comité de Seguridad y Salud se reúne ordinariamente:",
+          "opciones": [
+            "Cada mes",
+            "Trimestralmente",
+            "Cada dos meses",
+            "Anualmente"
+          ],
+          "correcta": 1,
+          "justificacion": "El Comité de Seguridad y Salud se reúne trimestralmente y también cuando lo solicite alguna de sus representaciones.",
+          "trampa": "La periodicidad ordinaria es trimestral, pero puede reunirse además a petición de cualquiera de sus representaciones.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Trimestralmente",
+          "tema": 23,
+          "origenId": "DIP-T23-011",
+          "referenciaOriginal": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38"
+        },
+        {
+          "id": "DIP-SIM-014-Q22",
+          "pregunta": "Para diagnosticar si un problema procede de una aplicación concreta es útil:",
+          "opciones": [
+            "Intentar imprimir desde otra aplicación",
+            "Borrar siempre todos los documentos",
+            "Cambiar la resolución de pantalla",
+            "Desinstalar Windows"
+          ],
+          "correcta": 0,
+          "justificacion": "Intentar imprimir desde otra aplicación ayuda a distinguir un fallo general del sistema de impresión de un problema específico de la aplicación inicial.",
+          "trampa": "Un error producido en una sola aplicación no demuestra por sí mismo una avería física de la impresora.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Intentar imprimir desde otra aplicación",
+          "tema": 34,
+          "origenId": "DIP-T34-011",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#7-problemas-frecuentes-de-impresión"
+        },
+        {
+          "id": "DIP-SIM-014-Q23",
+          "pregunta": "Según el artículo 24 bis LRBRL, ¿quién puede promover la iniciativa para crear un ente inframunicipal?",
+          "opciones": [
+            "Solo el Gobierno de España",
+            "Exclusivamente la Diputación",
+            "Solo la comunidad autónoma",
+            "La población interesada o el Ayuntamiento correspondiente"
+          ],
+          "correcta": 3,
+          "justificacion": "La iniciativa corresponde a la **población interesada o el Ayuntamiento**, que debe ser oído en todo caso.",
+          "trampa": "No confundir mancomunidades con entes inframunicipales ni obviar condiciones de la legislación autonómica.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "La población interesada o el Ayuntamiento correspondiente",
+          "tema": 15,
+          "origenId": "DIP-T15-012",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis"
+        },
+        {
+          "id": "DIP-SIM-014-Q24",
+          "pregunta": "Durante el preaviso del despido objetivo, la licencia retribuida para buscar empleo es de:",
+          "opciones": [
+            "2 horas semanales",
+            "4 horas semanales",
+            "6 horas semanales",
+            "1 día completo semanal"
+          ],
+          "correcta": 2,
+          "justificacion": "Durante el periodo de preaviso, la persona trabajadora tiene derecho, sin pérdida de retribución, a una licencia de 6 horas semanales para buscar nuevo empleo.",
+          "trampa": "Se trata de horas semanales durante el preaviso, no de un permiso diario.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "6 horas semanales",
+          "tema": 20,
+          "origenId": "DIP-T20-012",
+          "referenciaOriginal": "ET art. 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a53"
+        },
+        {
+          "id": "DIP-SIM-014-Q25",
+          "pregunta": "¿Qué artículo de la Constitución regula el Defensor del Pueblo?",
+          "opciones": [
+            "Artículo 55",
+            "Artículo 54",
+            "Artículo 53",
+            "Artículo 56"
+          ],
+          "correcta": 1,
+          "justificacion": "El **artículo 54 CE** contempla al Defensor del Pueblo como alto comisionado de las Cortes Generales.",
+          "trampa": "**Art. 54** es **Defensor del Pueblo**; **53** tutela y **55** suspensión.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Artículo 54",
+          "tema": 2,
+          "origenId": "DIP-T02-013",
+          "referenciaOriginal": "CE, art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a54"
+        },
+        {
+          "id": "DIP-SIM-014-Q26",
+          "pregunta": "Si se intenta notificar en papel en el domicilio y no hay nadie que se haga cargo, ¿cuándo se repite el intento según el artículo 42.2?",
+          "opciones": [
+            "Una sola vez, en una hora distinta y dentro de los tres días siguientes",
+            "En la misma hora del siguiente día necesariamente",
+            "Dos veces más en el plazo de diez días",
+            "Se publica sin más trámite en el BOE"
+          ],
+          "correcta": 0,
+          "justificacion": "La notificación domiciliaria se intentará **una sola vez más**, en **hora distinta** y dentro de los **tres días siguientes**, respetando los requisitos horarios del **artículo 42.2**.",
+          "trampa": "El segundo intento debe guardar **al menos tres horas** respecto del primero y alternar antes y después de las **15:00**.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Una sola vez, en una hora distinta y dentro de los tres días siguientes",
+          "tema": 7,
+          "origenId": "DIP-T07-013",
+          "referenciaOriginal": "Ley 39/2015, artículo 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a42"
+        },
+        {
+          "id": "DIP-SIM-014-Q27",
+          "pregunta": "¿Qué principio permite que distintas Administraciones intercambien y reutilicen información?",
+          "opciones": [
+            "Publicidad",
+            "Jerarquía",
+            "Desconcentración",
+            "Interoperabilidad"
+          ],
+          "correcta": 3,
+          "justificacion": "La interoperabilidad permite el intercambio y la reutilización de datos y documentos entre Administraciones.",
+          "trampa": "Confundir interoperabilidad con coordinación orgánica.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Interoperabilidad",
+          "tema": 9,
+          "origenId": "DIP-T09-012",
+          "referenciaOriginal": "Ley 40/2015, art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a3"
+        },
+        {
+          "id": "DIP-SIM-014-Q28",
+          "pregunta": "Cuando varias Administraciones actúan conjuntamente mediante fórmulas colegiadas, la responsabilidad frente al particular será, como regla general:",
+          "opciones": [
+            "Mancomunada",
+            "Subsidiaria",
+            "Solidaria",
+            "Inexistente"
+          ],
+          "correcta": 2,
+          "justificacion": "Cuando varias Administraciones actúan conjuntamente, la responsabilidad frente al particular es solidaria como regla general.",
+          "trampa": "La distribución interna de responsabilidades entre Administraciones no puede perjudicar al particular.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "Solidaria",
+          "tema": 10,
+          "origenId": "DIP-T10-012",
+          "referenciaOriginal": "Ley 40/2015, art. 33.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a33"
+        },
+        {
+          "id": "DIP-SIM-014-Q29",
+          "pregunta": "Los datos médicos derivados de la vigilancia de la salud:",
+          "opciones": [
+            "Son públicos",
+            "Tienen carácter confidencial",
+            "Pueden comunicarse íntegramente al empresario",
+            "Deben remitirse al comité de empresa"
+          ],
+          "correcta": 1,
+          "justificacion": "Los datos médicos personales tienen carácter confidencial; el empresario solo recibe las conclusiones sobre aptitud o necesidad de medidas preventivas.",
+          "trampa": "El empresario no recibe el historial clínico completo.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Tienen carácter confidencial",
+          "tema": 23,
+          "origenId": "DIP-T23-012",
+          "referenciaOriginal": "PR art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22"
+        },
+        {
+          "id": "DIP-SIM-014-Q30",
+          "pregunta": "En un entorno administrativo, una medida correcta de seguridad es:",
+          "opciones": [
+            "Retirar inmediatamente documentos confidenciales de la bandeja",
+            "Guardar escaneos en carpetas públicas",
+            "Enviar trabajos a cualquier impresora",
+            "Conservar copias innecesarias"
+          ],
+          "correcta": 0,
+          "justificacion": "Los documentos confidenciales deben retirarse de inmediato de la bandeja y controlarse tanto durante la impresión como en su almacenamiento digital.",
+          "trampa": "La impresión segura no sustituye las demás medidas de protección de datos y control de acceso.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Retirar inmediatamente documentos confidenciales de la bandeja",
+          "tema": 34,
+          "origenId": "DIP-T34-012",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#14-seguridad-y-protección-de-datos"
+        },
+        {
+          "id": "DIP-SIM-014-Q31",
+          "pregunta": "¿Qué órgano elabora los estatutos de una mancomunidad según el artículo 44 LRBRL?",
+          "opciones": [
+            "La Diputación exclusivamente",
+            "La Junta Electoral Provincial",
+            "El Consejo de Gobierno estatal",
+            "Los concejales de todos los municipios promotores reunidos en asamblea"
+          ],
+          "correcta": 3,
+          "justificacion": "La elaboración corresponde a los concejales de la totalidad de municipios promotores constituidos en asamblea.",
+          "trampa": "**Asamblea de todos los concejales promotores** elabora estatutos; informe Diputación; **Plenos** aprueban.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "Los concejales de todos los municipios promotores reunidos en asamblea",
+          "tema": 15,
+          "origenId": "DIP-T15-013",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44"
+        },
+        {
+          "id": "DIP-SIM-014-Q32",
+          "pregunta": "¿Cuánto dura la suspensión por nacimiento y cuidado de menor para cada progenitor, como regla general del artículo 48.4 ET?",
+          "opciones": [
+            "Dieciséis semanas",
+            "Veinte semanas",
+            "Diecinueve semanas",
+            "Doce semanas"
+          ],
+          "correcta": 2,
+          "justificacion": "El **art. 48.4 ET** establece **19 semanas** para cada progenitor y **32 semanas en monoparentalidad**, con distribución legal.",
+          "trampa": "**19 semanas** generales, **32** monoparental: no confundir con el régimen anterior.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "Diecinueve semanas",
+          "tema": 20,
+          "origenId": "DIP-T20-013",
+          "referenciaOriginal": "ET art. 48 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a48"
+        },
+        {
+          "id": "DIP-SIM-014-Q33",
+          "pregunta": "Según el artículo 82.3 de la Constitución, ¿cómo debe otorgarse la delegación legislativa al Gobierno?",
+          "opciones": [
+            "De forma implícita y sin plazo",
+            "De forma expresa, para materia concreta y con fijación de plazo",
+            "Por una resolución administrativa singular",
+            "Con carácter indefinido y susceptible de subdelegación"
+          ],
+          "correcta": 1,
+          "justificacion": "La delegación legislativa se otorga al **Gobierno** de forma **expresa**, para **materia concreta** y con fijación de **plazo**; no puede entenderse concedida de modo implícito ni por tiempo indeterminado.",
+          "trampa": "La **delegación legislativa** no es una autorización indefinida para aprobar reglamentos.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "De forma expresa, para materia concreta y con fijación de plazo",
+          "tema": 2,
+          "origenId": "DIP-T02-014",
+          "referenciaOriginal": "CE, art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a82"
+        },
+        {
+          "id": "DIP-SIM-014-Q34",
+          "pregunta": "¿Cuándo se entiende rechazada una notificación electrónica obligatoria sin acceso?",
+          "opciones": [
+            "Tras diez días naturales desde su puesta a disposición",
+            "A los diez días hábiles",
+            "Tras un mes",
+            "Inmediatamente"
+          ],
+          "correcta": 0,
+          "justificacion": "El art. 43.2 establece **10 días naturales** desde la puesta a disposición sin acceder.",
+          "trampa": "**Art. 43.2**: rechazo tras **10 días naturales** sin acceso solo cuando el medio electrónico es **obligatorio** o elegido expresamente.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Tras diez días naturales desde su puesta a disposición",
+          "tema": 7,
+          "origenId": "DIP-T07-014",
+          "referenciaOriginal": "Ley 39/2015, artículo 43 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43"
+        },
+        {
+          "id": "DIP-SIM-014-Q35",
+          "pregunta": "¿Pueden las personas físicas elegir el canal de comunicación?",
+          "opciones": [
+            "Siempre",
+            "Nunca",
+            "Solo los empleados públicos",
+            "Sí, salvo que estén obligadas a relacionarse electrónicamente"
+          ],
+          "correcta": 3,
+          "justificacion": "Conforme a artículo 14 de la legislación administrativa aplicable.",
+          "trampa": "**Persona física** elige canal por regla general; deja de poder elegir si le alcanza obligación de **art. 14.2 o 14.3**.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Sí, salvo que estén obligadas a relacionarse electrónicamente",
+          "tema": 9,
+          "origenId": "DIP-T09-013",
+          "referenciaOriginal": "Ley 39/2015, art. 14.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14"
+        },
+        {
+          "id": "DIP-SIM-014-Q36",
+          "pregunta": "Según el artículo 32.1 de la Ley 40/2015, ¿la anulación administrativa o judicial de un acto presupone por sí sola derecho a indemnización?",
+          "opciones": [
+            "Sí, siempre que el acto resulte anulado",
+            "Sí, si se interpuso un recurso administrativo",
+            "No: deben concurrir los requisitos de responsabilidad patrimonial y lesión indemnizable",
+            "Sí, con independencia de la existencia de daño"
+          ],
+          "correcta": 2,
+          "justificacion": "El **art. 32.1 Ley 40/2015** señala expresamente que la anulación administrativa o contencioso-administrativa de actos o disposiciones **no presupone por sí misma** derecho a indemnización; deben concurrir lesión **antijurídica, efectiva, evaluable e individualizada**, nexo causal y demás requisitos legales.",
+          "trampa": "La **mera anulación** administrativa o judicial no reconoce por sí sola indemnización: exigen daño **antijurídico, efectivo, evaluable, individualizado y causalidad** (**32.1**).",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "No: deben concurrir los requisitos de responsabilidad patrimonial y lesión indemnizable",
+          "tema": 10,
+          "origenId": "DIP-T10-013",
+          "referenciaOriginal": "Ley 40/2015, art. 32.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32"
+        },
+        {
+          "id": "DIP-SIM-014-Q37",
+          "pregunta": "¿Cuántos delegados de prevención corresponden a una plantilla de entre 50 y 100 personas trabajadoras?",
+          "opciones": [
+            "Uno",
+            "Dos",
+            "Tres",
+            "Cuatro"
+          ],
+          "correcta": 1,
+          "justificacion": "La escala del artículo 35.2 fija **2 delegados** entre **50 y 100 trabajadores**.",
+          "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Dos",
+          "tema": 23,
+          "origenId": "DIP-T23-013",
+          "referenciaOriginal": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35"
+        },
+        {
+          "id": "DIP-SIM-014-Q38",
+          "pregunta": "¿Qué servicio de Windows administra los trabajos enviados a imprimir?",
+          "opciones": [
+            "El servicio Cola de impresión (Print Spooler)",
+            "El servicio de sincronización de favoritos",
+            "El servicio de ubicación GPS",
+            "El lector óptico del escáner"
+          ],
+          "correcta": 0,
+          "justificacion": "El servicio Print Spooler gestiona los trabajos de impresión y su cola; si falla, pueden quedar bloqueados.",
+          "trampa": "No confundir servicio de cola con controlador o impresora.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "El servicio Cola de impresión (Print Spooler)",
+          "tema": 34,
+          "origenId": "DIP-T34-013",
+          "referenciaOriginal": "Microsoft Support · https://support.microsoft.com/en-us/windows/hardware/printer/fix-print-spooler-service-not-running-errors-in-windows"
+        },
+        {
+          "id": "DIP-SIM-014-Q39",
+          "pregunta": "¿Quién aprueba los estatutos de una mancomunidad?",
+          "opciones": [
+            "El Presidente de Diputación",
+            "El alcalde del municipio mayor",
+            "El Ministerio de Política Territorial",
+            "Los Plenos de todos los ayuntamientos integrantes"
+          ],
+          "correcta": 3,
+          "justificacion": "Los **Plenos de todos los ayuntamientos** aprueban los estatutos.",
+          "trampa": "Aprueban estatutos los **Plenos de todos los ayuntamientos**; Diputación informa, no los aprueba.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "Los Plenos de todos los ayuntamientos integrantes",
+          "tema": 15,
+          "origenId": "DIP-T15-014",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44"
+        },
+        {
+          "id": "DIP-SIM-014-Q40",
+          "pregunta": "¿Qué preaviso exige la dimisión voluntaria del trabajador según el artículo 49.1.d ET?",
+          "opciones": [
+            "Siempre treinta días",
+            "Siempre quince días naturales",
+            "El fijado en convenio colectivo o por la costumbre del lugar",
+            "No puede existir preaviso"
+          ],
+          "correcta": 2,
+          "justificacion": "**Art. 49.1.d ET**: debe mediar el preaviso del **convenio colectivo** o la **costumbre del lugar**.",
+          "trampa": "**Dimisión** no tiene preaviso universal de **15 o 30 días**.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "El fijado en convenio colectivo o por la costumbre del lugar",
+          "tema": 20,
+          "origenId": "DIP-T20-014",
+          "referenciaOriginal": "ET art. 49 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a49"
+        },
+        {
+          "id": "DIP-SIM-014-Q41",
+          "pregunta": "¿Quién ejerce la potestad reglamentaria conforme al artículo 97 CE?",
+          "opciones": [
+            "El Tribunal Supremo",
+            "El Gobierno",
+            "El Tribunal Constitucional",
+            "El Defensor del Pueblo"
+          ],
+          "correcta": 1,
+          "justificacion": "El **Gobierno** ejerce la función ejecutiva y potestad reglamentaria conforme a la Constitución y las leyes.",
+          "trampa": "**Art. 97** atribuye al **Gobierno** potestad reglamentaria; no a los tribunales ni al Defensor.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "El Gobierno",
+          "tema": 2,
+          "origenId": "DIP-T02-015",
+          "referenciaOriginal": "CE, art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a97"
+        },
+        {
+          "id": "DIP-SIM-014-Q42",
+          "pregunta": "Si no puede practicarse la notificación y se desconoce el domicilio, ¿dónde debe anunciarse?",
+          "opciones": [
+            "En el Boletín Oficial del Estado",
+            "En un periódico privado",
+            "En el tablón de la oficina únicamente",
+            "En una red social oficial"
+          ],
+          "correcta": 0,
+          "justificacion": "El art. 44 establece anuncio obligatorio en **BOE**; otros anuncios son facultativos o complementarios.",
+          "trampa": "**Art. 44**: el anuncio que sustituye notificación infructuosa va al **BOE**; anuncios autonómicos o locales son complementarios.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "En el Boletín Oficial del Estado",
+          "tema": 7,
+          "origenId": "DIP-T07-015",
+          "referenciaOriginal": "Ley 39/2015, artículo 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a44"
+        },
+        {
+          "id": "DIP-SIM-014-Q43",
+          "pregunta": "Conforme al art. 10.2 del RD 203/2021, ¿dónde debe publicarse la creación de una sede electrónica de una entidad local?",
+          "opciones": [
+            "Únicamente en una red social institucional",
+            "Solo en el Boletín Oficial del Estado",
+            "Exclusivamente en el tablón de anuncios del Ayuntamiento",
+            "En el Boletín Oficial de la Provincia y en el directorio del Punto de Acceso General electrónico correspondiente"
+          ],
+          "correcta": 3,
+          "justificacion": "El **art. 10.2 RD 203/2021** exige publicar la creación o supresión de sede electrónica en el **boletín oficial que corresponda**, que para **entidades locales es el Boletín Oficial de la Provincia**, y también en el **directorio del PAGe**.",
+          "trampa": "En **entidades locales** el acto de creación/supresión de **sede electrónica** se publica en **BOP** y en el directorio del **PAGe**, **art. 10.2 RD 203/2021**.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "En el Boletín Oficial de la Provincia y en el directorio del Punto de Acceso General electrónico correspondiente",
+          "tema": 9,
+          "origenId": "DIP-T09-014",
+          "referenciaOriginal": "RD 203/2021, art. 10.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a10"
+        },
+        {
+          "id": "DIP-SIM-014-Q44",
+          "pregunta": "¿Quién debe ser indemnizado en un daño antijurídico por funcionamiento del servicio público?",
+          "opciones": [
+            "Solo funcionarios",
+            "Solo empresas",
+            "El particular lesionado si reúne los requisitos legales",
+            "Cualquier solicitante sin acreditar perjuicio"
+          ],
+          "correcta": 2,
+          "justificacion": "La lesión debe ser **efectiva**, **evaluable económicamente** e **individualizada**, sin deber jurídico de soportarla.",
+          "trampa": "La lesión ha de ser **efectiva, evaluable, individualizada** y el particular no tener **deber jurídico de soportarla**.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "El particular lesionado si reúne los requisitos legales",
+          "tema": 10,
+          "origenId": "DIP-T10-014",
+          "referenciaOriginal": "Ley 40/2015, art. 32.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32"
+        },
+        {
+          "id": "DIP-SIM-014-Q45",
+          "pregunta": "¿Cuántos delegados de prevención corresponden a una plantilla de 101 a 500 personas?",
+          "opciones": [
+            "Dos",
+            "Tres",
+            "Cuatro",
+            "Cinco"
+          ],
+          "correcta": 1,
+          "justificacion": "Para plantillas entre **101 y 500** corresponden **3 delegados de prevención**.",
+          "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Tres",
+          "tema": 23,
+          "origenId": "DIP-T23-014",
+          "referenciaOriginal": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35"
+        },
+        {
+          "id": "DIP-SIM-014-Q46",
+          "pregunta": "Si la aplicación Escáner de Windows no aparece al buscarla, ¿qué indica Microsoft?",
+          "opciones": [
+            "Instalarla desde Microsoft Store",
+            "Formatear la unidad principal antes de escanear",
+            "Activar siempre Bluetooth",
+            "Deshabilitar la impresora predeterminada"
+          ],
+          "correcta": 0,
+          "justificacion": "La documentación oficial aclara que la aplicación Escáner puede no estar instalada y ofrece su instalación desde Microsoft Store.",
+          "trampa": "La ausencia de la aplicación no implica ausencia del escáner ni del controlador.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Instalarla desde Microsoft Store",
+          "tema": 34,
+          "origenId": "DIP-T34-014",
+          "referenciaOriginal": "Microsoft Support · https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+        },
+        {
+          "id": "DIP-SIM-014-Q47",
+          "pregunta": "¿Qué informe se exige sobre el proyecto de estatutos de una mancomunidad?",
+          "opciones": [
+            "Informe del Tribunal de Cuentas",
+            "Informe del Senado",
+            "Informe de la Junta Electoral Central",
+            "Informe de la Diputación o Diputaciones interesadas"
+          ],
+          "correcta": 3,
+          "justificacion": "La **Diputación o Diputaciones provinciales interesadas** emiten informe.",
+          "trampa": "Informe de **Diputación/es** no es equivalente a aprobación de estatutos, que compete a **Plenos**.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md",
+          "respuestaLiteral": "Informe de la Diputación o Diputaciones interesadas",
+          "tema": 15,
+          "origenId": "DIP-T15-015",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44"
+        },
+        {
+          "id": "DIP-SIM-014-Q48",
+          "pregunta": "¿En qué plazo caduca la acción judicial contra el despido según el artículo 59.3 ET?",
+          "opciones": [
+            "Veinte días naturales",
+            "Tres meses",
+            "Veinte días hábiles",
+            "Un año"
+          ],
+          "correcta": 2,
+          "justificacion": "**Art. 59.3 ET**: caducidad para impugnar despido en **20 días hábiles**, con las reglas legales sobre conciliación.",
+          "trampa": "**20 días hábiles** para impugnar ≠ **20 días de salario/año** por despido objetivo.",
+          "referencia": "content/diputacion-toledo/tema-20/manual.md",
+          "respuestaLiteral": "Veinte días hábiles",
+          "tema": 20,
+          "origenId": "DIP-T20-015",
+          "referenciaOriginal": "ET art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a59"
+        },
+        {
+          "id": "DIP-SIM-014-Q49",
+          "pregunta": "¿Cuál es el plazo máximo inicial del estado de alarma?",
+          "opciones": [
+            "Treinta días",
+            "Quince días",
+            "Sesenta días",
+            "Setenta y dos horas"
+          ],
+          "correcta": 1,
+          "justificacion": "El estado de alarma se declara mediante decreto del **Gobierno** por plazo máximo de **15 días**, sin prórroga sin autorización del **Congreso**.",
+          "trampa": "**15 días** de alarma, frente a **30 días** iniciales de excepción; declaración por el **Gobierno**.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Quince días",
+          "tema": 2,
+          "origenId": "DIP-T02-016",
+          "referenciaOriginal": "CE, art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a116"
+        },
+        {
+          "id": "DIP-SIM-014-Q50",
+          "pregunta": "¿Qué publicación surte efectos de notificación en un procedimiento selectivo?",
+          "opciones": [
+            "La que se realice en el medio indicado por la convocatoria",
+            "Cualquier web, aunque no se indique",
+            "Un correo interno al tribunal",
+            "El periódico local"
+          ],
+          "correcta": 0,
+          "justificacion": "En procedimientos selectivos la convocatoria debe indicar el medio de sucesivas publicaciones; las de lugares diferentes carecen de validez.",
+          "trampa": "**Art. 45.1.b**: en selectivos manda el **medio indicado por la convocatoria**, no otro elegido por el tribunal.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "La que se realice en el medio indicado por la convocatoria",
+          "tema": 7,
+          "origenId": "DIP-T07-016",
+          "referenciaOriginal": "Ley 39/2015, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a45"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 013: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 013: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 014: 50 preguntas de 8 temas, trazabilidad original y claves equilibradas, sin coincidencias normalizadas con modelos anteriores; T22 excluido.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
