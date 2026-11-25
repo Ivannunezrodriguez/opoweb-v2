@@ -686,9 +686,10 @@
             "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
             "25/11/2026: clasificación sin exclusión por grupo y sin CUMPLE automático (1c3b7ef, publicación SUCCESS 45585766770 tras ajuste 3666350). Incorporada cláusula de titulación normalizada, URL y fecha de lectura, visualización y regresión de procedencia (f0c9442 y corrección de fecha). Pendiente CI y cotejo real; no acredita cumplimiento integral.",
             "25/11/2026: texto oficial BOP Toledo 218 anuncio 5248, anexo III El Viso 2860/2026 acredita ESO o equivalente y permiso B vigente. Captura PDF no disponible. Caso real de requisito adicional, sin afirmar cumplimiento personal ni ficha enriquecida.",
-            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real."
+            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real.",
+            "25/11/2026: preservadas alternativas y equivalencias de titulación, ampliados permisos y experiencia obligatoria, separados evaluación académica y global, e incluidos requisitos en avisos. Publicación 45671124912 SUCCESS; evaluación manual de tres estados y pruebas 45671783773 SUCCESS. Integrada revisión privada local por literal y fuente, con confirmación expresa de revisión íntegra, commit 973d75c. Pendiente validación del visor y comprobación real de persistencia; no se presume admisión."
           ],
-          "nextAction": "Confirmar CI de procedencia, cotejar ficha real y alternativas completas de titulación; evaluar requisitos adicionales y no certificar CUMPLE sin evidencia integral.",
+          "nextAction": "Verificar CI de integración local, probar interacción y persistencia en navegador con cambios de evidencia y comprobar que no modifica feed ni envía datos personales; cerrar alcance RAD-09 si se acredita.",
           "priority": "ALTA"
         },
         {
@@ -3643,5 +3644,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T17:57:51.000Z"
+  "updatedAtUtc": "2026-11-25T18:08:05.000Z"
 }
