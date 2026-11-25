@@ -26,7 +26,7 @@
       "duracionMinutos": 45
     },
     "segundoEjercicio": {
-      "modelosDeEntrenamiento": 6,
+      "modelosDeEntrenamiento": 8,
       "cuestionesPorModelo": 5,
       "formato": "Desarrollo escrito (formato de entrenamiento, no formato oficial confirmado)",
       "tiempo": "Tiempo de trabajo orientativo en cada simulacro; el tribunal fijará el oficial",
@@ -996,6 +996,244 @@
               },
               {
                 "descripcion": "Explica aprobación definitiva automática sin reclamaciones y un mes para resolverlas.",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-07",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 7 · Registro, plazos, silencio y recursos",
+      "temas": [
+        3,
+        4,
+        13
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "Caso ficticio: una oficina municipal tramita solicitudes y recursos. Para los cómputos por días se supone que no hay festivos adicionales y que no existe normativa especial ni suspensión o ampliación del plazo. Razona cada respuesta.",
+      "cuestiones": [
+        {
+          "pregunta": "Una notificación se practica un lunes hábil. ¿Cuándo vence un plazo de cinco días hábiles?",
+          "respuesta": "El cómputo comienza el martes siguiente; se cuentan martes, miércoles, jueves, viernes y lunes de la semana siguiente. Ese lunes vence el plazo, al excluir sábado y domingo.",
+          "trampa": "No contar el día de notificación ni considerar sábado como día hábil.",
+          "referencias": [
+            "Ley 39/2015, artículo 30",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Inicia cómputo el martes.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica el lunes siguiente como vencimiento.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Una persona presenta electrónicamente un escrito el domingo, siendo inhábil. ¿Qué regla se aplica al cumplimiento de un plazo en días hábiles?",
+          "respuesta": "Para el cumplimiento de plazos por interesados, la presentación se entiende realizada en la primera hora del primer día hábil siguiente, salvo norma que permita expresamente recepción en inhábil. El registro electrónico admite documentos todos los días del año.",
+          "trampa": "No confundir disponibilidad permanente del registro con cómputo de días hábiles.",
+          "referencias": [
+            "Ley 39/2015, artículo 31",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Distingue registro abierto permanentemente.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Indica primera hora del primer día hábil siguiente y excepción.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "En un procedimiento a solicitud del interesado cuya norma no fija plazo máximo, ¿qué plazo general tiene la Administración para resolver y notificar?",
+          "respuesta": "El plazo general es de tres meses, contados desde la entrada de la solicitud en el registro electrónico de la Administración u organismo competente para su tramitación. Se mantiene la obligación de resolver expresamente.",
+          "trampa": "No aplicar automáticamente seis meses ni contar desde cualquier registro.",
+          "referencias": [
+            "Ley 39/2015, artículo 21",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Indica tres meses.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica registro competente y obligación de resolver.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Una reclamación de responsabilidad patrimonial no se resuelve ni notifica dentro del plazo máximo. ¿Qué sentido tiene el silencio?",
+          "respuesta": "El silencio es desestimatorio por tratarse de responsabilidad patrimonial de las Administraciones Públicas. La desestimación presunta permite interponer el recurso procedente y no elimina el deber de resolver.",
+          "trampa": "No aplicar la regla general estimatoria a las excepciones legales.",
+          "referencias": [
+            "Ley 39/2015, artículo 24",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica silencio desestimatorio.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica acceso a recurso y deber de resolución.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Se notifica un acto expreso que pone fin a la vía administrativa. ¿Qué plazo existe para recurrir potestativamente en reposición?",
+          "respuesta": "El plazo es de un mes ante el mismo órgano que dictó el acto. Si transcurre sin recurso, solo cabe recurso contencioso-administrativo, sin perjuicio del recurso extraordinario de revisión cuando proceda.",
+          "trampa": "No confundir plazo de interposición con el plazo máximo para resolver el recurso.",
+          "referencias": [
+            "Ley 39/2015, artículo 123",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a123",
+            "Ley 39/2015, artículo 124",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Indica un mes.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica mismo órgano y carácter potestativo.",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-08",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 8 · Excel aplicado a la gestión municipal",
+      "temas": [
+        18
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "Una hoja de Excel en español contiene expedientes en filas 2 a 101: A identificador, B estado (Pendiente o Cerrado), C importe numérico y D importe abonado. E contiene saldo. Se usa punto y coma como separador de argumentos. No se utilizan datos personales reales.",
+      "cuestiones": [
+        {
+          "pregunta": "Escribe la fórmula de E2 para calcular el saldo pendiente de abono y explica cómo copiarla a todas las filas.",
+          "respuesta": "La fórmula es =C2-D2. Al copiarla hacia abajo mediante el controlador de relleno, ambas referencias relativas se adaptan a cada fila, por ejemplo =C3-D3.",
+          "trampa": "No fijar las referencias de cada fila mediante signos de dólar.",
+          "referencias": [
+            "Microsoft Excel, funciones por orden alfabético",
+            "https://support.microsoft.com/es-es/excel/excel-functions-alphabetical"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Escribe =C2-D2.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica el ajuste de referencias relativas.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Escribe una fórmula para contar cuántos expedientes figuran exactamente con estado Pendiente.",
+          "respuesta": "La fórmula =CONTAR.SI(B2:B101;\"Pendiente\") devuelve el número de celdas del rango cuyo contenido coincide con el criterio. No suma los importes asociados.",
+          "trampa": "CONTAR.SI cuenta coincidencias, no suma importes.",
+          "referencias": [
+            "Microsoft Excel, CONTAR.SI",
+            "https://support.microsoft.com/es-es/excel/get-started/use-the-countif-function-in-microsoft-excel"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Usa CONTAR.SI con rango B2:B101.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Especifica el criterio Pendiente.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Escribe una fórmula para sumar los importes de la columna C únicamente de los expedientes pendientes.",
+          "respuesta": "La fórmula =SUMAR.SI(B2:B101;\"Pendiente\";C2:C101) evalúa el estado en B y suma los importes correspondientes en C. Ambos rangos deben alinearse por filas.",
+          "trampa": "No intercambiar el rango de criterio con el rango de suma.",
+          "referencias": [
+            "Microsoft Excel, SUMAR.SI",
+            "https://support.microsoft.com/es-es/excel/functions/sumif-function"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica rango y criterio correctos.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica rango de suma C2:C101.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "En F2 muestra Pagado si el saldo de E2 es cero y Revisar en los demás casos. ¿Qué fórmula utilizarías?",
+          "respuesta": "La fórmula =SI(E2=0;\"Pagado\";\"Revisar\") evalúa la condición y devuelve uno de los dos textos. También marca para revisión los saldos negativos.",
+          "trampa": "No utilizar comillas alrededor de la comparación E2=0.",
+          "referencias": [
+            "Microsoft Excel, funciones por orden alfabético",
+            "https://support.microsoft.com/es-es/excel/excel-functions-alphabetical"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Usa SI con condición E2=0.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Devuelve los dos textos en el orden correcto.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Calcula el importe medio de los expedientes, incluidos los importes cero, suponiendo que todas las celdas de C2:C101 son numéricas.",
+          "respuesta": "La fórmula =PROMEDIO(C2:C101) suma los importes numéricos y divide por su cantidad. Las celdas con cero se incluyen en el cálculo; las vacías se omiten.",
+          "trampa": "No confundir una celda vacía con una celda cuyo valor es cero.",
+          "referencias": [
+            "Microsoft Excel, funciones por orden alfabético",
+            "https://support.microsoft.com/es-es/excel/excel-functions-alphabetical"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Escribe PROMEDIO con rango correcto.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica el tratamiento de ceros y vacías.",
                 "puntos": 1
               }
             ]
