@@ -2491,6 +2491,254 @@
           }
         }
       ]
+    },
+    {
+      "id": "DIP-PRACT-003",
+      "titulo": "Modelo práctico 3 · Organización municipal y personal",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "tiempoSugeridoMinutos": 35,
+      "temas": [
+        12,
+        13,
+        14,
+        17
+      ],
+      "enunciado": "Un municipio de régimen común de 12.000 habitantes solicita apoyo de la Diputación para la prestación de servicios. Una aspirante ha superado un proceso selectivo de funcionario de carrera y otra persona funcionaria presenta renuncia durante un expediente disciplinario. Responda conforme a LRBRL y al régimen básico del TREBEP, sin especialidades.",
+      "cuestiones": [
+        {
+          "id": "DIP-PRACT-003-Q1",
+          "pregunta": "¿Es obligatoria la Junta de Gobierno Local? ¿Qué órganos existen en todos los ayuntamientos?",
+          "respuesta": "Sí, pues supera 5.000 habitantes. Alcalde, tenientes de alcalde y Pleno existen en todos los ayuntamientos.",
+          "trampa": "No confundir el umbral con 20.000 habitantes.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a20"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Aplica umbral",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica tres órganos",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-003-Q2",
+          "pregunta": "¿Qué servicios mínimos adicionales corresponden por superar 5.000 habitantes?",
+          "respuesta": "Parque público, biblioteca pública y tratamiento de residuos, además de los servicios comunes.",
+          "trampa": "Recogida y tratamiento de residuos no son el mismo servicio.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica parque y biblioteca",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica tratamiento adicional",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-003-Q3",
+          "pregunta": "¿Puede recibir apoyo provincial en recaudación y administración electrónica?",
+          "respuesta": "Sí. El artículo 36.1.f y g atribuye a la Diputación asistencia en gestión recaudatoria voluntaria y ejecutiva y apoyo financiero, así como prestación de administración electrónica y contratación centralizada en municipios de menos de 20.000 habitantes.",
+          "trampa": "No atribuir estas funciones exclusivamente a municipios menores de 5.000 habitantes.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a36"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica umbral inferior a 20.000",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica recaudación y administración electrónica",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-003-Q4",
+          "pregunta": "¿Qué requisitos restan a la aspirante para adquirir la condición de funcionaria de carrera?",
+          "respuesta": "Nombramiento por órgano competente publicado en diario oficial, acatamiento de Constitución y, en su caso, Estatuto y resto del ordenamiento, y toma de posesión dentro del plazo.",
+          "trampa": "Superar la selección no basta por sí solo.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a62"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica nombramiento y publicación",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica acatamiento y toma de posesión",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-003-Q5",
+          "pregunta": "¿Puede aceptarse la renuncia durante expediente disciplinario?",
+          "respuesta": "No. La renuncia requiere escrito y aceptación expresa, que está prohibida durante expediente disciplinario. La renuncia aceptada no impide volver a ingresar mediante selección.",
+          "trampa": "No confundir presentar la renuncia con su aceptación.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a64"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica prohibición",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica escrito y aceptación expresa",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-PRACT-004",
+      "titulo": "Modelo práctico 4 · Liquidaciones y recaudación ejecutiva",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "tiempoSugeridoMinutos": 35,
+      "temas": [
+        25,
+        26
+      ],
+      "enunciado": "Se notifican dos liquidaciones tributarias individuales de 2.000 euros: A el 10 de noviembre y B el 24 de noviembre de 2026. En otro expediente C, con deuda impagada de 2.000 euros, se notifica providencia de apremio el 12 de enero de 2027. Suponga hábiles el 21 de diciembre de 2026, el 5 y el 20 de enero de 2027, sin suspensión ni especialidades.",
+      "cuestiones": [
+        {
+          "id": "DIP-PRACT-004-Q1",
+          "pregunta": "¿Hasta cuándo puede pagar A en voluntaria?",
+          "respuesta": "El plazo ordinario alcanza el 20 de diciembre de 2026, que es domingo. Se traslada al inmediato hábil siguiente: el lunes 21 de diciembre, conforme a la premisa del supuesto.",
+          "trampa": "No aplicar el día 20 del mismo mes.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica día 20 del mes posterior",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Aplica traslado por inhabilidad",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-004-Q2",
+          "pregunta": "¿Hasta cuándo puede pagar B en voluntaria?",
+          "respuesta": "Hasta el 5 de enero de 2027, si es hábil: día cinco del segundo mes posterior.",
+          "trampa": "No confundir con cinco del mes siguiente.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica segundo mes posterior",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 5 de enero",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-004-Q3",
+          "pregunta": "¿Hasta cuándo puede pagar C en el plazo del artículo 62.5?",
+          "respuesta": "Hasta el 20 de enero de 2027, si es hábil, porque la providencia se notificó entre el 1 y el 15.",
+          "trampa": "En apremio, el día 20 corresponde al mismo mes.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica día 20 del mismo mes",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula fecha",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-004-Q4",
+          "pregunta": "Si C paga deuda y recargo íntegros dentro de ese plazo, ¿cuánto abona?",
+          "respuesta": "2.200 euros: principal 2.000 y recargo reducido del 10 %, 200 euros. No se exigen intereses devengados desde inicio del ejecutivo.",
+          "trampa": "El pago de principal solo no cumple el requisito del recargo reducido.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 10 % y condición",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula total",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-004-Q5",
+          "pregunta": "Si C paga después del plazo sin haber satisfecho previamente la deuda, ¿qué recargo procede?",
+          "respuesta": "Apremio ordinario del 20 %, 400 euros; principal y recargo suman 2.400 euros, más intereses y, si proceden, costas.",
+          "trampa": "Los recargos son incompatibles entre sí.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 20 %",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula total y distingue intereses",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
