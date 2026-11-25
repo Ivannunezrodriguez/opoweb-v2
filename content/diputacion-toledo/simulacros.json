@@ -3092,9 +3092,869 @@
           "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 164 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a164"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-008",
+      "titulo": "Examen de entrenamiento 3 · 50 preguntas / 60 minutos · régimen local, personal y tributos",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas seleccionadas del banco temático, sin coincidencias textuales normalizadas con los modelos anteriores. Diez temas prioritarios; no es examen oficial ni cobertura completa. Puntuación de práctica +0,20/−0,05 pendiente de cotejo íntegro de bases.",
+      "notaEditorial": "Reutilización del banco, no preguntas inéditas. Referencias originales conservadas; sin auditoría jurídica individual nueva.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-008-Q01",
+          "tema": 1,
+          "pregunta": "¿Cuándo entró en vigor la Constitución española de 1978?",
+          "opciones": [
+            "El 6 de diciembre de 1978",
+            "El 27 de diciembre de 1978",
+            "El 29 de diciembre de 1978",
+            "El 31 de octubre de 1978"
+          ],
+          "correcta": 2,
+          "justificacion": "La Constitución fue publicada en el BOE el 29 de diciembre de 1978 y su disposición final estableció la entrada en vigor el mismo día de su publicación.",
+          "trampa": "No confundir el referéndum del 6 de diciembre con la entrada en vigor del 29 de diciembre.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "origenId": "DIP-T01-001",
+          "referenciaOriginal": "CE, art. df · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#df"
+        },
+        {
+          "id": "DIP-SIM-008-Q02",
+          "tema": 14,
+          "pregunta": "El número de diputados que puede integrar la Junta de Gobierno, además de la Presidencia, no puede superar:",
+          "opciones": [
+            "Un tercio del número legal",
+            "La mitad del número legal",
+            "Un cuarto de los presentes",
+            "Dos quintos del Pleno"
+          ],
+          "correcta": 0,
+          "justificacion": "La Junta de Gobierno se integra por la Presidencia y un número de diputados no superior a un tercio del número legal de miembros de la corporación.",
+          "trampa": "El cálculo se realiza sobre el número legal de miembros, no sobre los asistentes a una sesión.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "origenId": "DIP-T14-006",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a35"
+        },
+        {
+          "id": "DIP-SIM-008-Q03",
+          "tema": 28,
+          "pregunta": "El plazo ordinario para responder al ejercicio de derechos de protección de datos es de:",
+          "opciones": [
+            "10 días",
+            "15 días",
+            "1 mes",
+            "3 meses"
+          ],
+          "correcta": 2,
+          "justificacion": "El responsable debe responder sin dilación indebida y, como máximo, en 1 mes desde la recepción de la solicitud.",
+          "trampa": "La ampliación posible es de 2 meses adicionales; no convierte el plazo ordinario en 3 meses.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "origenId": "DIP-T28-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#6-derechos-de-las-personas"
+        },
+        {
+          "id": "DIP-SIM-008-Q04",
+          "tema": 12,
+          "pregunta": "La alteración de los límites provinciales debe aprobarse mediante:",
+          "opciones": [
+            "Ley ordinaria",
+            "Decreto-ley",
+            "Ley orgánica",
+            "Reglamento autonómico"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 141.1 de la Constitución exige una ley orgánica para cualquier alteración de los límites provinciales.",
+          "trampa": "No basta una ley ordinaria ni una disposición reglamentaria autonómica.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "origenId": "DIP-T12-003",
+          "referenciaOriginal": "Constitución Española, art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a141"
+        },
+        {
+          "id": "DIP-SIM-008-Q05",
+          "tema": 18,
+          "pregunta": "La carrera horizontal consiste en:",
+          "opciones": [
+            "Progresar de tramo sin cambiar de puesto",
+            "Ascender a un subgrupo superior",
+            "Acceder a otro cuerpo del mismo subgrupo",
+            "Obtener un puesto por libre designación"
+          ],
+          "correcta": 0,
+          "justificacion": "La carrera horizontal permite progresar de tramo sin necesidad de cambiar de puesto de trabajo.",
+          "trampa": "No debe confundirse con la promoción interna horizontal, que permite acceder a otro cuerpo o escala del mismo subgrupo o grupo.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "origenId": "DIP-T18-002",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a62"
+        },
+        {
+          "id": "DIP-SIM-008-Q06",
+          "tema": 30,
+          "pregunta": "¿Qué naturaleza tiene el IVTM dentro del sistema tributario local?",
+          "opciones": [
+            "Impuesto municipal obligatorio",
+            "Impuesto municipal potestativo",
+            "Tasa provincial",
+            "Contribución especial"
+          ],
+          "correcta": 0,
+          "justificacion": "El Impuesto sobre Vehículos de Tracción Mecánica es un impuesto municipal de exacción obligatoria.",
+          "trampa": "No debe confundirse con el IIVTNU, que es un impuesto municipal potestativo.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "origenId": "DIP-T30-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#1-marco-normativo-común"
+        },
+        {
+          "id": "DIP-SIM-008-Q07",
+          "tema": 13,
+          "pregunta": "¿Cada cuánto debe renovarse la inscripción padronal de determinados extranjeros no comunitarios sin residencia de larga duración?",
+          "opciones": [
+            "Cada 2 años",
+            "Cada año",
+            "Cada 3 años",
+            "Cada 5 años"
+          ],
+          "correcta": 0,
+          "justificacion": "La inscripción de extranjeros no comunitarios sin autorización de residencia de larga duración debe renovarse periódicamente cada 2 años.",
+          "trampa": "**Dos años** de renovación solo para extranjeros **no comunitarios sin autorización de larga duración**, no para todos los residentes.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "origenId": "DIP-T13-005",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a16"
+        },
+        {
+          "id": "DIP-SIM-008-Q08",
+          "tema": 19,
+          "pregunta": "¿Cuándo prescribe una sanción impuesta por falta leve?",
+          "opciones": [
+            "A los 6 meses",
+            "A los 2 años",
+            "Al año",
+            "A los 3 años"
+          ],
+          "correcta": 2,
+          "justificacion": "Las sanciones impuestas por faltas leves prescriben al año desde la firmeza en vía administrativa de la resolución sancionadora.",
+          "trampa": "No debe confundirse el plazo de prescripción de la sanción con el de la propia falta leve.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "origenId": "DIP-T19-005",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141"
+        },
+        {
+          "id": "DIP-SIM-008-Q09",
+          "tema": 1,
+          "pregunta": "¿Dónde reside la soberanía nacional según la Constitución?",
+          "opciones": [
+            "En el pueblo español",
+            "En las Cortes Generales",
+            "En el Rey",
+            "En el conjunto de comunidades autónomas"
+          ],
+          "correcta": 0,
+          "justificacion": "El artículo 1.2 dispone que la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
+          "trampa": "Las Cortes representan al pueblo, pero no son las titulares de la soberanía nacional.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "origenId": "DIP-T01-003",
+          "referenciaOriginal": "CE, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1"
+        },
+        {
+          "id": "DIP-SIM-008-Q10",
+          "tema": 17,
+          "pregunta": "¿Qué principios deben regir el acceso al empleo público?",
+          "opciones": [
+            "Antigüedad, confianza y libre designación",
+            "Jerarquía, oportunidad y discrecionalidad",
+            "Igualdad, mérito, capacidad y publicidad",
+            "Exclusivamente mérito y antigüedad"
+          ],
+          "correcta": 2,
+          "justificacion": "La selección debe respetar los principios de igualdad, mérito, capacidad y publicidad, junto con las demás garantías legales de transparencia, imparcialidad y objetividad.",
+          "trampa": "No puede eliminarse la publicidad ni sustituirse la capacidad por la antigüedad.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "origenId": "DIP-T17-002",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a37"
+        },
+        {
+          "id": "DIP-SIM-008-Q11",
+          "tema": 29,
+          "pregunta": "¿Cuál es el orden legal de prelación del hecho imponible del IBI?",
+          "opciones": [
+            "Propiedad, usufructo, superficie y concesión",
+            "Usufructo, propiedad, concesión y superficie",
+            "Concesión, superficie, usufructo y propiedad",
+            "Superficie, concesión, propiedad y usufructo"
+          ],
+          "correcta": 2,
+          "justificacion": "La ley establece el siguiente orden de prelación para el hecho imponible del IBI: concesión administrativa, derecho de superficie, usufructo y propiedad.",
+          "trampa": "El propietario no es siempre el sujeto pasivo si concurre un derecho anterior en la prelación legal.",
+          "referencia": "content/diputacion-toledo/tema-29/manual.md",
+          "origenId": "DIP-T29-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-29/manual.md#3-hecho-imponible-del-ibi"
+        },
+        {
+          "id": "DIP-SIM-008-Q12",
+          "tema": 12,
+          "pregunta": "La provincia es constitucionalmente:",
+          "opciones": [
+            "Entidad local, agrupación de municipios y división territorial para actividades del Estado",
+            "Solo una división territorial estatal",
+            "Solo una agrupación de municipios",
+            "Una administración autonómica periférica"
+          ],
+          "correcta": 0,
+          "justificacion": "El artículo 141.1 configura la provincia como entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado.",
+          "trampa": "La provincia reúne simultáneamente varias dimensiones; no tiene una única naturaleza jurídica o territorial.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "origenId": "DIP-T12-005",
+          "referenciaOriginal": "Constitución Española, art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a141"
+        },
+        {
+          "id": "DIP-SIM-008-Q13",
+          "tema": 18,
+          "pregunta": "La libre designación:",
+          "opciones": [
+            "No requiere convocatoria",
+            "Solo puede utilizarse para personal laboral",
+            "Es siempre temporal",
+            "Exige convocatoria pública"
+          ],
+          "correcta": 3,
+          "justificacion": "La libre designación exige convocatoria pública, cumplimiento de los requisitos del puesto y resolución por el órgano competente.",
+          "trampa": "La expresión libre designación no elimina la publicidad ni los requisitos del procedimiento.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "origenId": "DIP-T18-004",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 70 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a70"
+        },
+        {
+          "id": "DIP-SIM-008-Q14",
+          "tema": 30,
+          "pregunta": "Es sujeto pasivo del IVTM, con carácter general:",
+          "opciones": [
+            "Quien conduce habitualmente",
+            "Quien figura como titular en el permiso de circulación",
+            "El propietario civil aunque no figure registrado",
+            "La compañía aseguradora"
+          ],
+          "correcta": 1,
+          "justificacion": "Es sujeto pasivo del IVTM la persona física, jurídica o entidad a cuyo nombre conste el vehículo en el permiso de circulación.",
+          "trampa": "El uso material del vehículo y la titularidad que consta en el permiso de circulación pueden no coincidir.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "origenId": "DIP-T30-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#5-sujeto-pasivo"
+        },
+        {
+          "id": "DIP-SIM-008-Q15",
+          "tema": 14,
+          "pregunta": "¿Cuál es una finalidad propia y específica de la provincia?",
+          "opciones": [
+            "Sustituir siempre a los ayuntamientos",
+            "Ejercer la potestad legislativa autonómica",
+            "Dirigir la Administración General del Estado en la provincia",
+            "Garantizar la solidaridad y el equilibrio intermunicipales"
+          ],
+          "correcta": 3,
+          "justificacion": "La provincia garantiza los principios de solidaridad y equilibrio intermunicipales y la prestación integral y adecuada de los servicios municipales.",
+          "trampa": "La Diputación asiste, coopera y coordina, pero no sustituye con carácter general al municipio.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "origenId": "DIP-T14-003",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 31 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a31"
+        },
+        {
+          "id": "DIP-SIM-008-Q16",
+          "tema": 28,
+          "pregunta": "¿Qué se considera dato personal?",
+          "opciones": [
+            "Solo el nombre y apellidos",
+            "Toda información sobre una persona física identificada o identificable",
+            "Únicamente los datos sanitarios",
+            "Solo los datos incluidos en un fichero automatizado"
+          ],
+          "correcta": 1,
+          "justificacion": "El RGPD considera dato personal toda información sobre una persona física identificada o identificable.",
+          "trampa": "El concepto no se limita al nombre y apellidos ni a los tratamientos automatizados.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "origenId": "DIP-T28-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#21-dato-personal"
+        },
+        {
+          "id": "DIP-SIM-008-Q17",
+          "tema": 1,
+          "pregunta": "¿Cuántos artículos contiene la Constitución española?",
+          "opciones": [
+            "168",
+            "170",
+            "171",
+            "169"
+          ],
+          "correcta": 3,
+          "justificacion": "La Constitución contiene 169 artículos, distribuidos entre el Título Preliminar y los Títulos I a X.",
+          "trampa": "El último artículo es el 169; el número de títulos numerados es diez, además del Título Preliminar.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "origenId": "DIP-T01-005",
+          "referenciaOriginal": "CE, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a169"
+        },
+        {
+          "id": "DIP-SIM-008-Q18",
+          "tema": 17,
+          "pregunta": "¿Cuándo deben poseerse los requisitos de participación?",
+          "opciones": [
+            "El día del examen",
+            "Al finalizar el plazo de solicitudes y mantenerse hasta la toma de posesión o contrato",
+            "Al publicarse la lista definitiva",
+            "Solo en la toma de posesión"
+          ],
+          "correcta": 1,
+          "justificacion": "Los requisitos deben poseerse al finalizar el plazo de presentación de solicitudes y mantenerse hasta la toma de posesión o la formalización del contrato.",
+          "trampa": "No basta con reunirlos al final del proceso; también deben poseerse al cerrar el plazo de solicitudes.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "origenId": "DIP-T17-004",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a38"
+        },
+        {
+          "id": "DIP-SIM-008-Q19",
+          "tema": 29,
+          "pregunta": "El tipo supletorio del IBI para bienes inmuebles urbanos es del:",
+          "opciones": [
+            "0,3 %",
+            "0,6 %",
+            "1,10 %",
+            "0,4 %"
+          ],
+          "correcta": 3,
+          "justificacion": "El tipo supletorio del IBI para los bienes inmuebles urbanos es del 0,4 %.",
+          "trampa": "El 1,10 % es el tipo máximo general urbano, no el tipo supletorio.",
+          "referencia": "content/diputacion-toledo/tema-29/manual.md",
+          "origenId": "DIP-T29-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-29/manual.md#81-tipos-básicos-y-máximos"
+        },
+        {
+          "id": "DIP-SIM-008-Q20",
+          "tema": 13,
+          "pregunta": "¿Cuál es el mínimo general de población exigido para crear un nuevo municipio?",
+          "opciones": [
+            "1.000 habitantes",
+            "4.000 habitantes",
+            "2.000 habitantes",
+            "5.000 habitantes"
+          ],
+          "correcta": 1,
+          "justificacion": "La creación de nuevos municipios exige núcleos territorialmente diferenciados de al menos 4.000 habitantes, además de los restantes requisitos legales.",
+          "trampa": "**Art. 13.2**: creación de municipio exige **4.000 habitantes** en núcleo territorialmente diferenciado; también sostenibilidad y suficiencia de recursos.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "origenId": "DIP-T13-002",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 13 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a13"
+        },
+        {
+          "id": "DIP-SIM-008-Q21",
+          "tema": 19,
+          "pregunta": "¿Qué triple identidad exige el principio non bis in idem?",
+          "opciones": [
+            "Órgano, procedimiento y sanción",
+            "Autor, resultado y culpa",
+            "Tiempo, lugar y modo",
+            "Sujeto, hecho y fundamento"
+          ],
+          "correcta": 3,
+          "justificacion": "No cabe una doble sanción penal o administrativa cuando coinciden sujeto, hecho y fundamento.",
+          "trampa": "No basta con que coincidan únicamente el sujeto y el hecho; también debe existir identidad de fundamento.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "origenId": "DIP-T19-002",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 132 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a132"
+        },
+        {
+          "id": "DIP-SIM-008-Q22",
+          "tema": 30,
+          "pregunta": "El IVTM se devenga ordinariamente:",
+          "opciones": [
+            "El 31 de diciembre",
+            "El 1 de enero",
+            "El día de pago",
+            "El 1 de julio"
+          ],
+          "correcta": 1,
+          "justificacion": "El IVTM se devenga el 1 de enero de cada año, salvo en el supuesto de primera adquisición del vehículo.",
+          "trampa": "El devengo y la fecha efectiva de cobro del recibo no son lo mismo.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "origenId": "DIP-T30-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#7-devengo-y-periodo-impositivo"
+        },
+        {
+          "id": "DIP-SIM-008-Q23",
+          "tema": 14,
+          "pregunta": "¿Cuál de los siguientes órganos existe necesariamente en todas las Diputaciones?",
+          "opciones": [
+            "Consejo Social",
+            "Consejo Consultivo Provincial",
+            "Junta Municipal de Distrito",
+            "Junta de Gobierno"
+          ],
+          "correcta": 3,
+          "justificacion": "La Presidencia, las Vicepresidencias, la Junta de Gobierno y el Pleno son órganos necesarios de todas las Diputaciones.",
+          "trampa": "Los órganos complementarios dependen de la normativa aplicable y de la potestad de autoorganización.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "origenId": "DIP-T14-005",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a32"
+        },
+        {
+          "id": "DIP-SIM-008-Q24",
+          "tema": 28,
+          "pregunta": "En España, el menor puede prestar por sí mismo el consentimiento para el tratamiento de sus datos, con carácter general, desde los:",
+          "opciones": [
+            "12 años",
+            "14 años",
+            "13 años",
+            "16 años"
+          ],
+          "correcta": 1,
+          "justificacion": "La Ley Orgánica 3/2018 fija, con carácter general, en 14 años la edad a partir de la cual el menor puede consentir por sí mismo el tratamiento de sus datos.",
+          "trampa": "No debe trasladarse automáticamente la referencia de 16 años prevista por el RGPD como límite máximo para los Estados miembros.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "origenId": "DIP-T28-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#consentimiento-de-menores"
+        },
+        {
+          "id": "DIP-SIM-008-Q25",
+          "tema": 12,
+          "pregunta": "La autonomía local equivale a:",
+          "opciones": [
+            "Soberanía territorial",
+            "Independencia normativa plena",
+            "Ausencia de control jurisdiccional",
+            "Capacidad de gestionar intereses propios dentro de la ley"
+          ],
+          "correcta": 3,
+          "justificacion": "La autonomía local permite ordenar y gestionar los intereses propios de la entidad dentro del marco constitucional y legal.",
+          "trampa": "Autonomía local no significa soberanía ni independencia frente al ordenamiento jurídico.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "origenId": "DIP-T12-002",
+          "referenciaOriginal": "Constitución Española, art. 137 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a137"
+        },
+        {
+          "id": "DIP-SIM-008-Q26",
+          "tema": 18,
+          "pregunta": "¿Cuál es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera?",
+          "opciones": [
+            "La libre designación",
+            "La comisión de servicios",
+            "El concurso",
+            "La adscripción provisional"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 67 de la Ley 4/2011 establece que el concurso es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera.",
+          "trampa": "La libre designación también es una forma ordinaria de provisión, pero el procedimiento normal es el concurso.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "origenId": "DIP-T18-001",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a67"
+        },
+        {
+          "id": "DIP-SIM-008-Q27",
+          "tema": 29,
+          "pregunta": "El IBI se devenga ordinariamente:",
+          "opciones": [
+            "El 31 de diciembre",
+            "En la fecha de transmisión",
+            "Al aprobarse el padrón",
+            "El 1 de enero"
+          ],
+          "correcta": 3,
+          "justificacion": "El IBI se devenga el primer día del periodo impositivo, que coincide con el 1 de enero y con el inicio del año natural.",
+          "trampa": "Una transmisión posterior durante el año no modifica el devengo ya producido.",
+          "referencia": "content/diputacion-toledo/tema-29/manual.md",
+          "origenId": "DIP-T29-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-29/manual.md#9-devengo-y-periodo-impositivo-del-ibi"
+        },
+        {
+          "id": "DIP-SIM-008-Q28",
+          "tema": 13,
+          "pregunta": "¿A quién corresponde la formación, mantenimiento, revisión y custodia del padrón municipal?",
+          "opciones": [
+            "Al ayuntamiento",
+            "A la diputación provincial",
+            "Al Instituto Nacional de Estadística",
+            "A la comunidad autónoma"
+          ],
+          "correcta": 0,
+          "justificacion": "La formación, mantenimiento, revisión y custodia del padrón corresponden al ayuntamiento, sin perjuicio de la coordinación atribuida al Instituto Nacional de Estadística.",
+          "trampa": "El Instituto Nacional de Estadística coordina los padrones, pero no sustituye al ayuntamiento como gestor ordinario.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "origenId": "DIP-T13-004",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 17 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a17"
+        },
+        {
+          "id": "DIP-SIM-008-Q29",
+          "tema": 19,
+          "pregunta": "¿Cuándo prescribe una falta leve?",
+          "opciones": [
+            "Al año",
+            "A los 6 meses",
+            "A los 2 años",
+            "A los 3 meses"
+          ],
+          "correcta": 1,
+          "justificacion": "Las faltas leves prescriben a los 6 meses.",
+          "trampa": "La sanción impuesta por una falta leve prescribe al año, pero la propia falta prescribe a los 6 meses.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "origenId": "DIP-T19-004",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141"
+        },
+        {
+          "id": "DIP-SIM-008-Q30",
+          "tema": 1,
+          "pregunta": "¿Cuál de los siguientes NO es un valor superior del ordenamiento jurídico enumerado en el artículo 1.1 de la Constitución?",
+          "opciones": [
+            "Libertad",
+            "Justicia",
+            "Seguridad jurídica",
+            "Pluralismo político"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 1.1 enumera libertad, justicia, igualdad y pluralismo político. La seguridad jurídica aparece entre las garantías del artículo 9.3.",
+          "trampa": "La seguridad jurídica es constitucional, pero no pertenece a la lista cerrada de valores superiores del artículo 1.1.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "origenId": "DIP-T01-002",
+          "referenciaOriginal": "CE, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1"
+        },
+        {
+          "id": "DIP-SIM-008-Q31",
+          "tema": 17,
+          "pregunta": "¿Cuál es la edad mínima general para participar en un proceso selectivo conforme a la Ley 4/2011?",
+          "opciones": [
+            "14 años",
+            "18 años",
+            "21 años",
+            "16 años"
+          ],
+          "correcta": 3,
+          "justificacion": "El requisito general es tener cumplidos 16 años y no exceder de la edad de jubilación forzosa, salvo previsión legal distinta.",
+          "trampa": "No debe confundirse la mayoría de edad con la edad mínima general de acceso al empleo público.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "origenId": "DIP-T17-001",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a38"
+        },
+        {
+          "id": "DIP-SIM-008-Q32",
+          "tema": 28,
+          "pregunta": "Cuando una brecha de datos deba notificarse a la autoridad de control, el plazo de referencia es de:",
+          "opciones": [
+            "72 horas",
+            "24 horas",
+            "48 horas",
+            "1 mes"
+          ],
+          "correcta": 0,
+          "justificacion": "La notificación debe realizarse sin dilación indebida y, de ser posible, dentro de las 72 horas desde que el responsable tenga constancia de la brecha.",
+          "trampa": "El plazo no opera de forma automática: la obligación depende de que la brecha pueda entrañar riesgo para los derechos y libertades.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "origenId": "DIP-T28-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#8-seguridad-y-violaciones-de-datos"
+        },
+        {
+          "id": "DIP-SIM-008-Q33",
+          "tema": 12,
+          "pregunta": "La Constitución garantiza expresamente la autonomía de:",
+          "opciones": [
+            "Las diputaciones",
+            "Los municipios",
+            "Las mancomunidades",
+            "Las comarcas"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 140 de la Constitución garantiza expresamente la autonomía de los municipios.",
+          "trampa": "La diputación es una forma de gobierno y administración de la provincia, no la entidad cuya autonomía garantiza literalmente el artículo 140.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "origenId": "DIP-T12-004",
+          "referenciaOriginal": "Constitución Española, art. 140 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a140"
+        },
+        {
+          "id": "DIP-SIM-008-Q34",
+          "tema": 18,
+          "pregunta": "¿Qué principios rigen la provisión de puestos reservados a personal funcionario de carrera?",
+          "opciones": [
+            "Jerarquía, confianza y antigüedad",
+            "Eficacia, economía y descentralización",
+            "Igualdad, mérito, capacidad y publicidad",
+            "Antigüedad y libre apreciación"
+          ],
+          "correcta": 2,
+          "justificacion": "La provisión de puestos reservados a personal funcionario de carrera debe respetar los principios de igualdad, mérito, capacidad y publicidad.",
+          "trampa": "La antigüedad puede valorarse como mérito, pero no sustituye los principios legales de provisión.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "origenId": "DIP-T18-003",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a67"
+        },
+        {
+          "id": "DIP-SIM-008-Q35",
+          "tema": 30,
+          "pregunta": "Los remolques y semirremolques no están sujetos al IVTM cuando su carga útil no excede de:",
+          "opciones": [
+            "500 kg",
+            "1.000 kg",
+            "3.500 kg",
+            "750 kg"
+          ],
+          "correcta": 3,
+          "justificacion": "No están sujetos al IVTM los remolques y semirremolques cuya carga útil no exceda de 750 kilogramos.",
+          "trampa": "La norma se refiere a la carga útil, no a la masa máxima autorizada.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "origenId": "DIP-T30-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#31-supuestos-de-no-sujeción"
+        },
+        {
+          "id": "DIP-SIM-008-Q36",
+          "tema": 14,
+          "pregunta": "¿Qué naturaleza tiene la provincia conforme a la Constitución y a la legislación básica local?",
+          "opciones": [
+            "Una entidad local determinada por la agrupación de municipios, con personalidad jurídica propia",
+            "Una mera demarcación estatal",
+            "Un órgano periférico de la comunidad autónoma",
+            "Una asociación voluntaria de municipios"
+          ],
+          "correcta": 0,
+          "justificacion": "La provincia es una entidad local territorial determinada por la agrupación de municipios, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines.",
+          "trampa": "No debe confundirse su función como división territorial del Estado con su naturaleza de entidad local.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "origenId": "DIP-T14-001",
+          "referenciaOriginal": "Constitución Española, art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a141"
+        },
+        {
+          "id": "DIP-SIM-008-Q37",
+          "tema": 19,
+          "pregunta": "¿Qué sucede si el expediente disciplinario permanece paralizado más de un mes por causa no imputable a la persona investigada?",
+          "opciones": [
+            "Se archiva automáticamente",
+            "Se reanuda el plazo de prescripción",
+            "La falta se convierte en leve",
+            "La sanción queda anulada"
+          ],
+          "correcta": 1,
+          "justificacion": "La prescripción, interrumpida por la iniciación del procedimiento conocida por la persona interesada, se reanuda si el expediente permanece paralizado durante más de un mes por causa no imputable a la persona presuntamente responsable.",
+          "trampa": "La paralización no produce el archivo automático del expediente.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "origenId": "DIP-T19-006",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141"
+        },
+        {
+          "id": "DIP-SIM-008-Q38",
+          "tema": 1,
+          "pregunta": "¿Cuál es la forma política del Estado español?",
+          "opciones": [
+            "Monarquía constitucional",
+            "República parlamentaria",
+            "Monarquía parlamentaria",
+            "Estado autonómico"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 1.3 establece literalmente que la forma política del Estado español es la Monarquía parlamentaria.",
+          "trampa": "La expresión literal es forma política, no forma de gobierno ni simplemente Monarquía constitucional.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "origenId": "DIP-T01-004",
+          "referenciaOriginal": "CE, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1"
+        },
+        {
+          "id": "DIP-SIM-008-Q39",
+          "tema": 17,
+          "pregunta": "¿Cuáles son los sistemas ordinarios de selección del personal funcionario?",
+          "opciones": [
+            "Concurso y libre designación",
+            "Solo oposición",
+            "Concurso y entrevista",
+            "Oposición y concurso-oposición"
+          ],
+          "correcta": 3,
+          "justificacion": "Los sistemas ordinarios de selección del personal funcionario son la oposición y el concurso-oposición.",
+          "trampa": "El concurso puro solo procede de forma excepcional cuando una ley lo autoriza.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "origenId": "DIP-T17-003",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a47"
+        },
+        {
+          "id": "DIP-SIM-008-Q40",
+          "tema": 29,
+          "pregunta": "La base imponible del IBI está constituida por:",
+          "opciones": [
+            "El valor catastral",
+            "El precio de adquisición",
+            "El valor de mercado declarado",
+            "La renta anual del inmueble"
+          ],
+          "correcta": 0,
+          "justificacion": "La base imponible del IBI está constituida por el valor catastral del bien inmueble.",
+          "trampa": "La base liquidable puede ser inferior cuando proceda la reducción legal.",
+          "referencia": "content/diputacion-toledo/tema-29/manual.md",
+          "origenId": "DIP-T29-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-29/manual.md#71-base-imponible"
+        },
+        {
+          "id": "DIP-SIM-008-Q41",
+          "tema": 13,
+          "pregunta": "¿Cuáles son los elementos del municipio?",
+          "opciones": [
+            "Territorio, hacienda y competencias",
+            "Territorio, población y organización",
+            "Población, patrimonio y pleno",
+            "Término, alcalde y presupuesto"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 11.2 de la Ley 7/1985 identifica como elementos del municipio el territorio, la población y la organización.",
+          "trampa": "Confundir los elementos del municipio con sus órganos o recursos financieros.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "origenId": "DIP-T13-001",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a11"
+        },
+        {
+          "id": "DIP-SIM-008-Q42",
+          "tema": 18,
+          "pregunta": "¿Cuál de las siguientes figuras tiene carácter típicamente temporal?",
+          "opciones": [
+            "Concurso",
+            "Carrera horizontal",
+            "Comisión de servicios",
+            "Promoción interna vertical"
+          ],
+          "correcta": 2,
+          "justificacion": "La comisión de servicios es una forma temporal de provisión utilizada para cubrir provisionalmente un puesto por necesidades del servicio.",
+          "trampa": "La adscripción provisional también carece de carácter definitivo, pero la comisión de servicios es la figura temporal más directa entre las opciones.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "origenId": "DIP-T18-005",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a67"
+        },
+        {
+          "id": "DIP-SIM-008-Q43",
+          "tema": 30,
+          "pregunta": "El coeficiente máximo con el que un ayuntamiento puede incrementar las cuotas legales del IVTM es:",
+          "opciones": [
+            "1,5",
+            "3",
+            "3,8",
+            "2"
+          ],
+          "correcta": 3,
+          "justificacion": "Los ayuntamientos pueden incrementar las cuotas legales del IVTM mediante un coeficiente que no puede exceder de 2.",
+          "trampa": "El valor 3,8 corresponde al límite máximo del coeficiente de situación del IAE, no al IVTM.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "origenId": "DIP-T30-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#6-base-imponible-y-cuota"
+        },
+        {
+          "id": "DIP-SIM-008-Q44",
+          "tema": 14,
+          "pregunta": "La prestación provincial de servicios de administración electrónica y contratación centralizada se dirige especialmente a municipios con población inferior a:",
+          "opciones": [
+            "20.000 habitantes",
+            "5.000 habitantes",
+            "10.000 habitantes",
+            "50.000 habitantes"
+          ],
+          "correcta": 0,
+          "justificacion": "La Ley 7/1985 atribuye a la Diputación la prestación de servicios de administración electrónica y contratación centralizada en municipios con población inferior a 20.000 habitantes.",
+          "trampa": "No debe confundirse este umbral con los previstos para otros servicios mínimos municipales.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "origenId": "DIP-T14-004",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 36 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a36"
+        },
+        {
+          "id": "DIP-SIM-008-Q45",
+          "tema": 28,
+          "pregunta": "¿Cuál de los siguientes es un principio de protección de datos?",
+          "opciones": [
+            "Acumulación ilimitada",
+            "Minimización de datos",
+            "Conservación indefinida",
+            "Cesión libre entre Administraciones"
+          ],
+          "correcta": 1,
+          "justificacion": "El principio de minimización exige que los datos sean adecuados, pertinentes y limitados a lo necesario para los fines del tratamiento.",
+          "trampa": "La responsabilidad proactiva no autoriza a conservar o comunicar datos sin límite.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "origenId": "DIP-T28-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#3-principios-de-protección-de-datos"
+        },
+        {
+          "id": "DIP-SIM-008-Q46",
+          "tema": 12,
+          "pregunta": "Según el artículo 137 de la Constitución, el Estado se organiza territorialmente en:",
+          "opciones": [
+            "Municipios, comarcas y provincias",
+            "Provincias, islas y regiones",
+            "Municipios, provincias y comunidades autónomas",
+            "Municipios, diputaciones y comunidades autónomas"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 137 de la Constitución organiza territorialmente el Estado en municipios, provincias y comunidades autónomas que se constituyan.",
+          "trampa": "Las diputaciones son órganos de gobierno provincial, no categorías territoriales del artículo 137.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "origenId": "DIP-T12-001",
+          "referenciaOriginal": "Constitución Española, art. 137 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a137"
+        },
+        {
+          "id": "DIP-SIM-008-Q47",
+          "tema": 17,
+          "pregunta": "¿Puede el personal eventual realizar funciones administrativas ordinarias y permanentes?",
+          "opciones": [
+            "Sí, siempre",
+            "Sí, si lo autoriza el Pleno",
+            "Solo durante seis meses",
+            "No, sus funciones son de confianza o asesoramiento especial"
+          ],
+          "correcta": 3,
+          "justificacion": "El personal eventual solo puede realizar funciones expresamente calificadas de confianza o asesoramiento especial.",
+          "trampa": "El libre nombramiento y cese no permiten atribuirle funciones ordinarias o permanentes.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "origenId": "DIP-T17-005",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a9"
+        },
+        {
+          "id": "DIP-SIM-008-Q48",
+          "tema": 29,
+          "pregunta": "La bonificación obligatoria inicial para viviendas de protección oficial es del:",
+          "opciones": [
+            "50 % durante 3 periodos impositivos",
+            "25 % durante 2 años",
+            "75 % durante 5 años",
+            "95 % sin límite temporal"
+          ],
+          "correcta": 0,
+          "justificacion": "La bonificación obligatoria para las viviendas de protección oficial es del 50 % durante los 3 periodos impositivos siguientes al otorgamiento de la calificación definitiva.",
+          "trampa": "La prolongación posterior depende de la ordenanza fiscal y no forma parte del tramo obligatorio inicial.",
+          "referencia": "content/diputacion-toledo/tema-29/manual.md",
+          "origenId": "DIP-T29-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-29/manual.md#61-bonificaciones-obligatorias"
+        },
+        {
+          "id": "DIP-SIM-008-Q49",
+          "tema": 13,
+          "pregunta": "¿Cuándo se adquiere la condición de vecino?",
+          "opciones": [
+            "Tras seis meses de residencia",
+            "En el momento de la inscripción en el padrón",
+            "Al aprobarse el padrón anual",
+            "Al obtener certificado de empadronamiento"
+          ],
+          "correcta": 1,
+          "justificacion": "La condición de vecino se adquiere en el mismo momento de la inscripción en el padrón municipal.",
+          "trampa": "La vecindad administrativa no exige una antigüedad mínima.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "origenId": "DIP-T13-003",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a15"
+        },
+        {
+          "id": "DIP-SIM-008-Q50",
+          "tema": 19,
+          "pregunta": "¿Cuándo prescribe una falta muy grave?",
+          "opciones": [
+            "A los 2 años",
+            "Al año",
+            "A los 3 años",
+            "A los 6 meses"
+          ],
+          "correcta": 2,
+          "justificacion": "Las faltas muy graves prescriben a los 3 años.",
+          "trampa": "No debe confundirse con el plazo de 2 años aplicable a las faltas graves.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "origenId": "DIP-T19-003",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
