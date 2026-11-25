@@ -63,6 +63,17 @@ function institution(o){
  }
  return org||'Organismo por identificar';
 }
+// Explicit review of admission conditions. This helper is for private/manual
+// assessment only; never serialize personal review results into the public feed.
+export function evaluateReviewedAdmission(requirements,{complete=false}={}){
+ if(!Array.isArray(requirements)||!requirements.length)return 'REVISAR';
+ const valid=r=>{
+  if(!r||typeof r.literal!=='string'||!r.literal.trim()||!['CUMPLE','NO_CUMPLE','REVISAR'].includes(r.result))return false;
+  try{const u=new URL(r.sourceUrl);return u.protocol==='https:'&&!u.username&&!u.password;}catch{return false;}
+ };
+ if(requirements.some(r=>valid(r)&&r.result==='NO_CUMPLE'))return 'NO_CUMPLE';
+ return complete===true&&requirements.every(r=>valid(r)&&r.result==='CUMPLE')?'CUMPLE':'REVISAR';
+}
 export function normalizeOpportunity(o,asOf){
  const title=clean(o.title);
  const navigationOnly=o.source==='DIRECT'&&/^(?:contrataci[oó]n(?:\s+p[uú]blica)?|selecci[oó]n(?:\s+de\s+personal)?|personal|recursos\s+humanos)$/i.test(title);
