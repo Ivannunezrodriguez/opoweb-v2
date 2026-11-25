@@ -199,14 +199,15 @@
             "25/11/2026: ampliación de 16 a 20 cuestiones guiadas (audiencia, resolución y silencio Ley 19/2013, notificación y comunicación de brechas RGPD contrastadas con BOE y AEPD), commit d8d726c; criterios didácticos de autocorrección de 2 puntos por cuestión, 40 puntos en total, commit 77b032c. Validada unicidad de IDs y suma de criterios en memoria; falta integración visual y prueba E2E.",
             "25/11/2026: visor de autocorrección manual con criterios ocultos hasta revelar soluciones, nota normalizada y reversible, 18c961f; prueba Chromium específica d6845a1; invalidación de caché c304183; sexto supuesto de recursos administrativos, alzada, reposición y lesividad, cuatro cuestiones con referencias BOE y ocho criterios, 598f612. Total 6 casos, 24 cuestiones, 48 criterios. CI de la nueva prueba y publicación final pendientes de verificar.",
             "25/11/2026: publicación correcta del sexto supuesto y plan en Actions 45580758157 y 45580793302; E2E general del visor 45580573480 SUCCESS, nueva prueba de rúbrica pendiente. Añadidos casos 7 y 8 de régimen local y empleo público (arts. 20, 26, 36 LRBRL y 55, 57, 141 Ley 4/2011 contrastados con BOE consolidado, este último con aviso de actualización en proceso). 8 casos, 32 cuestiones, 64 criterios. Commit de76cd1, pendiente publicación.",
-            "25/11/2026: E2E específico de autocorrección SUCCESS 45580710583 y publicación de ocho casos SUCCESS 45580987839. Añadidos casos 9 y 10 de recargos ejecutivos (art. 28 LGT) y Calc (referencias y fórmulas, documentación oficial de LibreOffice), reclasificados cinco casos conforme al programa almacenado. Total 10 casos, 40 cuestiones, 80 criterios. Commit d1dfc50, pendiente CI."
+            "25/11/2026: E2E específico de autocorrección SUCCESS 45580710583 y publicación de ocho casos SUCCESS 45580987839. Añadidos casos 9 y 10 de recargos ejecutivos (art. 28 LGT) y Calc (referencias y fórmulas, documentación oficial de LibreOffice), reclasificados cinco casos conforme al programa almacenado. Total 10 casos, 40 cuestiones, 80 criterios. Commit d1dfc50, pendiente CI.",
+            "25/11/2026: publicación de diez casos confirmada (45581178467). Añadidos casos 11 y 12: IBI, IAE, IVTM, IIVTNU cotejados con TRLRHL consolidado, y Writer con documentación oficial de ayuda (versión latest, no comprobación específica en LibreOffice 24). Total 12 casos, 48 cuestiones, 96 criterios. Commit c33e58c; publicación pendiente."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Verificar publicación de diez casos; ampliar cobertura de carrera/provisión T18, Writer T35 y tributos locales T29-30. Revisar referencias internas antiguas y contrastar programa con bases oficiales; elaborar simulacros integrales sin inventar baremo del Tribunal."
+          "nextAction": "Verificar publicación de doce casos, corregir referencias internas antiguas con comprobación de archivos y anclas reales; contrastar Ley 4/2011 antes de ampliar T18; preparar simulacros integrales y cotejar bases oficiales. Verificar Writer en versión 24."
         },
         {
           "id": "DIP-C2-01",
@@ -3025,6 +3026,19 @@
         "content/diputacion-toledo/supuestos-practicos.json"
       ],
       "limit": "Pendiente CI nuevo contenido, cotejo completo de bases y referencias internas; no equivale a revisión integral ni baremo oficial."
+    },
+    {
+      "id": "LOG-20261125-DIP-C1-TRIBUTOS-WRITER",
+      "at": "2026-11-25",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Dos nuevos supuestos de tributos locales y Writer: 12 casos, 48 cuestiones y 96 criterios.",
+      "evidence": [
+        "content/diputacion-toledo/supuestos-practicos.json"
+      ],
+      "limit": "Pendiente CI de nuevo contenido, referencias internas, comprobación específica LibreOffice 24 y cotejo integral de bases; rúbrica no oficial."
     }
   ],
   "decisions": [
@@ -3208,5 +3222,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T08:59:36.000Z"
+  "updatedAtUtc": "2026-11-25T09:00:41.000Z"
 }
