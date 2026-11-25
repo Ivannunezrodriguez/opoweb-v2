@@ -1,4 +1,4 @@
-import {classifyRadarEntries} from './radar-quality.js?v=2026.11.25.1';
+import {classifyRadarEntries,evaluateReviewedAdmission} from './radar-quality.js?v=2026.11.25.2';
 import {assessOpportunityEvidence} from './radar-provenance.js';
 import {matchTrackedCall,trackingState,decorateTracking} from './radar-tracking.js?v=2';
 import {orderRadar,deadlineAlert} from './radar-sort.js?v=1';
@@ -107,6 +107,33 @@ function additionalRequirementsMarkup(o){
  });
  return rows.length?'<details class="radar-source"><summary><strong>Requisitos adicionales detectados</strong></summary><ul>'+rows.join('')+'</ul><p>Extracción automática parcial. No acredita el cumplimiento ni sustituye la lectura íntegra de las bases.</p></details>':'';
 }
+// Personal checklist stays in this browser; a change of literal or source
+// invalidates previous answers. Extracted clauses are not a complete list.
+function admissionReviewMarkup(o){
+ const q=o.qualificationEvidence;
+ const rows=[...(q&&q.qualification===o.qualification?[q]:[]),...(Array.isArray(o.additionalRequirements)?o.additionalRequirements:[])].filter(r=>{
+  if(!r||typeof r.literal!=='string'||!r.literal.trim())return false;
+  try{const u=new URL(r.sourceUrl);return u.protocol==='https:'&&!u.username&&!u.password;}catch{return false;}
+ }).slice(0,13);
+ if(!o.id||!rows.length)return '';
+ const key='opoweb-radar-admission-v1:'+JSON.stringify([o.id,rows.map(r=>[r.literal,r.sourceUrl])]);
+ let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')||{};}catch{}
+ const options=['REVISAR','CUMPLE','NO_CUMPLE'];
+ const controls=rows.map((r,i)=>'<label class="radar-local-control">'+esc(r.literal)+' <a href="'+esc(r.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Fuente</a><select data-admission-index="'+i+'">'+options.map(v=>'<option value="'+v+'"'+((saved.answers?.[i]||'REVISAR')===v?' selected':'')+'>'+v+'</option>').join('')+'</select></label>').join('');
+ const result=evaluateReviewedAdmission(rows.map((r,i)=>({...r,result:saved.answers?.[i]||'REVISAR'})),{complete:saved.complete===true});
+ return '<details class="radar-source" data-admission-key="'+esc(key)+'"><summary><strong>Mi revisión privada de requisitos</strong></summary>'+controls+'<label><input type="checkbox" data-admission-complete'+(saved.complete===true?' checked':'')+'> He leído las bases completas y comprobado también todos los requisitos no extraídos.</label><p>Resultado de mi revisión: <strong data-admission-result>'+esc(result)+'</strong></p><p>Autocomprobación personal, no resolución de admisión. Se guarda solo en este navegador.</p></details>';
+}
+function bindAdmissionReviews(){
+ document.querySelectorAll('[data-admission-key]').forEach(panel=>panel.addEventListener('change',()=>{
+  const key=panel.dataset.admissionKey;
+  let rows;try{rows=JSON.parse(key.slice('opoweb-radar-admission-v1:'.length))[1];}catch{return;}
+  const answers=Array.from(panel.querySelectorAll('[data-admission-index]'),el=>el.value);
+  const complete=panel.querySelector('[data-admission-complete]').checked;
+  const result=evaluateReviewedAdmission(rows.map(([literal,sourceUrl],i)=>({literal,sourceUrl,result:answers[i]})),{complete});
+  panel.querySelector('[data-admission-result]').textContent=result;
+  try{localStorage.setItem(key,JSON.stringify({answers,complete}));}catch{}
+ }));
+}
 function card(o){
  const heading=o.position||'Puesto no identificado en el anuncio';
  const detail=o.title===heading?'':o.title;
@@ -164,6 +191,7 @@ function card(o){
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
   qualificationEvidenceMarkup(o)+
   additionalRequirementsMarkup(o)+
+  admissionReviewMarkup(o)+
   trackControl+
   '<div class="radar-actions">'+official+'</div>'+
   '<div class="radar-source"><strong>Información disponible: '+esc(originBadge)+'</strong>'+esc(missingEvidence)+'</div>'+
@@ -304,6 +332,7 @@ function render(){
   },180);
  });
  document.querySelector('#radar-more')?.addEventListener('click',()=>{shown+=40;render()});
+ bindAdmissionReviews();
  document.querySelectorAll('[data-radar-track]').forEach(select=>select.addEventListener('change',event=>{
     const id=event.target.dataset.radarTrack;
     saveLocalTracking(id,event.target.value);
