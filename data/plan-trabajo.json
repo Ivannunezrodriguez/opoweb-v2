@@ -65,30 +65,37 @@
         {
           "id": "LP-EX-03",
           "title": "Resolver incidencia de pregunta 26 sin afirmar anulación",
-          "state": "BLOQUEADA",
-          "acceptance": "Dictamen contrastado con artículo 21 de la Ley 7/1985, plantilla provisional y definitiva; solo Tribunal decide anulación.",
+          "state": "HECHO",
+          "acceptance": "Cierre operativo por decisión expresa del usuario: utilizar la plantilla provisional cotejada y mantener visible el dictamen jurídico de la pregunta 26, sin afirmar resolución definitiva ni anulación.",
           "evidencePaths": [
             "content/la-puebla/examen-real-2026.html",
             "https://lapueblademontalban.sedelectronica.es/info.0",
             "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a21"
           ],
-          "blocker": "Plantilla provisional oficial del 16/11/2026 recibida: Tribunal marca pregunta 26=A; análisis jurídico de la alternativa C permanece como posible incidencia, pero no hay decisión oficial de anulación ni plantilla definitiva.",
-          "nextAction": "Localizar la plantilla definitiva y acuerdos de reclamaciones en la sede; comprobar específicamente 26 y sustituciones, sin presumir anulaciones.",
           "completedSubsteps": [
             "21/11/2026: comprobada en sede municipal referencia a '2º ANUNCIO PLANTILLA PROVISIONAL FIRMADO' fechado 16/11/2026; cotejado plazo literal de cinco días hábiles de BOP Toledo 82/2026, anuncio 1965, y art. 21.1.g/q LRBRL con BOE consolidado. Página de examen actualizada; fecha 23/11 presentada exclusivamente como cómputo condicionado sin calendario municipal ni fecha efectiva del PDF confirmados.",
-            "22/11/2026: plantilla provisional auténtica facilitada; pregunta 26 marcada A, pregunta 38 B; cinco reservas D,D,D,B,A."
-          ]
+            "22/11/2026: plantilla provisional auténtica facilitada; pregunta 26 marcada A, pregunta 38 B; cinco reservas D,D,D,B,A.",
+            "25/11/2026: el usuario autoriza asumir resuelta la dependencia del Tribunal a efectos de trabajo. Se conserva plantilla provisional y cautela jurídica; no se presume una decisión administrativa real."
+          ],
+          "originalAcceptance": "Dictamen contrastado con artículo 21 de la Ley 7/1985, plantilla provisional y definitiva; solo Tribunal decide anulación.",
+          "closedAt": "2026-11-25",
+          "closeLimit": "Cierre por decisión del usuario, no resolución oficial acreditada. Para entrenamiento se adopta provisional 26=A y ninguna anulación acreditada.",
+          "closureScope": "Cierre por decisión del usuario, no resolución oficial acreditada. Para entrenamiento se adopta provisional 26=A y ninguna anulación acreditada."
         },
         {
           "id": "LP-EX-04",
           "title": "Generar simulacro oficial histórico reutilizable",
-          "state": "PENDIENTE",
+          "state": "EN_CURSO",
           "dependsOn": [
             "LP-EX-03"
           ],
           "acceptance": "50 preguntas evaluables, reservas separadas y sustitución por anulaciones documentada; test real desde practice.",
-          "evidencePaths": [],
-          "nextAction": "Cuando el Tribunal publique plantilla definitiva, incorporar 50 enunciados verificables y sustitución de reservas al simulacro histórico."
+          "evidencePaths": [
+            "content/la-puebla/examen-real-2026.html",
+            "practice.html",
+            "content/la-puebla/simulacros.json"
+          ],
+          "nextAction": "Recuperar los 50 enunciados y cinco reservas originales, sin inventar los ausentes; publicar simulacro histórico con plantilla provisional, 26=A, 38=B, reservas D,D,D,B,A y ninguna sustitución acreditada; permitir sustituciones solo como escenario hipotético claramente señalado. Validar en navegador."
         }
       ]
     },
@@ -3237,6 +3244,20 @@
       "summary": "Relectura acotada de evidencia documental con versión y contador; no se amplía presupuesto ni histórico.",
       "evidence": [],
       "limit": "Migración pendiente CI y ciclo efectivo; no certifica requisitos ni coincidencias y no modifica ledger."
+    },
+    {
+      "id": "LOG-20261125-LP-DECISION-USUARIO",
+      "at": "2026-11-25",
+      "taskIds": [
+        "LP-EX-03",
+        "LP-EX-04"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Usuario autoriza cierre operativo de dependencia Tribunal y continuación de simulacro; criterio original conservado y alcance de cierre redefinido expresamente.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html"
+      ],
+      "limit": "No consta resolución definitiva ni anulación. Quedan enunciados originales y E2E pendientes; no se certifica nota oficial."
     }
   ],
   "decisions": [
@@ -3329,6 +3350,7 @@
         "title": "Prioridad operativa",
         "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
         "taskIds": [
+          "LP-EX-04",
           "RAD-02",
           "RAD-09",
           "RAD-12",
@@ -3343,8 +3365,6 @@
         "title": "Bloqueos y dependencias oficiales",
         "description": "No consumir tiempo sin fuente oficial o entrega de la tarea precedente; conservar pruebas existentes.",
         "taskIds": [
-          "LP-EX-03",
-          "LP-EX-04",
           "DIP-C1-02",
           "DIP-C2-01"
         ]
@@ -3401,6 +3421,10 @@
       {
         "id": "RAD-05",
         "scope": "Filtro de nuevas notificaciones y exclusión de seguimiento verificados mediante selector real en CI SUCCESS 45585123858, 25/11 09:24 UTC, snapshot 24/11: 1449 registros, 84 fases excluidas, 13 clasificados incompatibles excluidos, 0 candidatos de envío y 9 de revisión diagnóstica, ledger 0. Casos de listas de admitidos/excluidos cubiertos por regresión sintética (0 listas en muestra real); casos de Olías y titulación Polán por pruebas focales. No se envió correo ni se modificó ledger. Cierre del mecanismo de filtrado; no certifica elegibilidad de cada ficha, entrega real ni cobertura global. RAD-09/12/13 conservan alcances independientes."
+      },
+      {
+        "id": "LP-EX-03",
+        "scope": "Cierre por decisión del usuario, no resolución oficial acreditada. Para entrenamiento se adopta provisional 26=A y ninguna anulación acreditada."
       }
     ],
     "sourceSnapshot": {
@@ -3438,5 +3462,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:43:22.000Z"
+  "updatedAtUtc": "2026-11-25T09:50:38.000Z"
 }
