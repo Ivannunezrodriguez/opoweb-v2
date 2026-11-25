@@ -517,13 +517,14 @@
             "25/11/2026: usuario aclara que no solicita seguimiento personal ni investigación específica de El Viso de San Juan. Casos históricos conservados solo como evidencia técnica; municipio incluido exclusivamente en el rastreo general de oportunidades. Se reorienta RAD-02 a verificación transversal sin ampliar el número de tareas ni contabilizar un cierre.",
             "25/11/2026: CI 45633905961 y 45633905829 fallaban en auditoría operativa línea 29 por expectativas anteriores al bloqueo de conflictos. Commit 356f80385d60eca6f1e2fa29e97f21e2433d5495 ajusta la prueba al contrato vigente y añade regresión de documento leído con plazo contradictorio, sin alertas ni fecha confirmada. CI 45636468696/45636468599 pendiente.",
             "25/11/2026: normalización transversal de plazos y plazas disputadas en 93c18ec y regresiones en 62a4e73; el conflicto impide mostrar cifra/fecha como confirmada y activar alertas. Publicación bloqueada por invariante de P1 del plan (45636499308), corregida al sincronizar estados de fase con tareas. Pendiente nueva publicación y acreditar detección documental de discrepancias.",
-            "25/11/2026: publicación 45638586628 SUCCESS confirma protección de discrepancias y cierre de fase P1. Añadida comparación de observaciones anteriores y nuevas de la misma ficha para cifras y fechas, conservando fuentes y marcas persistentes, commits a7a42e5 y 2189871. Pruebas sintéticas de coincidencia y conflicto. Pendiente CI y contraste entre documentos de un mismo expediente; no fusionar por municipio o puesto."
+            "25/11/2026: publicación 45638586628 SUCCESS confirma protección de discrepancias y cierre de fase P1. Añadida comparación de observaciones anteriores y nuevas de la misma ficha para cifras y fechas, conservando fuentes y marcas persistentes, commits a7a42e5 y 2189871. Pruebas sintéticas de coincidencia y conflicto. Pendiente CI y contraste entre documentos de un mismo expediente; no fusionar por municipio o puesto.",
+            "25/11/2026 16:48 UTC: CI 45647213031 y 45650113391 fallaban en tests/radar-enrich.mjs:295: el patrón de fecha absoluta no admitía «hasta el». Corrección c91e0fd y pruebas de fecha válida e imposible 25cf65f; pendiente CI."
           ],
           "remainingSubsteps": [
             "Comprobar reglas actuales de procedencia, conflicto y presentación; cubrir con regresiones generalizables las lagunas reales.",
             "Mantener expedientes contradictorios en REVISAR sin fecha definitiva hasta disponer de evidencia suficiente durante el rastreo ordinario."
           ],
-          "nextAction": "Verificar CI de a7a42e5 y 2189871. Completar conciliación entre documentos distintos con identidad de expediente acreditada y verificar propagación de marcas al feed público y bloqueo de alertas."
+          "nextAction": "Verificar CI de 25cf65f y conciliación entre documentos distintos con expediente acreditado; comprobar feed y bloqueo de alertas."
         },
         {
           "id": "RAD-03",
@@ -3401,6 +3402,18 @@
         "assets/radar-quality.js"
       ],
       "limit": "E2E La Puebla acreditado; nueva publicación del plan y detección documental de conflictos RAD-02 pendientes."
+    },
+    {
+      "id": "LOG-20261125-RAD02-HASTA-EL",
+      "at": "2026-11-25",
+      "atUtc": "2026-11-25T16:48:35Z",
+      "taskIds": [
+        "RAD-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corregida extracción de fecha explícita introducida por hasta el; regresiones de fecha válida e imposible.",
+      "evidence": [],
+      "limit": "CI pendiente; no acredita conciliación entre expedientes ni publicación."
     }
   ],
   "decisions": [
@@ -3608,5 +3621,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T14:53:50.000Z"
+  "updatedAtUtc": "2026-11-25T16:49:13.000Z"
 }
