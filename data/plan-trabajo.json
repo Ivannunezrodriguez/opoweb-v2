@@ -662,7 +662,7 @@
         {
           "id": "RAD-09",
           "title": "Compatibilidad por requisito publicado: titulación, carné, experiencia y demás",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Distinguir CUMPLE/REVISAR/NO CUMPLE con cita literal a bases y requisito; no inferir solo del grupo.",
           "evidencePaths": [
             "data/radar-profile.json",
@@ -687,10 +687,11 @@
             "25/11/2026: clasificación sin exclusión por grupo y sin CUMPLE automático (1c3b7ef, publicación SUCCESS 45585766770 tras ajuste 3666350). Incorporada cláusula de titulación normalizada, URL y fecha de lectura, visualización y regresión de procedencia (f0c9442 y corrección de fecha). Pendiente CI y cotejo real; no acredita cumplimiento integral.",
             "25/11/2026: texto oficial BOP Toledo 218 anuncio 5248, anexo III El Viso 2860/2026 acredita ESO o equivalente y permiso B vigente. Captura PDF no disponible. Caso real de requisito adicional, sin afirmar cumplimiento personal ni ficha enriquecida.",
             "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real.",
-            "25/11/2026: preservadas alternativas y equivalencias de titulación, ampliados permisos y experiencia obligatoria, separados evaluación académica y global, e incluidos requisitos en avisos. Publicación 45671124912 SUCCESS; evaluación manual de tres estados y pruebas 45671783773 SUCCESS. Integrada revisión privada local por literal y fuente, con confirmación expresa de revisión íntegra, commit 973d75c. Pendiente validación del visor y comprobación real de persistencia; no se presume admisión."
+            "25/11/2026: preservadas alternativas y equivalencias de titulación, ampliados permisos y experiencia obligatoria, separados evaluación académica y global, e incluidos requisitos en avisos. Publicación 45671124912 SUCCESS; evaluación manual de tres estados y pruebas 45671783773 SUCCESS. Integrada revisión privada local por literal y fuente, con confirmación expresa de revisión íntegra, commit 973d75c. Pendiente validación del visor y comprobación real de persistencia; no se presume admisión.",
+            "25/11/2026: E2E Chromium 45672135180 SUCCESS, marcadores RADAR_PRIVATE_ADMISSION_REVIEW_BROWSER_PERSISTENCE_INVALIDATION_OK y RADAR_PRIVATE_LOCAL_TRACKING_ROUNDTRIP_AND_PUBLIC_EXPORT_OK: tres estados, persistencia tras recarga, aislamiento entre navegadores, invalidación por cambio de literal y ausencia de solicitudes no GET. Publicación de integración 45671989922 SUCCESS. Cierre del alcance de revisión personal; no se certifica admisión administrativa."
           ],
-          "nextAction": "Verificar CI de integración local, probar interacción y persistencia en navegador con cambios de evidencia y comprobar que no modifica feed ni envía datos personales; cerrar alcance RAD-09 si se acredita.",
-          "priority": "ALTA"
+          "priority": "ALTA",
+          "closureScope": "Extracción y procedencia de requisitos, evaluación automática prudente y revisión personal documentada de los tres estados en almacenamiento local; no certifica elegibilidad jurídica universal ni resolución oficial de admisión."
         },
         {
           "id": "RAD-10",
@@ -3438,6 +3439,20 @@
       "summary": "Cierre de alcance transversal: detección y bloqueo de discrepancias, conciliación por identidad acreditada y regresiones positivas/negativas publicadas.",
       "evidence": [],
       "limit": "Validación sintética; no acredita caso cruzado real, ni resolución de discrepancias documentales históricas."
+    },
+    {
+      "id": "LOG-20261125-RAD09-REVISION-PRIVADA",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-09"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre de extracción y evaluación documentada de requisitos con revisión privada local, pruebas de Chromium y exportación filtrada superadas.",
+      "evidence": [
+        "assets/radar-quality.js",
+        "assets/radar.js"
+      ],
+      "limit": "Autocomprobación personal; no equivale a resolución de admisión ni auditoría jurídica de todas las convocatorias."
     }
   ],
   "decisions": [
@@ -3530,7 +3545,6 @@
         "title": "Prioridad operativa",
         "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
         "taskIds": [
-          "RAD-09",
           "RAD-12",
           "RAD-13",
           "JCCM-2026-01",
@@ -3644,5 +3658,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T18:08:05.000Z"
+  "updatedAtUtc": "2026-11-25T18:12:33.000Z"
 }
