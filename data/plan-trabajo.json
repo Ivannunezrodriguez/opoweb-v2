@@ -516,13 +516,14 @@
             "24/11/2026: calendario administrativo DOCM 2025/8998 y fiestas locales DOCM 2025/9468 (El Viso 22/07 y 24/08) cotejados; 20 hábiles desde BOE 24345 de 20/11 excluyendo fines de semana y 08/12 arrojan 2026-12-21 como cómputo ordinario, sujeto a rectificaciones o festivos aplicables adicionales. Olías: BOE 22826 y DOCM 7843 coinciden, cómputo autonómico 2026-11-30 excluyendo 02/11; BOP original y rectificación no accesibles en consulta, no se certifica cierre.",
             "25/11/2026: usuario aclara que no solicita seguimiento personal ni investigación específica de El Viso de San Juan. Casos históricos conservados solo como evidencia técnica; municipio incluido exclusivamente en el rastreo general de oportunidades. Se reorienta RAD-02 a verificación transversal sin ampliar el número de tareas ni contabilizar un cierre.",
             "25/11/2026: CI 45633905961 y 45633905829 fallaban en auditoría operativa línea 29 por expectativas anteriores al bloqueo de conflictos. Commit 356f80385d60eca6f1e2fa29e97f21e2433d5495 ajusta la prueba al contrato vigente y añade regresión de documento leído con plazo contradictorio, sin alertas ni fecha confirmada. CI 45636468696/45636468599 pendiente.",
-            "25/11/2026: normalización transversal de plazos y plazas disputadas en 93c18ec y regresiones en 62a4e73; el conflicto impide mostrar cifra/fecha como confirmada y activar alertas. Publicación bloqueada por invariante de P1 del plan (45636499308), corregida al sincronizar estados de fase con tareas. Pendiente nueva publicación y acreditar detección documental de discrepancias."
+            "25/11/2026: normalización transversal de plazos y plazas disputadas en 93c18ec y regresiones en 62a4e73; el conflicto impide mostrar cifra/fecha como confirmada y activar alertas. Publicación bloqueada por invariante de P1 del plan (45636499308), corregida al sincronizar estados de fase con tareas. Pendiente nueva publicación y acreditar detección documental de discrepancias.",
+            "25/11/2026: publicación 45638586628 SUCCESS confirma protección de discrepancias y cierre de fase P1. Añadida comparación de observaciones anteriores y nuevas de la misma ficha para cifras y fechas, conservando fuentes y marcas persistentes, commits a7a42e5 y 2189871. Pruebas sintéticas de coincidencia y conflicto. Pendiente CI y contraste entre documentos de un mismo expediente; no fusionar por municipio o puesto."
           ],
           "remainingSubsteps": [
             "Comprobar reglas actuales de procedencia, conflicto y presentación; cubrir con regresiones generalizables las lagunas reales.",
             "Mantener expedientes contradictorios en REVISAR sin fecha definitiva hasta disponer de evidencia suficiente durante el rastreo ordinario."
           ],
-          "nextAction": "Confirmar nueva publicación y pruebas de discrepancias; verificar origen de marcas de conflicto en extracción y conciliación documental, sin investigación monográfica."
+          "nextAction": "Verificar CI de a7a42e5 y 2189871. Completar conciliación entre documentos distintos con identidad de expediente acreditada y verificar propagación de marcas al feed público y bloqueo de alertas."
         },
         {
           "id": "RAD-03",
@@ -3607,5 +3608,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T14:51:08.000Z"
+  "updatedAtUtc": "2026-11-25T14:53:50.000Z"
 }
