@@ -720,14 +720,15 @@
             "22/11/2026: auditoría sobre snapshot real 21/11 y health Actions 45005085093 SUCCESS: 6/6 fuentes respondieron, 1388 candidatos acumulados, 354 LEIDO históricos (25,5%), 1034 sin lectura; 232 de 21 días, 194 LEIDO y 38 sin lectura; 44 recientes con puesto accionable/revisable, 0 con fecha ISO final identificada, 0 seleccionados para email simulado. No se enviaron emails. Script operativo y UI ahora distinguen histórico del último ciclo.",
             "24/11/2026: feed 1430 IDs únicos; 4 BOE reales con dos entradas cada uno (Olías 3+4, Getafe 10+1, Diputación 3+1, Illescas 9+1), 8 isNew=false. Esto verifica conservación de puestos/turnos y ausencia de ID duplicado, no deduplicación semántica exhaustiva. La muestra de 10 BOE sigue con tres sin referencia directa.",
             "24/11/2026: 28 etiquetas genéricas Contratación con URLs opacas variables en siete municipios; se evita nueva emisión y enriquecimiento sin fusionar por URL arbitraria ni borrar histórico; comprobación posterior pendiente en RAD-12.",
-            "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos."
+            "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
+            "25/11/2026: separación explícita de bolsa, sustitución, interinidad, otra contratación temporal, laboral fijo y funcionario de carrera; filtro web y siete regresiones de modalidad, sin inferir empleo fijo de la palabra plaza. Versionado 2026.11.25.1. Pendiente CI y deduplicación por expediente real."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
           ],
-          "nextAction": "Verificar CI de turnos/ledger y contrastar expedientes realmente repetidos entre documentos de fuentes distintas, conservando plazas y especialidades; no cerrar por muestra de referencias compartidas."
+          "nextAction": "Verificar CI de modalidades y rastreo posterior; contrastar expedientes realmente repetidos en diferentes documentos, conservar puestos/turnos y no fusionar sin identidad oficial."
         },
         {
           "id": "RAD-JCCM-2026",
@@ -3179,6 +3180,21 @@
         "assets/radar.js"
       ],
       "limit": "CI de nueva procedencia pendiente; no acredita cláusula íntegra, equivalencias, requisitos personales ni CUMPLE."
+    },
+    {
+      "id": "LOG-20261125-RAD13-MODALIDADES",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-13"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Separación de modalidades de empleo en clasificación y filtro público con regresiones.",
+      "evidence": [
+        "assets/radar-quality.js",
+        "assets/radar.js",
+        "radar.html"
+      ],
+      "limit": "Pendiente CI y contraste de expediente cruzado; no acredita deduplicación semántica ni cierre."
     }
   ],
   "decisions": [
@@ -3380,5 +3396,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:30:42.000Z"
+  "updatedAtUtc": "2026-11-25T09:35:18.000Z"
 }
