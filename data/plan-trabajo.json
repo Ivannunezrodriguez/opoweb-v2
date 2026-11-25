@@ -197,14 +197,15 @@
             "23/11/2026: CIERRE VERIFICADO de incidencia de publicación #399-#402: los runs GitHub Actions #403 y #404 aparecen SUCCESS en captura del usuario, y comprobación GitHub en el repositorio público confirmó plan actualizado 23/11, manifiesto 40 fichas/361 tarjetas, visor actualizado y blobs idénticos en ambas ramas main/site para plan, manifiesto, app.js, index, radar, practice y fichas T01/T40. La preparación del examen del 15/12 sigue abierta.",
             "25/11/2026: ampliación de cinco casos guiados de 10 a 16 cuestiones: cómputo de subsanación, transparencia y nulidad presupuestaria (c9b6a22, publicación #45579372264 SUCCESS); nuevos cálculos de contratación y suplemento de crédito, contrastados con BOE arts. 118 LCSP y 177 TRLRHL (045f74a, publicación pendiente). No equivale a simulacro oficial ni a rúbrica validada.",
             "25/11/2026: ampliación de 16 a 20 cuestiones guiadas (audiencia, resolución y silencio Ley 19/2013, notificación y comunicación de brechas RGPD contrastadas con BOE y AEPD), commit d8d726c; criterios didácticos de autocorrección de 2 puntos por cuestión, 40 puntos en total, commit 77b032c. Validada unicidad de IDs y suma de criterios en memoria; falta integración visual y prueba E2E.",
-            "25/11/2026: visor de autocorrección manual con criterios ocultos hasta revelar soluciones, nota normalizada y reversible, 18c961f; prueba Chromium específica d6845a1; invalidación de caché c304183; sexto supuesto de recursos administrativos, alzada, reposición y lesividad, cuatro cuestiones con referencias BOE y ocho criterios, 598f612. Total 6 casos, 24 cuestiones, 48 criterios. CI de la nueva prueba y publicación final pendientes de verificar."
+            "25/11/2026: visor de autocorrección manual con criterios ocultos hasta revelar soluciones, nota normalizada y reversible, 18c961f; prueba Chromium específica d6845a1; invalidación de caché c304183; sexto supuesto de recursos administrativos, alzada, reposición y lesividad, cuatro cuestiones con referencias BOE y ocho criterios, 598f612. Total 6 casos, 24 cuestiones, 48 criterios. CI de la nueva prueba y publicación final pendientes de verificar.",
+            "25/11/2026: publicación correcta del sexto supuesto y plan en Actions 45580758157 y 45580793302; E2E general del visor 45580573480 SUCCESS, nueva prueba de rúbrica pendiente. Añadidos casos 7 y 8 de régimen local y empleo público (arts. 20, 26, 36 LRBRL y 55, 57, 141 Ley 4/2011 contrastados con BOE consolidado, este último con aviso de actualización en proceso). 8 casos, 32 cuestiones, 64 criterios. Commit de76cd1, pendiente publicación."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Comprobar resultados de CI y E2E del visor con rúbrica, corregir cualquier regresión; ampliar supuestos de régimen local y empleo público con fuentes oficiales y criterios de autocorrección. Mantener tarea PARCIAL hasta aceptación."
+          "nextAction": "Verificar CI y prueba Chromium específica de autocorrección, resolver regresiones; ampliar casos de carrera y provisión (T18), gestión tributaria y ofimática según programa. Comprobar actualización en curso de Ley 4/2011 antes de cierre jurídico."
         },
         {
           "id": "DIP-C2-01",
@@ -2997,6 +2998,19 @@
         "content/diputacion-toledo/supuestos-practicos.json"
       ],
       "limit": "Pendiente resultado E2E específico y publicación final; rúbrica didáctica no oficial."
+    },
+    {
+      "id": "LOG-20261125-DIP-C1-LOCAL-EMPLEO",
+      "at": "2026-11-25",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Dos nuevos supuestos de régimen local y empleo público: 8 casos, 32 cuestiones y 64 criterios.",
+      "evidence": [
+        "content/diputacion-toledo/supuestos-practicos.json"
+      ],
+      "limit": "Pendiente CI del nuevo contenido y E2E específico; BOE Ley 4/2011 señala actualización en proceso. No certifica revisión integral ni baremo oficial."
     }
   ],
   "decisions": [
@@ -3180,5 +3194,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T08:56:56.000Z"
+  "updatedAtUtc": "2026-11-25T08:58:17.000Z"
 }
