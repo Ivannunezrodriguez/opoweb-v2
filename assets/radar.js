@@ -91,6 +91,13 @@ function visible(o,query){
   (!query||searchableText(o).includes(query));
 }
 function meta(label,value){return '<div><span>'+esc(label)+'</span><strong>'+esc(value??missing)+'</strong></div>';}
+function qualificationEvidenceMarkup(o){
+ const r=o.qualificationEvidence;
+ if(!r||typeof r.literal!=='string'||!r.literal.trim()||r.qualification!==o.qualification)return '';
+ let link='';
+ try{const url=new URL(r.sourceUrl);if(url.protocol==='https:'&&!url.username&&!url.password)link='<a href="'+esc(url.href)+'" target="_blank" rel="noopener noreferrer">Documento de procedencia</a>';}catch{}
+ return '<details class="radar-source"><summary><strong>Procedencia de la titulación</strong></summary><p>'+esc(r.literal)+'</p><p>'+link+' · Lectura automática parcial; comprobar el apartado íntegro y sus equivalencias.</p></details>';
+}
 function additionalRequirementsMarkup(o){
  const requirements=Array.isArray(o.additionalRequirements)?o.additionalRequirements:[];
  const rows=requirements.filter(r=>r&&typeof r.literal==='string'&&r.literal.trim()&&['PERMISO_CONDUCIR','EXPERIENCIA_MINIMA'].includes(r.type)).slice(0,12).map(r=>{
@@ -155,6 +162,7 @@ function card(o){
   '</div>'+ 
   '<p class="radar-note">'+esc([!o.deadline?'Fecha límite sin acreditar':null,!o.qualification?'Titulación pendiente':null,o.group==='REVISAR'?'Grupo pendiente':null].filter(Boolean).join(' · ')||'Datos principales extraídos; revisar posibles rectificaciones oficiales.')+'</p>'+
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
+  qualificationEvidenceMarkup(o)+
   additionalRequirementsMarkup(o)+
   trackControl+
   '<div class="radar-actions">'+official+'</div>'+
