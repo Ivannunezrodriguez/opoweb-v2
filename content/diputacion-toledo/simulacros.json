@@ -9406,9 +9406,918 @@
           "referenciaOriginal": "Ley 39/2015, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a45"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-015",
+      "titulo": "Simulacro 15 · Procedimiento, provincia, contratación, régimen disciplinario, tributos y Calc",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de ocho temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-015-Q01",
+          "pregunta": "La información pública debe abrirse por un plazo no inferior a:",
+          "opciones": [
+            "10 días",
+            "15 días",
+            "30 días",
+            "20 días"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo 83 establece que el plazo para formular alegaciones en información pública no puede ser inferior a 20 días.",
+          "trampa": "No confundas información pública con audiencia: 20 días mínimo frente a 10-15 días.",
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "respuestaLiteral": "20 días",
+          "tema": 6,
+          "origenId": "DIP-T06-008",
+          "referenciaOriginal": "Ley 39/2015, artículo 83 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a83"
+        },
+        {
+          "id": "DIP-SIM-015-Q02",
+          "pregunta": "¿Qué recurso procede contra un acto que no pone fin a la vía administrativa?",
+          "opciones": [
+            "Reposición",
+            "Alzada",
+            "Extraordinario de revisión",
+            "Recurso contencioso directo necesariamente"
+          ],
+          "correcta": 1,
+          "justificacion": "El recurso de alzada procede contra actos que no agotan la vía administrativa.",
+          "trampa": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "respuestaLiteral": "Alzada",
+          "tema": 8,
+          "origenId": "DIP-T08-007",
+          "referenciaOriginal": "Ley 39/2015, art. 121 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a121"
+        },
+        {
+          "id": "DIP-SIM-015-Q03",
+          "pregunta": "¿Quién integra el Pleno de la Diputación?",
+          "opciones": [
+            "Solo Presidencia y portavoces",
+            "Presidencia, Vicepresidencias y diputados delegados",
+            "Presidencia y todos los diputados provinciales",
+            "Solo los diputados con dedicación exclusiva"
+          ],
+          "correcta": 2,
+          "justificacion": "El Pleno de la Diputación está integrado por la Presidencia y todos los diputados provinciales.",
+          "trampa": "La pertenencia al Pleno no depende de las delegaciones atribuidas ni del régimen de dedicación.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "respuestaLiteral": "Presidencia y todos los diputados provinciales",
+          "tema": 14,
+          "origenId": "DIP-T14-007",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 33 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a33"
+        },
+        {
+          "id": "DIP-SIM-015-Q04",
+          "pregunta": "Cuando el contrato es susceptible de recurso especial, la formalización no puede efectuarse antes de que transcurran:",
+          "opciones": [
+            "20 días hábiles",
+            "10 días naturales",
+            "15 días hábiles",
+            "1 mes"
+          ],
+          "correcta": 2,
+          "justificacion": "En contratos susceptibles de recurso especial, la formalización no puede efectuarse antes de que transcurran 15 días hábiles desde la remisión de la notificación de adjudicación.",
+          "trampa": "El plazo se expresa en días hábiles, no naturales.",
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "respuestaLiteral": "15 días hábiles",
+          "tema": 16,
+          "origenId": "DIP-T16-007",
+          "referenciaOriginal": "Ley 9/2017 LCSP · art. 153 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a153"
+        },
+        {
+          "id": "DIP-SIM-015-Q05",
+          "pregunta": "La Agencia Española de Protección de Datos es:",
+          "opciones": [
+            "Una dirección general ministerial",
+            "Una autoridad administrativa independiente",
+            "Una entidad privada de certificación",
+            "Un órgano judicial"
+          ],
+          "correcta": 1,
+          "justificacion": "La Agencia Española de Protección de Datos es una autoridad administrativa independiente con personalidad jurídica propia y plena capacidad pública y privada.",
+          "trampa": "No depende jerárquicamente de un ministerio en el ejercicio de sus funciones.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "respuestaLiteral": "Una autoridad administrativa independiente",
+          "tema": 28,
+          "origenId": "DIP-T28-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#9-agencia-española-de-protección-de-datos"
+        },
+        {
+          "id": "DIP-SIM-015-Q06",
+          "pregunta": "La tecla F4, mientras se edita una fórmula, sirve para:",
+          "opciones": [
+            "Cerrar el libro",
+            "Alternar tipos de referencia",
+            "Abrir la impresión",
+            "Insertar una hoja"
+          ],
+          "correcta": 1,
+          "justificacion": "Mientras se edita una fórmula, F4 alterna entre referencias relativas, absolutas y mixtas.",
+          "trampa": "F2 se utiliza para editar el contenido de la celda; no debe confundirse con F4.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md",
+          "respuestaLiteral": "Alternar tipos de referencia",
+          "tema": 36,
+          "origenId": "DIP-T36-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-36/manual.md#6-referencias-relativas-absolutas-y-mixtas"
+        },
+        {
+          "id": "DIP-SIM-015-Q07",
+          "pregunta": "¿Cuál es el plazo de cancelación de una sanción por falta grave?",
+          "opciones": [
+            "3 años",
+            "1 año",
+            "2 años",
+            "6 meses"
+          ],
+          "correcta": 2,
+          "justificacion": "La anotación de una sanción por falta grave puede cancelarse a los 2 años desde su cumplimiento, siempre que no se haya impuesto una nueva sanción.",
+          "trampa": "Los plazos ordinarios de cancelación son 1 año para leves, 2 años para graves y 3 años para muy graves.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "respuestaLiteral": "2 años",
+          "tema": 19,
+          "origenId": "DIP-T19-007",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a142"
+        },
+        {
+          "id": "DIP-SIM-015-Q08",
+          "pregunta": "La cuota del IVTM se prorratea, cuando procede, por:",
+          "opciones": [
+            "Días naturales",
+            "Trimestres naturales",
+            "Meses completos",
+            "Semestres"
+          ],
+          "correcta": 1,
+          "justificacion": "La cuota del IVTM se prorratea por trimestres naturales en los supuestos legalmente previstos.",
+          "trampa": "El prorrateo no se calcula por días ni por meses.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "respuestaLiteral": "Trimestres naturales",
+          "tema": 30,
+          "origenId": "DIP-T30-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#7-devengo-y-periodo-impositivo"
+        },
+        {
+          "id": "DIP-SIM-015-Q09",
+          "pregunta": "En un procedimiento iniciado a solicitud, cuando el interesado omite un trámite **no indispensable** para dictar resolución, ¿procede declarar automáticamente caducidad por esa omisión?",
+          "opciones": [
+            "Sí, transcurridos diez días sin contestar",
+            "Sí, al vencimiento de un mes",
+            "No; la omisión solo produce pérdida del derecho al trámite, sin caducidad por esa causa",
+            "Sí, siempre que lo pida la Administración"
+          ],
+          "correcta": 2,
+          "justificacion": "El **artículo 95.2 Ley 39/2015** prohíbe declarar caducidad por omitir actuaciones **no indispensables para dictar resolución**; la consecuencia es la **pérdida del derecho al trámite**. Para caducidad por paralización imputable de actuaciones indispensables se necesita advertencia y **3 meses** conforme al **95.1**.",
+          "trampa": "**No toda inactividad provoca caducidad**. Solo cuando impida continuar por una actuación **indispensable**, con advertencia previa de **3 meses**; la omisión de trámite no esencial no caduca.",
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "respuestaLiteral": "No; la omisión solo produce pérdida del derecho al trámite, sin caducidad por esa causa",
+          "tema": 6,
+          "origenId": "DIP-T06-009",
+          "referenciaOriginal": "Ley 39/2015, artículo 95.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a95"
+        },
+        {
+          "id": "DIP-SIM-015-Q10",
+          "pregunta": "¿Cuál es el plazo para interponer recurso de alzada contra un acto expreso?",
+          "opciones": [
+            "1 mes",
+            "10 días",
+            "15 días",
+            "3 meses"
+          ],
+          "correcta": 0,
+          "justificacion": "El plazo es de 1 mes cuando el acto es expreso.",
+          "trampa": "Los 3 meses son el plazo máximo para resolver, no para interponer.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "respuestaLiteral": "1 mes",
+          "tema": 8,
+          "origenId": "DIP-T08-008",
+          "referenciaOriginal": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122"
+        },
+        {
+          "id": "DIP-SIM-015-Q11",
+          "pregunta": "¿Cuántos diputados provinciales integran la Corporación Provincial de Toledo en la legislatura 2023-2027?",
+          "opciones": [
+            "27",
+            "31",
+            "51",
+            "25"
+          ],
+          "correcta": 0,
+          "justificacion": "La [**Diputación Provincial de Toledo**](https://www.diputoledo.es/prensa/nAmpliada/4482) confirma que se constituyó el **27/07/2023** con **27 diputados** para el mandato **2023–2027**, conforme a la escala del **art. 204 LOREG**.",
+          "trampa": "**27 diputados** en Toledo en **2023–2027**, según constitución oficial **27/07/2023**; otros tramos tienen 25,31,51.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "respuestaLiteral": "27",
+          "tema": 14,
+          "origenId": "DIP-T14-008",
+          "referenciaOriginal": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672 · https://www.diputoledo.es/prensa/nAmpliada/4482"
+        },
+        {
+          "id": "DIP-SIM-015-Q12",
+          "pregunta": "Las modificaciones previstas en los pliegos pueden alcanzar acumuladamente, como máximo general:",
+          "opciones": [
+            "El 10 % del precio inicial",
+            "El 15 % del precio inicial",
+            "El 25 % del valor estimado",
+            "El 20 % del precio inicial"
+          ],
+          "correcta": 3,
+          "justificacion": "Las modificaciones previstas de forma clara, precisa e inequívoca en los pliegos pueden alcanzar, como máximo acumulado, el 20 % del precio inicial.",
+          "trampa": "Este límite no debe confundirse con los requisitos y porcentajes aplicables a modificaciones no previstas.",
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "respuestaLiteral": "El 20 % del precio inicial",
+          "tema": 16,
+          "origenId": "DIP-T16-008",
+          "referenciaOriginal": "Ley 9/2017 LCSP · art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a204"
+        },
+        {
+          "id": "DIP-SIM-015-Q13",
+          "pregunta": "¿Cuál de las siguientes es una función de la AEPD?",
+          "opciones": [
+            "Resolver recursos contencioso-administrativos",
+            "Aprobar leyes orgánicas",
+            "Investigar infracciones y adoptar medidas correctivas",
+            "Gestionar el padrón municipal"
+          ],
+          "correcta": 2,
+          "justificacion": "La AEPD supervisa la normativa de protección de datos, atiende reclamaciones, investiga posibles infracciones y puede adoptar medidas correctivas y sancionadoras.",
+          "trampa": "Sus potestades son administrativas, no legislativas ni jurisdiccionales.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "respuestaLiteral": "Investigar infracciones y adoptar medidas correctivas",
+          "tema": 28,
+          "origenId": "DIP-T28-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#funciones-y-potestades"
+        },
+        {
+          "id": "DIP-SIM-015-Q14",
+          "pregunta": "¿Qué efecto produce un filtro sobre los registros que no cumplen el criterio?",
+          "opciones": [
+            "Los borra",
+            "Los oculta temporalmente",
+            "Los convierte en texto",
+            "Los mueve a otra hoja"
+          ],
+          "correcta": 1,
+          "justificacion": "Un filtro oculta temporalmente las filas cuyos registros no cumplen los criterios seleccionados.",
+          "trampa": "Filtrar y eliminar son operaciones distintas: los datos excluidos continúan almacenados en la hoja.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md",
+          "respuestaLiteral": "Los oculta temporalmente",
+          "tema": 36,
+          "origenId": "DIP-T36-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-36/manual.md#10-ordenación-y-filtros"
+        },
+        {
+          "id": "DIP-SIM-015-Q15",
+          "pregunta": "¿Puede cancelarse la anotación de una sanción de separación del servicio?",
+          "opciones": [
+            "Sí, cuando lo solicite la persona interesada",
+            "Sí, a los 3 años",
+            "Sí, a los 5 años",
+            "No"
+          ],
+          "correcta": 3,
+          "justificacion": "La anotación de la sanción de separación del servicio no es cancelable.",
+          "trampa": "La separación del servicio constituye la excepción a la regla general de cancelación de anotaciones disciplinarias.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "respuestaLiteral": "No",
+          "tema": 19,
+          "origenId": "DIP-T19-008",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a142"
+        },
+        {
+          "id": "DIP-SIM-015-Q16",
+          "pregunta": "En una compraventa sujeta al IIVTNU, el sujeto pasivo es, con carácter general:",
+          "opciones": [
+            "El adquirente",
+            "El transmitente",
+            "El ayuntamiento",
+            "El notario"
+          ],
+          "correcta": 1,
+          "justificacion": "En las transmisiones onerosas sujetas al IIVTNU, el contribuyente es, con carácter general, la persona que transmite el terreno o constituye o transmite el derecho real.",
+          "trampa": "En las transmisiones lucrativas la regla cambia y el sujeto pasivo es el adquirente o beneficiario.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "respuestaLiteral": "El transmitente",
+          "tema": 30,
+          "origenId": "DIP-T30-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#12-sujetos-pasivos"
+        },
+        {
+          "id": "DIP-SIM-015-Q17",
+          "pregunta": "Las reducciones mínimas por reconocimiento de responsabilidad y pago voluntario en un procedimiento sancionador son, respectivamente:",
+          "opciones": [
+            "10 % y 10 %",
+            "25 % y 25 %, no acumulables",
+            "50 % únicamente por pago",
+            "20 % y 20 %, acumulables"
+          ],
+          "correcta": 3,
+          "justificacion": "La Ley establece reducciones de al menos el 20 % por cada concepto y permite su acumulación si se cumplen las condiciones.",
+          "trampa": "La cuantía legal es mínima; reglamentariamente puede aumentarse.",
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "respuestaLiteral": "20 % y 20 %, acumulables",
+          "tema": 6,
+          "origenId": "DIP-T06-010",
+          "referenciaOriginal": "Ley 39/2015, artículo 85 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a85"
+        },
+        {
+          "id": "DIP-SIM-015-Q18",
+          "pregunta": "¿Quién resuelve el recurso potestativo de reposición?",
+          "opciones": [
+            "El mismo órgano que dictó el acto",
+            "El Consejo de Estado",
+            "El superior jerárquico",
+            "El órgano judicial competente"
+          ],
+          "correcta": 0,
+          "justificacion": "La reposición se interpone y resuelve por el mismo órgano que dictó el acto.",
+          "trampa": "El superior jerárquico resuelve la alzada, no la reposición.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "respuestaLiteral": "El mismo órgano que dictó el acto",
+          "tema": 8,
+          "origenId": "DIP-T08-009",
+          "referenciaOriginal": "Ley 39/2015, art. 123 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a123"
+        },
+        {
+          "id": "DIP-SIM-015-Q19",
+          "pregunta": "Una provincia con población entre 500.001 y 1.000.000 de residentes elige:",
+          "opciones": [
+            "25 diputados",
+            "31 diputados",
+            "27 diputados",
+            "51 diputados"
+          ],
+          "correcta": 2,
+          "justificacion": "La escala legal asigna 27 diputados a las provincias con población comprendida entre 500.001 y 1.000.000 de residentes.",
+          "trampa": "El tramo de hasta 500.000 residentes corresponde a 25 diputados.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "respuestaLiteral": "27 diputados",
+          "tema": 14,
+          "origenId": "DIP-T14-009",
+          "referenciaOriginal": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+        },
+        {
+          "id": "DIP-SIM-015-Q20",
+          "pregunta": "Según el artículo 103.5 vigente de la LCSP, ¿cuáles son las condiciones ordinarias de ejecución y tiempo para revisar precios?",
+          "opciones": [
+            "20 % ejecutado y 2 años",
+            "20 % ejecutado y 1 año",
+            "5 % ejecutado y 1 año",
+            "30 % ejecutado y 3 años"
+          ],
+          "correcta": 1,
+          "justificacion": "Regla general: al menos **20 % del importe ejecutado** y **1 año desde la formalización**. Existen excepciones en contratos de suministro de energía y concesión de servicios.",
+          "trampa": "El plazo de **2 años** quedó desactualizado: el artículo **103.5 LCSP** indica **1 año**.",
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "respuestaLiteral": "20 % ejecutado y 1 año",
+          "tema": 16,
+          "origenId": "DIP-T16-009",
+          "referenciaOriginal": "Ley 9/2017 LCSP · art. 103 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a103"
+        },
+        {
+          "id": "DIP-SIM-015-Q21",
+          "pregunta": "La publicidad activa consiste en:",
+          "opciones": [
+            "Responder exclusivamente a solicitudes individuales",
+            "Publicar información sin necesidad de solicitud previa",
+            "Remitir toda la información al juzgado",
+            "Publicar únicamente normas con rango de ley"
+          ],
+          "correcta": 1,
+          "justificacion": "La publicidad activa obliga a publicar de forma periódica y actualizada información relevante sin necesidad de que exista una solicitud previa.",
+          "trampa": "No debe confundirse con el derecho de acceso, que se ejerce a petición de una persona.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "respuestaLiteral": "Publicar información sin necesidad de solicitud previa",
+          "tema": 28,
+          "origenId": "DIP-T28-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#11-publicidad-activa"
+        },
+        {
+          "id": "DIP-SIM-015-Q22",
+          "pregunta": "El error #DIV/0! indica normalmente:",
+          "opciones": [
+            "Una división entre cero",
+            "Un archivo protegido",
+            "Una hoja oculta",
+            "Una referencia absoluta"
+          ],
+          "correcta": 0,
+          "justificacion": "El error #DIV/0! aparece cuando una fórmula intenta dividir entre cero o entre una celda vacía que actúa como divisor nulo.",
+          "trampa": "No es un error de formato, protección ni visibilidad de la hoja.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md",
+          "respuestaLiteral": "Una división entre cero",
+          "tema": 36,
+          "origenId": "DIP-T36-009",
+          "referenciaOriginal": "content/diputacion-toledo/tema-36/manual.md#8-errores-frecuentes"
+        },
+        {
+          "id": "DIP-SIM-015-Q23",
+          "pregunta": "¿Cuál es la duración máxima del procedimiento disciplinario por falta grave o muy grave?",
+          "opciones": [
+            "6 meses",
+            "18 meses",
+            "12 meses",
+            "24 meses"
+          ],
+          "correcta": 2,
+          "justificacion": "La Ley 4/2011 fija una duración máxima de 12 meses para los procedimientos disciplinarios por faltas graves o muy graves.",
+          "trampa": "No debe aplicarse automáticamente el plazo general de 6 meses previsto para otros procedimientos administrativos.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "respuestaLiteral": "12 meses",
+          "tema": 19,
+          "origenId": "DIP-T19-009",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a143"
+        },
+        {
+          "id": "DIP-SIM-015-Q24",
+          "pregunta": "En una herencia sujeta al IIVTNU, el sujeto pasivo es:",
+          "opciones": [
+            "El causante",
+            "El adquirente o heredero",
+            "La comunidad autónoma",
+            "El registrador"
+          ],
+          "correcta": 1,
+          "justificacion": "En las transmisiones lucrativas, como una herencia, el sujeto pasivo del IIVTNU es la persona que adquiere el terreno o el derecho real.",
+          "trampa": "No debe aplicarse a una herencia la regla propia de las transmisiones onerosas.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "respuestaLiteral": "El adquirente o heredero",
+          "tema": 30,
+          "origenId": "DIP-T30-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#12-sujetos-pasivos"
+        },
+        {
+          "id": "DIP-SIM-015-Q25",
+          "pregunta": "El derecho a reclamar responsabilidad patrimonial prescribe, con carácter general, al:",
+          "opciones": [
+            "Mes",
+            "Dos años",
+            "Año",
+            "Cuatro años"
+          ],
+          "correcta": 2,
+          "justificacion": "El plazo general es de un año desde el hecho o acto que motive la indemnización o desde la manifestación del efecto lesivo.",
+          "trampa": "En daños físicos o psíquicos, el cómputo comienza desde la curación o determinación de las secuelas.",
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "respuestaLiteral": "Año",
+          "tema": 6,
+          "origenId": "DIP-T06-011",
+          "referenciaOriginal": "Ley 39/2015, artículo 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a67"
+        },
+        {
+          "id": "DIP-SIM-015-Q26",
+          "pregunta": "¿Cuándo se entiende suspendida la ejecución de un acto recurrido si no se resuelve expresamente la solicitud de suspensión del artículo 117.3?",
+          "opciones": [
+            "Tras diez días desde interponer el recurso",
+            "Solo cuando finalice el procedimiento judicial",
+            "Desde el mero envío de un correo al órgano",
+            "Transcurrido un mes desde la entrada de la solicitud en el registro electrónico de la Administración competente sin resolución dictada y notificada"
+          ],
+          "correcta": 3,
+          "justificacion": "El **art. 117.3 Ley 39/2015** exige el transcurso de **un mes desde la entrada de la solicitud de suspensión en el registro electrónico de la Administración u organismo competente** sin que se **dicte y notifique** resolución expresa.",
+          "trampa": "No es **un mes desde la interposición del recurso**, ni desde cualquier envío: la regla precisa el **registro electrónico competente**.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "respuestaLiteral": "Transcurrido un mes desde la entrada de la solicitud en el registro electrónico de la Administración competente sin resolución dictada y notificada",
+          "tema": 8,
+          "origenId": "DIP-T08-010",
+          "referenciaOriginal": "Ley 39/2015, art. 117.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a117"
+        },
+        {
+          "id": "DIP-SIM-015-Q27",
+          "pregunta": "En la distribución de diputados provinciales entre partidos judiciales, cada uno debe contar al menos con:",
+          "opciones": [
+            "Un diputado",
+            "Tres diputados",
+            "Dos diputados",
+            "El cinco por ciento del total"
+          ],
+          "correcta": 0,
+          "justificacion": "La LOREG garantiza al menos un diputado provincial por cada partido judicial.",
+          "trampa": "Los **partidos judiciales** tienen al menos **un diputado** y nunca más de **3/5** de la Diputación (**LOREG 204.2**).",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "respuestaLiteral": "Un diputado",
+          "tema": 14,
+          "origenId": "DIP-T14-010",
+          "referenciaOriginal": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+        },
+        {
+          "id": "DIP-SIM-015-Q28",
+          "pregunta": "La suspensión del contrato:",
+          "opciones": [
+            "Nunca genera indemnización",
+            "Extingue siempre el contrato",
+            "Debe documentarse en acta y puede generar indemnización",
+            "Solo puede acordarla el contratista"
+          ],
+          "correcta": 2,
+          "justificacion": "La suspensión es una paralización temporal que debe documentarse en acta y puede generar indemnización por los daños efectivamente sufridos y acreditados.",
+          "trampa": "La suspensión no equivale a la resolución ni extingue automáticamente el contrato.",
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "respuestaLiteral": "Debe documentarse en acta y puede generar indemnización",
+          "tema": 16,
+          "origenId": "DIP-T16-010",
+          "referenciaOriginal": "Ley 9/2017 LCSP · art. 208 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a208"
+        },
+        {
+          "id": "DIP-SIM-015-Q29",
+          "pregunta": "Quienes prestan servicios públicos o ejercen potestades administrativas deben suministrar información para cumplir la Ley 19/2013:",
+          "opciones": [
+            "Previo requerimiento de la Administración u organismo vinculado",
+            "Siempre de oficio a cualquier ciudadano",
+            "Solo mediante sentencia",
+            "Únicamente cuando sean empleados públicos"
+          ],
+          "correcta": 0,
+          "justificacion": "La obligación de suministro opera previo requerimiento de la Administración, organismo o entidad pública a la que estén vinculados.",
+          "trampa": "Suministrar información al sujeto público obligado no equivale necesariamente a publicarla directamente.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "respuestaLiteral": "Previo requerimiento de la Administración u organismo vinculado",
+          "tema": 28,
+          "origenId": "DIP-T28-009",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#12-obligación-de-suministrar-información"
+        },
+        {
+          "id": "DIP-SIM-015-Q30",
+          "pregunta": "Para que la propiedad de celda protegida sea efectiva debe:",
+          "opciones": [
+            "Guardarse como CSV",
+            "Exportarse a PDF",
+            "Ocultarse la fórmula",
+            "Protegerse también la hoja"
+          ],
+          "correcta": 3,
+          "justificacion": "La propiedad de celda protegida solo produce efecto cuando se protege también la hoja correspondiente.",
+          "trampa": "Marcar una celda como protegida sin activar la protección de la hoja no basta.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md",
+          "respuestaLiteral": "Protegerse también la hoja",
+          "tema": 36,
+          "origenId": "DIP-T36-010",
+          "referenciaOriginal": "content/diputacion-toledo/tema-36/manual.md#15-protección"
+        },
+        {
+          "id": "DIP-SIM-015-Q31",
+          "pregunta": "¿Qué sanción solo puede imponerse por falta muy grave?",
+          "opciones": [
+            "Apercibimiento",
+            "Separación del servicio",
+            "Traslado provisional",
+            "Demérito"
+          ],
+          "correcta": 1,
+          "justificacion": "La separación del servicio del personal funcionario de carrera solo puede imponerse por la comisión de una falta muy grave.",
+          "trampa": "El apercibimiento es una sanción de menor intensidad y no se reserva a las faltas muy graves.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "respuestaLiteral": "Separación del servicio",
+          "tema": 19,
+          "origenId": "DIP-T19-010",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 138 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a138"
+        },
+        {
+          "id": "DIP-SIM-015-Q32",
+          "pregunta": "¿Cuál es el periodo máximo de generación computable en el IIVTNU?",
+          "opciones": [
+            "20 años",
+            "15 años",
+            "30 años",
+            "10 años"
+          ],
+          "correcta": 0,
+          "justificacion": "El periodo de generación computable en el IIVTNU no puede exceder de 20 años.",
+          "trampa": "No debe confundirse este periodo de generación con los plazos de prescripción tributaria.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "respuestaLiteral": "20 años",
+          "tema": 30,
+          "origenId": "DIP-T30-009",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#10-hecho-imponible"
+        },
+        {
+          "id": "DIP-SIM-015-Q33",
+          "pregunta": "La tramitación simplificada debe resolverse, con carácter general, en:",
+          "opciones": [
+            "30 días",
+            "20 días",
+            "15 días",
+            "3 meses"
+          ],
+          "correcta": 0,
+          "justificacion": "La Ley fija un plazo general de 30 días desde el siguiente a la notificación del acuerdo de tramitación simplificada.",
+          "trampa": "Dentro de la simplificada, el plazo específico de alegaciones es de 5 días.",
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "respuestaLiteral": "30 días",
+          "tema": 6,
+          "origenId": "DIP-T06-012",
+          "referenciaOriginal": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96"
+        },
+        {
+          "id": "DIP-SIM-015-Q34",
+          "pregunta": "¿Cuál es el plazo para interponer recurso extraordinario de revisión por error de hecho?",
+          "opciones": [
+            "1 mes",
+            "3 meses",
+            "4 años",
+            "1 año"
+          ],
+          "correcta": 2,
+          "justificacion": "Por error de hecho resultante de los documentos del expediente, el plazo es de 4 años desde la notificación.",
+          "trampa": "Las demás causas del recurso extraordinario tienen, con carácter general, un plazo de 3 meses.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "respuestaLiteral": "4 años",
+          "tema": 8,
+          "origenId": "DIP-T08-011",
+          "referenciaOriginal": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a125"
+        },
+        {
+          "id": "DIP-SIM-015-Q35",
+          "pregunta": "Los diputados provinciales son elegidos:",
+          "opciones": [
+            "Directamente por todos los electores de la provincia",
+            "Indirectamente entre concejales, según los resultados por partido judicial",
+            "Por el Gobierno autonómico",
+            "Por sorteo entre alcaldes"
+          ],
+          "correcta": 1,
+          "justificacion": "La elección de los diputados provinciales es indirecta y se realiza entre concejales conforme a los resultados obtenidos por cada formación política en cada partido judicial.",
+          "trampa": "La ciudadanía no deposita una papeleta específica para elegir diputados provinciales.",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "respuestaLiteral": "Indirectamente entre concejales, según los resultados por partido judicial",
+          "tema": 14,
+          "origenId": "DIP-T14-011",
+          "referenciaOriginal": "LOREG 5/1985, art. 206 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+        },
+        {
+          "id": "DIP-SIM-015-Q36",
+          "pregunta": "Los contratos se extinguen por:",
+          "opciones": [
+            "Caducidad y desistimiento exclusivamente",
+            "Solo por cumplimiento",
+            "Cumplimiento o resolución",
+            "Solo por mutuo acuerdo"
+          ],
+          "correcta": 2,
+          "justificacion": "La Ley 9/2017 establece como formas generales de extinción de los contratos el cumplimiento y la resolución.",
+          "trampa": "La extinción contractual no se reduce a una sola causa ni al mutuo acuerdo.",
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "respuestaLiteral": "Cumplimiento o resolución",
+          "tema": 16,
+          "origenId": "DIP-T16-011",
+          "referenciaOriginal": "Ley 9/2017 LCSP · art. 209 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a209"
+        },
+        {
+          "id": "DIP-SIM-015-Q37",
+          "pregunta": "La resolución de una solicitud de acceso a información pública debe notificarse, con carácter general, en:",
+          "opciones": [
+            "10 días",
+            "1 mes",
+            "15 días",
+            "3 meses"
+          ],
+          "correcta": 1,
+          "justificacion": "La Ley 19/2013 fija un plazo máximo de 1 mes desde la recepción por el órgano competente, ampliable por otro mes cuando el volumen o la complejidad lo justifiquen.",
+          "trampa": "No debe confundirse con el plazo de 1 mes ampliable por otros 2 meses previsto para los derechos del RGPD.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "respuestaLiteral": "1 mes",
+          "tema": 28,
+          "origenId": "DIP-T28-010",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#procedimiento"
+        },
+        {
+          "id": "DIP-SIM-015-Q38",
+          "pregunta": "¿Qué característica NO conserva normalmente un archivo CSV?",
+          "opciones": [
+            "Varias hojas y gráficos",
+            "Separadores de campos",
+            "Datos tabulares",
+            "Filas de texto"
+          ],
+          "correcta": 0,
+          "justificacion": "CSV almacena datos tabulares simples separados por delimitadores, pero no conserva varias hojas, estilos, fórmulas como tales ni gráficos.",
+          "trampa": "CSV no es un formato completo de libro de cálculo como ODS o XLSX.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md",
+          "respuestaLiteral": "Varias hojas y gráficos",
+          "tema": 36,
+          "origenId": "DIP-T36-011",
+          "referenciaOriginal": "content/diputacion-toledo/tema-36/manual.md#16-importación-exportación-y-compatibilidad"
+        },
+        {
+          "id": "DIP-SIM-015-Q39",
+          "pregunta": "¿Pueden aplicarse por analogía las normas que definen faltas disciplinarias?",
+          "opciones": [
+            "Sí, siempre",
+            "Solo para faltas leves",
+            "Solo con autorización judicial",
+            "No"
+          ],
+          "correcta": 3,
+          "justificacion": "El principio de legalidad y tipicidad impide aplicar por analogía las normas que definen faltas y sanciones disciplinarias.",
+          "trampa": "La analogía no puede utilizarse para ampliar las conductas sancionables.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "respuestaLiteral": "No",
+          "tema": 19,
+          "origenId": "DIP-T19-011",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 128 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a128"
+        },
+        {
+          "id": "DIP-SIM-015-Q40",
+          "pregunta": "El tipo de gravamen máximo del IIVTNU es del:",
+          "opciones": [
+            "30 %",
+            "25 %",
+            "20 %",
+            "35 %"
+          ],
+          "correcta": 0,
+          "justificacion": "El tipo de gravamen del IIVTNU fijado por el ayuntamiento no puede exceder del 30 %.",
+          "trampa": "No debe confundirse el tipo de gravamen con los coeficientes aplicables al periodo de generación.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "respuestaLiteral": "30 %",
+          "tema": 30,
+          "origenId": "DIP-T30-010",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#13-base-imponible-y-cuota"
+        },
+        {
+          "id": "DIP-SIM-015-Q41",
+          "pregunta": "¿Qué plazo tiene el interesado para formular alegaciones al inicio de un procedimiento simplificado?",
+          "opciones": [
+            "15 días",
+            "3 días",
+            "10 días",
+            "5 días"
+          ],
+          "correcta": 3,
+          "justificacion": "Las alegaciones formuladas al inicio del procedimiento simplificado se realizan durante **5 días**.",
+          "trampa": "**Art. 96.6.c**: el plazo de **5 días** para alegar al inicio no es la audiencia ordinaria de **10–15 días**.",
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "respuestaLiteral": "5 días",
+          "tema": 6,
+          "origenId": "DIP-T06-013",
+          "referenciaOriginal": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96"
+        },
+        {
+          "id": "DIP-SIM-015-Q42",
+          "pregunta": "¿Puede la resolución de un recurso agravar la situación inicial del recurrente?",
+          "opciones": [
+            "No, por la prohibición de reformatio in peius",
+            "Sí, si lo solicita otro interesado",
+            "Solo en reposición",
+            "Sí, siempre"
+          ],
+          "correcta": 0,
+          "justificacion": "La resolución debe respetar la prohibición de reformatio in peius y no puede empeorar la situación inicial del recurrente.",
+          "trampa": "La Administración debe resolver todas las cuestiones, pero sin agravar la posición inicial del recurrente.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "respuestaLiteral": "No, por la prohibición de reformatio in peius",
+          "tema": 8,
+          "origenId": "DIP-T08-012",
+          "referenciaOriginal": "Ley 39/2015, art. 119 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a119"
+        },
+        {
+          "id": "DIP-SIM-015-Q43",
+          "pregunta": "Para elegir a la Presidencia de la Diputación, la primera votación exige:",
+          "opciones": [
+            "Mayoría absoluta",
+            "Mayoría simple",
+            "Mayoría de tres quintos",
+            "Unanimidad"
+          ],
+          "correcta": 0,
+          "justificacion": "La Presidencia es elegida por el Pleno entre sus miembros. En primera votación se requiere mayoría absoluta y, en segunda, basta mayoría simple.",
+          "trampa": "**Primera votación absoluta**, **segunda simple**, para la Presidencia provincial (**LOREG 207.2**).",
+          "referencia": "content/diputacion-toledo/tema-14/manual.md",
+          "respuestaLiteral": "Mayoría absoluta",
+          "tema": 14,
+          "origenId": "DIP-T14-012",
+          "referenciaOriginal": "LOREG 5/1985, art. 207 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+        },
+        {
+          "id": "DIP-SIM-015-Q44",
+          "pregunta": "Con carácter general, la Administración debe abonar el precio dentro de:",
+          "opciones": [
+            "15 días",
+            "20 días",
+            "60 días",
+            "30 días"
+          ],
+          "correcta": 3,
+          "justificacion": "La Administración debe abonar el precio dentro de los 30 días siguientes a la aprobación de la certificación de obra o del documento que acredite la conformidad con la prestación.",
+          "trampa": "No debe confundirse el plazo de pago con los de recepción, adjudicación o formalización.",
+          "referencia": "content/diputacion-toledo/tema-16/manual.md",
+          "respuestaLiteral": "30 días",
+          "tema": 16,
+          "origenId": "DIP-T16-012",
+          "referenciaOriginal": "Ley 9/2017 LCSP · art. 198 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a198"
+        },
+        {
+          "id": "DIP-SIM-015-Q45",
+          "pregunta": "El silencio en el procedimiento estatal de acceso a la información pública es:",
+          "opciones": [
+            "Suspensivo",
+            "Estimatorio",
+            "Inexistente",
+            "Desestimatorio"
+          ],
+          "correcta": 3,
+          "justificacion": "Transcurrido el plazo máximo sin resolución expresa, la solicitud de acceso a la información pública se entiende desestimada.",
+          "trampa": "No debe aplicarse por analogía la regla general de silencio positivo de otros procedimientos.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md",
+          "respuestaLiteral": "Desestimatorio",
+          "tema": 28,
+          "origenId": "DIP-T28-011",
+          "referenciaOriginal": "content/diputacion-toledo/tema-28/manual.md#procedimiento"
+        },
+        {
+          "id": "DIP-SIM-015-Q46",
+          "pregunta": "¿Qué atajo abre el cuadro de formato de celdas?",
+          "opciones": [
+            "Ctrl + F2",
+            "Ctrl + 1",
+            "Ctrl + H",
+            "Ctrl + P"
+          ],
+          "correcta": 1,
+          "justificacion": "La combinación Ctrl + 1 abre el cuadro de formato de celdas en LibreOffice Calc.",
+          "trampa": "Ctrl + F2 abre el asistente de funciones, Ctrl + H abre Buscar y reemplazar y Ctrl + P abre la impresión.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md",
+          "respuestaLiteral": "Ctrl + 1",
+          "tema": 36,
+          "origenId": "DIP-T36-012",
+          "referenciaOriginal": "content/diputacion-toledo/tema-36/manual.md#17-atajos-esenciales"
+        },
+        {
+          "id": "DIP-SIM-015-Q47",
+          "pregunta": "¿Qué efecto tienen los hechos declarados probados por una sentencia penal firme?",
+          "opciones": [
+            "Vinculan a la Administración en el procedimiento disciplinario",
+            "Carecen de efectos",
+            "Solo sirven como indicio",
+            "Obligan siempre a imponer la misma sanción"
+          ],
+          "correcta": 0,
+          "justificacion": "Los hechos declarados probados por una resolución judicial penal firme vinculan a la Administración en el procedimiento disciplinario.",
+          "trampa": "La vinculación afecta a los hechos probados, pero no obliga necesariamente a imponer una sanción disciplinaria idéntica a la penal.",
+          "referencia": "content/diputacion-toledo/tema-19/manual.md",
+          "respuestaLiteral": "Vinculan a la Administración en el procedimiento disciplinario",
+          "tema": 19,
+          "origenId": "DIP-T19-012",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 145 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a145"
+        },
+        {
+          "id": "DIP-SIM-015-Q48",
+          "pregunta": "¿Por cuál de los siguientes servicios no puede exigirse una tasa local?",
+          "opciones": [
+            "Ocupación del dominio público",
+            "Recogida de residuos",
+            "Expedición de licencias",
+            "Limpieza de la vía pública"
+          ],
+          "correcta": 3,
+          "justificacion": "La limpieza de la vía pública figura entre los servicios por los que las entidades locales no pueden exigir tasas.",
+          "trampa": "La limpieza viaria no debe confundirse con la recogida de residuos, que sí puede financiarse mediante tasa.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md",
+          "respuestaLiteral": "Limpieza de la vía pública",
+          "tema": 30,
+          "origenId": "DIP-T30-011",
+          "referenciaOriginal": "content/diputacion-toledo/tema-30/manual.md#161-servicios-por-los-que-no-pueden-exigirse-tasas"
+        },
+        {
+          "id": "DIP-SIM-015-Q49",
+          "pregunta": "¿Qué regla rige el trámite de audiencia en un procedimiento simplificado?",
+          "opciones": [
+            "Es siempre obligatorio",
+            "No existe",
+            "Se realiza solo por solicitud del instructor",
+            "Solo se realiza cuando la resolución vaya a ser desfavorable al interesado"
+          ],
+          "correcta": 3,
+          "justificacion": "Solo se prevé audiencia en tramitación simplificada si la resolución va a ser **desfavorable** al interesado.",
+          "trampa": "**Art. 96.6.d**: audiencia solo para resolución desfavorable, a diferencia de la regla ordinaria.",
+          "referencia": "content/diputacion-toledo/tema-06/manual.md",
+          "respuestaLiteral": "Solo se realiza cuando la resolución vaya a ser desfavorable al interesado",
+          "tema": 6,
+          "origenId": "DIP-T06-014",
+          "referenciaOriginal": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96"
+        },
+        {
+          "id": "DIP-SIM-015-Q50",
+          "pregunta": "¿Cuánto tiempo tiene la Administración para resolver el recurso de alzada?",
+          "opciones": [
+            "Un mes",
+            "Dos meses",
+            "Tres meses",
+            "Seis meses"
+          ],
+          "correcta": 2,
+          "justificacion": "El plazo máximo de resolución y notificación del recurso de alzada es de **3 meses**.",
+          "trampa": "**Alzada**: **1 mes** para interponer frente a acto expreso; **3 meses** para resolver. En acto presunto, interposición posible en cualquier momento desde que surta efecto.",
+          "referencia": "content/diputacion-toledo/tema-08/manual.md",
+          "respuestaLiteral": "Tres meses",
+          "tema": 8,
+          "origenId": "DIP-T08-013",
+          "referenciaOriginal": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 013: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 014: 50 preguntas de 8 temas, trazabilidad original y claves equilibradas, sin coincidencias normalizadas con modelos anteriores; T22 excluido.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 013: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 014: 50 preguntas de 8 temas, trazabilidad original y claves equilibradas, sin coincidencias normalizadas con modelos anteriores; T22 excluido. Modelo 015: 50 preguntas del banco en ocho temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
