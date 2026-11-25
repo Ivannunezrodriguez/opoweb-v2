@@ -483,7 +483,7 @@
         {
           "id": "RAD-04",
           "title": "Auditar frescura, errores de extracción y falsos positivos del feed",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Muestra de resultados con fuente, fecha de lectura y comprobación de estado; no prometer cobertura completa.",
           "evidencePaths": [
             "assets/radar.js",
@@ -510,15 +510,11 @@
             "22/11/2026: confirmados 20 días naturales y vencimientos Getafe Apoyo Global 04/12 y Alcorcón Cerrajero 03/12, ambos turno libre; bases BOCM 253/258 localizadas pero sin cotejo íntegro de titulación. Marcados ambos como elegibilidad REVISAR no CUMPLE.",
             "22/11/2026: identificado índice oficial de bases municipales y anexo oficial para Alcorcón Cerrajero, pero no verificado el texto íntegro de requisitos; ficha externa refiere ESO y permiso B, expresamente aislada como secundaria. Getafe Apoyo Global: funciones en escuelas infantiles mencionadas en fuentes secundarias y titulación no confirmada por BOE.",
             "24/11/2026: inspección feed 1438: 28/44 incorporaciones del día son etiquetas genéricas de contratación y tres actas/composición/bolsa provisional; filtro reparado en RAD-12 y conservado histórico. La ficha institucional SERMAS auxiliar administrativo de inscripción permanente sigue visible en web aunque runner 404; no afirmar cierre.",
-            "24/11/2026: snapshot 09:03 UTC todavía sin nuevo diagnóstico de intentos y con navegación genérica. Se introduce navigationOnly para registros DIRECT de categoría desnuda, excluidos de oportunidades visibles sin borrar histórico; se amplía clasificación de trámites de gestión de bolsas como seguimiento. Versiones radar.js y radar-quality.js 2026.11.24.1, control estático añadido. Pendiente CI y publicación."
+            "24/11/2026: snapshot 09:03 UTC todavía sin nuevo diagnóstico de intentos y con navegación genérica. Se introduce navigationOnly para registros DIRECT de categoría desnuda, excluidos de oportunidades visibles sin borrar histórico; se amplía clasificación de trámites de gestión de bolsas como seguimiento. Versiones radar.js y radar-quality.js 2026.11.24.1, control estático añadido. Pendiente CI y publicación.",
+            "25/11/2026: cierre de criterio original. Muestreo documental de diez anuncios BOE fechado 22/11/2026, clasificaciones, plazos y cautelas con URLs individuales; contraste CI ejecutado 25/11/2026 09:19 UTC sobre snapshot 24/11 de 1449 registros: 7 coincidencias directas, 3 sin referencia directa, 3 referencias con múltiples entradas. Pruebas de cotejo, separación de fases y auditoría operativa SUCCESS 45584310904. No equivale a cobertura global ni lectura íntegra de bases. Requisitos y fallos de extracción permanecen RAD-09 y RAD-12; deduplicación RAD-13; notificaciones RAD-05."
           ],
-          "remainingSubsteps": [
-            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
-            "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
-            "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
-          ],
-          "nextAction": "Leer el documento íntegro municipal BASES 1 OFICIAL/A CERRAJERO/A y las bases Getafe EEII; determinar titulación, permiso B, experiencia, tasas y elegibilidad. Mantener ambos en REVISAR hasta cotejo primario.",
-          "priority": "ALTA"
+          "priority": "ALTA",
+          "closureScope": "Muestreo documental de diez anuncios BOE fechado 22/11/2026, clasificaciones, plazos y cautelas con URLs individuales; contraste CI ejecutado 25/11/2026 09:19 UTC sobre snapshot 24/11 de 1449 registros: 7 coincidencias directas, 3 sin referencia directa, 3 referencias con múltiples entradas. Pruebas de cotejo, separación de fases y auditoría operativa SUCCESS 45584310904. No equivale a cobertura global ni lectura íntegra de bases. Requisitos y fallos de extracción permanecen RAD-09 y RAD-12; deduplicación RAD-13; notificaciones RAD-05."
         },
         {
           "id": "RAD-05",
@@ -3149,6 +3145,17 @@
         "content/diputacion-toledo/supuestos-practicos.json"
       ],
       "limit": "T22 continúa bloqueado en DIP-C1-02; no certifica auditoría legal integral, penalización ni bases completas. Meta de diez modelos era ampliación didáctica, no criterio original; se pospone sin crear nuevas tareas. QA específico del 008 pendiente."
+    },
+    {
+      "id": "LOG-20261125-RAD04-CIERRE",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-04"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre del muestreo de calidad Radar con cotejo oficial y contraste ejecutado sobre feed real.",
+      "evidence": [],
+      "limit": "Muestreo histórico con contraste posterior, no cobertura ni frescura completa. No cerrar RAD-05/09/12/13 por estas pruebas parciales."
     }
   ],
   "decisions": [
@@ -3242,7 +3249,6 @@
         "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
         "taskIds": [
           "RAD-02",
-          "RAD-04",
           "RAD-09",
           "RAD-12",
           "RAD-05",
@@ -3307,6 +3313,10 @@
       {
         "id": "DIP-C1-01",
         "scope": "Paquete de repaso final para 15/12: 40 fichas/361 tarjetas, 806 preguntas activas (T22 no evaluable mientras siga bloqueado), 5 repasos breves, 3 modelos de 50 preguntas/60 minutos, 13 supuestos y 6 modelos prácticos con 82 cuestiones y 164 criterios. Publicación SUCCESS 45584027484; E2E específico de rúbrica SUCCESS 45582033145 y navegador general SUCCESS 45583794972. No certifica auditoría jurídica integral, bases completas, penalización oficial, ni E2E específico del modelo 008 (en curso)."
+      },
+      {
+        "id": "RAD-04",
+        "scope": "Muestreo documental de diez anuncios BOE fechado 22/11/2026, clasificaciones, plazos y cautelas con URLs individuales; contraste CI ejecutado 25/11/2026 09:19 UTC sobre snapshot 24/11 de 1449 registros: 7 coincidencias directas, 3 sin referencia directa, 3 referencias con múltiples entradas. Pruebas de cotejo, separación de fases y auditoría operativa SUCCESS 45584310904. No equivale a cobertura global ni lectura íntegra de bases. Requisitos y fallos de extracción permanecen RAD-09 y RAD-12; deduplicación RAD-13; notificaciones RAD-05."
       }
     ],
     "sourceSnapshot": {
@@ -3344,5 +3354,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:19:29.000Z"
+  "updatedAtUtc": "2026-11-25T09:21:32.000Z"
 }
