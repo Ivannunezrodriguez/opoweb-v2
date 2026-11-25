@@ -616,9 +616,10 @@
             "24/11/2026: introducida extracción de cláusulas expresas de permiso de conducir y experiencia mínima, con texto normalizado y URL del documento; excluidas menciones de méritos/baremación. Pruebas sintéticas de requisito, mérito, temario y procedencia incorporadas. Reconsulta BOE-A-2026-23854 y documentación institucional de Alcorcón: no se obtienen bases íntegras, ambas candidaturas siguen REVISAR. Último ciclo documental sin intentos.",
             "24/11/2026: ficha Radar incorpora sección desplegable de requisitos adicionales (permiso y experiencia), cláusulas escapadas, enlace HTTPS sin credenciales al documento de procedencia y aviso de extracción parcial. Caché radar.js 2026.11.24.2; prueba estática añadida. Feed 1440, último ciclo sin intentos; no hay todavía ejemplo real extraído con estos campos ni validación CI acreditada.",
             "24/11/2026: cotejo GitHub privado/público main: radar.html SHA 5a5632510e8141d9cd09728192db059b430b11bc y assets/radar.js SHA 72161ca69258e7808fe2d489d811d895f7ddadbc idénticos, versión 2026.11.24.2. Reconsulta BOE-A-2026-23800 y anuncio BOCM 258: turno libre y plaza confirmados; no se ha conseguido texto íntegro de base 4. ESO/permiso B siguen indicio secundario. Feed 1440, 0 requisitos adicionales extraídos, último enriquecimiento 0 intentos. Consultas de estado CI y runs PR no devuelven registros; no equivalen a éxito.",
-            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real."
+            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
+            "25/11/2026: clasificación sin exclusión por grupo y sin CUMPLE automático (1c3b7ef, publicación SUCCESS 45585766770 tras ajuste 3666350). Incorporada cláusula de titulación normalizada, URL y fecha de lectura, visualización y regresión de procedencia (f0c9442 y corrección de fecha). Pendiente CI y cotejo real; no acredita cumplimiento integral."
           ],
-          "nextAction": "Obtener bases específicas completas y evidencia de CI; validar ejemplo real de requisitos adicionales y render de navegador. No seguir ampliando extractor sin evidencia.",
+          "nextAction": "Confirmar CI de procedencia, cotejar ficha real y alternativas completas de titulación; evaluar requisitos adicionales y no certificar CUMPLE sin evidencia integral.",
           "priority": "ALTA"
         },
         {
@@ -3164,6 +3165,20 @@
       "summary": "Cierre del filtro de notificaciones con regresiones y selector real sobre 1449 registros, sin envío.",
       "evidence": [],
       "limit": "0 listas de admitidos/excluidos en muestra real; regresión sintética específica superada. 9 revisiones diagnósticas no enviadas; 0 candidatos automáticos. No certifica entrega efectiva ni elegibilidad jurídica individual."
+    },
+    {
+      "id": "LOG-20261125-RAD09-PROCEDENCIA",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Clasificación prudente y procedencia de titulación implementadas con pruebas; pendiente cotejo real.",
+      "evidence": [
+        "assets/radar-quality.js",
+        "assets/radar.js"
+      ],
+      "limit": "CI de nueva procedencia pendiente; no acredita cláusula íntegra, equivalencias, requisitos personales ni CUMPLE."
     }
   ],
   "decisions": [
@@ -3365,5 +3380,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:25:41.000Z"
+  "updatedAtUtc": "2026-11-25T09:30:42.000Z"
 }
