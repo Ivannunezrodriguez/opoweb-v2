@@ -1023,6 +1023,205 @@
           }
         }
       ]
+    },
+    {
+      "id": "DIP-SP-011",
+      "titulo": "Impuestos locales: devengo, prorrateo y no sujeción",
+      "temas": [
+        29,
+        30
+      ],
+      "enunciado": "En cuatro expedientes independientes, una vivienda cambia de propietario en julio; un empresario inicia por primera vez una actividad en España en septiembre; un vehículo se adquiere por primera vez en agosto con cuota anual hipotética de 120 euros; y se transmite un terreno urbano por un valor inferior al de adquisición, acreditado conforme al artículo 104.5 TRLRHL.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-011-Q1",
+          "pregunta": "¿Cuándo se devenga el IBI y qué periodo impositivo tiene?",
+          "respuesta": "El 1 de enero, pues el periodo coincide con el año natural. La transmisión de julio no produce por sí sola un segundo devengo del IBI.",
+          "trampa": "No confundir devengo tributario con reparto privado de gastos entre comprador y vendedor.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a75"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 1 de enero",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica año natural y ausencia de segundo devengo",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-011-Q2",
+          "pregunta": "¿Qué exención del IAE corresponde al inicio de actividad descrito?",
+          "respuesta": "La exención por inicio de actividad durante los dos primeros periodos impositivos en que se ejerza. No equivale necesariamente a 24 meses completos; se distingue de otras exenciones del artículo 82.",
+          "trampa": "No confundir periodos impositivos con años contados de fecha a fecha.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a82",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a89"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica dos periodos",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue periodos de 24 meses",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-011-Q3",
+          "pregunta": "¿Qué cuota del IVTM corresponde por la primera adquisición en agosto?",
+          "respuesta": "60 euros: dos de los cuatro trimestres naturales (tercero y cuarto) de la cuota anual hipotética de 120 euros. El periodo comienza el día de primera adquisición.",
+          "trampa": "El prorrateo se realiza por trimestres naturales, no por meses.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a96"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica dos trimestres",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 60 euros",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-011-Q4",
+          "pregunta": "¿Está sujeta la transmisión del terreno urbano al IIVTNU si se acredita inexistencia de incremento?",
+          "respuesta": "No está sujeta, conforme al artículo 104.5. El interesado debe declarar la transmisión y aportar los títulos de adquisición y transmisión; deben aplicarse las reglas legales de valoración.",
+          "trampa": "No confundir no sujeción con exención ni prescindir de la acreditación.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica no sujeción",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica declaración y acreditación documental",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-012",
+      "titulo": "Writer: maquetación de un informe administrativo",
+      "temas": [
+        35
+      ],
+      "enunciado": "Se prepara un informe administrativo con portada vertical, anexo horizontal, pie con numeración automática y formato uniforme. Debe poder actualizarse sin insertar espacios o líneas vacías como solución de maquetación.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-012-Q1",
+          "pregunta": "¿Qué herramienta permite definir márgenes y orientación de página?",
+          "respuesta": "Los estilos de página permiten configurar márgenes, orientación y otros atributos de disposición.",
+          "trampa": "No confundir estilo de página con estilo de carácter.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica estilos de página",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica márgenes y orientación",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-012-Q2",
+          "pregunta": "¿Cómo se inicia el anexo horizontal sin cambiar la orientación de todas las páginas anteriores?",
+          "respuesta": "Insertar un salto de página con el estilo de página horizontal, manteniendo el estilo vertical para la parte anterior.",
+          "trampa": "Cambiar un estilo compartido puede modificar todas las páginas que lo usan.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica salto con estilo",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Conserva orientación anterior",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-012-Q3",
+          "pregunta": "¿Cómo se consigue numeración de páginas que se actualice al insertar nuevas páginas?",
+          "respuesta": "Insertar un campo de número de página en un pie o cabecera del estilo correspondiente.",
+          "trampa": "No escribir números manualmente como texto fijo.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/pagenumbers.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica campo automático",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica pie o cabecera",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-012-Q4",
+          "pregunta": "¿Qué debe configurarse para que la portada tenga un pie distinto del resto del informe?",
+          "respuesta": "Utilizar estilos de página diferentes para portada y cuerpo, configurando el pie en cada uno y enlazando los estilos mediante un salto o la configuración del estilo siguiente.",
+          "trampa": "Un pie pertenece al estilo de página; editarlo puede afectar a otras páginas que compartan dicho estilo.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/header_pagestyles.html",
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica estilos diferenciados",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica configuración de pies y transición",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "rubricaDidactica": {
