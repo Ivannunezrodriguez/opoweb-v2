@@ -26,7 +26,7 @@
       "duracionMinutos": 45
     },
     "segundoEjercicio": {
-      "modelosDeEntrenamiento": 4,
+      "modelosDeEntrenamiento": 6,
       "cuestionesPorModelo": 5,
       "formato": "Desarrollo escrito (formato de entrenamiento, no formato oficial confirmado)",
       "tiempo": "Tiempo de trabajo orientativo en cada simulacro; el tribunal fijará el oficial",
@@ -759,6 +759,243 @@
               },
               {
                 "descripcion": "Calcula siete votos necesarios para mayoría absoluta y concluye que no se alcanza.",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-05",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 5 · Cálculo de tributos y recargos",
+      "temas": [
+        10,
+        11,
+        12
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "Caso ficticio de gestión tributaria municipal. Una vivienda tiene base liquidable de 80.000 euros y tipo IBI supuesto del 0,60 %. Una obra tiene coste de ejecución material de 25.000 euros y tipo ICIO supuesto del 3 %. Una deuda tributaria independiente de 600 euros entra en período ejecutivo. No existen bonificaciones ni otros conceptos salvo los indicados.",
+      "cuestiones": [
+        {
+          "pregunta": "Calcula la cuota íntegra del IBI de la vivienda e indica la base que utilizas.",
+          "respuesta": "La cuota íntegra resulta de aplicar el tipo a la base liquidable: 80.000 × 0,006 = 480 euros. Sin bonificaciones, la cuota líquida también sería de 480 euros.",
+          "trampa": "No aplicar el tipo directamente al valor catastral si se facilita una base liquidable distinta.",
+          "referencias": [
+            "RDL 2/2004, artículo 71",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a71"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Usa la base liquidable y convierte correctamente el porcentaje.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Obtiene 480 euros.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Calcula la cuota del ICIO y señala si debe incluirse el IVA en su base imponible.",
+          "respuesta": "La base es el coste real y efectivo de ejecución material. 25.000 × 0,03 = 750 euros. El IVA no se incluye en dicha base, ni los honorarios profesionales.",
+          "trampa": "No confundir presupuesto total de la obra con coste de ejecución material.",
+          "referencias": [
+            "RDL 2/2004, artículo 102",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a102"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica base y exclusión del IVA.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 750 euros.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Si se paga la deuda de 600 euros íntegramente antes de notificarse la providencia de apremio, ¿cuánto debe ingresar con el recargo?",
+          "respuesta": "El recargo ejecutivo es del 5 %: 600 × 0,05 = 30 euros. Total 630 euros. No se exigen intereses de demora devengados desde el inicio del período ejecutivo.",
+          "trampa": "El 5 % exige pagar toda la deuda antes de la notificación de la providencia.",
+          "referencias": [
+            "Ley 58/2003, artículo 28",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica recargo ejecutivo del 5 % y condición.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula total de 630 euros.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Si se satisface toda la deuda y el recargo dentro del plazo del artículo 62.5 LGT tras la providencia, ¿cuánto se paga?",
+          "respuesta": "Procede el recargo de apremio reducido del 10 %, equivalente a 60 euros. El total asciende a 660 euros, sin intereses del período ejecutivo.",
+          "trampa": "No basta con pagar el principal: también debe pagarse el recargo en plazo.",
+          "referencias": [
+            "Ley 58/2003, artículo 28",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica recargo reducido y sus condiciones.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula total de 660 euros.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Si no se cumplen las condiciones de los recargos anteriores, calcula principal y recargo ordinario e indica qué falta añadir.",
+          "respuesta": "El recargo de apremio ordinario es del 20 %: 120 euros. Principal más recargo suma 720 euros, sin incluir los intereses de demora que procedan y, en su caso, costas.",
+          "trampa": "No sumar los tres recargos: son incompatibles entre sí.",
+          "referencias": [
+            "Ley 58/2003, artículo 28",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica 20 % e incompatibilidad con otros recargos.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 720 euros y advierte intereses y posibles costas.",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-06",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 6 · Presupuesto municipal y modificaciones de crédito",
+      "temas": [
+        12,
+        14
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "Caso didáctico inspirado en los tipos de expedientes del Pleno de La Puebla del 23/11/2026, con importes ficticios. Se necesita reparar un edificio municipal: crédito disponible 100 euros, gasto previsto 4.800 euros. Se plantea una transferencia de 4.700 euros entre áreas de gasto distintas, sin afectar a personal. Además, se necesita adquirir un equipo por 12.000 euros para el que no existe crédito y cuyo gasto no puede demorarse.",
+      "cuestiones": [
+        {
+          "pregunta": "¿Qué importe hay que transferir para cubrir la reparación y qué saldo final tendrá la aplicación?",
+          "respuesta": "Se necesitan 4.800 − 100 = 4.700 euros adicionales. Una vez transferidos, la aplicación receptora tendrá 4.800 euros disponibles, antes de comprometer el gasto.",
+          "trampa": "No transferir los 4.800 completos ignorando el crédito disponible.",
+          "referencias": [
+            "RDL 2/2004, artículo 179",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a179"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Calcula déficit de 4.700 euros.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula crédito final de 4.800 euros.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "¿Qué órgano aprueba la transferencia entre áreas de gasto distintas cuando no afecta a créditos de personal?",
+          "respuesta": "Corresponde al Pleno de la corporación cuando la transferencia se realiza entre distintos grupos de función (terminología legal), salvo cuando altas y bajas afecten a créditos de personal. El supuesto excluye esa excepción.",
+          "trampa": "No atribuir todas las transferencias a Alcaldía; importa su clasificación presupuestaria.",
+          "referencias": [
+            "RDL 2/2004, artículo 179",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a179"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica al Pleno.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica excepción de créditos de personal.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "¿Qué modalidad de modificación procede para adquirir el equipo sin crédito y con gasto que no puede demorarse?",
+          "respuesta": "Procede un crédito extraordinario de 12.000 euros. Si existiera crédito insuficiente y no ampliable, la figura sería el suplemento de crédito. El expediente debe justificar necesidad y financiación.",
+          "trampa": "No confundir inexistencia de crédito con insuficiencia de un crédito existente.",
+          "referencias": [
+            "RDL 2/2004, artículo 177",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica crédito extraordinario y cuantía.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue suplemento de crédito.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "¿Puede financiarse el crédito extraordinario con bajas de otros créditos y qué condición deben cumplir?",
+          "respuesta": "Sí, mediante anulaciones o bajas de créditos de otras partidas del presupuesto vigente no comprometidos, cuyas dotaciones sean reducibles sin perturbación del servicio respectivo. Debe tramitarse y justificarse la financiación.",
+          "trampa": "No dar por disponible cualquier crédito, especialmente si ya está comprometido.",
+          "referencias": [
+            "RDL 2/2004, artículo 177",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica bajas por anulación como financiación posible.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Exige créditos no comprometidos y ausencia de perturbación.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Tras la aprobación inicial del crédito extraordinario por el Pleno, explica el plazo de exposición y cuándo se convierte en definitivo.",
+          "respuesta": "Se aplica el trámite del presupuesto: exposición pública durante 15 días hábiles desde el anuncio correspondiente, con posibilidad de reclamaciones. Si no se presentan, queda definitivamente aprobado; si existen, el Pleno dispone de un mes para resolverlas.",
+          "trampa": "No confundir los 15 días hábiles presupuestarios con los 30 días de ordenanzas.",
+          "referencias": [
+            "RDL 2/2004, artículo 169",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Indica 15 días hábiles y anuncio público.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica aprobación definitiva automática sin reclamaciones y un mes para resolverlas.",
                 "puntos": 1
               }
             ]
