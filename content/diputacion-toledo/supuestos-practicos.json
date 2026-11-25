@@ -138,6 +138,25 @@
             "content/diputacion-toledo/tema-28/manual.md#categorías-especiales-de-datos",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a15"
           ]
+        },
+        {
+          "id": "DIP-SP-003-Q3",
+          "pregunta": "Si el acceso puede afectar a derechos de terceros identificados, ¿qué trámite procede y cómo afecta al plazo de resolución?",
+          "respuesta": "Conceder a los terceros 15 días para alegaciones e informar al solicitante de la suspensión del plazo de resolución hasta recibirlas o agotar dicho plazo. Son días hábiles conforme a la regla general de cómputo administrativo. Art. 19.3 Ley 19/2013.",
+          "trampa": "La audiencia de terceros no equivale a denegación automática ni a una ampliación de un mes.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a19",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30"
+          ]
+        },
+        {
+          "id": "DIP-SP-003-Q4",
+          "pregunta": "¿Cuál es el plazo ordinario para notificar la resolución, cuándo cabe ampliarlo y qué efecto tiene el silencio?",
+          "respuesta": "Un mes desde la recepción por el órgano competente para resolver. Cabe ampliarlo otro mes por volumen o complejidad, previa notificación al solicitante. El silencio es desestimatorio. La concesión parcial o denegación debe motivarse. Art. 20 Ley 19/2013.",
+          "trampa": "No confundir el silencio desestimatorio del acceso a información pública con la regla general de silencio de la Ley 39/2015.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a20"
+          ]
         }
       ]
     },
@@ -202,7 +221,7 @@
         39,
         40
       ],
-      "enunciado": "Una empleada recibe en GroupWise un mensaje que aparenta proceder del servicio informático. El correo incluye un enlace para renovar la contraseña y un archivo comprimido. Tras abrir el enlace, introduce sus credenciales y observa actividad anómala en su buzón.",
+      "enunciado": "Una empleada recibe en GroupWise un mensaje que aparenta proceder del servicio informático. El correo incluye un enlace para renovar la contraseña y un archivo comprimido. Tras abrir el enlace, introduce sus credenciales y observa actividad anómala en su buzón. Para las cuestiones 3 y 4, suponga que se confirma acceso no autorizado a datos personales y que el responsable del tratamiento tiene constancia de la brecha el lunes a las 09:00.",
       "cuestiones": [
         {
           "id": "DIP-SP-005-Q1",
@@ -217,11 +236,32 @@
         {
           "id": "DIP-SP-005-Q2",
           "pregunta": "¿Qué actuaciones inmediatas debe realizar la empleada?",
-          "respuesta": "Debe comunicar el incidente al servicio competente, cambiar la contraseña desde un equipo seguro, cerrar sesiones activas, no seguir interactuando con el mensaje, conservar las evidencias necesarias y seguir las instrucciones de respuesta al incidente. Si existe riesgo para datos personales, debe activarse además el procedimiento interno de gestión de brechas.",
+          "respuesta": "Comunicar inmediatamente el incidente por canal interno, seguir las indicaciones de seguridad, cambiar la contraseña desde un equipo seguro y solicitar revocación de sesiones y tokens cuando proceda. Preservar evidencias sin reenviar archivos peligrosos. Si puede haber datos personales comprometidos, activar el procedimiento interno para que el responsable evalúe la brecha, incluso antes de determinar el nivel de riesgo.",
           "trampa": "Borrar el mensaje sin comunicarlo puede destruir evidencias y no revoca las credenciales comprometidas.",
           "referencias": [
             "content/diputacion-toledo/tema-34/manual.md#respuesta-ante-incidentes",
-            "content/diputacion-toledo/tema-28/manual.md#brechas-de-seguridad"
+            "content/diputacion-toledo/tema-28/manual.md#brechas-de-seguridad",
+            "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion"
+          ]
+        },
+        {
+          "id": "DIP-SP-005-Q3",
+          "pregunta": "Si la brecha entraña riesgo para derechos y libertades, ¿quién notifica a la autoridad de control y cuándo?",
+          "respuesta": "El responsable del tratamiento notifica a la autoridad competente sin dilación indebida y, si es posible, dentro de las 72 horas desde que tiene constancia: en el ejemplo, hasta el jueves a las 09:00. Si se supera ese plazo debe justificar el retraso. No es obligatorio notificar si es improbable que exista riesgo; toda brecha debe documentarse. Art. 33 RGPD.",
+          "trampa": "Son 72 horas, no tres días hábiles. El deber del responsable no se confunde con el aviso interno de la empleada.",
+          "referencias": [
+            "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es",
+            "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion"
+          ]
+        },
+        {
+          "id": "DIP-SP-005-Q4",
+          "pregunta": "¿Cuándo procede comunicar la brecha a las personas afectadas?",
+          "respuesta": "Cuando sea probable un alto riesgo para sus derechos y libertades, sin dilación indebida, salvo las excepciones del art. 34.3 RGPD: protección eficaz previa como cifrado que haga ininteligibles los datos; medidas posteriores que eliminen la probabilidad de alto riesgo; o esfuerzo desproporcionado, en cuyo caso procede comunicación pública o medida igualmente efectiva.",
+          "trampa": "El umbral de comunicación a afectados es alto riesgo; no se les aplica el plazo de 72 horas de notificación a la autoridad.",
+          "referencias": [
+            "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es",
+            "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/comunicacion-de-brechas-de-datos"
           ]
         }
       ]
