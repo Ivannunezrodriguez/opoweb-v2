@@ -140,9 +140,10 @@
             "25/11/2026: cuatro modelos, 20 cuestiones y 40 criterios de un punto, reutilizando renderOpenCase existente; nuevo régimen local, corrección focal de notificación art. 43.2 y 41.6; commit 4f909b3. Validación de integridad ampliada; ejecución CI y navegador aún pendientes.",
             "25/11/2026: diagnóstico del fallo real de CI 45599848829: tests/validate-practice-exam.mjs exigía tres modelos pese a ampliación a cuatro. Corregido en eca89a1 con mínimo de cuatro y correspondencia con metadatos; ampliada solución art. 46.2.a en c45bdce. Pendiente nueva CI y E2E de rúbricas.",
             "25/11/2026: publicación 45605234184 SUCCESS tras corrección de metadatos; pendiente E2E específico de rúbricas.",
-            "25/11/2026: E2E 45606952096 SUCCESS sobre 09c9722: comprobación de cuatro modelos, rúbricas 0/9/10, navegación y móvil."
+            "25/11/2026: E2E 45606952096 SUCCESS sobre 09c9722: comprobación de cuatro modelos, rúbricas 0/9/10, navegación y móvil.",
+            "25/11/2026: añadidos prácticos 5 cálculo IBI/ICIO y recargos y 6 modificaciones presupuestarias; 6 modelos, 30 cuestiones, 60 criterios, commit ba8998c. Importes y tipos ficticios; referencias BOE; modelo presupuestario inspirado en acta plenaria aportada. Pendiente CI y revisión técnica."
           ],
-          "nextAction": "Ampliar modelos de cálculo tributario, plazos, Excel y presupuesto; mantener pendiente contraste técnico y formato oficial."
+          "nextAction": "Confirmar publicación y E2E; añadir plazos, Excel, tipo test e integral hasta 10 modelos."
         }
       ]
     },
@@ -3572,5 +3573,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T13:28:32.000Z"
+  "updatedAtUtc": "2026-11-25T13:30:28.000Z"
 }
