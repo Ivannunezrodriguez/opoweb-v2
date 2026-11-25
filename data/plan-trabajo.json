@@ -95,7 +95,10 @@
             "practice.html",
             "content/la-puebla/simulacros.json"
           ],
-          "nextAction": "Recuperar los 50 enunciados y cinco reservas originales, sin inventar los ausentes; publicar simulacro histórico con plantilla provisional, 26=A, 38=B, reservas D,D,D,B,A y ninguna sustitución acreditada; permitir sustituciones solo como escenario hipotético claramente señalado. Validar en navegador."
+          "nextAction": "Verificar publicación y ejecutar E2E del simulacro histórico desde practice: 55 preguntas, tiempo, blancos, puntuación 10/10, reservas y escenario hipotético.",
+          "completedSubsteps": [
+            "25/11/2026: transcripción de 13 fotografías del cuestionario: 50 titulares y 5 reservas, cuatro alternativas, claves provisionales intactas; simulacro interactivo de 60 min, corrección y escenario hipotético de anulaciones. Pendiente CI y navegador."
+          ]
         }
       ]
     },
@@ -3258,6 +3261,19 @@
         "content/la-puebla/examen-real-2026.html"
       ],
       "limit": "No consta resolución definitiva ni anulación. Quedan enunciados originales y E2E pendientes; no se certifica nota oficial."
+    },
+    {
+      "id": "LOG-20261125-LP-EX-04-55-FOTOS",
+      "at": "2026-11-25",
+      "taskIds": [
+        "LP-EX-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cuestionario completo transcrito de 13 fotografías aportadas y simulacro interactivo con plantilla provisional.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html"
+      ],
+      "limit": "No consta plantilla definitiva; anulaciones solo hipotéticas. Pendiente CI y navegador; no certifica revisión jurídica actual de todos los ítems."
     }
   ],
   "decisions": [
@@ -3462,5 +3478,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:50:38.000Z"
+  "updatedAtUtc": "2026-11-25T10:06:09.000Z"
 }
