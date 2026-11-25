@@ -617,7 +617,8 @@
             "24/11/2026: ficha Radar incorpora sección desplegable de requisitos adicionales (permiso y experiencia), cláusulas escapadas, enlace HTTPS sin credenciales al documento de procedencia y aviso de extracción parcial. Caché radar.js 2026.11.24.2; prueba estática añadida. Feed 1440, último ciclo sin intentos; no hay todavía ejemplo real extraído con estos campos ni validación CI acreditada.",
             "24/11/2026: cotejo GitHub privado/público main: radar.html SHA 5a5632510e8141d9cd09728192db059b430b11bc y assets/radar.js SHA 72161ca69258e7808fe2d489d811d895f7ddadbc idénticos, versión 2026.11.24.2. Reconsulta BOE-A-2026-23800 y anuncio BOCM 258: turno libre y plaza confirmados; no se ha conseguido texto íntegro de base 4. ESO/permiso B siguen indicio secundario. Feed 1440, 0 requisitos adicionales extraídos, último enriquecimiento 0 intentos. Consultas de estado CI y runs PR no devuelven registros; no equivalen a éxito.",
             "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
-            "25/11/2026: clasificación sin exclusión por grupo y sin CUMPLE automático (1c3b7ef, publicación SUCCESS 45585766770 tras ajuste 3666350). Incorporada cláusula de titulación normalizada, URL y fecha de lectura, visualización y regresión de procedencia (f0c9442 y corrección de fecha). Pendiente CI y cotejo real; no acredita cumplimiento integral."
+            "25/11/2026: clasificación sin exclusión por grupo y sin CUMPLE automático (1c3b7ef, publicación SUCCESS 45585766770 tras ajuste 3666350). Incorporada cláusula de titulación normalizada, URL y fecha de lectura, visualización y regresión de procedencia (f0c9442 y corrección de fecha). Pendiente CI y cotejo real; no acredita cumplimiento integral.",
+            "25/11/2026: texto oficial BOP Toledo 218 anuncio 5248, anexo III El Viso 2860/2026 acredita ESO o equivalente y permiso B vigente. Captura PDF no disponible. Caso real de requisito adicional, sin afirmar cumplimiento personal ni ficha enriquecida."
           ],
           "nextAction": "Confirmar CI de procedencia, cotejar ficha real y alternativas completas de titulación; evaluar requisitos adicionales y no certificar CUMPLE sin evidencia integral.",
           "priority": "ALTA"
@@ -722,14 +723,15 @@
             "24/11/2026: 28 etiquetas genéricas Contratación con URLs opacas variables en siete municipios; se evita nueva emisión y enriquecimiento sin fusionar por URL arbitraria ni borrar histórico; comprobación posterior pendiente en RAD-12.",
             "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
             "25/11/2026: separación explícita de bolsa, sustitución, interinidad, otra contratación temporal, laboral fijo y funcionario de carrera; filtro web y siete regresiones de modalidad, sin inferir empleo fijo de la palabra plaza. Versionado 2026.11.25.1. Pendiente CI y deduplicación por expediente real.",
-            "25/11/2026: modalidades publicadas SUCCESS 45586833899. Se añade extracción acotada de expediente explícito y evidencia de documento/fecha; identidad de notificación entre documentos con mismo órgano, número, puesto, plazas, grupo, turno y régimen explícitos. No fusiona fichas ni borra histórico. Regresiones de colisión y ledger; pendiente CI y cotejo real."
+            "25/11/2026: modalidades publicadas SUCCESS 45586833899. Se añade extracción acotada de expediente explícito y evidencia de documento/fecha; identidad de notificación entre documentos con mismo órgano, número, puesto, plazas, grupo, turno y régimen explícitos. No fusiona fichas ni borra histórico. Regresiones de colisión y ledger; pendiente CI y cotejo real.",
+            "25/11/2026: CI SUCCESS 45587218000; cotejo texto BOP Toledo 218, anuncio 5248, decreto 941/2026, Expte. 2860/2026, una plaza C2 funcionario carrera acceso libre; BOE-A-2026-24345 remite a BOP 218. BOE no acredita número de expediente directamente. Captura PDF no disponible. Corregido extractor Expte. y añadida medición de grupos cruzados en feed real."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
           ],
-          "nextAction": "Confirmar CI de identidad de expediente; comprobar extracción y coincidencias en feed posterior sin fusionar fichas ni notificar en pruebas."
+          "nextAction": "Comprobar resultado de medición RADAR_REAL_EXPEDIENTE_COVERAGE y rastreo actualizado; no fusionar 1589/2026 ni atribuir expediente al BOE sin enlace documental acreditado."
         },
         {
           "id": "RAD-JCCM-2026",
@@ -3207,6 +3209,18 @@
       "summary": "Identidad conservadora de notificación por expediente expreso y modalidades publicadas.",
       "evidence": [],
       "limit": "Pruebas sintéticas; no acredita coincidencias reales entre documentos ni cierre; no se borran fichas ni se envían correos."
+    },
+    {
+      "id": "LOG-20261125-RAD13-VISO-EXPTE",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-13",
+        "RAD-09"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cotejo documental El Viso 2860/2026 y corrección de abreviatura real Expte.; diagnóstico de coincidencias sobre feed.",
+      "evidence": [],
+      "limit": "BOP 218 anuncio 5248 leído en texto, captura no disponible; BOE 24345 remite al BOP pero no contiene expediente en extracto recuperado. Pendiente rastreo y CI nueva; no se modifica feed ni se envía correo."
     }
   ],
   "decisions": [
@@ -3408,5 +3422,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:37:43.000Z"
+  "updatedAtUtc": "2026-11-25T09:39:21.000Z"
 }
