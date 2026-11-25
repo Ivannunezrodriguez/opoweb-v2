@@ -26,11 +26,11 @@
       "duracionMinutos": 45
     },
     "segundoEjercicio": {
-      "modelosDeEntrenamiento": 8,
+      "modelosDeEntrenamiento": 10,
       "cuestionesPorModelo": 5,
-      "formato": "Desarrollo escrito (formato de entrenamiento, no formato oficial confirmado)",
+      "formato": "Desarrollo escrito y un supuesto tipo test, formatos de entrenamiento no oficiales.",
       "tiempo": "Tiempo de trabajo orientativo en cada simulacro; el tribunal fijará el oficial",
-      "calificacion": "Autoevaluación manual: dos criterios de un punto por cuestión, diez puntos por modelo. No es nota objetiva ni oficial del Tribunal; el mínimo oficial es 5/10.",
+      "calificacion": "Desarrollo: dos criterios de un punto por cuestión, diez puntos por modelo. Test: porcentaje de aciertos, sin penalización. Resultados orientativos; el Tribunal fijará la corrección concreta.",
       "fuente": "BOP Toledo n.º 82 de 05/05/2026, base undécima, anuncio I-1965"
     }
   },
@@ -1234,6 +1234,227 @@
               },
               {
                 "descripcion": "Explica el tratamiento de ceros y vacías.",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-09",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 9 · Supuesto transversal tipo test",
+      "temas": [
+        3,
+        4,
+        5,
+        10,
+        12,
+        14
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "Caso ficticio: la oficina municipal recibe una solicitud incompleta, prepara una ordenanza, liquida un tributo y tramita un gasto. Selecciona una única respuesta por cuestión. Corrección orientativa por aciertos, sin penalización ni corte oficial.",
+      "cuestiones": [
+        {
+          "pregunta": "El interesado presenta una solicitud incompleta. ¿Qué plazo ordinario se le concede para subsanar? ",
+          "respuesta": "Se conceden diez días hábiles para subsanar, con advertencia de que, si no lo hace, se le tendrá por desistido previa resolución expresa en los términos del artículo 21.",
+          "trampa": "No confundir desistimiento previa resolución con inadmisión automática.",
+          "referencias": [
+            "Ley 39/2015, artículo 68",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+          ],
+          "opciones": [
+            "Cinco días hábiles",
+            "Diez días hábiles",
+            "Quince días naturales",
+            "Un mes"
+          ],
+          "correcta": 1
+        },
+        {
+          "pregunta": "¿Qué órgano municipal aprueba inicialmente una ordenanza municipal de régimen común?",
+          "respuesta": "La aprobación de ordenanzas corresponde al Pleno y es una atribución no delegable conforme a los apartados 2.d y 4 del artículo 22 de la Ley 7/1985.",
+          "trampa": "No confundir ordenanzas con bandos de Alcaldía.",
+          "referencias": [
+            "Ley 7/1985, artículo 22",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a22"
+          ],
+          "opciones": [
+            "La Secretaría",
+            "La Alcaldía",
+            "El Pleno",
+            "La Tesorería"
+          ],
+          "correcta": 2
+        },
+        {
+          "pregunta": "Una vivienda tiene base liquidable del IBI de 100.000 euros y tipo supuesto del 0,5 %. ¿Cuál es su cuota íntegra?",
+          "respuesta": "La cuota íntegra es el resultado de aplicar el tipo de gravamen a la base liquidable: 100.000 multiplicado por 0,005 da 500 euros.",
+          "trampa": "El porcentaje debe convertirse a decimal antes de efectuar el cálculo.",
+          "referencias": [
+            "RDL 2/2004, artículo 71",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a71"
+          ],
+          "opciones": [
+            "500 euros",
+            "50 euros",
+            "5.000 euros",
+            "200 euros"
+          ],
+          "correcta": 0
+        },
+        {
+          "pregunta": "Para un gasto necesario e inaplazable no existe crédito presupuestario. ¿Qué figura procede?",
+          "respuesta": "Procede tramitar un crédito extraordinario si no existe crédito para el gasto que no puede demorarse. Si el crédito existente es insuficiente y no ampliable, procede un suplemento.",
+          "trampa": "Distinguir inexistencia de crédito de insuficiencia del crédito.",
+          "referencias": [
+            "RDL 2/2004, artículo 177",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "opciones": [
+            "Transferencia obligatoria",
+            "Suplemento de crédito",
+            "Ampliación automática",
+            "Crédito extraordinario"
+          ],
+          "correcta": 3
+        },
+        {
+          "pregunta": "¿Ante qué órgano se interpone el recurso potestativo de reposición contra un acto que pone fin a la vía administrativa?",
+          "respuesta": "El recurso potestativo de reposición se interpone ante el mismo órgano que dictó el acto que pone fin a la vía administrativa, sin perjuicio de optar directamente por la vía contenciosa.",
+          "trampa": "No confundir reposición con alzada ante el superior jerárquico.",
+          "referencias": [
+            "Ley 39/2015, artículo 123",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a123"
+          ],
+          "opciones": [
+            "Ante el superior jerárquico",
+            "Ante el mismo órgano que dictó el acto",
+            "Siempre ante el Pleno",
+            "Ante el juzgado"
+          ],
+          "correcta": 1
+        }
+      ],
+      "formato": "TEST"
+    },
+    {
+      "id": "LP-PRACT-2026-10",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 10 · Supuesto integral de gestión municipal",
+      "temas": [
+        3,
+        4,
+        5,
+        9,
+        12,
+        14,
+        18
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "Caso ficticio: un vecino solicita autorización municipal, aporta documentación incompleta y recibe posteriormente una resolución. El ayuntamiento prepara una ordenanza y necesita financiar una reparación urgente no demorable. La oficina registra importes en Excel. Explica las actuaciones y justifica cada decisión.",
+      "cuestiones": [
+        {
+          "pregunta": "La solicitud carece de un documento preceptivo subsanable. Describe el requerimiento y su consecuencia si no se atiende.",
+          "respuesta": "Se requiere la subsanación en diez días hábiles, indicando que, si no se atiende, se tendrá al interesado por desistido de su petición previa resolución expresa conforme al artículo 21.",
+          "trampa": "No archivar sin resolución ni confundir desistimiento con renuncia.",
+          "referencias": [
+            "Ley 39/2015, artículo 68",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica diez días hábiles y requerimiento.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica desistimiento previa resolución.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "El procedimiento requiere notificar una resolución ya dictada. Indica el plazo para cursar la notificación y su contenido esencial.",
+          "respuesta": "Toda notificación debe cursarse dentro de diez días desde que se dicta el acto, incluyendo texto íntegro, indicación de si pone fin a la vía administrativa, recursos procedentes, órgano y plazo para interponerlos.",
+          "trampa": "Distinguir cursar la notificación de recibirla; no omitir información de recursos.",
+          "referencias": [
+            "Ley 39/2015, artículo 40",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a40"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica diez días y momento inicial.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Enumera texto íntegro, fin de vía, recursos, órgano y plazo.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "El Pleno aprueba inicialmente una ordenanza. ¿Qué trámite sigue y qué ocurre si no se presentan reclamaciones ni sugerencias?",
+          "respuesta": "Se abre información pública y audiencia a interesados durante un mínimo de treinta días para reclamaciones y sugerencias. Si no se presenta ninguna, el acuerdo provisional se entiende definitivamente adoptado.",
+          "trampa": "No confundir treinta días de ordenanzas con quince días hábiles presupuestarios.",
+          "referencias": [
+            "Ley 7/1985, artículo 49",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a49"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica información pública y audiencia, mínimo treinta días.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica elevación automática a definitivo sin reclamaciones.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Una reparación no demorable cuesta 9.000 euros y dispone de crédito de 2.000 euros, insuficiente y no ampliable. ¿Qué modificación procede y por qué cuantía?",
+          "respuesta": "Procede un suplemento de crédito de 7.000 euros, diferencia entre el gasto necesario y el crédito disponible. Debe justificarse la necesidad, la imposibilidad de demora y la financiación del expediente.",
+          "trampa": "No tramitar crédito extraordinario si existe crédito insuficiente y no ampliable.",
+          "referencias": [
+            "RDL 2/2004, artículo 177",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica suplemento de crédito.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 7.000 euros y justifica necesidad y financiación.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "En Excel, B2 contiene el importe previsto y C2 el ejecutado. Escribe una fórmula para el saldo y otra que indique Exceso si es negativo, o Correcto en otro caso.",
+          "respuesta": "En D2 se escribe =B2-C2 para obtener el saldo. En E2 se utiliza =SI(D2<0;\"Exceso\";\"Correcto\"). Las referencias relativas se ajustan al copiar ambas fórmulas hacia abajo.",
+          "trampa": "Un saldo negativo significa que el ejecutado supera el previsto.",
+          "referencias": [
+            "Microsoft Excel, función SI",
+            "OpoWeb: tema 18, hojas de cálculo"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Escribe correctamente la resta.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Escribe la función SI con comparación y textos correctos.",
                 "puntos": 1
               }
             ]
