@@ -2234,5 +2234,263 @@
       ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas."
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas.",
+  "simulacrosPracticos": [
+    {
+      "id": "DIP-PRACT-001",
+      "titulo": "Modelo práctico 1 · Tramitación electrónica y recursos",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "tiempoSugeridoMinutos": 35,
+      "temas": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "enunciado": "Una sociedad limitada solicita una autorización en papel. La Diputación requiere que la presente electrónicamente. Posteriormente pone a disposición de la sociedad una notificación electrónica obligatoria, sin que esta acceda durante diez días naturales. En otro expediente, una resolución expresa que no agota la vía administrativa se notifica el 4 de noviembre de 2026. Suponga que el 4 de diciembre es hábil y que no concurren regímenes especiales. Resuelva sin consultar las soluciones. Tiempo sugerido de entrenamiento, no oficial.",
+      "cuestiones": [
+        {
+          "id": "DIP-PRACT-001-Q1",
+          "pregunta": "¿Está obligada la sociedad a relacionarse electrónicamente? ¿Qué fecha se considera de presentación tras subsanar?",
+          "respuesta": "Sí, por ser persona jurídica. Debe subsanar mediante presentación electrónica y se considera fecha de presentación la de la subsanación, conforme a los arts. 14.2.a y 68.4.",
+          "trampa": "No conservar automáticamente la fecha de presentación en papel.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica obligación electrónica",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica fecha de subsanación",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-001-Q2",
+          "pregunta": "¿Qué efecto tiene no acceder a la notificación obligatoria durante diez días naturales?",
+          "respuesta": "Se entiende rechazada una vez transcurridos diez días naturales desde su puesta a disposición sin acceder a su contenido. Se continúa el procedimiento, dejando constancia del rechazo.",
+          "trampa": "No son diez días hábiles ni se requiere un segundo aviso electrónico.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a41"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica rechazo y diez días naturales",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica continuación del procedimiento",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-001-Q3",
+          "pregunta": "Si no se envía el aviso por correo electrónico, ¿queda invalidada por ese solo motivo la notificación?",
+          "respuesta": "No. La falta de aviso no impide que la notificación sea plenamente válida conforme al art. 41.6.",
+          "trampa": "El aviso no es la notificación.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a41"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Distingue aviso y notificación",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica que la falta de aviso no invalida por sí sola",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-001-Q4",
+          "pregunta": "¿Qué recurso cabe contra la resolución del otro expediente y cuándo termina el plazo?",
+          "respuesta": "Alzada, que debe resolver el superior jerárquico. Puede presentarse ante el órgano autor o ante el competente para resolver. Vence el 4 de diciembre de 2026, un mes desde la notificación expresa.",
+          "trampa": "No convertir un mes en treinta días naturales.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a121",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica alzada y órgano competente",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula el vencimiento",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-001-Q5",
+          "pregunta": "¿Cuál es el plazo para resolver y notificar la alzada y el sentido del silencio en este caso?",
+          "respuesta": "Tres meses. Al recurrirse un acto expreso, el silencio es desestimatorio; no concurre la excepción de alzada contra desestimación presunta.",
+          "trampa": "No generalizar la excepción del doble silencio.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica tres meses",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica silencio desestimatorio",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-PRACT-002",
+      "titulo": "Modelo práctico 2 · Contratación y crédito presupuestario",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "tiempoSugeridoMinutos": 35,
+      "temas": [
+        13,
+        16,
+        27
+      ],
+      "enunciado": "Un servicio necesita un suministro único y previsible de 14.000 euros sin IVA, sin opciones ni prórrogas, sujeto a IVA del 21 %. El crédito disponible al nivel de vinculación jurídica es de 15.000 euros. La necesidad no puede demorarse al ejercicio siguiente; el crédito no es ampliable y existe financiación legal para un suplemento. Aún no se ha asumido compromiso alguno. Resuelva como entrenamiento, sin baremo oficial.",
+      "cuestiones": [
+        {
+          "id": "DIP-PRACT-002-Q1",
+          "pregunta": "Calcule valor estimado e importe total con IVA.",
+          "respuesta": "Valor estimado 14.000 euros; IVA 2.940 euros; importe total 16.940 euros.",
+          "trampa": "El valor estimado excluye IVA.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a101"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica valor estimado",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula IVA e importe total",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-002-Q2",
+          "pregunta": "¿Cumple por cuantía el umbral de contrato menor de suministro?",
+          "respuesta": "Sí, el valor estimado es inferior a 15.000 euros. Ello no exonera de justificar necesidad, ausencia de fraccionamiento y demás requisitos legales.",
+          "trampa": "No comparar el importe con IVA con el umbral del art. 118.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a118"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica umbral estricto y resultado",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue cuantía y demás requisitos",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-002-Q3",
+          "pregunta": "¿Puede comprometerse ahora el gasto y cuál es la insuficiencia de crédito?",
+          "respuesta": "No. Faltan 1.940 euros. El compromiso por encima de crédito autorizado sería nulo de pleno derecho, sin perjuicio de responsabilidades.",
+          "trampa": "No confundir elegibilidad como contrato menor con disponibilidad presupuestaria.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a173"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Calcula insuficiencia",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica prohibición y nulidad",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-002-Q4",
+          "pregunta": "¿Qué modificación presupuestaria procede en la variante descrita y quién la aprueba?",
+          "respuesta": "Suplemento de crédito de 1.940 euros, expediente iniciado por orden de Presidencia, previo informe de Intervención y aprobación del Pleno conforme al art. 177.",
+          "trampa": "Crédito extraordinario corresponde a inexistencia de crédito, no insuficiencia.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica suplemento y cuantía",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica Presidencia, Intervención y Pleno",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-002-Q5",
+          "pregunta": "Tras disponer de crédito suficiente, ¿qué exige el expediente menor y cuáles son las fases ordinarias de gasto?",
+          "respuesta": "Informe motivado de necesidad y ausencia de alteración del objeto para eludir umbrales, aprobación del gasto y factura; fases ordinarias: autorización, disposición, reconocimiento de obligación y ordenación del pago, con posibles acumulaciones legales.",
+          "trampa": "La factura no sustituye por sí sola las fases presupuestarias.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a118",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a184"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica documentación del menor",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Ordena las cuatro fases",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
