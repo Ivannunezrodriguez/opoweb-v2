@@ -117,9 +117,10 @@
           "completedSubsteps": [
             "25/11/2026: anuncio del Tribunal firmado 24/11/2026 aportado por usuario; página 7: anuladas 18 y 34, R1=D y R2=D; 26=A. Actualizados ambos correctores, acceso y pruebas (12bd871, 5855b0f, 693c055, 25d05b5).",
             "25/11/2026: E2E Chromium 45599299579 SUCCESS sobre 693c055; validación privacidad 45599345652 y publicación 45599345726 SUCCESS sobre 25d05b5; publicación plan 45599386423 SUCCESS. Pendiente estadísticas anónimas.",
-            "25/11/2026: recuento reproducido con extracción de texto del PDF oficial, páginas 2–5: 29+33+33+26=121, aprobados 11+19+20+14=64, suspensos 57, media 5,02768595, mediana 5,05, máxima 8,75. Agregados sin datos nominativos y enlace al tablón oficial incorporados en caab50a."
+            "25/11/2026: recuento reproducido con extracción de texto del PDF oficial, páginas 2–5: 29+33+33+26=121, aprobados 11+19+20+14=64, suspensos 57, media 5,02768595, mediana 5,05, máxima 8,75. Agregados sin datos nominativos y enlace al tablón oficial incorporados en caab50a.",
+            "25/11/2026: publicación 45605234184 SUCCESS; fichero público de estadísticas SHA f69c86ae88e88b91988bfe669a00c0d6273914ef idéntico al privado en commit caab50a. E2E 45605204817 FAILURE por desbordamiento móvil; aplicado ajuste de tabla y ancho, pendiente repetir prueba."
           ],
-          "nextAction": "Confirmar publicación y privacidad de los agregados del commit caab50a; cerrar si CI verde y E2E definitivo ya acreditado."
+          "nextAction": "Confirmar E2E posterior al ajuste móvil y cierre LP-EX-05."
         },
         {
           "id": "LP-PRACT-01",
@@ -135,7 +136,8 @@
           "completedSubsteps": [
             "Existían tres modelos de cinco cuestiones: procedimiento, tributos y expediente digital/ofimática. Anuncio 24/11 no fija fecha ni formato concreto del segundo ejercicio.",
             "25/11/2026: cuatro modelos, 20 cuestiones y 40 criterios de un punto, reutilizando renderOpenCase existente; nuevo régimen local, corrección focal de notificación art. 43.2 y 41.6; commit 4f909b3. Validación de integridad ampliada; ejecución CI y navegador aún pendientes.",
-            "25/11/2026: diagnóstico del fallo real de CI 45599848829: tests/validate-practice-exam.mjs exigía tres modelos pese a ampliación a cuatro. Corregido en eca89a1 con mínimo de cuatro y correspondencia con metadatos; ampliada solución art. 46.2.a en c45bdce. Pendiente nueva CI y E2E de rúbricas."
+            "25/11/2026: diagnóstico del fallo real de CI 45599848829: tests/validate-practice-exam.mjs exigía tres modelos pese a ampliación a cuatro. Corregido en eca89a1 con mínimo de cuatro y correspondencia con metadatos; ampliada solución art. 46.2.a en c45bdce. Pendiente nueva CI y E2E de rúbricas.",
+            "25/11/2026: publicación 45605234184 SUCCESS tras corrección de metadatos; pendiente E2E específico de rúbricas."
           ],
           "nextAction": "Verificar CI posterior a c45bdce y caab50a; comprobar en navegador los cuatro modelos, puntuaciones 0/10 y 10/10; contrastar referencias técnicas y ampliar casos si procede."
         }
@@ -780,7 +782,8 @@
             "25/11/2026: separación explícita de bolsa, sustitución, interinidad, otra contratación temporal, laboral fijo y funcionario de carrera; filtro web y siete regresiones de modalidad, sin inferir empleo fijo de la palabra plaza. Versionado 2026.11.25.1. Pendiente CI y deduplicación por expediente real.",
             "25/11/2026: modalidades publicadas SUCCESS 45586833899. Se añade extracción acotada de expediente explícito y evidencia de documento/fecha; identidad de notificación entre documentos con mismo órgano, número, puesto, plazas, grupo, turno y régimen explícitos. No fusiona fichas ni borra histórico. Regresiones de colisión y ledger; pendiente CI y cotejo real.",
             "25/11/2026: CI SUCCESS 45587218000; cotejo texto BOP Toledo 218, anuncio 5248, decreto 941/2026, Expte. 2860/2026, una plaza C2 funcionario carrera acceso libre; BOE-A-2026-24345 remite a BOP 218. BOE no acredita número de expediente directamente. Captura PDF no disponible. Corregido extractor Expte. y añadida medición de grupos cruzados en feed real.",
-            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real."
+            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real.",
+            "25/11/2026: seguimiento La Puebla, acta borrador pleno extraordinario 23/11/2026, firmada 25/11/2026, CSV 7CSNEFPPXXKSXHJFKMMQQJRPZ, puntos sexto y séptimo pp.18–22: expediente 2038/2026 RPT C2 nivel 18 hasta cinco; expediente 1970/2026 plantilla inicial C2 hasta seis y A1 hasta tres, 7 votos a favor y 6 en contra. Dotación nuevas plazas cero en 2026, previsión 2027; no aprueba OEP, condicionada a tasa y presupuesto. Vigilar BOP, exposición 15 hábiles, aprobación definitiva, eventual OEP y cobertura. No sumar automáticamente ambas modificaciones ni ampliar convocatoria vigente de cuatro. Fuente https://lapueblademontalban.sedelectronica.es/board. Acta aportada por usuario; no verificada independientemente en sede."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
@@ -3567,5 +3570,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T11:31:29.000Z"
+  "updatedAtUtc": "2026-11-25T11:41:13.000Z"
 }
