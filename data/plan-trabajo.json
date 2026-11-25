@@ -389,7 +389,8 @@
             "20/11/2026: visor público JCCM enlazado con matrices de 24 y 37 epígrafes; muestra manuales candidatos, cifra de cobertura auditada y ausencia de cotejo por tema. Test de integridad y correspondencia incorporado al workflow.",
             "21/11/2026: selector de OpoWeb actualizado con Auxiliar JCCM C2 (24 epígrafes de referencia), SESCAM Auxiliar C2 (sin atribuir temario 2026 no acreditado) e Informática JCCM C1 (37 epígrafes). El Viso retirado del selector; continúa como oportunidad Radar. Publicación y E2E Chromium del selector comprobadas.",
             "25/11/2026: matriz Auxiliar JCCM C2, temas 3 y 4: diez correspondencias preliminares inciso/artículos Ley 40/2015 consultada en BOE consolidado; manuales candidatos Diputación C1 T04 y La Puebla T14. Candidatos 6/24, cobertura acreditada permanece 0/24. Commit d02960c5319e0aa9dbe8e0b9f74ac28cb448e312; CI pendiente de confirmación. No equivale a cotejo íntegro ni cierre de tarea.",
-            "25/11/2026: publicaciones 45594384810 y 45594415346 SUCCESS para mapeo preliminar. Repaso focal Ley 40/2015 arts. 30, 48, 49 y 155, siete preguntas y autocorrección sin penalización, enlace visor C2 T3/T4, commits 24391a3, ec1b562 y b90df24. Prueba estática de enlace y claves ampliada; pendiente CI y comprobación navegador. No acredita cobertura integral."
+            "25/11/2026: publicaciones 45594384810 y 45594415346 SUCCESS para mapeo preliminar. Repaso focal Ley 40/2015 arts. 30, 48, 49 y 155, siete preguntas y autocorrección sin penalización, enlace visor C2 T3/T4, commits 24391a3, ec1b562 y b90df24. Prueba estática de enlace y claves ampliada; pendiente CI y comprobación navegador. No acredita cobertura integral.",
+            "25/11/2026: Repaso focal JCCM C2 ampliado de 7 a 11 preguntas: responsabilidad patrimonial y actuación automatizada, arts. 32, 41 y 42 Ley 40/2015 cotejados en BOE consolidado; HTML, documento y prueba de claves actualizados. Commits 10d1535, be23ee5 y d19bd38; CI pendiente."
           ],
           "remainingSubsteps": [
             "Obtener y cotejar temario aplicable a futura OEP SESCAM 2025-2026, sin confundir el individualizado histórico 2023/24",
@@ -400,7 +401,7 @@
             "Cotejar e implementar desarrollo de contenido jurídico y técnico por incisos; ningún tema queda auditado por enlazar un manual candidato.",
             "Validar CI completo de visor matriz y el rastreo privado en ejecución real."
           ],
-          "nextAction": "Verificar CI y navegador del repaso, completar responsabilidad patrimonial y funcionamiento electrónico, continuar mapeo y desarrollo de itinerarios. No cerrar por existencia del repaso.",
+          "nextAction": "Verificar publicación y navegador de las once preguntas; continuar mapeo de incisos y desarrollo de itinerarios sin atribuir programa definitivo.",
           "priority": "ALTA"
         },
         {
@@ -3414,6 +3415,20 @@
       "summary": "Corregida extracción de fecha explícita introducida por hasta el; regresiones de fecha válida e imposible.",
       "evidence": [],
       "limit": "CI pendiente; no acredita conciliación entre expedientes ni publicación."
+    },
+    {
+      "id": "LOG-20261125-JCCM-LEY40-11",
+      "at": "2026-11-25",
+      "atUtc": "2026-11-25T17:09:40Z",
+      "taskIds": [
+        "JCCM-2026-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Repaso focal JCCM C2 ampliado de 7 a 11 preguntas: responsabilidad patrimonial y actuación automatizada, arts. 32, 41 y 42 Ley 40/2015 cotejados en BOE consolidado; HTML, documento y prueba de claves actualizados.",
+      "evidence": [
+        "content/jccm-2026/ley40-repaso.html"
+      ],
+      "limit": "CI y navegador pendientes; no acredita cobertura integral ni cierre."
     }
   ],
   "decisions": [
@@ -3621,5 +3636,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T16:49:13.000Z"
+  "updatedAtUtc": "2026-11-25T17:10:15.000Z"
 }
