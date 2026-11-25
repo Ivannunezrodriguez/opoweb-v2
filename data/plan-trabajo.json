@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
     "states": [
@@ -146,7 +146,8 @@
             "content/diputacion-toledo/tema-40/ficha-rapida.json",
             "content/diputacion-toledo/tema-22/ficha-rapida.json",
             "assets/app.js",
-            "index.html"
+            "index.html",
+            "content/diputacion-toledo/supuestos-practicos.json"
           ],
           "completedSubsteps": [
             "Los 3 modelos ya publicados (36 preguntas) revisados contra Anexo VII de 40 temas: 11 etiquetas temáticas corregidas y todas las referencias redirigidas al manual del tema, sin inventar anclas; solo cubren 14 temas, 20/11/2026.",
@@ -191,14 +192,15 @@
             "23/11/2026: exportador crea data/estado-publicacion.json con fecha estable del commit, 40 fichas, tarjetas y SHA-256 de visor, Radar, programa y feed; validador coteja manifiesto con archivos públicos y workflow publica con comprobación de blob remoto. Programada recuperación de publicación diaria 05:37 y 17:37 UTC si push no desencadena Actions, sin diferencias de artefacto para commits idénticos.",
             "23/11/2026: el usuario aportó el log real de run manual #399: primer error exacto en tests/validate-radar-priority-sources-20261122.mjs, por exigir igualdad de timestamps del informe histórico (13:26Z) y del rastreo posterior (21:08Z). Corregido test con auditoría histórica independiente, comparación estricta solo si snapshotUtc coincide y garantía de URL estable de las diez fuentes. Sus invariantes verificadas con datos actuales; CI pendiente rerun.",
             "23/11/2026: run real #402 aportado por el usuario: nueva prueba Radar histórica pasa, suite C1 de 40 fichas, 361 tarjetas, render runtime y pruebas Radar pasan hasta tests/validate-ficha-rapida-dip-c1-t01-20261121.mjs. Fallaba su aserción heredada de cobertura 3 fichas frente a 40; corregida a cobertura real de 40 con IDs consecutivos, conservando comprobaciones jurídicas focales del tema 1.",
-            "23/11/2026: CIERRE VERIFICADO de incidencia de publicación #399-#402: los runs GitHub Actions #403 y #404 aparecen SUCCESS en captura del usuario, y comprobación GitHub en el repositorio público confirmó plan actualizado 23/11, manifiesto 40 fichas/361 tarjetas, visor actualizado y blobs idénticos en ambas ramas main/site para plan, manifiesto, app.js, index, radar, practice y fichas T01/T40. La preparación del examen del 15/12 sigue abierta."
+            "23/11/2026: CIERRE VERIFICADO de incidencia de publicación #399-#402: los runs GitHub Actions #403 y #404 aparecen SUCCESS en captura del usuario, y comprobación GitHub en el repositorio público confirmó plan actualizado 23/11, manifiesto 40 fichas/361 tarjetas, visor actualizado y blobs idénticos en ambas ramas main/site para plan, manifiesto, app.js, index, radar, practice y fichas T01/T40. La preparación del examen del 15/12 sigue abierta.",
+            "25/11/2026: ampliación de cinco casos guiados de 10 a 16 cuestiones: cómputo de subsanación, transparencia y nulidad presupuestaria (c9b6a22, publicación #45579372264 SUCCESS); nuevos cálculos de contratación y suplemento de crédito, contrastados con BOE arts. 118 LCSP y 177 TRLRHL (045f74a, publicación pendiente). No equivale a simulacro oficial ni a rúbrica validada."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Preparación efectiva del examen C1 del 15/12/2026: validar 40 fichas en flujo completo de navegador y simulacros/penalización con QA-02; priorizar mejora de preguntas y repaso de debilidades. Publicación #403/#404 cerrada, no volver a ejecutar auditoría de sincronización sin cambios."
+          "nextAction": "Verificar publicación del commit 045f74a y el visor de las 16 cuestiones; completar referencias primarias de los cinco casos, elaborar rúbrica didáctica y ampliar práctica en materias no cubiertas sin duplicar bancos. Mantener prioridad DIP C1 y controles de navegador."
         },
         {
           "id": "DIP-C2-01",
@@ -2950,6 +2952,19 @@
       "summary": "Normalizado el tipo de evento de cierre a VERIFICADO; HECHO permanece como estado de tarea. Corregida la infracción del esquema detectada por CI.",
       "evidence": [],
       "limit": "Pendiente CI de publicación del cambio; siguiente paso: comprobar publicación y continuar DIP-C1-01."
+    },
+    {
+      "id": "LOG-20261125-DIP-C1-PRACTICA-AMPLIACION",
+      "at": "2026-11-25",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Ampliación sustantiva de repaso práctico C1 de 10 a 16 cuestiones con cálculo de plazos, contratación y suplemento de crédito.",
+      "evidence": [
+        "content/diputacion-toledo/supuestos-practicos.json"
+      ],
+      "limit": "Última ampliación pendiente de CI y prueba del visor; tarea sigue PARCIAL."
     }
   ],
   "decisions": [
@@ -3133,5 +3148,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T07:17:06.000Z"
+  "updatedAtUtc": "2026-11-25T08:49:59.000Z"
 }
