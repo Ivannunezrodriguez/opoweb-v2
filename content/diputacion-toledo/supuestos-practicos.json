@@ -23,7 +23,20 @@
             "content/diputacion-toledo/tema-05/manual.md#registro-electrónico",
             "content/diputacion-toledo/tema-04/manual.md#cómputo-de-plazos",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Distingue fecha real y efectos sobre plazo hábil",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica primera hora del día hábil y excepción",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-001-Q2",
@@ -35,7 +48,20 @@
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Indica diez días hábiles",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Exige resolución expresa y distingue ampliación especial",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-001-Q3",
@@ -45,7 +71,20 @@
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 23/11/2026",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Justifica los diez días y exclusión de inhábiles",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-001-Q4",
@@ -54,7 +93,20 @@
           "trampa": "La ampliación especial de la subsanación no opera en todos los procedimientos.",
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Niega ampliación especial",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica excepción de procesos selectivos y concurrencia competitiva",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     },
@@ -76,7 +128,20 @@
             "content/diputacion-toledo/tema-15/manual.md#objeto-del-contrato-y-fraccionamiento",
             "content/diputacion-toledo/tema-16/manual.md#contratos-menores",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica fraccionamiento indebido",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue división legítima en lotes",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-002-Q2",
@@ -86,7 +151,20 @@
           "referencias": [
             "content/diputacion-toledo/tema-15/manual.md#valor-estimado-y-presupuesto-base-de-licitación",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Usa valor estimado total sin IVA",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Incluye opciones y prórrogas aplicables",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-002-Q3",
@@ -95,7 +173,20 @@
           "trampa": "El límite es estrictamente inferior a 15.000 euros sin IVA; no se aplica individualmente a entregas de una necesidad artificialmente dividida.",
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Calcula 18.000, 3.780 y 21.780 euros",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Niega contrato menor por umbral inferior a 15.000 euros",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-002-Q4",
@@ -104,7 +195,20 @@
           "trampa": "Estar por debajo del umbral de contrato menor no elimina la tramitación del expediente.",
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica informe motivado",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica aprobación, factura y excepción de caja fija",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     },
@@ -127,7 +231,20 @@
             "content/diputacion-toledo/tema-28/manual.md#principios-del-tratamiento",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a15",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a16"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Distingue datos ordinarios y especiales",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica disociación y límites al acceso parcial",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-003-Q2",
@@ -137,7 +254,20 @@
           "referencias": [
             "content/diputacion-toledo/tema-28/manual.md#categorías-especiales-de-datos",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a15"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica consentimiento expreso o norma con rango de ley",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica exclusión o disociación efectiva",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-003-Q3",
@@ -147,7 +277,20 @@
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a19",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Indica audiencia de 15 días",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica información al solicitante y suspensión",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-003-Q4",
@@ -156,7 +299,20 @@
           "trampa": "No confundir el silencio desestimatorio del acceso a información pública con la regla general de silencio de la Ley 39/2015.",
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a20"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Indica un mes y ampliación condicionada",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica silencio desestimatorio y motivación",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     },
@@ -178,7 +334,20 @@
             "content/diputacion-toledo/tema-29/manual.md#créditos-presupuestarios",
             "content/diputacion-toledo/tema-30/manual.md#limitación-cualitativa-cuantitativa-y-temporal",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a173"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica nulidad de pleno derecho",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica que factura no sana falta de crédito",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-004-Q2",
@@ -188,7 +357,20 @@
           "referencias": [
             "content/diputacion-toledo/tema-30/manual.md#fases-de-ejecución-del-gasto",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a184"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Ordena correctamente las cuatro fases",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue posible acumulación de fases",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-004-Q3",
@@ -198,7 +380,20 @@
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a173",
             "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Calcula suplemento de 4.000 euros",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue crédito extraordinario y carácter preventivo",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-004-Q4",
@@ -207,7 +402,20 @@
           "trampa": "No atribuir la aprobación del suplemento a la Presidencia por el hecho de que ordene su incoación.",
           "referencias": [
             "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica Presidencia e Intervención",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica aprobación por Pleno",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     },
@@ -231,7 +439,20 @@
           "referencias": [
             "content/diputacion-toledo/tema-34/manual.md#phishing-y-suplantación",
             "content/diputacion-toledo/tema-33/manual.md#gestión-del-correo-en-groupwise"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica indicios de suplantación",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Comprueba remitente y destino sin interactuar",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-005-Q2",
@@ -242,7 +463,20 @@
             "content/diputacion-toledo/tema-34/manual.md#respuesta-ante-incidentes",
             "content/diputacion-toledo/tema-28/manual.md#brechas-de-seguridad",
             "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Comunica y contiene incidente",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Preserva evidencias y activa evaluación de brecha",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-005-Q3",
@@ -252,7 +486,20 @@
           "referencias": [
             "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es",
             "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica responsable, autoridad y 72 horas",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula jueves 09:00 y distingue excepción por riesgo improbable",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "id": "DIP-SP-005-Q4",
@@ -262,9 +509,26 @@
           "referencias": [
             "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es",
             "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/comunicacion-de-brechas-de-datos"
-          ]
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica alto riesgo y comunicación sin dilación",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue excepciones del art. 34.3",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     }
-  ]
+  ],
+  "rubricaDidactica": {
+    "aviso": "Autocorrección orientativa propia de OpoWeb; no es baremo del Tribunal ni predicción de aprobado.",
+    "regla": "Cada cuestión vale hasta 2 puntos: 1 por cada criterio cumplido. Cada supuesto contiene 4 cuestiones (8 puntos). Para normalizar a 10, dividir puntos obtenidos entre 8 y multiplicar por 10; para los cinco casos, dividir entre 40 y multiplicar por 10."
+  }
 }
