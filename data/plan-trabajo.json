@@ -32,7 +32,7 @@
     {
       "id": "P1",
       "title": "Examen real La Puebla",
-      "status": "EN_CURSO",
+      "status": "HECHO",
       "tasks": [
         {
           "id": "LP-EX-01",
@@ -85,7 +85,7 @@
         {
           "id": "LP-EX-04",
           "title": "Generar simulacro oficial histórico reutilizable",
-          "state": "EN_CURSO",
+          "state": "HECHO",
           "dependsOn": [
             "LP-EX-03"
           ],
@@ -95,11 +95,14 @@
             "practice.html",
             "content/la-puebla/simulacros.json"
           ],
-          "nextAction": "Verificar E2E específico local y Pages y cerrar alcance operativo si supera las pruebas.",
           "completedSubsteps": [
             "25/11/2026: transcripción de 13 fotografías del cuestionario: 50 titulares y 5 reservas, cuatro alternativas, claves provisionales intactas; simulacro interactivo de 60 min, corrección y escenario hipotético de anulaciones. Pendiente CI y navegador.",
-            "25/11/2026: publicación del cuestionario completo SUCCESS 45591729201; corregido aviso obsoleto en practice, incorporado E2E Chromium de 220 opciones, nota 10/10, reserva hipotética, blancos, expiración y móvil, conectado a workflow local y Pages."
-          ]
+            "25/11/2026: publicación del cuestionario completo SUCCESS 45591729201; corregido aviso obsoleto en practice, incorporado E2E Chromium de 220 opciones, nota 10/10, reserva hipotética, blancos, expiración y móvil, conectado a workflow local y Pages.",
+            "25/11/2026: Simulacro histórico de La Puebla 14/11/2026: 50 titulares y 5 reservas, 220 alternativas transcritas de 13 fotografías, plantilla provisional 16/11/2026, temporizador 60 min, +0,20/−0,05, blancos, reservas excluidas por defecto y sustitución hipotética explícita. Publicación 45591964741 SUCCESS; Chromium local y Pages 45591964686 SUCCESS con OPOWEB_LP_HISTORICAL_55_E2E_OK dos veces, acceso desde practice, 10/10, escenario 9,75/10, expiración, móvil emulado y sin errores JS. No acredita plantilla definitiva ni anulación oficial ni revisión jurídica integral."
+          ],
+          "closedAt": "2026-11-25",
+          "closureScope": "Simulacro histórico de La Puebla 14/11/2026: 50 titulares y 5 reservas, 220 alternativas transcritas de 13 fotografías, plantilla provisional 16/11/2026, temporizador 60 min, +0,20/−0,05, blancos, reservas excluidas por defecto y sustitución hipotética explícita. Publicación 45591964741 SUCCESS; Chromium local y Pages 45591964686 SUCCESS con OPOWEB_LP_HISTORICAL_55_E2E_OK dos veces, acceso desde practice, 10/10, escenario 9,75/10, expiración, móvil emulado y sin errores JS. No acredita plantilla definitiva ni anulación oficial ni revisión jurídica integral.",
+          "closeLimit": "Cierre operativo autorizado por el usuario: plantilla provisional, sin anulación oficial acreditada."
         }
       ]
     },
@@ -3288,6 +3291,19 @@
         "practice.html"
       ],
       "limit": "E2E nuevo pendiente; plantilla provisional y escenarios hipotéticos, no resolución Tribunal."
+    },
+    {
+      "id": "LOG-20261125-LP-EX04-CIERRE-E2E",
+      "at": "2026-11-25",
+      "taskIds": [
+        "LP-EX-04"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Simulacro histórico de La Puebla 14/11/2026: 50 titulares y 5 reservas, 220 alternativas transcritas de 13 fotografías, plantilla provisional 16/11/2026, temporizador 60 min, +0,20/−0,05, blancos, reservas excluidas por defecto y sustitución hipotética explícita. Publicación 45591964741 SUCCESS; Chromium local y Pages 45591964686 SUCCESS con OPOWEB_LP_HISTORICAL_55_E2E_OK dos veces, acceso desde practice, 10/10, escenario 9,75/10, expiración, móvil emulado y sin errores JS. No acredita plantilla definitiva ni anulación oficial ni revisión jurídica integral.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html"
+      ],
+      "limit": "Cierre operativo autorizado por el usuario: plantilla provisional, sin anulación oficial acreditada."
     }
   ],
   "decisions": [
@@ -3380,7 +3396,6 @@
         "title": "Prioridad operativa",
         "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
         "taskIds": [
-          "LP-EX-04",
           "RAD-02",
           "RAD-09",
           "RAD-12",
@@ -3455,6 +3470,10 @@
       {
         "id": "LP-EX-03",
         "scope": "Cierre por decisión del usuario, no resolución oficial acreditada. Para entrenamiento se adopta provisional 26=A y ninguna anulación acreditada."
+      },
+      {
+        "id": "LP-EX-04",
+        "scope": "Simulacro histórico de La Puebla 14/11/2026: 50 titulares y 5 reservas, 220 alternativas transcritas de 13 fotografías, plantilla provisional 16/11/2026, temporizador 60 min, +0,20/−0,05, blancos, reservas excluidas por defecto y sustitución hipotética explícita. Publicación 45591964741 SUCCESS; Chromium local y Pages 45591964686 SUCCESS con OPOWEB_LP_HISTORICAL_55_E2E_OK dos veces, acceso desde practice, 10/10, escenario 9,75/10, expiración, móvil emulado y sin errores JS. No acredita plantilla definitiva ni anulación oficial ni revisión jurídica integral."
       }
     ],
     "sourceSnapshot": {
@@ -3492,5 +3511,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T10:07:37.000Z"
+  "updatedAtUtc": "2026-11-25T10:16:36.000Z"
 }
