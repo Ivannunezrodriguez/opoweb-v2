@@ -202,14 +202,15 @@
             "25/11/2026: E2E específico de autocorrección SUCCESS 45580710583 y publicación de ocho casos SUCCESS 45580987839. Añadidos casos 9 y 10 de recargos ejecutivos (art. 28 LGT) y Calc (referencias y fórmulas, documentación oficial de LibreOffice), reclasificados cinco casos conforme al programa almacenado. Total 10 casos, 40 cuestiones, 80 criterios. Commit d1dfc50, pendiente CI.",
             "25/11/2026: publicación de diez casos confirmada (45581178467). Añadidos casos 11 y 12: IBI, IAE, IVTM, IIVTNU cotejados con TRLRHL consolidado, y Writer con documentación oficial de ayuda (versión latest, no comprobación específica en LibreOffice 24). Total 12 casos, 48 cuestiones, 96 criterios. Commit c33e58c; publicación pendiente.",
             "25/11/2026: publicación de doce casos confirmada (45581349054). Añadido caso 13 de carrera horizontal y movilidad, arts. 62, 64 y 73 Ley 4/2011 contrastados con el texto BOE disponible; corregidas referencias internas de diez cuestiones antiguas tras inspeccionar seis manuales, evitando anclas no verificadas. Total 13 casos, 52 cuestiones, 104 criterios. Commit 63cc477; publicación pendiente. Texto BOE recuperado con antigüedad de rastreo, sin certificación de reformas posteriores.",
-            "25/11/2026: publicación de trece casos confirmada (45581565622). Incorporados dos modelos integrales de desarrollo con cinco cuestiones y diez criterios cada uno, duración sugerida 35 minutos por modelo (no oficial), en simulacrosPracticos del visor existente. Procedimiento electrónico y recursos; contratación y crédito presupuestario. Commit 1eefc65. Cotejo focal LPAC y LCSP con BOE; TRLRHL referenciado. Bases íntegras no recuperadas en esta pasada, no se afirma formato definitivo del segundo ejercicio."
+            "25/11/2026: publicación de trece casos confirmada (45581565622). Incorporados dos modelos integrales de desarrollo con cinco cuestiones y diez criterios cada uno, duración sugerida 35 minutos por modelo (no oficial), en simulacrosPracticos del visor existente. Procedimiento electrónico y recursos; contratación y crédito presupuestario. Commit 1eefc65. Cotejo focal LPAC y LCSP con BOE; TRLRHL referenciado. Bases íntegras no recuperadas en esta pasada, no se afirma formato definitivo del segundo ejercicio.",
+            "25/11/2026: publicación de primeros dos modelos integrales confirmada (45581829443). Añadidos modelos 3 y 4 de organización municipal, personal y recaudación con plazos calculables, contrastados con arts. 20,26,36 LRBRL, 62,64 TREBEP y 28,62 LGT. Total 4 modelos, 20 cuestiones, 40 criterios adicionales. Commit f1fca13; nueva prueba Chromium de entrada y autocorrección 1872054. Pendientes CI y E2E."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Verificar publicación y render de modelos prácticos C1, añadir prueba E2E de acceso y puntuación de modelos y completar modelos de régimen local/empleo público, tributación, ofimática y multidisciplinar. Recuperar bases oficiales completas y contrastar TRLRHL antes de cierre."
+          "nextAction": "Verificar CI y E2E de cuatro modelos; completar modelos 5 ofimática y 6 multidisciplinar. Recuperar bases íntegras y comprobar formato, alcance y fuentes pendientes, sin presentar tiempos sugeridos como oficiales."
         },
         {
           "id": "DIP-C2-01",
@@ -3067,6 +3068,19 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "Pendiente CI, E2E específico, recuperación de bases íntegras y contraste normativo completo. Duración sugerida sin temporizador ni baremo oficial."
+    },
+    {
+      "id": "LOG-20261125-DIP-C1-MODELOS-PRACTICOS-03-04",
+      "at": "2026-11-25",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Modelos integrales 3 y 4 de régimen local, empleo público básico y recaudación, más prueba específica Chromium.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "Pendiente CI/E2E nuevo y cotejo íntegro de bases; modelo 3 usa TREBEP básico y no sustituye Ley 4/2011; tiempo orientativo sin temporizador."
     }
   ],
   "decisions": [
@@ -3250,5 +3264,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:03:43.000Z"
+  "updatedAtUtc": "2026-11-25T09:05:14.000Z"
 }
