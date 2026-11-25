@@ -525,10 +525,114 @@
           }
         }
       ]
+    },
+    {
+      "id": "DIP-SP-006",
+      "titulo": "Recursos administrativos y revisión de actos favorables",
+      "temas": [
+        7,
+        8
+      ],
+      "enunciado": "En un expediente no tributario ni sujeto a un régimen especial, una resolución expresa desfavorable que no agota la vía administrativa se notifica el martes 3 de noviembre de 2026. En un segundo expediente, una resolución expresa sí agota la vía administrativa. En un tercero, la Diputación descubre que un acto favorable dictado hace dos años es anulable y perjudica al interés público. Para el cálculo de plazos, suponga que el 3 de diciembre es hábil.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-006-Q1",
+          "pregunta": "¿Qué recurso procede en el primer expediente, ante quién y hasta qué fecha?",
+          "respuesta": "Alzada ante el superior jerárquico, que puede presentarse ante este o ante el órgano autor del acto. El mes para recurrir termina el 3 de diciembre de 2026.",
+          "trampa": "No sumar treinta días ni confundir el órgano de presentación con el que resuelve.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a121",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica alzada y superior jerárquico",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula el vencimiento del 3 de diciembre",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-006-Q2",
+          "pregunta": "¿Cuál es el plazo máximo para resolver la alzada y qué sucede si no se notifica resolución en este supuesto?",
+          "respuesta": "Tres meses. Al impugnarse aquí un acto expreso, el silencio es desestimatorio; la excepción de doble silencio del artículo 24.1 no resulta aplicable.",
+          "trampa": "La excepción no convierte todos los silencios en alzada en positivos.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Indica tres meses",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica silencio negativo en el supuesto",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-006-Q3",
+          "pregunta": "¿Qué recurso administrativo ordinario cabe contra la segunda resolución y qué plazo tiene?",
+          "respuesta": "Reposición potestativa ante el órgano autor del acto, dentro de un mes desde la notificación. También cabe acudir directamente a la jurisdicción contenciosa; si se opta por reposición, hay que esperar su resolución expresa o presunta antes de acudir a ella. La resolución de reposición debe notificarse en un mes.",
+          "trampa": "No es obligatorio interponer reposición antes de acudir al juez.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a123",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica reposición potestativa y órgano",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue los plazos y la alternativa judicial",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-006-Q4",
+          "pregunta": "¿Puede la Diputación anular directamente el acto favorable anulable del tercer expediente?",
+          "respuesta": "No por la vía del artículo 106. Procede declaración de lesividad por el Pleno, previa audiencia, dentro de cuatro años desde el acto, y posterior impugnación judicial. El procedimiento de lesividad caduca a los seis meses sin declaración.",
+          "trampa": "No confundir revisión de nulidad con lesividad de actos favorables anulables.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a106",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a107"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica lesividad, Pleno y posterior impugnación judicial",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Indica cuatro años, audiencia y caducidad de seis meses",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "rubricaDidactica": {
     "aviso": "Autocorrección orientativa propia de OpoWeb; no es baremo del Tribunal ni predicción de aprobado.",
-    "regla": "Cada cuestión vale hasta 2 puntos: 1 por cada criterio cumplido. Cada supuesto contiene 4 cuestiones (8 puntos). Para normalizar a 10, dividir puntos obtenidos entre 8 y multiplicar por 10; para los cinco casos, dividir entre 40 y multiplicar por 10."
+    "regla": "Cada cuestión vale hasta 2 puntos: 1 por cada criterio cumplido. Cada supuesto de 4 cuestiones suma 8 puntos; normalizar dividiendo por el máximo del supuesto y multiplicando por 10. Para el conjunto, dividir los puntos obtenidos entre la suma de máximos de los casos realizados y multiplicar por 10."
   }
 }
