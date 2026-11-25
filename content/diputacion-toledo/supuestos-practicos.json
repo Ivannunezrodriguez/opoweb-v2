@@ -1,31 +1,59 @@
 {
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
   "estado": "GENERACION_DESDE_CERO",
-  "version": "2026-07-20",
+  "version": "2026-11-25",
   "supuestos": [
     {
       "id": "DIP-SP-001",
       "titulo": "Registro electrónico, cómputo de plazos y subsanación",
-      "temas": [3, 4, 5, 7],
-      "enunciado": "Una persona presenta por registro electrónico una solicitud dirigida a la Diputación un sábado a las 23:40. El procedimiento exige aportar un documento acreditativo que no se adjunta. El órgano competente detecta la omisión y debe requerir la subsanación.",
+      "temas": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "enunciado": "Una persona presenta por registro electrónico una solicitud dirigida a la Diputación un sábado a las 23:40. El procedimiento exige aportar un documento acreditativo que no se adjunta. El órgano competente detecta la omisión y debe requerir la subsanación. Para las cuestiones adicionales, suponga que el requerimiento se notifica válidamente el lunes 9 de noviembre de 2026 y que no hay festivos entre el 10 y el 24 de noviembre; el procedimiento no es selectivo ni de concurrencia competitiva.",
       "cuestiones": [
         {
           "id": "DIP-SP-001-Q1",
           "pregunta": "¿En qué momento se entiende presentada la solicitud a efectos del registro electrónico?",
-          "respuesta": "La presentación es válida en la fecha y hora en que se realiza, pero si se efectúa en un día inhábil se entiende realizada, a efectos del cómputo de plazos, en la primera hora del primer día hábil siguiente, salvo que una norma permita expresamente la recepción en día inhábil con otros efectos.",
+          "respuesta": "El registro admite documentos todos los días del año. Para el cumplimiento por el interesado de un plazo fijado en días hábiles, la presentación en sábado inhábil se imputa a la primera hora del primer día hábil siguiente, salvo norma expresa que permita la recepción en día inhábil. Se conserva el orden de la hora efectiva de presentación (art. 31.2.b). No es una regla general para todos los plazos.",
           "trampa": "No debe confundirse la disponibilidad del registro durante las veinticuatro horas con que todos los efectos administrativos se produzcan en un día inhábil.",
           "referencias": [
             "content/diputacion-toledo/tema-05/manual.md#registro-electrónico",
-            "content/diputacion-toledo/tema-04/manual.md#cómputo-de-plazos"
+            "content/diputacion-toledo/tema-04/manual.md#cómputo-de-plazos",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
           ]
         },
         {
           "id": "DIP-SP-001-Q2",
           "pregunta": "¿Qué debe hacer la Administración ante la falta del documento y qué plazo general debe conceder?",
-          "respuesta": "Debe requerir a la persona interesada para que subsane la falta o acompañe el documento preceptivo en el plazo general de diez días, con advertencia de que, si no lo hace, se le tendrá por desistida de su petición mediante resolución expresa.",
+          "respuesta": "El órgano competente requerirá la subsanación en diez días hábiles, contados desde el día siguiente a la notificación. Si no se subsana, deberá dictar resolución expresa declarando el desistimiento. Salvo procedimientos selectivos o de concurrencia competitiva, el plazo puede ampliarse prudencialmente hasta cinco días cuando aportar los documentos presente dificultades especiales (art. 68.1 y 2).",
           "trampa": "El desistimiento no se produce automáticamente por el mero transcurso del plazo: requiere resolución expresa.",
           "referencias": [
-            "content/diputacion-toledo/tema-03/manual.md#subsanación-y-mejora-de-la-solicitud"
+            "content/diputacion-toledo/tema-03/manual.md#subsanación-y-mejora-de-la-solicitud",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21"
+          ]
+        },
+        {
+          "id": "DIP-SP-001-Q3",
+          "pregunta": "¿Qué día vence el plazo ordinario de subsanación?",
+          "respuesta": "El lunes 23 de noviembre de 2026. Los diez días hábiles son 10, 11, 12, 13, 16, 17, 18, 19, 20 y 23 de noviembre. El cómputo empieza el día siguiente a la notificación.",
+          "trampa": "No contar el día de la notificación ni sábados o domingos. El calendario sin festivos adicionales es una premisa didáctica.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+          ]
+        },
+        {
+          "id": "DIP-SP-001-Q4",
+          "pregunta": "Si se trata de un proceso selectivo, ¿cabe la ampliación especial de cinco días del artículo 68.2?",
+          "respuesta": "No. El artículo 68.2 excluye los procedimientos selectivos y de concurrencia competitiva de esa ampliación especial. No confundir con otras figuras de ampliación de plazos sujetas a su propio régimen.",
+          "trampa": "La ampliación especial de la subsanación no opera en todos los procedimientos.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
           ]
         }
       ]
@@ -33,7 +61,10 @@
     {
       "id": "DIP-SP-002",
       "titulo": "Contrato menor y prohibición de fraccionamiento",
-      "temas": [15, 16],
+      "temas": [
+        15,
+        16
+      ],
       "enunciado": "Un servicio gestor necesita adquirir material informático homogéneo para varias dependencias durante el mismo ejercicio. Se propone tramitar varios contratos menores sucesivos con el mismo objeto para evitar acudir a un procedimiento abierto.",
       "cuestiones": [
         {
@@ -60,26 +91,32 @@
     {
       "id": "DIP-SP-003",
       "titulo": "Acceso a la información pública y protección de datos",
-      "temas": [10, 28],
+      "temas": [
+        10,
+        28
+      ],
       "enunciado": "Una persona solicita copia íntegra de un expediente de subvención que contiene datos identificativos, bancarios y de salud de terceras personas. La unidad tramitadora debe resolver la solicitud de acceso.",
       "cuestiones": [
         {
           "id": "DIP-SP-003-Q1",
           "pregunta": "¿Debe denegarse necesariamente todo el acceso?",
-          "respuesta": "No. Debe ponderarse el derecho de acceso con la protección de datos personales y aplicarse, cuando sea posible, acceso parcial mediante disociación, anonimización u ocultación de los datos no necesarios.",
+          "respuesta": "No necesariamente. Debe distinguirse la información ordinaria sometida a ponderación del art. 15.3 de los datos especialmente protegidos del art. 15.1. Puede facilitarse información previa disociación efectiva que impida identificar a los afectados (art. 15.4). Si concurre un límite del art. 14 que solo afecta a parte de la información, se aplica el art. 16, salvo resultado distorsionado o carente de sentido, indicando la omisión.",
           "trampa": "La presencia de datos personales no convierte automáticamente todo el expediente en inaccesible.",
           "referencias": [
             "content/diputacion-toledo/tema-10/manual.md#acceso-parcial",
-            "content/diputacion-toledo/tema-28/manual.md#principios-del-tratamiento"
+            "content/diputacion-toledo/tema-28/manual.md#principios-del-tratamiento",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a15",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a16"
           ]
         },
         {
           "id": "DIP-SP-003-Q2",
           "pregunta": "¿Qué tratamiento merecen los datos de salud?",
-          "respuesta": "Son categorías especiales de datos y requieren una protección reforzada. Su divulgación solo puede producirse si existe una base jurídica suficiente y resulta necesaria y proporcionada; en otro caso deben excluirse de la copia facilitada.",
+          "respuesta": "Los datos de salud identificables solo pueden comunicarse en este régimen de acceso con consentimiento expreso del afectado o amparo en una norma con rango de ley (art. 15.1). Si no concurre ninguna condición, excluirlos o disociarlos de modo que no sea posible identificar a la persona.",
           "trampa": "El hecho de que el expediente sea administrativo no elimina el régimen reforzado aplicable a las categorías especiales de datos.",
           "referencias": [
-            "content/diputacion-toledo/tema-28/manual.md#categorías-especiales-de-datos"
+            "content/diputacion-toledo/tema-28/manual.md#categorías-especiales-de-datos",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a15"
           ]
         }
       ]
@@ -87,17 +124,21 @@
     {
       "id": "DIP-SP-004",
       "titulo": "Fases del gasto y control presupuestario",
-      "temas": [29, 30],
+      "temas": [
+        29,
+        30
+      ],
       "enunciado": "Un servicio propone adquirir equipamiento por importe superior al crédito disponible. La factura llega antes de que se haya aprobado formalmente el gasto y se pretende abonarla de inmediato.",
       "cuestiones": [
         {
           "id": "DIP-SP-004-Q1",
           "pregunta": "¿Puede asumirse válidamente el gasto sin crédito adecuado y suficiente?",
-          "respuesta": "No. La existencia de crédito adecuado y suficiente es presupuesto básico para autorizar el gasto. Los compromisos de gasto por cuantía superior al crédito disponible vulneran la disciplina presupuestaria y pueden ser nulos en los términos previstos por la normativa aplicable.",
+          "respuesta": "No. El art. 173.5 TRLRHL prohíbe comprometer gastos por encima de los créditos autorizados: los acuerdos, resoluciones y actos administrativos que infrinjan esa regla son nulos de pleno derecho, sin perjuicio de las responsabilidades correspondientes. Una factura no subsana por sí sola la infracción.",
           "trampa": "La mera necesidad material del suministro no convalida la falta de crédito ni sustituye la tramitación presupuestaria.",
           "referencias": [
             "content/diputacion-toledo/tema-29/manual.md#créditos-presupuestarios",
-            "content/diputacion-toledo/tema-30/manual.md#limitación-cualitativa-cuantitativa-y-temporal"
+            "content/diputacion-toledo/tema-30/manual.md#limitación-cualitativa-cuantitativa-y-temporal",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a173"
           ]
         },
         {
@@ -114,7 +155,13 @@
     {
       "id": "DIP-SP-005",
       "titulo": "Phishing, GroupWise y respuesta ante incidentes",
-      "temas": [32, 33, 34, 39, 40],
+      "temas": [
+        32,
+        33,
+        34,
+        39,
+        40
+      ],
       "enunciado": "Una empleada recibe en GroupWise un mensaje que aparenta proceder del servicio informático. El correo incluye un enlace para renovar la contraseña y un archivo comprimido. Tras abrir el enlace, introduce sus credenciales y observa actividad anómala en su buzón.",
       "cuestiones": [
         {
