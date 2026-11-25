@@ -65,7 +65,7 @@
         15,
         16
       ],
-      "enunciado": "Un servicio gestor necesita adquirir material informático homogéneo para varias dependencias durante el mismo ejercicio. Se propone tramitar varios contratos menores sucesivos con el mismo objeto para evitar acudir a un procedimiento abierto.",
+      "enunciado": "Un servicio gestor necesita adquirir material informático homogéneo para varias dependencias durante el mismo ejercicio. Se propone tramitar varios contratos menores sucesivos con el mismo objeto para evitar acudir a un procedimiento abierto. La necesidad anual es única y previsible: tres entregas de 6.000 euros cada una, sin IVA, sin opciones ni prórrogas. Se aplica IVA del 21 %.",
       "cuestiones": [
         {
           "id": "DIP-SP-002-Q1",
@@ -74,7 +74,8 @@
           "trampa": "No toda división en lotes es fraccionamiento ilícito; lo prohibido es fragmentar artificialmente una unidad contractual para rebajar su cuantía o eludir el procedimiento aplicable.",
           "referencias": [
             "content/diputacion-toledo/tema-15/manual.md#objeto-del-contrato-y-fraccionamiento",
-            "content/diputacion-toledo/tema-16/manual.md#contratos-menores"
+            "content/diputacion-toledo/tema-16/manual.md#contratos-menores",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
           ]
         },
         {
@@ -83,7 +84,26 @@
           "respuesta": "Debe atenderse al valor estimado total de la necesidad contractual, calculado sin IVA y considerando las prestaciones homogéneas, opciones y eventuales prórrogas que procedan. Sobre esa cuantía se selecciona el procedimiento legalmente aplicable.",
           "trampa": "La referencia decisiva no es el importe aislado de cada factura ni el presupuesto base con IVA, sino el valor estimado del conjunto contractual.",
           "referencias": [
-            "content/diputacion-toledo/tema-15/manual.md#valor-estimado-y-presupuesto-base-de-licitación"
+            "content/diputacion-toledo/tema-15/manual.md#valor-estimado-y-presupuesto-base-de-licitación",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+          ]
+        },
+        {
+          "id": "DIP-SP-002-Q3",
+          "pregunta": "Calcule el valor estimado y el importe total con IVA. ¿Cabe tramitar la necesidad como contrato menor de suministro?",
+          "respuesta": "Valor estimado: 18.000 euros. IVA: 3.780 euros. Total: 21.780 euros. No cabe contrato menor para la necesidad unitaria: el artículo 118.1 exige valor estimado inferior a 15.000 euros en suministros. No procede eludir el umbral mediante tres expedientes.",
+          "trampa": "El límite es estrictamente inferior a 15.000 euros sin IVA; no se aplica individualmente a entregas de una necesidad artificialmente dividida.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+          ]
+        },
+        {
+          "id": "DIP-SP-002-Q4",
+          "pregunta": "Si la necesidad fuera autónoma, no recurrente y de 6.000 euros sin IVA, ¿qué documentación exige con carácter general el artículo 118.2 y 3?",
+          "respuesta": "Informe motivado del órgano de contratación sobre la necesidad y la ausencia de alteración del objeto para eludir umbrales, aprobación del gasto y factura. La excepción al informe para anticipos de caja fija o sistema similar exige valor estimado no superior a 5.000 euros y no resulta aplicable a este importe.",
+          "trampa": "Estar por debajo del umbral de contrato menor no elimina la tramitación del expediente.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
           ]
         }
       ]
@@ -128,7 +148,7 @@
         29,
         30
       ],
-      "enunciado": "Un servicio propone adquirir equipamiento por importe superior al crédito disponible. La factura llega antes de que se haya aprobado formalmente el gasto y se pretende abonarla de inmediato.",
+      "enunciado": "Un servicio propone adquirir equipamiento por importe superior al crédito disponible. La factura llega antes de que se haya aprobado formalmente el gasto y se pretende abonarla de inmediato. El crédito disponible al nivel de vinculación jurídica es de 8.000 euros y el gasto propuesto asciende a 12.000 euros. Para las cuestiones 3 y 4, considere una variante preventiva, antes de contratar: el gasto no puede demorarse al siguiente ejercicio, el crédito no es ampliable y existe financiación legal suficiente.",
       "cuestiones": [
         {
           "id": "DIP-SP-004-Q1",
@@ -147,7 +167,27 @@
           "respuesta": "La secuencia ordinaria es autorización del gasto, disposición o compromiso, reconocimiento de la obligación y ordenación del pago, sin perjuicio de que determinadas fases puedan acumularse cuando la normativa lo permita.",
           "trampa": "Pagar una factura no sustituye las fases previas ni convierte por sí solo en regular un gasto incorrectamente contraído.",
           "referencias": [
-            "content/diputacion-toledo/tema-30/manual.md#fases-de-ejecución-del-gasto"
+            "content/diputacion-toledo/tema-30/manual.md#fases-de-ejecución-del-gasto",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a184"
+          ]
+        },
+        {
+          "id": "DIP-SP-004-Q3",
+          "pregunta": "En la variante preventiva, ¿qué modificación corresponde si se mantiene la aplicación y el gasto no puede demorarse?",
+          "respuesta": "Suplemento de crédito por 4.000 euros para cubrir la insuficiencia del crédito existente, en el supuesto de que se tramite la modificación del artículo 177. Si no existiera crédito, correspondería crédito extraordinario. El expediente debe preceder al compromiso del gasto.",
+          "trampa": "No confundir inexistencia de crédito con insuficiencia; la modificación preventiva no sana automáticamente un compromiso nulo anterior.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a173",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ]
+        },
+        {
+          "id": "DIP-SP-004-Q4",
+          "pregunta": "¿Quién ordena iniciar el expediente de suplemento, quién informa y quién lo aprueba?",
+          "respuesta": "La Presidencia de la corporación ordena iniciar el expediente, la Intervención emite informe previo y el Pleno lo aprueba, con los trámites y requisitos presupuestarios correspondientes (art. 177.1 y 2).",
+          "trampa": "No atribuir la aprobación del suplemento a la Presidencia por el hecho de que ordene su incoación.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
           ]
         }
       ]
