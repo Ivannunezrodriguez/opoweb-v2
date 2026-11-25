@@ -95,9 +95,10 @@
             "practice.html",
             "content/la-puebla/simulacros.json"
           ],
-          "nextAction": "Verificar publicación y ejecutar E2E del simulacro histórico desde practice: 55 preguntas, tiempo, blancos, puntuación 10/10, reservas y escenario hipotético.",
+          "nextAction": "Verificar E2E específico local y Pages y cerrar alcance operativo si supera las pruebas.",
           "completedSubsteps": [
-            "25/11/2026: transcripción de 13 fotografías del cuestionario: 50 titulares y 5 reservas, cuatro alternativas, claves provisionales intactas; simulacro interactivo de 60 min, corrección y escenario hipotético de anulaciones. Pendiente CI y navegador."
+            "25/11/2026: transcripción de 13 fotografías del cuestionario: 50 titulares y 5 reservas, cuatro alternativas, claves provisionales intactas; simulacro interactivo de 60 min, corrección y escenario hipotético de anulaciones. Pendiente CI y navegador.",
+            "25/11/2026: publicación del cuestionario completo SUCCESS 45591729201; corregido aviso obsoleto en practice, incorporado E2E Chromium de 220 opciones, nota 10/10, reserva hipotética, blancos, expiración y móvil, conectado a workflow local y Pages."
           ]
         }
       ]
@@ -3274,6 +3275,19 @@
         "content/la-puebla/examen-real-2026.html"
       ],
       "limit": "No consta plantilla definitiva; anulaciones solo hipotéticas. Pendiente CI y navegador; no certifica revisión jurídica actual de todos los ítems."
+    },
+    {
+      "id": "LOG-20261125-LP-EX04-E2E",
+      "at": "2026-11-25",
+      "taskIds": [
+        "LP-EX-04"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Publicación 55 preguntas confirmada; aviso practice actualizado y prueba Chromium específica integrada.",
+      "evidence": [
+        "practice.html"
+      ],
+      "limit": "E2E nuevo pendiente; plantilla provisional y escenarios hipotéticos, no resolución Tribunal."
     }
   ],
   "decisions": [
@@ -3478,5 +3492,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T10:06:09.000Z"
+  "updatedAtUtc": "2026-11-25T10:07:37.000Z"
 }
