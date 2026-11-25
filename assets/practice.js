@@ -631,11 +631,27 @@ function startThemeTest(theme) {
 }
 
 function renderOpenCase(item) {
-  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button><button id="reveal-case" class="btn" type="button">Mostrar soluciones</button></div><section class="panel"><h2>${escapeHtml(item.titulo)}</h2><p class="notice">${item.modalidad === "SIMULACRO_SEGUNDO_EJERCICIO" ? "Modelo de entrenamiento, no examen oficial. Tiempo orientativo; redacta antes de mostrar las soluciones. La plataforma no asigna una nota automática a la respuesta libre. " : ""}${escapeHtml(item.enunciado)}</p></section><div class="exercise-list">${item.cuestiones.map((question, index) => `<article class="panel question-card"><h3>${index + 1}. ${escapeHtml(question.pregunta)}</h3><textarea rows="5" aria-label="Respuesta a la cuestión ${index + 1}" placeholder="Redacta tu respuesta antes de mostrar la solución"></textarea><div class="solution" hidden><p><strong>Solución orientativa:</strong> ${escapeHtml(question.respuesta)}</p><blockquote>⚠️ <strong>¡Foco Examen!:</strong> ${escapeHtml(question.trampa)}</blockquote><p class="reference"><strong>Referencias:</strong> ${escapeHtml((question.referencias || []).join(' · '))}</p></div></article>`).join('')}</div>`;
+  const criteriaFor = question => (Array.isArray(question.rubrica?.criterios) ? question.rubrica.criterios : []).filter(criterion => typeof criterion.descripcion === 'string' && Number.isFinite(criterion.puntos) && criterion.puntos > 0);
+  const rubricMax = item.cuestiones.reduce((sum, question) => sum + criteriaFor(question).reduce((total, criterion) => total + criterion.puntos, 0), 0);
+  const rubricHtml = question => {
+    const criteria = criteriaFor(question);
+    if (!criteria.length) return '';
+    return `<fieldset class="case-rubric"><legend>Autocorrección orientativa</legend>${criteria.map(criterion => `<label style="display:block;margin:.5rem 0"><input type="checkbox" data-rubric-points="${criterion.puntos}"> ${escapeHtml(criterion.descripcion)} (${criterion.puntos} p.)</label>`).join('')}</fieldset>`;
+  };
+  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button><button id="reveal-case" class="btn" type="button">Mostrar soluciones</button></div><section class="panel"><h2>${escapeHtml(item.titulo)}</h2><p class="notice">${item.modalidad === "SIMULACRO_SEGUNDO_EJERCICIO" ? "Modelo de entrenamiento, no examen oficial. Tiempo orientativo; redacta antes de mostrar las soluciones. La plataforma no asigna una nota automática a la respuesta libre. " : ""}${escapeHtml(item.enunciado)}</p>${rubricMax ? `<p class="notice">Marca los criterios que cumple tu respuesta después de mostrar las soluciones. La nota es orientativa, no oficial.</p><p id="case-rubric-score" role="status" aria-live="polite" hidden></p>` : ''}</section><div class="exercise-list">${item.cuestiones.map((question, index) => `<article class="panel question-card"><h3>${index + 1}. ${escapeHtml(question.pregunta)}</h3><textarea rows="5" aria-label="Respuesta a la cuestión ${index + 1}" placeholder="Redacta tu respuesta antes de mostrar la solución"></textarea><div class="solution" hidden><p><strong>Solución orientativa:</strong> ${escapeHtml(question.respuesta)}</p><blockquote>⚠️ <strong>¡Foco Examen!:</strong> ${escapeHtml(question.trampa)}</blockquote><p class="reference"><strong>Referencias:</strong> ${escapeHtml((question.referencias || []).join(' · '))}</p>${rubricHtml(question)}</div></article>`).join('')}</div>`;
+  const updateRubric = () => {
+    const score = app.querySelector('#case-rubric-score');
+    if (!score || !rubricMax) return;
+    const points = Array.from(app.querySelectorAll('[data-rubric-points]:checked')).reduce((sum, input) => sum + Number(input.dataset.rubricPoints), 0);
+    score.textContent = 'Autocorrección orientativa: ' + points + '/' + rubricMax + ' puntos · ' + (10 * points / rubricMax).toFixed(2).replace('.', ',') + '/10. No es nota oficial.';
+  };
+  app.querySelectorAll('[data-rubric-points]').forEach(input => input.addEventListener('change', updateRubric));
   document.querySelector('#practice-back').addEventListener('click', renderHub);
   document.querySelector('#reveal-case').addEventListener('click', event => {
     document.querySelectorAll('.solution').forEach(node => { node.hidden = false; });
     document.querySelectorAll('textarea').forEach(node => { node.disabled = true; });
+    const score = app.querySelector('#case-rubric-score');
+    if (score) { score.hidden = false; updateRubric(); }
     event.currentTarget.disabled = true;
     event.currentTarget.textContent = 'Soluciones mostradas';
   });
