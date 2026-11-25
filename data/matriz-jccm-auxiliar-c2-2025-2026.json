@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "actualizado": "2026-11-20",
+  "actualizado": "2026-11-25",
   "programaId": "jccm-2025-2026-auxiliar-c2",
   "fuentePrograma": "data/programa-jccm-auxiliar-c2-2025-2026.json",
   "criterio": "Los enlaces a manuales históricos son solo candidatos. Sin descomposición literal de incisos y cotejo normativo, no se acredita cobertura ni se reutilizan preguntas como verificadas.",
   "totales": {
     "epigrafes": 24,
-    "conCandidatos": 4,
+    "conCandidatos": 6,
     "coberturaAcreditada": 0
   },
   "temas": [
@@ -47,26 +47,95 @@
       "numeroEnBloque": 3,
       "bloque": "Organización Administrativa",
       "epigrafeLiteral": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Disposiciones generales. Los órganos de las Administraciones Públicas. Principios de la potestad sancionadora. Responsabilidad patrimonial de las Administraciones Públicas. Funcionamiento electrónico del sector público. Los convenios.",
-      "manualesCandidatos": [],
-      "estado": "SIN_CANDIDATO_IDENTIFICADO",
+      "manualesCandidatos": [
+        "content/diputacion-toledo/tema-04/manual.md",
+        "content/la-puebla/tema-14/manual.md"
+      ],
+      "estado": "MAPEO_NORMATIVO_PARCIAL",
       "coberturaAcreditada": false,
       "incisosAuditados": [],
       "normasYArticulosVerificados": [],
       "preguntasVerificadas": [],
-      "pendiente": "Desglosar incisos literales; cotejar normas vigentes; evaluar material y construir preguntas."
+      "pendiente": "Cotejar artículo por artículo; los manuales candidatos solo cubren parcialmente disposiciones generales y órganos. Desarrollar sanciones, responsabilidad, funcionamiento electrónico y convenios; validar preguntas.",
+      "mapaNormativoPreliminar": [
+        {
+          "inciso": "Disposiciones generales",
+          "articulos": "1–4",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Los órganos de las Administraciones Públicas",
+          "articulos": "5–24",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Principios de la potestad sancionadora",
+          "articulos": "25–31",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Responsabilidad patrimonial de las Administraciones Públicas",
+          "articulos": "32–37",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Funcionamiento electrónico del sector público",
+          "articulos": "38–46 bis",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Los convenios",
+          "articulos": "47–53",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        }
+      ]
     },
     {
       "numero": 4,
       "numeroEnBloque": 4,
       "bloque": "Organización Administrativa",
       "epigrafeLiteral": "La Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público: Las relaciones interadministrativas. Principios generales. Deber de colaboración. Relaciones de cooperación. Relaciones electrónicas entre las Administraciones.",
-      "manualesCandidatos": [],
-      "estado": "SIN_CANDIDATO_IDENTIFICADO",
+      "manualesCandidatos": [
+        "content/diputacion-toledo/tema-04/manual.md"
+      ],
+      "estado": "MAPEO_NORMATIVO_PARCIAL",
       "coberturaAcreditada": false,
       "incisosAuditados": [],
       "normasYArticulosVerificados": [],
       "preguntasVerificadas": [],
-      "pendiente": "Desglosar incisos literales; cotejar normas vigentes; evaluar material y construir preguntas."
+      "pendiente": "Cotejar capítulos I–IV del título III; completar técnicas y órganos de cooperación y relaciones electrónicas 155–158. Validar preguntas.",
+      "mapaNormativoPreliminar": [
+        {
+          "inciso": "Principios generales",
+          "articulos": "140",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Deber de colaboración",
+          "articulos": "141–142",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Relaciones de cooperación",
+          "articulos": "143–154",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        },
+        {
+          "inciso": "Relaciones electrónicas entre las Administraciones",
+          "articulos": "155–158",
+          "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "consulta": "2026-11-25"
+        }
+      ]
     },
     {
       "numero": 5,
