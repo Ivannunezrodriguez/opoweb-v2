@@ -1193,7 +1193,7 @@
       "titulo": "Examen de entrenamiento completo · 50 preguntas / 60 minutos",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "REUTILIZA 50 preguntas de los cinco repasos anteriores: no son preguntas inéditas. Entrenamiento C1 de 60 min con +0,20 acierto, −0,05 error, blanco 0; T22 OAPGT sin certificar y excluido. No reproduce examen oficial ni reservas.",
+      "instrucciones": "REUTILIZA 50 preguntas de los cinco repasos anteriores: no son preguntas inéditas. Entrenamiento C1 de 60 min con +0,20 acierto, −0,05 error, blanco 0; T22 OAPGT sin certificar y excluido. No reproduce examen oficial ni reservas. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "notaEditorial": "Contiene 50 ítems reutilizados de modelos previos, no 50 preguntas nuevas; cubre 39 temas y repite 11. Omite el tema 22 OAPGT, que sí está en programa oficial y requiere estudio prudente específico. No sustituye el examen ni certifica fuentes jurídicas.",
       "preguntas": [
         {
@@ -2231,6 +2231,98 @@
           },
           "origenId": "DIP-SIM-004-Q11"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-006-R01",
+          "pregunta": "Si no se alcanza inicialmente la mayoría necesaria para elegir al Defensor del Pueblo y se formulan nuevas propuestas, ¿qué combinación de mayorías puede permitir su designación?",
+          "opciones": [
+            "Mayoría simple del Congreso y Senado",
+            "Dos tercios de ambas Cámaras",
+            "Mayoría absoluta del Congreso y tres quintos del Senado",
+            "Tres quintos del Congreso y mayoría absoluta del Senado"
+          ],
+          "correcta": 3,
+          "justificacion": "Según el **artículo 2.5 de la LO 3/1981**, tras no alcanzarse las mayorías iniciales y formularse sucesivas propuestas, basta con **tres quintos del Congreso** y **mayoría absoluta del Senado**.",
+          "trampa": "La primera votación requiere **tres quintos de cada Cámara**; la vía posterior reduce la mayoría exigible en el **Senado**, no en el Congreso.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Tres quintos del Congreso y mayoría absoluta del Senado",
+          "tema": 3,
+          "origenId": "DIP-T03-010",
+          "referenciaOriginal": "LO 3/1981, art. 2 · https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325"
+        },
+        {
+          "id": "DIP-SIM-006-R02",
+          "pregunta": "Si la persona recusada niega la causa alegada, ¿en qué plazo debe resolver el superior inmediato?",
+          "opciones": [
+            "Dos días",
+            "Cinco días",
+            "Diez días",
+            "Tres días"
+          ],
+          "correcta": 3,
+          "justificacion": "Según el artículo 24.4 de la Ley 40/2015, si el recusado niega la causa, el superior resolverá en el plazo de tres días, previos los informes y comprobaciones oportunos.",
+          "trampa": "Los tres días solo aplican si se niega la causa; el recusado manifiesta su posición al día siguiente (art. 24.3).",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Tres días",
+          "tema": 4,
+          "origenId": "DIP-T04-010",
+          "referenciaOriginal": "Ley 40/2015, artículo 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24"
+        },
+        {
+          "id": "DIP-SIM-006-R03",
+          "pregunta": "Si el primer intento de notificación en papel resulta fallido, el segundo intento debe realizarse:",
+          "opciones": [
+            "Dentro de los 10 días siguientes",
+            "Al mes siguiente",
+            "No procede un segundo intento",
+            "Dentro de los 3 días siguientes"
+          ],
+          "correcta": 3,
+          "justificacion": "La notificación debe repetirse por una sola vez y en una hora distinta dentro de los 3 días siguientes.",
+          "trampa": "No son 10 días; ese plazo corresponde a otras reglas de notificación.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "Dentro de los 3 días siguientes",
+          "tema": 11,
+          "origenId": "DIP-T11-009",
+          "referenciaOriginal": "Ley 39/2015, art. 42.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a42"
+        },
+        {
+          "id": "DIP-SIM-006-R04",
+          "pregunta": "La solicitud ordinaria de alta debe formularse:",
+          "opciones": [
+            "Dentro del mes siguiente",
+            "Dentro de los 3 días posteriores",
+            "Al finalizar el periodo de prueba",
+            "Antes del inicio de la prestación de servicios"
+          ],
+          "correcta": 3,
+          "justificacion": "La solicitud de alta debe presentarse antes del inicio de la prestación de servicios.",
+          "trampa": "El plazo de 3 días naturales corresponde, con carácter general, a la baja y a la variación de datos.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "Antes del inicio de la prestación de servicios",
+          "tema": 21,
+          "origenId": "DIP-T21-009",
+          "referenciaOriginal": "RD art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32"
+        },
+        {
+          "id": "DIP-SIM-006-R05",
+          "pregunta": "La Ley 12/2010 es una norma:",
+          "opciones": [
+            "Europea",
+            "Estatal de carácter orgánico",
+            "Municipal",
+            "Autonómica de Castilla-La Mancha"
+          ],
+          "correcta": 3,
+          "justificacion": "La Ley 12/2010, de 18 de noviembre, pertenece al ordenamiento autonómico de Castilla-La Mancha y desarrolla sus políticas públicas de igualdad entre mujeres y hombres.",
+          "trampa": "No debe confundirse con la Ley Orgánica 3/2007, que es una norma estatal.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Autonómica de Castilla-La Mancha",
+          "tema": 24,
+          "origenId": "DIP-T24-009",
+          "referenciaOriginal": "Ley 12/2010 CLM · art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708#a1"
+        }
       ]
     },
     {
@@ -2238,7 +2330,7 @@
       "titulo": "Examen de entrenamiento 2 · 50 preguntas / 60 minutos · bloque focal",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco temático sin coincidencias textuales normalizadas con los modelos anteriores. Ocho temas prioritarios; no es examen oficial ni cubre todo el programa. Penalización de entrenamiento +0,20/−0,05 pendiente de cotejo íntegro de bases.",
+      "instrucciones": "50 preguntas del banco temático sin coincidencias textuales normalizadas con los modelos anteriores. Ocho temas prioritarios; no es examen oficial ni cubre todo el programa. Penalización de entrenamiento +0,20/−0,05 pendiente de cotejo íntegro de bases. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "notaEditorial": "Reutilización del banco, no preguntas inéditas. Referencias originales conservadas; sin auditoría jurídica individual nueva.",
       "preguntas": [
         {
@@ -3091,6 +3183,98 @@
           "origenId": "DIP-T27-002",
           "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 164 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a164"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-007-R01",
+          "pregunta": "¿Cuál de los siguientes es un procedimiento de gestión tributaria?",
+          "opciones": [
+            "Recurso contencioso-administrativo",
+            "Comprobación limitada",
+            "Moción de censura",
+            "Procedimiento legislativo"
+          ],
+          "correcta": 1,
+          "justificacion": "La comprobación limitada es uno de los procedimientos de gestión tributaria regulados por la Ley General Tributaria.",
+          "trampa": "La comprobación limitada no es un recurso ni un procedimiento inspector pleno.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "Comprobación limitada",
+          "tema": 25,
+          "origenId": "DIP-T25-009",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 123 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a123"
+        },
+        {
+          "id": "DIP-SIM-007-R02",
+          "pregunta": "Mapear una unidad de red significa:",
+          "opciones": [
+            "Copiar todo el servidor al disco local",
+            "Asignar una letra a un recurso compartido",
+            "Formatear el recurso de red",
+            "Convertirlo en una memoria USB"
+          ],
+          "correcta": 1,
+          "justificacion": "Mapear o conectar una unidad de red consiste en asignar una letra de unidad a un recurso compartido accesible a través de la red.",
+          "trampa": "No implica copiar físicamente el contenido del servidor al equipo local.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Asignar una letra a un recurso compartido",
+          "tema": 32,
+          "origenId": "DIP-T32-009",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#11-unidades-y-recursos-de-red"
+        },
+        {
+          "id": "DIP-SIM-007-R03",
+          "pregunta": "Aplicar un filtro en una tabla:",
+          "opciones": [
+            "Elimina definitivamente los registros excluidos",
+            "Oculta temporalmente los registros que no cumplen el criterio",
+            "Convierte la tabla en informe",
+            "Cambia la clave primaria"
+          ],
+          "correcta": 1,
+          "justificacion": "Aplicar un filtro limita temporalmente los registros visibles a los que cumplen el criterio, sin eliminar los restantes.",
+          "trampa": "Filtrar y eliminar son operaciones distintas: los registros excluidos siguen almacenados.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Oculta temporalmente los registros que no cumplen el criterio",
+          "tema": 37,
+          "origenId": "DIP-T37-009",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#14-ordenación-búsqueda-y-filtrado"
+        },
+        {
+          "id": "DIP-SIM-007-R04",
+          "pregunta": "¿Cuánto dura el mandato del Defensor del Pueblo?",
+          "opciones": [
+            "Tres años",
+            "Cinco años",
+            "Cuatro años",
+            "Nueve años"
+          ],
+          "correcta": 1,
+          "justificacion": "El Defensor del Pueblo es elegido por las Cortes Generales para un periodo de cinco años, independiente de la duración ordinaria de las legislaturas.",
+          "trampa": "No confundir los cinco años del Defensor con los cuatro años de Congreso y Senado ni con los nueve de los consejeros de Cuentas.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Cinco años",
+          "tema": 3,
+          "origenId": "DIP-T03-011",
+          "referenciaOriginal": "LO 3/1981, art. 2 · https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325"
+        },
+        {
+          "id": "DIP-SIM-007-R05",
+          "pregunta": "La cooperación interadministrativa se caracteriza principalmente por ser:",
+          "opciones": [
+            "Jerárquica",
+            "Voluntaria y acordada",
+            "Sancionadora",
+            "Una transferencia de titularidad"
+          ],
+          "correcta": 1,
+          "justificacion": "La cooperación implica una actuación voluntaria y acordada entre Administraciones para alcanzar objetivos comunes.",
+          "trampa": "No confundir cooperación con coordinación, que puede responder a una competencia específica de integración.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Voluntaria y acordada",
+          "tema": 4,
+          "origenId": "DIP-T04-011",
+          "referenciaOriginal": "Ley 40/2015, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a143"
+        }
       ]
     },
     {
@@ -3098,7 +3282,7 @@
       "titulo": "Examen de entrenamiento 3 · 50 preguntas / 60 minutos · régimen local, personal y tributos",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas seleccionadas del banco temático, sin coincidencias textuales normalizadas con los modelos anteriores. Diez temas prioritarios; no es examen oficial ni cobertura completa. Puntuación de práctica +0,20/−0,05 pendiente de cotejo íntegro de bases.",
+      "instrucciones": "50 preguntas seleccionadas del banco temático, sin coincidencias textuales normalizadas con los modelos anteriores. Diez temas prioritarios; no es examen oficial ni cobertura completa. Puntuación de práctica +0,20/−0,05 pendiente de cotejo íntegro de bases. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "notaEditorial": "Reutilización del banco, no preguntas inéditas. Referencias originales conservadas; sin auditoría jurídica individual nueva.",
       "preguntas": [
         {
@@ -3951,6 +4135,98 @@
           "origenId": "DIP-T19-003",
           "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-008-R01",
+          "pregunta": "Cuando se desconoce a los interesados o no puede practicarse la notificación, el anuncio obligatorio se publica en:",
+          "opciones": [
+            "El tablón municipal exclusivamente",
+            "El boletín provincial exclusivamente",
+            "Un periódico local",
+            "El Boletín Oficial del Estado"
+          ],
+          "correcta": 3,
+          "justificacion": "La notificación infructuosa se practica mediante un anuncio publicado en el Boletín Oficial del Estado.",
+          "trampa": "Otros medios pueden ser complementarios, pero no sustituyen al anuncio en el BOE.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "El Boletín Oficial del Estado",
+          "tema": 11,
+          "origenId": "DIP-T11-010",
+          "referenciaOriginal": "Ley 39/2015, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a44"
+        },
+        {
+          "id": "DIP-SIM-008-R02",
+          "pregunta": "La baja y la variación de datos deben comunicarse, con carácter general, dentro de:",
+          "opciones": [
+            "24 horas",
+            "5 días hábiles",
+            "10 días naturales",
+            "6 días naturales"
+          ],
+          "correcta": 3,
+          "justificacion": "**RD 84/1996 art. 32.3.2.º**, modificado con efectos desde **01/08/2026**: comunicar bajas y variaciones en **6 días naturales**, salvo excepción autorizada.",
+          "trampa": "**Baja y variaciones 6 días naturales**, no 3; el **alta** es anterior al inicio.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "6 días naturales",
+          "tema": 21,
+          "origenId": "DIP-T21-010",
+          "referenciaOriginal": "RD art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32"
+        },
+        {
+          "id": "DIP-SIM-008-R03",
+          "pregunta": "¿Qué analiza un informe de impacto de género?",
+          "opciones": [
+            "Solo el coste económico",
+            "Únicamente el lenguaje del texto",
+            "La constitucionalidad general de la norma",
+            "Los efectos diferenciados de una medida sobre mujeres y hombres"
+          ],
+          "correcta": 3,
+          "justificacion": "El informe de impacto de género analiza los efectos diferenciados de una medida sobre mujeres y hombres, detecta posibles desigualdades y valora las correcciones necesarias.",
+          "trampa": "No es una valoración política genérica ni un mero control lingüístico.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Los efectos diferenciados de una medida sobre mujeres y hombres",
+          "tema": 24,
+          "origenId": "DIP-T24-010",
+          "referenciaOriginal": "Ley 12/2010 CLM · art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708#a6"
+        },
+        {
+          "id": "DIP-SIM-008-R04",
+          "pregunta": "La comprobación limitada:",
+          "opciones": [
+            "No puede finalizar con liquidación",
+            "Equivale siempre a una inspección completa",
+            "Solo puede iniciarla un juez",
+            "Tiene un alcance propio y limitado por la ley"
+          ],
+          "correcta": 3,
+          "justificacion": "La comprobación limitada permite verificar determinados hechos, elementos y documentos dentro de los límites legales, sin equivaler a un procedimiento inspector pleno.",
+          "trampa": "Puede finalizar con una liquidación provisional; lo limitado es el alcance de las actuaciones, no la posibilidad de liquidar.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "Tiene un alcance propio y limitado por la ley",
+          "tema": 25,
+          "origenId": "DIP-T25-010",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 136 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a136"
+        },
+        {
+          "id": "DIP-SIM-008-R05",
+          "pregunta": "Una unidad de red depende normalmente de:",
+          "opciones": [
+            "La extensión del archivo",
+            "Solo del espacio del disco local",
+            "La Papelera de reciclaje",
+            "Conectividad, servidor y permisos"
+          ],
+          "correcta": 3,
+          "justificacion": "El acceso a una unidad de red requiere conectividad, disponibilidad del servidor o recurso compartido y permisos o credenciales adecuados.",
+          "trampa": "Tener asignada una letra de unidad no garantiza que el recurso de red esté disponible.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Conectividad, servidor y permisos",
+          "tema": 32,
+          "origenId": "DIP-T32-010",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#12-permisos-y-acceso"
+        }
       ]
     },
     {
@@ -3958,7 +4234,7 @@
       "titulo": "Simulacro 9 · Organización, procedimiento local, trabajo y administración digital",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "preguntas": [
         {
           "id": "DIP-SIM-009-Q01",
@@ -4860,6 +5136,98 @@
           "origenId": "DIP-T04-009",
           "referenciaOriginal": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-009-R01",
+          "pregunta": "¿Qué afirmación es correcta sobre un archivo ODB conectado a una base externa?",
+          "opciones": [
+            "Copia necesariamente todos los datos externos dentro del ODB",
+            "Puede contener la conexión y objetos mientras los datos permanecen en el servidor",
+            "Solo puede abrirse sin red",
+            "Elimina la base externa al cerrarse"
+          ],
+          "correcta": 1,
+          "justificacion": "En una conexión externa, el archivo ODB puede guardar la configuración de conexión, consultas, formularios e informes, mientras los datos permanecen en el servidor o fuente externa.",
+          "trampa": "No debe confundirse el contenedor de conexión con una copia completa de la base de datos externa.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Puede contener la conexión y objetos mientras los datos permanecen en el servidor",
+          "tema": 37,
+          "origenId": "DIP-T37-010",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#2-el-archivo-de-base"
+        },
+        {
+          "id": "DIP-SIM-009-R02",
+          "pregunta": "¿Cuál es la composición del Tribunal de Cuentas?",
+          "opciones": [
+            "10 consejeros por seis años",
+            "12 consejeros por nueve años",
+            "15 consejeros por nueve años",
+            "12 magistrados por cinco años"
+          ],
+          "correcta": 1,
+          "justificacion": "El Tribunal de Cuentas está integrado por 12 consejeros, seis designados por cada Cámara, por mayoría de tres quintos y para nueve años.",
+          "trampa": "El mandato de los consejeros es de nueve años, mientras que el Presidente del Tribunal lo es por tres años.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "12 consejeros por nueve años",
+          "tema": 3,
+          "origenId": "DIP-T03-012",
+          "referenciaOriginal": "LO 2/1982, art. 30 · https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584"
+        },
+        {
+          "id": "DIP-SIM-009-R03",
+          "pregunta": "¿Cuál de los siguientes es un órgano de cooperación?",
+          "opciones": [
+            "La mesa de contratación",
+            "La conferencia sectorial",
+            "El tribunal calificador",
+            "La junta de personal"
+          ],
+          "correcta": 1,
+          "justificacion": "Las conferencias sectoriales son órganos de cooperación multilateral entre Administraciones Públicas.",
+          "trampa": "No todo órgano colegiado es un órgano de cooperación interadministrativa.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "La conferencia sectorial",
+          "tema": 4,
+          "origenId": "DIP-T04-012",
+          "referenciaOriginal": "Ley 40/2015, artículo 147 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a147"
+        },
+        {
+          "id": "DIP-SIM-009-R04",
+          "pregunta": "La ausencia del aviso enviado al correo electrónico o dispositivo móvil sobre una notificación electrónica:",
+          "opciones": [
+            "Invalida siempre la notificación",
+            "No invalida la notificación",
+            "Suspende automáticamente el plazo",
+            "Convierte la notificación en papel"
+          ],
+          "correcta": 1,
+          "justificacion": "El aviso es accesorio y su falta no afecta a la validez de la notificación puesta a disposición.",
+          "trampa": "No confundir el aviso complementario con la notificación propiamente dicha.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "No invalida la notificación",
+          "tema": 11,
+          "origenId": "DIP-T11-011",
+          "referenciaOriginal": "Ley 39/2015, art. 41.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a41"
+        },
+        {
+          "id": "DIP-SIM-009-R05",
+          "pregunta": "¿Quién es responsable del ingreso de la aportación empresarial y de la cuota obrera descontada?",
+          "opciones": [
+            "La persona trabajadora",
+            "La empresa",
+            "El INSS",
+            "La mutua"
+          ],
+          "correcta": 1,
+          "justificacion": "La empresa es responsable de ingresar ante la Tesorería General de la Seguridad Social tanto su aportación como la cuota obrera descontada.",
+          "trampa": "La persona trabajadora soporta parte de la cuota, pero no es responsable de su ingreso ante la Tesorería.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "La empresa",
+          "tema": 21,
+          "origenId": "DIP-T21-011",
+          "referenciaOriginal": "LG art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a142"
+        }
       ]
     },
     {
@@ -4867,7 +5235,7 @@
       "titulo": "Simulacro 10 · Derechos, actos administrativos, administración electrónica, responsabilidad y prevención",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "preguntas": [
         {
           "id": "DIP-SIM-010-Q01",
@@ -5769,6 +6137,98 @@
           "origenId": "DIP-T07-009",
           "referenciaOriginal": "Ley 39/2015, artículo 48 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a48"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-010-R01",
+          "pregunta": "Un plan de igualdad debe contener:",
+          "opciones": [
+            "Solo sanciones disciplinarias",
+            "Solo una declaración de principios",
+            "Únicamente medidas salariales",
+            "Objetivos, estrategias, medidas y seguimiento a partir de un diagnóstico"
+          ],
+          "correcta": 3,
+          "justificacion": "Los planes de igualdad parten de un diagnóstico y deben articular objetivos concretos, estrategias, medidas y mecanismos de seguimiento y evaluación.",
+          "trampa": "Una declaración genérica sin diagnóstico ni seguimiento no constituye un plan de igualdad completo.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Objetivos, estrategias, medidas y seguimiento a partir de un diagnóstico",
+          "tema": 24,
+          "origenId": "DIP-T24-011",
+          "referenciaOriginal": "LO 3/2007 · art. 46 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a46"
+        },
+        {
+          "id": "DIP-SIM-010-R02",
+          "pregunta": "¿Quién es el sustituto del contribuyente según el artículo 36.3 de la Ley General Tributaria?",
+          "opciones": [
+            "El funcionario que firma la liquidación",
+            "La empresa que presta servicios de recaudación privada",
+            "Cualquier responsable subsidiario que paga voluntariamente",
+            "El sujeto pasivo que, por imposición de la ley, cumple la obligación principal en lugar del contribuyente"
+          ],
+          "correcta": 3,
+          "justificacion": "**LGT art. 36.3**: el **sustituto del contribuyente** es sujeto pasivo al que **la ley** obliga, en lugar del contribuyente, a cumplir la obligación principal y las obligaciones formales inherentes.",
+          "trampa": "**Contribuyente** realiza el hecho imponible (**36.2**); **sustituto** cumple la obligación por mandato legal (**36.3**), no por contrato privado.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "El sujeto pasivo que, por imposición de la ley, cumple la obligación principal en lugar del contribuyente",
+          "tema": 25,
+          "origenId": "DIP-T25-011",
+          "referenciaOriginal": "Ley 58/2003, art. 36.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a36"
+        },
+        {
+          "id": "DIP-SIM-010-R03",
+          "pregunta": "¿Qué combinación selecciona todos los elementos de la ubicación activa?",
+          "opciones": [
+            "Ctrl + S",
+            "Ctrl + T",
+            "Alt + A",
+            "Ctrl + A"
+          ],
+          "correcta": 3,
+          "justificacion": "La combinación Ctrl + A selecciona todos los elementos de la ubicación activa.",
+          "trampa": "Ctrl + S suele utilizarse para guardar documentos en las aplicaciones.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Ctrl + A",
+          "tema": 32,
+          "origenId": "DIP-T32-011",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#4-seleccionar-elementos"
+        },
+        {
+          "id": "DIP-SIM-010-R04",
+          "pregunta": "¿Qué diferencia básica existe entre JDBC y ODBC?",
+          "opciones": [
+            "JDBC solo crea informes y ODBC formularios",
+            "ODBC es un formato de archivo y JDBC una tabla",
+            "No existe diferencia",
+            "JDBC usa controladores Java y ODBC la infraestructura de conectividad del sistema"
+          ],
+          "correcta": 3,
+          "justificacion": "JDBC utiliza controladores Java, mientras que ODBC emplea la infraestructura de conectividad de bases de datos disponible en el sistema operativo.",
+          "trampa": "JDBC y ODBC son tecnologías de conexión, no objetos internos de Base como tablas, formularios o informes.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "JDBC usa controladores Java y ODBC la infraestructura de conectividad del sistema",
+          "tema": 37,
+          "origenId": "DIP-T37-011",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#15-importación-y-conexión-a-fuentes-externas"
+        },
+        {
+          "id": "DIP-SIM-010-R05",
+          "pregunta": "¿Qué órgano ejerce la potestad legislativa del Estado?",
+          "opciones": [
+            "El Gobierno",
+            "El Tribunal de Cuentas",
+            "El Consejo de Estado",
+            "Las Cortes Generales"
+          ],
+          "correcta": 3,
+          "justificacion": "Las **Cortes Generales** ejercen la potestad legislativa del Estado, aprueban sus Presupuestos y controlan la acción del Gobierno.",
+          "trampa": "Las **Cortes Generales** aprueban leyes; el **Gobierno** ejerce función ejecutiva y potestad reglamentaria.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Las Cortes Generales",
+          "tema": 3,
+          "origenId": "DIP-T03-013",
+          "referenciaOriginal": "CE, art. 66 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a66"
+        }
       ]
     },
     {
@@ -5776,7 +6236,7 @@
       "titulo": "Simulacro 11 · Entidades locales, trabajo, igualdad, tributos y sistemas informáticos",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "preguntas": [
         {
           "id": "DIP-SIM-011-Q01",
@@ -6678,6 +7138,98 @@
           "origenId": "DIP-T20-009",
           "referenciaOriginal": "ET art. 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a45"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-011-R01",
+          "pregunta": "¿Puede un órgano colegiado deliberar sobre un asunto no incluido en el orden del día?",
+          "opciones": [
+            "Sí, por decisión unilateral de la Presidencia",
+            "Sí, si asisten todos los miembros y la mayoría declara la urgencia",
+            "Sí, con la presencia de la mitad de sus miembros",
+            "Nunca, ni siquiera por unanimidad"
+          ],
+          "correcta": 1,
+          "justificacion": "El **artículo 17.4 Ley 40/2015** permite tratar asuntos no incluidos en el orden del día solo si **asisten todos sus miembros** y la **mayoría** declara la urgencia.",
+          "trampa": "No basta el quórum ordinario; para alterar el orden del día se exige **asistencia de todos** y declaración de urgencia por **mayoría**.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Sí, si asisten todos los miembros y la mayoría declara la urgencia",
+          "tema": 4,
+          "origenId": "DIP-T04-013",
+          "referenciaOriginal": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
+        },
+        {
+          "id": "DIP-SIM-011-R02",
+          "pregunta": "Las copias auténticas expedidas por una Administración pública:",
+          "opciones": [
+            "Carecen de valor fuera del órgano que las expide",
+            "Tienen la misma validez y eficacia que los originales",
+            "Solo sirven durante 10 días",
+            "Deben compulsarse de nuevo"
+          ],
+          "correcta": 1,
+          "justificacion": "Las copias auténticas realizadas por una Administración pública tienen la misma validez y eficacia que los documentos originales.",
+          "trampa": "No deben confundirse con simples fotocopias sin autenticación.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "Tienen la misma validez y eficacia que los originales",
+          "tema": 11,
+          "origenId": "DIP-T11-012",
+          "referenciaOriginal": "Ley 39/2015, art. 27 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a27"
+        },
+        {
+          "id": "DIP-SIM-011-R03",
+          "pregunta": "El plazo general de prescripción de la obligación de pago de cuotas de Seguridad Social es de:",
+          "opciones": [
+            "1 año",
+            "4 años",
+            "5 años",
+            "2 años"
+          ],
+          "correcta": 1,
+          "justificacion": "La obligación de pago de cuotas de la Seguridad Social prescribe, con carácter general, a los 4 años.",
+          "trampa": "No debe confundirse este plazo con otros plazos tributarios o laborales.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "4 años",
+          "tema": 21,
+          "origenId": "DIP-T21-012",
+          "referenciaOriginal": "LG art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a24"
+        },
+        {
+          "id": "DIP-SIM-011-R04",
+          "pregunta": "La igualdad efectiva se diferencia de la igualdad meramente formal porque:",
+          "opciones": [
+            "Permite cualquier diferencia de trato",
+            "Exige también remover obstáculos y corregir desigualdades reales",
+            "No vincula a los poderes públicos",
+            "Solo se aplica a mujeres"
+          ],
+          "correcta": 1,
+          "justificacion": "La igualdad efectiva no se limita a prohibir discriminaciones formales, sino que también exige remover obstáculos y adoptar medidas para corregir desigualdades reales.",
+          "trampa": "La igualdad efectiva añade medidas activas a la mera prohibición formal de discriminar.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Exige también remover obstáculos y corregir desigualdades reales",
+          "tema": 24,
+          "origenId": "DIP-T24-012",
+          "referenciaOriginal": "LO 3/2007 · art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a1"
+        },
+        {
+          "id": "DIP-SIM-011-R05",
+          "pregunta": "¿Cuál de los siguientes es un procedimiento especial de revisión tributaria?",
+          "opciones": [
+            "Aprobación de una ordenanza",
+            "Revisión de actos nulos de pleno derecho",
+            "Elaboración del presupuesto",
+            "Selección de personal"
+          ],
+          "correcta": 1,
+          "justificacion": "La revisión de actos nulos de pleno derecho es uno de los procedimientos especiales de revisión previstos en la Ley General Tributaria.",
+          "trampa": "El recurso de reposición es una vía de impugnación distinta de los procedimientos especiales de revisión.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "Revisión de actos nulos de pleno derecho",
+          "tema": 25,
+          "origenId": "DIP-T25-012",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 216 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a216"
+        }
       ]
     },
     {
@@ -6685,7 +7237,7 @@
       "titulo": "Simulacro 12 · Constitución, régimen local, empleo público, recaudación y ofimática",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "preguntas": [
         {
           "id": "DIP-SIM-012-Q01",
@@ -7587,6 +8139,98 @@
           "origenId": "DIP-T12-014",
           "referenciaOriginal": "Ley 7/1985 LRBRL, art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a3"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-012-R01",
+          "pregunta": "Ocultar un archivo en el Explorador:",
+          "opciones": [
+            "Lo cifra automáticamente",
+            "Lo protege con contraseña",
+            "Impide todo acceso",
+            "No equivale a protegerlo mediante permisos o cifrado"
+          ],
+          "correcta": 3,
+          "justificacion": "El atributo oculto afecta principalmente a la visualización del archivo, pero no constituye por sí mismo una medida de seguridad basada en permisos, contraseña o cifrado.",
+          "trampa": "Un archivo oculto no está necesariamente cifrado ni protegido frente al acceso.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "No equivale a protegerlo mediante permisos o cifrado",
+          "tema": 32,
+          "origenId": "DIP-T32-012",
+          "referenciaOriginal": "content/diputacion-toledo/tema-32/manual.md#13-búsqueda-vistas-y-ordenación"
+        },
+        {
+          "id": "DIP-SIM-012-R02",
+          "pregunta": "¿Qué sentencia SQL se utiliza para consultar datos?",
+          "opciones": [
+            "DROP TABLE",
+            "DELETE",
+            "UPDATE",
+            "SELECT"
+          ],
+          "correcta": 3,
+          "justificacion": "La sentencia SELECT recupera datos de una o varias tablas conforme a los campos, relaciones y criterios indicados.",
+          "trampa": "DELETE elimina registros, UPDATE modifica datos y DROP TABLE elimina la tabla completa si el motor lo permite.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "SELECT",
+          "tema": 37,
+          "origenId": "DIP-T37-012",
+          "referenciaOriginal": "content/diputacion-toledo/tema-37/manual.md#11-sql-y-vista-de-diseño"
+        },
+        {
+          "id": "DIP-SIM-012-R03",
+          "pregunta": "¿Cuál es la duración ordinaria del mandato de los diputados del Congreso?",
+          "opciones": [
+            "Seis años",
+            "Dos años",
+            "Tres años",
+            "Cuatro años"
+          ],
+          "correcta": 3,
+          "justificacion": "El Congreso se elige por **cuatro años**; el mandato termina cuatro años después de la elección o el día de disolución.",
+          "trampa": "Mandato de **Congreso: 4 años**; **Defensor del Pueblo: 5**; consejeros del Tribunal de Cuentas: **9**.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Cuatro años",
+          "tema": 3,
+          "origenId": "DIP-T03-014",
+          "referenciaOriginal": "CE, art. 68 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a68"
+        },
+        {
+          "id": "DIP-SIM-012-R04",
+          "pregunta": "¿Puede delegarse la resolución de recursos en el órgano que dictó el acto recurrido?",
+          "opciones": [
+            "Sí, sin necesidad de habilitación",
+            "Sí, siempre",
+            "Sí, si acepta el recurrente",
+            "No"
+          ],
+          "correcta": 3,
+          "justificacion": "Ley 40/2015, artículo 9: No.",
+          "trampa": "**Art. 9.2.c**: la resolución del recurso no puede delegarse en quien dictó el acto recurrido; no basta el acuerdo del recurrente ni una autorización informal.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "No",
+          "tema": 4,
+          "origenId": "DIP-T04-014",
+          "referenciaOriginal": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9"
+        },
+        {
+          "id": "DIP-SIM-012-R05",
+          "pregunta": "En un procedimiento selectivo, ¿en qué medio debe realizarse la publicación sustitutiva de la notificación conforme al artículo 45.1.b de la Ley 39/2015?",
+          "opciones": [
+            "En cualquier red social del tribunal",
+            "Siempre exclusivamente en el BOE",
+            "Únicamente en el domicilio de cada aspirante",
+            "En el medio indicado por la propia convocatoria"
+          ],
+          "correcta": 3,
+          "justificacion": "El **art. 45.1.b Ley 39/2015** establece que la convocatoria del procedimiento debe indicar el **medio** donde se efectuarán las sucesivas publicaciones, careciendo de validez las que se lleven a cabo en **lugares distintos**.",
+          "trampa": "**Art. 45.1.b**: la publicación en selectivos se efectúa en **el medio que indiquen las bases**; el BOE no sustituye automáticamente esa sede.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "En el medio indicado por la propia convocatoria",
+          "tema": 11,
+          "origenId": "DIP-T11-013",
+          "referenciaOriginal": "Ley 39/2015, art. 45.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a45"
+        }
       ]
     },
     {
@@ -7594,7 +8238,7 @@
       "titulo": "Simulacro 13 · Procedimiento, municipio, carrera profesional, presupuestos, Writer y hardware",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "preguntas": [
         {
           "id": "DIP-SIM-013-Q01",
@@ -8496,6 +9140,98 @@
           "origenId": "DIP-T13-014",
           "referenciaOriginal": "Ley 7/1985 LRBRL, art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-013-R01",
+          "pregunta": "¿Cómo debe efectuarse el llamamiento del personal fijo-discontinuo conforme al artículo 16.3 ET?",
+          "opciones": [
+            "Solo de palabra",
+            "Por escrito u otro medio que permita dejar constancia de la notificación",
+            "Solo por edicto judicial",
+            "Siempre mediante BOE"
+          ],
+          "correcta": 1,
+          "justificacion": "**Art. 16.3 ET**: llamamiento **por escrito u otro medio con constancia**, conforme a convenio o acuerdo de empresa.",
+          "trampa": "El fijo-discontinuo es **indefinido** y su **llamamiento** debe quedar documentado.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "Por escrito u otro medio que permita dejar constancia de la notificación",
+          "tema": 21,
+          "origenId": "DIP-T21-013",
+          "referenciaOriginal": "ET art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a16"
+        },
+        {
+          "id": "DIP-SIM-013-R02",
+          "pregunta": "¿Qué artículo de la Ley Orgánica 3/2007 define la transversalidad del principio de igualdad?",
+          "opciones": [
+            "Artículo 6",
+            "Artículo 15",
+            "Artículo 51",
+            "Artículo 64"
+          ],
+          "correcta": 1,
+          "justificacion": "El **artículo 15** obliga a integrar transversalmente la igualdad en las políticas y actuaciones de los poderes públicos.",
+          "trampa": "Identificar el artículo y diferenciar obligación estatal y autonómica.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "Artículo 15",
+          "tema": 24,
+          "origenId": "DIP-T24-013",
+          "referenciaOriginal": "LO 3/2007 · art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a15"
+        },
+        {
+          "id": "DIP-SIM-013-R03",
+          "pregunta": "¿Hasta cuándo se paga voluntariamente una liquidación notificada el día 10 de marzo?",
+          "opciones": [
+            "5 de abril",
+            "20 de abril o siguiente hábil",
+            "5 de mayo",
+            "20 de marzo"
+          ],
+          "correcta": 1,
+          "justificacion": "Si se notifica entre el **1 y el 15**, hasta el **20 del mes siguiente**, o inmediato hábil.",
+          "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "20 de abril o siguiente hábil",
+          "tema": 25,
+          "origenId": "DIP-T25-013",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+        },
+        {
+          "id": "DIP-SIM-013-R04",
+          "pregunta": "¿Qué atajo abre las propiedades del elemento seleccionado en el Explorador?",
+          "opciones": [
+            "Ctrl + Entrar",
+            "Alt + Entrar",
+            "Windows + P",
+            "F3"
+          ],
+          "correcta": 1,
+          "justificacion": "Alt + Entrar muestra las propiedades del elemento seleccionado.",
+          "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Alt + Entrar",
+          "tema": 32,
+          "origenId": "DIP-T32-013",
+          "referenciaOriginal": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+        },
+        {
+          "id": "DIP-SIM-013-R05",
+          "pregunta": "¿Qué menú abre el diseño de relaciones entre tablas en LibreOffice Base?",
+          "opciones": [
+            "Archivo > Exportar",
+            "Herramientas > Relaciones",
+            "Ver > Zoom",
+            "Formato > Párrafo"
+          ],
+          "correcta": 1,
+          "justificacion": "El comando **Herramientas > Relaciones** abre el diseño de relaciones.",
+          "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Herramientas > Relaciones",
+          "tema": 37,
+          "origenId": "DIP-T37-013",
+          "referenciaOriginal": "https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html"
+        }
       ]
     },
     {
@@ -8503,7 +9239,7 @@
       "titulo": "Simulacro 14 · Repaso transversal jurídico y técnico",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco activo sin repetir enunciados normalizados de modelos anteriores. Distribución didáctica, no oficial. T22 excluido. Referencias originales conservadas; no supone nueva auditoría jurídica individual.",
+      "instrucciones": "50 preguntas del banco activo sin repetir enunciados normalizados de modelos anteriores. Distribución didáctica, no oficial. T22 excluido. Referencias originales conservadas; no supone nueva auditoría jurídica individual. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "preguntas": [
         {
           "id": "DIP-SIM-014-Q01",
@@ -9405,6 +10141,98 @@
           "origenId": "DIP-T07-016",
           "referenciaOriginal": "Ley 39/2015, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a45"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-014-R01",
+          "pregunta": "¿Qué mínimo de presencia de cada sexo exige la Ley Orgánica del Tribunal de Cuentas en la designación por cada Cámara?",
+          "opciones": [
+            "25 %",
+            "30 %",
+            "50 %",
+            "40 %"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo **30.2 LO 2/1982** exige que cada uno de los sexos suponga **como mínimo el 40 %** de las personas consejeras designadas por cada Cámara.",
+          "trampa": "La exigencia se refiere a los **designados por cada Cámara**, no exclusivamente al total global de consejeros.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "40 %",
+          "tema": 3,
+          "origenId": "DIP-T03-015",
+          "referenciaOriginal": "LO 2/1982, art. 30 · https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584"
+        },
+        {
+          "id": "DIP-SIM-014-R02",
+          "pregunta": "¿Dónde se publica una delegación de competencias?",
+          "opciones": [
+            "Únicamente en el tablón del órgano",
+            "Exclusivamente en la intranet",
+            "Solo en una nota de prensa",
+            "En el diario oficial correspondiente"
+          ],
+          "correcta": 3,
+          "justificacion": "Ley 40/2015, artículo 9: En el diario oficial correspondiente.",
+          "trampa": "**Art. 9.3**: delegación y revocación se publican en el **BOE**, diario autonómico o **BOP** según Administración y ámbito.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "En el diario oficial correspondiente",
+          "tema": 4,
+          "origenId": "DIP-T04-015",
+          "referenciaOriginal": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9"
+        },
+        {
+          "id": "DIP-SIM-014-R03",
+          "pregunta": "¿En cuál de estos lugares puede presentar documentos un ciudadano conforme a la Ley 39/2015?",
+          "opciones": [
+            "Únicamente en la sede de la Diputación",
+            "Solo en el Ayuntamiento de residencia",
+            "Solo en el organismo competente",
+            "En las oficinas de Correos en la forma reglamentaria"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo 16.4 admite la presentación en oficinas de Correos en la forma que se establezca reglamentariamente.",
+          "trampa": "**Correos** admite documentos conforme a la forma reglamentaria (**art. 16.4.b**); no se limita a oficinas municipales.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "En las oficinas de Correos en la forma reglamentaria",
+          "tema": 11,
+          "origenId": "DIP-T11-014",
+          "referenciaOriginal": "Ley 39/2015, art. 16.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a16"
+        },
+        {
+          "id": "DIP-SIM-014-R04",
+          "pregunta": "¿Cuál es la duración ordinaria del contrato para obtener práctica profesional regulado en el artículo 11 ET?",
+          "opciones": [
+            "Entre uno y tres años",
+            "Exactamente dos años",
+            "De tres a cinco años",
+            "Entre seis meses y un año"
+          ],
+          "correcta": 3,
+          "justificacion": "**Art. 11 ET**: práctica profesional **6 meses a 1 año**; la formación en alternancia tiene otra duración.",
+          "trampa": "**Práctica profesional 6 meses–1 año** ≠ **alternancia 3 meses–2 años**.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "Entre seis meses y un año",
+          "tema": 21,
+          "origenId": "DIP-T21-014",
+          "referenciaOriginal": "ET art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a11"
+        },
+        {
+          "id": "DIP-SIM-014-R05",
+          "pregunta": "¿Qué porcentaje corresponde a la presencia equilibrada de cada sexo en el criterio general de la Ley Orgánica 3/2007?",
+          "opciones": [
+            "Exactamente 50 % de cada sexo siempre",
+            "Al menos 30 % de cada sexo",
+            "Al menos 20 % de cada sexo",
+            "No menos del 40 % ni más del 60 % de cada sexo"
+          ],
+          "correcta": 3,
+          "justificacion": "La regla general de **presencia equilibrada** establece una proporción de cada sexo **no inferior al 40 % ni superior al 60 %**.",
+          "trampa": "Identificar el artículo y diferenciar obligación estatal y autonómica.",
+          "referencia": "content/diputacion-toledo/tema-24/manual.md",
+          "respuestaLiteral": "No menos del 40 % ni más del 60 % de cada sexo",
+          "tema": 24,
+          "origenId": "DIP-T24-014",
+          "referenciaOriginal": "LO 3/2007 · disposición adicional 1.ª · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#da1"
+        }
       ]
     },
     {
@@ -9412,7 +10240,7 @@
       "titulo": "Simulacro 15 · Procedimiento, provincia, contratación, régimen disciplinario, tributos y Calc",
       "duracionMinutos": 60,
       "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
-      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de ocho temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de ocho temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual. Incluye 5 reservas adicionales; no computan en la nota ordinaria.",
       "preguntas": [
         {
           "id": "DIP-SIM-015-Q01",
@@ -10314,10 +11142,102 @@
           "origenId": "DIP-T08-013",
           "referenciaOriginal": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122"
         }
+      ],
+      "preguntasReserva": [
+        {
+          "id": "DIP-SIM-015-R01",
+          "pregunta": "¿Hasta cuándo se paga voluntariamente una liquidación notificada el día 18 de marzo?",
+          "opciones": [
+            "20 de abril",
+            "5 de mayo o siguiente hábil",
+            "5 de abril",
+            "20 de mayo"
+          ],
+          "correcta": 1,
+          "justificacion": "Si se notifica desde el **16 hasta fin de mes**, hasta el **5 del segundo mes siguiente**, o inmediato hábil.",
+          "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+          "referencia": "content/diputacion-toledo/tema-25/manual.md",
+          "respuestaLiteral": "5 de mayo o siguiente hábil",
+          "tema": 25,
+          "origenId": "DIP-T25-014",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+        },
+        {
+          "id": "DIP-SIM-015-R02",
+          "pregunta": "¿Qué atajo dirige el foco a la barra de direcciones del Explorador?",
+          "opciones": [
+            "Ctrl + R",
+            "Alt + D",
+            "Windows + I",
+            "F2"
+          ],
+          "correcta": 1,
+          "justificacion": "Alt + D selecciona la barra de direcciones.",
+          "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md",
+          "respuestaLiteral": "Alt + D",
+          "tema": 32,
+          "origenId": "DIP-T32-014",
+          "referenciaOriginal": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+        },
+        {
+          "id": "DIP-SIM-015-R03",
+          "pregunta": "¿Qué requisito tiene la opción de crear relaciones mediante la interfaz de Base?",
+          "opciones": [
+            "Una hoja Calc vinculada",
+            "Una base de datos relacional que admita relaciones",
+            "Un documento PDF",
+            "Un gráfico ya insertado"
+          ],
+          "correcta": 1,
+          "justificacion": "Las relaciones están disponibles cuando la base subyacente admite relaciones.",
+          "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md",
+          "respuestaLiteral": "Una base de datos relacional que admita relaciones",
+          "tema": 37,
+          "origenId": "DIP-T37-014",
+          "referenciaOriginal": "https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html"
+        },
+        {
+          "id": "DIP-SIM-015-R04",
+          "pregunta": "¿Qué carácter tienen las Cortes Generales según la Constitución?",
+          "opciones": [
+            "Unicameral",
+            "Bicameral, formadas por Congreso y Senado",
+            "Tres cámaras",
+            "Asamblea consultiva"
+          ],
+          "correcta": 1,
+          "justificacion": "Las **Cortes Generales** están formadas por **Congreso de los Diputados** y **Senado**.",
+          "trampa": "Las Cortes Generales son **bicamerales**: **Congreso y Senado**, no una cámara consultiva.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Bicameral, formadas por Congreso y Senado",
+          "tema": 3,
+          "origenId": "DIP-T03-016",
+          "referenciaOriginal": "CE, art. 66 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a66"
+        },
+        {
+          "id": "DIP-SIM-015-R05",
+          "pregunta": "¿Cuándo puede constituirse un órgano colegiado sin convocatoria previa conforme al artículo 17.2 de la Ley 40/2015?",
+          "opciones": [
+            "Cuando lo autorice cualquier vocal",
+            "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos",
+            "Siempre que exista urgencia declarada por la Presidencia",
+            "Cuando asistan la Presidencia y un tercio de sus miembros"
+          ],
+          "correcta": 1,
+          "justificacion": "Puede constituirse sin convocatoria previa cuando estén reunidos **el secretario y todos los miembros o sus suplentes**, presencialmente o a distancia, **y todos lo decidan**; la previsión legal debe leerse con sus restantes reglas de funcionamiento.",
+          "trampa": "No confundir la **ausencia de convocatoria previa** con el quórum ordinario de **la mitad** de miembros.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos",
+          "tema": 4,
+          "origenId": "DIP-T04-016",
+          "referenciaOriginal": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
+        }
       ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 013: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 014: 50 preguntas de 8 temas, trazabilidad original y claves equilibradas, sin coincidencias normalizadas con modelos anteriores; T22 excluido. Modelo 015: 50 preguntas del banco en ocho temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 013: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 014: 50 preguntas de 8 temas, trazabilidad original y claves equilibradas, sin coincidencias normalizadas con modelos anteriores; T22 excluido. Modelo 015: 50 preguntas del banco en ocho temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Incorporadas 50 preguntas de reserva trazables, cinco por modelo largo, sin duplicar enunciados normalizados de los modelos existentes. Selección didáctica del banco, no nueva auditoría jurídica.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
