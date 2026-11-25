@@ -2739,6 +2739,259 @@
           }
         }
       ]
+    },
+    {
+      "id": "DIP-PRACT-005",
+      "titulo": "Modelo práctico 5 · Ofimática aplicada a un informe",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "tiempoSugeridoMinutos": 35,
+      "temas": [
+        35,
+        36
+      ],
+      "enunciado": "Prepare conceptualmente un informe en Writer con portada diferenciada y anexo horizontal. En Calc, las celdas B2:B4 contienen 120, 180 y 200 euros; C2:C4 contienen 2, 3 y 1 unidades; E1 contiene un factor fijo de 1,05. Use nombres de funciones en español y notación A1. Ejercicio escrito orientativo, no ejecución real de LibreOffice 24.",
+      "cuestiones": [
+        {
+          "id": "DIP-PRACT-005-Q1",
+          "pregunta": "¿Cómo se mantiene la portada vertical y el anexo horizontal?",
+          "respuesta": "Use estilos de página diferenciados y un salto de página que aplique el estilo horizontal al anexo.",
+          "trampa": "No modifique el estilo común de todas las páginas.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html",
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica estilos diferenciados",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica salto con estilo",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-005-Q2",
+          "pregunta": "¿Cómo se configura un pie distinto en la portada?",
+          "respuesta": "Asigne a la portada un estilo de página propio y configure el pie de cada estilo independientemente.",
+          "trampa": "Los pies se comparten entre páginas del mismo estilo, según su configuración.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/swriter/guide/header_pagestyles.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica estilo propio",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Configura pies diferenciados",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-005-Q3",
+          "pregunta": "¿Qué fórmula en D2 calcula importe por unidades y qué resultado da al copiarla a D3?",
+          "respuesta": "=B2*C2 da 240; al copiar a D3, =B3*C3 da 540.",
+          "trampa": "Las referencias relativas cambian con el desplazamiento.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Escribe fórmula y resultado D2",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Escribe fórmula y resultado D3",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-005-Q4",
+          "pregunta": "¿Cuál es la suma de D2:D4?",
+          "respuesta": "=SUMA(D2:D4) devuelve 980, pues D4 es 200.",
+          "trampa": "No sumar solo los precios unitarios.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/formulas.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica fórmula",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 980",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-005-Q5",
+          "pregunta": "¿Cómo aplica a D2 el factor fijo de E1 al copiar hacia abajo?",
+          "respuesta": "=D2*$E$1 devuelve 252; al copiar a la fila siguiente devuelve 567 mediante =D3*$E$1.",
+          "trampa": "Fije fila y columna de E1.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Escribe referencia absoluta",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula resultados correctos",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-PRACT-006",
+      "titulo": "Modelo práctico 6 · Expediente administrativo multidisciplinar",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "tiempoSugeridoMinutos": 45,
+      "temas": [
+        5,
+        6,
+        8,
+        28,
+        36
+      ],
+      "enunciado": "Una persona física presenta una solicitud ordinaria de autorización incompleta. Se le notifica un requerimiento el lunes 2 de noviembre de 2026. Suponga hábiles todos los lunes a viernes del intervalo y que no existe régimen especial. En otro expediente, una resolución expresa desfavorable que agota la vía administrativa se notifica el mismo día. La unidad utiliza Calc para registrar tres importes de 40, 60 y 100 euros en B2:B4.",
+      "cuestiones": [
+        {
+          "id": "DIP-PRACT-006-Q1",
+          "pregunta": "¿Qué plazo ordinario de subsanación tiene y qué día vence?",
+          "respuesta": "Diez días hábiles desde el día siguiente a la notificación; vence el lunes 16 de noviembre de 2026 conforme al calendario hipotético.",
+          "trampa": "No contar el día de notificación.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica diez días hábiles",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 16 de noviembre",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-006-Q2",
+          "pregunta": "Si no subsana, ¿qué actuación debe adoptar la Administración?",
+          "respuesta": "Dictar resolución expresa que declare el desistimiento, con la previa advertencia en el requerimiento.",
+          "trampa": "No archivar automáticamente sin resolución.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica desistimiento",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Exige resolución expresa y advertencia",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-006-Q3",
+          "pregunta": "¿Qué recurso administrativo ordinario puede interponer contra la segunda resolución?",
+          "respuesta": "Reposición potestativa ante el órgano autor en un mes; alternativamente puede acudir directamente a la jurisdicción contenciosa. El plazo de reposición vence el 2 de diciembre si es hábil.",
+          "trampa": "No confundir reposición con alzada.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a123",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica reposición y órgano",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica plazo y alternativa judicial",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-006-Q4",
+          "pregunta": "Si un expediente contiene datos de salud identificables de terceros y se pide acceso por transparencia, ¿qué cautela procede?",
+          "respuesta": "Aplicar el régimen reforzado del artículo 15.1 de la Ley 19/2013: consentimiento expreso o amparo en norma con rango de ley; valorar disociación efectiva conforme al artículo 15.4.",
+          "trampa": "No equiparar ocultar el nombre con anonimización efectiva.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887#a15"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica régimen reforzado",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica disociación efectiva",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-PRACT-006-Q5",
+          "pregunta": "¿Qué fórmula obtiene el total de los tres importes en Calc?",
+          "respuesta": "=SUMA(B2:B4), resultado 200 euros.",
+          "trampa": "Los dos puntos indican intervalo.",
+          "referencias": [
+            "https://help.libreoffice.org/latest/es/text/scalc/guide/formulas.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica fórmula",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 200",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
