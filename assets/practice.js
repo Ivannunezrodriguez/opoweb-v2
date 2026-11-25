@@ -555,7 +555,7 @@ function renderHub(smartQuery = '') {
     ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Repaso exprés · antes del examen</h2><p><strong>30 preguntas en 30 minutos</strong>, desde los temas 2 a 20, con penalización de <strong>−1/3</strong> por error. Es un entrenamiento original que reutiliza bancos existentes, no un examen oficial ni una predicción de nota de corte.</p><button type="button" class="btn" id="uc3m-quick-review">Empezar repaso exprés (30 min)</button></section>' : ''}
     ${renderExtraRepasos()}
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
-    ${practicalModels.length ? `<section class="panel" id="simulacros-practicos"><h2>Simulacros prácticos · segundo ejercicio</h2><p class="search-count">Casos originales de desarrollo con soluciones orientativas. Formato y duración definitivos pendientes del Tribunal. Sin nota automática para respuestas abiertas.</p><div class="practice-grid">${practicalModels.map(item => `<button class="practice-card" type="button" data-practical-sim="${escapeHtml(item.id)}"><span class="badge">${item.cuestiones.length} apartados · ${item.tiempoSugeridoMinutos} min sugeridos (no oficiales)</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join("")}</div></section>` : ""}
+    ${practicalModels.length ? `<section class="panel" id="simulacros-practicos"><h2>Simulacros prácticos · segundo ejercicio</h2><p class="search-count">Casos originales de desarrollo y test con soluciones orientativas. Formato y duración definitivos pendientes del Tribunal. Autocorrección manual en desarrollo y corrección objetiva en test; ninguna nota es oficial.</p><div class="practice-grid">${practicalModels.map(item => `<button class="practice-card" type="button" data-practical-sim="${escapeHtml(item.id)}"><span class="badge">${item.cuestiones.length} apartados · ${item.tiempoSugeridoMinutos} min sugeridos (no oficiales)</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join("")}</div></section>` : ""}
     ${simulacros.simulacros.length ? `<section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos ? `${item.duracionMinutos} min` : "Duración oficial pendiente"}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>` : ''}`;
 
   document.querySelector('#practice-call-selector')?.addEventListener('change', event => {
@@ -604,7 +604,10 @@ function renderHub(smartQuery = '') {
   }));
   document.querySelectorAll('[data-practical-sim]').forEach(button => button.addEventListener('click', () => {
     const model = (simulacros.simulacrosPracticos || []).find(item => item.id === button.dataset.practicalSim);
-    if (model) renderOpenCase(model);
+    if (model?.formato === 'TEST') {
+      const items = model.cuestiones.map((q, i) => ({id: model.id + '-' + (i+1), pregunta:q.pregunta, opciones:q.opciones, correcta:q.correcta, justificacion:q.respuesta, trampa:q.trampa, referencia:q.referencias.join(' · ')}));
+      renderExercise(items, model.titulo + ' · entrenamiento no oficial', model.id, 'practico-test', model.tiempoSugeridoMinutos);
+    } else if (model) renderOpenCase(model);
   }));
   document.querySelectorAll('[data-sim]').forEach(button => button.addEventListener('click', () => {
     const sim = simulacros.simulacros.find(item => item.id === button.dataset.sim);
