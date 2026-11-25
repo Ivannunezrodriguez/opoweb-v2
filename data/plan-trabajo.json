@@ -159,8 +159,8 @@
         {
           "id": "DIP-C1-01",
           "title": "Mantener preparación de Administrativo C1 Diputación (15/12/2026)",
-          "state": "HECHO",
-          "acceptance": "Repaso final con simulacros verificables y priorización por fecha; sin fingir cobertura completa.",
+          "state": "EN_CURSO",
+          "acceptance": "Conservar paquete original verificado y ampliar a diez simulacros de 50 preguntas/60 minutos, con trazabilidad al banco, sin repetir enunciados entre nuevos modelos, distribución transversal orientativa, cotejo de formato y puntuación oficial, publicación y prueba de navegador. Tema 22 mantiene reserva independiente.",
           "evidencePaths": [
             "content/diputacion-toledo/simulacros.json",
             "content/diputacion-toledo/AUDITORIA_GENERAL_ESTUDIO_20261122.md",
@@ -267,9 +267,11 @@
             "25/11/2026: seis modelos prácticos publicados (45582234475); prueba específica de entrada y autocorrección SUCCESS 45582033145. Anuncio oficial del Tribunal de 13/11/2026 confirma que 15/12/2026 a las 16:00 en Academia de Infantería es PRIMER ejercicio: 50 preguntas, cuatro alternativas, 60 min. La preparación práctica se conserva para el segundo ejercicio. Inventario directo: cinco modelos cortos suman 61 preguntas, un modelo de 50 reutiliza preguntas de los anteriores. Priorizar nuevos modelos de 50 con preguntas no repetidas y trazabilidad.",
             "25/11/2026: modelo DIP-SIM-007 de 50 preguntas/60 min seleccionado del banco activo (8 temas 5,6,8,16,26,27,35,36), sin coincidencia textual normalizada con los seis modelos anteriores, posiciones 13/13/12/12, origenId y referenciaOriginal. Validadores histórico y global adaptados en un commit atómico acbbd41. No es cobertura transversal completa, ni preguntas inéditas en banco, ni nueva auditoría jurídica. Pendiente CI.",
             "25/11/2026: recuperada publicación con excepción exacta de enlace oficial y tres pruebas negativas (20ac04a, SUCCESS 45583771416), aviso actualizado (0d7c58c, SUCCESS 45583795085); E2E general de 007 SUCCESS 45583426884. Incorporado DIP-SIM-008 con 50 preguntas del banco de diez temas (1,12,13,14,17,18,19,28,29,30), cinco por tema, claves 12/12/13/13, trazabilidad y exclusión de coincidencias normalizadas con siete modelos anteriores; commit d511e83. Pendiente CI del 008 y actualización dinámica del aviso.",
-            "25/11/2026: CIERRE DEL ALCANCE ORIGINAL. Paquete de repaso final para 15/12: 40 fichas/361 tarjetas, 806 preguntas activas (T22 no evaluable mientras siga bloqueado), 5 repasos breves, 3 modelos de 50 preguntas/60 minutos, 13 supuestos y 6 modelos prácticos con 82 cuestiones y 164 criterios. Publicación SUCCESS 45584027484; E2E específico de rúbrica SUCCESS 45582033145 y navegador general SUCCESS 45583794972. No certifica auditoría jurídica integral, bases completas, penalización oficial, ni E2E específico del modelo 008 (en curso)."
+            "25/11/2026: CIERRE DEL ALCANCE ORIGINAL. Paquete de repaso final para 15/12: 40 fichas/361 tarjetas, 806 preguntas activas (T22 no evaluable mientras siga bloqueado), 5 repasos breves, 3 modelos de 50 preguntas/60 minutos, 13 supuestos y 6 modelos prácticos con 82 cuestiones y 164 criterios. Publicación SUCCESS 45584027484; E2E específico de rúbrica SUCCESS 45582033145 y navegador general SUCCESS 45583794972. No certifica auditoría jurídica integral, bases completas, penalización oficial, ni E2E específico del modelo 008 (en curso).",
+            "25/11/2026: usuario prioriza explícitamente Diputación C1 y ampliación de preparación. Se amplía alcance de la misma tarea sin crear otra; se conserva cierre original en closureScope. Objetivo diez modelos largos frente a tres existentes."
           ],
-          "closureScope": "Paquete de repaso final para 15/12: 40 fichas/361 tarjetas, 806 preguntas activas (T22 no evaluable mientras siga bloqueado), 5 repasos breves, 3 modelos de 50 preguntas/60 minutos, 13 supuestos y 6 modelos prácticos con 82 cuestiones y 164 criterios. Publicación SUCCESS 45584027484; E2E específico de rúbrica SUCCESS 45582033145 y navegador general SUCCESS 45583794972. No certifica auditoría jurídica integral, bases completas, penalización oficial, ni E2E específico del modelo 008 (en curso)."
+          "closureScope": "Paquete de repaso final para 15/12: 40 fichas/361 tarjetas, 806 preguntas activas (T22 no evaluable mientras siga bloqueado), 5 repasos breves, 3 modelos de 50 preguntas/60 minutos, 13 supuestos y 6 modelos prácticos con 82 cuestiones y 164 criterios. Publicación SUCCESS 45584027484; E2E específico de rúbrica SUCCESS 45582033145 y navegador general SUCCESS 45583794972. No certifica auditoría jurídica integral, bases completas, penalización oficial, ni E2E específico del modelo 008 (en curso).",
+          "nextAction": "Añadir modelos 009–015 desde banco activo no T22, equilibrar claves y cobertura, validar y cotejar bases originales; prioridad hasta examen 15/12/2026."
         },
         {
           "id": "DIP-C2-01",
@@ -3534,6 +3536,14 @@
       ],
       "decision": "Cerrar el paquete de preparación definido por aceptación original, sin extenderlo a diez modelos ni auditoría jurídica universal; mantener bloqueo estatutario independiente. Priorizar siguiente tarea AHORA y no reabrir por mejoras opcionales.",
       "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-20261125-DIP-C1-AMPLIACION-USUARIO",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "decision": "Por petición expresa, ampliar preparación C1 a diez modelos largos; conservar cierre original como evidencia, sin reabrir otras tareas cerradas ni desbloquear T22 sin fuentes.",
+      "state": "VIGENTE"
     }
   ],
   "executionBoard": {
@@ -3543,8 +3553,9 @@
       {
         "id": "AHORA",
         "title": "Prioridad operativa",
-        "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
+        "description": "Prioridad manual: preparación Diputación C1 antes del examen 15/12/2026; OpoRadar continúa en paralelo mediante automatización.",
         "taskIds": [
+          "DIP-C1-01",
           "RAD-12",
           "RAD-13",
           "JCCM-2026-01",
@@ -3658,5 +3669,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T18:12:33.000Z"
+  "updatedAtUtc": "2026-11-25T18:16:59.000Z"
 }
