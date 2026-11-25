@@ -629,6 +629,206 @@
           }
         }
       ]
+    },
+    {
+      "id": "DIP-SP-007",
+      "titulo": "Servicios municipales y asistencia provincial",
+      "temas": [
+        12,
+        13,
+        14
+      ],
+      "enunciado": "Tres municipios de régimen común cuentan con 800, 5.001 y 20.001 habitantes respectivamente. El primero carece de capacidad suficiente para prestar determinados servicios y solicita asistencia a la Diputación. No existen especialidades organizativas en el supuesto.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-007-Q1",
+          "pregunta": "¿Qué órganos son necesarios en todos los ayuntamientos y en cuáles de los tres es obligatoria la Junta de Gobierno Local por población?",
+          "respuesta": "Alcalde, tenientes de alcalde y Pleno en todos. Junta de Gobierno Local obligatoria por población en los de 5.001 y 20.001 habitantes; en el de 800 puede existir por reglamento orgánico o acuerdo plenario. Art. 20 LRBRL.",
+          "trampa": "El umbral es superior a 5.000, no igual a 5.000.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a20"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica los tres órganos comunes",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Aplica el umbral y la posibilidad en municipios menores",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-007-Q2",
+          "pregunta": "¿Qué servicios adicionales exige el artículo 26.1.b al municipio de 5.001 habitantes?",
+          "respuesta": "Parque público, biblioteca pública y tratamiento de residuos, además de los mínimos comunes a todos los municipios.",
+          "trampa": "Recogida de residuos es un mínimo general; tratamiento es adicional a partir del umbral indicado.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica parque y biblioteca",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica tratamiento y carácter adicional",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-007-Q3",
+          "pregunta": "¿Qué servicios adicionales por población debe prestar el municipio de 20.001 habitantes respecto al de 5.001?",
+          "respuesta": "Protección civil, evaluación e información de situaciones de necesidad social y atención inmediata a personas en situación o riesgo de exclusión social, prevención y extinción de incendios e instalaciones deportivas de uso público. Art. 26.1.c.",
+          "trampa": "No añadir transporte colectivo urbano por este umbral: corresponde a población superior a 50.000.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica protección civil e incendios",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica atención social e instalaciones deportivas",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-007-Q4",
+          "pregunta": "¿Qué papel tiene la Diputación respecto del municipio de 800 habitantes?",
+          "respuesta": "Coordina los servicios enumerados en el art. 26.2 por ser municipio de menos de 20.000 habitantes, conforme al procedimiento legal. Le corresponde asistencia jurídica, económica y técnica, especialmente a municipios de menor capacidad, y garantizar secretaría e intervención en municipios de menos de 1.000 habitantes (art. 36.1.b).",
+          "trampa": "Coordinar servicios no significa sustituir indiscriminadamente todas las competencias municipales.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a36"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica coordinación y asistencia provincial",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica garantía de secretaría e intervención por población",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-008",
+      "titulo": "Adquisición y pérdida de la condición funcionarial y prescripción disciplinaria",
+      "temas": [
+        17,
+        19
+      ],
+      "enunciado": "Una persona supera un proceso selectivo para adquirir la condición de funcionario de carrera en una Administración pública de Castilla-La Mancha. Otro funcionario solicita renunciar mientras está sujeto a expediente disciplinario. En un tercer expediente se examina una falta grave puntual cometida hace dos años y un mes, sin actos interruptivos. Considere aplicable la Ley 4/2011 y que no hay régimen especial.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-008-Q1",
+          "pregunta": "¿Basta superar el proceso selectivo para adquirir la condición de funcionario de carrera?",
+          "respuesta": "No. El artículo 55 exige sucesivamente superar el proceso, nombramiento por órgano competente, acatamiento de la Constitución, del Estatuto de Autonomía y del resto del ordenamiento jurídico, y toma de posesión dentro del plazo establecido.",
+          "trampa": "Aprobar no equivale por sí solo a adquirir la condición.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica proceso y nombramiento",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica acatamiento y toma de posesión",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-008-Q2",
+          "pregunta": "¿Puede aceptarse la renuncia durante el expediente disciplinario?",
+          "respuesta": "No. La renuncia debe formularse por escrito y ser aceptada expresamente, pero no puede aceptarse mientras exista expediente disciplinario, ni en los otros supuestos del artículo 57.2.",
+          "trampa": "Renunciar no produce automáticamente la pérdida de la condición.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica escrito y aceptación expresa",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica prohibición durante expediente",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-008-Q3",
+          "pregunta": "¿Ha prescrito la falta grave puntual del tercer expediente?",
+          "respuesta": "Sí, en las condiciones indicadas: las faltas graves prescriben a los dos años desde su comisión, conforme al artículo 141. Las muy graves prescriben a los tres años y las leves a los seis meses.",
+          "trampa": "Si la falta es continuada, el inicio del cómputo se desplaza al cese de su comisión.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Aplica dos años al caso",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue los plazos de las otras categorías y falta continuada",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-008-Q4",
+          "pregunta": "¿Desde cuándo se computa la prescripción de una sanción ya impuesta?",
+          "respuesta": "Desde la firmeza en vía administrativa de la resolución sancionadora. La iniciación de la ejecución conocida por el interesado interrumpe la prescripción, que se reanuda si la ejecución se paraliza más de un mes por causa no imputable al responsable. Art. 141.4.",
+          "trampa": "No confundir prescripción de la falta, prescripción de la sanción y cancelación de anotaciones.",
+          "referencias": [
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica firmeza en vía administrativa",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica interrupción y reanudación",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "rubricaDidactica": {
