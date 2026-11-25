@@ -618,7 +618,8 @@
             "24/11/2026: cotejo GitHub privado/público main: radar.html SHA 5a5632510e8141d9cd09728192db059b430b11bc y assets/radar.js SHA 72161ca69258e7808fe2d489d811d895f7ddadbc idénticos, versión 2026.11.24.2. Reconsulta BOE-A-2026-23800 y anuncio BOCM 258: turno libre y plaza confirmados; no se ha conseguido texto íntegro de base 4. ESO/permiso B siguen indicio secundario. Feed 1440, 0 requisitos adicionales extraídos, último enriquecimiento 0 intentos. Consultas de estado CI y runs PR no devuelven registros; no equivalen a éxito.",
             "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
             "25/11/2026: clasificación sin exclusión por grupo y sin CUMPLE automático (1c3b7ef, publicación SUCCESS 45585766770 tras ajuste 3666350). Incorporada cláusula de titulación normalizada, URL y fecha de lectura, visualización y regresión de procedencia (f0c9442 y corrección de fecha). Pendiente CI y cotejo real; no acredita cumplimiento integral.",
-            "25/11/2026: texto oficial BOP Toledo 218 anuncio 5248, anexo III El Viso 2860/2026 acredita ESO o equivalente y permiso B vigente. Captura PDF no disponible. Caso real de requisito adicional, sin afirmar cumplimiento personal ni ficha enriquecida."
+            "25/11/2026: texto oficial BOP Toledo 218 anuncio 5248, anexo III El Viso 2860/2026 acredita ESO o equivalente y permiso B vigente. Captura PDF no disponible. Caso real de requisito adicional, sin afirmar cumplimiento personal ni ficha enriquecida.",
+            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real."
           ],
           "nextAction": "Confirmar CI de procedencia, cotejar ficha real y alternativas completas de titulación; evaluar requisitos adicionales y no certificar CUMPLE sin evidencia integral.",
           "priority": "ALTA"
@@ -686,7 +687,8 @@
             "24/11/2026: sin cambio de snapshot directo 09:22:53 UTC ni de último enriquecimiento (0 intentos). Interfaz pública main coincide con privado en radar.html y assets/radar.js; no acredita navegador ni CI. No repetir modificaciones de extractor sin muestra documental nueva.",
             "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas.",
             "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
-            "24/11/2026: recuperación de ruta específica SERMAS E3707 y pruebas de identidad, reintento limitado por versión; publicación 45376826464 SUCCESS. Rastreo real 45376833312 iniciado; correos desactivados para eventos push. No consta lectura efectiva del trámite ni extracción nuclear posterior."
+            "24/11/2026: recuperación de ruta específica SERMAS E3707 y pruebas de identidad, reintento limitado por versión; publicación 45376826464 SUCCESS. Rastreo real 45376833312 iniciado; correos desactivados para eventos push. No consta lectura efectiva del trámite ni extracción nuclear posterior.",
+            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -724,7 +726,8 @@
             "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
             "25/11/2026: separación explícita de bolsa, sustitución, interinidad, otra contratación temporal, laboral fijo y funcionario de carrera; filtro web y siete regresiones de modalidad, sin inferir empleo fijo de la palabra plaza. Versionado 2026.11.25.1. Pendiente CI y deduplicación por expediente real.",
             "25/11/2026: modalidades publicadas SUCCESS 45586833899. Se añade extracción acotada de expediente explícito y evidencia de documento/fecha; identidad de notificación entre documentos con mismo órgano, número, puesto, plazas, grupo, turno y régimen explícitos. No fusiona fichas ni borra histórico. Regresiones de colisión y ledger; pendiente CI y cotejo real.",
-            "25/11/2026: CI SUCCESS 45587218000; cotejo texto BOP Toledo 218, anuncio 5248, decreto 941/2026, Expte. 2860/2026, una plaza C2 funcionario carrera acceso libre; BOE-A-2026-24345 remite a BOP 218. BOE no acredita número de expediente directamente. Captura PDF no disponible. Corregido extractor Expte. y añadida medición de grupos cruzados en feed real."
+            "25/11/2026: CI SUCCESS 45587218000; cotejo texto BOP Toledo 218, anuncio 5248, decreto 941/2026, Expte. 2860/2026, una plaza C2 funcionario carrera acceso libre; BOE-A-2026-24345 remite a BOP 218. BOE no acredita número de expediente directamente. Captura PDF no disponible. Corregido extractor Expte. y añadida medición de grupos cruzados en feed real.",
+            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
@@ -3221,6 +3224,19 @@
       "summary": "Cotejo documental El Viso 2860/2026 y corrección de abreviatura real Expte.; diagnóstico de coincidencias sobre feed.",
       "evidence": [],
       "limit": "BOP 218 anuncio 5248 leído en texto, captura no disponible; BOE 24345 remite al BOP pero no contiene expediente en extracto recuperado. Pendiente rastreo y CI nueva; no se modifica feed ni se envía correo."
+    },
+    {
+      "id": "LOG-20261125-RAD-MIGRACION-EVIDENCIA",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-09",
+        "RAD-12",
+        "RAD-13"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Relectura acotada de evidencia documental con versión y contador; no se amplía presupuesto ni histórico.",
+      "evidence": [],
+      "limit": "Migración pendiente CI y ciclo efectivo; no certifica requisitos ni coincidencias y no modifica ledger."
     }
   ],
   "decisions": [
@@ -3422,5 +3438,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:39:21.000Z"
+  "updatedAtUtc": "2026-11-25T09:43:22.000Z"
 }
