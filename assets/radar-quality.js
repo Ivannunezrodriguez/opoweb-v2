@@ -5,7 +5,6 @@ const followup = /\b(?:acta(?:s)?(?:\s+(?:final|de|del))?|lista(?:do)?s?\s+(?:pr
 const existingBagStatus=/\b(?:estado\s+(?:actual\s+)?de\s+(?:la\s+)?bolsa|diligencia\s+(?:de\s+)?activaci[oó]n\s+(?:de\s+)?(?:la\s+)?bolsa|relaci[oó]n\s+de\s+integrantes\s+de\s+(?:la\s+)?bolsa|bolsa\s+(?:ya\s+)?constituida|orden\s+de\s+llamamiento\s+(?:de\s+)?(?:la\s+)?bolsa)\b/i;
 const qualificationDefault=/^(?:revisar bases|por revisar|pendiente|no consta|—)$/i;
 const amendNotice=/\b(?:acumulaci[oó]n\s+de\s+(?:una\s+)?plaza|ampliaci[oó]n\s+del\s+plazo|modificaci[oó]n\s+de\s+(?:bases|convocatoria)|rectificaci[oó]n\s+de\s+(?:bases|convocatoria)|ampliaci[oó]n\s+de\s+bolsa)\b/i;
-const universityRequirement=/\b(?:A1|A2)\b|\b(?:t[ií]tulo\s+de\s+grado\s+universitario|licenciatura|diplomatura|doctorado)\b/i;
 const roleNames=/\b(?:auxiliar(?:es)?(?:\s+administrativ[oa]s?)?|administrativ[oa]s?|limpiador(?:a|es|as)?|conserje(?:s)?|ordenanza(?:s)?|subaltern[oa]s?|pe[oó]n(?:es)?|oficial(?:es)?\s+(?:de|primera|segunda)|t[eé]cnic[oa]s?(?:\s+(?:auxiliar|de apoyo|inform[aá]tic[oa]|de sistemas|de mantenimiento))?|programador(?:a|es)?|inform[aá]tic[oa]s?|electronic[oa]s?|jardiner[oa]s?|electricista(?:s)?|socorrista(?:s)?|personal\s+de\s+(?:limpieza|mantenimiento)|operari[oa]s?|trabajador(?:a|es|as)?\s+social(?:es)?)\b/i;
 const numbers={un:1,uno:1,una:1,dos:2,tres:3,cuatro:4,cinco:5,seis:6,siete:7,ocho:8,nueve:9,diez:10,once:11,doce:12,quince:15,veinte:20};
 const generic=/^(?:resoluci[oó]n|anuncio|convocatoria|oferta de empleo p[uú]blico|aprobaci[oó]n de bases|plazas?\s+(?:de|para)\s+(?:personal|la plantilla))\b/i;
@@ -85,7 +84,11 @@ export function normalizeOpportunity(o,asOf){
  const knownQualification=qualification&&!qualificationDefault.test(qualification);
  const group=/^(?:AP|B|C1|C2|A1|A2)$/.test(o.group||'')?o.group:(clean(o.organism).match(/(?:^|[·|,;])\s*(A1|A2|B|C1|C2|AP)(?=\s*(?:[·|,;]|$))/i)?.[1]||'REVISAR');
  const specificDegree=/^Grado\s+en\s+/i.test(qualification)&&!/\b(?:t[eé]cnic[oa]|formaci[oó]n\s+profesional|bachiller|ESO)\b/i.test(qualification);
- const ineligible=universityRequirement.test(group)||universityRequirement.test(qualification)||specificDegree;
+ // El grupo es una señal de revisión, nunca prueba literal de un requisito.
+ const explicitUniversity= /\b(?:t[ií]tulo\s+de\s+grado\s+universitario|licenciatura|diplomatura|doctorado|graduad[oa]\s+universitari[oa])\b/i.test(qualification)||specificDegree;
+ const alternativeFP=/\b(?:o|alternativamente)\s+(?:el\s+)?(?:t[ií]tulo\s+de\s+)?(?:t[eé]cnic[oa](?:\s+superior)?|formaci[oó]n\s+profesional|bachiller|ESO)\b/i.test(qualification);
+ const ineligible=knownQualification&&explicitUniversity&&!alternativeFP&&o.detailsStatus==='LEIDO';
+ const compatibility=ineligible?'NO_CUMPLE':'REVISAR';
  const access=clean(o.access);
  const kind=isOffer?'Oferta de empleo (sin convocatoria)':/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/sustituci[oó]n|interin|contrataci[oó]n\s+temporal/i.test(title)?'Temporal':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
  const actionable=!navigationOnly && !isOffer && !phaseFollowup && !ineligible && knownRole && !!officialUrl;
@@ -97,7 +100,7 @@ export function normalizeOpportunity(o,asOf){
   kind,state:ineligible?'NO_ACCESIBLE':status,phaseFollowup,offerWithoutCall:isOffer,notAccessible:!!ineligible,actionable,knownQualification:!!knownQualification,
   completeness:(knownRole?1:0)+(vacancies!=null?1:0)+(iso?1:0)+(knownQualification?1:0)+(group!=='REVISAR'?1:0),
   informationPending:!knownRole||!iso||!knownQualification,
-  compatibility:o.compatibility==='CUMPLE' && knownQualification?'CUMPLE':'REVISAR',
+  compatibility,
   officialUrl
  };
 }

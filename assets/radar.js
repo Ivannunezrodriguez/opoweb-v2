@@ -150,7 +150,7 @@ function card(o){
    (o.deadline?meta('Fecha límite de solicitudes',day(o.deadline)):o.trackingDeadline?.disputed?meta('Fecha de cierre','Discrepancia entre fuentes: sin fecha confirmada'):'')+
    (o.applicationTerm?meta('Cómputo publicado',o.applicationTerm):'')+
    (o.access?meta('Forma de acceso',o.access):'')+
-   (o.qualification?meta('Titulación requerida',o.qualification):'')+
+   (o.qualification?meta('Titulación requerida',o.qualification):'')+meta('Compatibilidad',o.compatibility==='NO_CUMPLE'?'NO CUMPLE · titulación universitaria identificada':'REVISAR · comprobar bases completas')+
    (o.publishedAt?meta('Publicación de origen',day(o.publishedAt)):'')+meta('Detectado por Radar',day(o.firstSeen))+
   '</div>'+ 
   '<p class="radar-note">'+esc([!o.deadline?'Fecha límite sin acreditar':null,!o.qualification?'Titulación pendiente':null,o.group==='REVISAR'?'Grupo pendiente':null].filter(Boolean).join(' · ')||'Datos principales extraídos; revisar posibles rectificaciones oficiales.')+'</p>'+
