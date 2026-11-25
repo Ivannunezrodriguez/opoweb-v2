@@ -32,7 +32,7 @@
     {
       "id": "P1",
       "title": "Examen real La Puebla",
-      "status": "EN_CURSO",
+      "status": "HECHO",
       "tasks": [
         {
           "id": "LP-EX-01",
@@ -127,7 +127,7 @@
         {
           "id": "LP-PRACT-01",
           "title": "Preparar segundo ejercicio La Puebla con supuestos y rúbricas",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "priority": "ALTA",
           "acceptance": "Modelos prácticos de los bloques administrativo, régimen local, tributario y ofimática, soluciones con fuentes, rúbricas verificables y acceso publicado; distinguir formato y tiempo orientativos de los oficiales.",
           "evidencePaths": [
@@ -143,9 +143,11 @@
             "25/11/2026: E2E 45606952096 SUCCESS sobre 09c9722: comprobación de cuatro modelos, rúbricas 0/9/10, navegación y móvil.",
             "25/11/2026: añadidos prácticos 5 cálculo IBI/ICIO y recargos y 6 modificaciones presupuestarias; 6 modelos, 30 cuestiones, 60 criterios, commit ba8998c. Importes y tipos ficticios; referencias BOE; modelo presupuestario inspirado en acta plenaria aportada. Pendiente CI y revisión técnica.",
             "25/11/2026: prácticos 7 registro, plazos, silencio y recursos y 8 Excel añadidos en 79e1a2e; 8 modelos, 40 cuestiones, 80 criterios. Referencias BOE Ley 39/2015 y Microsoft Support. Publicación y E2E pendientes de comprobación.",
-            "25/11/2026: ocho modelos acreditados por publicación y E2E 45630473447/45630473382 SUCCESS. Integración test c7cfb65, pruebas e2ecb28 y 391f469, modelos 9 y 10 en 09f1bf9. Diez modelos, 50 cuestiones, 90 criterios manuales y cinco preguntas de corrección objetiva. Publicación 45632479254 SUCCESS; contenido público comprobado."
+            "25/11/2026: ocho modelos acreditados por publicación y E2E 45630473447/45630473382 SUCCESS. Integración test c7cfb65, pruebas e2ecb28 y 391f469, modelos 9 y 10 en 09f1bf9. Diez modelos, 50 cuestiones, 90 criterios manuales y cinco preguntas de corrección objetiva. Publicación 45632479254 SUCCESS; contenido público comprobado.",
+            "E2E 45632479405 SUCCESS; diez prácticos publicados y verificados. Formato oficial pendiente de anuncio."
           ],
-          "nextAction": "Confirmar E2E 45632479405; si falla, diagnosticar y corregir; cerrar al verificar. Adaptar posteriormente al formato oficial."
+          "nextAction": null,
+          "closedAt": "2026-11-25"
         }
       ]
     },
@@ -493,9 +495,9 @@
         },
         {
           "id": "RAD-02",
-          "title": "Resolver discrepancias de Olías y verificar BOE propio de El Viso",
+          "title": "Verificar plazas, plazos y discrepancias entre publicaciones oficiales",
           "state": "PARCIAL",
-          "acceptance": "Contrastar en publicaciones oficiales 1/4 plazas y días naturales/hábiles de Olías; verificar BOE propio de El Viso exp. 2860/2026 sin confundir exp. 1589/2026; no inventar cierre.",
+          "acceptance": "Regla reutilizable para contrastar bases, extractos y rectificaciones por expediente; conservar procedencia y alertar de contradicciones no resueltas; no presentar plazos ni plazas como confirmados sin evidencia oficial suficiente. Pruebas de casos con discrepancias y sin ellas, y publicación verificada.",
           "evidencePaths": [
             "content/el-viso-auxiliar-c2-2026/index.html",
             "data/convocatorias.json",
@@ -503,20 +505,24 @@
             "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24345",
             "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826",
             "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2025%2F11%2F28%2Fhtml%2F2025_8998.html&tipo=rutaDocm",
-            "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2025%2F12%2F12%2Fhtml%2F2025_9468.html&tipo=rutaDocm"
+            "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2025%2F12%2F12%2Fhtml%2F2025_9468.html&tipo=rutaDocm",
+            "assets/radar-quality.js"
           ],
           "completedSubsteps": [
             "20/11/2026: confirmado BOE-A-2026-24345 de El Viso, distinto del BOE-A-2026-20416; ficha, banner Radar y catálogo actualizados a plazo relativo de 20 días hábiles sin calcular fin. BOE-A-2026-22826 de Olías confirma 3 limpieza y 4 auxiliar edificios y 20 días hábiles; falta resolver discrepancia de bases entre naturales y hábiles.",
             "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
             "22/11/2026: nueva fuente oficial DOCM-2026/7843 de 05/11 confirma 20 días hábiles desde BOE, en línea con BOE-A-2026-22826 de 31/10. El conflicto BOP 204 todavía requiere el texto original/rectificaciones y no se resuelve por votación de fuentes. El parser de conflictos quedó cerrado separadamente como RAD-06.",
             "22/11/2026: fuente secundaria localiza posible corrección de las bases de Olías en BOP Toledo 209 de 30/10/2026, posterior al BOP 204 de 23/10 (referencia BOP id=26104817, inserción 4833). No se ha abierto el documento oficial de la rectificación; NO considerar confirmado su contenido ni que resuelva días naturales/hábiles.",
-            "24/11/2026: calendario administrativo DOCM 2025/8998 y fiestas locales DOCM 2025/9468 (El Viso 22/07 y 24/08) cotejados; 20 hábiles desde BOE 24345 de 20/11 excluyendo fines de semana y 08/12 arrojan 2026-12-21 como cómputo ordinario, sujeto a rectificaciones o festivos aplicables adicionales. Olías: BOE 22826 y DOCM 7843 coinciden, cómputo autonómico 2026-11-30 excluyendo 02/11; BOP original y rectificación no accesibles en consulta, no se certifica cierre."
+            "24/11/2026: calendario administrativo DOCM 2025/8998 y fiestas locales DOCM 2025/9468 (El Viso 22/07 y 24/08) cotejados; 20 hábiles desde BOE 24345 de 20/11 excluyendo fines de semana y 08/12 arrojan 2026-12-21 como cómputo ordinario, sujeto a rectificaciones o festivos aplicables adicionales. Olías: BOE 22826 y DOCM 7843 coinciden, cómputo autonómico 2026-11-30 excluyendo 02/11; BOP original y rectificación no accesibles en consulta, no se certifica cierre.",
+            "25/11/2026: usuario aclara que no solicita seguimiento personal ni investigación específica de El Viso de San Juan. Casos históricos conservados solo como evidencia técnica; municipio incluido exclusivamente en el rastreo general de oportunidades. Se reorienta RAD-02 a verificación transversal sin ampliar el número de tareas ni contabilizar un cierre.",
+            "25/11/2026: CI 45633905961 y 45633905829 fallaban en auditoría operativa línea 29 por expectativas anteriores al bloqueo de conflictos. Commit 356f80385d60eca6f1e2fa29e97f21e2433d5495 ajusta la prueba al contrato vigente y añade regresión de documento leído con plazo contradictorio, sin alertas ni fecha confirmada. CI 45636468696/45636468599 pendiente.",
+            "25/11/2026: normalización transversal de plazos y plazas disputadas en 93c18ec y regresiones en 62a4e73; el conflicto impide mostrar cifra/fecha como confirmada y activar alertas. Publicación bloqueada por invariante de P1 del plan (45636499308), corregida al sincronizar estados de fase con tareas. Pendiente nueva publicación y acreditar detección documental de discrepancias."
           ],
           "remainingSubsteps": [
-            "Cotejar directamente las bases BOP Toledo 204 de 23/10/2026 de Olías y rectificaciones del ayuntamiento para resolver días naturales vs hábiles y plazo prudente por proceso; no dar cierre único sin comprobar.",
-            "Cotejar calendario de días inhábiles y posibles rectificaciones para calcular, por separado, fin de solicitudes de El Viso BOE 24345."
+            "Comprobar reglas actuales de procedencia, conflicto y presentación; cubrir con regresiones generalizables las lagunas reales.",
+            "Mantener expedientes contradictorios en REVISAR sin fecha definitiva hasta disponer de evidencia suficiente durante el rastreo ordinario."
           ],
-          "nextAction": "Obtener y cotejar las BASES ORIGINALES BOP Toledo 204 de 23/10/2026 (inserción 4833, documento 26104817), y comprobar una POSIBLE CORRECCIÓN BOP 209 de 30/10/2026 identificada por fuente secundaria. Comparar plazo de auxiliares y limpieza con BOE 22826 y DOCM 7843. No dar fecha final sin calendario oficial. El Viso queda separado."
+          "nextAction": "Confirmar nueva publicación y pruebas de discrepancias; verificar origen de marcas de conflicto en extracción y conciliación documental, sin investigación monográfica."
         },
         {
           "id": "RAD-03",
@@ -796,7 +802,7 @@
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
           ],
-          "nextAction": "Comprobar resultado de medición RADAR_REAL_EXPEDIENTE_COVERAGE y rastreo actualizado; no fusionar 1589/2026 ni atribuir expediente al BOE sin enlace documental acreditado."
+          "nextAction": "Comprobar medición de cobertura real por expediente y rastreo actualizado; no fusionar expedientes ni atribuir BOE sin enlace documental acreditado. Aplicar a todas las fuentes, sin priorizar municipios no solicitados."
         },
         {
           "id": "RAD-JCCM-2026",
@@ -3367,6 +3373,33 @@
         "content/la-puebla/simulacros.json"
       ],
       "limit": "CI/E2E nuevos pendientes; no se publica información personal ni se presume fecha oficial."
+    },
+    {
+      "id": "LOG-20261125-RAD02-AUDIT-CONFLICT-GATE",
+      "at": "2026-11-25",
+      "atUtc": "2026-11-25T14:38:59Z",
+      "taskIds": [
+        "RAD-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Regresión de auditoría operativa ante discrepancia documental: prueba de bloqueo de accionabilidad, fecha y correo incluso con documento leído.",
+      "evidence": [],
+      "limit": "CI pendiente; no resuelve contradicciones oficiales ni acredita cobertura.",
+      "nextAction": "Verificar CI del commit y continuar contraste transversal de procedencia."
+    },
+    {
+      "id": "LOG-20261125-P1-CIERRE-Y-RAD-CONFLICTOS",
+      "at": "2026-11-25",
+      "taskIds": [
+        "LP-PRACT-01",
+        "RAD-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "La Puebla tiene 6/6 tareas cerradas; sincronizado status de fase. Registrada protección transversal de plazos y plazas disputadas, con regresiones.",
+      "evidence": [
+        "assets/radar-quality.js"
+      ],
+      "limit": "E2E La Puebla acreditado; nueva publicación del plan y detección documental de conflictos RAD-02 pendientes."
     }
   ],
   "decisions": [
@@ -3459,7 +3492,6 @@
         "title": "Prioridad operativa",
         "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
         "taskIds": [
-          "LP-PRACT-01",
           "RAD-02",
           "RAD-09",
           "RAD-12",
@@ -3575,5 +3607,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T14:18:47.000Z"
+  "updatedAtUtc": "2026-11-25T14:51:08.000Z"
 }
