@@ -3952,9 +3952,918 @@
           "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-009",
+      "titulo": "Simulacro 9 · Organización, procedimiento local, trabajo y administración digital",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-009-Q01",
+          "pregunta": "¿En quién reside la soberanía nacional según la Constitución Española?",
+          "opciones": [
+            "En las Cortes Generales",
+            "En el Rey",
+            "En el pueblo español",
+            "En el Gobierno"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 1.2 de la Constitución establece que la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
+          "trampa": "No debe confundirse el órgano que representa al pueblo, las Cortes Generales, con el titular de la soberanía, que es el pueblo español.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "En el pueblo español",
+          "tema": 3,
+          "origenId": "DIP-T03-001",
+          "referenciaOriginal": "CE, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1"
+        },
+        {
+          "id": "DIP-SIM-009-Q02",
+          "pregunta": "¿Cuál de las siguientes materias regula principalmente la Ley 40/2015?",
+          "opciones": [
+            "El régimen jurídico del sector público",
+            "La jurisdicción contencioso-administrativa",
+            "El procedimiento administrativo común",
+            "La contratación pública"
+          ],
+          "correcta": 0,
+          "justificacion": "La Ley 40/2015 regula las bases del régimen jurídico de las Administraciones Públicas, la organización del sector público y las relaciones interadministrativas.",
+          "trampa": "No confundirla con la Ley 39/2015, centrada en el procedimiento administrativo común.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "El régimen jurídico del sector público",
+          "tema": 4,
+          "origenId": "DIP-T04-001",
+          "referenciaOriginal": "Ley 40/2015, artículo 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a1"
+        },
+        {
+          "id": "DIP-SIM-009-Q03",
+          "pregunta": "¿Cuál es la norma básica general aplicable al procedimiento administrativo de las entidades locales?",
+          "opciones": [
+            "El Código de Comercio",
+            "Exclusivamente el ROF de 1986",
+            "La Ley de Enjuiciamiento Civil",
+            "La Ley 39/2015"
+          ],
+          "correcta": 3,
+          "justificacion": "El procedimiento administrativo local se rige con carácter básico por la Ley 39/2015, sin perjuicio de las especialidades establecidas por la normativa de régimen local.",
+          "trampa": "El ROF contiene especialidades locales, pero no sustituye a la Ley 39/2015.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "La Ley 39/2015",
+          "tema": 11,
+          "origenId": "DIP-T11-001",
+          "referenciaOriginal": "Ley 39/2015, art. 2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a2"
+        },
+        {
+          "id": "DIP-SIM-009-Q04",
+          "pregunta": "Con carácter general, el contrato de trabajo se presume concertado:",
+          "opciones": [
+            "Por tiempo determinado",
+            "Por tiempo indefinido",
+            "A jornada parcial",
+            "En prácticas"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 15 del Estatuto de los Trabajadores establece que el contrato de trabajo se presume concertado por tiempo indefinido.",
+          "trampa": "La contratación temporal exige una causa legal concreta y suficientemente precisada; no constituye la regla general.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "Por tiempo indefinido",
+          "tema": 21,
+          "origenId": "DIP-T21-001",
+          "referenciaOriginal": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15"
+        },
+        {
+          "id": "DIP-SIM-009-Q05",
+          "pregunta": "¿Qué firma electrónica tiene expresamente un efecto jurídico equivalente al de una firma manuscrita?",
+          "opciones": [
+            "La firma simple",
+            "La firma cualificada",
+            "La firma avanzada",
+            "Cualquier firma escaneada"
+          ],
+          "correcta": 1,
+          "justificacion": "El Reglamento eIDAS atribuye expresamente a la firma electrónica cualificada un efecto jurídico equivalente al de la firma manuscrita.",
+          "trampa": "La firma avanzada ofrece mayores garantías técnicas, pero no recibe por sí sola esa equivalencia jurídica expresa.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "La firma cualificada",
+          "tema": 31,
+          "origenId": "DIP-T31-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#31-tipos-de-firma"
+        },
+        {
+          "id": "DIP-SIM-009-Q06",
+          "pregunta": "¿Qué atajo abre una nueva pestaña en Microsoft Edge?",
+          "opciones": [
+            "Ctrl + H",
+            "Ctrl + N",
+            "Ctrl + W",
+            "Ctrl + T"
+          ],
+          "correcta": 3,
+          "justificacion": "La combinación Ctrl + T abre una nueva pestaña dentro de la ventana actual de Microsoft Edge.",
+          "trampa": "Ctrl + N abre una nueva ventana, no una nueva pestaña.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "Ctrl + T",
+          "tema": 33,
+          "origenId": "DIP-T33-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#2-navegación-mediante-pestañas"
+        },
+        {
+          "id": "DIP-SIM-009-Q07",
+          "pregunta": "¿Qué cambió la reforma del artículo 69.3 de la Constitución publicada el 20 de mayo de 2026?",
+          "opciones": [
+            "La separación de Ibiza y Formentera en circunscripciones senatoriales propias",
+            "La cifra de senadores por cada provincia peninsular",
+            "La duración ordinaria del mandato del Senado",
+            "La designación autonómica de un senador por cada millón de habitantes"
+          ],
+          "correcta": 0,
+          "justificacion": "La reforma de **19/05/2026** (BOE **20/05/2026**) sustituyó la agrupación **Ibiza-Formentera** por **dos circunscripciones senatoriales separadas**, con **un senador** cada una. Su eficacia se difiere a la **primera convocatoria de elecciones al Senado posterior** a la entrada en vigor.",
+          "trampa": "La **vigencia del 20/05/2026** no significa **eficacia electoral inmediata**; la disposición transitoria exige la **primera convocatoria posterior**. Los **cuatro senadores peninsulares** no cambian.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "La separación de Ibiza y Formentera en circunscripciones senatoriales propias",
+          "tema": 3,
+          "origenId": "DIP-T03-002",
+          "referenciaOriginal": "CE art. 69.3, reforma 2026 y disposición transitoria · https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881"
+        },
+        {
+          "id": "DIP-SIM-009-Q08",
+          "pregunta": "La competencia administrativa es, como regla general:",
+          "opciones": [
+            "Renunciable",
+            "Delegable en su titularidad",
+            "Irrenunciable",
+            "Disponible por acuerdo entre órganos"
+          ],
+          "correcta": 2,
+          "justificacion": "La competencia es irrenunciable y debe ejercerse por el órgano que la tenga atribuida, salvo los supuestos legales de delegación o avocación.",
+          "trampa": "Que pueda desplazarse su ejercicio no significa que la competencia deje de ser irrenunciable.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Irrenunciable",
+          "tema": 4,
+          "origenId": "DIP-T04-002",
+          "referenciaOriginal": "Ley 40/2015, artículo 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8"
+        },
+        {
+          "id": "DIP-SIM-009-Q09",
+          "pregunta": "El registro electrónico general permite presentar documentos:",
+          "opciones": [
+            "Hasta las 15:00 horas",
+            "Solo en horario de oficina",
+            "Solo en días hábiles",
+            "Las 24 horas de todos los días del año"
+          ],
+          "correcta": 3,
+          "justificacion": "El registro electrónico permite la presentación de documentos durante las 24 horas de todos los días del año.",
+          "trampa": "La disponibilidad permanente no convierte todos los días en hábiles a efectos de cómputo.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "Las 24 horas de todos los días del año",
+          "tema": 11,
+          "origenId": "DIP-T11-002",
+          "referenciaOriginal": "Ley 39/2015, art. 31.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
+        },
+        {
+          "id": "DIP-SIM-009-Q10",
+          "pregunta": "El contrato fijo-discontinuo tiene naturaleza:",
+          "opciones": [
+            "Administrativa",
+            "Temporal",
+            "Indefinida",
+            "Mercantil"
+          ],
+          "correcta": 2,
+          "justificacion": "El contrato fijo-discontinuo es un contrato indefinido cuya prestación se desarrolla de forma discontinua o intermitente.",
+          "trampa": "La discontinuidad de la prestación no convierte el vínculo en temporal.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "Indefinida",
+          "tema": 21,
+          "origenId": "DIP-T21-002",
+          "referenciaOriginal": "ET art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a16"
+        },
+        {
+          "id": "DIP-SIM-009-Q11",
+          "pregunta": "¿Cuál de los siguientes NO es un requisito de la firma electrónica avanzada?",
+          "opciones": [
+            "Estar vinculada de manera única al firmante",
+            "Ser siempre emitida por una Administración pública",
+            "Permitir identificar al firmante",
+            "Detectar modificaciones posteriores"
+          ],
+          "correcta": 1,
+          "justificacion": "La firma electrónica avanzada debe estar vinculada de manera única al firmante, permitir identificarlo, quedar bajo su control exclusivo con un alto nivel de confianza y detectar modificaciones posteriores; no exige que la emita una Administración pública.",
+          "trampa": "No debe confundirse un prestador cualificado de servicios de confianza con una Administración pública.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "Ser siempre emitida por una Administración pública",
+          "tema": 31,
+          "origenId": "DIP-T31-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#31-tipos-de-firma"
+        },
+        {
+          "id": "DIP-SIM-009-Q12",
+          "pregunta": "¿Qué atajo reabre la última pestaña cerrada?",
+          "opciones": [
+            "Ctrl + Mayús + T",
+            "Ctrl + Mayús + N",
+            "Ctrl + D",
+            "Ctrl + J"
+          ],
+          "correcta": 0,
+          "justificacion": "La combinación Ctrl + Mayús + T reabre la última pestaña cerrada en Microsoft Edge.",
+          "trampa": "Ctrl + Mayús + N abre una ventana InPrivate.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "Ctrl + Mayús + T",
+          "tema": 33,
+          "origenId": "DIP-T33-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#2-navegación-mediante-pestañas"
+        },
+        {
+          "id": "DIP-SIM-009-Q13",
+          "pregunta": "¿Qué entidades integran la organización territorial del Estado del artículo 137?",
+          "opciones": [
+            "Provincias, islas y regiones",
+            "Municipios, comarcas y provincias",
+            "Municipios, provincias y comunidades autónomas",
+            "Municipios, diputaciones y comunidades autónomas"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 137 organiza territorialmente el Estado en municipios, provincias y comunidades autónomas que se constituyan, todas con autonomía para gestionar sus intereses.",
+          "trampa": "Las diputaciones son órganos de gobierno provincial, pero no aparecen como categoría territorial autónoma en el artículo 137.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Municipios, provincias y comunidades autónomas",
+          "tema": 3,
+          "origenId": "DIP-T03-003",
+          "referenciaOriginal": "CE, art. 137 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a137"
+        },
+        {
+          "id": "DIP-SIM-009-Q14",
+          "pregunta": "¿Cuál de estas técnicas puede alterar la titularidad y el ejercicio de la competencia?",
+          "opciones": [
+            "Desconcentración",
+            "Suplencia",
+            "Encomienda de gestión",
+            "Delegación de firma"
+          ],
+          "correcta": 0,
+          "justificacion": "La desconcentración puede trasladar titularidad y ejercicio a órganos jerárquicamente dependientes conforme a la norma de atribución.",
+          "trampa": "Delegación, encomienda, firma y suplencia no alteran la titularidad.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Desconcentración",
+          "tema": 4,
+          "origenId": "DIP-T04-003",
+          "referenciaOriginal": "Ley 40/2015, artículo 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8"
+        },
+        {
+          "id": "DIP-SIM-009-Q15",
+          "pregunta": "Para cumplir un plazo fijado en días hábiles, ¿cómo se computa una presentación de la persona interesada en un día inhábil mediante registro electrónico?",
+          "opciones": [
+            "El mismo día",
+            "Cuando la revise un funcionario",
+            "El día hábil anterior",
+            "En la primera hora del primer día hábil siguiente"
+          ],
+          "correcta": 3,
+          "justificacion": "El **art. 31.2.b Ley 39/2015** reputa presentada la documentación **en la primera hora del primer día hábil siguiente** para plazos en **días hábiles**, salvo norma que expresamente permita recepción en inhábil.",
+          "trampa": "El sistema recibe el documento, pero su efecto temporal se traslada al primer día hábil siguiente.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "En la primera hora del primer día hábil siguiente",
+          "tema": 11,
+          "origenId": "DIP-T11-003",
+          "referenciaOriginal": "Ley 39/2015, art. 31.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
+        },
+        {
+          "id": "DIP-SIM-009-Q16",
+          "pregunta": "La duración máxima general del contrato por circunstancias de la producción imprevisibles es de:",
+          "opciones": [
+            "3 meses",
+            "6 meses",
+            "9 meses",
+            "2 años"
+          ],
+          "correcta": 1,
+          "justificacion": "La duración máxima general es de 6 meses, ampliable por convenio colectivo sectorial hasta 1 año.",
+          "trampa": "El año no es la duración legal general, sino el máximo que puede establecer un convenio colectivo sectorial.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "6 meses",
+          "tema": 21,
+          "origenId": "DIP-T21-003",
+          "referenciaOriginal": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15"
+        },
+        {
+          "id": "DIP-SIM-009-Q17",
+          "pregunta": "El sello electrónico se asocia normalmente a:",
+          "opciones": [
+            "Una persona física exclusivamente",
+            "Una persona jurídica",
+            "Un navegador web",
+            "Un documento en papel"
+          ],
+          "correcta": 1,
+          "justificacion": "El sello electrónico se utiliza normalmente para garantizar el origen y la integridad de datos respecto de una persona jurídica.",
+          "trampa": "La firma se vincula típicamente a una persona física; el sello, normalmente, a una persona jurídica.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "Una persona jurídica",
+          "tema": 31,
+          "origenId": "DIP-T31-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#2-servicios-electrónicos-de-confianza"
+        },
+        {
+          "id": "DIP-SIM-009-Q18",
+          "pregunta": "Guardar una página en favoritos supone, con carácter general:",
+          "opciones": [
+            "Descargar todos sus archivos",
+            "Guardar una copia completa sin conexión",
+            "Eliminarla del historial",
+            "Guardar su dirección para acceder después"
+          ],
+          "correcta": 3,
+          "justificacion": "Los favoritos conservan principalmente la dirección web de una página para facilitar su acceso posterior.",
+          "trampa": "Guardar una página como favorita no equivale a guardar una copia local ni a descargar su contenido.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "Guardar su dirección para acceder después",
+          "tema": 33,
+          "origenId": "DIP-T33-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#3-favoritos"
+        },
+        {
+          "id": "DIP-SIM-009-Q19",
+          "pregunta": "¿Quién asume la responsabilidad de los actos del Rey que requieren refrendo?",
+          "opciones": [
+            "Quien los refrenda",
+            "Las Cortes Generales",
+            "El propio Rey",
+            "El Tribunal Constitucional"
+          ],
+          "correcta": 0,
+          "justificacion": "La persona del Rey es inviolable y no está sujeta a responsabilidad; la responsabilidad de sus actos recae en quienes los refrendan.",
+          "trampa": "El refrendo no es una formalidad vacía: desplaza la responsabilidad política y jurídica al órgano refrendante.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Quien los refrenda",
+          "tema": 3,
+          "origenId": "DIP-T03-004",
+          "referenciaOriginal": "CE, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a64"
+        },
+        {
+          "id": "DIP-SIM-009-Q20",
+          "pregunta": "¿Cuál de las siguientes materias no puede ser objeto de delegación?",
+          "opciones": [
+            "La firma de actos de trámite",
+            "La instrucción de expedientes",
+            "La adopción de disposiciones de carácter general",
+            "La gestión material de archivos"
+          ],
+          "correcta": 2,
+          "justificacion": "La Ley 40/2015 excluye de la delegación, entre otras materias, la adopción de disposiciones de carácter general.",
+          "trampa": "La prohibición afecta a dictar disposiciones generales, no a cualquier actuación administrativa de carácter general.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "La adopción de disposiciones de carácter general",
+          "tema": 4,
+          "origenId": "DIP-T04-004",
+          "referenciaOriginal": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9"
+        },
+        {
+          "id": "DIP-SIM-009-Q21",
+          "pregunta": "El plazo ordinario para subsanar una solicitud incompleta es de:",
+          "opciones": [
+            "5 días",
+            "15 días",
+            "1 mes",
+            "10 días"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo 68 de la Ley 39/2015 establece un plazo ordinario de 10 días para subsanar la falta o aportar los documentos preceptivos.",
+          "trampa": "Los 5 días corresponden a una posible ampliación excepcional, no al plazo inicial.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "10 días",
+          "tema": 11,
+          "origenId": "DIP-T11-004",
+          "referenciaOriginal": "Ley 39/2015, art. 68.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+        },
+        {
+          "id": "DIP-SIM-009-Q22",
+          "pregunta": "Para situaciones ocasionales previsibles, la empresa puede utilizar contratos por circunstancias de la producción durante un máximo general de:",
+          "opciones": [
+            "60 días por persona",
+            "30 días continuados",
+            "90 días en el año natural",
+            "180 días por centro"
+          ],
+          "correcta": 2,
+          "justificacion": "El límite general es de 90 días en el año natural y se refiere al conjunto de la empresa.",
+          "trampa": "Los 90 días no corresponden a cada persona trabajadora y, con carácter general, no pueden utilizarse de forma continuada.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "90 días en el año natural",
+          "tema": 21,
+          "origenId": "DIP-T21-004",
+          "referenciaOriginal": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15"
+        },
+        {
+          "id": "DIP-SIM-009-Q23",
+          "pregunta": "¿Qué hace un certificado electrónico?",
+          "opciones": [
+            "Sustituye siempre a la firma",
+            "Vincula datos de validación con una identidad o atributos",
+            "Convierte cualquier documento en público",
+            "Elimina la necesidad de verificar identidad"
+          ],
+          "correcta": 1,
+          "justificacion": "Un certificado electrónico vincula datos de validación de firma o sello con una persona física o jurídica y confirma determinados atributos.",
+          "trampa": "El certificado no es la firma; sirve para verificar la vinculación entre identidad y datos de validación.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "Vincula datos de validación con una identidad o atributos",
+          "tema": 31,
+          "origenId": "DIP-T31-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#4-certificados-electrónicos"
+        },
+        {
+          "id": "DIP-SIM-009-Q24",
+          "pregunta": "¿Qué atajo abre el historial de Microsoft Edge?",
+          "opciones": [
+            "Ctrl + H",
+            "Ctrl + D",
+            "Ctrl + F",
+            "Ctrl + J"
+          ],
+          "correcta": 0,
+          "justificacion": "La combinación Ctrl + H abre el historial de navegación de Microsoft Edge.",
+          "trampa": "Ctrl + J abre el panel de descargas, no el historial.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "Ctrl + H",
+          "tema": 33,
+          "origenId": "DIP-T33-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#4-historial"
+        },
+        {
+          "id": "DIP-SIM-009-Q25",
+          "pregunta": "¿Cuál de las siguientes funciones corresponde al Rey?",
+          "opciones": [
+            "Ejercer la potestad legislativa",
+            "Aprobar definitivamente los Presupuestos",
+            "Sancionar y promulgar las leyes",
+            "Nombrar libremente a los ministros"
+          ],
+          "correcta": 2,
+          "justificacion": "Corresponde al Rey sancionar y promulgar las leyes. Los ministros son nombrados y separados por el Rey a propuesta del Presidente del Gobierno.",
+          "trampa": "El Rey nombra a los ministros, pero no libremente: necesita la propuesta del Presidente del Gobierno.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Sancionar y promulgar las leyes",
+          "tema": 3,
+          "origenId": "DIP-T03-005",
+          "referenciaOriginal": "CE, art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a62"
+        },
+        {
+          "id": "DIP-SIM-009-Q26",
+          "pregunta": "La avocación debe formalizarse mediante:",
+          "opciones": [
+            "Acuerdo motivado",
+            "Convenio",
+            "Encomienda de gestión",
+            "Orden verbal"
+          ],
+          "correcta": 0,
+          "justificacion": "La avocación requiere acuerdo motivado y notificación a los interesados antes o simultáneamente a la resolución final.",
+          "trampa": "No cabe recurso autónomo contra la avocación, pero puede cuestionarse al impugnar la resolución final.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Acuerdo motivado",
+          "tema": 4,
+          "origenId": "DIP-T04-005",
+          "referenciaOriginal": "Ley 40/2015, artículo 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a10"
+        },
+        {
+          "id": "DIP-SIM-009-Q27",
+          "pregunta": "Cuando un sujeto obligado a relacionarse electrónicamente presenta presencialmente una solicitud, la fecha válida de presentación será:",
+          "opciones": [
+            "La de la resolución",
+            "La de la presentación presencial",
+            "La del requerimiento",
+            "La de la subsanación electrónica"
+          ],
+          "correcta": 3,
+          "justificacion": "La solicitud se considera presentada en la fecha en que el sujeto obligado realiza la subsanación por medios electrónicos.",
+          "trampa": "La fecha inicial de presentación en papel no se conserva como fecha válida.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "La de la subsanación electrónica",
+          "tema": 11,
+          "origenId": "DIP-T11-005",
+          "referenciaOriginal": "Ley 39/2015, art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68"
+        },
+        {
+          "id": "DIP-SIM-009-Q28",
+          "pregunta": "El contrato de sustitución para cubrir temporalmente un puesto durante un proceso de selección puede durar, con carácter general, hasta:",
+          "opciones": [
+            "1 mes",
+            "3 meses",
+            "6 meses",
+            "1 año"
+          ],
+          "correcta": 1,
+          "justificacion": "Su duración máxima general es de 3 meses, salvo que el convenio colectivo establezca un plazo inferior.",
+          "trampa": "Una vez agotado ese máximo no puede celebrarse un nuevo contrato con el mismo objeto.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "3 meses",
+          "tema": 21,
+          "origenId": "DIP-T21-005",
+          "referenciaOriginal": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15"
+        },
+        {
+          "id": "DIP-SIM-009-Q29",
+          "pregunta": "La Ley 6/2020 entró en vigor el:",
+          "opciones": [
+            "12 de noviembre de 2020",
+            "13 de noviembre de 2020",
+            "9 de mayo de 2023",
+            "1 de enero de 2021"
+          ],
+          "correcta": 1,
+          "justificacion": "La Ley 6/2020, de 11 de noviembre, entró en vigor el 13 de noviembre de 2020.",
+          "trampa": "El 12 de noviembre de 2020 fue la fecha de publicación en el BOE, no la de entrada en vigor.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "13 de noviembre de 2020",
+          "tema": 31,
+          "origenId": "DIP-T31-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#1-marco-normativo"
+        },
+        {
+          "id": "DIP-SIM-009-Q30",
+          "pregunta": "Eliminar una entrada de la lista de descargas de Edge:",
+          "opciones": [
+            "Borra siempre el archivo del disco",
+            "Vacía la Papelera de Windows",
+            "Desinstala Edge",
+            "No implica necesariamente borrar el archivo descargado"
+          ],
+          "correcta": 3,
+          "justificacion": "La entrada mostrada en el historial o panel de descargas y el archivo almacenado físicamente en el disco son elementos distintos.",
+          "trampa": "Eliminar la entrada de la lista no implica necesariamente eliminar el archivo descargado del equipo.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "No implica necesariamente borrar el archivo descargado",
+          "tema": 33,
+          "origenId": "DIP-T33-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#5-descargas"
+        },
+        {
+          "id": "DIP-SIM-009-Q31",
+          "pregunta": "¿Cuál es el número constitucional de diputados del Congreso?",
+          "opciones": [
+            "Entre 300 y 400",
+            "Entre 250 y 350",
+            "Exactamente 350",
+            "Entre 350 y 450"
+          ],
+          "correcta": 0,
+          "justificacion": "La Constitución fija que el Congreso se compone de un mínimo de 300 y un máximo de 400 diputados, aunque la legislación electoral concreta actualmente 350.",
+          "trampa": "No confundir el rango constitucional de 300 a 400 con la cifra legal vigente de 350 diputados.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Entre 300 y 400",
+          "tema": 3,
+          "origenId": "DIP-T03-006",
+          "referenciaOriginal": "CE, art. 68 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a68"
+        },
+        {
+          "id": "DIP-SIM-009-Q32",
+          "pregunta": "La encomienda de gestión puede tener por objeto:",
+          "opciones": [
+            "La titularidad de una competencia",
+            "La aprobación de reglamentos",
+            "Actividades materiales o técnicas",
+            "La resolución de recursos administrativos"
+          ],
+          "correcta": 2,
+          "justificacion": "La encomienda se limita a actividades materiales o técnicas por razones de eficacia o falta de medios idóneos.",
+          "trampa": "No cede la titularidad ni los elementos sustantivos del ejercicio de la competencia.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Actividades materiales o técnicas",
+          "tema": 4,
+          "origenId": "DIP-T04-006",
+          "referenciaOriginal": "Ley 40/2015, artículo 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a11"
+        },
+        {
+          "id": "DIP-SIM-009-Q33",
+          "pregunta": "Toda notificación debe cursarse dentro del plazo de:",
+          "opciones": [
+            "5 días desde la iniciación",
+            "15 días desde la firma",
+            "1 mes desde la resolución",
+            "10 días desde que el acto fue dictado"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo 40.2 de la Ley 39/2015 establece que toda notificación debe cursarse dentro de los 10 días siguientes a la fecha en que el acto haya sido dictado.",
+          "trampa": "Este plazo no es el mismo que el de rechazo de una notificación electrónica.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "10 días desde que el acto fue dictado",
+          "tema": 11,
+          "origenId": "DIP-T11-006",
+          "referenciaOriginal": "Ley 39/2015, art. 40.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a40"
+        },
+        {
+          "id": "DIP-SIM-009-Q34",
+          "pregunta": "La duración del contrato de formación en alternancia se sitúa, con carácter general, entre:",
+          "opciones": [
+            "1 y 6 meses",
+            "6 meses y 1 año",
+            "3 meses y 2 años",
+            "1 y 3 años"
+          ],
+          "correcta": 2,
+          "justificacion": "La duración legal general del contrato de formación en alternancia está comprendida entre 3 meses y 2 años.",
+          "trampa": "El contrato formativo para la práctica profesional tiene otra duración: entre 6 meses y 1 año.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "3 meses y 2 años",
+          "tema": 21,
+          "origenId": "DIP-T21-006",
+          "referenciaOriginal": "ET art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a11"
+        },
+        {
+          "id": "DIP-SIM-009-Q35",
+          "pregunta": "¿Qué identifica la Lista de confianza?",
+          "opciones": [
+            "Todos los usuarios de certificados",
+            "Prestadores y servicios cualificados",
+            "Todos los empleados públicos",
+            "Únicamente sitios web públicos"
+          ],
+          "correcta": 1,
+          "justificacion": "La Lista de confianza identifica los prestadores cualificados de servicios de confianza y los servicios cualificados que ofrecen.",
+          "trampa": "No es un registro general de usuarios ni de todos los certificados existentes.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "Prestadores y servicios cualificados",
+          "tema": 31,
+          "origenId": "DIP-T31-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#7-autoridad-de-supervisión-y-lista-de-confianza"
+        },
+        {
+          "id": "DIP-SIM-009-Q36",
+          "pregunta": "La navegación InPrivate:",
+          "opciones": [
+            "Elimina normalmente ciertos datos locales al cerrar todas las ventanas InPrivate",
+            "Garantiza anonimato total",
+            "Impide toda supervisión de red",
+            "Borra automáticamente todos los archivos descargados"
+          ],
+          "correcta": 0,
+          "justificacion": "La navegación InPrivate reduce la conservación local de determinados datos de la sesión al cerrar todas sus ventanas, pero no garantiza anonimato total.",
+          "trampa": "Los archivos descargados y los favoritos creados durante la sesión pueden permanecer después de cerrarla.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "Elimina normalmente ciertos datos locales al cerrar todas las ventanas InPrivate",
+          "tema": 33,
+          "origenId": "DIP-T33-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#6-navegación-inprivate"
+        },
+        {
+          "id": "DIP-SIM-009-Q37",
+          "pregunta": "¿Cuántos senadores se eligen en cada provincia peninsular?",
+          "opciones": [
+            "Dos",
+            "Tres",
+            "Cuatro",
+            "Cinco"
+          ],
+          "correcta": 2,
+          "justificacion": "La regla general constitucional es la elección de cuatro senadores por cada provincia, con especialidades para islas, Ceuta y Melilla.",
+          "trampa": "**Art. 69.2 CE**: **cuatro senadores por provincia peninsular**. La reforma **69.3 de 2026** afecta a **Ibiza y Formentera**, no a provincias peninsulares.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Cuatro",
+          "tema": 3,
+          "origenId": "DIP-T03-007",
+          "referenciaOriginal": "CE, art. 69 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a69"
+        },
+        {
+          "id": "DIP-SIM-009-Q38",
+          "pregunta": "La delegación de firma:",
+          "opciones": [
+            "No altera la competencia",
+            "Altera la titularidad",
+            "Altera la competencia",
+            "Solo cabe entre Administraciones distintas"
+          ],
+          "correcta": 0,
+          "justificacion": "La delegación de firma permite que otro titular firme actos o resoluciones sin alterar la competencia del órgano delegante.",
+          "trampa": "Delegar la firma no equivale a delegar la competencia.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "No altera la competencia",
+          "tema": 4,
+          "origenId": "DIP-T04-007",
+          "referenciaOriginal": "Ley 40/2015, artículo 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a12"
+        },
+        {
+          "id": "DIP-SIM-009-Q39",
+          "pregunta": "Si la notificación electrónica es obligatoria o se eligió expresamente y no se accede a su contenido, ¿cuándo se entiende rechazada?",
+          "opciones": [
+            "5 días hábiles",
+            "15 días naturales",
+            "10 días hábiles",
+            "10 días naturales"
+          ],
+          "correcta": 3,
+          "justificacion": "El **art. 43.2 Ley 39/2015** exige que la notificación sea **obligatoria** o **elegida expresamente**. En tal caso se rechaza tras **10 días naturales** desde su puesta a disposición sin acceder, sin confundirlo con el aviso informativo del **art. 41.6**.",
+          "trampa": "La Ley establece días naturales, no días hábiles.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "10 días naturales",
+          "tema": 11,
+          "origenId": "DIP-T11-007",
+          "referenciaOriginal": "Ley 39/2015, art. 43.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43"
+        },
+        {
+          "id": "DIP-SIM-009-Q40",
+          "pregunta": "La afiliación a la Seguridad Social es:",
+          "opciones": [
+            "Opcional y anual",
+            "Única y vitalicia",
+            "Exclusiva del Régimen General",
+            "Renovable por cada empresa"
+          ],
+          "correcta": 1,
+          "justificacion": "La afiliación es obligatoria, única para todo el sistema y vitalicia, sin perjuicio de las sucesivas altas y bajas.",
+          "trampa": "Las altas y bajas pueden repetirse; la afiliación se produce una sola vez.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "Única y vitalicia",
+          "tema": 21,
+          "origenId": "DIP-T21-007",
+          "referenciaOriginal": "LG art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a15"
+        },
+        {
+          "id": "DIP-SIM-009-Q41",
+          "pregunta": "Según la Ley 39/2015, ¿en cuál de estas actuaciones se exige firma con carácter general?",
+          "opciones": [
+            "Consultar información pública",
+            "Formular una solicitud",
+            "Acceder a una página informativa",
+            "Leer una notificación"
+          ],
+          "correcta": 1,
+          "justificacion": "La formulación de solicitudes es uno de los supuestos en los que la Ley 39/2015 exige firma con carácter general.",
+          "trampa": "La mera identificación, consulta o lectura de información no implica necesariamente la exigencia de firma.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "Formular una solicitud",
+          "tema": 31,
+          "origenId": "DIP-T31-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#82-firma"
+        },
+        {
+          "id": "DIP-SIM-009-Q42",
+          "pregunta": "En GroupWise, el campo CCO sirve para:",
+          "opciones": [
+            "Enviar una copia visible",
+            "Clasificar el mensaje",
+            "Añadir un adjunto",
+            "Ocultar esos destinatarios a los demás receptores"
+          ],
+          "correcta": 3,
+          "justificacion": "Los destinatarios incluidos en el campo CCO reciben el mensaje, pero no son visibles para los demás receptores.",
+          "trampa": "El campo CC muestra sus destinatarios; el campo CCO los oculta a los demás receptores.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "Ocultar esos destinatarios a los demás receptores",
+          "tema": 33,
+          "origenId": "DIP-T33-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#11-redacción-y-envío-de-mensajes"
+        },
+        {
+          "id": "DIP-SIM-009-Q43",
+          "pregunta": "¿Qué garantía parlamentaria impide detener a un diputado o senador salvo en caso de flagrante delito?",
+          "opciones": [
+            "Inmunidad",
+            "Aforamiento",
+            "Independencia",
+            "Inviolabilidad"
+          ],
+          "correcta": 0,
+          "justificacion": "La inmunidad parlamentaria protege frente a la detención, salvo flagrante delito. La inviolabilidad se refiere a opiniones manifestadas en el ejercicio de las funciones.",
+          "trampa": "Inviolabilidad protege opiniones; inmunidad limita detención y procesamiento. Son conceptos distintos y muy preguntados.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "Inmunidad",
+          "tema": 3,
+          "origenId": "DIP-T03-008",
+          "referenciaOriginal": "CE, art. 71 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a71"
+        },
+        {
+          "id": "DIP-SIM-009-Q44",
+          "pregunta": "¿Cuál es un supuesto típico de suplencia?",
+          "opciones": [
+            "Delegación normativa",
+            "Discrepancia jurídica",
+            "Vacante, ausencia o enfermedad",
+            "Cambio de personalidad jurídica"
+          ],
+          "correcta": 2,
+          "justificacion": "La suplencia opera temporalmente en casos de vacante, ausencia, enfermedad, abstención o recusación.",
+          "trampa": "La suplencia sustituye temporalmente al titular, pero no modifica la competencia.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Vacante, ausencia o enfermedad",
+          "tema": 4,
+          "origenId": "DIP-T04-008",
+          "referenciaOriginal": "Ley 40/2015, artículo 13 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a13"
+        },
+        {
+          "id": "DIP-SIM-009-Q45",
+          "pregunta": "En una notificación en papel en el domicilio, puede hacerse cargo otra persona que se encuentre allí si es mayor de:",
+          "opciones": [
+            "12 años",
+            "18 años",
+            "16 años",
+            "14 años"
+          ],
+          "correcta": 3,
+          "justificacion": "Puede hacerse cargo de la notificación cualquier persona mayor de 14 años que se encuentre en el domicilio y haga constar su identidad.",
+          "trampa": "No se exige que la persona receptora sea mayor de edad.",
+          "referencia": "content/diputacion-toledo/tema-11/manual.md",
+          "respuestaLiteral": "14 años",
+          "tema": 11,
+          "origenId": "DIP-T11-008",
+          "referenciaOriginal": "Ley 39/2015, art. 42.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a42"
+        },
+        {
+          "id": "DIP-SIM-009-Q46",
+          "pregunta": "El órgano competente para la afiliación, altas y bajas en la Seguridad Social es:",
+          "opciones": [
+            "El INSS",
+            "El SEPE",
+            "La Tesorería General de la Seguridad Social",
+            "La Inspección de Trabajo"
+          ],
+          "correcta": 2,
+          "justificacion": "La competencia para la afiliación, las altas y las bajas corresponde a la Tesorería General de la Seguridad Social.",
+          "trampa": "El INSS gestiona prestaciones, pero no la afiliación ni las altas y bajas.",
+          "referencia": "content/diputacion-toledo/tema-21/manual.md",
+          "respuestaLiteral": "La Tesorería General de la Seguridad Social",
+          "tema": 21,
+          "origenId": "DIP-T21-008",
+          "referenciaOriginal": "LG art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a16"
+        },
+        {
+          "id": "DIP-SIM-009-Q47",
+          "pregunta": "Identificación y firma electrónica:",
+          "opciones": [
+            "Son siempre exactamente lo mismo",
+            "La identificación no implica siempre firma",
+            "La firma nunca acredita voluntad",
+            "La identificación solo puede hacerse con DNI electrónico"
+          ],
+          "correcta": 1,
+          "justificacion": "La identificación permite acreditar quién actúa; la firma añade, cuando procede, autenticidad de la voluntad y del consentimiento e integridad del documento.",
+          "trampa": "No toda actuación en la que el interesado está identificado requiere también firma.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md",
+          "respuestaLiteral": "La identificación no implica siempre firma",
+          "tema": 31,
+          "origenId": "DIP-T31-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-31/manual.md#8-uso-en-la-administración-electrónica"
+        },
+        {
+          "id": "DIP-SIM-009-Q48",
+          "pregunta": "¿Qué diferencia esencial existe entre responder y reenviar?",
+          "opciones": [
+            "Responder contesta al remitente; reenviar envía el contenido a nuevos destinatarios",
+            "Reenviar elimina el mensaje original",
+            "Responder crea siempre una reunión",
+            "No existe diferencia"
+          ],
+          "correcta": 0,
+          "justificacion": "Responder continúa el intercambio con el remitente, mientras que reenviar crea un nuevo envío del contenido a otros destinatarios.",
+          "trampa": "Responder a todos amplía el grupo de destinatarios, pero sigue siendo una respuesta y no un reenvío.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md",
+          "respuestaLiteral": "Responder contesta al remitente; reenviar envía el contenido a nuevos destinatarios",
+          "tema": 33,
+          "origenId": "DIP-T33-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-33/manual.md#12-responder-responder-a-todos-y-reenviar"
+        },
+        {
+          "id": "DIP-SIM-009-Q49",
+          "pregunta": "¿Cuál es el mínimo de miembros de cada Diputación Permanente?",
+          "opciones": [
+            "20",
+            "15",
+            "21",
+            "25"
+          ],
+          "correcta": 2,
+          "justificacion": "Cada Cámara dispone de una Diputación Permanente compuesta por un mínimo de 21 miembros, representativos de los grupos parlamentarios.",
+          "trampa": "La Constitución fija un mínimo de 21 miembros, no una composición cerrada de exactamente 21.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md",
+          "respuestaLiteral": "21",
+          "tema": 3,
+          "origenId": "DIP-T03-009",
+          "referenciaOriginal": "CE, art. 78 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a78"
+        },
+        {
+          "id": "DIP-SIM-009-Q50",
+          "pregunta": "Para la válida constitución ordinaria de un órgano colegiado se requiere:",
+          "opciones": [
+            "Presidente, secretario y al menos la mitad de sus miembros",
+            "Todos sus miembros",
+            "Solo la mitad de sus miembros",
+            "Dos tercios de sus miembros"
+          ],
+          "correcta": 0,
+          "justificacion": "La constitución válida exige la presencia del presidente y secretario, o quienes les suplan, y al menos la mitad de los miembros.",
+          "trampa": "La mitad de miembros no basta sin presidente y secretario o sus suplentes.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md",
+          "respuestaLiteral": "Presidente, secretario y al menos la mitad de sus miembros",
+          "tema": 4,
+          "origenId": "DIP-T04-009",
+          "referenciaOriginal": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
