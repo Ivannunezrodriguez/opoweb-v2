@@ -519,7 +519,7 @@
         {
           "id": "RAD-05",
           "title": "Separar notificaciones de nuevas ofertas del seguimiento personal",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Probar filtro newOnly y seguimiento con casos reales; no enviar listas de admitidos como convocatoria nueva; respetar compatibilidad real de titulación.",
           "evidencePaths": [
             "data/radar-profile.json",
@@ -539,13 +539,10 @@
             "24/11/2026: feed 1440; revisión de diez referencias BOE con entradas múltiples (24343,23040,22826,21908,21575,20942,20430,20438,20174,19875). Todas las entradas muestreadas isNew=false. No son diez expedientes duplicados entre fuentes: contienen puestos/turnos legítimos. Identidad cruzada incorpora turno, régimen y especialidad explícitos, protege plazas iguales de turnos distintos. Clave histórica ambigua conserva supresión de reenvío automático; pruebas añadidas. No modifica ledger ni activa envíos.",
             "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas.",
             "24/11/2026: añadido previewReview exclusivamente diagnóstico, separado del selector de plazo abierto. Exige antigüedad <=21 días, documento LEIDO, puesto accionable, estado REVISAR, regla de plazo con días/unidad/boletín identificado, URL específica BOE/BOP Toledo/DOCM, sin conflictos ni seguimiento/OEP; comparte identidad y supresión de ledger. Dry-run muestra reviewCandidateCount/reviewIds y reviewDeliveryEnabled=false. Doce aserciones nuevas incorporadas; no se modifica entrega real ni ledger.",
-            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real."
+            "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
+            "25/11/2026: cierre de criterio original de filtrado y seguimiento. Filtro de nuevas notificaciones y exclusión de seguimiento verificados mediante selector real en CI SUCCESS 45585123858, 25/11 09:24 UTC, snapshot 24/11: 1449 registros, 84 fases excluidas, 13 clasificados incompatibles excluidos, 0 candidatos de envío y 9 de revisión diagnóstica, ledger 0. Casos de listas de admitidos/excluidos cubiertos por regresión sintética (0 listas en muestra real); casos de Olías y titulación Polán por pruebas focales. No se envió correo ni se modificó ledger. Cierre del mecanismo de filtrado; no certifica elegibilidad de cada ficha, entrega real ni cobertura global. RAD-09/12/13 conservan alcances independientes."
           ],
-          "remainingSubsteps": [
-            "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
-            "Confirmar ejecución CI completa y pruebas de notificación sin envío real; revisar ventana y calidad de fuentes."
-          ],
-          "nextAction": "Confirmar CI, actualizar ficha Polán a partir de bases oficiales mediante mecanismo reproducible y ejecutar dry-run sobre feed real, excluyendo titulación universitaria acreditada. No activar revisión automática hasta validar candidatos."
+          "closureScope": "Filtro de nuevas notificaciones y exclusión de seguimiento verificados mediante selector real en CI SUCCESS 45585123858, 25/11 09:24 UTC, snapshot 24/11: 1449 registros, 84 fases excluidas, 13 clasificados incompatibles excluidos, 0 candidatos de envío y 9 de revisión diagnóstica, ledger 0. Casos de listas de admitidos/excluidos cubiertos por regresión sintética (0 listas en muestra real); casos de Olías y titulación Polán por pruebas focales. No se envió correo ni se modificó ledger. Cierre del mecanismo de filtrado; no certifica elegibilidad de cada ficha, entrega real ni cobertura global. RAD-09/12/13 conservan alcances independientes."
         },
         {
           "id": "RAD-06",
@@ -3156,6 +3153,17 @@
       "summary": "Cierre del muestreo de calidad Radar con cotejo oficial y contraste ejecutado sobre feed real.",
       "evidence": [],
       "limit": "Muestreo histórico con contraste posterior, no cobertura ni frescura completa. No cerrar RAD-05/09/12/13 por estas pruebas parciales."
+    },
+    {
+      "id": "LOG-20261125-RAD05-CIERRE",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-05"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre del filtro de notificaciones con regresiones y selector real sobre 1449 registros, sin envío.",
+      "evidence": [],
+      "limit": "0 listas de admitidos/excluidos en muestra real; regresión sintética específica superada. 9 revisiones diagnósticas no enviadas; 0 candidatos automáticos. No certifica entrega efectiva ni elegibilidad jurídica individual."
     }
   ],
   "decisions": [
@@ -3251,7 +3259,6 @@
           "RAD-02",
           "RAD-09",
           "RAD-12",
-          "RAD-05",
           "RAD-13",
           "JCCM-2026-01",
           "RAD-JCCM-2026",
@@ -3317,6 +3324,10 @@
       {
         "id": "RAD-04",
         "scope": "Muestreo documental de diez anuncios BOE fechado 22/11/2026, clasificaciones, plazos y cautelas con URLs individuales; contraste CI ejecutado 25/11/2026 09:19 UTC sobre snapshot 24/11 de 1449 registros: 7 coincidencias directas, 3 sin referencia directa, 3 referencias con múltiples entradas. Pruebas de cotejo, separación de fases y auditoría operativa SUCCESS 45584310904. No equivale a cobertura global ni lectura íntegra de bases. Requisitos y fallos de extracción permanecen RAD-09 y RAD-12; deduplicación RAD-13; notificaciones RAD-05."
+      },
+      {
+        "id": "RAD-05",
+        "scope": "Filtro de nuevas notificaciones y exclusión de seguimiento verificados mediante selector real en CI SUCCESS 45585123858, 25/11 09:24 UTC, snapshot 24/11: 1449 registros, 84 fases excluidas, 13 clasificados incompatibles excluidos, 0 candidatos de envío y 9 de revisión diagnóstica, ledger 0. Casos de listas de admitidos/excluidos cubiertos por regresión sintética (0 listas en muestra real); casos de Olías y titulación Polán por pruebas focales. No se envió correo ni se modificó ledger. Cierre del mecanismo de filtrado; no certifica elegibilidad de cada ficha, entrega real ni cobertura global. RAD-09/12/13 conservan alcances independientes."
       }
     ],
     "sourceSnapshot": {
@@ -3354,5 +3365,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:21:32.000Z"
+  "updatedAtUtc": "2026-11-25T09:25:41.000Z"
 }
