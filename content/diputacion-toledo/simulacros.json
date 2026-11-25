@@ -7588,9 +7588,918 @@
           "referenciaOriginal": "Ley 7/1985 LRBRL, art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a3"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-013",
+      "titulo": "Simulacro 13 · Procedimiento, municipio, carrera profesional, presupuestos, Writer y hardware",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-013-Q01",
+          "pregunta": "¿Qué sucede si el último día de un plazo es inhábil?",
+          "opciones": [
+            "Se adelanta al día hábil anterior",
+            "El plazo vence igualmente",
+            "Se prorroga al primer día hábil siguiente",
+            "Se amplía automáticamente una semana"
+          ],
+          "correcta": 2,
+          "justificacion": "Cuando el último día del plazo sea inhábil, se entiende prorrogado al primer día hábil siguiente.",
+          "trampa": "La regla es prórroga hacia delante, no adelanto al día hábil anterior.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Se prorroga al primer día hábil siguiente",
+          "tema": 5,
+          "origenId": "DIP-T05-008",
+          "referenciaOriginal": "Ley 39/2015, artículo 30 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30"
+        },
+        {
+          "id": "DIP-SIM-013-Q02",
+          "pregunta": "¿En qué municipios existe obligatoriamente Junta de Gobierno Local como regla general?",
+          "opciones": [
+            "En los de más de 5.000 habitantes",
+            "Solo en capitales de provincia",
+            "En todos",
+            "En los de más de 20.000 habitantes"
+          ],
+          "correcta": 0,
+          "justificacion": "La Junta de Gobierno Local existe obligatoriamente en los municipios de más de 5.000 habitantes y también en los de menor población cuando lo disponga el reglamento orgánico o lo acuerde el pleno.",
+          "trampa": "**Más de 5.000** exige Junta de Gobierno Local; con menos puede existir por reglamento orgánico o decisión del **Pleno**.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "En los de más de 5.000 habitantes",
+          "tema": 13,
+          "origenId": "DIP-T13-006",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a20"
+        },
+        {
+          "id": "DIP-SIM-013-Q03",
+          "pregunta": "La evaluación del desempeño puede producir efectos en:",
+          "opciones": [
+            "Carrera, formación, provisión y determinadas retribuciones",
+            "Únicamente la antigüedad",
+            "Solo el régimen disciplinario",
+            "Solo la jornada"
+          ],
+          "correcta": 0,
+          "justificacion": "La evaluación del desempeño puede producir efectos en la carrera horizontal, la formación, la provisión de puestos y determinadas retribuciones complementarias.",
+          "trampa": "La evaluación del desempeño no es una sanción disciplinaria.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "Carrera, formación, provisión y determinadas retribuciones",
+          "tema": 18,
+          "origenId": "DIP-T18-006",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 66 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a66"
+        },
+        {
+          "id": "DIP-SIM-013-Q04",
+          "pregunta": "La exposición pública del presupuesto inicialmente aprobado dura:",
+          "opciones": [
+            "10 días",
+            "20 días",
+            "1 mes",
+            "15 días"
+          ],
+          "correcta": 3,
+          "justificacion": "Tras la aprobación inicial, el presupuesto general se expone al público durante 15 días, previo anuncio en el Boletín Oficial de la Provincia.",
+          "trampa": "El plazo de 1 mes corresponde a la resolución de reclamaciones por el Pleno.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "15 días",
+          "tema": 27,
+          "origenId": "DIP-T27-007",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q05",
+          "pregunta": "Según la guía oficial española LibreOffice 24.8 (Windows), ¿qué combinación aplica negrita?",
+          "opciones": [
+            "Ctrl + G",
+            "Ctrl + N",
+            "Ctrl + S",
+            "Ctrl + U"
+          ],
+          "correcta": 1,
+          "justificacion": "La Guía de iniciación 24.8, Apéndice A, tabla de edición, indica **Ctrl+N** para negrita en Windows/Linux.",
+          "trampa": "Los atajos internacionales de LibreOffice pueden usar **Ctrl+B**; hay que atender a la versión e idioma del enunciado.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "Ctrl + N",
+          "tema": 35,
+          "origenId": "DIP-T35-007",
+          "referenciaOriginal": "LibreOffice 24.8, Guía de iniciación, apéndice A · https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
+        },
+        {
+          "id": "DIP-SIM-013-Q06",
+          "pregunta": "¿Cuál es la función principal de la CPU?",
+          "opciones": [
+            "Almacenar permanentemente archivos",
+            "Ejecutar instrucciones y coordinar operaciones",
+            "Suministrar energía eléctrica",
+            "Mostrar imágenes en pantalla"
+          ],
+          "correcta": 1,
+          "justificacion": "La CPU interpreta y ejecuta instrucciones y coordina gran parte del funcionamiento del sistema.",
+          "trampa": "No debe confundirse la función de procesamiento de la CPU con el almacenamiento permanente, la alimentación eléctrica o la salida de imagen.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "Ejecutar instrucciones y coordinar operaciones",
+          "tema": 39,
+          "origenId": "DIP-T39-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#4-unidad-central-de-proceso"
+        },
+        {
+          "id": "DIP-SIM-013-Q07",
+          "pregunta": "¿Cuál es el límite de la ampliación ordinaria de un plazo?",
+          "opciones": [
+            "La mitad",
+            "El doble",
+            "No existe límite",
+            "Una cuarta parte"
+          ],
+          "correcta": 0,
+          "justificacion": "La ampliación no puede exceder de la mitad del plazo inicial y debe acordarse antes de su vencimiento.",
+          "trampa": "La ampliación ordinaria del artículo 32 no es lo mismo que la ampliación del plazo máximo para resolver del artículo 23.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "La mitad",
+          "tema": 5,
+          "origenId": "DIP-T05-009",
+          "referenciaOriginal": "Ley 39/2015, artículo 32 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a32"
+        },
+        {
+          "id": "DIP-SIM-013-Q08",
+          "pregunta": "¿Quién integra el pleno municipal?",
+          "opciones": [
+            "Todos los concejales, presididos por el alcalde",
+            "Solo los portavoces de grupo",
+            "La Junta de Gobierno Local",
+            "El alcalde y los tenientes de alcalde"
+          ],
+          "correcta": 0,
+          "justificacion": "El pleno municipal está integrado por todos los concejales y es presidido por el alcalde.",
+          "trampa": "No debe confundirse la composición del pleno con la de la Junta de Gobierno Local.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "Todos los concejales, presididos por el alcalde",
+          "tema": 13,
+          "origenId": "DIP-T13-007",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a22"
+        },
+        {
+          "id": "DIP-SIM-013-Q09",
+          "pregunta": "¿Cuál de los siguientes es un derecho de ejercicio colectivo?",
+          "opciones": [
+            "La formación continua",
+            "La negociación colectiva",
+            "La defensa jurídica",
+            "La protección de la salud"
+          ],
+          "correcta": 1,
+          "justificacion": "La negociación colectiva es un derecho individual ejercido colectivamente por el personal empleado público.",
+          "trampa": "La formación continua, la defensa jurídica y la protección de la salud son derechos individuales.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "La negociación colectiva",
+          "tema": 18,
+          "origenId": "DIP-T18-007",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a97"
+        },
+        {
+          "id": "DIP-SIM-013-Q10",
+          "pregunta": "Si durante la exposición pública no se presentan reclamaciones:",
+          "opciones": [
+            "El presupuesto queda anulado",
+            "Se considera definitivamente aprobado",
+            "Debe celebrarse obligatoriamente otro Pleno",
+            "Se prorroga el presupuesto anterior"
+          ],
+          "correcta": 1,
+          "justificacion": "Si durante el plazo de exposición pública no se presentan reclamaciones, la aprobación inicial se eleva automáticamente a definitiva.",
+          "trampa": "No es necesario un nuevo acuerdo expreso del Pleno cuando no se presentan reclamaciones.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "Se considera definitivamente aprobado",
+          "tema": 27,
+          "origenId": "DIP-T27-008",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q11",
+          "pregunta": "Para que un sumario automático reconozca correctamente los apartados deben utilizarse principalmente:",
+          "opciones": [
+            "Espacios y tabulaciones",
+            "Solo negrita y tamaño grande",
+            "Cuadros de texto",
+            "Estilos de título"
+          ],
+          "correcta": 3,
+          "justificacion": "Los sumarios automáticos se generan a partir de la estructura del documento definida mediante estilos de título.",
+          "trampa": "Aplicar únicamente negrita o un tamaño de letra grande no convierte un texto en un título estructural.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "Estilos de título",
+          "tema": 35,
+          "origenId": "DIP-T35-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-35/manual.md#15-campos-índices-y-combinación-de-correspondencia"
+        },
+        {
+          "id": "DIP-SIM-013-Q12",
+          "pregunta": "¿Qué característica define normalmente a la memoria RAM?",
+          "opciones": [
+            "Solo puede leerse",
+            "Es no volátil",
+            "Es memoria volátil de trabajo",
+            "Es un periférico de salida"
+          ],
+          "correcta": 2,
+          "justificacion": "La memoria RAM almacena temporalmente los programas y datos activos y normalmente pierde su contenido al apagar el equipo.",
+          "trampa": "La persistencia de la información corresponde al almacenamiento no volátil, como SSD o HDD, no a la RAM.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "Es memoria volátil de trabajo",
+          "tema": 39,
+          "origenId": "DIP-T39-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#51-memoria-ram"
+        },
+        {
+          "id": "DIP-SIM-013-Q13",
+          "pregunta": "En la tramitación de urgencia, ¿qué plazos no se reducen a la mitad?",
+          "opciones": [
+            "Los de presentación de solicitudes y recursos",
+            "Los de prueba e informes",
+            "Los de audiencia",
+            "Todos se reducen"
+          ],
+          "correcta": 0,
+          "justificacion": "La urgencia reduce los plazos a la mitad salvo los relativos a la presentación de solicitudes y recursos.",
+          "trampa": "Es una excepción expresa y muy habitual en test.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Los de presentación de solicitudes y recursos",
+          "tema": 5,
+          "origenId": "DIP-T05-010",
+          "referenciaOriginal": "Ley 39/2015, artículo 33 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a33"
+        },
+        {
+          "id": "DIP-SIM-013-Q14",
+          "pregunta": "¿Cuál es el número máximo de concejales que pueden integrar la Junta de Gobierno Local, además del alcalde?",
+          "opciones": [
+            "La mitad del número legal de miembros",
+            "Un tercio del número legal de miembros",
+            "Una cuarta parte del número legal de miembros",
+            "Cinco concejales"
+          ],
+          "correcta": 1,
+          "justificacion": "La Junta de Gobierno Local está integrada por el alcalde y un número de concejales no superior a un tercio del número legal de miembros de la corporación.",
+          "trampa": "El límite es un tercio, no la mitad del número legal de miembros.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "Un tercio del número legal de miembros",
+          "tema": 13,
+          "origenId": "DIP-T13-008",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 23 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a23"
+        },
+        {
+          "id": "DIP-SIM-013-Q15",
+          "pregunta": "Ante una orden manifiestamente contraria al ordenamiento jurídico, el personal empleado público:",
+          "opciones": [
+            "Debe obedecerla siempre",
+            "Debe obedecerla si es verbal",
+            "Solo puede negarse con autorización judicial",
+            "No tiene deber de obedecerla"
+          ],
+          "correcta": 3,
+          "justificacion": "El deber de obediencia alcanza las instrucciones y órdenes profesionales legítimas, pero no las manifiestamente contrarias al ordenamiento jurídico.",
+          "trampa": "El principio de jerarquía no ampara el cumplimiento de una orden manifiestamente ilegal.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "No tiene deber de obedecerla",
+          "tema": 18,
+          "origenId": "DIP-T18-008",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 100 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a100"
+        },
+        {
+          "id": "DIP-SIM-013-Q16",
+          "pregunta": "Si se presentan reclamaciones, el Pleno dispone para resolverlas de:",
+          "opciones": [
+            "10 días",
+            "1 mes",
+            "15 días",
+            "3 meses"
+          ],
+          "correcta": 1,
+          "justificacion": "Cuando se presentan reclamaciones, el Pleno dispone de 1 mes para resolverlas.",
+          "trampa": "No debe confundirse este plazo con los 15 días de exposición pública.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "1 mes",
+          "tema": 27,
+          "origenId": "DIP-T27-009",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q17",
+          "pregunta": "¿Qué atajo abre Buscar y reemplazar?",
+          "opciones": [
+            "Ctrl + F",
+            "Ctrl + H",
+            "Ctrl + R",
+            "Ctrl + Mayús + F"
+          ],
+          "correcta": 1,
+          "justificacion": "La combinación Ctrl + H abre el diálogo Buscar y reemplazar en LibreOffice Writer.",
+          "trampa": "Ctrl + F realiza una búsqueda simple, pero no abre directamente las opciones de reemplazo.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "Ctrl + H",
+          "tema": 35,
+          "origenId": "DIP-T35-009",
+          "referenciaOriginal": "content/diputacion-toledo/tema-35/manual.md#13-búsqueda-y-sustitución"
+        },
+        {
+          "id": "DIP-SIM-013-Q18",
+          "pregunta": "Un byte está formado por:",
+          "opciones": [
+            "2 bits",
+            "16 bits",
+            "4 bits",
+            "8 bits"
+          ],
+          "correcta": 3,
+          "justificacion": "Un byte está formado por 8 bits.",
+          "trampa": "No debe confundirse bit con byte ni las abreviaturas Mb, megabits, y MB, megabytes.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "8 bits",
+          "tema": 39,
+          "origenId": "DIP-T39-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#14-unidades-de-información"
+        },
+        {
+          "id": "DIP-SIM-013-Q19",
+          "pregunta": "¿Cuándo puede ser obligatoria una comparecencia ante la Administración?",
+          "opciones": [
+            "Solo cuando lo prevea una norma con rango de ley",
+            "Cuando lo solicite cualquier tercero",
+            "Siempre que lo ordene verbalmente un funcionario",
+            "Nunca puede ser obligatoria"
+          ],
+          "correcta": 0,
+          "justificacion": "La comparecencia solo es obligatoria cuando esté prevista en una norma con rango de ley.",
+          "trampa": "Una instrucción interna o reglamento por sí solos no bastan para imponer comparecencia obligatoria.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Solo cuando lo prevea una norma con rango de ley",
+          "tema": 5,
+          "origenId": "DIP-T05-011",
+          "referenciaOriginal": "Ley 39/2015, artículo 19 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a19"
+        },
+        {
+          "id": "DIP-SIM-013-Q20",
+          "pregunta": "¿Qué servicio se añade para los municipios de más de 5.000 habitantes?",
+          "opciones": [
+            "Transporte colectivo urbano",
+            "Biblioteca pública",
+            "Protección civil",
+            "Prevención y extinción de incendios"
+          ],
+          "correcta": 1,
+          "justificacion": "Los municipios de más de 5.000 habitantes deben prestar, además de los servicios exigidos a todos, parque público, biblioteca pública y tratamiento de residuos.",
+          "trampa": "El transporte colectivo urbano corresponde al umbral de más de 50.000 habitantes.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "Biblioteca pública",
+          "tema": 13,
+          "origenId": "DIP-T13-009",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26"
+        },
+        {
+          "id": "DIP-SIM-013-Q21",
+          "pregunta": "¿Qué situación corresponde al desempeño efectivo de un puesto en otra Administración pública?",
+          "opciones": [
+            "Servicios especiales",
+            "Servicio en otras Administraciones públicas",
+            "Excedencia voluntaria",
+            "Suspensión provisional"
+          ],
+          "correcta": 1,
+          "justificacion": "La situación administrativa específica para el desempeño efectivo de un puesto en otra Administración es la de servicio en otras Administraciones públicas.",
+          "trampa": "Los servicios especiales se reservan para cargos y funciones públicas expresamente enumerados por la ley.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "Servicio en otras Administraciones públicas",
+          "tema": 18,
+          "origenId": "DIP-T18-009",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a116"
+        },
+        {
+          "id": "DIP-SIM-013-Q22",
+          "pregunta": "La aprobación definitiva del presupuesto general debe realizarse antes del:",
+          "opciones": [
+            "15 de octubre",
+            "31 de diciembre del año anterior",
+            "30 de noviembre",
+            "31 de enero del ejercicio"
+          ],
+          "correcta": 1,
+          "justificacion": "La aprobación definitiva del presupuesto general debe realizarse antes del 31 de diciembre del año anterior al ejercicio en que deba aplicarse.",
+          "trampa": "La aprobación definitiva no basta para la entrada en vigor; también es necesaria la publicación legal.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "31 de diciembre del año anterior",
+          "tema": 27,
+          "origenId": "DIP-T27-010",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q23",
+          "pregunta": "La combinación de correspondencia utiliza:",
+          "opciones": [
+            "Solo un documento vacío",
+            "Exclusivamente una hoja de cálculo sin documento",
+            "Documento principal, fuente de datos y campos de combinación",
+            "Únicamente imágenes"
+          ],
+          "correcta": 2,
+          "justificacion": "La combinación de correspondencia integra un documento principal, una fuente de datos y campos de combinación para generar documentos personalizados.",
+          "trampa": "La fuente de datos aporta la información variable, pero no sustituye al documento principal.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "Documento principal, fuente de datos y campos de combinación",
+          "tema": 35,
+          "origenId": "DIP-T35-010",
+          "referenciaOriginal": "content/diputacion-toledo/tema-35/manual.md#15-campos-índices-y-combinación-de-correspondencia"
+        },
+        {
+          "id": "DIP-SIM-013-Q24",
+          "pregunta": "¿Cuál de las siguientes afirmaciones sobre M.2 y NVMe es correcta?",
+          "opciones": [
+            "Son exactamente el mismo concepto",
+            "M.2 es un protocolo y NVMe un conector",
+            "Todo dispositivo M.2 es necesariamente SATA",
+            "M.2 es un formato y NVMe un protocolo"
+          ],
+          "correcta": 3,
+          "justificacion": "M.2 describe un formato físico, mientras que NVMe es un protocolo optimizado para almacenamiento sobre PCI Express.",
+          "trampa": "Un dispositivo M.2 puede utilizar SATA o PCIe/NVMe; formato físico y protocolo no son conceptos equivalentes.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "M.2 es un formato y NVMe un protocolo",
+          "tema": 39,
+          "origenId": "DIP-T39-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#63-interfaces-y-formatos"
+        },
+        {
+          "id": "DIP-SIM-013-Q25",
+          "pregunta": "¿Durante cuánto tiempo puede suspenderse como máximo el plazo para resolver por solicitud de un informe preceptivo?",
+          "opciones": [
+            "Un mes",
+            "Dos meses",
+            "Tres meses",
+            "Seis meses"
+          ],
+          "correcta": 2,
+          "justificacion": "La suspensión por solicitud de informes preceptivos no puede exceder de tres meses.",
+          "trampa": "Transcurridos tres meses sin informe, el procedimiento continúa, sin perjuicio de la responsabilidad por la demora.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Tres meses",
+          "tema": 5,
+          "origenId": "DIP-T05-012",
+          "referenciaOriginal": "Ley 39/2015, artículo 22 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a22"
+        },
+        {
+          "id": "DIP-SIM-013-Q26",
+          "pregunta": "¿Antes de qué fecha debe el presidente remitir el proyecto de presupuesto al pleno?",
+          "opciones": [
+            "15 de octubre",
+            "1 de octubre",
+            "1 de noviembre",
+            "31 de diciembre"
+          ],
+          "correcta": 0,
+          "justificacion": "El presidente de la entidad debe remitir el proyecto de presupuesto al pleno antes del 15 de octubre para su aprobación, enmienda o devolución.",
+          "trampa": "El **Presidente** remite presupuesto al **Pleno antes del 15 de octubre**; no es el plazo de exposición.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "15 de octubre",
+          "tema": 13,
+          "origenId": "DIP-T13-010",
+          "referenciaOriginal": "TRLRHL RDL 2/2004, art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168"
+        },
+        {
+          "id": "DIP-SIM-013-Q27",
+          "pregunta": "La suspensión provisional de funciones tiene naturaleza:",
+          "opciones": [
+            "Retributiva",
+            "Premial",
+            "Definitiva",
+            "Cautelar"
+          ],
+          "correcta": 3,
+          "justificacion": "La suspensión provisional es una medida cautelar que puede adoptarse durante la tramitación de un procedimiento penal o disciplinario.",
+          "trampa": "La suspensión firme deriva de una sentencia penal o de una sanción disciplinaria, mientras que la provisional es cautelar.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "Cautelar",
+          "tema": 18,
+          "origenId": "DIP-T18-010",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a125"
+        },
+        {
+          "id": "DIP-SIM-013-Q28",
+          "pregunta": "Si el nuevo presupuesto no ha entrado en vigor al comenzar el ejercicio:",
+          "opciones": [
+            "Se paraliza toda actividad económica",
+            "Se prorroga automáticamente el presupuesto anterior",
+            "Decide libremente la Intervención",
+            "Se aplica el proyecto no aprobado"
+          ],
+          "correcta": 1,
+          "justificacion": "Si al comenzar el ejercicio no ha entrado en vigor el nuevo presupuesto, se considera automáticamente prorrogado el presupuesto anterior hasta la entrada en vigor del nuevo.",
+          "trampa": "La prórroga no requiere acuerdo expreso y no alcanza a todos los créditos sin excepción.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "Se prorroga automáticamente el presupuesto anterior",
+          "tema": 27,
+          "origenId": "DIP-T27-011",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q29",
+          "pregunta": "¿Qué afirmación sobre exportar a PDF es correcta?",
+          "opciones": [
+            "Elimina siempre el ODT original",
+            "Convierte el PDF en plantilla",
+            "Equivale a imprimir en papel",
+            "Genera un archivo de distribución sin sustituir necesariamente el original editable"
+          ],
+          "correcta": 3,
+          "justificacion": "Exportar a PDF genera un archivo destinado a lectura o distribución y no sustituye necesariamente al documento editable original.",
+          "trampa": "Exportar a PDF no es lo mismo que guardar en el formato nativo ODT ni que imprimir en papel.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "Genera un archivo de distribución sin sustituir necesariamente el original editable",
+          "tema": 35,
+          "origenId": "DIP-T35-011",
+          "referenciaOriginal": "content/diputacion-toledo/tema-35/manual.md#16-impresión-y-exportación"
+        },
+        {
+          "id": "DIP-SIM-013-Q30",
+          "pregunta": "¿Qué componente interconecta los principales elementos internos del ordenador?",
+          "opciones": [
+            "El monitor",
+            "La placa base",
+            "La impresora",
+            "El teclado"
+          ],
+          "correcta": 1,
+          "justificacion": "La placa base contiene los zócalos, ranuras, buses y conectores que permiten comunicar y coordinar los principales componentes internos.",
+          "trampa": "La caja aloja físicamente los componentes, pero no realiza por sí misma su interconexión lógica y eléctrica.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "La placa base",
+          "tema": 39,
+          "origenId": "DIP-T39-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#3-la-placa-base"
+        },
+        {
+          "id": "DIP-SIM-013-Q31",
+          "pregunta": "¿Quién tiene la condición de interesado sin haber iniciado el procedimiento?",
+          "opciones": [
+            "Quien tenga derechos que puedan resultar afectados por la decisión",
+            "Cualquier ciudadano que lea el anuncio",
+            "Solo quien presente la solicitud inicial",
+            "Solo el representante de la Administración"
+          ],
+          "correcta": 0,
+          "justificacion": "Pueden ser interesados quienes, sin iniciar el procedimiento, tengan derechos que puedan resultar afectados.",
+          "trampa": "Interesado **art. 4.1.b**: quien no inició, pero tiene **derechos que pueden resultar afectados**. La mera publicidad no basta.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Quien tenga derechos que puedan resultar afectados por la decisión",
+          "tema": 5,
+          "origenId": "DIP-T05-013",
+          "referenciaOriginal": "Ley 39/2015, artículo 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a4"
+        },
+        {
+          "id": "DIP-SIM-013-Q32",
+          "pregunta": "¿Durante cuánto tiempo se expone al público el presupuesto aprobado inicialmente?",
+          "opciones": [
+            "20 días",
+            "10 días",
+            "15 días",
+            "1 mes"
+          ],
+          "correcta": 2,
+          "justificacion": "El presupuesto aprobado inicialmente se expone al público durante 15 días, plazo en el que los interesados pueden examinarlo y presentar reclamaciones.",
+          "trampa": "**15 días** de exposición del presupuesto; si hay reclamaciones **Pleno** dispone de **un mes** para resolver.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "15 días",
+          "tema": 13,
+          "origenId": "DIP-T13-011",
+          "referenciaOriginal": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q33",
+          "pregunta": "La movilidad por violencia de género debe garantizar especialmente:",
+          "opciones": [
+            "La publicidad del nuevo destino",
+            "La libre designación del puesto",
+            "La intimidad y los datos personales de la víctima",
+            "La pérdida de antigüedad"
+          ],
+          "correcta": 2,
+          "justificacion": "La movilidad por violencia de género debe garantizar especialmente la protección de la intimidad y de los datos personales de la víctima.",
+          "trampa": "La protección de la víctima exige confidencialidad, no publicidad de su nuevo destino.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "La intimidad y los datos personales de la víctima",
+          "tema": 18,
+          "origenId": "DIP-T18-011",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 77 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a77"
+        },
+        {
+          "id": "DIP-SIM-013-Q34",
+          "pregunta": "¿Qué créditos no quedan afectados por la prórroga presupuestaria?",
+          "opciones": [
+            "Todos los créditos de personal",
+            "Los destinados a programas que debían concluir o financiados con ingresos específicos o afectados",
+            "Todos los gastos corrientes",
+            "Los créditos iniciales ordinarios"
+          ],
+          "correcta": 1,
+          "justificacion": "No se prorrogan los créditos destinados a servicios o programas que debían concluir en el ejercicio anterior ni los financiados con crédito específico o con ingresos específicos o afectados.",
+          "trampa": "La prórroga presupuestaria no reproduce íntegramente el presupuesto anterior.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "Los destinados a programas que debían concluir o financiados con ingresos específicos o afectados",
+          "tema": 27,
+          "origenId": "DIP-T27-012",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q35",
+          "pregunta": "Para insertar numeración automática en un pie de página debe emplearse:",
+          "opciones": [
+            "Una nota al pie",
+            "Un número escrito manualmente",
+            "Una viñeta",
+            "El campo Número de página"
+          ],
+          "correcta": 3,
+          "justificacion": "El campo Número de página se actualiza automáticamente según la posición de cada página en el documento.",
+          "trampa": "Escribir manualmente el número 1 en el pie repetiría el mismo valor y no generaría numeración automática.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "El campo Número de página",
+          "tema": 35,
+          "origenId": "DIP-T35-012",
+          "referenciaOriginal": "content/diputacion-toledo/tema-35/manual.md#12-encabezados-pies-y-numeración"
+        },
+        {
+          "id": "DIP-SIM-013-Q36",
+          "pregunta": "¿Qué afirmación sobre USB-C es correcta?",
+          "opciones": [
+            "Garantiza siempre USB4",
+            "Solo sirve para cargar",
+            "Describe principalmente la forma del conector",
+            "No puede transportar vídeo"
+          ],
+          "correcta": 2,
+          "justificacion": "USB-C describe principalmente el formato físico del conector; las velocidades, la potencia y las capacidades de vídeo dependen de la implementación concreta.",
+          "trampa": "El tipo de conector, el protocolo utilizado y las prestaciones disponibles no son equivalentes.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "Describe principalmente la forma del conector",
+          "tema": 39,
+          "origenId": "DIP-T39-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#101-usb"
+        },
+        {
+          "id": "DIP-SIM-013-Q37",
+          "pregunta": "¿Qué valor tienen los documentos presentados en una oficina de asistencia en materia de registros tras su digitalización?",
+          "opciones": [
+            "Solo valen si se presenta nuevamente el original en papel",
+            "Se destruyen siempre los originales sin excepción",
+            "Se admiten únicamente si son documentos notariales",
+            "Se incorporan al expediente administrativo electrónico, devolviéndose los originales, salvo excepciones legales"
+          ],
+          "correcta": 3,
+          "justificacion": "El **artículo 16.5 de la Ley 39/2015** exige digitalizar los documentos presentados presencialmente para incorporarlos al expediente electrónico, devolviendo los originales salvo los supuestos en que una norma determine su custodia o documentos que no puedan digitalizarse.",
+          "trampa": "**Art. 16.5**: la oficina **digitaliza** la documentación y devuelve originales, salvo las excepciones legalmente previstas.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Se incorporan al expediente administrativo electrónico, devolviéndose los originales, salvo excepciones legales",
+          "tema": 5,
+          "origenId": "DIP-T05-014",
+          "referenciaOriginal": "Ley 39/2015, artículo 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a16"
+        },
+        {
+          "id": "DIP-SIM-013-Q38",
+          "pregunta": "¿Qué ocurre si el nuevo presupuesto no ha entrado en vigor al comenzar el ejercicio?",
+          "opciones": [
+            "Queda suspendida toda ejecución de gasto",
+            "Se aplica el presupuesto estatal",
+            "Debe aprobarlo provisionalmente el alcalde",
+            "Se prorroga automáticamente el anterior con los ajustes legales"
+          ],
+          "correcta": 3,
+          "justificacion": "Si al comenzar el ejercicio no hubiera entrado en vigor el nuevo presupuesto, se considera automáticamente prorrogado el del ejercicio anterior con los ajustes legalmente exigidos.",
+          "trampa": "La prórroga no significa que todos los créditos se mantengan sin modificación.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "Se prorroga automáticamente el anterior con los ajustes legales",
+          "tema": 13,
+          "origenId": "DIP-T13-012",
+          "referenciaOriginal": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+        },
+        {
+          "id": "DIP-SIM-013-Q39",
+          "pregunta": "El reingreso al servicio activo puede producirse, cuando legalmente proceda, mediante:",
+          "opciones": [
+            "Adscripción provisional",
+            "Nombramiento eventual",
+            "Contrato menor",
+            "Delegación de firma"
+          ],
+          "correcta": 0,
+          "justificacion": "El reingreso al servicio activo puede producirse mediante participación en convocatorias de provisión o mediante adscripción provisional cuando legalmente proceda.",
+          "trampa": "La adscripción provisional es una técnica de provisión; las demás opciones son figuras ajenas al reingreso del personal funcionario.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "Adscripción provisional",
+          "tema": 18,
+          "origenId": "DIP-T18-012",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 126 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a126"
+        },
+        {
+          "id": "DIP-SIM-013-Q40",
+          "pregunta": "¿Qué documento debe acompañar al presupuesto de la propia entidad local conforme al artículo 168.1.c TRLRHL?",
+          "opciones": [
+            "El anexo de personal de la entidad local",
+            "Las cuentas particulares de los vecinos",
+            "La sentencia del último proceso selectivo",
+            "El informe de la Comisión Europea sobre aranceles"
+          ],
+          "correcta": 0,
+          "justificacion": "**TRLRHL art. 168.1.c**: acompaña al proyecto de presupuesto un **anexo de personal** de la entidad local.",
+          "trampa": "**Anexo de personal** es documentación preparatoria; no sustituye al **informe de Intervención**.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "El anexo de personal de la entidad local",
+          "tema": 27,
+          "origenId": "DIP-T27-013",
+          "referenciaOriginal": "TRLRHL, art. 168.1.c · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168"
+        },
+        {
+          "id": "DIP-SIM-013-Q41",
+          "pregunta": "¿Qué inserta Ctrl + Intro en Writer para Windows?",
+          "opciones": [
+            "Una tabla",
+            "Una nota al pie",
+            "Un salto de página manual",
+            "Un salto de sección automático"
+          ],
+          "correcta": 2,
+          "justificacion": "Inserta un **salto de página manual**, sin cambiar necesariamente el estilo de página.",
+          "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "Un salto de página manual",
+          "tema": 35,
+          "origenId": "DIP-T35-013",
+          "referenciaOriginal": "https://help.libreoffice.org/latest/es/text/swriter/guide/page_break.html"
+        },
+        {
+          "id": "DIP-SIM-013-Q42",
+          "pregunta": "¿Qué hace la memoria virtual?",
+          "opciones": [
+            "Elimina la necesidad de sistema operativo",
+            "Sustituye físicamente la CPU",
+            "Convierte HDD en memoria caché L1",
+            "Utiliza almacenamiento como apoyo a la RAM"
+          ],
+          "correcta": 3,
+          "justificacion": "La memoria virtual utiliza espacio de almacenamiento como apoyo para complementar la memoria RAM disponible.",
+          "trampa": "Es más lenta que la RAM y no equivale a instalar físicamente más memoria principal.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "Utiliza almacenamiento como apoyo a la RAM",
+          "tema": 39,
+          "origenId": "DIP-T39-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#53-memoria-virtual"
+        },
+        {
+          "id": "DIP-SIM-013-Q43",
+          "pregunta": "Según el artículo 31 de la Ley 39/2015, ¿cómo funciona el registro electrónico para la presentación de documentos?",
+          "opciones": [
+            "Únicamente los días declarados hábiles",
+            "Solo de lunes a viernes, de 9:00 a 14:00",
+            "Todos los días del año durante las 24 horas",
+            "Solo fuera de horas de oficina"
+          ],
+          "correcta": 2,
+          "justificacion": "El **artículo 31.2.a** permite presentar documentos en el registro electrónico **todos los días del año durante las 24 horas**, sin perjuicio de las reglas de cómputo de plazos.",
+          "trampa": "**Art. 31.2.a**: el registro electrónico admite documentos **24 horas, 365 días**; el cómputo de un día inhábil es otra cuestión.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Todos los días del año durante las 24 horas",
+          "tema": 5,
+          "origenId": "DIP-T05-015",
+          "referenciaOriginal": "Ley 39/2015, artículo 31 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
+        },
+        {
+          "id": "DIP-SIM-013-Q44",
+          "pregunta": "¿Qué materia añadió en octubre de 2026 la letra q) del artículo 25.2 de la Ley 7/1985 a las competencias propias municipales?",
+          "opciones": [
+            "La alteración de los límites provinciales",
+            "La aprobación de leyes orgánicas",
+            "El nombramiento de magistrados del Tribunal Constitucional",
+            "La promoción de igualdad de oportunidades, no discriminación y accesibilidad universal de personas con discapacidad"
+          ],
+          "correcta": 3,
+          "justificacion": "La **Ley 4/2026** añadió al **art. 25.2.q LRBRL** la promoción de igualdad de oportunidades, no discriminación y accesibilidad universal de personas con discapacidad; publicada **03/10/2026** y vigente **23/10/2026**.",
+          "trampa": "La **Ley 4/2026** añadió al **art. 25.2.q** las competencias sobre accesibilidad universal y discapacidad, vigente desde **23/10/2026**.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "La promoción de igualdad de oportunidades, no discriminación y accesibilidad universal de personas con discapacidad",
+          "tema": 13,
+          "origenId": "DIP-T13-013",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 25 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a25"
+        },
+        {
+          "id": "DIP-SIM-013-Q45",
+          "pregunta": "¿Cuál es el periodo mínimo general en el tramo anterior para ascender a otro tramo de carrera horizontal?",
+          "opciones": [
+            "Cuatro años",
+            "Dos años",
+            "Cinco años",
+            "Seis años"
+          ],
+          "correcta": 0,
+          "justificacion": "El artículo 64.4 exige un mínimo de **4 años** en el tramo inmediatamente inferior, salvo excepciones expresas.",
+          "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+          "referencia": "content/diputacion-toledo/tema-18/manual.md",
+          "respuestaLiteral": "Cuatro años",
+          "tema": 18,
+          "origenId": "DIP-T18-013",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a64"
+        },
+        {
+          "id": "DIP-SIM-013-Q46",
+          "pregunta": "¿A cuántos meses del ejercicio corriente debe referirse como mínimo el avance de liquidación que acompaña al presupuesto conforme al art. 168.1.b?",
+          "opciones": [
+            "A un mes del ejercicio corriente",
+            "A doce meses del ejercicio corriente, obligatoriamente",
+            "A seis meses del ejercicio corriente",
+            "A tres ejercicios completos"
+          ],
+          "correcta": 2,
+          "justificacion": "**TRLRHL art. 168.1.b**: se adjunta la liquidación del ejercicio anterior y el **avance del corriente referido al menos a seis meses**.",
+          "trampa": "**Seis meses de avance** no son **seis meses de exposición pública**; esta dura **15 días**.",
+          "referencia": "content/diputacion-toledo/tema-27/manual.md",
+          "respuestaLiteral": "A seis meses del ejercicio corriente",
+          "tema": 27,
+          "origenId": "DIP-T27-014",
+          "referenciaOriginal": "TRLRHL, art. 168.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168"
+        },
+        {
+          "id": "DIP-SIM-013-Q47",
+          "pregunta": "¿Qué debe utilizarse si se desea que una página tenga orientación horizontal y la siguiente vertical?",
+          "opciones": [
+            "Aplicar estilos de página distintos mediante saltos adecuados",
+            "Cambiar solo la fuente",
+            "Insertar espacios hasta otra página",
+            "Modificar el idioma del documento"
+          ],
+          "correcta": 0,
+          "justificacion": "Los **estilos de página** controlan la orientación y se pueden cambiar mediante un **salto manual con estilo**.",
+          "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md",
+          "respuestaLiteral": "Aplicar estilos de página distintos mediante saltos adecuados",
+          "tema": 35,
+          "origenId": "DIP-T35-014",
+          "referenciaOriginal": "https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html"
+        },
+        {
+          "id": "DIP-SIM-013-Q48",
+          "pregunta": "¿Cuál es la diferencia más característica entre HDD y SSD?",
+          "opciones": [
+            "El SSD carece de partes mecánicas móviles",
+            "El SSD utiliza partes mecánicas",
+            "El HDD no almacena datos",
+            "El HDD siempre es externo"
+          ],
+          "correcta": 0,
+          "justificacion": "El SSD utiliza memoria flash y carece de platos, cabezales y otras partes mecánicas móviles propias de un HDD.",
+          "trampa": "Tanto HDD como SSD son dispositivos de almacenamiento no volátil; la diferencia esencial está en su tecnología interna.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md",
+          "respuestaLiteral": "El SSD carece de partes mecánicas móviles",
+          "tema": 39,
+          "origenId": "DIP-T39-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-39/manual.md#62-ssd"
+        },
+        {
+          "id": "DIP-SIM-013-Q49",
+          "pregunta": "¿Cuál es el plazo máximo general que puede establecer la norma reguladora de un procedimiento, salvo ley o Derecho de la UE?",
+          "opciones": [
+            "Un mes",
+            "Tres meses",
+            "Seis meses",
+            "Doce meses"
+          ],
+          "correcta": 2,
+          "justificacion": "Como regla, no excederá de **6 meses**, salvo que una norma con rango de ley establezca uno mayor o así venga previsto en Derecho de la UE.",
+          "trampa": "**Art. 21.2**: límite general **6 meses** para norma reguladora, frente al supletorio de **3 meses**, art. **21.3**.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md",
+          "respuestaLiteral": "Seis meses",
+          "tema": 5,
+          "origenId": "DIP-T05-016",
+          "referenciaOriginal": "Ley 39/2015, artículo 21 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21"
+        },
+        {
+          "id": "DIP-SIM-013-Q50",
+          "pregunta": "En municipios de población superior a 20.000 habitantes, ¿qué servicio municipal mínimo exige el artículo 26.1.c LRBRL?",
+          "opciones": [
+            "Transporte colectivo urbano",
+            "Metro municipal",
+            "Protección civil",
+            "Universidad pública"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo **26.1.c LRBRL** incluye **protección civil**, prevención y extinción de incendios e instalaciones deportivas de uso público.",
+          "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
+          "referencia": "content/diputacion-toledo/tema-13/manual.md",
+          "respuestaLiteral": "Protección civil",
+          "tema": 13,
+          "origenId": "DIP-T13-014",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 013: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
