@@ -193,14 +193,15 @@
             "23/11/2026: el usuario aportó el log real de run manual #399: primer error exacto en tests/validate-radar-priority-sources-20261122.mjs, por exigir igualdad de timestamps del informe histórico (13:26Z) y del rastreo posterior (21:08Z). Corregido test con auditoría histórica independiente, comparación estricta solo si snapshotUtc coincide y garantía de URL estable de las diez fuentes. Sus invariantes verificadas con datos actuales; CI pendiente rerun.",
             "23/11/2026: run real #402 aportado por el usuario: nueva prueba Radar histórica pasa, suite C1 de 40 fichas, 361 tarjetas, render runtime y pruebas Radar pasan hasta tests/validate-ficha-rapida-dip-c1-t01-20261121.mjs. Fallaba su aserción heredada de cobertura 3 fichas frente a 40; corregida a cobertura real de 40 con IDs consecutivos, conservando comprobaciones jurídicas focales del tema 1.",
             "23/11/2026: CIERRE VERIFICADO de incidencia de publicación #399-#402: los runs GitHub Actions #403 y #404 aparecen SUCCESS en captura del usuario, y comprobación GitHub en el repositorio público confirmó plan actualizado 23/11, manifiesto 40 fichas/361 tarjetas, visor actualizado y blobs idénticos en ambas ramas main/site para plan, manifiesto, app.js, index, radar, practice y fichas T01/T40. La preparación del examen del 15/12 sigue abierta.",
-            "25/11/2026: ampliación de cinco casos guiados de 10 a 16 cuestiones: cómputo de subsanación, transparencia y nulidad presupuestaria (c9b6a22, publicación #45579372264 SUCCESS); nuevos cálculos de contratación y suplemento de crédito, contrastados con BOE arts. 118 LCSP y 177 TRLRHL (045f74a, publicación pendiente). No equivale a simulacro oficial ni a rúbrica validada."
+            "25/11/2026: ampliación de cinco casos guiados de 10 a 16 cuestiones: cómputo de subsanación, transparencia y nulidad presupuestaria (c9b6a22, publicación #45579372264 SUCCESS); nuevos cálculos de contratación y suplemento de crédito, contrastados con BOE arts. 118 LCSP y 177 TRLRHL (045f74a, publicación pendiente). No equivale a simulacro oficial ni a rúbrica validada.",
+            "25/11/2026: ampliación de 16 a 20 cuestiones guiadas (audiencia, resolución y silencio Ley 19/2013, notificación y comunicación de brechas RGPD contrastadas con BOE y AEPD), commit d8d726c; criterios didácticos de autocorrección de 2 puntos por cuestión, 40 puntos en total, commit 77b032c. Validada unicidad de IDs y suma de criterios en memoria; falta integración visual y prueba E2E."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Verificar publicación del commit 045f74a y el visor de las 16 cuestiones; completar referencias primarias de los cinco casos, elaborar rúbrica didáctica y ampliar práctica en materias no cubiertas sin duplicar bancos. Mantener prioridad DIP C1 y controles de navegador."
+          "nextAction": "Integrar y verificar visualización de rúbricas didácticas en el visor de supuestos C1, comprobar publicación y añadir casos de materias no cubiertas; conservar diferenciación frente al baremo oficial."
         },
         {
           "id": "DIP-C2-01",
@@ -2965,6 +2966,19 @@
         "content/diputacion-toledo/supuestos-practicos.json"
       ],
       "limit": "Última ampliación pendiente de CI y prueba del visor; tarea sigue PARCIAL."
+    },
+    {
+      "id": "LOG-20261125-DIP-C1-20-CUESTIONES-RUBRICA",
+      "at": "2026-11-25",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Cinco casos de cuatro cuestiones, 20 en total, con 40 criterios didácticos de autocorrección.",
+      "evidence": [
+        "content/diputacion-toledo/supuestos-practicos.json"
+      ],
+      "limit": "No es baremo oficial. Pendiente verificar CI del último cambio, integración visible y E2E; estado PARCIAL."
     }
   ],
   "decisions": [
@@ -3148,5 +3162,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T08:49:59.000Z"
+  "updatedAtUtc": "2026-11-25T08:52:41.000Z"
 }
