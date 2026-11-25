@@ -4861,9 +4861,918 @@
           "referenciaOriginal": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-010",
+      "titulo": "Simulacro 10 · Derechos, actos administrativos, administración electrónica, responsabilidad y prevención",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-010-Q01",
+          "pregunta": "¿Qué artículos integran la Sección 1.ª del Capítulo II del Título I de la Constitución?",
+          "opciones": [
+            "Del 14 al 29",
+            "Del 15 al 29",
+            "Del 14 al 38",
+            "Del 10 al 29"
+          ],
+          "correcta": 1,
+          "justificacion": "La Sección 1.ª comprende los artículos 15 a 29. El artículo 14 queda fuera formalmente de esa sección, aunque recibe la tutela reforzada del artículo 53.2.",
+          "trampa": "Es habitual incluir erróneamente el artículo 14 dentro de la Sección 1.ª. Tiene protección equivalente, pero ubicación distinta.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Del 15 al 29",
+          "tema": 2,
+          "origenId": "DIP-T02-001",
+          "referenciaOriginal": "CE, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a15"
+        },
+        {
+          "id": "DIP-SIM-010-Q02",
+          "pregunta": "¿Cuál de las siguientes notas distingue al acto administrativo del reglamento?",
+          "opciones": [
+            "El acto administrativo siempre tiene destinatario único",
+            "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general",
+            "El acto administrativo solo puede ser favorable",
+            "El reglamento carece de efectos jurídicos"
+          ],
+          "correcta": 1,
+          "justificacion": "El acto administrativo aplica el ordenamiento a un supuesto concreto, mientras que el reglamento contiene una norma general y abstracta.",
+          "trampa": "Confundir acto general con reglamento: un acto puede dirigirse a una pluralidad, pero sigue sin tener carácter normativo.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general",
+          "tema": 7,
+          "origenId": "DIP-T07-001",
+          "referenciaOriginal": "Ley 39/2015, artículo 34 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a34"
+        },
+        {
+          "id": "DIP-SIM-010-Q03",
+          "pregunta": "¿Cuál de los siguientes sujetos está obligado a relacionarse electrónicamente con las Administraciones Públicas?",
+          "opciones": [
+            "Toda persona mayor de edad",
+            "Toda persona física",
+            "Las personas jurídicas",
+            "Solo los funcionarios"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 14.2 de la Ley 39/2015 incluye expresamente a las personas jurídicas.",
+          "trampa": "Confundir derecho de elección de la persona física con obligación general.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Las personas jurídicas",
+          "tema": 9,
+          "origenId": "DIP-T09-001",
+          "referenciaOriginal": "Ley 39/2015, art. 14.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14"
+        },
+        {
+          "id": "DIP-SIM-010-Q04",
+          "pregunta": "Según el artículo 106.2 de la Constitución, ¿qué circunstancia excluye expresamente la indemnización?",
+          "opciones": [
+            "El caso fortuito",
+            "La fuerza mayor",
+            "El funcionamiento normal",
+            "La ausencia de culpa"
+          ],
+          "correcta": 1,
+          "justificacion": "La Constitución excluye expresamente los casos de fuerza mayor.",
+          "trampa": "No confundir fuerza mayor con caso fortuito.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "La fuerza mayor",
+          "tema": 10,
+          "origenId": "DIP-T10-001",
+          "referenciaOriginal": "Constitución Española, art. 106.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a106"
+        },
+        {
+          "id": "DIP-SIM-010-Q05",
+          "pregunta": "Según la Ley 31/1995, ¿quién debe soportar el coste de las medidas de seguridad y salud en el trabajo?",
+          "opciones": [
+            "La representación sindical",
+            "El trabajador",
+            "La mutua exclusivamente",
+            "La empresa o Administración empleadora"
+          ],
+          "correcta": 3,
+          "justificacion": "El coste de las medidas relativas a la seguridad y salud en el trabajo no puede recaer sobre las personas trabajadoras; corresponde al empresario o, en el ámbito público, a la Administración empleadora.",
+          "trampa": "El deber de protección no puede trasladarse económicamente a la persona trabajadora.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "La empresa o Administración empleadora",
+          "tema": 23,
+          "origenId": "DIP-T23-001",
+          "referenciaOriginal": "PR art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14"
+        },
+        {
+          "id": "DIP-SIM-010-Q06",
+          "pregunta": "¿Qué atajo abre normalmente el cuadro de impresión en Windows y en la mayoría de aplicaciones?",
+          "opciones": [
+            "Ctrl + E",
+            "Ctrl + I",
+            "Ctrl + P",
+            "Ctrl + Mayús + P"
+          ],
+          "correcta": 2,
+          "justificacion": "La combinación Ctrl + P abre normalmente el cuadro de impresión de la aplicación activa.",
+          "trampa": "Abrir el cuadro de impresión no implica que el trabajo se envíe sin confirmación.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Ctrl + P",
+          "tema": 34,
+          "origenId": "DIP-T34-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#4-cuadro-de-impresión"
+        },
+        {
+          "id": "DIP-SIM-010-Q07",
+          "pregunta": "¿Cuál es el plazo máximo constitucional de la detención preventiva?",
+          "opciones": [
+            "72 horas",
+            "24 horas",
+            "48 horas",
+            "5 días"
+          ],
+          "correcta": 0,
+          "justificacion": "El artículo 17.2 de la Constitución establece que el detenido debe ser puesto en libertad o a disposición judicial en el plazo máximo de 72 horas.",
+          "trampa": "Las 72 horas son un máximo, no un plazo ordinario que deba agotarse en todos los casos.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "72 horas",
+          "tema": 2,
+          "origenId": "DIP-T02-002",
+          "referenciaOriginal": "CE, art. 17 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a17"
+        },
+        {
+          "id": "DIP-SIM-010-Q08",
+          "pregunta": "¿Qué acto de trámite puede recurrirse separadamente?",
+          "opciones": [
+            "Cualquiera que se dicte antes de la resolución",
+            "Ningún acto de trámite",
+            "Solo el que sea favorable",
+            "El que produzca indefensión o perjuicio irreparable"
+          ],
+          "correcta": 3,
+          "justificacion": "Los actos de trámite cualificados son recurribles cuando deciden el fondo, impiden continuar, producen indefensión o perjuicio irreparable.",
+          "trampa": "No todos los actos de trámite son recurribles autónomamente.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "El que produzca indefensión o perjuicio irreparable",
+          "tema": 7,
+          "origenId": "DIP-T07-002",
+          "referenciaOriginal": "Ley 39/2015, artículo 112 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a112"
+        },
+        {
+          "id": "DIP-SIM-010-Q09",
+          "pregunta": "Un profesional con colegiación obligatoria está obligado electrónicamente:",
+          "opciones": [
+            "Solo en trámites vinculados al ejercicio profesional",
+            "En todos sus trámites personales",
+            "Solo si lo decide su colegio",
+            "Nunca"
+          ],
+          "correcta": 0,
+          "justificacion": "La obligación se limita a los trámites realizados en ejercicio de la actividad profesional.",
+          "trampa": "Extender la obligación a cualquier actuación personal.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Solo en trámites vinculados al ejercicio profesional",
+          "tema": 9,
+          "origenId": "DIP-T09-002",
+          "referenciaOriginal": "Ley 39/2015, art. 14.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14"
+        },
+        {
+          "id": "DIP-SIM-010-Q10",
+          "pregunta": "El daño indemnizable debe ser:",
+          "opciones": [
+            "Efectivo, evaluable económicamente e individualizado",
+            "Culpable, directo y contractual",
+            "Exclusivamente material",
+            "Hipotético, general y futuro"
+          ],
+          "correcta": 0,
+          "justificacion": "El daño indemnizable debe ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas.",
+          "trampa": "La lesión también debe ser antijurídica, pero ello no sustituye estos tres requisitos.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "Efectivo, evaluable económicamente e individualizado",
+          "tema": 10,
+          "origenId": "DIP-T10-002",
+          "referenciaOriginal": "Ley 40/2015, art. 32.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32"
+        },
+        {
+          "id": "DIP-SIM-010-Q11",
+          "pregunta": "¿Qué principio preventivo tiene prioridad?",
+          "opciones": [
+            "La protección colectiva sobre la individual",
+            "La reparación sobre la prevención",
+            "La protección individual sobre la colectiva",
+            "La sanción sobre la formación"
+          ],
+          "correcta": 0,
+          "justificacion": "La acción preventiva debe anteponer la protección colectiva a la protección individual.",
+          "trampa": "Los equipos de protección individual no sustituyen una medida colectiva técnicamente posible.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "La protección colectiva sobre la individual",
+          "tema": 23,
+          "origenId": "DIP-T23-002",
+          "referenciaOriginal": "PR art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a15"
+        },
+        {
+          "id": "DIP-SIM-010-Q12",
+          "pregunta": "¿Cuál es la ruta habitual para agregar una impresora en Windows 11?",
+          "opciones": [
+            "Explorador > Este equipo > Propiedades",
+            "Configuración > Bluetooth y dispositivos > Impresoras y escáneres",
+            "Configuración > Personalización > Temas",
+            "Panel de tareas > Sonido"
+          ],
+          "correcta": 1,
+          "justificacion": "Las impresoras y escáneres se administran habitualmente desde Inicio > Configuración > Bluetooth y dispositivos > Impresoras y escáneres.",
+          "trampa": "Agregar una impresora no la convierte necesariamente en la impresora predeterminada.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Configuración > Bluetooth y dispositivos > Impresoras y escáneres",
+          "tema": 34,
+          "origenId": "DIP-T34-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#2-instalación-de-impresoras"
+        },
+        {
+          "id": "DIP-SIM-010-Q13",
+          "pregunta": "¿Qué derecho del artículo 30 puede protegerse mediante recurso de amparo?",
+          "opciones": [
+            "Todo el deber de defensa de España",
+            "Solo la objeción de conciencia del artículo 30.2",
+            "El derecho al trabajo",
+            "Ninguno"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 53.2 extiende expresamente el recurso de amparo a la objeción de conciencia reconocida en el artículo 30.2.",
+          "trampa": "No todo el artículo 30 es susceptible de amparo; únicamente la objeción de conciencia del apartado 2.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Solo la objeción de conciencia del artículo 30.2",
+          "tema": 2,
+          "origenId": "DIP-T02-003",
+          "referenciaOriginal": "CE, art. 53 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a53"
+        },
+        {
+          "id": "DIP-SIM-010-Q14",
+          "pregunta": "La incompetencia manifiesta que determina nulidad de pleno derecho debe ser por razón de:",
+          "opciones": [
+            "Jerarquía o cuantía",
+            "Materia o territorio",
+            "Firma o forma",
+            "Tiempo o oportunidad"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 47.1.b de la Ley 39/2015 exige incompetencia manifiesta por razón de la materia o del territorio.",
+          "trampa": "La incompetencia jerárquica no aparece en esta causa de nulidad.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Materia o territorio",
+          "tema": 7,
+          "origenId": "DIP-T07-003",
+          "referenciaOriginal": "Ley 39/2015, artículo 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a47"
+        },
+        {
+          "id": "DIP-SIM-010-Q15",
+          "pregunta": "¿Qué diferencia básica existe entre identificación y firma electrónica?",
+          "opciones": [
+            "Ninguna",
+            "La identificación acredita identidad y la firma además voluntad y consentimiento",
+            "La firma solo sirve para notificaciones",
+            "La identificación exige certificado y la firma no"
+          ],
+          "correcta": 1,
+          "justificacion": "La firma añade autenticidad de la voluntad e integridad del documento.",
+          "trampa": "Tratarlas como conceptos equivalentes.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "La identificación acredita identidad y la firma además voluntad y consentimiento",
+          "tema": 9,
+          "origenId": "DIP-T09-003",
+          "referenciaOriginal": "Ley 39/2015, art. 9-11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a9"
+        },
+        {
+          "id": "DIP-SIM-010-Q16",
+          "pregunta": "La responsabilidad patrimonial puede derivar de un funcionamiento:",
+          "opciones": [
+            "Solo anormal",
+            "Únicamente ilícito",
+            "Solo normal",
+            "Normal o anormal"
+          ],
+          "correcta": 3,
+          "justificacion": "La Ley 40/2015 contempla el funcionamiento normal o anormal de los servicios públicos.",
+          "trampa": "La responsabilidad objetiva no exige necesariamente un funcionamiento ilícito.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "Normal o anormal",
+          "tema": 10,
+          "origenId": "DIP-T10-003",
+          "referenciaOriginal": "Ley 40/2015, art. 32.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32"
+        },
+        {
+          "id": "DIP-SIM-010-Q17",
+          "pregunta": "La formación preventiva debe ser:",
+          "opciones": [
+            "Teórica y práctica, suficiente y adecuada",
+            "Solo teórica",
+            "Solo inicial",
+            "Voluntaria para el empresario"
+          ],
+          "correcta": 0,
+          "justificacion": "La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando sea necesario.",
+          "trampa": "No basta con una formación inicial genérica ni exclusivamente teórica.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Teórica y práctica, suficiente y adecuada",
+          "tema": 23,
+          "origenId": "DIP-T23-003",
+          "referenciaOriginal": "PR art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a19"
+        },
+        {
+          "id": "DIP-SIM-010-Q18",
+          "pregunta": "Microsoft Print to PDF sirve para:",
+          "opciones": [
+            "Crear un archivo PDF",
+            "Enviar siempre el documento a papel",
+            "Escanear un PDF",
+            "Instalar un controlador de red"
+          ],
+          "correcta": 0,
+          "justificacion": "Microsoft Print to PDF es una impresora virtual que genera un archivo PDF en lugar de enviar el trabajo a una impresora física.",
+          "trampa": "Imprimir a PDF no modifica automáticamente el documento original.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Crear un archivo PDF",
+          "tema": 34,
+          "origenId": "DIP-T34-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#5-impresión-a-pdf"
+        },
+        {
+          "id": "DIP-SIM-010-Q19",
+          "pregunta": "¿Qué mayoría exige la aprobación, modificación o derogación de una ley orgánica?",
+          "opciones": [
+            "Mayoría simple del Congreso",
+            "Mayoría absoluta del Senado",
+            "Mayoría de tres quintos de cada Cámara",
+            "Mayoría absoluta del Congreso en votación final sobre el conjunto"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo 81.2 exige mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto.",
+          "trampa": "La mayoría absoluta se exige en el Congreso y en la votación final sobre el conjunto, no en cada votación parcial.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Mayoría absoluta del Congreso en votación final sobre el conjunto",
+          "tema": 2,
+          "origenId": "DIP-T02-004",
+          "referenciaOriginal": "CE, art. 81 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a81"
+        },
+        {
+          "id": "DIP-SIM-010-Q20",
+          "pregunta": "¿Cuál de estos actos debe motivarse?",
+          "opciones": [
+            "Los que limiten derechos subjetivos o intereses legítimos",
+            "Solo los reglados",
+            "Únicamente los favorables",
+            "Ninguno si se dicta electrónicamente"
+          ],
+          "correcta": 0,
+          "justificacion": "La Ley 39/2015 exige motivación, entre otros, para los actos que limiten derechos subjetivos o intereses legítimos.",
+          "trampa": "La motivación no depende de que el acto sea electrónico.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Los que limiten derechos subjetivos o intereses legítimos",
+          "tema": 7,
+          "origenId": "DIP-T07-004",
+          "referenciaOriginal": "Ley 39/2015, artículo 35 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a35"
+        },
+        {
+          "id": "DIP-SIM-010-Q21",
+          "pregunta": "¿En cuál de estas actuaciones se exige firma con carácter general?",
+          "opciones": [
+            "Consultar un expediente",
+            "Acceder al portal",
+            "Recibir información",
+            "Interponer un recurso"
+          ],
+          "correcta": 3,
+          "justificacion": "La Ley 39/2015 exige firma para interponer recursos.",
+          "trampa": "Pensar que cualquier acceso electrónico exige firma.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Interponer un recurso",
+          "tema": 9,
+          "origenId": "DIP-T09-004",
+          "referenciaOriginal": "Ley 39/2015, art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a11"
+        },
+        {
+          "id": "DIP-SIM-010-Q22",
+          "pregunta": "Con carácter general, el derecho a reclamar prescribe al:",
+          "opciones": [
+            "Mes",
+            "Dos años",
+            "Año",
+            "Cuatro años"
+          ],
+          "correcta": 2,
+          "justificacion": "El plazo general de prescripción del derecho a reclamar es de un año.",
+          "trampa": "No confundir este plazo con los cuatro años de la declaración de lesividad.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "Año",
+          "tema": 10,
+          "origenId": "DIP-T10-004",
+          "referenciaOriginal": "Ley 39/2015, art. 67.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a67"
+        },
+        {
+          "id": "DIP-SIM-010-Q23",
+          "pregunta": "Ante un riesgo grave e inminente, la persona trabajadora puede:",
+          "opciones": [
+            "Abandonar el lugar únicamente con autorización judicial",
+            "Continuar siempre hasta recibir orden escrita",
+            "Solicitar exclusivamente una indemnización",
+            "Interrumpir su actividad y abandonar el lugar"
+          ],
+          "correcta": 3,
+          "justificacion": "La Ley reconoce a la persona trabajadora la posibilidad de interrumpir su actividad y abandonar el lugar de trabajo cuando considere que existe un riesgo grave e inminente para su vida o salud.",
+          "trampa": "No se exige autorización judicial previa para proteger la vida o la salud.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Interrumpir su actividad y abandonar el lugar",
+          "tema": 23,
+          "origenId": "DIP-T23-004",
+          "referenciaOriginal": "PR art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a21"
+        },
+        {
+          "id": "DIP-SIM-010-Q24",
+          "pregunta": "La cola de impresión permite:",
+          "opciones": [
+            "Editar el contenido del documento",
+            "Gestionar trabajos pendientes, pausados o con error",
+            "Cambiar la resolución del monitor",
+            "Escanear fotografías"
+          ],
+          "correcta": 1,
+          "justificacion": "La cola de impresión permite comprobar, pausar, reanudar o cancelar trabajos pendientes, en curso o con error.",
+          "trampa": "Cancelar un trabajo puede no detenerlo de inmediato si la impresora ya ha recibido parte de los datos.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Gestionar trabajos pendientes, pausados o con error",
+          "tema": 34,
+          "origenId": "DIP-T34-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#6-cola-de-impresión"
+        },
+        {
+          "id": "DIP-SIM-010-Q25",
+          "pregunta": "¿Cuál de estos derechos no puede suspenderse con carácter general en un estado de excepción o sitio?",
+          "opciones": [
+            "Secreto de las comunicaciones",
+            "Tutela judicial efectiva",
+            "Libertad de circulación",
+            "Derecho de reunión"
+          ],
+          "correcta": 1,
+          "justificacion": "El artículo 24, relativo a la tutela judicial efectiva, no figura entre los derechos enumerados en el artículo 55.1 como susceptibles de suspensión general.",
+          "trampa": "No todos los derechos fundamentales de los artículos 15 a 29 pueden suspenderse; solo los expresamente enumerados en el artículo 55.1.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Tutela judicial efectiva",
+          "tema": 2,
+          "origenId": "DIP-T02-005",
+          "referenciaOriginal": "CE, art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a55"
+        },
+        {
+          "id": "DIP-SIM-010-Q26",
+          "pregunta": "Como regla general, los actos administrativos producen efectos:",
+          "opciones": [
+            "Desde su publicación en todo caso",
+            "Desde que transcurran 10 días",
+            "Desde la fecha en que se dicten, salvo que dispongan otra cosa",
+            "Desde que sean firmes"
+          ],
+          "correcta": 2,
+          "justificacion": "Los actos se presumen válidos y producen efectos desde la fecha en que se dictan, salvo previsión distinta o eficacia demorada.",
+          "trampa": "Validez, eficacia y firmeza son conceptos distintos.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Desde la fecha en que se dicten, salvo que dispongan otra cosa",
+          "tema": 7,
+          "origenId": "DIP-T07-005",
+          "referenciaOriginal": "Ley 39/2015, artículo 39 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a39"
+        },
+        {
+          "id": "DIP-SIM-010-Q27",
+          "pregunta": "La sede electrónica es:",
+          "opciones": [
+            "Cualquier página web pública",
+            "Un buzón de correo",
+            "Una red social institucional",
+            "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad"
+          ],
+          "correcta": 3,
+          "justificacion": "Esa es la definición legal de sede electrónica.",
+          "trampa": "Confundir sede con portal de internet.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad",
+          "tema": 9,
+          "origenId": "DIP-T09-005",
+          "referenciaOriginal": "Ley 40/2015, art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a38"
+        },
+        {
+          "id": "DIP-SIM-010-Q28",
+          "pregunta": "En daños físicos o psíquicos, el plazo para reclamar comienza:",
+          "opciones": [
+            "Siempre el día del accidente",
+            "Desde la curación o determinación del alcance de las secuelas",
+            "Al presentar el alta laboral",
+            "Desde el primer informe médico"
+          ],
+          "correcta": 1,
+          "justificacion": "En daños físicos o psíquicos, el plazo comienza desde la curación o desde la determinación del alcance de las secuelas.",
+          "trampa": "El inicio del cómputo no coincide necesariamente con la fecha del hecho causante.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "Desde la curación o determinación del alcance de las secuelas",
+          "tema": 10,
+          "origenId": "DIP-T10-005",
+          "referenciaOriginal": "Ley 39/2015, art. 67.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a67"
+        },
+        {
+          "id": "DIP-SIM-010-Q29",
+          "pregunta": "La autoridad laboral debe ratificar o anular una paralización acordada por los representantes en el plazo de:",
+          "opciones": [
+            "24 horas",
+            "48 horas",
+            "12 horas",
+            "3 días hábiles"
+          ],
+          "correcta": 0,
+          "justificacion": "La autoridad laboral debe ratificar o anular el acuerdo de paralización en el plazo de 24 horas.",
+          "trampa": "Es un plazo de horas, no de días hábiles.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "24 horas",
+          "tema": 23,
+          "origenId": "DIP-T23-005",
+          "referenciaOriginal": "PR art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a21"
+        },
+        {
+          "id": "DIP-SIM-010-Q30",
+          "pregunta": "Si Windows administra automáticamente la impresora predeterminada, puede seleccionar:",
+          "opciones": [
+            "La última impresora utilizada",
+            "Siempre Microsoft Print to PDF",
+            "La impresora con más tinta",
+            "La primera instalada"
+          ],
+          "correcta": 0,
+          "justificacion": "Cuando la administración automática está activada, Windows puede establecer como predeterminada la última impresora utilizada.",
+          "trampa": "Para fijar manualmente una impresora concreta puede ser necesario desactivar esa administración automática.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "La última impresora utilizada",
+          "tema": 34,
+          "origenId": "DIP-T34-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#3-impresora-predeterminada"
+        },
+        {
+          "id": "DIP-SIM-010-Q31",
+          "pregunta": "¿Quién declara el estado de sitio?",
+          "opciones": [
+            "El Gobierno por decreto",
+            "El Rey a propuesta del Gobierno",
+            "El Congreso por mayoría absoluta, a propuesta exclusiva del Gobierno",
+            "El Senado por mayoría de tres quintos"
+          ],
+          "correcta": 2,
+          "justificacion": "El estado de sitio es declarado por el Congreso de los Diputados por mayoría absoluta, a propuesta exclusiva del Gobierno.",
+          "trampa": "A diferencia del estado de alarma y del de excepción, el estado de sitio no lo declara el Gobierno.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "El Congreso por mayoría absoluta, a propuesta exclusiva del Gobierno",
+          "tema": 2,
+          "origenId": "DIP-T02-006",
+          "referenciaOriginal": "CE, art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a116"
+        },
+        {
+          "id": "DIP-SIM-010-Q32",
+          "pregunta": "¿En qué supuesto puede otorgarse eficacia retroactiva favorable?",
+          "opciones": [
+            "Siempre que lo pida el interesado",
+            "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros",
+            "Nunca",
+            "Solo en actos sancionadores"
+          ],
+          "correcta": 1,
+          "justificacion": "La retroactividad favorable exige hechos preexistentes y ausencia de lesión a derechos o intereses legítimos de otras personas.",
+          "trampa": "La retroactividad favorable no es automática.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros",
+          "tema": 7,
+          "origenId": "DIP-T07-006",
+          "referenciaOriginal": "Ley 39/2015, artículo 39 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a39"
+        },
+        {
+          "id": "DIP-SIM-010-Q33",
+          "pregunta": "El registro electrónico permite presentar documentos:",
+          "opciones": [
+            "Solo hasta las 14:00",
+            "Solo en horario de oficina",
+            "Solo en días hábiles",
+            "Todos los días del año durante las 24 horas"
+          ],
+          "correcta": 3,
+          "justificacion": "El registro electrónico está disponible todos los días del año durante las 24 horas.",
+          "trampa": "Confundir disponibilidad técnica con cómputo jurídico de días hábiles.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Todos los días del año durante las 24 horas",
+          "tema": 9,
+          "origenId": "DIP-T09-006",
+          "referenciaOriginal": "Ley 39/2015, art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
+        },
+        {
+          "id": "DIP-SIM-010-Q34",
+          "pregunta": "El informe del servicio cuyo funcionamiento causó la lesión debe emitirse, como máximo, en:",
+          "opciones": [
+            "5 días",
+            "15 días",
+            "10 días",
+            "1 mes"
+          ],
+          "correcta": 2,
+          "justificacion": "El informe del servicio debe emitirse en un plazo máximo de diez días.",
+          "trampa": "No confundir este plazo con el correspondiente al trámite de audiencia.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "10 días",
+          "tema": 10,
+          "origenId": "DIP-T10-006",
+          "referenciaOriginal": "Ley 39/2015, art. 81.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a81"
+        },
+        {
+          "id": "DIP-SIM-010-Q35",
+          "pregunta": "Como regla general, la vigilancia de la salud:",
+          "opciones": [
+            "Es siempre obligatoria",
+            "La decide el delegado de prevención",
+            "Requiere consentimiento de la persona trabajadora",
+            "Está prohibida"
+          ],
+          "correcta": 2,
+          "justificacion": "La vigilancia de la salud requiere, como regla general, el consentimiento de la persona trabajadora, sin perjuicio de las excepciones legalmente previstas.",
+          "trampa": "Las excepciones no convierten la vigilancia de la salud en obligatoria con carácter general.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Requiere consentimiento de la persona trabajadora",
+          "tema": 23,
+          "origenId": "DIP-T23-006",
+          "referenciaOriginal": "PR art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22"
+        },
+        {
+          "id": "DIP-SIM-010-Q36",
+          "pregunta": "¿Qué aplicación de Microsoft permite digitalizar documentos en Windows 11?",
+          "opciones": [
+            "Bloc de notas",
+            "Calculadora",
+            "Recortes",
+            "Escáner de Windows"
+          ],
+          "correcta": 3,
+          "justificacion": "La aplicación Escáner de Windows permite seleccionar el dispositivo, el origen, el formato, la resolución y la ubicación de guardado para digitalizar documentos e imágenes.",
+          "trampa": "Que una multifunción sea detectada como impresora no garantiza que su función de escáner esté correctamente instalada.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Escáner de Windows",
+          "tema": 34,
+          "origenId": "DIP-T34-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#9-aplicación-escáner-de-windows"
+        },
+        {
+          "id": "DIP-SIM-010-Q37",
+          "pregunta": "¿Qué duración máxima inicial tiene el estado de excepción?",
+          "opciones": [
+            "15 días",
+            "30 días",
+            "60 días",
+            "La que determine libremente el Gobierno"
+          ],
+          "correcta": 1,
+          "justificacion": "La autorización y proclamación del estado de excepción debe determinar su duración, que no puede exceder de 30 días, prorrogables por otro plazo igual.",
+          "trampa": "Los 15 días corresponden al estado de alarma; el de excepción tiene un máximo inicial de 30 días.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "30 días",
+          "tema": 2,
+          "origenId": "DIP-T02-007",
+          "referenciaOriginal": "CE, art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a116"
+        },
+        {
+          "id": "DIP-SIM-010-Q38",
+          "pregunta": "¿Dentro de qué plazo debe cursarse toda notificación desde que se dicta el acto?",
+          "opciones": [
+            "5 días",
+            "15 días",
+            "10 días",
+            "1 mes"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 40.2 de la Ley 39/2015 establece un plazo de 10 días para cursar la notificación.",
+          "trampa": "Ese plazo no es el plazo para recurrir.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "10 días",
+          "tema": 7,
+          "origenId": "DIP-T07-007",
+          "referenciaOriginal": "Ley 39/2015, artículo 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a40"
+        },
+        {
+          "id": "DIP-SIM-010-Q39",
+          "pregunta": "Una presentación efectuada en día inhábil se entiende realizada, como regla general:",
+          "opciones": [
+            "El mismo día",
+            "La última hora del día hábil anterior",
+            "La primera hora del primer día hábil siguiente",
+            "Cuando la revise el funcionario"
+          ],
+          "correcta": 2,
+          "justificacion": "Así lo establece el artículo 31 de la Ley 39/2015.",
+          "trampa": "Pensar que el registro disponible durante las 24 horas convierte el día inhábil en hábil.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "La primera hora del primer día hábil siguiente",
+          "tema": 9,
+          "origenId": "DIP-T09-007",
+          "referenciaOriginal": "Ley 39/2015, art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31"
+        },
+        {
+          "id": "DIP-SIM-010-Q40",
+          "pregunta": "En la normativa estatal, el dictamen consultivo es preceptivo cuando la indemnización reclamada sea igual o superior a:",
+          "opciones": [
+            "30.000 euros",
+            "100.000 euros",
+            "50.000 euros",
+            "No existe umbral"
+          ],
+          "correcta": 2,
+          "justificacion": "En la normativa estatal, el dictamen es preceptivo cuando la cuantía reclamada sea igual o superior a 50.000 euros, sin perjuicio de la cuantía autonómica aplicable.",
+          "trampa": "La legislación autonómica puede establecer un umbral diferente.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "50.000 euros",
+          "tema": 10,
+          "origenId": "DIP-T10-007",
+          "referenciaOriginal": "Ley 39/2015, art. 81.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a81"
+        },
+        {
+          "id": "DIP-SIM-010-Q41",
+          "pregunta": "En la protección durante el embarazo, la primera medida debe ser:",
+          "opciones": [
+            "Adaptar las condiciones o el tiempo de trabajo",
+            "Extinguir el contrato",
+            "Imponer vacaciones",
+            "Suspender el contrato"
+          ],
+          "correcta": 0,
+          "justificacion": "La primera medida es adaptar las condiciones o el tiempo de trabajo; después procede, si resulta necesario, el cambio de puesto y, solo en último término, la suspensión.",
+          "trampa": "La suspensión es la última medida de la secuencia protectora.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Adaptar las condiciones o el tiempo de trabajo",
+          "tema": 23,
+          "origenId": "DIP-T23-007",
+          "referenciaOriginal": "PR art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a26"
+        },
+        {
+          "id": "DIP-SIM-010-Q42",
+          "pregunta": "La cama plana de un escáner resulta especialmente adecuada para:",
+          "opciones": [
+            "Fotografías o documentos únicos y delicados",
+            "Imprimir a doble cara",
+            "Administrar la cola",
+            "Cientos de páginas sin intervención"
+          ],
+          "correcta": 0,
+          "justificacion": "La cama plana permite colocar directamente fotografías, documentos únicos o materiales delicados para su digitalización.",
+          "trampa": "El alimentador automático resulta más apropiado para varias páginas consecutivas.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Fotografías o documentos únicos y delicados",
+          "tema": 34,
+          "origenId": "DIP-T34-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#orígenes-de-digitalización"
+        },
+        {
+          "id": "DIP-SIM-010-Q43",
+          "pregunta": "¿Cuál de las siguientes afirmaciones sobre el decreto-ley es correcta?",
+          "opciones": [
+            "Tiene rango de ley y debe someterse al Congreso dentro de 30 días",
+            "Puede afectar libremente al régimen electoral general",
+            "Es un reglamento ejecutivo",
+            "Exige delegación legislativa previa"
+          ],
+          "correcta": 0,
+          "justificacion": "El real decreto-ley es una disposición legislativa provisional con rango de ley que debe ser convalidada o derogada por el Congreso dentro de los 30 días siguientes a su promulgación.",
+          "trampa": "Aunque lo dicta el Gobierno, no es un reglamento. Tiene rango de ley y responde a extraordinaria y urgente necesidad.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Tiene rango de ley y debe someterse al Congreso dentro de 30 días",
+          "tema": 2,
+          "origenId": "DIP-T02-008",
+          "referenciaOriginal": "CE, art. 86 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a86"
+        },
+        {
+          "id": "DIP-SIM-010-Q44",
+          "pregunta": "Un acto de contenido imposible es:",
+          "opciones": [
+            "Irregular no invalidante",
+            "Anulable",
+            "Nulo de pleno derecho",
+            "Convalidable automáticamente"
+          ],
+          "correcta": 2,
+          "justificacion": "El contenido imposible constituye una causa expresa de nulidad de pleno derecho.",
+          "trampa": "No se trata de mera anulabilidad.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Nulo de pleno derecho",
+          "tema": 7,
+          "origenId": "DIP-T07-008",
+          "referenciaOriginal": "Ley 39/2015, artículo 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a47"
+        },
+        {
+          "id": "DIP-SIM-010-Q45",
+          "pregunta": "¿Cuándo se entiende practicada una notificación electrónica?",
+          "opciones": [
+            "Cuando se envía el aviso",
+            "Cuando se accede a su contenido",
+            "Cuando se firma el expediente",
+            "Cuando se publica en el portal"
+          ],
+          "correcta": 1,
+          "justificacion": "La notificación se practica cuando el interesado accede a su contenido.",
+          "trampa": "Confundir el aviso complementario con la notificación.",
+          "referencia": "content/diputacion-toledo/tema-09/manual.md",
+          "respuestaLiteral": "Cuando se accede a su contenido",
+          "tema": 9,
+          "origenId": "DIP-T09-008",
+          "referenciaOriginal": "Ley 39/2015, art. 43.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43"
+        },
+        {
+          "id": "DIP-SIM-010-Q46",
+          "pregunta": "Transcurridos seis meses sin resolver una reclamación de responsabilidad patrimonial, esta se entiende:",
+          "opciones": [
+            "Suspendida",
+            "Estimada",
+            "Caducada",
+            "Desestimada"
+          ],
+          "correcta": 3,
+          "justificacion": "Transcurridos seis meses sin resolución expresa, la reclamación puede entenderse desestimada.",
+          "trampa": "En responsabilidad patrimonial el silencio no es estimatorio.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md",
+          "respuestaLiteral": "Desestimada",
+          "tema": 10,
+          "origenId": "DIP-T10-008",
+          "referenciaOriginal": "Ley 39/2015, art. 91.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a91"
+        },
+        {
+          "id": "DIP-SIM-010-Q47",
+          "pregunta": "¿Cuál de las siguientes es una modalidad de organización preventiva?",
+          "opciones": [
+            "Jurado preventivo provincial",
+            "Comisión judicial de seguridad",
+            "Servicio de prevención ajeno",
+            "Delegación ministerial obligatoria"
+          ],
+          "correcta": 2,
+          "justificacion": "La normativa prevé, entre otras modalidades, la asunción personal, los trabajadores designados y los servicios de prevención propios, ajenos o mancomunados.",
+          "trampa": "No deben confundirse los órganos de participación con las modalidades de organización preventiva.",
+          "referencia": "content/diputacion-toledo/tema-23/manual.md",
+          "respuestaLiteral": "Servicio de prevención ajeno",
+          "tema": 23,
+          "origenId": "DIP-T23-008",
+          "referenciaOriginal": "RSP art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a10"
+        },
+        {
+          "id": "DIP-SIM-010-Q48",
+          "pregunta": "Al aumentar la resolución de escaneado en dpi, normalmente:",
+          "opciones": [
+            "Aumentan el detalle y el tamaño del archivo",
+            "Disminuyen siempre el detalle y el tamaño",
+            "El archivo se convierte en PDF obligatoriamente",
+            "Desaparece el color"
+          ],
+          "correcta": 0,
+          "justificacion": "Una resolución mayor capta más detalle potencial, pero también aumenta normalmente el tamaño del archivo y el tiempo de digitalización.",
+          "trampa": "Más dpi no siempre aporta una mejora útil para un documento de texto sencillo.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md",
+          "respuestaLiteral": "Aumentan el detalle y el tamaño del archivo",
+          "tema": 34,
+          "origenId": "DIP-T34-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-34/manual.md#11-resolución-y-color"
+        },
+        {
+          "id": "DIP-SIM-010-Q49",
+          "pregunta": "¿Qué instrumento de delegación se utiliza para que el Gobierno elabore un texto articulado?",
+          "opciones": [
+            "Ley orgánica",
+            "Decreto-ley",
+            "Orden ministerial",
+            "Ley de bases"
+          ],
+          "correcta": 3,
+          "justificacion": "La delegación para formar textos articulados se otorga mediante una ley de bases. Para refundir varios textos legales se utiliza una ley ordinaria de delegación.",
+          "trampa": "Texto articulado equivale a ley de bases; texto refundido equivale a ley ordinaria de delegación.",
+          "referencia": "content/diputacion-toledo/tema-02/manual.md",
+          "respuestaLiteral": "Ley de bases",
+          "tema": 2,
+          "origenId": "DIP-T02-009",
+          "referenciaOriginal": "CE, art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a82"
+        },
+        {
+          "id": "DIP-SIM-010-Q50",
+          "pregunta": "La desviación de poder determina:",
+          "opciones": [
+            "Nulidad de pleno derecho",
+            "Conservación obligatoria",
+            "Inexistencia jurídica",
+            "Anulabilidad"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo 48 incluye expresamente la desviación de poder entre las causas de anulabilidad.",
+          "trampa": "No confundir desviación de poder con incompetencia manifiesta.",
+          "referencia": "content/diputacion-toledo/tema-07/manual.md",
+          "respuestaLiteral": "Anulabilidad",
+          "tema": 7,
+          "origenId": "DIP-T07-009",
+          "referenciaOriginal": "Ley 39/2015, artículo 48 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a48"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
