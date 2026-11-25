@@ -759,6 +759,26 @@ function finishExercise(items, timerId, metadata) {
   result.setAttribute?.('tabindex', '-1');
   result.setAttribute?.('role', 'status');
   result.innerHTML = `<h2>${officialExam ? `La Puebla · primer ejercicio (simulacro): ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'MÍNIMO DEL TEST SUPERADO' : 'MÍNIMO DEL TEST NO SUPERADO'}` : diputacionC1Exam ? `Diputación C1 · entrenamiento 50 preguntas: ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'REFERENCIA DE 5/10 ALCANZADA' : 'REFERENCIA DE 5/10 NO ALCANZADA'} (sin validez oficial)` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : uc3mQuick ? `Repaso exprés UC3M: ${directScore.toFixed(2).replace('.', ',')}/${primaryCount} puntos directos · entrenamiento` : oliaExam ? `Olías C2: teoría ${theory.score.toFixed(2).replace('.', ',')}/50 · psicotécnico ${psych.score.toFixed(2).replace('.', ',')}/50 · ${oliaPass ? 'SUPERADOS ambos mínimos de entrenamiento' : 'NO superados ambos mínimos de entrenamiento'}` : smartResult ? `${escapeHtml(smartResult.label)}: ${smartResult.value.toFixed(2).replace('.', ',')}/${smartResult.maximum} · ${percentage}% aciertos` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota. Esta calificación no supone superar la oposición completa ni obtener plaza; la bolsa exige aprobar al menos el primer ejercicio.' : diputacionC1Exam ? ' Entrenamiento C1: +0,20 acierto, −0,05 error, blanco 0. Se califican exclusivamente las 50 titulares; las reservas se corrigen por separado. Material del banco existente, sin T22 OAPGT. Alcanzar 5/10 aquí NO acredita el aprobado oficial ni la cobertura íntegra del temario.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : uc3mQuick ? ' Repaso exprés: aciertos − errores/3. Resultado solo orientativo, sin corte de aprobado ni certificación jurídica integral.' : oliaExam ? ` Olías: teoría ${theory.hits} aciertos, ${theory.misses} errores y ${theory.blank} en blanco; psicotécnico ${psych.hits} aciertos, ${psych.misses} errores y ${psych.blank} en blanco. Aciertos menos un tercio por error, cada parte sobre 50 puntos; entrenamiento no determina el aprobado oficial.` : smartResult ? ' '+escapeHtml(smartResult.explanation) : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
+  if (diputacionC1Exam && items.length === 55) {
+    const scenario = document.createElement('fieldset');
+    scenario.innerHTML = '<legend>Simulación hipotética de anulaciones (no oficial)</legend><label>Preguntas titulares anuladas (números separados por comas, máximo 5) <input id="dip-reserve-scenario" type="text" placeholder="1, 12"></label> <button type="button" id="dip-reserve-calculate">Calcular sustitución</button><p id="dip-reserve-result" role="status"></p>';
+    result.append(scenario);
+    scenario.querySelector('#dip-reserve-calculate').addEventListener('click', () => {
+      const raw = scenario.querySelector('#dip-reserve-scenario').value.trim();
+      const tokens = raw ? raw.split(',').map(v => v.trim()) : [];
+      const numbers = tokens.map(Number);
+      const output = scenario.querySelector('#dip-reserve-result');
+      if (tokens.some(v => !/^\d+$/.test(v)) || numbers.some(n => n < 1 || n > 50) || new Set(numbers).size !== numbers.length || numbers.length > 5) {
+        output.textContent = 'Introduce hasta cinco números distintos entre 1 y 50.';
+        return;
+      }
+      const effective = results.slice(0, 50).filter((_, i) => !numbers.includes(i + 1)).concat(results.slice(50, 50 + numbers.length));
+      const hits = effective.filter(r => r.correct).length;
+      const misses = effective.filter(r => r.answered && !r.correct).length;
+      const grade = Math.max(0, hits * 0.2 - misses * 0.05);
+      output.textContent = 'Nota hipotética: ' + grade.toFixed(2).replace('.', ',') + '/10 · ' + hits + ' aciertos, ' + misses + ' errores, ' + (50 - hits - misses) + ' blancos. 50 preguntas computadas; historial ordinario sin cambios.';
+    });
+  }
   document.querySelector('#exercise-form').prepend(result);
   // Tras corregir, llevar el foco al resultado para usuarios de teclado y lectores de pantalla.
   if (typeof result.focus === 'function') result.focus({ preventScroll: true });
