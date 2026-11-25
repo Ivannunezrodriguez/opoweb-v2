@@ -90,7 +90,12 @@ export function normalizeOpportunity(o,asOf){
  const explicitUniversity= /\b(?:t[ií]tulo\s+de\s+grado\s+universitario|licenciatura|diplomatura|doctorado|graduad[oa]\s+universitari[oa])\b/i.test(qualification)||specificDegree;
  const alternativeFP=/\b(?:o|alternativamente)\s+(?:(?:el|la|un|una)\s+)?(?:t[ií]tulo\s+de\s+)?(?:t[eé]cnic[oa](?:\s+superior)?|formaci[oó]n\s+profesional|bachiller|ESO|graduad[oa]\s+en\s+educaci[oó]n\s+secundaria)\b/i.test(qualification);
  const ineligible=knownQualification&&explicitUniversity&&!alternativeFP&&o.detailsStatus==='LEIDO';
+ // An academic match is not an admission decision. A complete, manually
+ // reviewed assessment must be tied to the actual qualification evidence
+ // and all mandatory requirements, not to a job group or a stale flag.
  const compatibility=ineligible?'NO_CUMPLE':'REVISAR';
+ const qualificationAssessment=ineligible?'NO_CUMPLE':knownQualification?'REVISAR':'SIN_ACREDITAR';
+ const additionalAdmissionPending=Array.isArray(o.additionalRequirements)&&o.additionalRequirements.some(r=>r&&typeof r.literal==='string'&&r.literal.trim());
  const access=clean(o.access);
  const kind=isOffer?'Oferta de empleo (sin convocatoria)':/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/\bsustituci[oó]n(?:es)?\b|\bsuplencia(?:s)?\b/i.test(title)?'Sustitución':/\binterin(?:o|a|os|as|idad|idades)\b/i.test(title)?'Interinidad':/contrataci[oó]n\s+temporal|personal\s+laboral\s+temporal|contrato\s+temporal/i.test(title)?'Temporal':/personal\s+laboral\s+fijo|contrato\s+indefinido/i.test(title)?'Laboral fijo':/funcionari[oa]\s+de\s+carrera/i.test(title)?'Funcionario de carrera':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
  const actionable=!navigationOnly && !isOffer && !phaseFollowup && !ineligible && !deadlineConflict && !vacancyConflict && knownRole && !!officialUrl;
@@ -102,7 +107,7 @@ export function normalizeOpportunity(o,asOf){
   kind,state:ineligible?'NO_ACCESIBLE':(vacancyConflict&&!isOffer&&!phaseFollowup?'REVISAR':status),phaseFollowup,offerWithoutCall:isOffer,notAccessible:!!ineligible,actionable,knownQualification:!!knownQualification,
   completeness:(knownRole?1:0)+(vacancies!=null?1:0)+(iso?1:0)+(knownQualification?1:0)+(group!=='REVISAR'?1:0),
   informationPending:!knownRole||!iso||!knownQualification,
-  compatibility,
+  compatibility,qualificationAssessment,additionalAdmissionPending,
   officialUrl
  };
 }
