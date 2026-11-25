@@ -39,6 +39,11 @@ La cesión interadministrativa debe respetar la normativa de protección de dato
 
 [Artículo 155](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a155).
 
+## Responsabilidad patrimonial y actuación automatizada
+
+- [Art. 32](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32): daño real, cuantificable e individualizado; la anulación no implica automáticamente indemnización.
+- [Arts. 41–42](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41): actuación íntegramente electrónica sin intervención directa de empleado público; órgano responsable de impugnación previamente identificado. Firma mediante sello o CSV según determine la Administración.
+
 ## Autoevaluación razonada
 
 1. Sin plazo sectorial, ¿cuándo prescribe una infracción leve? A) 6 meses B) 1 año C) 2 años D) 3 años. **A**, art. 30.1.
@@ -49,4 +54,9 @@ La cesión interadministrativa debe respetar la normativa de protección de dato
 6. ¿Qué mayoría exige la prórroga ordinaria antes del vencimiento? A) Simple B) Absoluta C) Tres quintos D) Unanimidad. **D**, art. 49.h.
 7. Si no existe régimen expreso de modificación, ¿qué acuerdo se exige? A) Unánime B) Mayoría simple C) Mayoría absoluta D) Decisión unilateral. **A**, art. 49.g.
 
-**Límite editorial:** siete preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
+8. ¿La anulación implica por sí sola indemnización? **No**, art. 32.1.
+9. ¿Qué características debe reunir el daño? **Real, cuantificable e individualizado**, art. 32.2.
+10. ¿Qué distingue la actuación automatizada? **Tramitación íntegramente electrónica sin intervención directa de empleado público**, art. 41.1.
+11. ¿Puede firmarse mediante CSV? **Sí**, art. 42.b.
+
+**Límite editorial:** once preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
