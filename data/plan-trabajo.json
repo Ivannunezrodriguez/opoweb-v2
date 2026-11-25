@@ -204,14 +204,16 @@
             "25/11/2026: publicación de doce casos confirmada (45581349054). Añadido caso 13 de carrera horizontal y movilidad, arts. 62, 64 y 73 Ley 4/2011 contrastados con el texto BOE disponible; corregidas referencias internas de diez cuestiones antiguas tras inspeccionar seis manuales, evitando anclas no verificadas. Total 13 casos, 52 cuestiones, 104 criterios. Commit 63cc477; publicación pendiente. Texto BOE recuperado con antigüedad de rastreo, sin certificación de reformas posteriores.",
             "25/11/2026: publicación de trece casos confirmada (45581565622). Incorporados dos modelos integrales de desarrollo con cinco cuestiones y diez criterios cada uno, duración sugerida 35 minutos por modelo (no oficial), en simulacrosPracticos del visor existente. Procedimiento electrónico y recursos; contratación y crédito presupuestario. Commit 1eefc65. Cotejo focal LPAC y LCSP con BOE; TRLRHL referenciado. Bases íntegras no recuperadas en esta pasada, no se afirma formato definitivo del segundo ejercicio.",
             "25/11/2026: publicación de primeros dos modelos integrales confirmada (45581829443). Añadidos modelos 3 y 4 de organización municipal, personal y recaudación con plazos calculables, contrastados con arts. 20,26,36 LRBRL, 62,64 TREBEP y 28,62 LGT. Total 4 modelos, 20 cuestiones, 40 criterios adicionales. Commit f1fca13; nueva prueba Chromium de entrada y autocorrección 1872054. Pendientes CI y E2E.",
-            "25/11/2026: publicación de cuatro modelos confirmada (45582061166). Completada elaboración de seis modelos integrales, 30 cuestiones y 60 criterios, con modelos 5 Writer/Calc y 6 multidisciplinar (LPAC, transparencia, Calc), commit 7a6dbe8. Duraciones sugeridas 35/45 min, sin temporizador. Validación de IDs y sumas de rúbricas en memoria. Pendiente CI del último contenido y E2E específico, bases íntegras y comprobación versión LibreOffice 24."
+            "25/11/2026: publicación de cuatro modelos confirmada (45582061166). Completada elaboración de seis modelos integrales, 30 cuestiones y 60 criterios, con modelos 5 Writer/Calc y 6 multidisciplinar (LPAC, transparencia, Calc), commit 7a6dbe8. Duraciones sugeridas 35/45 min, sin temporizador. Validación de IDs y sumas de rúbricas en memoria. Pendiente CI del último contenido y E2E específico, bases íntegras y comprobación versión LibreOffice 24.",
+            "25/11/2026: seis modelos prácticos publicados (45582234475); prueba específica de entrada y autocorrección SUCCESS 45582033145. Anuncio oficial del Tribunal de 13/11/2026 confirma que 15/12/2026 a las 16:00 en Academia de Infantería es PRIMER ejercicio: 50 preguntas, cuatro alternativas, 60 min. La preparación práctica se conserva para el segundo ejercicio. Inventario directo: cinco modelos cortos suman 61 preguntas, un modelo de 50 reutiliza preguntas de los anteriores. Priorizar nuevos modelos de 50 con preguntas no repetidas y trazabilidad.",
+            "25/11/2026: modelo DIP-SIM-007 de 50 preguntas/60 min seleccionado del banco activo (8 temas 5,6,8,16,26,27,35,36), sin coincidencia textual normalizada con los seis modelos anteriores, posiciones 13/13/12/12, origenId y referenciaOriginal. Validadores histórico y global adaptados en un commit atómico acbbd41. No es cobertura transversal completa, ni preguntas inéditas en banco, ni nueva auditoría jurídica. Pendiente CI."
           ],
           "remainingSubsteps": [
             "Certificar vigencia estatutaria T22 (DIP-C1-02) y revisar sus 96 opciones",
             "Revisar jurídicamente soluciones y distractores de los 807 ítems temáticos",
             "Ampliar y validar jurídicamente 5 casos prácticos: contraste preliminar 5/5, faltan fuentes por cuestión, rúbrica, formato y E2E"
           ],
-          "nextAction": "Cerrar fase de preparación práctica: verificar publicación de seis modelos, E2E específico y acceso a todos; cotejar bases oficiales completas, corregir discrepancias y revisar referencias y normativa pendiente. No ampliar indefinidamente el banco; mantener DIP-C1-01 parcial hasta criterios de aceptación."
+          "nextAction": "Comprobar CI del modelo 007; actualizar aviso del centro de entrenamiento para reflejar modelos completos y añadir E2E. Construir siguientes modelos de 50 preguntas con cobertura transversal y sin duplicados exactos, en lotes menores, contrastar penalización oficial y fuentes. No cerrar DIP-C1-01 todavía."
         },
         {
           "id": "DIP-C2-01",
@@ -3095,6 +3097,33 @@
         "content/diputacion-toledo/simulacros.json"
       ],
       "limit": "Pendiente CI/E2E, cotejo íntegro de bases, versiones de ofimática y revisión jurídica. Modelos escritos y tiempos sugeridos no oficiales."
+    },
+    {
+      "id": "LOG-20261125-DIP-C1-PRIMER-EJERCICIO-PRIORIDAD",
+      "at": "2026-11-25",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Publicación de seis modelos prácticos y autocorrección verificada; anuncio oficial confirma primer ejercicio 15/12, se reorienta prioridad a modelos tipo test de 50 preguntas.",
+      "evidence": [
+        "https://www.diputoledo.es/global/ver-pdf/37765",
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "Último E2E general pendiente; BOP íntegro no accesible; no se certifica penalización ni auditoría jurídica integral. No cerrar DIP-C1-01."
+    },
+    {
+      "id": "LOG-20261125-DIP-C1-TEST-007",
+      "at": "2026-11-25",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Segundo modelo de 50 preguntas, focal de ocho temas; validadores ampliados atómicamente.",
+      "evidence": [
+        "content/diputacion-toledo/simulacros.json"
+      ],
+      "limit": "CI pendiente; selección del banco, no auditoría jurídica nueva, ocho temas, T22 excluido, penalización pendiente de contraste de bases."
     }
   ],
   "decisions": [
@@ -3278,5 +3307,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T09:06:20.000Z"
+  "updatedAtUtc": "2026-11-25T09:14:06.000Z"
 }
