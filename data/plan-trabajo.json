@@ -497,7 +497,7 @@
         {
           "id": "RAD-02",
           "title": "Verificar plazas, plazos y discrepancias entre publicaciones oficiales",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Regla reutilizable para contrastar bases, extractos y rectificaciones por expediente; conservar procedencia y alertar de contradicciones no resueltas; no presentar plazos ni plazas como confirmados sin evidencia oficial suficiente. Pruebas de casos con discrepancias y sin ellas, y publicación verificada.",
           "evidencePaths": [
             "content/el-viso-auxiliar-c2-2026/index.html",
@@ -519,13 +519,10 @@
             "25/11/2026: CI 45633905961 y 45633905829 fallaban en auditoría operativa línea 29 por expectativas anteriores al bloqueo de conflictos. Commit 356f80385d60eca6f1e2fa29e97f21e2433d5495 ajusta la prueba al contrato vigente y añade regresión de documento leído con plazo contradictorio, sin alertas ni fecha confirmada. CI 45636468696/45636468599 pendiente.",
             "25/11/2026: normalización transversal de plazos y plazas disputadas en 93c18ec y regresiones en 62a4e73; el conflicto impide mostrar cifra/fecha como confirmada y activar alertas. Publicación bloqueada por invariante de P1 del plan (45636499308), corregida al sincronizar estados de fase con tareas. Pendiente nueva publicación y acreditar detección documental de discrepancias.",
             "25/11/2026: publicación 45638586628 SUCCESS confirma protección de discrepancias y cierre de fase P1. Añadida comparación de observaciones anteriores y nuevas de la misma ficha para cifras y fechas, conservando fuentes y marcas persistentes, commits a7a42e5 y 2189871. Pruebas sintéticas de coincidencia y conflicto. Pendiente CI y contraste entre documentos de un mismo expediente; no fusionar por municipio o puesto.",
-            "25/11/2026 16:48 UTC: CI 45647213031 y 45650113391 fallaban en tests/radar-enrich.mjs:295: el patrón de fecha absoluta no admitía «hasta el». Corrección c91e0fd y pruebas de fecha válida e imposible 25cf65f; pendiente CI."
+            "25/11/2026 16:48 UTC: CI 45647213031 y 45650113391 fallaban en tests/radar-enrich.mjs:295: el patrón de fecha absoluta no admitía «hasta el». Corrección c91e0fd y pruebas de fecha válida e imposible 25cf65f; pendiente CI.",
+            "25/11/2026: conciliación documental transversal por organismo, expediente acreditado, puesto, grupo, turno y régimen (6f6d5dd, 363bbee); conserva fichas independientes y bloquea alertas ante conflictos. Publicación 45664654949 SUCCESS con logs RADAR_DISPUTED_DEADLINE_AND_VACANCIES_BLOCK_ALERT_OK, RADAR_DOCUMENT_OBSERVATION_CONFLICTS_OK y RADAR_CROSS_DOCUMENT_CONFLICTS_WITHOUT_MERGING_OK; privacidad 45664654926 SUCCESS y rastreo 45664630764 SUCCESS. Código de protección comprobado en repositorio público. Lectura íntegra del feed no completada (respuesta truncada); no se acredita caso real cruzado ni se resuelven contradicciones históricas."
           ],
-          "remainingSubsteps": [
-            "Comprobar reglas actuales de procedencia, conflicto y presentación; cubrir con regresiones generalizables las lagunas reales.",
-            "Mantener expedientes contradictorios en REVISAR sin fecha definitiva hasta disponer de evidencia suficiente durante el rastreo ordinario."
-          ],
-          "nextAction": "Verificar CI de 25cf65f y conciliación entre documentos distintos con expediente acreditado; comprobar feed y bloqueo de alertas."
+          "closureScope": "Regla general reutilizable y regresiones sintéticas de conflicto/coincidencia publicadas; casos no resueltos permanecen en revisión durante el rastreo ordinario. No certifica conciliación jurídica universal ni caso cruzado real."
         },
         {
           "id": "RAD-03",
@@ -3429,6 +3426,17 @@
         "content/jccm-2026/ley40-repaso.html"
       ],
       "limit": "CI y navegador pendientes; no acredita cobertura integral ni cierre."
+    },
+    {
+      "id": "LOG-20261125-RAD02-CONCILIACION",
+      "at": "2026-11-25",
+      "taskIds": [
+        "RAD-02"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre de alcance transversal: detección y bloqueo de discrepancias, conciliación por identidad acreditada y regresiones positivas/negativas publicadas.",
+      "evidence": [],
+      "limit": "Validación sintética; no acredita caso cruzado real, ni resolución de discrepancias documentales históricas."
     }
   ],
   "decisions": [
@@ -3521,7 +3529,6 @@
         "title": "Prioridad operativa",
         "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
         "taskIds": [
-          "RAD-02",
           "RAD-09",
           "RAD-12",
           "RAD-13",
@@ -3636,5 +3643,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T17:10:15.000Z"
+  "updatedAtUtc": "2026-11-25T17:57:51.000Z"
 }
