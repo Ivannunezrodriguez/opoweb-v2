@@ -32,7 +32,7 @@
     {
       "id": "P1",
       "title": "Examen real La Puebla",
-      "status": "HECHO",
+      "status": "EN_CURSO",
       "tasks": [
         {
           "id": "LP-EX-01",
@@ -103,6 +103,36 @@
           "closedAt": "2026-11-25",
           "closureScope": "Simulacro histórico de La Puebla 14/11/2026: 50 titulares y 5 reservas, 220 alternativas transcritas de 13 fotografías, plantilla provisional 16/11/2026, temporizador 60 min, +0,20/−0,05, blancos, reservas excluidas por defecto y sustitución hipotética explícita. Publicación 45591964741 SUCCESS; Chromium local y Pages 45591964686 SUCCESS con OPOWEB_LP_HISTORICAL_55_E2E_OK dos veces, acceso desde practice, 10/10, escenario 9,75/10, expiración, móvil emulado y sin errores JS. No acredita plantilla definitiva ni anulación oficial ni revisión jurídica integral.",
           "closeLimit": "Cierre operativo autorizado por el usuario: plantilla provisional, sin anulación oficial acreditada."
+        },
+        {
+          "id": "LP-EX-05",
+          "title": "Aplicar plantilla definitiva y calificaciones oficiales de La Puebla",
+          "state": "PARCIAL",
+          "priority": "ALTA",
+          "acceptance": "48 claves titulares y reservas 1 y 2 correctas en calculadora y simulacro; publicación y E2E comprobados; estadísticas anónimas cotejadas sin datos personales.",
+          "evidencePaths": [
+            "content/la-puebla/examen-real-2026.html",
+            "practice.html"
+          ],
+          "completedSubsteps": [
+            "25/11/2026: anuncio del Tribunal firmado 24/11/2026 aportado por usuario; página 7: anuladas 18 y 34, R1=D y R2=D; 26=A. Actualizados ambos correctores, acceso y pruebas (12bd871, 5855b0f, 693c055, 25d05b5)."
+          ],
+          "nextAction": "Verificar CI/E2E y publicar estadísticas anónimas cotejadas. No divulgar notas nominativas ni PDF con datos personales."
+        },
+        {
+          "id": "LP-PRACT-01",
+          "title": "Preparar segundo ejercicio La Puebla con supuestos y rúbricas",
+          "state": "PARCIAL",
+          "priority": "ALTA",
+          "acceptance": "Modelos prácticos de los bloques administrativo, régimen local, tributario y ofimática, soluciones con fuentes, rúbricas verificables y acceso publicado; distinguir formato y tiempo orientativos de los oficiales.",
+          "evidencePaths": [
+            "content/la-puebla/simulacros.json",
+            "practice.html"
+          ],
+          "completedSubsteps": [
+            "Existían tres modelos de cinco cuestiones: procedimiento, tributos y expediente digital/ofimática. Anuncio 24/11 no fija fecha ni formato concreto del segundo ejercicio."
+          ],
+          "nextAction": "Revisar los tres modelos existentes, añadir rúbricas y casos de régimen local, verificar fuentes y acceso; adaptar al anuncio de convocatoria del segundo ejercicio cuando exista."
         }
       ]
     },
@@ -3308,6 +3338,21 @@
         "content/la-puebla/examen-real-2026.html"
       ],
       "limit": "Cierre operativo autorizado por el usuario: plantilla provisional, sin anulación oficial acreditada."
+    },
+    {
+      "id": "LOG-20261125-LP-DEFINITIVA-PRIORIDAD",
+      "at": "2026-11-25",
+      "taskIds": [
+        "LP-EX-05",
+        "LP-PRACT-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Nueva evidencia oficial posterior al cierre histórico provisional; se preserva ese cierre y se añaden dos entregas concretas: definitiva y segundo ejercicio.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html",
+        "content/la-puebla/simulacros.json"
+      ],
+      "limit": "CI/E2E nuevos pendientes; no se publica información personal ni se presume fecha oficial."
     }
   ],
   "decisions": [
@@ -3400,6 +3445,8 @@
         "title": "Prioridad operativa",
         "description": "Trabajo contrastable y útil antes del examen Diputación C1 y para nuevas oportunidades; un mismo muestreo Radar debe servir a varios IDs sin duplicar investigación.",
         "taskIds": [
+          "LP-EX-05",
+          "LP-PRACT-01",
           "RAD-02",
           "RAD-09",
           "RAD-12",
@@ -3515,5 +3562,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T10:43:28.000Z"
+  "updatedAtUtc": "2026-11-25T10:54:13.000Z"
 }
