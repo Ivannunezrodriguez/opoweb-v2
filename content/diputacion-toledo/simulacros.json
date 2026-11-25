@@ -6679,9 +6679,918 @@
           "referenciaOriginal": "ET art. 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a45"
         }
       ]
+    },
+    {
+      "id": "DIP-SIM-012",
+      "titulo": "Simulacro 12 · Constitución, régimen local, empleo público, recaudación y ofimática",
+      "duracionMinutos": 60,
+      "tipoPuntuacion": "EXAMEN_DIPUTACION_C1_2026",
+      "instrucciones": "50 preguntas del banco existente sin repetir enunciados normalizados de modelos anteriores. Modelo focal de seis temas; distribución didáctica, no oficial. T22 excluido por reserva documental. No supone nueva auditoría jurídica individual.",
+      "preguntas": [
+        {
+          "id": "DIP-SIM-012-Q01",
+          "pregunta": "¿Cuál es el mandato de los magistrados del Tribunal Constitucional?",
+          "opciones": [
+            "Nueve años",
+            "Tres años",
+            "Seis años",
+            "Doce años"
+          ],
+          "correcta": 0,
+          "justificacion": "Los magistrados del Tribunal Constitucional son designados por nueve años y el órgano se renueva por terceras partes cada tres años.",
+          "trampa": "Los tres años corresponden a la renovación parcial y al mandato de la Presidencia, no al mandato de cada magistrado.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "Nueve años",
+          "tema": 1,
+          "origenId": "DIP-T01-006",
+          "referenciaOriginal": "CE, art. 159 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a159"
+        },
+        {
+          "id": "DIP-SIM-012-Q02",
+          "pregunta": "Las haciendas locales se nutren fundamentalmente de:",
+          "opciones": [
+            "Transferencias estatales exclusivamente",
+            "Tributos propios exclusivamente",
+            "Tributos propios y participación en tributos estatales y autonómicos",
+            "Deuda pública local"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 142 de la Constitución dispone que las haciendas locales se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las comunidades autónomas.",
+          "trampa": "La Constitución no limita la financiación local a los tributos propios ni a las transferencias estatales.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "Tributos propios y participación en tributos estatales y autonómicos",
+          "tema": 12,
+          "origenId": "DIP-T12-006",
+          "referenciaOriginal": "Constitución Española, art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a142"
+        },
+        {
+          "id": "DIP-SIM-012-Q03",
+          "pregunta": "¿Qué efecto tiene aprobar el proceso selectivo?",
+          "opciones": [
+            "Contrato laboral automático",
+            "Adquisición automática de la condición funcionarial",
+            "Solo una expectativa hasta completar nombramiento, acatamiento y toma de posesión",
+            "Ingreso en prácticas indefinido"
+          ],
+          "correcta": 2,
+          "justificacion": "La condición de personal funcionario de carrera exige superar el proceso, ser nombrado, realizar el acto de acatamiento y tomar posesión dentro del plazo establecido.",
+          "trampa": "Aprobar el proceso selectivo no equivale por sí solo a adquirir la condición funcionarial plena.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "Solo una expectativa hasta completar nombramiento, acatamiento y toma de posesión",
+          "tema": 17,
+          "origenId": "DIP-T17-006",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a55"
+        },
+        {
+          "id": "DIP-SIM-012-Q04",
+          "pregunta": "El recargo ejecutivo aplicable cuando se paga antes de la notificación de la providencia de apremio es del:",
+          "opciones": [
+            "10 %",
+            "5 %",
+            "15 %",
+            "20 %"
+          ],
+          "correcta": 1,
+          "justificacion": "El recargo ejecutivo es del 5 % cuando la totalidad de la deuda se satisface antes de la notificación de la providencia de apremio.",
+          "trampa": "El 10 % corresponde al recargo de apremio reducido y el 20 % al recargo de apremio ordinario.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "5 %",
+          "tema": 26,
+          "origenId": "DIP-T26-007",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 28 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+        },
+        {
+          "id": "DIP-SIM-012-Q05",
+          "pregunta": "¿Cuál es el formato nativo de LibreOffice Impress?",
+          "opciones": [
+            "PPTX",
+            "ODT",
+            "ODS",
+            "ODP"
+          ],
+          "correcta": 3,
+          "justificacion": "El formato nativo de las presentaciones creadas con LibreOffice Impress es ODP.",
+          "trampa": "PPTX es un formato compatible, pero no es el formato nativo de Impress.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "ODP",
+          "tema": 38,
+          "origenId": "DIP-T38-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#1-concepto-y-finalidad"
+        },
+        {
+          "id": "DIP-SIM-012-Q06",
+          "pregunta": "¿Qué tipo de periférico es una pantalla táctil?",
+          "opciones": [
+            "Solo de entrada",
+            "Solo de salida",
+            "De entrada y salida",
+            "Solo de almacenamiento"
+          ],
+          "correcta": 2,
+          "justificacion": "Una pantalla táctil es un periférico de entrada y salida: muestra información y también recibe órdenes mediante el contacto táctil.",
+          "trampa": "No debe clasificarse únicamente como monitor, porque además de mostrar información también capta la interacción del usuario.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "De entrada y salida",
+          "tema": 40,
+          "origenId": "DIP-T40-001",
+          "referenciaOriginal": "content/diputacion-toledo/tema-40/manual.md#periféricos-del-ordenador-personal"
+        },
+        {
+          "id": "DIP-SIM-012-Q07",
+          "pregunta": "¿Cuántos miembros del Tribunal Constitucional propone el Congreso de los Diputados?",
+          "opciones": [
+            "Dos",
+            "Tres",
+            "Seis",
+            "Cuatro"
+          ],
+          "correcta": 3,
+          "justificacion": "El Congreso propone cuatro magistrados por mayoría de tres quintos de sus miembros. El Senado propone otros cuatro con la misma mayoría.",
+          "trampa": "Gobierno y Consejo General del Poder Judicial proponen dos cada uno; Congreso y Senado, cuatro cada uno.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "Cuatro",
+          "tema": 1,
+          "origenId": "DIP-T01-007",
+          "referenciaOriginal": "CE, art. 159 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a159"
+        },
+        {
+          "id": "DIP-SIM-012-Q08",
+          "pregunta": "¿Cuál es la norma básica estatal de referencia en régimen local?",
+          "opciones": [
+            "Real Decreto Legislativo 2/2004",
+            "Ley 39/2015",
+            "Real Decreto 2568/1986",
+            "Ley 7/1985"
+          ],
+          "correcta": 3,
+          "justificacion": "La Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, constituye la norma básica estatal de referencia en esta materia.",
+          "trampa": "El ROF desarrolla aspectos de organización y funcionamiento, pero no sustituye a la legislación básica estatal.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "Ley 7/1985",
+          "tema": 12,
+          "origenId": "DIP-T12-007",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a1"
+        },
+        {
+          "id": "DIP-SIM-012-Q09",
+          "pregunta": "¿Cuál de las siguientes NO es causa de pérdida de la condición de personal funcionario de carrera?",
+          "opciones": [
+            "Renuncia",
+            "Cambio de puesto por concurso",
+            "Jubilación total",
+            "Separación firme del servicio"
+          ],
+          "correcta": 1,
+          "justificacion": "El cambio de puesto mediante concurso constituye una forma de provisión y movilidad, pero no extingue la relación de servicio.",
+          "trampa": "No debe confundirse la movilidad profesional con la pérdida de la condición funcionarial.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "Cambio de puesto por concurso",
+          "tema": 17,
+          "origenId": "DIP-T17-007",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a56"
+        },
+        {
+          "id": "DIP-SIM-012-Q10",
+          "pregunta": "El recargo de apremio reducido es del:",
+          "opciones": [
+            "10 %",
+            "5 %",
+            "15 %",
+            "20 %"
+          ],
+          "correcta": 0,
+          "justificacion": "El recargo de apremio reducido es del 10 % cuando se pagan la deuda y el propio recargo dentro del plazo concedido por la providencia de apremio.",
+          "trampa": "No debe confundirse con el recargo ejecutivo del 5 %, aplicable antes de la notificación de la providencia.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "10 %",
+          "tema": 26,
+          "origenId": "DIP-T26-008",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 28 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+        },
+        {
+          "id": "DIP-SIM-012-Q11",
+          "pregunta": "¿Qué vista facilita especialmente reordenar varias diapositivas?",
+          "opciones": [
+            "Normal",
+            "Notas",
+            "Patrón",
+            "Clasificador de diapositivas"
+          ],
+          "correcta": 3,
+          "justificacion": "El Clasificador de diapositivas ofrece una visión global de la presentación y facilita reordenar, copiar o eliminar varias diapositivas.",
+          "trampa": "La vista Normal se utiliza principalmente para editar el contenido de una diapositiva concreta.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "Clasificador de diapositivas",
+          "tema": 38,
+          "origenId": "DIP-T38-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#vistas-principales"
+        },
+        {
+          "id": "DIP-SIM-012-Q12",
+          "pregunta": "¿Qué consumible utiliza normalmente una impresora láser?",
+          "opciones": [
+            "Tinta líquida",
+            "Tóner",
+            "Cinta magnética",
+            "Papel térmico exclusivamente"
+          ],
+          "correcta": 1,
+          "justificacion": "Las impresoras láser utilizan normalmente tóner y un proceso electrofotográfico, mientras que las de inyección emplean cartuchos de tinta.",
+          "trampa": "El tóner se asocia a la impresión láser; la tinta líquida corresponde a las impresoras de inyección.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "Tóner",
+          "tema": 40,
+          "origenId": "DIP-T40-002",
+          "referenciaOriginal": "content/diputacion-toledo/tema-40/manual.md#impresoras"
+        },
+        {
+          "id": "DIP-SIM-012-Q13",
+          "pregunta": "¿Quiénes están legitimados parlamentariamente para interponer recurso de inconstitucionalidad?",
+          "opciones": [
+            "25 diputados o 25 senadores",
+            "50 diputados o 50 senadores",
+            "Cualquier grupo parlamentario",
+            "Una décima parte de cada Cámara"
+          ],
+          "correcta": 1,
+          "justificacion": "La Constitución legitima a cincuenta diputados y a cincuenta senadores para interponer recurso de inconstitucionalidad.",
+          "trampa": "La décima parte de una Cámara se relaciona con la petición de referéndum en la reforma ordinaria, no con este recurso.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "50 diputados o 50 senadores",
+          "tema": 1,
+          "origenId": "DIP-T01-008",
+          "referenciaOriginal": "CE, art. 162 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a162"
+        },
+        {
+          "id": "DIP-SIM-012-Q14",
+          "pregunta": "¿Cuál de las siguientes es una entidad local territorial?",
+          "opciones": [
+            "El municipio",
+            "El área metropolitana",
+            "La mancomunidad",
+            "La comarca"
+          ],
+          "correcta": 0,
+          "justificacion": "El artículo 3.1 de la Ley 7/1985 considera entidades locales territoriales al municipio, la provincia y la isla en los archipiélagos balear y canario.",
+          "trampa": "Las demás opciones pueden ser entidades locales, pero no integran la clasificación territorial básica del artículo 3.1.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "El municipio",
+          "tema": 12,
+          "origenId": "DIP-T12-008",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a3"
+        },
+        {
+          "id": "DIP-SIM-012-Q15",
+          "pregunta": "La separación del servicio produce pérdida de la condición funcionarial cuando...",
+          "opciones": [
+            "Se propone por el instructor",
+            "La acuerda provisionalmente el superior",
+            "Se publica la apertura del expediente",
+            "Es firme en vía administrativa"
+          ],
+          "correcta": 3,
+          "justificacion": "La sanción disciplinaria de separación del servicio debe ser firme en vía administrativa para producir la pérdida de la condición funcionarial.",
+          "trampa": "Una propuesta o una resolución no firme no produce todavía la pérdida efectiva de la condición.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "Es firme en vía administrativa",
+          "tema": 17,
+          "origenId": "DIP-T17-008",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a56"
+        },
+        {
+          "id": "DIP-SIM-012-Q16",
+          "pregunta": "El procedimiento de apremio se inicia mediante:",
+          "opciones": [
+            "La liquidación",
+            "La diligencia de embargo",
+            "La providencia de apremio",
+            "La subasta"
+          ],
+          "correcta": 2,
+          "justificacion": "El procedimiento de apremio es exclusivamente administrativo y se inicia mediante la providencia de apremio.",
+          "trampa": "El periodo ejecutivo puede haber comenzado antes; periodo ejecutivo y procedimiento de apremio no son conceptos idénticos.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "La providencia de apremio",
+          "tema": 26,
+          "origenId": "DIP-T26-009",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 167 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a167"
+        },
+        {
+          "id": "DIP-SIM-012-Q17",
+          "pregunta": "¿Qué atajo inserta una nueva diapositiva en Impress?",
+          "opciones": [
+            "Ctrl + N",
+            "Ctrl + M",
+            "Ctrl + D",
+            "Mayús + F5"
+          ],
+          "correcta": 1,
+          "justificacion": "La combinación Ctrl + M inserta una nueva diapositiva en la presentación activa.",
+          "trampa": "Ctrl + N crea una presentación nueva; no inserta una diapositiva en la presentación actual.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "Ctrl + M",
+          "tema": 38,
+          "origenId": "DIP-T38-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#4-diapositivas-y-diseños"
+        },
+        {
+          "id": "DIP-SIM-012-Q18",
+          "pregunta": "¿Cuál es la función principal del OCR?",
+          "opciones": [
+            "Cifrar documentos",
+            "Comprimir imágenes",
+            "Aumentar la resolución física del escáner",
+            "Reconocer texto contenido en una imagen"
+          ],
+          "correcta": 3,
+          "justificacion": "El OCR reconoce los caracteres presentes en una imagen para convertirlos en texto editable o susceptible de búsqueda.",
+          "trampa": "Escanear genera una imagen digital; aplicar OCR es una operación posterior de reconocimiento del texto contenido en ella.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "Reconocer texto contenido en una imagen",
+          "tema": 40,
+          "origenId": "DIP-T40-003",
+          "referenciaOriginal": "content/diputacion-toledo/tema-40/manual.md#escáneres"
+        },
+        {
+          "id": "DIP-SIM-012-Q19",
+          "pregunta": "En el procedimiento ordinario de reforma constitucional, ¿qué mayoría se exige con carácter general en cada Cámara?",
+          "opciones": [
+            "Mayoría absoluta",
+            "Dos tercios",
+            "Tres quintos",
+            "Mayoría simple"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 167 exige como regla general la aprobación por mayoría de tres quintos de cada Cámara.",
+          "trampa": "Los dos tercios son característicos del procedimiento agravado del artículo 168 y de una alternativa final en el Congreso bajo condiciones específicas.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "Tres quintos",
+          "tema": 1,
+          "origenId": "DIP-T01-009",
+          "referenciaOriginal": "CE, art. 167 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a167"
+        },
+        {
+          "id": "DIP-SIM-012-Q20",
+          "pregunta": "Las competencias propias de las entidades locales:",
+          "opciones": [
+            "Pueden atribuirse por reglamento",
+            "Requieren siempre delegación autonómica",
+            "Se ejercen bajo dirección estatal",
+            "Solo pueden determinarse por ley"
+          ],
+          "correcta": 3,
+          "justificacion": "Conforme al artículo 7.2 de la Ley 7/1985, las competencias propias de los municipios, provincias, islas y demás entidades locales territoriales solo pueden determinarse por ley.",
+          "trampa": "Una ordenanza local no puede crear por sí misma nuevas competencias propias.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "Solo pueden determinarse por ley",
+          "tema": 12,
+          "origenId": "DIP-T12-009",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a7"
+        },
+        {
+          "id": "DIP-SIM-012-Q21",
+          "pregunta": "¿Qué efecto tiene la inhabilitación absoluta firme?",
+          "opciones": [
+            "Pérdida solo del puesto ocupado",
+            "Pérdida respecto de todos los empleos o cargos públicos",
+            "Suspensión de un mes",
+            "Traslado forzoso"
+          ],
+          "correcta": 1,
+          "justificacion": "La pena firme de inhabilitación absoluta produce la pérdida respecto de todos los empleos o cargos públicos.",
+          "trampa": "No debe confundirse con la inhabilitación especial, limitada a los empleos o cargos especificados en la sentencia.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "Pérdida respecto de todos los empleos o cargos públicos",
+          "tema": 17,
+          "origenId": "DIP-T17-009",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a59"
+        },
+        {
+          "id": "DIP-SIM-012-Q22",
+          "pregunta": "Una providencia de apremio notificada entre los días 1 y 15 debe pagarse, con carácter general, hasta:",
+          "opciones": [
+            "El día 20 del mes siguiente",
+            "El día 5 del mismo mes",
+            "El día 5 del mes siguiente",
+            "El día 20 del mismo mes"
+          ],
+          "correcta": 3,
+          "justificacion": "Si la providencia de apremio se notifica entre los días 1 y 15, el plazo de pago termina el día 20 del mismo mes o el inmediato hábil siguiente.",
+          "trampa": "En periodo voluntario, una liquidación notificada en esas fechas puede pagarse hasta el día 20 del mes siguiente.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "El día 20 del mismo mes",
+          "tema": 26,
+          "origenId": "DIP-T26-010",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+        },
+        {
+          "id": "DIP-SIM-012-Q23",
+          "pregunta": "Ocultar una diapositiva significa que:",
+          "opciones": [
+            "Se conserva, pero no se muestra en la presentación ordinaria",
+            "Se borra su contenido",
+            "Se convierte en nota",
+            "Se elimina definitivamente"
+          ],
+          "correcta": 0,
+          "justificacion": "Una diapositiva oculta permanece en el archivo, pero se excluye del recorrido ordinario de la presentación.",
+          "trampa": "Ocultar una diapositiva no equivale a eliminarla ni a borrar su contenido.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "Se conserva, pero no se muestra en la presentación ordinaria",
+          "tema": 38,
+          "origenId": "DIP-T38-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#4-diapositivas-y-diseños"
+        },
+        {
+          "id": "DIP-SIM-012-Q24",
+          "pregunta": "¿Qué opción describe mejor un SSD externo frente a un HDD externo?",
+          "opciones": [
+            "Tiene siempre menor velocidad",
+            "No tiene piezas móviles y suele ser más rápido",
+            "Solo puede conectarse por Ethernet",
+            "Utiliza necesariamente discos ópticos"
+          ],
+          "correcta": 1,
+          "justificacion": "Un SSD externo utiliza memoria flash, carece de piezas mecánicas móviles y suele ofrecer mayor rapidez y resistencia a golpes que un HDD externo.",
+          "trampa": "Tanto SSD como HDD son dispositivos de almacenamiento no volátil; la diferencia principal está en su tecnología interna.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "No tiene piezas móviles y suele ser más rápido",
+          "tema": 40,
+          "origenId": "DIP-T40-004",
+          "referenciaOriginal": "content/diputacion-toledo/tema-40/manual.md#discos-duros-externos"
+        },
+        {
+          "id": "DIP-SIM-012-Q25",
+          "pregunta": "¿En qué plazo puede solicitar una décima parte de cualquiera de las Cámaras el referéndum sobre una reforma aprobada por el artículo 167?",
+          "opciones": [
+            "Quince días",
+            "Veinte días",
+            "Un mes",
+            "Diez días"
+          ],
+          "correcta": 0,
+          "justificacion": "La solicitud debe formularse dentro de los quince días siguientes a la aprobación de la reforma.",
+          "trampa": "El referéndum del artículo 167 es facultativo y el plazo exacto es de quince días.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "Quince días",
+          "tema": 1,
+          "origenId": "DIP-T01-010",
+          "referenciaOriginal": "CE, art. 167 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a167"
+        },
+        {
+          "id": "DIP-SIM-012-Q26",
+          "pregunta": "Conforme al artículo 27.1 LRBRL, ¿cuál es la duración mínima de una delegación del Estado o una comunidad autónoma de competencias en municipios?",
+          "opciones": [
+            "5 años",
+            "3 años",
+            "4 años",
+            "2 años"
+          ],
+          "correcta": 0,
+          "justificacion": "El **art. 27.1 LRBRL** fija duración de **al menos 5 años** para la delegación del **Estado o comunidades autónomas en municipios**, con condiciones, medios y memoria económica.",
+          "trampa": "**Cinco años** es duración mínima de delegación estatal o autonómica **en municipios** del **art. 27.1 LRBRL**; no extender a todas las fórmulas cooperativas.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "5 años",
+          "tema": 12,
+          "origenId": "DIP-T12-010",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 27 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a27"
+        },
+        {
+          "id": "DIP-SIM-012-Q27",
+          "pregunta": "¿Impide la renuncia volver a ingresar en la Administración?",
+          "opciones": [
+            "Sí, de por vida",
+            "Sí, durante diez años",
+            "No, puede ingresarse de nuevo superando el proceso selectivo correspondiente",
+            "Solo impide ingresar en la misma Administración"
+          ],
+          "correcta": 2,
+          "justificacion": "La renuncia a la condición funcionarial no inhabilita para ingresar de nuevo en la Administración mediante el correspondiente proceso selectivo.",
+          "trampa": "La renuncia no debe equipararse a una separación disciplinaria del servicio.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "No, puede ingresarse de nuevo superando el proceso selectivo correspondiente",
+          "tema": 17,
+          "origenId": "DIP-T17-010",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 57 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a57"
+        },
+        {
+          "id": "DIP-SIM-012-Q28",
+          "pregunta": "La interposición de un recurso contra un acto recaudatorio:",
+          "opciones": [
+            "Suspende siempre y automáticamente",
+            "Anula el acto",
+            "No suspende automáticamente, salvo que concurran los requisitos legales",
+            "Impide cualquier embargo sin excepción"
+          ],
+          "correcta": 2,
+          "justificacion": "La regla general es la ejecutividad del acto; la suspensión requiere garantía suficiente o la concurrencia de alguno de los supuestos legalmente previstos.",
+          "trampa": "Interponer un recurso y obtener la suspensión son actuaciones jurídicas distintas.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "No suspende automáticamente, salvo que concurran los requisitos legales",
+          "tema": 26,
+          "origenId": "DIP-T26-011",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 224 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a224"
+        },
+        {
+          "id": "DIP-SIM-012-Q29",
+          "pregunta": "¿Qué elemento controla fondos, logotipos y estilos comunes dentro de una presentación?",
+          "opciones": [
+            "La transición",
+            "El folleto",
+            "El comentario",
+            "El patrón de diapositivas"
+          ],
+          "correcta": 3,
+          "justificacion": "El patrón de diapositivas controla los fondos, logotipos, posiciones, pies, numeración y estilos comunes de varias diapositivas.",
+          "trampa": "Una plantilla sirve como modelo reutilizable para crear presentaciones; no es lo mismo que el patrón de la presentación actual.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "El patrón de diapositivas",
+          "tema": 38,
+          "origenId": "DIP-T38-005",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#5-patrones-temas-y-plantillas"
+        },
+        {
+          "id": "DIP-SIM-012-Q30",
+          "pregunta": "¿Cuál es el tamaño máximo exacto de un archivo individual en FAT32?",
+          "opciones": [
+            "4 GiB menos 1 byte (4.294.967.295 bytes)",
+            "8 GiB sin límite de formato",
+            "1 TiB por archivo si el volumen supera 32 GB",
+            "4 GB decimales exactos (4.000.000.000 bytes)"
+          ],
+          "correcta": 0,
+          "justificacion": "El campo de tamaño de archivo de FAT32 permite un máximo de 2^32−1 bytes, equivalente a 4 GiB menos 1 byte; Microsoft expresa el límite de la familia FAT32 como 4 GiB en su tabla comparativa.",
+          "trampa": "Los 4 GiB aproximados no son 4 GB decimales; no confundir límite de archivo y capacidad de volumen.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "4 GiB menos 1 byte (4.294.967.295 bytes)",
+          "tema": 40,
+          "origenId": "DIP-T40-005",
+          "referenciaOriginal": "Microsoft Learn, comparativa de sistemas de archivos, tamaño máximo FAT32 · https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison"
+        },
+        {
+          "id": "DIP-SIM-012-Q31",
+          "pregunta": "¿Cuál de estas materias activa el procedimiento agravado del artículo 168?",
+          "opciones": [
+            "Toda modificación tributaria",
+            "Cualquier modificación del Título I",
+            "Una reforma de la Sección 1.ª del Capítulo II del Título I",
+            "La reforma de cualquier ley orgánica"
+          ],
+          "correcta": 2,
+          "justificacion": "El artículo 168 protege la revisión total, el Título Preliminar, la Sección 1.ª del Capítulo II del Título I y el Título II.",
+          "trampa": "No todo el Título I queda sometido al procedimiento agravado, sino la sección específicamente indicada.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "Una reforma de la Sección 1.ª del Capítulo II del Título I",
+          "tema": 1,
+          "origenId": "DIP-T01-011",
+          "referenciaOriginal": "CE, art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a168"
+        },
+        {
+          "id": "DIP-SIM-012-Q32",
+          "pregunta": "La potestad reglamentaria local se ejerce:",
+          "opciones": [
+            "Dentro de las competencias y con sujeción a la ley",
+            "Sin límites por la autonomía local",
+            "Solo por delegación estatal",
+            "Únicamente en materia tributaria"
+          ],
+          "correcta": 0,
+          "justificacion": "Las entidades locales ejercen su potestad reglamentaria y de autoorganización dentro del ámbito de sus competencias y con plena sujeción a la Constitución y a la ley.",
+          "trampa": "La autonomía local no elimina el principio de legalidad ni la jerarquía normativa.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "Dentro de las competencias y con sujeción a la ley",
+          "tema": 12,
+          "origenId": "DIP-T12-011",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a4"
+        },
+        {
+          "id": "DIP-SIM-012-Q33",
+          "pregunta": "¿Puede una persona nacional de otro Estado miembro de la UE acceder a cualquier puesto funcionario?",
+          "opciones": [
+            "Sí, sin excepción",
+            "No, quedan exceptuados determinados empleos vinculados al ejercicio del poder público o salvaguarda de intereses generales",
+            "Solo puede ser laboral temporal",
+            "Solo con cinco años de residencia"
+          ],
+          "correcta": 1,
+          "justificacion": "Las personas nacionales de otros Estados miembros de la Unión Europea pueden acceder en igualdad de condiciones, salvo a empleos que impliquen participación en el ejercicio del poder público o salvaguarda de intereses generales.",
+          "trampa": "La regla no es una autorización absoluta ni una prohibición general.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "No, quedan exceptuados determinados empleos vinculados al ejercicio del poder público o salvaguarda de intereses generales",
+          "tema": 17,
+          "origenId": "DIP-T17-011",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 39 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a39"
+        },
+        {
+          "id": "DIP-SIM-012-Q34",
+          "pregunta": "El plazo general del recurso de reposición tributario local es de:",
+          "opciones": [
+            "10 días hábiles",
+            "1 mes",
+            "15 días hábiles",
+            "3 meses"
+          ],
+          "correcta": 1,
+          "justificacion": "La legislación de haciendas locales establece, con carácter general, un plazo de 1 mes para interponer el recurso de reposición tributario local.",
+          "trampa": "La interposición del recurso no suspende por sí sola la ejecución del acto impugnado.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "1 mes",
+          "tema": 26,
+          "origenId": "DIP-T26-012",
+          "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a14"
+        },
+        {
+          "id": "DIP-SIM-012-Q35",
+          "pregunta": "La transición se aplica principalmente a:",
+          "opciones": [
+            "El cambio entre diapositivas",
+            "Un carácter",
+            "Un objeto",
+            "Una nota"
+          ],
+          "correcta": 0,
+          "justificacion": "La transición regula el cambio de una diapositiva a otra durante la presentación.",
+          "trampa": "La animación se aplica a textos, imágenes u otros objetos dentro de una diapositiva.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "El cambio entre diapositivas",
+          "tema": 38,
+          "origenId": "DIP-T38-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#9-transiciones-y-animaciones"
+        },
+        {
+          "id": "DIP-SIM-012-Q36",
+          "pregunta": "¿Cuál es la capacidad nominal habitual de un CD?",
+          "opciones": [
+            "4,7 GB",
+            "700 MB",
+            "25 GB",
+            "8,5 GB"
+          ],
+          "correcta": 1,
+          "justificacion": "La capacidad nominal habitual de un CD es de 700 MB.",
+          "trampa": "Las capacidades de 4,7 GB y 8,5 GB corresponden habitualmente a DVD de una capa y de doble capa, respectivamente.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "700 MB",
+          "tema": 40,
+          "origenId": "DIP-T40-006",
+          "referenciaOriginal": "content/diputacion-toledo/tema-40/manual.md#lectores-y-grabadores-de-cd-y-dvd"
+        },
+        {
+          "id": "DIP-SIM-012-Q37",
+          "pregunta": "¿Cuántas reformas ha experimentado la Constitución española hasta julio de 2026?",
+          "opciones": [
+            "Cuatro",
+            "Una",
+            "Dos",
+            "Tres"
+          ],
+          "correcta": 0,
+          "justificacion": "Hasta **noviembre de 2026** la Constitución se ha reformado **cuatro veces**: **1992 (art. 13.2), 2011 (art. 135), 2024 (art. 49) y 2026 (art. 69.3)**. La última fue publicada el **20/05/2026** y separa **Ibiza y Formentera** como circunscripciones senatoriales, con eficacia electoral posterior.",
+          "trampa": "**Tres** reformas era la respuesta anterior a **20/05/2026**. El cómputo correcto hasta **noviembre de 2026** es **cuatro**.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "Cuatro",
+          "tema": 1,
+          "origenId": "DIP-T01-012",
+          "referenciaOriginal": "Reforma de la Constitución 19/05/2026 (BOE-A-2026-10881) · https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881"
+        },
+        {
+          "id": "DIP-SIM-012-Q38",
+          "pregunta": "Como regla general, el control estatal o autonómico sobre las entidades locales es un control de:",
+          "opciones": [
+            "Conveniencia económica",
+            "Oportunidad política",
+            "Legalidad",
+            "Tutela jerárquica"
+          ],
+          "correcta": 2,
+          "justificacion": "La autonomía local es compatible con controles de legalidad sobre la actuación local, pero no con una tutela jerárquica general de oportunidad por parte del Estado o de la comunidad autónoma.",
+          "trampa": "Las entidades locales no están jerárquicamente subordinadas al Estado ni a la comunidad autónoma.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "Legalidad",
+          "tema": 12,
+          "origenId": "DIP-T12-012",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 65 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a65"
+        },
+        {
+          "id": "DIP-SIM-012-Q39",
+          "pregunta": "¿Cuál es la regla sobre el concurso puro para seleccionar personal funcionario?",
+          "opciones": [
+            "Es el sistema ordinario preferente",
+            "Es excepcional y requiere previsión legal",
+            "Está prohibido siempre",
+            "Se usa libremente en entidades locales"
+          ],
+          "correcta": 1,
+          "justificacion": "Para seleccionar personal funcionario, el concurso puro solo puede utilizarse excepcionalmente cuando una ley lo autoriza.",
+          "trampa": "No debe confundirse con el concurso utilizado para la provisión de puestos de trabajo.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "Es excepcional y requiere previsión legal",
+          "tema": 17,
+          "origenId": "DIP-T17-012",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a47"
+        },
+        {
+          "id": "DIP-SIM-012-Q40",
+          "pregunta": "¿Cuál es el recargo de apremio ordinario?",
+          "opciones": [
+            "5 %",
+            "20 %",
+            "25 %",
+            "10 %"
+          ],
+          "correcta": 1,
+          "justificacion": "Regla del artículo 28 de la Ley 58/2003.",
+          "trampa": "Distinguir ingreso voluntario, ejecutivo y apremio.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "20 %",
+          "tema": 26,
+          "origenId": "DIP-T26-013",
+          "referenciaOriginal": "Ley 58/2003 LGT · art. 28 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+        },
+        {
+          "id": "DIP-SIM-012-Q41",
+          "pregunta": "¿Qué tecla inicia la presentación desde el principio?",
+          "opciones": [
+            "F2",
+            "F4",
+            "F5",
+            "F9"
+          ],
+          "correcta": 2,
+          "justificacion": "La tecla F5 inicia la presentación desde la primera diapositiva.",
+          "trampa": "Mayús + F5 inicia la presentación desde la diapositiva actual, no desde el principio.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "F5",
+          "tema": 38,
+          "origenId": "DIP-T38-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#10-presentación-de-diapositivas"
+        },
+        {
+          "id": "DIP-SIM-012-Q42",
+          "pregunta": "¿Qué significa normalmente la denominación RW en un soporte óptico?",
+          "opciones": [
+            "Regrabable",
+            "Grabable una sola vez",
+            "Solo lectura",
+            "Protegido contra escritura"
+          ],
+          "correcta": 0,
+          "justificacion": "La denominación RW identifica un soporte óptico regrabable, que puede borrarse y volver a grabarse.",
+          "trampa": "La modalidad R permite grabar una sola vez; la posibilidad de regrabación corresponde a RW.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "Regrabable",
+          "tema": 40,
+          "origenId": "DIP-T40-007",
+          "referenciaOriginal": "content/diputacion-toledo/tema-40/manual.md#modalidades"
+        },
+        {
+          "id": "DIP-SIM-012-Q43",
+          "pregunta": "¿Qué institución es intérprete supremo de la Constitución?",
+          "opciones": [
+            "El Consejo de Estado",
+            "La Audiencia Nacional",
+            "El Tribunal Constitucional",
+            "El Defensor del Pueblo"
+          ],
+          "correcta": 2,
+          "justificacion": "El Tribunal Constitucional es el intérprete supremo de la Constitución, independiente de los demás órganos constitucionales.",
+          "trampa": "**Tribunal Constitucional**: intérprete supremo, no **Consejo de Estado**, **Defensor del Pueblo** ni **Audiencia Nacional**.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "El Tribunal Constitucional",
+          "tema": 1,
+          "origenId": "DIP-T01-013",
+          "referenciaOriginal": "LOTC, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709"
+        },
+        {
+          "id": "DIP-SIM-012-Q44",
+          "pregunta": "¿Qué entidades son territoriales según el artículo 3.1 de la Ley 7/1985?",
+          "opciones": [
+            "Municipio, comarca y mancomunidad",
+            "Municipio, provincia e isla en los archipiélagos balear y canario",
+            "Mancomunidad, comarca y consorcio",
+            "Provincia, área metropolitana y sindicato"
+          ],
+          "correcta": 1,
+          "justificacion": "El art. 3.1 enumera municipio, provincia e isla en los archipiélagos balear y canario.",
+          "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "Municipio, provincia e isla en los archipiélagos balear y canario",
+          "tema": 12,
+          "origenId": "DIP-T12-013",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a3"
+        },
+        {
+          "id": "DIP-SIM-012-Q45",
+          "pregunta": "Si se pierde la nacionalidad que sirvió de base al nombramiento, ¿qué excepción impide la pérdida de la condición de funcionario?",
+          "opciones": [
+            "Adquirir simultáneamente otra nacionalidad legalmente habilitante",
+            "Estar trabajando en comisión de servicios",
+            "Conservar padrón municipal",
+            "Percibir un trienio"
+          ],
+          "correcta": 0,
+          "justificacion": "El **art. 58 Ley 4/2011** impide la pérdida de condición cuando se adquiere **simultáneamente** otra nacionalidad que habilita para el cargo.",
+          "trampa": "**Adquisición simultánea** de otra nacionalidad válida; no basta la residencia o empadronamiento.",
+          "referencia": "content/diputacion-toledo/tema-17/manual.md",
+          "respuestaLiteral": "Adquirir simultáneamente otra nacionalidad legalmente habilitante",
+          "tema": 17,
+          "origenId": "DIP-T17-013",
+          "referenciaOriginal": "Ley 4/2011 Empleo Público CLM · art. 58 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a58"
+        },
+        {
+          "id": "DIP-SIM-012-Q46",
+          "pregunta": "Según el artículo 28.5 LGT, ¿en qué supuesto es compatible el recargo del período ejecutivo con los intereses de demora devengados desde su inicio?",
+          "opciones": [
+            "Cuando corresponde el recargo ejecutivo del 5 %",
+            "Siempre que se solicita fraccionamiento en voluntaria",
+            "Cuando corresponde el recargo de apremio ordinario del 20 %",
+            "Cuando corresponde el recargo reducido del 10 %"
+          ],
+          "correcta": 2,
+          "justificacion": "**LGT art. 28.5**: el **recargo de apremio ordinario 20 %** es compatible con los intereses de demora; el **ejecutivo 5 %** y el **reducido 10 %** excluyen los intereses devengados desde el inicio del ejecutivo.",
+          "trampa": "**20 % ordinario con intereses**; **5/10 % sin intereses de demora del ejecutivo**.",
+          "referencia": "content/diputacion-toledo/tema-26/manual.md",
+          "respuestaLiteral": "Cuando corresponde el recargo de apremio ordinario del 20 %",
+          "tema": 26,
+          "origenId": "DIP-T26-014",
+          "referenciaOriginal": "Ley 58/2003, art. 28.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+        },
+        {
+          "id": "DIP-SIM-012-Q47",
+          "pregunta": "¿Qué combinación inicia el pase desde la diapositiva actual?",
+          "opciones": [
+            "Ctrl + F5",
+            "Alt + F5",
+            "Ctrl + Mayús + F5",
+            "Mayús + F5"
+          ],
+          "correcta": 3,
+          "justificacion": "La combinación Mayús + F5 inicia la presentación desde la diapositiva seleccionada actualmente.",
+          "trampa": "F5, sin modificadores, inicia el pase desde la primera diapositiva.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md",
+          "respuestaLiteral": "Mayús + F5",
+          "tema": 38,
+          "origenId": "DIP-T38-008",
+          "referenciaOriginal": "content/diputacion-toledo/tema-38/manual.md#10-presentación-de-diapositivas"
+        },
+        {
+          "id": "DIP-SIM-012-Q48",
+          "pregunta": "¿Cuál es la capacidad nominal habitual de un DVD de una sola capa, frente a los 8,5 GB del de doble capa?",
+          "opciones": [
+            "700 MB, como en un CD de datos habitual",
+            "25 GB, como en determinados discos Blu-ray",
+            "8,5 GB, capacidad del DVD de doble capa",
+            "4,7 GB (nominales, en notación decimal)"
+          ],
+          "correcta": 3,
+          "justificacion": "Un DVD convencional de capa única se anuncia normalmente con 4,7 GB decimales; uno de doble capa, con 8,5 GB nominales.",
+          "trampa": "El fabricante utiliza GB decimales; el sistema operativo puede mostrar una cifra menor si usa GiB binarios.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md",
+          "respuestaLiteral": "4,7 GB (nominales, en notación decimal)",
+          "tema": 40,
+          "origenId": "DIP-T40-008",
+          "referenciaOriginal": "Tema 40, soportes ópticos: capacidades nominales · content/diputacion-toledo/tema-40/manual.md#lectores-y-grabadores-de-cd-y-dvd"
+        },
+        {
+          "id": "DIP-SIM-012-Q49",
+          "pregunta": "¿Cuántos magistrados integran el Tribunal Constitucional?",
+          "opciones": [
+            "Doce",
+            "Diez",
+            "Ocho",
+            "Quince"
+          ],
+          "correcta": 0,
+          "justificacion": "El Tribunal Constitucional se compone de **12 miembros** nombrados por el Rey a propuesta de los órganos previstos constitucionalmente.",
+          "trampa": "Los **12 magistrados** del TC no son **12 consejeros** ni los **4** propuestos por una sola Cámara.",
+          "referencia": "content/diputacion-toledo/tema-01/manual.md",
+          "respuestaLiteral": "Doce",
+          "tema": 1,
+          "origenId": "DIP-T01-014",
+          "referenciaOriginal": "CE, art. 159 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a159"
+        },
+        {
+          "id": "DIP-SIM-012-Q50",
+          "pregunta": "¿Qué entidades tienen condición de locales, pero no figuran como territoriales en el artículo 3.1?",
+          "opciones": [
+            "Los municipios",
+            "Las provincias",
+            "Las islas",
+            "Las mancomunidades de municipios"
+          ],
+          "correcta": 3,
+          "justificacion": "El artículo 3.2 incluye mancomunidades, comarcas y áreas metropolitanas como entidades locales.",
+          "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+          "referencia": "content/diputacion-toledo/tema-12/manual.md",
+          "respuestaLiteral": "Las mancomunidades de municipios",
+          "tema": 12,
+          "origenId": "DIP-T12-014",
+          "referenciaOriginal": "Ley 7/1985 LRBRL, art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a3"
+        }
+      ]
     }
   ],
-  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
+  "notaEditorial": "Cinco modelos de entrenamiento: cuatro de 12 preguntas y 18 minutos, quinto de 13 preguntas y 20 minutos. Representan 39 de 40 temas, excepto el tema 22 OAPGT que continúa en revisión. Representación temática no equivale a auditoría jurídica integral ni examen oficial. Se añaden vínculos oficiales a 25 preguntas seleccionadas: 24 referencias BOE por artículo y una documentación de Microsoft sobre Windows 11 de los modelos 4 y 5, sin equivaler a revisión integral ni al texto original de las normas. Reequilibradas las posiciones A/B/C/D en los cinco modelos sin alterar la opción textualmente correcta. Matriz de control privada: ops/dip-c1-rotacion-respuestas-20261122.json. Lote focal adicional: siete ítems previos vinculados a artículos específicos de transparencia, LCSP y TRLRHL, con precisión de la excepción al acceso parcial. Nuevo modelo 006 de 50 preguntas/60 minutos formado por REUTILIZACIÓN de las anteriores 61 preguntas (39 temas, T22 excluido, 11 temas repetidos), para entrenar tiempo y penalización +0,20/−0,05. No es simulacro oficial completo del temario ni contiene 50 preguntas inéditas. Modelo 007: 50 preguntas del banco en ocho temas, sin coincidencias textuales con los anteriores; no auditoría individual nueva. Modelo 008: 50 preguntas de diez temas, cinco por tema, sin coincidencias textuales normalizadas con modelos anteriores; sin auditoría individual nueva. Modelo 009: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 010: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 011: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa. Modelo 012: 50 preguntas del banco en seis temas, sin enunciados normalizados repetidos respecto a modelos previos; claves equilibradas y trazabilidad original. T22 excluido. Distribución focal orientativa.",
   "simulacrosPracticos": [
     {
       "id": "DIP-PRACT-001",
