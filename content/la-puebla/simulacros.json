@@ -1,6 +1,6 @@
 {
   "convocatoria": "La Puebla de Montalbán",
-  "version": "2026-11-14",
+  "version": "2026-11-25",
   "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
   "criterios": {
     "numeroSimulacros": 5,
@@ -26,11 +26,11 @@
       "duracionMinutos": 45
     },
     "segundoEjercicio": {
-      "modelosDeEntrenamiento": 3,
+      "modelosDeEntrenamiento": 4,
       "cuestionesPorModelo": 5,
       "formato": "Desarrollo escrito (formato de entrenamiento, no formato oficial confirmado)",
       "tiempo": "Tiempo de trabajo orientativo en cada simulacro; el tribunal fijará el oficial",
-      "calificacion": "Autoevaluación mediante soluciones razonadas; el mínimo oficial del segundo ejercicio es 5/10, pero OpoWeb no asigna nota objetiva a respuestas libres",
+      "calificacion": "Autoevaluación manual: dos criterios de un punto por cuestión, diez puntos por modelo. No es nota objetiva ni oficial del Tribunal; el mínimo oficial es 5/10.",
       "fuente": "BOP Toledo n.º 82 de 05/05/2026, base undécima, anuncio I-1965"
     }
   },
@@ -307,7 +307,19 @@
           "referencias": [
             "Ley 39/2015, artículos 68.1 y 21",
             "OpoWeb: tema 3, procedimiento administrativo"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica el documento omitido y concede diez días para aportarlo.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Advierte desistimiento y exige resolución expresa conforme al art. 21.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Explica cómo se cuentan esos diez días si el requerimiento no indica que sean naturales.",
@@ -316,16 +328,40 @@
           "referencias": [
             "Ley 39/2015, artículos 30.2, 30.3 y 30.5",
             "OpoWeb: tema 3, cómputo de plazos"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Distingue días hábiles y excluye sábados, domingos y festivos.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Inicia cómputo al día siguiente y prorroga vencimiento inhábil.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "La notificación electrónica queda puesta a disposición y no se abre. ¿Cuándo se entiende rechazada en este caso?",
-          "respuesta": "Al tratarse de una notificación electrónica elegida expresamente por la persona interesada, se entenderá rechazada una vez transcurridos diez días naturales desde su puesta a disposición sin acceder a su contenido, salvo que se compruebe imposibilidad técnica o material de acceso.",
+          "respuesta": "Al haberse elegido expresamente la notificación electrónica, se entiende rechazada cuando transcurren diez días naturales desde su puesta a disposición sin acceder al contenido (art. 43.2). La falta del aviso informativo no invalida por sí sola la notificación (art. 41.6).",
           "trampa": "Distinguir los diez días naturales de rechazo de notificación electrónica de los diez días hábiles de subsanación.",
           "referencias": [
-            "Ley 39/2015, artículo 43.2",
-            "OpoWeb: tema 4, notificaciones"
-          ]
+            "Ley 39/2015, artículos 43.2 y 41.6",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica elección expresa de notificación electrónica y diez días naturales.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Sitúa el comienzo en la puesta a disposición y distingue rechazo de falta de aviso.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "¿Qué información del expediente puede pedir la persona interesada mientras se tramita?",
@@ -334,7 +370,19 @@
           "referencias": [
             "Ley 39/2015, artículo 53.1.a",
             "OpoWeb: temas 3 y 9"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica estado, silencio, órgano competente y actos de trámite.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Reconoce acceso y copia de documentos con límites legales.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Una vez notificada la resolución de Alcaldía que pone fin a la vía administrativa, ¿qué recursos administrativos ordinarios caben?",
@@ -343,7 +391,19 @@
           "referencias": [
             "Ley 39/2015, artículos 123 y 124",
             "OpoWeb: tema 3, recursos administrativos"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica reposición potestativa ante el mismo órgano o contencioso directo.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Indica un mes para reposición expresa y espera de resolución expresa o presunta si se interpone.",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     },
@@ -366,7 +426,19 @@
           "referencias": [
             "Real Decreto Legislativo 2/2004, artículos 61 y 63",
             "OpoWeb: tema 12, IBI"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica el usufructo como derecho preferente frente a propiedad.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica al usufructuario como contribuyente y distingue titularidad registral.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Una liquidación tributaria se notifica individualmente el día 9. ¿Cuál es el plazo general de ingreso voluntario?",
@@ -375,7 +447,19 @@
           "referencias": [
             "Ley 58/2003, artículo 62.2.a",
             "OpoWeb: tema 11, recaudación"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica notificación dentro de los días 1 a 15.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Fija día 20 del mes siguiente o inmediato hábil posterior.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Si vence el plazo voluntario de una deuda liquidada por la Administración y no se paga, ¿cuándo comienza el período ejecutivo?",
@@ -384,7 +468,19 @@
           "referencias": [
             "Ley 58/2003, artículos 161.1.a y 167.1",
             "OpoWeb: tema 11, recaudación ejecutiva"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Sitúa el inicio ejecutivo al día siguiente del vencimiento voluntario.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue inicio del período ejecutivo de notificación de providencia de apremio.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "La deuda se ingresa íntegramente una vez iniciado el período ejecutivo, pero antes de notificarse la providencia de apremio. ¿Qué recargo corresponde?",
@@ -393,7 +489,19 @@
           "referencias": [
             "Ley 58/2003, artículo 28.2",
             "OpoWeb: tema 11, recargos"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica recargo ejecutivo del 5 %.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Exige pago íntegro de deuda pendiente antes de notificación de providencia.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Si ya se notificó la providencia de apremio y se paga toda la deuda y el propio recargo dentro del plazo legal del artículo 62.5, ¿qué recargo se aplica?",
@@ -402,7 +510,19 @@
           "referencias": [
             "Ley 58/2003, artículos 28.3, 28.5 y 62.5",
             "OpoWeb: tema 11, recargos"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica recargo reducido del 10 % y pago íntegro de deuda y recargo en plazo.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue incompatibilidad de recargos y ausencia de intereses ejecutivos en ese supuesto.",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     },
@@ -428,7 +548,19 @@
           "referencias": [
             "Microsoft Word, ficha de uso de SmartArt",
             "OpoWeb: tema 17, procesador de textos"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica Insertar > SmartArt en Word.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Selecciona categoría Proceso y distingue otras herramientas gráficas.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "En Excel los importes están en B2:B100 y el tipo de IVA, usado solo como ejemplo de cálculo, se encuentra en F1. Escribe la fórmula de C2 para copiarla hacia abajo sin desplazar F1.",
@@ -437,7 +569,19 @@
           "referencias": [
             "Microsoft Excel, referencias relativas y absolutas",
             "OpoWeb: tema 18, hojas de cálculo"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Escribe fórmula =B2*$F$1.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica referencia relativa B2 y absoluta $F$1.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Varios documentos contienen datos personales. ¿Qué precauciones básicas tomarías antes de remitirlos a otro servicio municipal?",
@@ -446,7 +590,19 @@
           "referencias": [
             "Reglamento (UE) 2016/679, artículos 5.1.c y 32",
             "OpoWeb: tema 9, protección de datos"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Comprueba competencia, necesidad y minimización.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Verifica destinatario, canal corporativo y medidas de seguridad.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Una impresora láser presenta problemas. Distingue la función del rodillo de carga primario y del fusor.",
@@ -455,7 +611,19 @@
           "referencias": [
             "Funcionamiento general de impresoras láser",
             "OpoWeb: tema 19, periféricos e impresión"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica carga uniforme del tambor por rodillo de carga.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica fijación de tóner por calor y presión del fusor.",
+                "puntos": 1
+              }
+            ]
+          }
         },
         {
           "pregunta": "Tras escanear un expediente, solo queda una copia en una memoria USB. ¿Es una copia de seguridad suficiente? Propón una mejora.",
@@ -464,7 +632,137 @@
           "referencias": [
             "OpoWeb: tema 19, almacenamiento y seguridad",
             "Buenas prácticas de copias de seguridad y conservación documental"
-          ]
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Explica que un único ejemplar no crea redundancia.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Propone copia independiente en repositorio autorizado y controles de acceso/restauración.",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-04",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 4 · Órganos municipales, sesiones y acuerdos",
+      "temas": [
+        5,
+        14
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "En un municipio de régimen común, la oficina de Secretaría prepara una ordenanza, tramita una oferta de empleo público y organiza las sesiones del Pleno. Se plantean varios problemas de competencia y votación. Resuelve cada cuestión conforme a la Ley 7/1985.",
+      "cuestiones": [
+        {
+          "pregunta": "¿Qué órgano aprueba una ordenanza municipal ordinaria y puede delegar esa competencia en Alcaldía?",
+          "respuesta": "El Pleno aprueba las ordenanzas y no puede delegar esa atribución. Se trata de la competencia del art. 22.2.d, excluida de delegación por el art. 22.4.",
+          "trampa": "No confundir aprobación de ordenanzas con bandos de Alcaldía.",
+          "referencias": [
+            "Ley 7/1985, artículo 22",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a22"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica al Pleno.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica que la competencia no es delegable y cita el art. 22.4.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "¿Quién aprueba la oferta de empleo público conforme al presupuesto y plantilla aprobados?",
+          "respuesta": "La Alcaldía, según el art. 21.1.g. La aprobación de presupuesto y plantilla corresponde al Pleno (art. 22.2.e e i).",
+          "trampa": "No atribuir la aprobación de la oferta al Pleno solo porque aprueba presupuesto y plantilla.",
+          "referencias": [
+            "Ley 7/1985, artículo 21",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a21"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica Alcaldía como órgano competente para OEP.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue la aprobación de presupuesto y plantilla por el Pleno.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "Tras la aprobación inicial de una ordenanza, ¿qué trámite y plazo mínimo deben respetarse?",
+          "respuesta": "Información pública y audiencia a interesados durante al menos treinta días para reclamaciones y sugerencias. Después, resolución de las presentadas y aprobación definitiva por el Pleno; si no se presenta ninguna, el acuerdo provisional se considera definitivo.",
+          "trampa": "No confundir aprobación inicial con entrada en vigor ni exigir una nueva votación si no hay reclamaciones.",
+          "referencias": [
+            "Ley 7/1985, artículo 49",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a49"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica información pública y audiencia por mínimo 30 días.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica resolución de reclamaciones y aprobación definitiva o elevación automática si no existen.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "En un municipio de 12.000 habitantes, ¿con qué periodicidad mínima debe celebrar sesión ordinaria el Pleno?",
+          "respuesta": "Como mínimo cada dos meses, por estar en el tramo de 5.001 a 20.000 habitantes (art. 46.2.a). El tramo inferior de hasta 5.000 habitantes exige sesión ordinaria al menos cada tres meses; el superior a 20.000, cada mes.",
+          "trampa": "No aplicar la periodicidad mensual de municipios de más de 20.000 habitantes.",
+          "referencias": [
+            "Ley 7/1985, artículo 46",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a46"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Identifica tramo 5.001–20.000 habitantes.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Fija periodicidad mínima de dos meses.",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "pregunta": "En un Pleno de 13 miembros legales, asisten 10; hay 5 votos favorables, 4 contrarios y una abstención. ¿Se aprueba un acuerdo que exige mayoría simple? ¿Y si exige absoluta del número legal?",
+          "respuesta": "Sí por mayoría simple: cinco votos afirmativos superan a cuatro negativos. No por mayoría absoluta del número legal: se precisan siete votos favorables de trece.",
+          "trampa": "No calcular mayoría simple sobre asistentes ni absoluta sobre votos emitidos.",
+          "referencias": [
+            "Ley 7/1985, artículo 47",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a47"
+          ],
+          "rubrica": {
+            "criterios": [
+              {
+                "descripcion": "Concluye mayoría simple favorable: 5 > 4.",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula siete votos necesarios para mayoría absoluta y concluye que no se alcanza.",
+                "puntos": 1
+              }
+            ]
+          }
         }
       ]
     }
