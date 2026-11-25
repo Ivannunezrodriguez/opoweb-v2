@@ -116,9 +116,10 @@
           ],
           "completedSubsteps": [
             "25/11/2026: anuncio del Tribunal firmado 24/11/2026 aportado por usuario; página 7: anuladas 18 y 34, R1=D y R2=D; 26=A. Actualizados ambos correctores, acceso y pruebas (12bd871, 5855b0f, 693c055, 25d05b5).",
-            "25/11/2026: E2E Chromium 45599299579 SUCCESS sobre 693c055; validación privacidad 45599345652 y publicación 45599345726 SUCCESS sobre 25d05b5; publicación plan 45599386423 SUCCESS. Pendiente estadísticas anónimas."
+            "25/11/2026: E2E Chromium 45599299579 SUCCESS sobre 693c055; validación privacidad 45599345652 y publicación 45599345726 SUCCESS sobre 25d05b5; publicación plan 45599386423 SUCCESS. Pendiente estadísticas anónimas.",
+            "25/11/2026: recuento reproducido con extracción de texto del PDF oficial, páginas 2–5: 29+33+33+26=121, aprobados 11+19+20+14=64, suspensos 57, media 5,02768595, mediana 5,05, máxima 8,75. Agregados sin datos nominativos y enlace al tablón oficial incorporados en caab50a."
           ],
-          "nextAction": "Recontar calificaciones del anuncio aportado, publicar exclusivamente agregados y verificar publicación. No almacenar PDF nominativo."
+          "nextAction": "Confirmar publicación y privacidad de los agregados del commit caab50a; cerrar si CI verde y E2E definitivo ya acreditado."
         },
         {
           "id": "LP-PRACT-01",
@@ -133,9 +134,10 @@
           ],
           "completedSubsteps": [
             "Existían tres modelos de cinco cuestiones: procedimiento, tributos y expediente digital/ofimática. Anuncio 24/11 no fija fecha ni formato concreto del segundo ejercicio.",
-            "25/11/2026: cuatro modelos, 20 cuestiones y 40 criterios de un punto, reutilizando renderOpenCase existente; nuevo régimen local, corrección focal de notificación art. 43.2 y 41.6; commit 4f909b3. Validación de integridad ampliada; ejecución CI y navegador aún pendientes."
+            "25/11/2026: cuatro modelos, 20 cuestiones y 40 criterios de un punto, reutilizando renderOpenCase existente; nuevo régimen local, corrección focal de notificación art. 43.2 y 41.6; commit 4f909b3. Validación de integridad ampliada; ejecución CI y navegador aún pendientes.",
+            "25/11/2026: diagnóstico del fallo real de CI 45599848829: tests/validate-practice-exam.mjs exigía tres modelos pese a ampliación a cuatro. Corregido en eca89a1 con mínimo de cuatro y correspondencia con metadatos; ampliada solución art. 46.2.a en c45bdce. Pendiente nueva CI y E2E de rúbricas."
           ],
-          "nextAction": "Comprobar CI y acceso desde navegador con autocorrección 0/10 y 10/10; contrastar referencias técnicas de ofimática y adaptar al anuncio de segundo ejercicio cuando exista."
+          "nextAction": "Verificar CI posterior a c45bdce y caab50a; comprobar en navegador los cuatro modelos, puntuaciones 0/10 y 10/10; contrastar referencias técnicas y ampliar casos si procede."
         }
       ]
     },
@@ -3565,5 +3567,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T10:57:15.000Z"
+  "updatedAtUtc": "2026-11-25T11:31:29.000Z"
 }
