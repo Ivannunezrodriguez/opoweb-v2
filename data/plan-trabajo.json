@@ -327,7 +327,9 @@
             "data/programa-jccm-informatica-c1-2025-2026.json",
             "content/jccm-2026/programas.html",
             "data/matriz-jccm-auxiliar-c2-2025-2026.json",
-            "data/matriz-jccm-informatica-c1-2025-2026.json"
+            "data/matriz-jccm-informatica-c1-2025-2026.json",
+            "content/jccm-2026/ley40-repaso-focal.md",
+            "content/jccm-2026/ley40-repaso.html"
           ],
           "completedSubsteps": [
             "Acuerdo DOCM 20/11/2026 cotejado para los tres objetivos elegidos: Auxiliar JCCM C2 143 (118 general), Auxiliar SESCAM C2 138 (125 general), Informática JCCM C1 25 (23 general)",
@@ -341,7 +343,8 @@
             "Matrices de control creadas para los 61 epígrafes: 9 temas con manuales candidatos identificados, 52 sin candidato; cobertura acreditada 0 hasta cotejo por incisos. No implica auditoría ni manuales nuevos.",
             "20/11/2026: visor público JCCM enlazado con matrices de 24 y 37 epígrafes; muestra manuales candidatos, cifra de cobertura auditada y ausencia de cotejo por tema. Test de integridad y correspondencia incorporado al workflow.",
             "21/11/2026: selector de OpoWeb actualizado con Auxiliar JCCM C2 (24 epígrafes de referencia), SESCAM Auxiliar C2 (sin atribuir temario 2026 no acreditado) e Informática JCCM C1 (37 epígrafes). El Viso retirado del selector; continúa como oportunidad Radar. Publicación y E2E Chromium del selector comprobadas.",
-            "25/11/2026: matriz Auxiliar JCCM C2, temas 3 y 4: diez correspondencias preliminares inciso/artículos Ley 40/2015 consultada en BOE consolidado; manuales candidatos Diputación C1 T04 y La Puebla T14. Candidatos 6/24, cobertura acreditada permanece 0/24. Commit d02960c5319e0aa9dbe8e0b9f74ac28cb448e312; CI pendiente de confirmación. No equivale a cotejo íntegro ni cierre de tarea."
+            "25/11/2026: matriz Auxiliar JCCM C2, temas 3 y 4: diez correspondencias preliminares inciso/artículos Ley 40/2015 consultada en BOE consolidado; manuales candidatos Diputación C1 T04 y La Puebla T14. Candidatos 6/24, cobertura acreditada permanece 0/24. Commit d02960c5319e0aa9dbe8e0b9f74ac28cb448e312; CI pendiente de confirmación. No equivale a cotejo íntegro ni cierre de tarea.",
+            "25/11/2026: publicaciones 45594384810 y 45594415346 SUCCESS para mapeo preliminar. Repaso focal Ley 40/2015 arts. 30, 48, 49 y 155, siete preguntas y autocorrección sin penalización, enlace visor C2 T3/T4, commits 24391a3, ec1b562 y b90df24. Prueba estática de enlace y claves ampliada; pendiente CI y comprobación navegador. No acredita cobertura integral."
           ],
           "remainingSubsteps": [
             "Obtener y cotejar temario aplicable a futura OEP SESCAM 2025-2026, sin confundir el individualizado histórico 2023/24",
@@ -352,7 +355,7 @@
             "Cotejar e implementar desarrollo de contenido jurídico y técnico por incisos; ningún tema queda auditado por enlazar un manual candidato.",
             "Validar CI completo de visor matriz y el rastreo privado en ejecución real."
           ],
-          "nextAction": "Continuar cotejo artículo por artículo de temas 3 y 4 y desarrollar bloques ausentes; extender mapeo de 61 epígrafes y obtener programa SESCAM aplicable. Verificar CI del commit d02960c.",
+          "nextAction": "Verificar CI y navegador del repaso, completar responsabilidad patrimonial y funcionamiento electrónico, continuar mapeo y desarrollo de itinerarios. No cerrar por existencia del repaso.",
           "priority": "ALTA"
         },
         {
@@ -3512,5 +3515,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-25T10:22:46.000Z"
+  "updatedAtUtc": "2026-11-25T10:43:28.000Z"
 }
