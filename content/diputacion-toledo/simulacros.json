@@ -2557,7 +2557,7 @@
         {
           "id": "DIP-SIM-007-Q14",
           "tema": 16,
-          "pregunta": "Con carácter general, el Alcalde o Presidente es órgano de contratación cuando el valor estimado no supera:",
+          "pregunta": "En el régimen ordinario de la disposición adicional segunda.1 de la LCSP, ¿qué límites económicos se atribuyen a Alcaldía o Presidencia para los contratos allí enumerados?",
           "opciones": [
             "El 5 % de los recursos ordinarios y 3.000.000 €",
             "El 15 % de los recursos ordinarios sin límite absoluto",
@@ -2565,7 +2565,7 @@
             "El 10 % de los recursos ordinarios y, en todo caso, 6.000.000 €"
           ],
           "correcta": 3,
-          "justificacion": "La disposición adicional segunda de la Ley 9/2017 atribuye la competencia al Alcalde o Presidente cuando el valor estimado no supera el 10 % de los recursos ordinarios del presupuesto ni, en ningún caso, 6.000.000 de euros.",
+          "justificacion": "Los límites son **10 %** de recursos ordinarios y **6 millones de euros**. Para contratos plurianuales se exige además duración máxima de **4 años**, prórrogas incluidas, y respeto de ambos límites por todas las anualidades acumuladas, tomando los recursos ordinarios del primer ejercicio.",
           "trampa": "La regla combina un límite porcentual y otro absoluto; deben cumplirse ambos.",
           "referencia": "content/diputacion-toledo/tema-16/manual.md",
           "origenId": "DIP-T16-002",
@@ -2600,7 +2600,7 @@
           ],
           "correcta": 3,
           "justificacion": "El certificado debe expedirse de oficio dentro de los quince días siguientes al vencimiento del plazo máximo para resolver.",
-          "trampa": "El interesado puede solicitarlo en cualquier momento, aunque la expedición de oficio tiene plazo de quince días.",
+          "trampa": "El certificado de oficio tiene un plazo de **15 días** desde la expiración del plazo máximo para resolver. Si lo solicita el interesado, se computa desde el día siguiente a la entrada de su petición en el registro electrónico de la Administración u organismo competente.",
           "referencia": "content/diputacion-toledo/tema-05/manual.md",
           "origenId": "DIP-T05-006",
           "referenciaOriginal": "Ley 39/2015, artículo 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24"
@@ -2973,7 +2973,7 @@
             "Inicia automáticamente el apremio"
           ],
           "correcta": 2,
-          "justificacion": "La solicitud presentada en periodo voluntario impide el inicio del periodo ejecutivo mientras se tramita, pero no evita el devengo del interés de demora.",
+          "justificacion": "La solicitud de aplazamiento o fraccionamiento en período voluntario impide iniciar el período ejecutivo, pero no el devengo de intereses de demora, conforme al artículo 65.5 LGT, sin perjuicio de las excepciones legales.",
           "trampa": "Impedir temporalmente el inicio del periodo ejecutivo no equivale a condonar los intereses de demora.",
           "referencia": "content/diputacion-toledo/tema-26/manual.md",
           "origenId": "DIP-T26-004",
@@ -3050,7 +3050,7 @@
         {
           "id": "DIP-SIM-007-Q43",
           "tema": 8,
-          "pregunta": "¿En qué plazo puede iniciarse la revisión de oficio de un acto nulo?",
+          "pregunta": "¿En qué plazo puede iniciarse la revisión de oficio de un acto nulo que haya puesto fin a la vía administrativa o no haya sido recurrido en plazo, sin perjuicio de los límites del artículo 110?",
           "opciones": [
             "En 1 año",
             "En 4 años",
@@ -3058,7 +3058,7 @@
             "En cualquier momento"
           ],
           "correcta": 3,
-          "justificacion": "El artículo 106 de la Ley 39/2015 permite revisar los actos nulos en cualquier momento.",
+          "justificacion": "El artículo 106.1 permite iniciar la revisión en cualquier momento en los supuestos del artículo 47.1, con los límites al ejercicio de la potestad del artículo 110.",
           "trampa": "Confundir el plazo de iniciación con el plazo máximo de resolución del procedimiento, que es de 6 meses.",
           "referencia": "content/diputacion-toledo/tema-08/manual.md",
           "origenId": "DIP-T08-001",
@@ -3619,7 +3619,7 @@
             "5.000 habitantes"
           ],
           "correcta": 1,
-          "justificacion": "La creación de nuevos municipios exige núcleos territorialmente diferenciados de al menos 4.000 habitantes, además de los restantes requisitos legales.",
+          "justificacion": "El artículo 13.2 exige núcleos territorialmente diferenciados de al menos **4.000 habitantes**, sostenibilidad financiera de los municipios resultantes, recursos suficientes para sus competencias y mantenimiento de la calidad de los servicios existentes.",
           "trampa": "**Art. 13.2**: creación de municipio exige **4.000 habitantes** en núcleo territorialmente diferenciado; también sostenibilidad y suficiencia de recursos.",
           "referencia": "content/diputacion-toledo/tema-13/manual.md",
           "origenId": "DIP-T13-002",
@@ -4019,7 +4019,7 @@
         {
           "id": "DIP-SIM-008-Q44",
           "tema": 14,
-          "pregunta": "La prestación provincial de servicios de administración electrónica y contratación centralizada se dirige especialmente a municipios con población inferior a:",
+          "pregunta": "¿En municipios de qué población atribuye expresamente el artículo 36.1.g LRBRL a la Diputación la prestación de servicios de administración electrónica y contratación centralizada?",
           "opciones": [
             "20.000 habitantes",
             "5.000 habitantes",
@@ -4027,7 +4027,7 @@
             "50.000 habitantes"
           ],
           "correcta": 0,
-          "justificacion": "La Ley 7/1985 atribuye a la Diputación la prestación de servicios de administración electrónica y contratación centralizada en municipios con población inferior a 20.000 habitantes.",
+          "justificacion": "El artículo 36.1.g atribuye estos servicios en municipios con población inferior a **20.000 habitantes**; no confundir con otras funciones de asistencia provincial.",
           "trampa": "No debe confundirse este umbral con los previstos para otros servicios mínimos municipales.",
           "referencia": "content/diputacion-toledo/tema-14/manual.md",
           "origenId": "DIP-T14-004",
@@ -4165,7 +4165,7 @@
             "6 días naturales"
           ],
           "correcta": 3,
-          "justificacion": "**RD 84/1996 art. 32.3.2.º**, modificado con efectos desde **01/08/2026**: comunicar bajas y variaciones en **6 días naturales**, salvo excepción autorizada.",
+          "justificacion": "Artículo 32.3.2.º del RD 84/1996, reformado por RD 643/2026: **6 días naturales siguientes** al cese o a la variación de datos.",
           "trampa": "**Baja y variaciones 6 días naturales**, no 3; el **alta** es anterior al inicio.",
           "referencia": "content/diputacion-toledo/tema-21/manual.md",
           "respuestaLiteral": "6 días naturales",
@@ -4624,7 +4624,7 @@
             "180 días por centro"
           ],
           "correcta": 2,
-          "justificacion": "El límite general es de 90 días en el año natural y se refiere al conjunto de la empresa.",
+          "justificacion": "El límite general es de **90 días** por empresa y año natural, con excepción sectorial de **120 días**. No se pueden utilizar de manera continuada y el cómputo es independiente del número de trabajadores contratados.",
           "trampa": "Los 90 días no corresponden a cada persona trabajadora y, con carácter general, no pueden utilizarse de forma continuada.",
           "referencia": "content/diputacion-toledo/tema-21/manual.md",
           "respuestaLiteral": "90 días en el año natural",
@@ -4724,7 +4724,7 @@
         },
         {
           "id": "DIP-SIM-009-Q28",
-          "pregunta": "El contrato de sustitución para cubrir temporalmente un puesto durante un proceso de selección puede durar, con carácter general, hasta:",
+          "pregunta": "Según la regla general del artículo 15.3 ET, ¿cuál es la duración máxima del contrato de sustitución durante un proceso de selección para cobertura definitiva, salvo plazo convencional inferior?",
           "opciones": [
             "1 mes",
             "3 meses",
@@ -4732,8 +4732,8 @@
             "1 año"
           ],
           "correcta": 1,
-          "justificacion": "Su duración máxima general es de 3 meses, salvo que el convenio colectivo establezca un plazo inferior.",
-          "trampa": "Una vez agotado ese máximo no puede celebrarse un nuevo contrato con el mismo objeto.",
+          "justificacion": "La regla general del artículo 15.3 ET es **3 meses**, o plazo inferior de convenio. En el sector público debe distinguirse la especialidad de la disposición adicional 4.ª del Real Decreto-ley 32/2021.",
+          "trampa": "No aplicar automáticamente los tres meses al sector público: su régimen especial contempla la cobertura hasta finalizar la selección en los términos legalmente establecidos.",
           "referencia": "content/diputacion-toledo/tema-21/manual.md",
           "respuestaLiteral": "3 meses",
           "tema": 21,
@@ -5120,7 +5120,7 @@
         },
         {
           "id": "DIP-SIM-009-Q50",
-          "pregunta": "Para la válida constitución ordinaria de un órgano colegiado se requiere:",
+          "pregunta": "Según la regla ordinaria del artículo 17.2 de la Ley 40/2015, ¿qué asistencia exige la válida constitución de un órgano colegiado sujeto a dicha ley?",
           "opciones": [
             "Presidente, secretario y al menos la mitad de sus miembros",
             "Todos sus miembros",
@@ -5129,7 +5129,7 @@
           ],
           "correcta": 0,
           "justificacion": "La constitución válida exige la presencia del presidente y secretario, o quienes les suplan, y al menos la mitad de los miembros.",
-          "trampa": "La mitad de miembros no basta sin presidente y secretario o sus suplentes.",
+          "trampa": "No trasladar automáticamente este quórum al Pleno o a la Junta de Gobierno local: la disposición adicional 21.ª excluye los órganos colegiados de gobierno de las entidades locales. El artículo 17.2 también prevé reglas especiales.",
           "referencia": "content/diputacion-toledo/tema-04/manual.md",
           "respuestaLiteral": "Presidente, secretario y al menos la mitad de sus miembros",
           "tema": 4,
@@ -5712,13 +5712,13 @@
             "Cualquier página web pública",
             "Un buzón de correo",
             "Una red social institucional",
-            "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad"
+            "Una dirección electrónica de titularidad de una Administración pública o de uno o varios organismos públicos o entidades de Derecho público, en ejercicio de sus competencias"
           ],
           "correcta": 3,
-          "justificacion": "Esa es la definición legal de sede electrónica.",
+          "justificacion": "Artículo 38.1 de la Ley 40/2015: dirección electrónica accesible a los ciudadanos mediante redes de telecomunicaciones, de titularidad pública en el ejercicio de sus competencias.",
           "trampa": "Confundir sede con portal de internet.",
           "referencia": "content/diputacion-toledo/tema-09/manual.md",
-          "respuestaLiteral": "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad",
+          "respuestaLiteral": "Una dirección electrónica de titularidad de una Administración pública o de uno o varios organismos públicos o entidades de Derecho público, en ejercicio de sus competencias",
           "tema": 9,
           "origenId": "DIP-T09-005",
           "referenciaOriginal": "Ley 40/2015, art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a38"
@@ -5923,7 +5923,7 @@
         },
         {
           "id": "DIP-SIM-010-Q39",
-          "pregunta": "Una presentación efectuada en día inhábil se entiende realizada, como regla general:",
+          "pregunta": "A efectos de cumplir un plazo del interesado fijado en días hábiles, ¿cuándo se entiende realizada una presentación electrónica en día inhábil, salvo norma expresa que permita su recepción?",
           "opciones": [
             "El mismo día",
             "La última hora del día hábil anterior",
@@ -5931,7 +5931,7 @@
             "Cuando la revise el funcionario"
           ],
           "correcta": 2,
-          "justificacion": "Así lo establece el artículo 31 de la Ley 39/2015.",
+          "justificacion": "El artículo 31.2.b de la Ley 39/2015 limita esta regla al cumplimiento de plazos de los interesados fijados en días hábiles. Se conserva el orden efectivo de presentación.",
           "trampa": "Pensar que el registro disponible durante las 24 horas convierte el día inhábil en hábil.",
           "referencia": "content/diputacion-toledo/tema-09/manual.md",
           "respuestaLiteral": "La primera hora del primer día hábil siguiente",
@@ -6057,7 +6057,7 @@
             "Desestimada"
           ],
           "correcta": 3,
-          "justificacion": "Transcurridos seis meses sin resolución expresa, la reclamación puede entenderse desestimada.",
+          "justificacion": "El artículo 91.3 de la Ley 39/2015 permite entender desestimada la reclamación tras **6 meses** sin resolución expresa notificada ni acuerdo formalizado.",
           "trampa": "En responsabilidad patrimonial el silencio no es estimatorio.",
           "referencia": "content/diputacion-toledo/tema-10/manual.md",
           "respuestaLiteral": "Desestimada",
@@ -7411,8 +7411,8 @@
             "20 %"
           ],
           "correcta": 0,
-          "justificacion": "El recargo de apremio reducido es del 10 % cuando se pagan la deuda y el propio recargo dentro del plazo concedido por la providencia de apremio.",
-          "trampa": "No debe confundirse con el recargo ejecutivo del 5 %, aplicable antes de la notificación de la providencia.",
+          "justificacion": "El recargo de apremio reducido es del **10 %** si se satisface la totalidad de la deuda no ingresada en voluntaria y el propio recargo antes de finalizar el plazo del artículo 62.5 LGT.",
+          "trampa": "No basta pagar solo el principal dentro del plazo de la providencia.",
           "referencia": "content/diputacion-toledo/tema-26/manual.md",
           "respuestaLiteral": "10 %",
           "tema": 26,
@@ -7889,7 +7889,7 @@
         },
         {
           "id": "DIP-SIM-012-Q37",
-          "pregunta": "¿Cuántas reformas ha experimentado la Constitución española hasta julio de 2026?",
+          "pregunta": "¿Cuántas reformas ha experimentado la Constitución española hasta el 26 de noviembre de 2026?",
           "opciones": [
             "Cuatro",
             "Una",
@@ -8602,7 +8602,7 @@
         },
         {
           "id": "DIP-SIM-013-Q21",
-          "pregunta": "¿Qué situación corresponde al desempeño efectivo de un puesto en otra Administración pública?",
+          "pregunta": "¿Qué situación corresponde al funcionario de carrera que obtiene destino en otra Administración mediante los procedimientos de provisión legalmente previstos?",
           "opciones": [
             "Servicios especiales",
             "Servicio en otras Administraciones públicas",
@@ -8610,7 +8610,7 @@
             "Suspensión provisional"
           ],
           "correcta": 1,
-          "justificacion": "La situación administrativa específica para el desempeño efectivo de un puesto en otra Administración es la de servicio en otras Administraciones públicas.",
+          "justificacion": "La situación de servicio en otras Administraciones públicas se aplica en los supuestos legalmente previstos, no por cualquier prestación de servicios fuera de la Administración de origen.",
           "trampa": "Los servicios especiales se reservan para cargos y funciones públicas expresamente enumerados por la ley.",
           "referencia": "content/diputacion-toledo/tema-18/manual.md",
           "respuestaLiteral": "Servicio en otras Administraciones públicas",
@@ -8839,15 +8839,15 @@
           "pregunta": "¿Qué créditos no quedan afectados por la prórroga presupuestaria?",
           "opciones": [
             "Todos los créditos de personal",
-            "Los destinados a programas que debían concluir o financiados con ingresos específicos o afectados",
+            "Los créditos para servicios o programas que deban concluir en el ejercicio anterior o financiados con crédito u otros ingresos específicos o afectados",
             "Todos los gastos corrientes",
             "Los créditos iniciales ordinarios"
           ],
           "correcta": 1,
-          "justificacion": "No se prorrogan los créditos destinados a servicios o programas que debían concluir en el ejercicio anterior ni los financiados con crédito específico o con ingresos específicos o afectados.",
-          "trampa": "La prórroga presupuestaria no reproduce íntegramente el presupuesto anterior.",
+          "justificacion": "El artículo 169.6 TRLRHL excluye de la prórroga los créditos para servicios o programas que deban concluir en el ejercicio anterior o financiados con crédito u otros ingresos específicos o afectados.",
+          "trampa": "La ley menciona crédito u otros ingresos específicos o afectados; no exige que el crédito sea específico.",
           "referencia": "content/diputacion-toledo/tema-27/manual.md",
-          "respuestaLiteral": "Los destinados a programas que debían concluir o financiados con ingresos específicos o afectados",
+          "respuestaLiteral": "Los créditos para servicios o programas que deban concluir en el ejercicio anterior o financiados con crédito u otros ingresos específicos o afectados",
           "tema": 27,
           "origenId": "DIP-T27-012",
           "referenciaOriginal": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
@@ -9305,7 +9305,7 @@
             "3 meses"
           ],
           "correcta": 2,
-          "justificacion": "La tramitación simplificada debe resolverse en treinta días.",
+          "justificacion": "El artículo 96.6 de la Ley 39/2015 establece **30 días** desde el siguiente a la notificación del acuerdo de simplificación, salvo que reste menos para la tramitación ordinaria.",
           "trampa": "No confundir este plazo con el plazo general de seis meses.",
           "referencia": "content/diputacion-toledo/tema-10/manual.md",
           "respuestaLiteral": "30 días",
@@ -9558,7 +9558,7 @@
           ],
           "correcta": 0,
           "justificacion": "El **artículo 49.1** establece que **la nulidad o anulabilidad de un acto no implicará la de los sucesivos en el procedimiento que sean independientes del primero**.",
-          "trampa": "**Actos sucesivos independientes** conservan su eficacia frente al vicio del acto previo; no confundir con los actos que dependen causalmente de él.",
+          "trampa": "La invalidez no se transmite automáticamente a los actos sucesivos independientes; ello no significa que estén exentos de otros vicios propios.",
           "referencia": "content/diputacion-toledo/tema-07/manual.md",
           "respuestaLiteral": "No quedan invalidados automáticamente por la nulidad o anulabilidad del acto anterior",
           "tema": 7,
@@ -9729,7 +9729,7 @@
         },
         {
           "id": "DIP-SIM-014-Q28",
-          "pregunta": "Cuando varias Administraciones actúan conjuntamente mediante fórmulas colegiadas, la responsabilidad frente al particular será, como regla general:",
+          "pregunta": "Cuando la responsabilidad deriva de fórmulas conjuntas de actuación de varias Administraciones, ¿cómo responden frente al particular según el artículo 33.1?",
           "opciones": [
             "Mancomunada",
             "Subsidiaria",
@@ -9737,8 +9737,8 @@
             "Inexistente"
           ],
           "correcta": 2,
-          "justificacion": "Cuando varias Administraciones actúan conjuntamente, la responsabilidad frente al particular es solidaria como regla general.",
-          "trampa": "La distribución interna de responsabilidades entre Administraciones no puede perjudicar al particular.",
+          "justificacion": "En este supuesto la responsabilidad frente al particular es solidaria en todo caso. En otros supuestos de concurrencia se aplican los criterios del artículo 33.2 y la solidaridad si no puede determinarse el reparto.",
+          "trampa": "Distinguir fórmulas conjuntas del artículo 33.1 de otros supuestos de concurrencia del 33.2.",
           "referencia": "content/diputacion-toledo/tema-10/manual.md",
           "respuestaLiteral": "Solidaria",
           "tema": 10,
@@ -9810,7 +9810,7 @@
           ],
           "correcta": 2,
           "justificacion": "El **art. 48.4 ET** establece **19 semanas** para cada progenitor y **32 semanas en monoparentalidad**, con distribución legal.",
-          "trampa": "**19 semanas** generales, **32** monoparental: no confundir con el régimen anterior.",
+          "trampa": "Distinguir la suspensión del artículo 48.4 ET de los permisos del personal laboral de las Administraciones públicas, sujetos al TREBEP conforme a la disposición adicional 22.ª ET.",
           "referencia": "content/diputacion-toledo/tema-20/manual.md",
           "respuestaLiteral": "Diecinueve semanas",
           "tema": 20,
@@ -10262,7 +10262,7 @@
         },
         {
           "id": "DIP-SIM-015-Q02",
-          "pregunta": "¿Qué recurso procede contra un acto que no pone fin a la vía administrativa?",
+          "pregunta": "¿Qué recurso administrativo ordinario procede contra una resolución que no pone fin a la vía administrativa?",
           "opciones": [
             "Reposición",
             "Alzada",
@@ -10270,8 +10270,8 @@
             "Recurso contencioso directo necesariamente"
           ],
           "correcta": 1,
-          "justificacion": "El recurso de alzada procede contra actos que no agotan la vía administrativa.",
-          "trampa": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
+          "justificacion": "El artículo 121 permite la alzada contra resoluciones y actos de trámite recurribles del artículo 112.1 que no pongan fin a la vía administrativa, sin perjuicio de los procedimientos sustitutivos legalmente previstos.",
+          "trampa": "No todo acto de trámite admite recurso autónomo: debe reunir alguna de las condiciones del artículo 112.1.",
           "referencia": "content/diputacion-toledo/tema-08/manual.md",
           "respuestaLiteral": "Alzada",
           "tema": 8,
@@ -10828,8 +10828,8 @@
             "3 meses"
           ],
           "correcta": 0,
-          "justificacion": "La Ley fija un plazo general de 30 días desde el siguiente a la notificación del acuerdo de tramitación simplificada.",
-          "trampa": "Dentro de la simplificada, el plazo específico de alegaciones es de 5 días.",
+          "justificacion": "El artículo 96.6 establece **30 días** desde el siguiente a la notificación del acuerdo de tramitación simplificada, salvo que reste menos tiempo para la tramitación ordinaria.",
+          "trampa": "**30 días** como regla general, pero no se alarga un plazo ordinario restante inferior. Las alegaciones iniciales tienen un plazo de **5 días**.",
           "referencia": "content/diputacion-toledo/tema-06/manual.md",
           "respuestaLiteral": "30 días",
           "tema": 6,
@@ -11135,7 +11135,7 @@
           ],
           "correcta": 2,
           "justificacion": "El plazo máximo de resolución y notificación del recurso de alzada es de **3 meses**.",
-          "trampa": "**Alzada**: **1 mes** para interponer frente a acto expreso; **3 meses** para resolver. En acto presunto, interposición posible en cualquier momento desde que surta efecto.",
+          "trampa": "Alzada: **1 mes** para interponer frente a acto expreso; **3 meses** para resolver y notificar. Ante silencio, puede interponerse en cualquier momento desde el día siguiente a aquel en que se produzcan sus efectos.",
           "referencia": "content/diputacion-toledo/tema-08/manual.md",
           "respuestaLiteral": "Tres meses",
           "tema": 8,

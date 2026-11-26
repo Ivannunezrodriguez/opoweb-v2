@@ -27,7 +27,7 @@
         "4.000 habitantes"
       ],
       "correcta": 3,
-      "justificacion": "La creación de nuevos municipios exige núcleos territorialmente diferenciados de al menos 4.000 habitantes, además de los restantes requisitos legales.",
+      "justificacion": "El artículo 13.2 exige núcleos territorialmente diferenciados de al menos **4.000 habitantes**, sostenibilidad financiera de los municipios resultantes, recursos suficientes para sus competencias y mantenimiento de la calidad de los servicios existentes.",
       "trampa": "**Art. 13.2**: creación de municipio exige **4.000 habitantes** en núcleo territorialmente diferenciado; también sostenibilidad y suficiencia de recursos.",
       "referencia": "Ley 7/1985 LRBRL, art. 13 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a13",
       "respuestaLiteral": "4.000 habitantes"
@@ -293,14 +293,14 @@
       "opciones": [
         "Todos los créditos de personal",
         "Todos los de gastos corrientes",
-        "Los créditos de servicios o programas que debían terminar el ejercicio anterior o financiados con ingresos específicos o afectados",
+        "Los créditos para servicios o programas que deban concluir en el ejercicio anterior o financiados con crédito u otros ingresos específicos o afectados",
         "Los de mantenimiento municipal sin excepciones"
       ],
       "correcta": 2,
-      "justificacion": "El **artículo 169.6 TRLRHL** excluye de la prórroga los créditos para programas concluidos y los financiados con ingresos específicos o afectados.",
-      "trampa": "Prórroga automática no incorpora créditos de actuaciones finalizadas ni financiadas con ingresos específicos o afectados.",
+      "justificacion": "El artículo 169.6 TRLRHL excluye de la prórroga los créditos de servicios o programas que deban concluir en el ejercicio anterior o financiados con crédito u otros ingresos específicos o afectados.",
+      "trampa": "También se excluye la financiación mediante crédito; no limitar la excepción a ingresos afectados.",
       "referencia": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
-      "respuestaLiteral": "Los créditos de servicios o programas que debían terminar el ejercicio anterior o financiados con ingresos específicos o afectados"
+      "respuestaLiteral": "Los créditos para servicios o programas que deban concluir en el ejercicio anterior o financiados con crédito u otros ingresos específicos o afectados"
     }
   ],
   "controlCalidadOpciones": {
