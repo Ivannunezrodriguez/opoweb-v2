@@ -1123,7 +1123,8 @@
           "completedSubsteps": [
             "26/11: run 45856459647, job 140036013263 falla en test de repaso que espera 29 y recibe 32; público T03 28 vs privado 60.",
             "26/11: documento focal sincronizado a 32 (bb79ce9), test conserva claves 1/2/3 de las tres nuevas y añade control T03 de 60 (b44b06a). Automatizaciones OpoWeb y OpoRadar actualizadas con prioridad y ámbito explícitos. CI/publicación pendientes de confirmar.",
-            "26/11: run 45857120762 ya supera la discrepancia 29/32 pero falla en validate-plan-bitacora-20261121.mjs:48 porque los dos eventos nuevos usaban categorías no admitidas; corregidas a PARCIAL respetando el contrato existente."
+            "26/11: run 45857120762 ya supera la discrepancia 29/32 pero falla en validate-plan-bitacora-20261121.mjs:48 porque los dos eventos nuevos usaban categorías no admitidas; corregidas a PARCIAL respetando el contrato existente.",
+            "26/11: publicación SUCCESS 45857275231 y Pages SUCCESS 45857326775; igualdad SHA de banco T03 60/60, visor, HTML y MD focal. Prueba E2E específica creada a799d5a e integrada 85bbe1e, escritorio/móvil emulado, 0/60, mixto, 60/60 y reinicio; resultado pendiente."
           ],
           "remainingSubsteps": [
             "Cotejar tres preguntas 30–32 y sus claves; sincronizar documento y contador HTML.",
@@ -1131,7 +1132,7 @@
             "Añadir validación estructural de T03 y visor dinámico; comprobar fallos siguientes si aparecen.",
             "Confirmar publicación, SHA privado/público y Pages; ejecutar E2E específico."
           ],
-          "nextAction": "Verificar CI del commit que corrige categorías de bitácora y sucesivos; confirmar SHA público T03 60, Pages y E2E específico. Si otro test falla, reparar causa sin debilitarlo."
+          "nextAction": "Confirmar resultado E2E 85bbe1e con JCCM_T03_E2E_OK en local y Pages; reparar si falla, cerrar si cumple aceptación. Después STUDY-DIP-FINAL-01."
         }
       ]
     },
@@ -3826,5 +3827,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-26T16:16:52.000Z"
+  "updatedAtUtc": "2026-11-26T16:22:26.000Z"
 }
