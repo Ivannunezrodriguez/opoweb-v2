@@ -44,6 +44,23 @@ La cesión interadministrativa debe respetar la normativa de protección de dato
 - [Art. 32](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32): daño real, cuantificable e individualizado; la anulación no implica automáticamente indemnización.
 - [Arts. 41–42](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41): actuación íntegramente electrónica sin intervención directa de empleado público; órgano responsable de impugnación previamente identificado. Firma mediante sello o CSV según determine la Administración.
 
+## Tema 4 · Conferencias Sectoriales (arts. 147–151)
+
+| Aspecto | Regla |
+|---|---|
+| Constitución válida | Inscripción en el Registro Electrónico estatal de Órganos e Instrumentos de Cooperación |
+| Presidencia | **Miembro del Gobierno competente por razón de la materia** |
+| Convocatoria | Iniciativa del ministro presidente, al menos **una vez al año**, o solicitud de **un tercio** de los miembros como mínimo |
+| Asuntos fuera del orden del día | Conformidad de **todos los miembros** |
+| Secretaría | Designada por el **presidente**; participa con voz, sin voto |
+| Votación | Por representación de cada Administración, no por miembro individual |
+| Acuerdo | Obligatorio y exigible, excepto para disidentes mientras no se adhieran; si la AGE ejerce coordinación conforme al reparto constitucional de competencias, obliga a todas |
+| Recomendación | Orienta la actuación; si un miembro se aparta, debe justificarlo en el expediente, con la excepción de quienes votaron en contra mientras no se adhieran |
+
+> ⚠️ **¡Foco Examen!:** No confundir la iniciativa propia anual del ministro con el derecho de solicitud de un tercio. La recomendación no tiene el mismo régimen que el acuerdo.
+
+[Arts. 147–151, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a147), consultado el 26/11/2026.
+
 ## Autoevaluación razonada
 
 1. Sin plazo sectorial, ¿cuándo prescribe una infracción leve? A) 6 meses B) 1 año C) 2 años D) 3 años. **A**, art. 30.1.
@@ -59,4 +76,12 @@ La cesión interadministrativa debe respetar la normativa de protección de dato
 10. ¿Qué distingue la actuación automatizada? **Tramitación íntegramente electrónica sin intervención directa de empleado público**, art. 41.1.
 11. ¿Puede firmarse mediante CSV? **Sí**, art. 42.b.
 
-**Límite editorial:** once preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
+12. ¿Qué principio implica compromisos voluntarios? **Cooperación**, art. 140.1.d.
+13. ¿Cómo se comunica la negativa de asistencia? **Motivadamente a la Administración solicitante**, art. 141.2.
+14. ¿Qué exige formalizar la cooperación? **Aceptación expresa**, art. 143.2.
+15. ¿Quién designa al secretario de la Conferencia Sectorial? **Su presidente**, art. 150.1.
+16. ¿Cómo participa el secretario? **Con voz y sin voto**, art. 150.2.a.
+17. ¿Cómo se vota? **Por representación de cada Administración**, art. 151.1.
+18. ¿A quién obliga el acuerdo cuando la AGE ejerce legalmente coordinación? **A todas las Administraciones integrantes**, art. 151.2.a.
+
+**Límite editorial:** dieciocho preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
