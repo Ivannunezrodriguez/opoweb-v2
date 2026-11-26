@@ -1319,6 +1319,108 @@
           }
         }
       ]
+    },
+    {
+      "id": "DIP-SP-014",
+      "titulo": "Delegación, avocación, firma y abstención en un expediente provincial",
+      "temas": [
+        4
+      ],
+      "enunciado": "En una diputación hipotética, un órgano A tiene atribuida una competencia ordinaria y delegable para resolver expedientes. Delega su ejercicio en un órgano B de la misma Administración, no dependiente jerárquicamente de A, cumpliendo los restantes requisitos aplicables. A decide recuperar un expediente concreto por razones técnicas. En otro expediente, el titular competente quiere delegar únicamente la firma en una unidad dependiente. Finalmente, un empleado que interviene en la instrucción descubre que su hermano es el solicitante. No se presupone ninguna atribución concreta del régimen organizativo real de la Diputación de Toledo.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-014-Q1",
+          "pregunta": "¿Puede delegarse el ejercicio en B? ¿Qué publicidad y atribución de la resolución proceden?",
+          "respuesta": "Sí. La relación jerárquica no es imprescindible entre órganos de la misma Administración. La delegación y su revocación se publican en el BOP, en este supuesto provincial; la resolución expresa que se dicta por delegación y se atribuye jurídicamente a A (art. 9.1, 3 y 4).",
+          "trampa": "No confundir el órgano que ejerce la competencia con aquel al que se atribuye jurídicamente la resolución.",
+          "referencias": [
+            "content/diputacion-toledo/tema-04/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Admite delegación sin dependencia jerárquica e identifica publicación en BOP",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica constancia de delegación y atribución de la resolución a A",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-014-Q2",
+          "pregunta": "¿Quién puede avocar ese expediente y cómo debe comunicarlo? ¿Cabe recurso autónomo?",
+          "respuesta": "Solo A, por ser el delegante de un órgano no dependiente jerárquicamente. Debe motivar el acuerdo y notificarlo a los interesados, si existen, antes de la resolución final o al mismo tiempo. No cabe recurso separado; cabe cuestionarlo al recurrir la resolución final (art. 10).",
+          "trampa": "La avocación de un asunto no equivale a revocar toda la delegación.",
+          "referencias": [
+            "content/diputacion-toledo/tema-04/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a10"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica exclusivamente A y motivación",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica momento de notificación y ausencia de recurso autónomo",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-014-Q3",
+          "pregunta": "¿Exige publicación la delegación de firma? ¿Qué debe constar en el documento?",
+          "respuesta": "No es necesaria la publicación para su validez; no cambia la competencia. En el acto deben identificarse la firma por delegación y la autoridad de procedencia (art. 12).",
+          "trampa": "No trasladar a la delegación de firma la obligación de publicar la delegación de competencias.",
+          "referencias": [
+            "content/diputacion-toledo/tema-04/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a12"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Distingue competencia y ausencia de publicación necesaria",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica constancia de delegación y autoridad de procedencia",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-014-Q4",
+          "pregunta": "¿Puede seguir instruyendo el empleado cuyo hermano solicita la actuación?",
+          "respuesta": "Debe abstenerse y comunicarlo a su superior inmediato, que resolverá lo procedente. Los hermanos son parientes de segundo grado de consanguinidad, dentro del límite del cuarto grado previsto por el art. 23.2.b.",
+          "trampa": "No confundir el límite de consanguinidad con el de afinidad, que alcanza el segundo grado.",
+          "referencias": [
+            "content/diputacion-toledo/tema-04/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica deber de abstención por parentesco",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica comunicación al superior inmediato y límite de consanguinidad",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "rubricaDidactica": {
