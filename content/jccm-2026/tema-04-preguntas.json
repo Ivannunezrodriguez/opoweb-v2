@@ -1,0 +1,606 @@
+{
+  "tema": 4,
+  "estado": "BORRADOR_PENDIENTE_COTEJO_INDIVIDUAL",
+  "preguntas": [
+    {
+      "id": "JCCM-C2-T04-01",
+      "tema": 4,
+      "pregunta": "¿Qué principio supone compromisos voluntarios entre Administraciones?",
+      "opciones": [
+        "Coordinación",
+        "Jerarquía",
+        "Cooperación",
+        "Desconcentración"
+      ],
+      "correcta": 2,
+      "justificacion": "No confundir cooperación voluntaria con coordinación obligatoria cuando proceda.",
+      "trampa": "No confundir cooperación voluntaria con coordinación obligatoria cuando proceda.",
+      "referencia": "Ley 40/2015, art. 140",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a140",
+        "article": "140"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-02",
+      "tema": 4,
+      "pregunta": "¿Qué principio exige respetar las competencias ajenas?",
+      "opciones": [
+        "Respeto del reparto competencial",
+        "Centralización",
+        "Jerarquía estatal universal",
+        "Sustitución automática"
+      ],
+      "correcta": 0,
+      "justificacion": "No existe subordinación jerárquica general entre Administraciones.",
+      "trampa": "No existe subordinación jerárquica general entre Administraciones.",
+      "referencia": "Ley 40/2015, art. 140",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a140",
+        "article": "140"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-03",
+      "tema": 4,
+      "pregunta": "¿Qué legislación completa las relaciones con entidades locales?",
+      "opciones": [
+        "Derecho mercantil",
+        "Exclusivamente legislación penal",
+        "Solo reglamentos ministeriales",
+        "Legislación básica de régimen local"
+      ],
+      "correcta": 3,
+      "justificacion": "La Ley 40/2015 no excluye las reglas básicas locales.",
+      "trampa": "La Ley 40/2015 no excluye las reglas básicas locales.",
+      "referencia": "Ley 40/2015, art. 140",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a140",
+        "article": "140"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-04",
+      "tema": 4,
+      "pregunta": "¿Qué circunstancia puede justificar denegar asistencia?",
+      "opciones": [
+        "Preferencia política",
+        "Insuficiencia de medios",
+        "Comodidad administrativa",
+        "Cambio de legislatura"
+      ],
+      "correcta": 1,
+      "justificacion": "La insuficiencia de medios es causa legal; no basta conveniencia.",
+      "trampa": "La insuficiencia de medios es causa legal; no basta conveniencia.",
+      "referencia": "Ley 40/2015, art. 141",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a141",
+        "article": "141"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-05",
+      "tema": 4,
+      "pregunta": "¿Cómo debe comunicarse una negativa de asistencia?",
+      "opciones": [
+        "Sin explicación",
+        "Motivadamente",
+        "Siempre por silencio",
+        "Solo al juez"
+      ],
+      "correcta": 1,
+      "justificacion": "La negativa requiere motivación.",
+      "trampa": "La negativa requiere motivación.",
+      "referencia": "Ley 40/2015, art. 141",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a141",
+        "article": "141"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-06",
+      "tema": 4,
+      "pregunta": "¿Qué instrumento constituye una técnica de colaboración?",
+      "opciones": [
+        "Sanción disciplinaria",
+        "Referéndum autonómico",
+        "Disolución de órganos",
+        "Intercambio de documentación y pruebas"
+      ],
+      "correcta": 3,
+      "justificacion": "Distinguir técnicas de colaboración de sanciones.",
+      "trampa": "Distinguir técnicas de colaboración de sanciones.",
+      "referencia": "Ley 40/2015, art. 142",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a142",
+        "article": "142"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-07",
+      "tema": 4,
+      "pregunta": "¿Qué técnica permite integrar información personal administrativa?",
+      "opciones": [
+        "Integración segura de carpetas ciudadanas",
+        "Publicación indiscriminada de datos",
+        "Supresión de registros",
+        "Cesión pública sin garantías"
+      ],
+      "correcta": 0,
+      "justificacion": "La integración exige seguridad.",
+      "trampa": "La integración exige seguridad.",
+      "referencia": "Ley 40/2015, art. 142",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a142",
+        "article": "142"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-08",
+      "tema": 4,
+      "pregunta": "¿Qué aceptación formaliza la cooperación?",
+      "opciones": [
+        "Presunta por silencio",
+        "Tácita necesariamente",
+        "Expresa",
+        "Judicial obligatoria"
+      ],
+      "correcta": 2,
+      "justificacion": "Se formaliza mediante acuerdos o convenios.",
+      "trampa": "Se formaliza mediante acuerdos o convenios.",
+      "referencia": "Ley 40/2015, art. 143",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a143",
+        "article": "143"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-09",
+      "tema": 4,
+      "pregunta": "¿Qué debe mantener actualizado cada Administración respecto de su cooperación?",
+      "opciones": [
+        "Registro electoral",
+        "Únicamente un archivo en papel",
+        "Registro electrónico de órganos y convenios",
+        "Inventario de sanciones"
+      ],
+      "correcta": 2,
+      "justificacion": "No confundir con el registro estatal constitutivo.",
+      "trampa": "No confundir con el registro estatal constitutivo.",
+      "referencia": "Ley 40/2015, art. 144",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a144",
+        "article": "144"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-10",
+      "tema": 4,
+      "pregunta": "Si participa la AGE, ¿qué requisito afecta a la validez de la sesión constitutiva?",
+      "opciones": [
+        "Inscripción en el registro estatal",
+        "Publicación en prensa",
+        "Autorización del Senado",
+        "Referéndum"
+      ],
+      "correcta": 0,
+      "justificacion": "La inscripción es requisito de validez en ese supuesto.",
+      "trampa": "La inscripción es requisito de validez en ese supuesto.",
+      "referencia": "Ley 40/2015, art. 145",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a145",
+        "article": "145"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-11",
+      "tema": 4,
+      "pregunta": "¿Quién preside la Conferencia de Presidentes?",
+      "opciones": [
+        "Secretario de Estado",
+        "Presidente del Senado",
+        "Ministro de Hacienda necesariamente",
+        "Presidente del Gobierno"
+      ],
+      "correcta": 3,
+      "justificacion": "El comité preparatorio tiene presidencia diferente.",
+      "trampa": "El comité preparatorio tiene presidencia diferente.",
+      "referencia": "Ley 40/2015, art. 146",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a146",
+        "article": "146"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-12",
+      "tema": 4,
+      "pregunta": "¿Quién preside una Conferencia Sectorial?",
+      "opciones": [
+        "Presidente del Congreso",
+        "Miembro del Gobierno competente por materia",
+        "Presidente autonómico por rotación obligatoria",
+        "Secretario de la conferencia"
+      ],
+      "correcta": 1,
+      "justificacion": "La presidencia responde al sector material.",
+      "trampa": "La presidencia responde al sector material.",
+      "referencia": "Ley 40/2015, art. 147",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a147",
+        "article": "147"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-13",
+      "tema": 4,
+      "pregunta": "¿Qué funciones puede ejercer una Conferencia Sectorial?",
+      "opciones": [
+        "Solo consultivas",
+        "Consultivas, decisorias y de coordinación",
+        "Exclusivamente judiciales",
+        "Solo sancionadoras"
+      ],
+      "correcta": 1,
+      "justificacion": "No es un órgano meramente consultivo.",
+      "trampa": "No es un órgano meramente consultivo.",
+      "referencia": "Ley 40/2015, art. 148",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a148",
+        "article": "148"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-14",
+      "tema": 4,
+      "pregunta": "¿Con qué frecuencia mínima convoca por iniciativa propia el ministro presidente?",
+      "opciones": [
+        "Cada cinco años",
+        "Una vez al mes",
+        "Cada cuatro años",
+        "Una vez al año"
+      ],
+      "correcta": 3,
+      "justificacion": "Distinguir frecuencia de convocatoria por iniciativa propia.",
+      "trampa": "Distinguir frecuencia de convocatoria por iniciativa propia.",
+      "referencia": "Ley 40/2015, art. 149",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a149",
+        "article": "149"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-15",
+      "tema": 4,
+      "pregunta": "¿Qué fracción mínima de miembros puede solicitar convocatoria?",
+      "opciones": [
+        "Un tercio",
+        "Un quinto",
+        "Dos tercios",
+        "Tres quintos"
+      ],
+      "correcta": 0,
+      "justificacion": "No confundir solicitud con consentimiento de todos para asuntos no incluidos.",
+      "trampa": "No confundir solicitud con consentimiento de todos para asuntos no incluidos.",
+      "referencia": "Ley 40/2015, art. 149",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a149",
+        "article": "149"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-16",
+      "tema": 4,
+      "pregunta": "¿Qué conformidad permite tratar un asunto no incluido en el orden del día?",
+      "opciones": [
+        "Un tercio",
+        "Mayoría simple",
+        "Todos los miembros",
+        "Solo el secretario"
+      ],
+      "correcta": 2,
+      "justificacion": "Es distinta de la fracción de solicitud de convocatoria.",
+      "trampa": "Es distinta de la fracción de solicitud de convocatoria.",
+      "referencia": "Ley 40/2015, art. 149",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a149",
+        "article": "149"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-17",
+      "tema": 4,
+      "pregunta": "¿Quién designa al secretario de la Conferencia Sectorial?",
+      "opciones": [
+        "El Senado",
+        "El Consejo General del Poder Judicial",
+        "Su presidente",
+        "Los funcionarios por sorteo"
+      ],
+      "correcta": 2,
+      "justificacion": "Designación presidencial.",
+      "trampa": "Designación presidencial.",
+      "referencia": "Ley 40/2015, art. 150",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a150",
+        "article": "150"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-18",
+      "tema": 4,
+      "pregunta": "¿Cómo se computa el voto en una Conferencia Sectorial?",
+      "opciones": [
+        "Por representación de cada Administración",
+        "Por número de habitantes",
+        "Por cada empleado asistente",
+        "Por antigüedad"
+      ],
+      "correcta": 0,
+      "justificacion": "No se vota individualmente por cada miembro.",
+      "trampa": "No se vota individualmente por cada miembro.",
+      "referencia": "Ley 40/2015, art. 151",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a151",
+        "article": "151"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-19",
+      "tema": 4,
+      "pregunta": "Cuando la AGE ejerce legalmente coordinación, ¿a quién vincula el acuerdo?",
+      "opciones": [
+        "A ninguna disidente",
+        "Solo a las favorables",
+        "Solo a la AGE",
+        "A todas las Administraciones integrantes"
+      ],
+      "correcta": 3,
+      "justificacion": "Excepción al régimen ordinario de disidencia.",
+      "trampa": "Excepción al régimen ordinario de disidencia.",
+      "referencia": "Ley 40/2015, art. 151",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a151",
+        "article": "151"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-20",
+      "tema": 4,
+      "pregunta": "¿Qué función corresponde a una Comisión Sectorial?",
+      "opciones": [
+        "Resolver recursos judiciales",
+        "Preparar reuniones y seguir acuerdos",
+        "Aprobar leyes",
+        "Convocar elecciones"
+      ],
+      "correcta": 1,
+      "justificacion": "Es órgano de apoyo de la Conferencia.",
+      "trampa": "Es órgano de apoyo de la Conferencia.",
+      "referencia": "Ley 40/2015, art. 152",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a152",
+        "article": "152"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-21",
+      "tema": 4,
+      "pregunta": "¿Qué caracteriza la composición de una Comisión Bilateral?",
+      "opciones": [
+        "Mayoría estatal necesaria",
+        "Paridad entre las dos Administraciones",
+        "Representación exclusivamente local",
+        "Composición unipersonal"
+      ],
+      "correcta": 1,
+      "justificacion": "Paridad no equivale a composición territorial multilateral.",
+      "trampa": "Paridad no equivale a composición territorial multilateral.",
+      "referencia": "Ley 40/2015, art. 153",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a153",
+        "article": "153"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-22",
+      "tema": 4,
+      "pregunta": "¿A quién obligan los acuerdos de una Comisión Territorial?",
+      "opciones": [
+        "Solo a la AGE",
+        "A todos los ciudadanos directamente",
+        "A cualquier Administración ajena",
+        "A las Administraciones que los suscriban"
+      ],
+      "correcta": 3,
+      "justificacion": "Distinguir de la previsión expresa bilateral.",
+      "trampa": "Distinguir de la previsión expresa bilateral.",
+      "referencia": "Ley 40/2015, art. 154",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a154",
+        "article": "154"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-23",
+      "tema": 4,
+      "pregunta": "¿En qué apartado se regula la oposición motivada a una nueva finalidad compatible?",
+      "opciones": [
+        "155.3",
+        "155.1",
+        "156.2",
+        "157.1"
+      ],
+      "correcta": 0,
+      "justificacion": "El plazo de diez días corresponde al apartado tercero.",
+      "trampa": "El plazo de diez días corresponde al apartado tercero.",
+      "referencia": "Ley 40/2015, art. 155",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a155",
+        "article": "155"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-24",
+      "tema": 4,
+      "pregunta": "¿De qué plazo dispone la cedente para oponerse motivadamente en ese supuesto?",
+      "opciones": [
+        "20 días",
+        "5 días",
+        "10 días",
+        "Un mes"
+      ],
+      "correcta": 2,
+      "justificacion": "No confundir con otros plazos administrativos.",
+      "trampa": "No confundir con otros plazos administrativos.",
+      "referencia": "Ley 40/2015, art. 155",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a155",
+        "article": "155"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-25",
+      "tema": 4,
+      "pregunta": "En ausencia de excepción legal, ¿puede usarse el dato para la nueva finalidad antes de comunicarse la decisión?",
+      "opciones": [
+        "Sí tras una hora",
+        "Sí inmediatamente",
+        "No",
+        "Siempre tras diez días sin decisión"
+      ],
+      "correcta": 2,
+      "justificacion": "No hay autorización automática por transcurso del plazo.",
+      "trampa": "No hay autorización automática por transcurso del plazo.",
+      "referencia": "Ley 40/2015, art. 155",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a155",
+        "article": "155"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-26",
+      "tema": 4,
+      "pregunta": "¿Qué esquema fija la política de seguridad electrónica?",
+      "opciones": [
+        "ENS",
+        "ENI",
+        "Registro de convenios",
+        "Padrón"
+      ],
+      "correcta": 0,
+      "justificacion": "ENS y ENI tienen objetos distintos.",
+      "trampa": "ENS y ENI tienen objetos distintos.",
+      "referencia": "Ley 40/2015, art. 156",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a156",
+        "article": "156"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-27",
+      "tema": 4,
+      "pregunta": "¿Qué esquema garantiza la interoperabilidad mediante criterios comunes?",
+      "opciones": [
+        "Sistema electoral",
+        "ENS exclusivamente",
+        "Registro Civil",
+        "ENI"
+      ],
+      "correcta": 3,
+      "justificacion": "ENI incluye criterios de seguridad, conservación y normalización.",
+      "trampa": "ENI incluye criterios de seguridad, conservación y normalización.",
+      "referencia": "Ley 40/2015, art. 156",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a156",
+        "article": "156"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-28",
+      "tema": 4,
+      "pregunta": "¿Cuándo cabe apartarse de una solución reutilizable disponible en el supuesto del art. 157.3?",
+      "opciones": [
+        "Por preferencia personal",
+        "Con justificación de eficiencia",
+        "Sin motivación",
+        "Siempre que sea de otra Administración"
+      ],
+      "correcta": 1,
+      "justificacion": "La excepción exige justificar eficiencia.",
+      "trampa": "La excepción exige justificar eficiencia.",
+      "referencia": "Ley 40/2015, art. 157",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a157",
+        "article": "157"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-29",
+      "tema": 4,
+      "pregunta": "¿Puede pactarse repercusión de costes de aplicaciones cedidas?",
+      "opciones": [
+        "Nunca",
+        "Sí",
+        "Solo mediante multa",
+        "Solo por sentencia penal"
+      ],
+      "correcta": 1,
+      "justificacion": "La reutilización no implica gratuidad incondicional.",
+      "trampa": "La reutilización no implica gratuidad incondicional.",
+      "referencia": "Ley 40/2015, art. 157",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a157",
+        "article": "157"
+      },
+      "activa": true
+    },
+    {
+      "id": "JCCM-C2-T04-30",
+      "tema": 4,
+      "pregunta": "¿Quién mantiene el directorio general de aplicaciones reutilizables?",
+      "opciones": [
+        "Consejo de Estado",
+        "Tribunal Constitucional",
+        "Cada municipio por separado",
+        "Administración General del Estado"
+      ],
+      "correcta": 3,
+      "justificacion": "Los directorios propios deben ser interoperables con el general.",
+      "trampa": "Los directorios propios deben ser interoperables con el general.",
+      "referencia": "Ley 40/2015, art. 158",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a158",
+        "article": "158"
+      },
+      "activa": true
+    }
+  ]
+}
