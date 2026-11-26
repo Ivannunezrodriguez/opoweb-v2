@@ -125,4 +125,8 @@ La cesión interadministrativa debe respetar la normativa de protección de dato
 28. Directorio general: **Administración General del Estado**, 158.2.
 29. Directorios administrativos: **plenamente interoperables**, 158.1.
 
-**Límite editorial:** veintinueve preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
+30. Constitución válida de Conferencia Sectorial: **inscripción en el Registro Electrónico estatal de Órganos e Instrumentos de Cooperación**, art. 147.3.
+31. Solicitud de convocatoria: **al menos un tercio de los miembros**, art. 149.1.
+32. Asuntos fuera del orden del día: **conformidad de todos los miembros**, art. 149.2.
+
+**Límite editorial:** treinta y dos preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
