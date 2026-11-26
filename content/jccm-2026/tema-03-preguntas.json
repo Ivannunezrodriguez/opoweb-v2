@@ -1,6 +1,6 @@
 {
   "tema": 3,
-  "estado": "PARCIAL_ARTICULOS_29_32",
+  "estado": "PARCIAL_ARTICULOS_2_32",
   "preguntas": [
     {
       "id": "JCCM-C2-T03-01",
@@ -265,6 +265,358 @@
       },
       "activa": true,
       "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-13",
+      "tema": 3,
+      "pregunta": "¿Qué régimen se aplica a las universidades públicas?",
+      "opciones": [
+        "Su normativa específica y supletoriamente la Ley 40/2015",
+        "Exclusivamente la Ley 40/2015",
+        "Solo el Derecho privado",
+        "El régimen de las entidades locales"
+      ],
+      "correcta": 0,
+      "justificacion": "La normativa universitaria específica tiene aplicación preferente.",
+      "trampa": "Pertenecer al sector público institucional no implica aplicación íntegra de la ley.",
+      "referencia": "Ley 40/2015, art. 2.2.c",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a2",
+        "article": "2",
+        "apartado": "2.2.c"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-14",
+      "tema": 3,
+      "pregunta": "¿Cuál de estas entidades tiene consideración de Administración Pública a efectos de esta ley?",
+      "opciones": [
+        "Una sociedad privada vinculada",
+        "Una fundación privada independiente",
+        "Un organismo público dependiente de una Administración",
+        "Una empresa contratista"
+      ],
+      "correcta": 2,
+      "justificacion": "Los organismos públicos del artículo 2.2.a quedan comprendidos.",
+      "trampa": "Sector público institucional y Administración Pública no son categorías equivalentes.",
+      "referencia": "Ley 40/2015, art. 2.3",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a2",
+        "article": "2",
+        "apartado": "2.3"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-15",
+      "tema": 3,
+      "pregunta": "¿Con qué personalidad jurídica actúa cada Administración Pública para cumplir sus fines?",
+      "opciones": [
+        "Una por órgano",
+        "Única",
+        "Una por expediente",
+        "Una por competencia"
+      ],
+      "correcta": 1,
+      "justificacion": "La personalidad es única para cada Administración.",
+      "trampa": "Un órgano no equivale necesariamente a una persona jurídica.",
+      "referencia": "Ley 40/2015, art. 3.4",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a3",
+        "article": "3",
+        "apartado": "3.4"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-16",
+      "tema": 3,
+      "pregunta": "¿Qué principio se refiere a la asignación y utilización de los recursos públicos?",
+      "opciones": [
+        "Jerarquía",
+        "Desconcentración",
+        "Participación",
+        "Eficiencia"
+      ],
+      "correcta": 3,
+      "justificacion": "La eficiencia se refiere al empleo de recursos.",
+      "trampa": "Diferenciar eficiencia y eficacia en el logro de objetivos.",
+      "referencia": "Ley 40/2015, art. 3.1.j",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a3",
+        "article": "3",
+        "apartado": "3.1.j"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-17",
+      "tema": 3,
+      "pregunta": "Al limitar derechos para regular una actividad, ¿qué medida debe elegirse?",
+      "opciones": [
+        "La menos restrictiva adecuada al fin",
+        "La más restrictiva disponible",
+        "La que recaude más",
+        "La que no requiera motivación"
+      ],
+      "correcta": 0,
+      "justificacion": "La intervención debe ser proporcionada, necesaria y justificada.",
+      "trampa": "La conveniencia administrativa no sustituye la proporcionalidad.",
+      "referencia": "Ley 40/2015, art. 4.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a4",
+        "article": "4",
+        "apartado": "4.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-18",
+      "tema": 3,
+      "pregunta": "¿Qué medio emplean las Administraciones para relacionarse entre sí?",
+      "opciones": [
+        "Papel obligatorio",
+        "Medios electrónicos",
+        "Correo postal exclusivamente",
+        "Comparecencia personal"
+      ],
+      "correcta": 1,
+      "justificacion": "La relación electrónica debe garantizar seguridad, interoperabilidad y protección de datos.",
+      "trampa": "No trasladar a las relaciones entre Administraciones la libertad de elección de canal del particular.",
+      "referencia": "Ley 40/2015, art. 3.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a3",
+        "article": "3",
+        "apartado": "3.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-19",
+      "tema": 3,
+      "pregunta": "¿Qué carácter tiene la competencia administrativa?",
+      "opciones": [
+        "Renunciable por resolución",
+        "Transferible por simple pacto",
+        "Irrenunciable",
+        "Optativa"
+      ],
+      "correcta": 2,
+      "justificacion": "El órgano titular la ejerce salvo las excepciones legales.",
+      "trampa": "Delegar el ejercicio no supone renunciar a la titularidad.",
+      "referencia": "Ley 40/2015, art. 8.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
+        "article": "8",
+        "apartado": "8.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-20",
+      "tema": 3,
+      "pregunta": "¿Cuál de estas técnicas no cambia la titularidad de la competencia?",
+      "opciones": [
+        "Desconcentración de titularidad",
+        "Supresión legal del órgano",
+        "Nueva atribución normativa",
+        "Delegación de firma"
+      ],
+      "correcta": 3,
+      "justificacion": "La delegación de firma afecta al ejercicio, no a la titularidad.",
+      "trampa": "Distinguir desconcentración y delegación.",
+      "referencia": "Ley 40/2015, art. 8.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
+        "article": "8",
+        "apartado": "8.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-21",
+      "tema": 3,
+      "pregunta": "¿En qué órganos puede desconcentrarse la titularidad y ejercicio de competencias?",
+      "opciones": [
+        "En órganos jerárquicamente dependientes conforme a las normas de atribución",
+        "En cualquier ciudadano",
+        "En cualquier órgano judicial",
+        "En cualquier empresa contratista"
+      ],
+      "correcta": 0,
+      "justificacion": "La desconcentración exige dependencia jerárquica y habilitación normativa.",
+      "trampa": "No confundir con delegación entre órganos sin dependencia jerárquica.",
+      "referencia": "Ley 40/2015, art. 8.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
+        "article": "8",
+        "apartado": "8.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-22",
+      "tema": 3,
+      "pregunta": "Si varios órganos inferiores son competentes por materia y territorio y la disposición no identifica órgano, ¿quién instruye y resuelve?",
+      "opciones": [
+        "El más antiguo",
+        "El superior jerárquico común",
+        "El órgano elegido por el interesado",
+        "El secretario del órgano"
+      ],
+      "correcta": 1,
+      "justificacion": "La regla subsidiaria atribuye ambos cometidos al superior común.",
+      "trampa": "No se elige por antigüedad.",
+      "referencia": "Ley 40/2015, art. 8.3",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
+        "article": "8",
+        "apartado": "8.3"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-23",
+      "tema": 3,
+      "pregunta": "¿Cabe delegar competencias en otro órgano de la misma Administración sin dependencia jerárquica?",
+      "opciones": [
+        "Nunca",
+        "Solo si es judicial",
+        "Sí, conforme a los requisitos legales",
+        "Solo mediante reforma constitucional"
+      ],
+      "correcta": 2,
+      "justificacion": "La dependencia jerárquica no es requisito general para delegar.",
+      "trampa": "Distinguir delegación y desconcentración.",
+      "referencia": "Ley 40/2015, art. 9.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+        "article": "9",
+        "apartado": "9.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-24",
+      "tema": 3,
+      "pregunta": "¿Quién puede ejercer la secretaría de un órgano colegiado?",
+      "opciones": [
+        "Solo el presidente",
+        "Solo un funcionario ajeno al órgano",
+        "Solo un miembro elegido por sufragio",
+        "Un miembro o una persona al servicio de la Administración correspondiente"
+      ],
+      "correcta": 3,
+      "justificacion": "No es imprescindible pertenecer al órgano.",
+      "trampa": "La condición de miembro no es universal.",
+      "referencia": "Ley 40/2015, art. 16.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a16",
+        "article": "16",
+        "apartado": "16.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-25",
+      "tema": 3,
+      "pregunta": "¿A quién corresponde certificar las actuaciones del órgano colegiado?",
+      "opciones": [
+        "Al secretario",
+        "Al miembro más joven",
+        "Al superior jerárquico externo",
+        "Al interesado"
+      ],
+      "correcta": 0,
+      "justificacion": "La secretaría garantiza las reglas de funcionamiento y certifica actuaciones.",
+      "trampa": "No confundir presidir con certificar.",
+      "referencia": "Ley 40/2015, art. 16.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a16",
+        "article": "16",
+        "apartado": "16.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-26",
+      "tema": 3,
+      "pregunta": "¿Pueden celebrarse sesiones colegiadas a distancia?",
+      "opciones": [
+        "Nunca",
+        "Sí, salvo excepción expresa del reglamento interno",
+        "Solo en estado de alarma",
+        "Solo si todos están en el mismo edificio"
+      ],
+      "correcta": 1,
+      "justificacion": "La modalidad a distancia está admitida con garantías legales.",
+      "trampa": "La excepción debe ser expresa y excepcional.",
+      "referencia": "Ley 40/2015, art. 17.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
+        "article": "17",
+        "apartado": "17.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-27",
+      "tema": 3,
+      "pregunta": "¿Cuál es el quórum general de constitución de un órgano colegiado sujeto al artículo 17?",
+      "opciones": [
+        "Un tercio sin secretario",
+        "Todos los miembros siempre",
+        "Presidente y secretario o suplentes y al menos la mitad de miembros",
+        "Solo el presidente"
+      ],
+      "correcta": 2,
+      "justificacion": "La regla general exige presidencia, secretaría y al menos la mitad, sin perjuicio de excepciones del propio artículo.",
+      "trampa": "No aplicar automáticamente esta regla a órganos de gobierno excluidos.",
+      "referencia": "Ley 40/2015, art. 17.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
+        "article": "17",
+        "apartado": "17.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-28",
+      "tema": 3,
+      "pregunta": "¿Cuándo puede constituirse un órgano colegiado sin convocatoria previa según la regla de reunión universal?",
+      "opciones": [
+        "Con mayoría simple",
+        "Por decisión exclusiva del presidente",
+        "Con un tercio de miembros",
+        "Con secretario y todos los miembros o suplentes reunidos y decisión unánime"
+      ],
+      "correcta": 3,
+      "justificacion": "La reunión universal exige concurrencia completa y acuerdo de todos los miembros.",
+      "trampa": "No basta alcanzar el quórum ordinario.",
+      "referencia": "Ley 40/2015, art. 17.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
+        "article": "17",
+        "apartado": "17.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
     }
   ]
 }
