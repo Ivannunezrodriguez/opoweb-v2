@@ -274,7 +274,8 @@
             "25/11/2026: 50 reservas ya incorporadas en diez modelos; E2E anterior 45702056993 SUCCESS. Añadido escenario hipotético de anulación de hasta cinco titulares con reservas en orden, denominador 50 e historial ordinario intacto (35755c8); regresión Chromium de cálculo y entradas inválidas (f50edc5), pendiente CI.",
             "26/11/2026: corregida posible carrera del test móvil: esperar primer enlace adjunto antes de contar exactamente 24; sin modificar producto UC3M ni reducir aserciones. E2E pendiente.",
             "26/11/2026: E2E integral 45741466445 y publicación 45741482289 SUCCESS. Añadida regresión editorial de las 50 reservas de los diez modelos: unicidad conjunta de 550 enunciados e IDs, orden, tema, cuatro alternativas y cotejo de clave y referencia con banco activo (e735320d). Recuento directo 550/550 únicos; CI nueva pendiente.",
-            "26/11/2026: Alcance ampliado: diez modelos largos 006–015, 500 titulares y 50 reservas únicas, 39 temas no reservados, formato oficial 60 min y puntuación +0,20/−0,05/0, sustitución hipotética con denominador 50. Regresión editorial e735320d y publicación SUCCESS 45766905479 y 45766918935; E2E integral SUCCESS 45741466445. T22 reservado; no certificación jurídica integral ni predicción de aprobado."
+            "26/11/2026: Alcance ampliado: diez modelos largos 006–015, 500 titulares y 50 reservas únicas, 39 temas no reservados, formato oficial 60 min y puntuación +0,20/−0,05/0, sustitución hipotética con denominador 50. Regresión editorial e735320d y publicación SUCCESS 45766905479 y 45766918935; E2E integral SUCCESS 45741466445. T22 reservado; no certificación jurídica integral ni predicción de aprobado.",
+            "26/11/2026: ampliación a 20 supuestos prácticos y 80 cuestiones (0791626), primera inspección editorial de 783 preguntas de 39 temas sin reserva; 35 preguntas temáticas modificadas (25 commits), 24 copias de simulacros largos sincronizadas por origen (819257e, a719b04), 61 preguntas breves inspeccionadas y 3 corregidas junto a sus 3 copias largas (afdac05). 550 IDs y enunciados únicos conservados. Comparación directa de 24 bancos temáticos modificados y archivos de simulacros y supuestos entre main privado y público: 26/26 SHA coincidentes. No equivale a cotejo normativo exhaustivo de distractores, ejecución CI reciente ni prueba de GitHub Pages. T22 continúa bloqueado; no ampliar producción antes de verificar entrega."
           ],
           "closureScope": "Alcance ampliado: diez modelos largos 006–015, 500 titulares y 50 reservas únicas, 39 temas no reservados, formato oficial 60 min y puntuación +0,20/−0,05/0, sustitución hipotética con denominador 50. Regresión editorial e735320d y publicación SUCCESS 45766905479 y 45766918935; E2E integral SUCCESS 45741466445. T22 reservado; no certificación jurídica integral ni predicción de aprobado."
         },
@@ -3745,5 +3746,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-26T12:11:41.000Z"
+  "updatedAtUtc": "2026-11-26T12:28:30.000Z"
 }
