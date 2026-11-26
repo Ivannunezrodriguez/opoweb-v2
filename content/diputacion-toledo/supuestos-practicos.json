@@ -1632,6 +1632,420 @@
           }
         }
       ]
+    },
+    {
+      "id": "DIP-SP-017",
+      "titulo": "Contratación: garantías, duración y ejecución",
+      "temas": [
+        16
+      ],
+      "enunciado": "En una diputación hipotética se tramita un contrato ordinario de suministro por 80.000 euros de precio final ofertado sin IVA, sin exención de garantía definitiva ni garantía complementaria. Se estudia asimismo un contrato menor de servicios independiente y una posible modificación de un contrato ordinario.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-017-Q1",
+          "pregunta": "¿Qué garantía definitiva corresponde al suministro?",
+          "respuesta": "Con carácter general, el 5 % del precio final ofertado sin IVA: 4.000 euros (art. 107.1).",
+          "trampa": "No aplicar el IVA a la base de cálculo.",
+          "referencias": [
+            "content/diputacion-toledo/tema-16/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a107"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica 5 % sin IVA",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 4.000 euros",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-017-Q2",
+          "pregunta": "¿Cuál es la duración máxima ordinaria del contrato menor y puede prorrogarse?",
+          "respuesta": "No puede durar más de un año ni ser objeto de prórroga (art. 29.8).",
+          "trampa": "Un contrato menor no admite prórroga aunque su cuantía siga bajo el umbral.",
+          "referencias": [
+            "content/diputacion-toledo/tema-16/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a29"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica un año",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Niega prórroga",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-017-Q3",
+          "pregunta": "¿Puede modificarse libremente el contrato por acuerdo de las partes?",
+          "respuesta": "No. Las modificaciones durante la vigencia se someten a los supuestos y condiciones de los arts. 203 a 205: previsión en pliegos o concurrencia de causas legales para una modificación no prevista.",
+          "trampa": "El mero acuerdo no sustituye la habilitación legal.",
+          "referencias": [
+            "content/diputacion-toledo/tema-16/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a203",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a204",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a205"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Niega modificación libre",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Distingue prevista y no prevista",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-017-Q4",
+          "pregunta": "¿Qué órgano debe justificar la necesidad en el expediente ordinario?",
+          "respuesta": "El órgano de contratación motiva la necesidad del contrato; el expediente incorpora los documentos y justificaciones exigidos por el art. 116.",
+          "trampa": "No confundir necesidad con mera disponibilidad presupuestaria.",
+          "referencias": [
+            "content/diputacion-toledo/tema-16/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a116"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica órgano de contratación",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica motivación y expediente",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-018",
+      "titulo": "LibreOffice Base: expedientes y relaciones",
+      "temas": [
+        37
+      ],
+      "enunciado": "Se diseña una base de datos ficticia con MUNICIPIOS (ID, Nombre) y EXPEDIENTES (ID, MunicipioID, Estado). Cada expediente pertenece a un municipio; un municipio puede tener varios expedientes.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-018-Q1",
+          "pregunta": "¿Qué campo debe identificar inequívocamente cada expediente?",
+          "respuesta": "ID de EXPEDIENTES como clave primaria, sin duplicados ni valores nulos.",
+          "trampa": "MunicipioID puede repetirse.",
+          "referencias": [
+            "content/diputacion-toledo/tema-37/manual.md",
+            "https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica ID",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica unicidad y ausencia de nulos",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-018-Q2",
+          "pregunta": "¿Cómo se relacionan ambas tablas?",
+          "respuesta": "MunicipioID es clave externa que referencia MUNICIPIOS.ID; relación de uno a muchos, desde municipio a expedientes.",
+          "trampa": "No hacer única la clave externa si se permiten varios expedientes.",
+          "referencias": [
+            "content/diputacion-toledo/tema-37/manual.md",
+            "https://help.libreoffice.org/latest/es/text/sdatabase/05020100.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica campos",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica cardinalidad",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-018-Q3",
+          "pregunta": "¿Cómo consultar solo los expedientes pendientes?",
+          "respuesta": "Crear una consulta en vista Diseño, añadir EXPEDIENTES, seleccionar campos y establecer el criterio Pendiente en Estado; ejecutar la consulta.",
+          "trampa": "Una consulta de selección no borra los registros descartados.",
+          "referencias": [
+            "content/diputacion-toledo/tema-37/manual.md",
+            "https://help.libreoffice.org/latest/es/text/sdatabase/02010100.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica consulta y tabla",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica criterio Estado",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-018-Q4",
+          "pregunta": "¿Qué objetos utilizar para introducir datos y presentar resultados impresos?",
+          "respuesta": "Formulario para entrada o edición de datos según permisos y configuración; informe para presentar resultados organizados e imprimibles.",
+          "trampa": "Formulario e informe tienen propósitos distintos.",
+          "referencias": [
+            "content/diputacion-toledo/tema-37/manual.md",
+            "https://help.libreoffice.org/latest/es/text/sdatabase/main.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica formulario",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica informe",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-019",
+      "titulo": "LibreOffice Impress: presentación institucional",
+      "temas": [
+        38
+      ],
+      "enunciado": "Se prepara una presentación ficticia de seis diapositivas. Todas deben compartir logotipo y estilo, algunas contienen gráficos y se debe entregar una versión de consulta en PDF.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-019-Q1",
+          "pregunta": "¿Cómo aplicar un logotipo común sin copiarlo seis veces?",
+          "respuesta": "Editar la diapositiva maestra utilizada por las seis diapositivas e insertar allí el logotipo.",
+          "trampa": "La maestra afecta a las diapositivas que la utilizan, no necesariamente a todas las del archivo.",
+          "referencias": [
+            "content/diputacion-toledo/tema-38/manual.md",
+            "https://help.libreoffice.org/latest/en-GB/text/simpress/01/03150100.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica maestra",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Explica alcance",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-019-Q2",
+          "pregunta": "¿Qué diferencia hay entre transición y animación?",
+          "respuesta": "Transición: efecto al pasar entre diapositivas. Animación: efecto aplicado a un objeto de una diapositiva.",
+          "trampa": "No confundir cambio de página con aparición de un elemento.",
+          "referencias": [
+            "content/diputacion-toledo/tema-38/manual.md",
+            "https://help.libreoffice.org/latest/en-GB/text/simpress/main_slide.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Define transición",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Define animación",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-019-Q3",
+          "pregunta": "¿Qué formato conserva la presentación editable y cuál se entrega para consulta?",
+          "respuesta": "ODP para conservar la presentación editable; exportación a PDF para consulta sin depender de Impress.",
+          "trampa": "El PDF no conserva la reproducción interactiva normal de las animaciones.",
+          "referencias": [
+            "content/diputacion-toledo/tema-38/manual.md",
+            "https://help.libreoffice.org/latest/en-GB/text/simpress/main0000.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica ODP",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica PDF",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-019-Q4",
+          "pregunta": "¿Cómo iniciar la presentación desde el principio o desde la diapositiva actual en Windows?",
+          "respuesta": "F5 desde el principio; Mayús+F5 desde la actual.",
+          "trampa": "No confundir iniciar con editar texto.",
+          "referencias": [
+            "content/diputacion-toledo/tema-38/manual.md",
+            "https://help.libreoffice.org/latest/en-GB/text/simpress/04/01020000.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica F5",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica Mayús+F5",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-020",
+      "titulo": "Caso integral: solicitud electrónica y control de expedientes",
+      "temas": [
+        5,
+        6,
+        9,
+        36
+      ],
+      "enunciado": "Una sociedad limitada presenta electrónicamente una solicitud. La Administración le notifica válidamente un requerimiento el lunes 30 de noviembre de 2026. Se presupone un plazo de diez días hábiles, sábados y domingos inhábiles, y, exclusivamente para el ejercicio, ningún festivo adicional. En Calc se anotan cuatro importes de 120, 80, 50 y 150 euros en B2:B5.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-020-Q1",
+          "pregunta": "¿Está obligada la sociedad a relacionarse electrónicamente?",
+          "respuesta": "Sí, por ser persona jurídica (art. 14.2.a).",
+          "trampa": "La opción general de elegir medio no se aplica a sujetos obligados.",
+          "referencias": [
+            "content/diputacion-toledo/tema-09/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica obligación",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica persona jurídica",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-020-Q2",
+          "pregunta": "¿Cuándo vence el plazo bajo el calendario hipotético?",
+          "respuesta": "El lunes 14 de diciembre de 2026: se cuenta desde el 1 de diciembre, excluyendo sábados y domingos. No es el calendario oficial real de diciembre.",
+          "trampa": "No incluir el día de notificación ni utilizar el resultado como plazo real.",
+          "referencias": [
+            "content/diputacion-toledo/tema-05/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica fecha 14/12",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Justifica cómputo y premisa",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-020-Q3",
+          "pregunta": "¿Qué ocurre si no subsana una solicitud inicial cuando resulta aplicable el art. 68.1?",
+          "respuesta": "Se le tendrá por desistida previa resolución expresa en los términos del art. 21.",
+          "trampa": "No confundir desistimiento con desestimación de fondo.",
+          "referencias": [
+            "content/diputacion-toledo/tema-06/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica desistimiento",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Exige resolución expresa",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-020-Q4",
+          "pregunta": "¿Qué fórmula calcula el total y cuál es el resultado?",
+          "respuesta": "=SUMA(B2:B5), que devuelve 400 euros con los datos indicados.",
+          "trampa": "No incluir la celda del total en el rango.",
+          "referencias": [
+            "content/diputacion-toledo/tema-36/manual.md",
+            "https://help.libreoffice.org/latest/es/text/scalc/01/04060106.html"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica fórmula y rango",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 400 euros",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "rubricaDidactica": {
