@@ -1,7 +1,7 @@
 {
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
   "estado": "GENERACION_DESDE_CERO",
-  "version": "2026-11-25",
+  "version": "2026-11-26",
   "supuestos": [
     {
       "id": "DIP-SP-001",
@@ -1415,6 +1415,217 @@
               },
               {
                 "descripcion": "Identifica comunicación al superior inmediato y límite de consanguinidad",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-015",
+      "titulo": "Responsabilidad patrimonial: lesiones, prescripción y silencio",
+      "temas": [
+        6,
+        10
+      ],
+      "enunciado": "Una persona sufre una lesión al caer en una vía provincial hipotética el 10 de febrero de 2026. El alcance definitivo de las secuelas se determina el 20 de mayo de 2026. Presenta reclamación el 20 de octubre de 2026. No se presume acreditada la causa de la caída ni la responsabilidad de la Administración. Suponga que el procedimiento se inicia ese día y que no existe suspensión ni ampliación del plazo máximo.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-015-Q1",
+          "pregunta": "¿Qué requisitos debe reunir el daño para ser indemnizable?",
+          "respuesta": "Debe ser real, cuantificable económicamente e individualizado; además debe acreditarse la relación causal con el servicio público, ausencia de deber jurídico de soportarlo y ausencia de fuerza mayor (arts. 32 y 34).",
+          "trampa": "Una caída en una vía pública no prueba por sí sola el derecho a indemnización.",
+          "referencias": [
+            "content/diputacion-toledo/tema-10/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a34"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica efectividad, valoración e individualización",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica causalidad, antijuridicidad y fuerza mayor",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-015-Q2",
+          "pregunta": "¿Está prescrita la reclamación?",
+          "respuesta": "No. El plazo es de un año desde la curación o determinación del alcance de las secuelas en daños físicos o psíquicos. Aquí se toma el 20/05/2026, no la caída; el vencimiento ordinario sería el 20/05/2027 (si hábil).",
+          "trampa": "No computar automáticamente desde el accidente.",
+          "referencias": [
+            "content/diputacion-toledo/tema-10/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a67",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica un año y fecha inicial pertinente",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Concluye que la reclamación está en plazo",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-015-Q3",
+          "pregunta": "¿Qué efecto tiene la falta de resolución notificada al finalizar el plazo máximo?",
+          "respuesta": "Tras seis meses sin resolución expresa notificada ni acuerdo formalizado, puede entenderse desestimada la reclamación. Persiste el deber de resolver expresamente (arts. 21, 24 y 91.3).",
+          "trampa": "No confundir silencio desestimatorio con caducidad ni con estimación.",
+          "referencias": [
+            "content/diputacion-toledo/tema-06/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a91"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica seis meses y silencio negativo",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Reconoce deber de resolver",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-015-Q4",
+          "pregunta": "¿La persona debe reclamar directamente contra el empleado responsable del mantenimiento?",
+          "respuesta": "La reclamación se dirige a la Administración correspondiente. Si esta indemniza, exigirá de oficio responsabilidad a su personal cuando concurra dolo o culpa o negligencia graves, previa instrucción del procedimiento correspondiente (art. 36).",
+          "trampa": "No confundir reclamación del perjudicado con acción de regreso.",
+          "referencias": [
+            "content/diputacion-toledo/tema-10/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica reclamación frente a Administración",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica acción de regreso de oficio y grado de culpabilidad",
+                "puntos": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-016",
+      "titulo": "Presupuesto local: crédito extraordinario y suplemento",
+      "temas": [
+        13,
+        27
+      ],
+      "enunciado": "Una corporación provincial hipotética necesita afrontar en el ejercicio corriente dos gastos que no pueden aplazarse: uno de 40.000 euros sin crédito presupuestario y otro de 65.000 euros con crédito disponible de 50.000 euros no ampliable, en sus respectivos niveles de vinculación jurídica. Se dispone de remanente líquido de tesorería suficiente y legalmente utilizable. No concurren calamidades ni otros supuestos excepcionales.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-016-Q1",
+          "pregunta": "¿Qué modificación corresponde al primer gasto y por qué importe?",
+          "respuesta": "Crédito extraordinario por 40.000 euros: no existe crédito para el gasto inaplazable (art. 177.1).",
+          "trampa": "No confundir inexistencia de crédito con insuficiencia.",
+          "referencias": [
+            "content/diputacion-toledo/tema-27/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica crédito extraordinario",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica importe de 40.000 euros",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-016-Q2",
+          "pregunta": "¿Qué modificación e importe corresponden al segundo gasto?",
+          "respuesta": "Suplemento de crédito por 15.000 euros, diferencia entre 65.000 y 50.000 euros de crédito disponible no ampliable.",
+          "trampa": "No suplementar por el importe total del gasto.",
+          "referencias": [
+            "content/diputacion-toledo/tema-27/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica suplemento de crédito",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Calcula 15.000 euros",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-016-Q3",
+          "pregunta": "¿Quién inicia el expediente y quién lo aprueba?",
+          "respuesta": "La Presidencia ordena incoar el expediente; se somete a aprobación del Pleno, previo informe de Intervención, con los trámites aplicables a la aprobación presupuestaria.",
+          "trampa": "No confundir incoación con aprobación.",
+          "referencias": [
+            "content/diputacion-toledo/tema-27/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica Presidencia e Intervención",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica Pleno",
+                "puntos": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "DIP-SP-016-Q4",
+          "pregunta": "¿Puede financiarse con el remanente indicado? ¿Qué exposición pública procede ordinariamente?",
+          "respuesta": "Sí, si es remanente líquido de tesorería legalmente disponible. La aprobación sigue el régimen presupuestario, incluida exposición pública por 15 días para examen y reclamaciones. Deben cumplirse los requisitos fiscales aplicables.",
+          "trampa": "No confundir los 15 días de exposición con un mes de reclamación.",
+          "referencias": [
+            "content/diputacion-toledo/tema-27/manual.md",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a177",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169"
+          ],
+          "rubrica": {
+            "maxPuntos": 2,
+            "criterios": [
+              {
+                "descripcion": "Identifica financiación mediante remanente",
+                "puntos": 1
+              },
+              {
+                "descripcion": "Identifica exposición pública de 15 días",
                 "puntos": 1
               }
             ]
