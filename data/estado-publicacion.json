@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kind": "PUBLIC_BUILD_FINGERPRINT",
-  "sourceCommitAt": "2026-11-26T12:39:33.000Z",
+  "sourceCommitAt": "2026-11-26T16:16:52.000Z",
   "coverage": {
     "themes": 40,
     "quickSheets": 40,
@@ -11,7 +11,7 @@
     "assets/app.js": "5bbb7eda1c84951c5562fb82aa1cbc34db0b3aadb7ee7dc810d50df228a0fbbd",
     "assets/radar.js": "85df53fc3aff8194e080ed1a865e0f9755599044b730e3e62f859d299676ff70",
     "data/programa-diputacion-administrativo-2026.json": "0c2c19e9e82cdbf1393cc3f412c4cd28e642917ed18ff43ec88097e9306c414a",
-    "data/radar.json": "00225944c3ca3b0f789f22fc6ca24d14293ebebd2230f005668a1653b14190dc"
+    "data/radar.json": "9fbfb876e2f225792d5b76cf02d0169616b811e1c46731e5abc67f6049c365b0"
   },
   "verificationScope": "Integridad del paquete exportado; no certifica CI, despliegue, navegador ni exactitud juridica."
 }

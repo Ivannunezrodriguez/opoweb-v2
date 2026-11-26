@@ -14,7 +14,7 @@
     "deduplication": "Usar id estable; buscar tarea existente antes de crear otra. Nuevos hallazgos se agregan como tareas sólo si tienen entregable y criterio de cierre.",
     "closePhases": "Una fase se considera completada únicamente cuando TODAS sus tareas están HECHO; los bloqueos pendientes impiden el cierre.",
     "sourceOfTruth": "Fuente editable única: opoweb-dev/main/data/plan-trabajo.json. La publicación pública la genera tools/build-public-site.mjs; AUDITORIA_CONTINUA.md, docs/PLAN_UNICO_OPOWEB_RADAR.md y demás planes son históricos, no colas activas.",
-    "priorities": "EJECUTAR SOLO executionBoard.lanes AHORA; consulta única de estado en este JSON. Archivar HECHO, diferenciar ESPERA_OFICIAL, DESPUES y APARCADA. Diputación C1 hasta 15/12; Radar por muestra oficial y JCCM OEP sin inscripción. UC3M no se reactiva.",
+    "priorities": "Ejecutar AHORA por ámbito asignado: OpoWeb QA-PUBLISH-01 primero, después STUDY-DIP-FINAL-01 y JCCM-2026-01, STUDY-RECAP-01; Radar RAD-12, RAD-13, RAD-JCCM-2026. No reabrir HECHO, ESPERA_OFICIAL ni APARCADA sin evidencia/instrucción. DESPUES se promueve solo al cerrar prioridad o dependencia.",
     "evidenceStandard": "HECHO acredita estrictamente la entrega definida, PARCIAL ejecución incompleta con hito verificable, EN_CURSO trabajo activo, BLOQUEADA dependencia objetiva, PENDIENTE sin entregar. Un archivo existente no prueba revisión jurídica, E2E o CI.",
     "syncRule": "NUNCA editar opoweb-v2/main ni site como repositorio fuente; toda corrección pasa por privado, filtro de privacidad, pruebas y publicación que sincroniza ambas ramas públicas.",
     "notGoingBackward": "Antes de iniciar tarea comprobar clave estable, hitos completados, variantes de archivos por SHA, notas históricas ya cerradas, resultado de última CI y si la tarea fue implementada en herramientas privadas.",
@@ -383,7 +383,13 @@
             "data/matriz-jccm-auxiliar-c2-2025-2026.json",
             "data/matriz-jccm-informatica-c1-2025-2026.json",
             "content/jccm-2026/ley40-repaso-focal.md",
-            "content/jccm-2026/ley40-repaso.html"
+            "content/jccm-2026/ley40-repaso.html",
+            "content/jccm-2026/tema-03-preguntas.json",
+            "content/jccm-2026/tema-03-test.html",
+            "content/jccm-2026/tema-04-preguntas.json",
+            "content/jccm-2026/tema-04-manual.md",
+            "content/jccm-2026/tema-04-ficha.md",
+            "data/programa-sescam-auxiliar-c2-2026.json"
           ],
           "completedSubsteps": [
             "Acuerdo DOCM 20/11/2026 cotejado para los tres objetivos elegidos: Auxiliar JCCM C2 143 (118 general), Auxiliar SESCAM C2 138 (125 general), Informática JCCM C1 25 (23 general)",
@@ -399,18 +405,21 @@
             "21/11/2026: selector de OpoWeb actualizado con Auxiliar JCCM C2 (24 epígrafes de referencia), SESCAM Auxiliar C2 (sin atribuir temario 2026 no acreditado) e Informática JCCM C1 (37 epígrafes). El Viso retirado del selector; continúa como oportunidad Radar. Publicación y E2E Chromium del selector comprobadas.",
             "25/11/2026: matriz Auxiliar JCCM C2, temas 3 y 4: diez correspondencias preliminares inciso/artículos Ley 40/2015 consultada en BOE consolidado; manuales candidatos Diputación C1 T04 y La Puebla T14. Candidatos 6/24, cobertura acreditada permanece 0/24. Commit d02960c5319e0aa9dbe8e0b9f74ac28cb448e312; CI pendiente de confirmación. No equivale a cotejo íntegro ni cierre de tarea.",
             "25/11/2026: publicaciones 45594384810 y 45594415346 SUCCESS para mapeo preliminar. Repaso focal Ley 40/2015 arts. 30, 48, 49 y 155, siete preguntas y autocorrección sin penalización, enlace visor C2 T3/T4, commits 24391a3, ec1b562 y b90df24. Prueba estática de enlace y claves ampliada; pendiente CI y comprobación navegador. No acredita cobertura integral.",
-            "25/11/2026: Repaso focal JCCM C2 ampliado de 7 a 11 preguntas: responsabilidad patrimonial y actuación automatizada, arts. 32, 41 y 42 Ley 40/2015 cotejados en BOE consolidado; HTML, documento y prueba de claves actualizados. Commits 10d1535, be23ee5 y d19bd38; CI pendiente."
+            "25/11/2026: Repaso focal JCCM C2 ampliado de 7 a 11 preguntas: responsabilidad patrimonial y actuación automatizada, arts. 32, 41 y 42 Ley 40/2015 cotejados en BOE consolidado; HTML, documento y prueba de claves actualizados. Commits 10d1535, be23ee5 y d19bd38; CI pendiente.",
+            "26/11: T03 banco 60 preguntas (17fe66d), visor dinámico (71f887f), enlace programa (1f55384); T04 30 preguntas/manual/ficha; repaso focal 32 en HTML y 29 en documento. Publicación fallida QA-PUBLISH-01, T03 público 28/60. No afirmar cotejo integral."
           ],
           "remainingSubsteps": [
-            "Obtener y cotejar temario aplicable a futura OEP SESCAM 2025-2026, sin confundir el individualizado histórico 2023/24",
-            "Verificar resoluciones de convocatoria y plazos de solicitudes de las fichas JCCM 2025-2026, evitando equiparar «Abierto» con inscripción",
-            "Completar itinerarios por epígrafe cuando existan las bases; crear simulacros trazables y ejecutar CI/E2E",
-            "Desplegar versión pública filtrada y verificar Pages, incluida la nueva ruta JCCM",
-            "Completar matrices con desglose exhaustivo de incisos, normas y artículos verificados; desarrollar y auditar manuales y preguntas de todos los temas.",
-            "Cotejar e implementar desarrollo de contenido jurídico y técnico por incisos; ningún tema queda auditado por enlazar un manual candidato.",
-            "Validar CI completo de visor matriz y el rastreo privado en ejecución real."
+            "Tras QA-PUBLISH-01, cerrar T03: manual por seis incisos y arts. 1–53, ficha rápida, cotejo de las 60 preguntas y alternativas con BOE, corregir referencias, matriz y E2E.",
+            "Cerrar T04: cotejar manual/ficha/30 preguntas arts. 140–158, matriz y test de navegador.",
+            "C2 JCCM: T01 Constitución y T02 Ley 39/2015, reutilizar contenido verificado por inciso, crear manual, ficha y banco propio o referencia trazable.",
+            "C2 JCCM: T05–T12 en orden del programa oficial de referencia; completar cada tema antes de iniciar el siguiente.",
+            "C2 JCCM: T13–T24 ofimática según programa literal y versiones exigidas; verificar atajos y funciones.",
+            "C2 JCCM: simulacros trazables, repaso inteligente, publicación y E2E; ajustar formato al publicarse convocatoria definitiva.",
+            "SESCAM: localizar programa oficial aplicable; conservar histórico 2023/24 claramente diferenciado, no asignar porcentaje sin denominador; reutilizar núcleo común como entrenamiento no oficial; completar temas y simulacros cuando acreditado.",
+            "Informática C1: mapear 10 temas comunes y 27 específicos; completar manual/ficha/banco por tema y pruebas, después simulacros y E2E.",
+            "Vigilar convocatorias JCCM/SESCAM, actualizar programa, plazos y formato solo con evidencia oficial."
           ],
-          "nextAction": "Verificar publicación y navegador de las once preguntas; continuar mapeo de incisos y desarrollo de itinerarios sin atribuir programa definitivo.",
+          "nextAction": "Tras restaurar publicación, cerrar paquete T03 (manual, ficha, cotejo 60, matriz, E2E), luego T04 y T01/T02.",
           "priority": "ALTA"
         },
         {
@@ -442,7 +451,7 @@
             "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
             "Medir y corregir resúmenes demasiado genéricos, truncados o basados solo en primera frase de cada sección."
           ],
-          "nextAction": "Diputación C1: 40/40 fichas rápidas estructuradas cerradas; siguientes fichas de otros itinerarios solo cuando la prioridad de examen y radar lo permita. Revisar alcance específico por convocatoria antes de marcar esta tarea transversal HECHO.",
+          "nextAction": "Crear ficha T03 JCCM dentro de JCCM-2026-01, luego fichas de otros itinerarios según programa y prioridad, sin duplicar DIP C1 cerrado.",
           "priority": "ALTA"
         },
         {
@@ -485,6 +494,18 @@
           "remainingSubsteps": [],
           "nextAction": null,
           "priority": "MEDIA"
+        },
+        {
+          "id": "STUDY-DIP-FINAL-01",
+          "title": "Comprobar entrega final Diputación C1 antes del 15/12",
+          "state": "PENDIENTE",
+          "priority": "ALTA",
+          "acceptance": "Prueba funcional específica de los 20 supuestos y 10 simulacros largos en escritorio y móvil emulado; revisar acceso y rúbricas, mantener T22 excluido de evaluación mientras bloqueado. Sin ampliar bancos por rutina.",
+          "evidencePaths": [
+            "content/diputacion-toledo/supuestos-practicos.json",
+            "content/diputacion-toledo/simulacros.json"
+          ],
+          "nextAction": "Revisar cobertura E2E existente y añadir casos no probados, verificar local y Pages."
         }
       ]
     },
@@ -767,17 +788,17 @@
             "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
             "24/11/2026: recuperación de ruta específica SERMAS E3707 y pruebas de identidad, reintento limitado por versión; publicación 45376826464 SUCCESS. Rastreo real 45376833312 iniciado; correos desactivados para eventos push. No consta lectura efectiva del trámite ni extracción nuclear posterior.",
             "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real.",
-            "26/11/2026: siete commits de corrección y regresión incorporados a main: 8844390 y cd439ce distinguen ciclos documentales vacíos SIN_INTENTOS de conciliación VERIFICADO y añaden métricas; 4d906fe y 476bb45 incorporan rutas alternativas de Diputación de Toledo y prueba sintética; 076d8b2, 92bc474 y 030320d incorporan intento de renderizado público Convoca Illescas/Pinto y prueba de URL exacta y rechazo de plantilla. Último snapshot real disponible 25/11 18:15:23 UTC: 43 READABLE, 141 PARTIAL, 17 ERROR (201 estados); no existe medición posterior acreditada. CI de push no consultable mediante el conector actual. No afirmar recuperación, publicación ni cierre."
+            "26/11/2026: siete commits de corrección y regresión incorporados a main: 8844390 y cd439ce distinguen ciclos documentales vacíos SIN_INTENTOS de conciliación VERIFICADO y añaden métricas; 4d906fe y 476bb45 incorporan rutas alternativas de Diputación de Toledo y prueba sintética; 076d8b2, 92bc474 y 030320d incorporan intento de renderizado público Convoca Illescas/Pinto y prueba de URL exacta y rechazo de plantilla. Último snapshot real disponible 25/11 18:15:23 UTC: 43 READABLE, 141 PARTIAL, 17 ERROR (201 estados); no existe medición posterior acreditada. CI de push no consultable mediante el conector actual. No afirmar recuperación, publicación ni cierre.",
+            "26/11 15:23 UTC: 206 fuentes configuradas, 200 únicas, 201 estados: 38 READABLE, 123 PARTIAL, 40 ERROR; 4 entradas directas. Run 45847642566 SUCCESS no equivale a calidad; empeoramiento respecto a 43/141/17."
           ],
           "remainingSubsteps": [
-            "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
-            "Evitar anunciar oportunidades no inscribibles",
-            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
-            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
-            "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
-            "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
+            "Clasificar 40 ERROR por timeout, DNS/SSL, HTTP, bloqueo, URL y parseo; separar caída temporal de fallo persistente.",
+            "Reparar por lotes pequeños priorizando fuentes oficiales relevantes, pruebas de regresión y rastreo real posterior por fuente.",
+            "Medir recuperación sobre mismo conjunto de fuentes, con fecha, estado y documento individual; comparar antes/después sin ocultar errores.",
+            "Clasificar 123 PARTIAL por causa; mejorar extracción HTML/PDF, enlaces y texto cuando exista fuente oficial; no inventar datos.",
+            "Validar muestra de expedientes y ofertas nuevas, sin confundir cobertura semanal con permanente; objetivo editorial: reducir errores y parciales con evidencia, no declarar cobertura total."
           ],
-          "nextAction": "Validar los siete commits del 26/11 mediante CI y rastreo real posterior; comparar 43 READABLE / 141 PARTIAL / 17 ERROR y comprobar individualmente Diputación, Illescas y Pinto. Si falla una prueba, reparar antes de ampliar fuentes. No repetir las modificaciones ya registradas. Mantener sin acreditar plazos y cobertura hasta evidencia documental."
+          "nextAction": "Clasificar los 40 ERROR del snapshot 26/11 y resolver primer lote de fallos persistentes con evidencia oficial y regresión; confirmar rastreo real posterior."
         },
         {
           "id": "RAD-13",
@@ -810,9 +831,10 @@
             "25/11/2026: seguimiento La Puebla, acta borrador pleno extraordinario 23/11/2026, firmada 25/11/2026, CSV 7CSNEFPPXXKSXHJFKMMQQJRPZ, puntos sexto y séptimo pp.18–22: expediente 2038/2026 RPT C2 nivel 18 hasta cinco; expediente 1970/2026 plantilla inicial C2 hasta seis y A1 hasta tres, 7 votos a favor y 6 en contra. Dotación nuevas plazas cero en 2026, previsión 2027; no aprueba OEP, condicionada a tasa y presupuesto. Vigilar BOP, exposición 15 hábiles, aprobación definitiva, eventual OEP y cobertura. No sumar automáticamente ambas modificaciones ni ampliar convocatoria vigente de cuatro. Fuente https://lapueblademontalban.sedelectronica.es/board. Acta aportada por usuario; no verificada independientemente en sede."
           ],
           "remainingSubsteps": [
-            "Pruebas transversales y carga de estados",
-            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
-            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
+            "Medir cobertura real de expediente y referencias con denominador y ejemplos.",
+            "Verificar migración limitada ya implementada en rastreo real; corregir reglas de extracción si procede.",
+            "Separar modalidad, fase y convocatoria; no fusionar por parecido sin evidencia documental.",
+            "Prueba de no duplicación y muestra de expedientes reales; registrar métricas y límites."
           ],
           "nextAction": "Comprobar medición de cobertura real por expediente y rastreo actualizado; no fusionar expedientes ni atribuir BOE sin enlace documental acreditado. Aplicar a todas las fuentes, sin priorizar municipios no solicitados."
         },
@@ -1000,7 +1022,7 @@
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ],
-          "nextAction": "Confirmar CI y Chromium Pages completo; sincronización de archivos de prácticas acreditada. Mantener incidencia abierta.",
+          "nextAction": "Tras QA-PUBLISH-01 y prueba DIP final, comprobar rutas no cubiertas, accesibilidad y móvil emulado; registrar CI exacta y no afirmar dispositivo físico.",
           "priority": "ALTA"
         },
         {
@@ -1087,6 +1109,29 @@
           "nextAction": null,
           "closedAt": "2026-11-21",
           "limitation": "Cierre UI acotado: las fichas jurídicas completas del resumen están en STUDY-RECAP-01 y el test inteligente en STUDY-TEST-01; móviles físicos y otros navegadores en QA-02."
+        },
+        {
+          "id": "QA-PUBLISH-01",
+          "title": "Restaurar publicación privada → pública tras regresión JCCM",
+          "state": "EN_CURSO",
+          "priority": "CRITICA",
+          "acceptance": "CI de exportación y publicación SUCCESS para HEAD que contenga banco T03 de 60 preguntas; SHA idéntico público y privado para banco, visor y repaso; Pages SUCCESS y prueba E2E del test.",
+          "evidencePaths": [
+            "content/jccm-2026/ley40-repaso.html",
+            "content/jccm-2026/ley40-repaso-focal.md"
+          ],
+          "completedSubsteps": [
+            "26/11: run 45856459647, job 140036013263 falla en test de repaso que espera 29 y recibe 32; público T03 28 vs privado 60.",
+            "26/11: documento focal sincronizado a 32 (bb79ce9), test conserva claves 1/2/3 de las tres nuevas y añade control T03 de 60 (b44b06a). Automatizaciones OpoWeb y OpoRadar actualizadas con prioridad y ámbito explícitos. CI/publicación pendientes de confirmar.",
+            "26/11: run 45857120762 ya supera la discrepancia 29/32 pero falla en validate-plan-bitacora-20261121.mjs:48 porque los dos eventos nuevos usaban categorías no admitidas; corregidas a PARCIAL respetando el contrato existente."
+          ],
+          "remainingSubsteps": [
+            "Cotejar tres preguntas 30–32 y sus claves; sincronizar documento y contador HTML.",
+            "Reparar regresión manteniendo validación de claves, no eliminar pruebas.",
+            "Añadir validación estructural de T03 y visor dinámico; comprobar fallos siguientes si aparecen.",
+            "Confirmar publicación, SHA privado/público y Pages; ejecutar E2E específico."
+          ],
+          "nextAction": "Verificar CI del commit que corrige categorías de bitácora y sucesivos; confirmar SHA público T03 60, Pages y E2E específico. Si otro test falla, reparar causa sin debilitarlo."
         }
       ]
     },
@@ -3530,6 +3575,38 @@
       "evidence": [],
       "limit": "T22 reservado; no auditoría jurídica integral.",
       "nextAction": "Continuar JCCM-2026-01 según tablero AHORA."
+    },
+    {
+      "id": "LOG-20261126-PLAN-OPERATIVO-PASOS",
+      "at": "2026-11-26",
+      "taskIds": [
+        "QA-PUBLISH-01",
+        "STUDY-DIP-FINAL-01",
+        "JCCM-2026-01",
+        "RAD-12",
+        "RAD-13",
+        "QA-02",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Plan maestro actualizado a petición del usuario: secuencia de entregas con criterios y bloqueo P0 de publicación; Radar snapshot 38/123/40, JCCM T03 60 privado/28 público.",
+      "evidence": [
+        "content/jccm-2026/tema-03-preguntas.json"
+      ],
+      "limit": "No equivale a ejecución ni cierre de tareas; conservar reservas legales y privacidad.",
+      "nextAction": "Reparar QA-PUBLISH-01."
+    },
+    {
+      "id": "LOG-20261126-QA-PUBLISH-RECAP-FIX",
+      "at": "2026-11-26",
+      "taskIds": [
+        "QA-PUBLISH-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Corrección de regresión 29/32 y prueba de estructura T03 60; automatizaciones actualizadas.",
+      "evidence": [],
+      "limit": "No acredita ejecución CI, publicación ni cotejo jurídico integral.",
+      "nextAction": "Consultar Actions del commit b44b06a o descendiente; si falla analizar siguiente causa exacta y corregir; si SUCCESS comprobar SHA público T03 60, Pages y E2E específico antes de cerrar."
     }
   ],
   "decisions": [
@@ -3622,16 +3699,18 @@
     }
   ],
   "executionBoard": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "description": "Vista de ejecución: los HECHO permanecen exclusivamente como historial consultable; no se repiten. Cada tarea abierta pertenece a una sola cola.",
     "lanes": [
       {
         "id": "AHORA",
         "title": "Prioridad operativa",
-        "description": "Prioridad manual: preparación Diputación C1 antes del examen 15/12/2026; OpoRadar continúa en paralelo mediante automatización.",
+        "description": "P0 QA-PUBLISH-01 exclusiva de OpoWeb; Radar puede diagnosticar y reparar fuentes en paralelo sin tocar publicación ni el mismo archivo. Después OpoWeb: comprobación final DIP C1 y cierre JCCM por tema. Radar: RAD-12 → RAD-13, vigilancia oficial en paralelo. Releer maestro antes de cada escritura.",
         "taskIds": [
+          "QA-PUBLISH-01",
           "RAD-12",
           "RAD-13",
+          "STUDY-DIP-FINAL-01",
           "JCCM-2026-01",
           "RAD-JCCM-2026",
           "STUDY-RECAP-01"
@@ -3747,5 +3826,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-26T12:32:01.000Z"
+  "updatedAtUtc": "2026-11-26T16:16:52.000Z"
 }

@@ -1,6 +1,6 @@
 {
   "tema": 3,
-  "estado": "PARCIAL_ARTICULOS_2_32",
+  "estado": "BANCO_60_PREGUNTAS_PENDIENTE_COTEJO_INTEGRAL",
   "preguntas": [
     {
       "id": "JCCM-C2-T03-01",
@@ -617,6 +617,710 @@
       },
       "activa": true,
       "cotejo": "BOE consolidado consultado 26/11/2026; cotejo parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-29",
+      "tema": 3,
+      "pregunta": "¿Dónde se publica la delegación de competencias y su revocación?",
+      "opciones": [
+        "En el diario oficial que corresponda",
+        "Solo en el tablón interno",
+        "En el registro civil",
+        "En ningún medio"
+      ],
+      "correcta": 0,
+      "justificacion": "En el diario oficial que corresponda. La publicación depende de la Administración y ámbito territorial.",
+      "trampa": "La publicación depende de la Administración y ámbito territorial.",
+      "referencia": "Ley 40/2015, art. 9.3",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+        "article": "9",
+        "apartado": "9.3"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-30",
+      "tema": 3,
+      "pregunta": "¿A qué órgano se imputan las resoluciones adoptadas por delegación?",
+      "opciones": [
+        "Al delegado exclusivamente",
+        "Al órgano delegante",
+        "Al superior común",
+        "Al secretario"
+      ],
+      "correcta": 1,
+      "justificacion": "Al órgano delegante. La resolución debe indicar expresamente la delegación.",
+      "trampa": "La resolución debe indicar expresamente la delegación.",
+      "referencia": "Ley 40/2015, art. 9.4",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+        "article": "9",
+        "apartado": "9.4"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-31",
+      "tema": 3,
+      "pregunta": "¿Qué técnica permite asumir un asunto concreto atribuido ordinariamente a un órgano dependiente?",
+      "opciones": [
+        "Desconcentración",
+        "Suplencia",
+        "Avocación",
+        "Recusación"
+      ],
+      "correcta": 2,
+      "justificacion": "Avocación. La avocación exige circunstancias que la hagan conveniente.",
+      "trampa": "La avocación exige circunstancias que la hagan conveniente.",
+      "referencia": "Ley 40/2015, art. 10.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a10",
+        "article": "10",
+        "apartado": "10.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-32",
+      "tema": 3,
+      "pregunta": "¿Qué no transmite una encomienda de gestión?",
+      "opciones": [
+        "Actividades materiales",
+        "Actividades técnicas",
+        "Tareas de gestión",
+        "Titularidad ni elementos sustantivos del ejercicio de la competencia"
+      ],
+      "correcta": 3,
+      "justificacion": "Titularidad ni elementos sustantivos del ejercicio de la competencia. El órgano encomendante conserva la responsabilidad de dictar actos jurídicos.",
+      "trampa": "El órgano encomendante conserva la responsabilidad de dictar actos jurídicos.",
+      "referencia": "Ley 40/2015, art. 11.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a11",
+        "article": "11",
+        "apartado": "11.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-33",
+      "tema": 3,
+      "pregunta": "¿Hasta qué grado de consanguinidad es causa de abstención el parentesco con un interesado?",
+      "opciones": [
+        "Cuarto",
+        "Segundo",
+        "Primero",
+        "Sexto"
+      ],
+      "correcta": 0,
+      "justificacion": "Cuarto. Por afinidad el límite es segundo grado.",
+      "trampa": "Por afinidad el límite es segundo grado.",
+      "referencia": "Ley 40/2015, art. 23.2.b",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23",
+        "article": "23",
+        "apartado": "23.2.b"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-34",
+      "tema": 3,
+      "pregunta": "Si el recusado niega la causa, ¿en qué plazo resuelve el superior?",
+      "opciones": [
+        "Diez días",
+        "Tres días",
+        "Un mes",
+        "Quince días"
+      ],
+      "correcta": 1,
+      "justificacion": "Tres días. El recusado manifiesta su posición al día siguiente.",
+      "trampa": "El recusado manifiesta su posición al día siguiente.",
+      "referencia": "Ley 40/2015, art. 24.4",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24",
+        "article": "24",
+        "apartado": "24.4"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-35",
+      "tema": 3,
+      "pregunta": "¿Qué norma debe reconocer expresamente la potestad sancionadora?",
+      "opciones": [
+        "Una circular interna",
+        "Un acuerdo verbal",
+        "Una norma con rango de ley",
+        "Una instrucción técnica"
+      ],
+      "correcta": 2,
+      "justificacion": "Una norma con rango de ley. Distinguir reconocimiento legal y atribución del ejercicio a órganos.",
+      "trampa": "Distinguir reconocimiento legal y atribución del ejercicio a órganos.",
+      "referencia": "Ley 40/2015, art. 25.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a25",
+        "article": "25",
+        "apartado": "25.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-36",
+      "tema": 3,
+      "pregunta": "¿Cuándo tienen efecto retroactivo las disposiciones sancionadoras?",
+      "opciones": [
+        "Nunca",
+        "Siempre que aumenten la sanción",
+        "Solo por autorización judicial",
+        "Cuando favorezcan al presunto infractor o infractor"
+      ],
+      "correcta": 3,
+      "justificacion": "Cuando favorezcan al presunto infractor o infractor. La retroactividad favorable incluye tipificación, sanción y prescripción.",
+      "trampa": "La retroactividad favorable incluye tipificación, sanción y prescripción.",
+      "referencia": "Ley 40/2015, art. 26.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a26",
+        "article": "26",
+        "apartado": "26.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-37",
+      "tema": 3,
+      "pregunta": "¿Pueden aplicarse por analogía las normas definidoras de infracciones y sanciones?",
+      "opciones": [
+        "No",
+        "Siempre",
+        "Solo en infracciones leves",
+        "Si lo autoriza el instructor"
+      ],
+      "correcta": 0,
+      "justificacion": "No. La tipicidad excluye la analogía.",
+      "trampa": "La tipicidad excluye la analogía.",
+      "referencia": "Ley 40/2015, art. 27.4",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a27",
+        "article": "27",
+        "apartado": "27.4"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-38",
+      "tema": 3,
+      "pregunta": "Si varias Administraciones responden por gestión derivada de fórmulas conjuntas de actuación, ¿qué responsabilidad tienen frente al particular?",
+      "opciones": [
+        "Subsidiaria siempre",
+        "Solidaria",
+        "Solo mancomunada",
+        "Ninguna"
+      ],
+      "correcta": 1,
+      "justificacion": "Solidaria. El instrumento regulador puede distribuir internamente la responsabilidad.",
+      "trampa": "El instrumento regulador puede distribuir internamente la responsabilidad.",
+      "referencia": "Ley 40/2015, art. 33.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a33",
+        "article": "33",
+        "apartado": "33.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-39",
+      "tema": 3,
+      "pregunta": "En otros supuestos de concurrencia, si no es posible determinar la responsabilidad de cada Administración, ¿qué carácter tiene?",
+      "opciones": [
+        "Exclusivamente estatal",
+        "Subsidiario",
+        "Solidario",
+        "Individual por sorteo"
+      ],
+      "correcta": 2,
+      "justificacion": "Solidario. Se atiende primero a competencia, interés público e intensidad de intervención.",
+      "trampa": "Se atiende primero a competencia, interés público e intensidad de intervención.",
+      "referencia": "Ley 40/2015, art. 33.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a33",
+        "article": "33",
+        "apartado": "33.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-40",
+      "tema": 3,
+      "pregunta": "¿Qué referencia puede utilizarse para valorar daños corporales?",
+      "opciones": [
+        "Solo el salario mínimo",
+        "Únicamente el valor catastral",
+        "La tarifa de tasas locales",
+        "Baremos de seguros obligatorios y Seguridad Social"
+      ],
+      "correcta": 3,
+      "justificacion": "Baremos de seguros obligatorios y Seguridad Social. Son referencias de valoración, no una cuantía automática.",
+      "trampa": "Son referencias de valoración, no una cuantía automática.",
+      "referencia": "Ley 40/2015, art. 34.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a34",
+        "article": "34",
+        "apartado": "34.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-41",
+      "tema": 3,
+      "pregunta": "¿A qué fecha se calcula inicialmente la cuantía de la indemnización?",
+      "opciones": [
+        "Al día en que se produjo efectivamente la lesión",
+        "A la fecha de presentación de solicitud",
+        "A la fecha de notificación",
+        "Al cierre del ejercicio presupuestario"
+      ],
+      "correcta": 0,
+      "justificacion": "Al día en que se produjo efectivamente la lesión. Se actualiza hasta la terminación del procedimiento conforme al índice legal.",
+      "trampa": "Se actualiza hasta la terminación del procedimiento conforme al índice legal.",
+      "referencia": "Ley 40/2015, art. 34.3",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a34",
+        "article": "34",
+        "apartado": "34.3"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-42",
+      "tema": 3,
+      "pregunta": "¿Puede sustituirse la indemnización por compensación en especie?",
+      "opciones": [
+        "Nunca",
+        "Sí, si concurren las condiciones legales y hay acuerdo con el interesado",
+        "Siempre unilateralmente",
+        "Solo por sentencia penal"
+      ],
+      "correcta": 1,
+      "justificacion": "Sí, si concurren las condiciones legales y hay acuerdo con el interesado. También cabe pago periódico cuando resulte adecuado.",
+      "trampa": "También cabe pago periódico cuando resulte adecuado.",
+      "referencia": "Ley 40/2015, art. 34.4",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a34",
+        "article": "34",
+        "apartado": "34.4"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-43",
+      "tema": 3,
+      "pregunta": "¿A quién exige directamente el particular la indemnización por daños causados por personal público?",
+      "opciones": [
+        "Al empleado exclusivamente",
+        "Al sindicato",
+        "A la Administración correspondiente",
+        "Al órgano judicial penal siempre"
+      ],
+      "correcta": 2,
+      "justificacion": "A la Administración correspondiente. La acción de regreso es posterior y tiene requisitos propios.",
+      "trampa": "La acción de regreso es posterior y tiene requisitos propios.",
+      "referencia": "Ley 40/2015, art. 36.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+        "article": "36",
+        "apartado": "36.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-44",
+      "tema": 3,
+      "pregunta": "¿Cuándo exige de oficio la Administración responsabilidad a su personal tras indemnizar al perjudicado?",
+      "opciones": [
+        "Por cualquier error leve",
+        "Siempre sin procedimiento",
+        "Solo si dimite el empleado",
+        "Si hubo dolo o culpa o negligencia graves"
+      ],
+      "correcta": 3,
+      "justificacion": "Si hubo dolo o culpa o negligencia graves. Se instruye el procedimiento correspondiente.",
+      "trampa": "Se instruye el procedimiento correspondiente.",
+      "referencia": "Ley 40/2015, art. 36.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+        "article": "36",
+        "apartado": "36.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-45",
+      "tema": 3,
+      "pregunta": "¿Qué responsabilidad conlleva establecer una sede electrónica?",
+      "opciones": [
+        "Integridad, veracidad y actualización de la información y servicios",
+        "Solo diseño gráfico",
+        "Exclusivamente mantenimiento físico",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "justificacion": "Integridad, veracidad y actualización de la información y servicios. Corresponde al titular de la sede.",
+      "trampa": "Corresponde al titular de la sede.",
+      "referencia": "Ley 40/2015, art. 38.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a38",
+        "article": "38",
+        "apartado": "38.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-46",
+      "tema": 3,
+      "pregunta": "¿Qué es un portal de internet administrativo?",
+      "opciones": [
+        "Un certificado personal",
+        "Un punto de acceso electrónico de titularidad pública a información y, en su caso, a la sede",
+        "Una firma manuscrita digitalizada",
+        "Un registro exclusivamente interno"
+      ],
+      "correcta": 1,
+      "justificacion": "Un punto de acceso electrónico de titularidad pública a información y, en su caso, a la sede. Portal y sede no son necesariamente lo mismo.",
+      "trampa": "Portal y sede no son necesariamente lo mismo.",
+      "referencia": "Ley 40/2015, art. 39",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a39",
+        "article": "39",
+        "apartado": "39"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-47",
+      "tema": 3,
+      "pregunta": "¿Cómo pueden identificarse las Administraciones mediante certificados electrónicos?",
+      "opciones": [
+        "Solo con DNI personal",
+        "Por firma manuscrita obligatoria",
+        "Mediante sello electrónico basado en certificado reconocido o cualificado",
+        "Por contraseña pública"
+      ],
+      "correcta": 2,
+      "justificacion": "Mediante sello electrónico basado en certificado reconocido o cualificado. El sello identifica a la entidad.",
+      "trampa": "El sello identifica a la entidad.",
+      "referencia": "Ley 40/2015, art. 40.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a40",
+        "article": "40",
+        "apartado": "40.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-48",
+      "tema": 3,
+      "pregunta": "¿Qué órgano debe determinarse previamente en una actuación automatizada a efectos de impugnación?",
+      "opciones": [
+        "El elegido por el ciudadano",
+        "El juzgado de guardia",
+        "El proveedor de internet",
+        "El considerado responsable"
+      ],
+      "correcta": 3,
+      "justificacion": "El considerado responsable. También se determinan los órganos responsables de las funciones técnicas.",
+      "trampa": "También se determinan los órganos responsables de las funciones técnicas.",
+      "referencia": "Ley 40/2015, art. 41.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41",
+        "article": "41",
+        "apartado": "41.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-49",
+      "tema": 3,
+      "pregunta": "¿Qué sistema permite verificar la integridad de un documento automatizado en la sede electrónica?",
+      "opciones": [
+        "Código seguro de verificación",
+        "Número de teléfono",
+        "Contraseña compartida",
+        "Firma escaneada sin control"
+      ],
+      "correcta": 0,
+      "justificacion": "Código seguro de verificación. El CSV debe permitir comprobación en la sede correspondiente.",
+      "trampa": "El CSV debe permitir comprobación en la sede correspondiente.",
+      "referencia": "Ley 40/2015, art. 42",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a42",
+        "article": "42",
+        "apartado": "42"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-50",
+      "tema": 3,
+      "pregunta": "Como regla general, ¿mediante qué se realiza la actuación electrónica de una Administración cuando interviene personal?",
+      "opciones": [
+        "Sello de cualquier empresa",
+        "Firma electrónica del titular del órgano o empleado público",
+        "Firma manuscrita enviada por fax",
+        "Código postal"
+      ],
+      "correcta": 1,
+      "justificacion": "Firma electrónica del titular del órgano o empleado público. Sin perjuicio de los artículos 38, 41 y 42.",
+      "trampa": "Sin perjuicio de los artículos 38, 41 y 42.",
+      "referencia": "Ley 40/2015, art. 43.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a43",
+        "article": "43",
+        "apartado": "43.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-51",
+      "tema": 3,
+      "pregunta": "En intercambios en entornos cerrados entre distintas Administraciones, ¿cómo se establecen condiciones y garantías?",
+      "opciones": [
+        "Por decisión unilateral del destinatario",
+        "Por sentencia penal",
+        "Mediante convenio",
+        "Por acuerdo verbal sin garantías"
+      ],
+      "correcta": 2,
+      "justificacion": "Mediante convenio. Se garantiza seguridad del entorno y protección de los datos.",
+      "trampa": "Se garantiza seguridad del entorno y protección de los datos.",
+      "referencia": "Ley 40/2015, art. 44.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a44",
+        "article": "44",
+        "apartado": "44.2"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-52",
+      "tema": 3,
+      "pregunta": "¿Cómo se almacenan los documentos utilizados en actuaciones administrativas?",
+      "opciones": [
+        "Siempre en papel",
+        "Solo en memorias USB personales",
+        "Únicamente en correo electrónico",
+        "Por medios electrónicos, salvo imposibilidad"
+      ],
+      "correcta": 3,
+      "justificacion": "Por medios electrónicos, salvo imposibilidad. La excepción exige que no sea posible el almacenamiento electrónico.",
+      "trampa": "La excepción exige que no sea posible el almacenamiento electrónico.",
+      "referencia": "Ley 40/2015, art. 46.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a46",
+        "article": "46",
+        "apartado": "46.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-53",
+      "tema": 3,
+      "pregunta": "¿Son convenios los acuerdos que tienen por objeto prestaciones propias de contratos?",
+      "opciones": [
+        "No; se ajustan a la legislación contractual",
+        "Sí, siempre",
+        "Solo si duran cuatro años",
+        "Sí, cuando no se publican"
+      ],
+      "correcta": 0,
+      "justificacion": "No; se ajustan a la legislación contractual. Los protocolos generales sin compromisos jurídicos concretos tampoco son convenios.",
+      "trampa": "Los protocolos generales sin compromisos jurídicos concretos tampoco son convenios.",
+      "referencia": "Ley 40/2015, art. 47.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a47",
+        "article": "47",
+        "apartado": "47.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-54",
+      "tema": 3,
+      "pregunta": "¿Cuándo se perfeccionan los convenios?",
+      "opciones": [
+        "Al publicarse en prensa",
+        "Por la prestación del consentimiento de las partes",
+        "Al finalizar su plazo",
+        "Al fiscalizarse judicialmente"
+      ],
+      "correcta": 1,
+      "justificacion": "Por la prestación del consentimiento de las partes. Distinguir perfección y eficacia de convenios estatales.",
+      "trampa": "Distinguir perfección y eficacia de convenios estatales.",
+      "referencia": "Ley 40/2015, art. 48.8",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a48",
+        "article": "48",
+        "apartado": "48.8"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-55",
+      "tema": 3,
+      "pregunta": "¿En qué plazo se inscriben los convenios estatales sujetos al requisito de inscripción?",
+      "opciones": [
+        "Diez días naturales",
+        "Un mes",
+        "Cinco días hábiles desde formalización",
+        "Quince días naturales"
+      ],
+      "correcta": 2,
+      "justificacion": "Cinco días hábiles desde formalización. La publicación en BOE tiene un plazo distinto.",
+      "trampa": "La publicación en BOE tiene un plazo distinto.",
+      "referencia": "Ley 40/2015, art. 48.8",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a48",
+        "article": "48",
+        "apartado": "48.8"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-56",
+      "tema": 3,
+      "pregunta": "¿Cuál es la duración ordinaria máxima de un convenio salvo previsión normativa superior?",
+      "opciones": [
+        "Dos años",
+        "Cinco años",
+        "Diez años",
+        "Cuatro años"
+      ],
+      "correcta": 3,
+      "justificacion": "Cuatro años. Los firmantes pueden acordar unánimemente prórroga de hasta cuatro años adicionales.",
+      "trampa": "Los firmantes pueden acordar unánimemente prórroga de hasta cuatro años adicionales.",
+      "referencia": "Ley 40/2015, art. 49.h",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a49",
+        "article": "49",
+        "apartado": "49.h"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-57",
+      "tema": 3,
+      "pregunta": "Sin régimen expreso de modificación del convenio, ¿qué acuerdo se exige?",
+      "opciones": [
+        "Unánime de los firmantes",
+        "Mayoría simple",
+        "Mayoría absoluta",
+        "Decisión unilateral"
+      ],
+      "correcta": 0,
+      "justificacion": "Unánime de los firmantes. Primero se aplica el régimen previsto en el propio convenio.",
+      "trampa": "Primero se aplica el régimen previsto en el propio convenio.",
+      "referencia": "Ley 40/2015, art. 49.g",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a49",
+        "article": "49",
+        "apartado": "49.g"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-58",
+      "tema": 3,
+      "pregunta": "¿Qué ocurre al transcurrir el plazo de vigencia sin acordar prórroga?",
+      "opciones": [
+        "Se prorroga tácitamente siempre",
+        "Es causa de resolución del convenio",
+        "Se transforma en contrato",
+        "Se suspende indefinidamente"
+      ],
+      "correcta": 1,
+      "justificacion": "Es causa de resolución del convenio. La prórroga debe acordarse antes del vencimiento.",
+      "trampa": "La prórroga debe acordarse antes del vencimiento.",
+      "referencia": "Ley 40/2015, art. 51.2.a",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a51",
+        "article": "51",
+        "apartado": "51.2.a"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-59",
+      "tema": 3,
+      "pregunta": "¿Qué cuantía de compromisos económicos obliga a remitir electrónicamente el convenio al Tribunal de Cuentas u órgano externo autonómico?",
+      "opciones": [
+        "Igual a 50.000 euros",
+        "Superior a 15.000 euros",
+        "Superior a 600.000 euros",
+        "Cualquier cuantía sin excepción"
+      ],
+      "correcta": 2,
+      "justificacion": "Superior a 600.000 euros. El plazo es tres meses desde la suscripción.",
+      "trampa": "El plazo es tres meses desde la suscripción.",
+      "referencia": "Ley 40/2015, art. 53.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a53",
+        "article": "53",
+        "apartado": "53.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
+    },
+    {
+      "id": "JCCM-C2-T03-60",
+      "tema": 3,
+      "pregunta": "¿En qué plazo se remite el convenio sujeto a fiscalización externa por superar 600.000 euros?",
+      "opciones": [
+        "Diez días hábiles",
+        "Un año",
+        "Cinco días naturales",
+        "Tres meses desde su suscripción"
+      ],
+      "correcta": 3,
+      "justificacion": "Tres meses desde su suscripción. No confundir con inscripción o publicación estatal.",
+      "trampa": "No confundir con inscripción o publicación estatal.",
+      "referencia": "Ley 40/2015, art. 53.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a53",
+        "article": "53",
+        "apartado": "53.1"
+      },
+      "activa": true,
+      "cotejo": "Borrador editorial con referencia al BOE; cotejo individual pendiente"
     }
   ]
 }
