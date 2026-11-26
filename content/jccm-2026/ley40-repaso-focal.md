@@ -33,7 +33,7 @@ Cuando la legislación sectorial no fija plazo:
 
 ## Tema 4 · Transmisión de datos (art. 155)
 
-La cesión interadministrativa debe respetar la normativa de protección de datos. En el supuesto específico de tratamiento ulterior para una finalidad distinta compatible del art. 155.2, la Administración cedente dispone de **10 días** para oponerse motivadamente, en los términos del precepto.
+La cesión interadministrativa debe respetar la normativa de protección de datos. En el supuesto específico de tratamiento ulterior para una finalidad distinta compatible del art. 155.3, la Administración cedente dispone de **10 días** para oponerse motivadamente, en los términos del precepto.
 
 > ⚠️ **¡Foco Examen!:** No convertir ese plazo en una regla general de autorización de toda transmisión de datos.
 
@@ -84,4 +84,19 @@ La cesión interadministrativa debe respetar la normativa de protección de dato
 17. ¿Cómo se vota? **Por representación de cada Administración**, art. 151.1.
 18. ¿A quién obliga el acuerdo cuando la AGE ejerce legalmente coordinación? **A todas las Administraciones integrantes**, art. 151.2.a.
 
-**Límite editorial:** dieciocho preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
+19. ¿Cómo se distribuye la representación bilateral? **Igual número por ambas Administraciones**, art. 153.1.
+20. ¿Cuándo obliga un acuerdo bilateral? **Cuando se prevea expresamente**, art. 153.4.
+21. ¿Qué composición tienen las comisiones territoriales? **Multilateral**, art. 154.1.
+22. ¿Dónde se regula la oposición motivada en diez días? **Art. 155.3**, no 155.2.
+
+## Órganos bilaterales y territoriales
+
+| Aspecto | Bilateral (153) | Territorial (154) |
+|---|---|---|
+| Composición | Paritaria | Multilateral |
+| Acuerdos | Obligatorios si se prevé expresamente | Obligatorios para firmantes |
+| Secretaría | Según su régimen | Según reglamento interno |
+
+> ⚠️ **¡Foco Examen!:** El plazo de **10 días** pertenece al artículo 155.3; el apartado 2 regula la incompatibilidad de finalidades. Mientras no se comunique la decisión, la cesionaria no puede usar los datos para la nueva finalidad.
+
+**Límite editorial:** veintidós preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
