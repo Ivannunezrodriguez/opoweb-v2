@@ -1170,6 +1170,28 @@
             "Validar todas las rutas declaradas en 121 temas y exportación pública."
           ],
           "nextAction": "Corregir fuentes no declaradas de La Puebla y añadir prueba de integridad."
+        },
+        {
+          "id": "QA-SYMMETRY-01",
+          "title": "Homogeneizar experiencia y estructura de convocatorias",
+          "state": "PENDIENTE",
+          "priority": "ALTA",
+          "acceptance": "Matriz C01–C10 por cada convocatoria seleccionada con evidencias, navegación y componentes comunes, recursos propios o reutilización trazable, no aplica motivado, pruebas local/Pages y publicación filtrada. UC3M solo conservar sin reabrir.",
+          "evidencePaths": [
+            "plan.html",
+            "data/plan-trabajo.json",
+            "index.html",
+            "practice.html",
+            "assets/practice.js"
+          ],
+          "remainingSubsteps": [
+            "Inventariar cada convocatoria contra C01–C10; distinguir rutas declaradas, contenido auditado y funcionamiento.",
+            "Unificar la presentación y enlaces de recursos, conservando formatos oficiales particulares.",
+            "Resolver diferencias pendientes mediante tareas existentes; no duplicar JCCM, fichas, C2 práctica ni manifiestos.",
+            "Verificar navegación, corrección, persistencia, accesibilidad, privacidad y publicación con evidencia individual.",
+            "Registrar excepciones y estados pendientes; no cerrar por mera igualdad visual."
+          ],
+          "nextAction": "Tras QA-MANIFEST-01, construir matriz de conformidad C01–C10 por convocatoria y reparar primera diferencia funcional no cubierta."
         }
       ]
     },
@@ -1667,7 +1689,54 @@
       "coverage": "Para cada tema: programa literal, resumen, manual por bloques, matrices inciso→norma→artículo→contenido, tablas, esquema final, preguntas, respuestas justificadas, supuestos/simulacros pertinentes y referencias.",
       "questions": "Una única respuesta inequívoca por pregunta, cuatro opciones cuando lo exija convocatoria, clave y fundamento trazable; distractores plausibles sin otra respuesta defendible. No atribuir preguntas propias a exámenes oficiales. Nunca duplicar bancos ni contar repetidas como nueva cobertura.",
       "status": "AUDITADO es etiqueta documental; no significa certificación E2E, vigencia jurídica integral ni apto. Mantener estados de cada tema en manifiestos y el resumen de trabajo solo aquí.",
-      "prioritization": "Priorización pragmática por fecha de examen. Dudas de corte legal se señalan y tratan de forma proporcional sin impedir estudiar, salvo respuestas materialmente dudosas."
+      "prioritization": "Priorización pragmática por fecha de examen. Dudas de corte legal se señalan y tratan de forma proporcional sin impedir estudiar, salvo respuestas materialmente dudosas.",
+      "uniformStructure": {
+        "version": "2026-11-26",
+        "rule": "Misma estructura, navegación, nomenclatura y experiencia para toda convocatoria seleccionada; contenidos y puntuación según bases propias. No generar temario para oportunidades solo Radar.",
+        "sections": [
+          "Ficha de convocatoria: bases, plazas, requisitos, tasas, plazos y ejercicios",
+          "Programa literal y orden oficial",
+          "Manual por tema, fuentes fechadas, matriz de cobertura y banco justificado",
+          "Ficha rápida por tema",
+          "Tests temáticos y entrenamiento inteligente",
+          "Simulacros con formato, duración, reservas y penalización propios",
+          "Supuestos prácticos y psicotécnicos cuando procedan; indicar no aplica si las bases lo acreditan",
+          "Progreso, historial aislado y repaso de errores",
+          "Fuentes oficiales y estado editorial visible"
+        ],
+        "checks": [
+          "C01 Programa literal y fuente oficial identificados; distinguir OEP, convocatoria y programa de referencia.",
+          "C02 Manifiesto: manual, fuentes, matriz, preguntas y ficha rápida por tema; rutas existentes y estado honesto.",
+          "C03 Cotejo jurídico/técnico por inciso y distractor; plazos, órganos, mayorías y cuantías vigentes al corte aplicable.",
+          "C04 Navegación común: selector, ficha, temario, ficha rápida, tests, simulacros, progreso y regreso.",
+          "C05 Formato oficial de cada ejercicio: número, tiempo, reservas, nota, mínimos, penalización y supuestos si proceden.",
+          "C06 Corrección de aciertos, errores, blancos, reinicio, temporizador, reservas e historial aislado.",
+          "C07 Chromium escritorio y móvil emulado local y Pages; accesibilidad axe, teclado, desbordamientos y errores JS.",
+          "C08 Exportación filtrada, privacidad, hashes público/privado y ramas públicas; CI y Pages SUCCESS.",
+          "C09 Fuentes, enlaces, caché y estados desactualizados; no afirmar offline o navegador físico sin prueba.",
+          "C10 Evidencia por convocatoria y control: fecha, alcance, commit/run, resultado HECHO/PARCIAL/PENDIENTE/BLOQUEADA o NO_APLICA justificado. No confundir existencia con auditoría."
+        ],
+        "order": [
+          "STUDY-DIP-FINAL-01",
+          "STUDY-DIP-C2-PRACT-01",
+          "JCCM-2026-01",
+          "STUDY-RECAP-01",
+          "QA-MANIFEST-01",
+          "QA-SYMMETRY-01",
+          "QA-02",
+          "OPS-05"
+        ],
+        "scope": [
+          "La Puebla C2",
+          "Diputación C1",
+          "Diputación C2",
+          "Olías edificios C2",
+          "JCCM Auxiliar C2",
+          "SESCAM Auxiliar C2",
+          "JCCM Informática C1",
+          "UC3M C2 (aparcada: conservar, no reabrir)"
+        ]
+      }
     },
     "radar": {
       "geography": "Toda la provincia de Toledo y sur de Madrid; incluir ofertas de instituciones estatales, autonómicas, provinciales, municipales y entidades públicas con destino relevante.",
@@ -1684,12 +1753,9 @@
       "deletion": "Comprobar imports, enlaces, test y workflows antes de eliminar; en el maestro anotar path, SHA, commit y restauración. Fuentes jurídicas y evidencias técnicas no son redundancia de estado: conservar si sustentan calidad.",
       "delivery": "Trabajar con commits sustantivos, no microcommits ni informes repetitivos; verificar fuentes GitHub antes de informar HECHO. Distinguir sintaxis/JSON/CI de pruebas reales E2E navegador, accesibilidad, móvil, PWA y validez jurídica.",
       "priorities": [
-        "Examen inmediato UC3M C2 21/11/2026: preparación funcional y repaso ya implementados; no reabrir sin incidencia",
-        "Diputación Toledo Administrativo C1: examen 15/12/2026; prioridad siguiente",
-        "La Puebla: preguntas oficiales/plantilla completa y Q26 discutida cuando haya originales",
-        "Diputación C2 T06 OAPGT expresamente pospuesto",
-        "OpoRadar: nuevas ofertas Toledo/sur Madrid, plazos verificables, deduplicación y privacidad",
-        "QA de publicación, monitor y E2E cuando aporte evidencia"
+        "OpoWeb: prueba final DIP C1, práctica DIP C2, cerrar JCCM tema por tema, fichas, conciliación de manifiestos, simetría y QA según tablero.",
+        "OpoRadar: RAD-12 recuperación fuentes, RAD-13 expedientes, RAD-JCCM-2026 vigilancia; después RAD-07/RAD-10.",
+        "UC3M aparcada; OAPGT espera oficial. No reabrir entregas cerradas sin incidencia concreta."
       ],
       "reviewScope": "Un árbol por SHA y un informe histórico leído no equivalen a auditoría completa del contenido de cada archivo. No inflar cobertura.",
       "bitacora": "Antes de cada tanda: consultar IDs, bitácora, decisiones y último CI; actualizar la misma tarea y añadir solo un evento verificable; no duplicar tareas ni informes. Una fase HECHO requiere todas sus tareas HECHO."
@@ -3670,6 +3736,23 @@
       ],
       "limit": "Inspección Git de rutas y SHA, no lectura semántica integral ni comprobación de todas las pantallas; Radar 38 READABLE/123 PARTIAL/40 ERROR sigue abierto; ninguna eliminación.",
       "nextAction": "STUDY-DIP-FINAL-01, luego práctica C2 y conciliación de manifiestos según tablero."
+    },
+    {
+      "id": "LOG-20261126-SIMETRIA-CHECKLIST",
+      "at": "2026-11-26",
+      "taskIds": [
+        "QA-SYMMETRY-01",
+        "QA-MANIFEST-01",
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Estándar común C01–C10 y orden de ejecución incorporados al maestro por petición del usuario.",
+      "evidence": [
+        "data/plan-trabajo.json",
+        "plan.html"
+      ],
+      "limit": "Norma y cola, no acreditación de simetría implementada ni cierre funcional.",
+      "nextAction": "Publicar visualización del estándar, pasos pendientes y comprobaciones desde maestro."
     }
   ],
   "decisions": [
@@ -3759,6 +3842,17 @@
       ],
       "decision": "Por petición expresa, ampliar preparación C1 a diez modelos largos; conservar cierre original como evidencia, sin reabrir otras tareas cerradas ni desbloquear T22 sin fuentes.",
       "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-20261126-SIMETRIA-CONVOCATORIAS",
+      "taskIds": [
+        "QA-SYMMETRY-01",
+        "QA-MANIFEST-01",
+        "STUDY-RECAP-01",
+        "JCCM-2026-01"
+      ],
+      "decision": "Por petición del usuario, aplicar estructura y experiencia común a todas las convocatorias seleccionadas; preservar diferencias oficiales de ejercicios y no aplica motivado. Publicar orden y comprobaciones desde maestro, sin segundo plan. No reabrir UC3M.",
+      "state": "VIGENTE"
     }
   ],
   "executionBoard": {
@@ -3768,7 +3862,7 @@
       {
         "id": "AHORA",
         "title": "Prioridad operativa",
-        "description": "P0 QA-PUBLISH-01 exclusiva de OpoWeb; Radar puede diagnosticar y reparar fuentes en paralelo sin tocar publicación ni el mismo archivo. Después OpoWeb: comprobación final DIP C1 y cierre JCCM por tema. Radar: RAD-12 → RAD-13, vigilancia oficial en paralelo. Releer maestro antes de cada escritura.",
+        "description": "OpoWeb: DIP C1 final → DIP C2 práctica → JCCM por tema → fichas; Radar en paralelo RAD-12 → RAD-13 y vigilancia oficial. Reparar regresión real antes de ampliar. Consultar criterios C01–C10 de simetría.",
         "taskIds": [
           "RAD-12",
           "RAD-13",
@@ -3793,11 +3887,12 @@
         "title": "Mejoras secundarias",
         "description": "No ejecutar hasta cerrar lo prioritario; accesibilidad en navegadores adicionales sí tiene alcance concreto.",
         "taskIds": [
+          "QA-MANIFEST-01",
+          "QA-SYMMETRY-01",
           "QA-02",
           "RAD-07",
           "RAD-10",
-          "OPS-05",
-          "QA-MANIFEST-01"
+          "OPS-05"
         ]
       },
       {
@@ -3894,5 +3989,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-26T16:30:47.000Z"
+  "updatedAtUtc": "2026-11-26T16:32:39.000Z"
 }
