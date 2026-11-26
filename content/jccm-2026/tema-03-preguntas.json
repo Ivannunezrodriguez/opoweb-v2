@@ -1,0 +1,270 @@
+{
+  "tema": 3,
+  "estado": "PARCIAL_ARTICULOS_29_32",
+  "preguntas": [
+    {
+      "id": "JCCM-C2-T03-01",
+      "tema": 3,
+      "pregunta": "Sin plazo específico, ¿qué prescripción corresponde a una infracción grave?",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Tres años",
+        "Seis meses"
+      ],
+      "correcta": 1,
+      "justificacion": "El plazo supletorio es de dos años.",
+      "trampa": "No aplicar el régimen supletorio si existe plazo sectorial.",
+      "referencia": "Ley 40/2015, art. 30.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a30",
+        "article": "30",
+        "apartado": "30.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-02",
+      "tema": 3,
+      "pregunta": "Sin plazo específico, ¿cuándo prescribe una sanción por falta leve?",
+      "opciones": [
+        "Seis meses",
+        "Dos años",
+        "Un año",
+        "Tres años"
+      ],
+      "correcta": 2,
+      "justificacion": "La sanción leve prescribe al año.",
+      "trampa": "La infracción leve prescribe a los seis meses.",
+      "referencia": "Ley 40/2015, art. 30.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a30",
+        "article": "30",
+        "apartado": "30.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-03",
+      "tema": 3,
+      "pregunta": "¿Cuándo comienza la prescripción de una infracción permanente?",
+      "opciones": [
+        "Al finalizar la conducta",
+        "Al iniciarse la conducta",
+        "Al notificarse la sanción",
+        "Al comenzar el año siguiente"
+      ],
+      "correcta": 0,
+      "justificacion": "Se cuenta desde el fin de la conducta infractora.",
+      "trampa": "Distinguir infracción instantánea y permanente.",
+      "referencia": "Ley 40/2015, art. 30.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a30",
+        "article": "30",
+        "apartado": "30.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-04",
+      "tema": 3,
+      "pregunta": "¿Qué paralización del expediente sancionador por causa no imputable al presunto responsable reinicia la prescripción?",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Exactamente una semana",
+        "Más de un mes"
+      ],
+      "correcta": 3,
+      "justificacion": "La paralización superior a un mes activa la regla.",
+      "trampa": "La ley exige más de un mes.",
+      "referencia": "Ley 40/2015, art. 30.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a30",
+        "article": "30",
+        "apartado": "30.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-05",
+      "tema": 3,
+      "pregunta": "¿Qué procedimiento interrumpe la prescripción de una sanción si lo conoce el interesado?",
+      "opciones": [
+        "El de ejecución",
+        "Una consulta interna",
+        "Un procedimiento legislativo",
+        "Una solicitud de información"
+      ],
+      "correcta": 0,
+      "justificacion": "La iniciación conocida del procedimiento de ejecución interrumpe la prescripción.",
+      "trampa": "No confundir ejecución de sanción con procedimiento para imponerla.",
+      "referencia": "Ley 40/2015, art. 30.3",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a30",
+        "article": "30",
+        "apartado": "30.3"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-06",
+      "tema": 3,
+      "pregunta": "¿Puede una sanción administrativa comportar subsidiariamente privación de libertad?",
+      "opciones": [
+        "Sí, si es grave",
+        "Sí, si no se paga",
+        "No",
+        "Solo con autorización administrativa"
+      ],
+      "correcta": 2,
+      "justificacion": "La prohibición alcanza la privación directa y subsidiaria.",
+      "trampa": "No confundir sanción administrativa con pena judicial.",
+      "referencia": "Ley 40/2015, art. 29.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a29",
+        "article": "29",
+        "apartado": "29.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-07",
+      "tema": 3,
+      "pregunta": "¿Qué periodo utiliza el criterio de reincidencia del artículo 29.3.d?",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Dos años",
+        "Cinco años"
+      ],
+      "correcta": 1,
+      "justificacion": "Se exige más de una infracción de la misma naturaleza en un año, declarada por resolución firme en vía administrativa.",
+      "trampa": "No basta una denuncia previa.",
+      "referencia": "Ley 40/2015, art. 29.3.d",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a29",
+        "article": "29",
+        "apartado": "29.3.d"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-08",
+      "tema": 3,
+      "pregunta": "Si cometer una infracción implica necesariamente cometer otra, ¿qué sanción corresponde?",
+      "opciones": [
+        "Todas acumuladas siempre",
+        "La de menor gravedad",
+        "Ninguna",
+        "Únicamente la de la infracción más grave"
+      ],
+      "correcta": 3,
+      "justificacion": "Se impone la sanción de la infracción más grave.",
+      "trampa": "La relación de necesidad es determinante.",
+      "referencia": "Ley 40/2015, art. 29.5",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a29",
+        "article": "29",
+        "apartado": "29.5"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-09",
+      "tema": 3,
+      "pregunta": "¿Qué identidad impide una doble sanción penal o administrativa?",
+      "opciones": [
+        "Sujeto, hecho y fundamento",
+        "Solo sujeto",
+        "Solo hecho",
+        "Órgano y fecha"
+      ],
+      "correcta": 0,
+      "justificacion": "Deben coincidir los tres elementos.",
+      "trampa": "La coincidencia del hecho por sí sola no basta.",
+      "referencia": "Ley 40/2015, art. 31.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a31",
+        "article": "31",
+        "apartado": "31.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-10",
+      "tema": 3,
+      "pregunta": "¿Qué efecto indemnizatorio tiene por sí sola la anulación de un acto?",
+      "opciones": [
+        "Indemnización automática",
+        "Ningún derecho automático",
+        "Indemnización fija",
+        "Responsabilidad penal automática"
+      ],
+      "correcta": 1,
+      "justificacion": "La anulación no basta para generar indemnización.",
+      "trampa": "Deben cumplirse los requisitos de responsabilidad.",
+      "referencia": "Ley 40/2015, art. 32.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+        "article": "32",
+        "apartado": "32.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-11",
+      "tema": 3,
+      "pregunta": "¿Qué requisitos debe reunir el daño alegado?",
+      "opciones": [
+        "Futuro e hipotético",
+        "Exclusivamente moral",
+        "Efectivo, evaluable económicamente e individualizado",
+        "General e indeterminado"
+      ],
+      "correcta": 2,
+      "justificacion": "Se exigen los tres requisitos conjuntamente.",
+      "trampa": "No basta una expectativa de daño.",
+      "referencia": "Ley 40/2015, art. 32.2",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+        "article": "32",
+        "apartado": "32.2"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    },
+    {
+      "id": "JCCM-C2-T03-12",
+      "tema": 3,
+      "pregunta": "¿Qué circunstancia excluye la responsabilidad patrimonial según el artículo 32.1?",
+      "opciones": [
+        "Funcionamiento normal",
+        "Ausencia de sanción disciplinaria",
+        "Existencia de expediente",
+        "Fuerza mayor"
+      ],
+      "correcta": 3,
+      "justificacion": "La fuerza mayor es una exclusión expresa.",
+      "trampa": "El funcionamiento normal también puede generar responsabilidad.",
+      "referencia": "Ley 40/2015, art. 32.1",
+      "fuenteNormativa": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+        "article": "32",
+        "apartado": "32.1"
+      },
+      "activa": true,
+      "cotejo": "BOE consolidado consultado 26/11/2026; bloque parcial"
+    }
+  ]
+}
