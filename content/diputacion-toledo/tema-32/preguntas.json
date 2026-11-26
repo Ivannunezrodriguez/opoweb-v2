@@ -259,7 +259,7 @@
     },
     {
       "id": "DIP-T32-018",
-      "pregunta": "¿Qué combinación abre el menú contextual clásico del elemento seleccionado?",
+      "pregunta": "¿Qué combinación muestra el menú contextual del elemento seleccionado en el Explorador de archivos?",
       "opciones": [
         "Ctrl + F10",
         "Alt + P",
@@ -267,9 +267,9 @@
         "Windows + F10"
       ],
       "correcta": 2,
-      "justificacion": "Mayús + F10 muestra el menú contextual del elemento seleccionado.",
-      "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "justificacion": "Microsoft documenta **Mayús + F10** como acceso al menú contextual del elemento seleccionado; la presentación concreta del menú puede variar según la versión de Windows.",
+      "trampa": "No confundir el atajo con la denominación visual del menú en todas las compilaciones.",
+      "referencia": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
       "respuestaLiteral": "Mayús + F10"
     },
     {

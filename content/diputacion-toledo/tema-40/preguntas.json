@@ -237,9 +237,9 @@
         "Mejor rendimiento transforma FAT32 en NTFS automáticamente"
       ],
       "correcta": 1,
-      "justificacion": "Microsoft Learn indica que Extracción rápida minimiza caché de escritura y permite retirar cuando no hay actividad; Mejor rendimiento permite caché y requiere Quitar hardware de forma segura.",
-      "trampa": "Aunque Extracción rápida sea predeterminada, nunca hay que retirar durante una transferencia activa.",
-      "referencia": "Microsoft Learn, políticas de retirada de medios externos · https://learn.microsoft.com/en-us/windows/client-management/client-tools/change-default-removal-policy-external-storage-media",
+      "justificacion": "Extracción rápida desactiva la caché de escritura en disco de Windows para permitir retirar el dispositivo sin usar el procedimiento de extracción segura. Mejor rendimiento permite la caché y exige extracción segura para asegurar que terminen las escrituras.",
+      "trampa": "Incluso con extracción rápida no debe desconectarse el dispositivo durante una operación activa de escritura.",
+      "referencia": "https://learn.microsoft.com/es-es/windows/client-management/client-tools/change-default-removal-policy-external-storage-media",
       "respuestaLiteral": "Extracción rápida evita caché de escritura; Mejor rendimiento la permite y exige expulsión segura"
     },
     {

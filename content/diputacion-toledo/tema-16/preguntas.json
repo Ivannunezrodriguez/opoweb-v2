@@ -19,7 +19,7 @@
     },
     {
       "id": "DIP-T16-002",
-      "pregunta": "Con carácter general, el Alcalde o Presidente es órgano de contratación cuando el valor estimado no supera:",
+      "pregunta": "En el régimen ordinario de la disposición adicional segunda.1 de la LCSP, ¿qué límites económicos se atribuyen a Alcaldía o Presidencia para los contratos allí enumerados?",
       "opciones": [
         "El 5 % de los recursos ordinarios y 3.000.000 €",
         "El 15 % de los recursos ordinarios sin límite absoluto",
@@ -27,7 +27,7 @@
         "El 20 % de los recursos ordinarios y 12.000.000 €"
       ],
       "correcta": 2,
-      "justificacion": "La disposición adicional segunda de la Ley 9/2017 atribuye la competencia al Alcalde o Presidente cuando el valor estimado no supera el 10 % de los recursos ordinarios del presupuesto ni, en ningún caso, 6.000.000 de euros.",
+      "justificacion": "Los límites son **10 %** de recursos ordinarios y **6 millones de euros**. Para contratos plurianuales se exige además duración máxima de **4 años**, prórrogas incluidas, y respeto de ambos límites por todas las anualidades acumuladas, tomando los recursos ordinarios del primer ejercicio.",
       "trampa": "La regla combina un límite porcentual y otro absoluto; deben cumplirse ambos.",
       "referencia": "Ley 9/2017 LCSP · disposición adicional segunda · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#da2",
       "respuestaLiteral": "El 10 % de los recursos ordinarios y, en todo caso, 6.000.000 €"
@@ -214,18 +214,18 @@
     },
     {
       "id": "DIP-T16-015",
-      "pregunta": "¿Qué condición fundamental requiere una modificación contractual no prevista en los pliegos según el artículo 205 de la LCSP?",
+      "pregunta": "¿Qué exige con carácter general el artículo 205.1 de la LCSP para las modificaciones no previstas?",
       "opciones": [
         "Modificar libremente por simple decisión del contratista",
-        "Responder a supuestos legales tasados sin alterar la naturaleza global del contrato",
+        "Responder a una causa legal tasada y limitarse a las variaciones estrictamente indispensables",
         "Solo que el importe sea inferior a seis millones de euros",
         "Que el contratista manifieste conformidad verbal"
       ],
       "correcta": 1,
-      "justificacion": "El **art. 205.1 LCSP** solo admite modificaciones no previstas en supuestos tasados y sin alterar la **naturaleza global del contrato**.",
-      "trampa": "**Art. 204** modificación prevista, máximo general **20 %**; **art. 205**, no prevista, causas tasadas.",
+      "justificacion": "El artículo 205.1 exige causa del apartado 2 y cambios estrictamente indispensables. La prohibición expresa de alterar la naturaleza global se contempla en el supuesto de circunstancias imprevisibles del artículo 205.2.b.",
+      "trampa": "No atribuir a todo el artículo 205 una condición redactada específicamente para uno de sus supuestos.",
       "referencia": "Ley 9/2017 LCSP · art. 205 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a205",
-      "respuestaLiteral": "Responder a supuestos legales tasados sin alterar la naturaleza global del contrato"
+      "respuestaLiteral": "Responder a una causa legal tasada y limitarse a las variaciones estrictamente indispensables"
     },
     {
       "id": "DIP-T16-016",

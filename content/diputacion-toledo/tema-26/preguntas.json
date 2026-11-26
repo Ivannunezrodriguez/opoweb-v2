@@ -57,7 +57,7 @@
         "Inicia automáticamente el apremio"
       ],
       "correcta": 0,
-      "justificacion": "La solicitud presentada en periodo voluntario impide el inicio del periodo ejecutivo mientras se tramita, pero no evita el devengo del interés de demora.",
+      "justificacion": "La solicitud de aplazamiento o fraccionamiento en período voluntario impide iniciar el período ejecutivo, pero no el devengo de intereses de demora, conforme al artículo 65.5 LGT, sin perjuicio de las excepciones legales.",
       "trampa": "Impedir temporalmente el inicio del periodo ejecutivo no equivale a condonar los intereses de demora.",
       "referencia": "Ley 58/2003 LGT · art. 65 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a65",
       "respuestaLiteral": "Impide el inicio del periodo ejecutivo, pero no el interés de demora"
@@ -117,8 +117,8 @@
         "20 %"
       ],
       "correcta": 1,
-      "justificacion": "El recargo de apremio reducido es del 10 % cuando se pagan la deuda y el propio recargo dentro del plazo concedido por la providencia de apremio.",
-      "trampa": "No debe confundirse con el recargo ejecutivo del 5 %, aplicable antes de la notificación de la providencia.",
+      "justificacion": "El recargo de apremio reducido es del **10 %** si se satisface la totalidad de la deuda no ingresada en voluntaria y el propio recargo antes de finalizar el plazo del artículo 62.5 LGT.",
+      "trampa": "No basta pagar solo el principal dentro del plazo de la providencia.",
       "referencia": "Ley 58/2003 LGT · art. 28 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28",
       "respuestaLiteral": "10 %"
     },

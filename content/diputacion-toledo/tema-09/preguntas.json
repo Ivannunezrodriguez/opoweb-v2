@@ -70,13 +70,13 @@
         "Cualquier página web pública",
         "Un buzón de correo",
         "Una red social institucional",
-        "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad"
+        "Una dirección electrónica de titularidad de una Administración pública o de uno o varios organismos públicos o entidades de Derecho público, en ejercicio de sus competencias"
       ],
       "correcta": 3,
-      "justificacion": "Esa es la definición legal de sede electrónica.",
+      "justificacion": "Artículo 38.1 de la Ley 40/2015: dirección electrónica accesible a los ciudadanos mediante redes de telecomunicaciones, de titularidad pública en el ejercicio de sus competencias.",
       "trampa": "Confundir sede con portal de internet.",
       "referencia": "Ley 40/2015, art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a38",
-      "respuestaLiteral": "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad"
+      "respuestaLiteral": "Una dirección electrónica de titularidad de una Administración pública o de uno o varios organismos públicos o entidades de Derecho público, en ejercicio de sus competencias"
     },
     {
       "id": "DIP-T09-006",
@@ -95,7 +95,7 @@
     },
     {
       "id": "DIP-T09-007",
-      "pregunta": "Una presentación efectuada en día inhábil se entiende realizada, como regla general:",
+      "pregunta": "A efectos de cumplir un plazo del interesado fijado en días hábiles, ¿cuándo se entiende realizada una presentación electrónica en día inhábil, salvo norma expresa que permita su recepción?",
       "opciones": [
         "El mismo día",
         "La última hora del día hábil anterior",
@@ -103,7 +103,7 @@
         "La primera hora del primer día hábil siguiente"
       ],
       "correcta": 3,
-      "justificacion": "Así lo establece el artículo 31 de la Ley 39/2015.",
+      "justificacion": "El artículo 31.2.b de la Ley 39/2015 limita esta regla al cumplimiento de plazos de los interesados fijados en días hábiles. Se conserva el orden efectivo de presentación.",
       "trampa": "Pensar que el registro disponible durante las 24 horas convierte el día inhábil en hábil.",
       "referencia": "Ley 39/2015, art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31",
       "respuestaLiteral": "La primera hora del primer día hábil siguiente"

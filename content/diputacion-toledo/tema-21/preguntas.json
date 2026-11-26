@@ -57,14 +57,14 @@
         "180 días por centro"
       ],
       "correcta": 0,
-      "justificacion": "El límite general es de 90 días en el año natural y se refiere al conjunto de la empresa.",
+      "justificacion": "El límite general es de **90 días** por empresa y año natural, con excepción sectorial de **120 días**. No se pueden utilizar de manera continuada y el cómputo es independiente del número de trabajadores contratados.",
       "trampa": "Los 90 días no corresponden a cada persona trabajadora y, con carácter general, no pueden utilizarse de forma continuada.",
       "referencia": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15",
       "respuestaLiteral": "90 días en el año natural"
     },
     {
       "id": "DIP-T21-005",
-      "pregunta": "El contrato de sustitución para cubrir temporalmente un puesto durante un proceso de selección puede durar, con carácter general, hasta:",
+      "pregunta": "Según la regla general del artículo 15.3 ET, ¿cuál es la duración máxima del contrato de sustitución durante un proceso de selección para cobertura definitiva, salvo plazo convencional inferior?",
       "opciones": [
         "1 mes",
         "3 meses",
@@ -72,8 +72,8 @@
         "1 año"
       ],
       "correcta": 1,
-      "justificacion": "Su duración máxima general es de 3 meses, salvo que el convenio colectivo establezca un plazo inferior.",
-      "trampa": "Una vez agotado ese máximo no puede celebrarse un nuevo contrato con el mismo objeto.",
+      "justificacion": "La regla general del artículo 15.3 ET es **3 meses**, o plazo inferior de convenio. En el sector público debe distinguirse la especialidad de la disposición adicional 4.ª del Real Decreto-ley 32/2021.",
+      "trampa": "No aplicar automáticamente los tres meses al sector público: su régimen especial contempla la cobertura hasta finalizar la selección en los términos legalmente establecidos.",
       "referencia": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15",
       "respuestaLiteral": "3 meses"
     },
@@ -147,7 +147,7 @@
         "10 días naturales"
       ],
       "correcta": 2,
-      "justificacion": "**RD 84/1996 art. 32.3.2.º**, modificado con efectos desde **01/08/2026**: comunicar bajas y variaciones en **6 días naturales**, salvo excepción autorizada.",
+      "justificacion": "Artículo 32.3.2.º del RD 84/1996, reformado por RD 643/2026: **6 días naturales siguientes** al cese o a la variación de datos.",
       "trampa": "**Baja y variaciones 6 días naturales**, no 3; el **alta** es anterior al inicio.",
       "referencia": "RD art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
       "respuestaLiteral": "6 días naturales"

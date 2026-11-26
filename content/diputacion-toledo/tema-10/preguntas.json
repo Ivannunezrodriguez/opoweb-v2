@@ -118,7 +118,7 @@
         "Suspendida"
       ],
       "correcta": 0,
-      "justificacion": "Transcurridos seis meses sin resolución expresa, la reclamación puede entenderse desestimada.",
+      "justificacion": "El artículo 91.3 de la Ley 39/2015 permite entender desestimada la reclamación tras **6 meses** sin resolución expresa notificada ni acuerdo formalizado.",
       "trampa": "En responsabilidad patrimonial el silencio no es estimatorio.",
       "referencia": "Ley 39/2015, art. 91.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a91",
       "respuestaLiteral": "Desestimada"
@@ -133,7 +133,7 @@
         "3 meses"
       ],
       "correcta": 2,
-      "justificacion": "La tramitación simplificada debe resolverse en treinta días.",
+      "justificacion": "El artículo 96.6 de la Ley 39/2015 establece **30 días** desde el siguiente a la notificación del acuerdo de simplificación, salvo que reste menos para la tramitación ordinaria.",
       "trampa": "No confundir este plazo con el plazo general de seis meses.",
       "referencia": "Ley 39/2015, art. 96.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "30 días"
@@ -170,7 +170,7 @@
     },
     {
       "id": "DIP-T10-012",
-      "pregunta": "Cuando varias Administraciones actúan conjuntamente mediante fórmulas colegiadas, la responsabilidad frente al particular será, como regla general:",
+      "pregunta": "Cuando la responsabilidad deriva de fórmulas conjuntas de actuación de varias Administraciones, ¿cómo responden frente al particular según el artículo 33.1?",
       "opciones": [
         "Solidaria",
         "Mancomunada",
@@ -178,8 +178,8 @@
         "Inexistente"
       ],
       "correcta": 0,
-      "justificacion": "Cuando varias Administraciones actúan conjuntamente, la responsabilidad frente al particular es solidaria como regla general.",
-      "trampa": "La distribución interna de responsabilidades entre Administraciones no puede perjudicar al particular.",
+      "justificacion": "En este supuesto la responsabilidad frente al particular es solidaria en todo caso. En otros supuestos de concurrencia se aplican los criterios del artículo 33.2 y la solidaridad si no puede determinarse el reparto.",
+      "trampa": "Distinguir fórmulas conjuntas del artículo 33.1 de otros supuestos de concurrencia del 33.2.",
       "referencia": "Ley 40/2015, art. 33.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a33",
       "respuestaLiteral": "Solidaria"
     },

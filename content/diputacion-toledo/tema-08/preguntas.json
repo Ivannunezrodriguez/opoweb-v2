@@ -5,7 +5,7 @@
   "preguntas": [
     {
       "id": "DIP-T08-001",
-      "pregunta": "¿En qué plazo puede iniciarse la revisión de oficio de un acto nulo?",
+      "pregunta": "¿En qué plazo puede iniciarse la revisión de oficio de un acto nulo que haya puesto fin a la vía administrativa o no haya sido recurrido en plazo, sin perjuicio de los límites del artículo 110?",
       "opciones": [
         "En 1 año",
         "En 4 años",
@@ -13,7 +13,7 @@
         "En cualquier momento"
       ],
       "correcta": 3,
-      "justificacion": "El artículo 106 de la Ley 39/2015 permite revisar los actos nulos en cualquier momento.",
+      "justificacion": "El artículo 106.1 permite iniciar la revisión en cualquier momento en los supuestos del artículo 47.1, con los límites al ejercicio de la potestad del artículo 110.",
       "trampa": "Confundir el plazo de iniciación con el plazo máximo de resolución del procedimiento, que es de 6 meses.",
       "referencia": "Ley 39/2015, art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a106",
       "respuestaLiteral": "En cualquier momento"
@@ -95,7 +95,7 @@
     },
     {
       "id": "DIP-T08-007",
-      "pregunta": "¿Qué recurso procede contra un acto que no pone fin a la vía administrativa?",
+      "pregunta": "¿Qué recurso administrativo ordinario procede contra una resolución que no pone fin a la vía administrativa?",
       "opciones": [
         "Reposición",
         "Alzada",
@@ -103,8 +103,8 @@
         "Recurso contencioso directo necesariamente"
       ],
       "correcta": 1,
-      "justificacion": "El recurso de alzada procede contra actos que no agotan la vía administrativa.",
-      "trampa": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
+      "justificacion": "El artículo 121 permite la alzada contra resoluciones y actos de trámite recurribles del artículo 112.1 que no pongan fin a la vía administrativa, sin perjuicio de los procedimientos sustitutivos legalmente previstos.",
+      "trampa": "No todo acto de trámite admite recurso autónomo: debe reunir alguna de las condiciones del artículo 112.1.",
       "referencia": "Ley 39/2015, art. 121 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a121",
       "respuestaLiteral": "Alzada"
     },
@@ -194,7 +194,7 @@
       ],
       "correcta": 2,
       "justificacion": "El plazo máximo de resolución y notificación del recurso de alzada es de **3 meses**.",
-      "trampa": "**Alzada**: **1 mes** para interponer frente a acto expreso; **3 meses** para resolver. En acto presunto, interposición posible en cualquier momento desde que surta efecto.",
+      "trampa": "Alzada: **1 mes** para interponer frente a acto expreso; **3 meses** para resolver y notificar. Ante silencio, puede interponerse en cualquier momento desde el día siguiente a aquel en que se produzcan sus efectos.",
       "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122",
       "respuestaLiteral": "Tres meses"
     },
