@@ -764,7 +764,8 @@
             "24/11/2026: inspección estática del feed real de 1440 registros: 284 detectados en 21 días; 47 con documento leído, puesto accionable y estado REVISAR sin fecha ISO (DIRECT 24, BOE 10, BOP Toledo 6, BOCM 6, DOCM 1); 0 con fecha abierta bajo filtros actuales. Ledger privado vacío, sin modificación ni envío. Reglas almacenadas de El Viso y Pantoja identifican 20 días hábiles pero trigger SIN_IDENTIFICAR; el patrón vigente reconoce BOE en el texto almacenado. Añadida una relectura acotada por versión para reglas obsoletas y pruebas; no calcula fecha de cierre ni certifica bases completas.",
             "24/11/2026: inspección estática feed 1440, único candidato preliminar de revisión con regla reconocida: Polán Técnico de Biblioteca, DOCM NID 2026/8193. Bases BOP Toledo 215 de 10/11/2026, anuncio 5159, CSV 2026.0005159, base tercera e) y cuarta, texto completo consultado en PDF municipal https://aytopolan.es/images/2026/11/11/web_empleopolan_11nov.pdf (captura PDF no disponible). Titulación universitaria específica exigida, FP superior no acredita equivalencia. Añadido patrón de cláusula expresa y exclusión de compatibilidad sin inferir subgrupo; pruebas de extracción y avisos añadidas. Ledger vacío, sin envío; no se ha ejecutado selector Node ni refrescado ficha real.",
             "24/11/2026: recuperación de ruta específica SERMAS E3707 y pruebas de identidad, reintento limitado por versión; publicación 45376826464 SUCCESS. Rastreo real 45376833312 iniciado; correos desactivados para eventos push. No consta lectura efectiva del trámite ni extracción nuclear posterior.",
-            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real."
+            "25/11/2026: CI 45587474641 confirma extracción Expte. y medición: 1449 registros, 0 evidencias y 0 grupos cruzados. Implementada migración acotada de evidencia de documentos oficiales recientes ya leídos: hasta 5 por ciclo dentro del presupuesto, sin repetir versión, con contador y pruebas. Pendiente ejecución real.",
+            "26/11/2026: siete commits de corrección y regresión incorporados a main: 8844390 y cd439ce distinguen ciclos documentales vacíos SIN_INTENTOS de conciliación VERIFICADO y añaden métricas; 4d906fe y 476bb45 incorporan rutas alternativas de Diputación de Toledo y prueba sintética; 076d8b2, 92bc474 y 030320d incorporan intento de renderizado público Convoca Illescas/Pinto y prueba de URL exacta y rechazo de plantilla. Último snapshot real disponible 25/11 18:15:23 UTC: 43 READABLE, 141 PARTIAL, 17 ERROR (201 estados); no existe medición posterior acreditada. CI de push no consultable mediante el conector actual. No afirmar recuperación, publicación ni cierre."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
@@ -774,7 +775,7 @@
             "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
             "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ],
-          "nextAction": "Verificar CI, ciclo documental no vacío tras relectura acotada de reglas antiguas y reconciliación de métricas; mantener fechas sin acreditar como REVISAR."
+          "nextAction": "Validar los siete commits del 26/11 mediante CI y rastreo real posterior; comparar 43 READABLE / 141 PARTIAL / 17 ERROR y comprobar individualmente Diputación, Illescas y Pinto. Si falla una prueba, reparar antes de ampliar fuentes. No repetir las modificaciones ya registradas. Mantener sin acreditar plazos y cobertura hasta evidencia documental."
         },
         {
           "id": "RAD-13",
@@ -3744,5 +3745,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-26T08:10:54.000Z"
+  "updatedAtUtc": "2026-11-26T12:11:41.000Z"
 }
