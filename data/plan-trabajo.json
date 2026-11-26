@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
     "states": [
@@ -159,7 +159,7 @@
         {
           "id": "DIP-C1-01",
           "title": "Mantener preparación de Administrativo C1 Diputación (15/12/2026)",
-          "state": "EN_CURSO",
+          "state": "HECHO",
           "acceptance": "Conservar paquete original verificado y ampliar a diez simulacros de 50 preguntas/60 minutos, con trazabilidad al banco, sin repetir enunciados entre nuevos modelos, distribución transversal orientativa, cotejo de formato y puntuación oficial, publicación y prueba de navegador. Tema 22 mantiene reserva independiente.",
           "evidencePaths": [
             "content/diputacion-toledo/simulacros.json",
@@ -273,10 +273,10 @@
             "25/11/2026: diez modelos largos 006–015, 500 enunciados normalizados únicos, 39 temas no reservados (mínimo 6 por tema), publicación 45684445317 SUCCESS. Cotejo directo del PDF oficial BOP Toledo 118 de 25/06/2026, CSV 2026.00002934, página 8, base 7.3.B: 50 preguntas ordinarias y 5 de reserva, 4 alternativas, 60 minutos, +0,20/-0,05/0, mínimo 5/10. Falta reproducir reservas en motor y verificar sustitución sin sumar 55 preguntas. Anuncio de fecha PDF 37765 no recuperado en este cotejo. Archivo histórico 2025 promoción interna contiene plantillas, no cuestionario comprobado; no trasladar sus reglas.",
             "25/11/2026: 50 reservas ya incorporadas en diez modelos; E2E anterior 45702056993 SUCCESS. Añadido escenario hipotético de anulación de hasta cinco titulares con reservas en orden, denominador 50 e historial ordinario intacto (35755c8); regresión Chromium de cálculo y entradas inválidas (f50edc5), pendiente CI.",
             "26/11/2026: corregida posible carrera del test móvil: esperar primer enlace adjunto antes de contar exactamente 24; sin modificar producto UC3M ni reducir aserciones. E2E pendiente.",
-            "26/11/2026: E2E integral 45741466445 y publicación 45741482289 SUCCESS. Añadida regresión editorial de las 50 reservas de los diez modelos: unicidad conjunta de 550 enunciados e IDs, orden, tema, cuatro alternativas y cotejo de clave y referencia con banco activo (e735320d). Recuento directo 550/550 únicos; CI nueva pendiente."
+            "26/11/2026: E2E integral 45741466445 y publicación 45741482289 SUCCESS. Añadida regresión editorial de las 50 reservas de los diez modelos: unicidad conjunta de 550 enunciados e IDs, orden, tema, cuatro alternativas y cotejo de clave y referencia con banco activo (e735320d). Recuento directo 550/550 únicos; CI nueva pendiente.",
+            "26/11/2026: Alcance ampliado: diez modelos largos 006–015, 500 titulares y 50 reservas únicas, 39 temas no reservados, formato oficial 60 min y puntuación +0,20/−0,05/0, sustitución hipotética con denominador 50. Regresión editorial e735320d y publicación SUCCESS 45766905479 y 45766918935; E2E integral SUCCESS 45741466445. T22 reservado; no certificación jurídica integral ni predicción de aprobado."
           ],
-          "closureScope": "Paquete de repaso final para 15/12: 40 fichas/361 tarjetas, 806 preguntas activas (T22 no evaluable mientras siga bloqueado), 5 repasos breves, 3 modelos de 50 preguntas/60 minutos, 13 supuestos y 6 modelos prácticos con 82 cuestiones y 164 criterios. Publicación SUCCESS 45584027484; E2E específico de rúbrica SUCCESS 45582033145 y navegador general SUCCESS 45583794972. No certifica auditoría jurídica integral, bases completas, penalización oficial, ni E2E específico del modelo 008 (en curso).",
-          "nextAction": "Verificar CI del commit e735320d con control de las 50 reservas contra bancos activos; si pasa, cerrar alcance ampliado manteniendo T22 reservado."
+          "closureScope": "Alcance ampliado: diez modelos largos 006–015, 500 titulares y 50 reservas únicas, 39 temas no reservados, formato oficial 60 min y puntuación +0,20/−0,05/0, sustitución hipotética con denominador 50. Regresión editorial e735320d y publicación SUCCESS 45766905479 y 45766918935; E2E integral SUCCESS 45741466445. T22 reservado; no certificación jurídica integral ni predicción de aprobado."
         },
         {
           "id": "DIP-C2-01",
@@ -3514,6 +3514,19 @@
       "evidence": [],
       "limit": "Recuento directo de 550 enunciados e IDs únicos; nueva prueba de bancos pendiente de CI. No auditoría jurídica integral.",
       "nextAction": "Verificar CI del commit e735320d con control de las 50 reservas contra bancos activos; si pasa, cerrar alcance ampliado manteniendo T22 reservado."
+    },
+    {
+      "id": "LOG-20261126-DIP-C1-AMPLIACION-CIERRE",
+      "at": "2026-11-26",
+      "atUtc": "2026-11-26T08:10:37Z",
+      "taskIds": [
+        "DIP-C1-01"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Alcance ampliado: diez modelos largos 006–015, 500 titulares y 50 reservas únicas, 39 temas no reservados, formato oficial 60 min y puntuación +0,20/−0,05/0, sustitución hipotética con denominador 50. Regresión editorial e735320d y publicación SUCCESS 45766905479 y 45766918935; E2E integral SUCCESS 45741466445. T22 reservado; no certificación jurídica integral ni predicción de aprobado.",
+      "evidence": [],
+      "limit": "T22 reservado; no auditoría jurídica integral.",
+      "nextAction": "Continuar JCCM-2026-01 según tablero AHORA."
     }
   ],
   "decisions": [
@@ -3614,7 +3627,6 @@
         "title": "Prioridad operativa",
         "description": "Prioridad manual: preparación Diputación C1 antes del examen 15/12/2026; OpoRadar continúa en paralelo mediante automatización.",
         "taskIds": [
-          "DIP-C1-01",
           "RAD-12",
           "RAD-13",
           "JCCM-2026-01",
@@ -3691,6 +3703,10 @@
       {
         "id": "LP-EX-04",
         "scope": "Simulacro histórico de La Puebla 14/11/2026: 50 titulares y 5 reservas, 220 alternativas transcritas de 13 fotografías, plantilla provisional 16/11/2026, temporizador 60 min, +0,20/−0,05, blancos, reservas excluidas por defecto y sustitución hipotética explícita. Publicación 45591964741 SUCCESS; Chromium local y Pages 45591964686 SUCCESS con OPOWEB_LP_HISTORICAL_55_E2E_OK dos veces, acceso desde practice, 10/10, escenario 9,75/10, expiración, móvil emulado y sin errores JS. No acredita plantilla definitiva ni anulación oficial ni revisión jurídica integral."
+      },
+      {
+        "id": "DIP-C1-01",
+        "scope": "Alcance ampliado: diez modelos largos 006–015, 500 titulares y 50 reservas únicas, 39 temas no reservados, formato oficial 60 min y puntuación +0,20/−0,05/0, sustitución hipotética con denominador 50. Regresión editorial e735320d y publicación SUCCESS 45766905479 y 45766918935; E2E integral SUCCESS 45741466445. T22 reservado; no certificación jurídica integral ni predicción de aprobado."
       }
     ],
     "sourceSnapshot": {
@@ -3728,5 +3744,5 @@
     "legalIntegralCertified": false,
     "reason": "Falta cadena oficial OAPGT y cotejo manual de 3228 alternativas; 37 fichas estructuradas y segundo ejercicio aún no homologados."
   },
-  "updatedAtUtc": "2026-11-26T06:15:15.000Z"
+  "updatedAtUtc": "2026-11-26T08:10:54.000Z"
 }
