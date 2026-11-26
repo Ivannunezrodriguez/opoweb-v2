@@ -109,7 +109,7 @@
       "incisosAuditados": [],
       "normasYArticulosVerificados": [],
       "preguntasVerificadas": [],
-      "pendiente": "Manual inicial de artículos 140–158 redactado y enlazado. Completar segunda revisión de todos los incisos, banco independiente y ficha rápida; no acredita cobertura integral.",
+      "pendiente": "Manual, ficha y banco de 30 preguntas con visor interactivo creados. Cotejo jurídico individual, revisión integral y validación de navegador pendientes. No acredita cobertura integral.",
       "mapaNormativoPreliminar": [
         {
           "inciso": "Principios generales",
@@ -136,7 +136,10 @@
           "consulta": "2026-11-25"
         }
       ],
-      "manualPropio": "content/jccm-2026/tema-04-manual.md"
+      "manualPropio": "content/jccm-2026/tema-04-manual.md",
+      "fichaPropia": "content/jccm-2026/tema-04-ficha.md",
+      "bancoProvisional": "content/jccm-2026/tema-04-preguntas.json",
+      "testProvisional": "content/jccm-2026/tema-04-test.html"
     },
     {
       "numero": 5,
