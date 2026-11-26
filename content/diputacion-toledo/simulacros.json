@@ -53,7 +53,7 @@
         {
           "id": "DIP-SIM-001-Q03",
           "tema": 5,
-          "pregunta": "Una presentación realizada un sábado en el registro electrónico, ¿cuándo se entiende efectuada a efectos del cómputo del plazo del interesado, salvo norma que permita expresamente la recepción en día inhábil?",
+          "pregunta": "A efectos de cumplir un plazo del interesado fijado en días hábiles, ¿cuándo se entiende efectuada una presentación electrónica realizada un sábado inhábil, salvo norma expresa que permita su recepción?",
           "opciones": [
             "La misma hora del sábado",
             "La primera hora del primer día hábil siguiente",
@@ -61,8 +61,8 @@
             "El siguiente día natural"
           ],
           "correcta": 1,
-          "justificacion": "El artículo 31.2.b de la Ley 39/2015 entiende presentada la documentación en la primera hora del primer día hábil siguiente, salvo norma que permita expresamente la recepción en día inhábil. La plataforma puede recibir el documento los sábados, pero eso no altera por sí solo su cómputo.",
-          "trampa": "Registro disponible 24 horas (art. 31.2.a) no significa que un sábado sea día hábil para el cómputo del interesado (art. 31.2.b).",
+          "justificacion": "El artículo 31.2.b de la Ley 39/2015 reputa la presentación realizada en la primera hora del primer día hábil siguiente para el cumplimiento de plazos del interesado fijados en días hábiles, salvo norma expresa que permita recepción en inhábil.",
+          "trampa": "El registro funciona las 24 horas; esta regla de cómputo no se aplica indiscriminadamente a todos los plazos.",
           "referencia": "content/diputacion-toledo/tema-05/manual.md",
           "fuenteNormativa": {
             "name": "Ley 39/2015, procedimiento administrativo",
@@ -290,8 +290,8 @@
             "Un certificado cualificado y un dispositivo cualificado de creación de firma"
           ],
           "correcta": 3,
-          "justificacion": "La firma electrónica cualificada requiere un certificado cualificado y un dispositivo cualificado de creación de firma.",
-          "trampa": "Una firma digitalizada o una contraseña no equivalen a firma electrónica cualificada.",
+          "justificacion": "Según el artículo 3.12 del Reglamento (UE) 910/2014, una firma electrónica cualificada es una firma avanzada creada mediante un dispositivo cualificado de creación de firma y basada en un certificado cualificado de firma electrónica.",
+          "trampa": "No basta disponer de un certificado cualificado: también se requiere una firma avanzada y un dispositivo cualificado.",
           "referencia": "content/diputacion-toledo/tema-31/manual.md"
         },
         {
@@ -715,8 +715,8 @@
             "Un mes"
           ],
           "correcta": 0,
-          "justificacion": "Si el recusado niega la causa, el superior resolverá en el plazo de tres días, tras el informe de aquel.",
-          "trampa": "El recusado manifiesta al superior al día siguiente si concurre la causa; no es el plazo de resolución del superior.",
+          "justificacion": "El artículo 24.4 de la Ley 40/2015 establece que si el recusado niega la causa, el superior resolverá en tres días, previos los informes y comprobaciones que considere oportunos.",
+          "trampa": "El recusado manifiesta si concurre la causa al día siguiente; los tres días corresponden al superior si el recusado la niega.",
           "referencia": "content/diputacion-toledo/tema-04/manual.md",
           "fuenteNormativa": {
             "name": "Ley 40/2015",
@@ -1507,8 +1507,8 @@
             "Un certificado cualificado y un dispositivo cualificado de creación de firma"
           ],
           "correcta": 3,
-          "justificacion": "La firma electrónica cualificada requiere un certificado cualificado y un dispositivo cualificado de creación de firma.",
-          "trampa": "Una firma digitalizada o una contraseña no equivalen a firma electrónica cualificada.",
+          "justificacion": "Según el artículo 3.12 del Reglamento (UE) 910/2014, una firma electrónica cualificada es una firma avanzada creada mediante un dispositivo cualificado de creación de firma y basada en un certificado cualificado de firma electrónica.",
+          "trampa": "No basta disponer de un certificado cualificado: también se requiere una firma avanzada y un dispositivo cualificado.",
           "referencia": "content/diputacion-toledo/tema-31/manual.md",
           "origenId": "DIP-SIM-002-Q03"
         },
@@ -1763,7 +1763,7 @@
         {
           "id": "DIP-SIM-006-Q28",
           "tema": 5,
-          "pregunta": "Una presentación realizada un sábado en el registro electrónico, ¿cuándo se entiende efectuada a efectos del cómputo del plazo del interesado, salvo norma que permita expresamente la recepción en día inhábil?",
+          "pregunta": "A efectos de cumplir un plazo del interesado fijado en días hábiles, ¿cuándo se entiende efectuada una presentación electrónica realizada un sábado inhábil, salvo norma expresa que permita su recepción?",
           "opciones": [
             "La misma hora del sábado",
             "La primera hora del primer día hábil siguiente",
@@ -1771,8 +1771,8 @@
             "El siguiente día natural"
           ],
           "correcta": 1,
-          "justificacion": "El artículo 31.2.b de la Ley 39/2015 entiende presentada la documentación en la primera hora del primer día hábil siguiente, salvo norma que permita expresamente la recepción en día inhábil. La plataforma puede recibir el documento los sábados, pero eso no altera por sí solo su cómputo.",
-          "trampa": "Registro disponible 24 horas (art. 31.2.a) no significa que un sábado sea día hábil para el cómputo del interesado (art. 31.2.b).",
+          "justificacion": "El artículo 31.2.b de la Ley 39/2015 reputa la presentación realizada en la primera hora del primer día hábil siguiente para el cumplimiento de plazos del interesado fijados en días hábiles, salvo norma expresa que permita recepción en inhábil.",
+          "trampa": "El registro funciona las 24 horas; esta regla de cómputo no se aplica indiscriminadamente a todos los plazos.",
           "referencia": "content/diputacion-toledo/tema-05/manual.md",
           "fuenteNormativa": {
             "name": "Ley 39/2015, procedimiento administrativo",
@@ -1847,8 +1847,8 @@
             "Un mes"
           ],
           "correcta": 0,
-          "justificacion": "Si el recusado niega la causa, el superior resolverá en el plazo de tres días, tras el informe de aquel.",
-          "trampa": "El recusado manifiesta al superior al día siguiente si concurre la causa; no es el plazo de resolución del superior.",
+          "justificacion": "El artículo 24.4 de la Ley 40/2015 establece que si el recusado niega la causa, el superior resolverá en tres días, previos los informes y comprobaciones que considere oportunos.",
+          "trampa": "El recusado manifiesta si concurre la causa al día siguiente; los tres días corresponden al superior si el recusado la niega.",
           "referencia": "content/diputacion-toledo/tema-04/manual.md",
           "fuenteNormativa": {
             "name": "Ley 40/2015",
