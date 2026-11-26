@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "actualizado": "2026-11-25",
+  "actualizado": "2026-11-26",
   "programaId": "jccm-2025-2026-auxiliar-c2",
   "fuentePrograma": "data/programa-jccm-auxiliar-c2-2025-2026.json",
   "criterio": "Los enlaces a manuales históricos son solo candidatos. Sin descomposición literal de incisos y cotejo normativo, no se acredita cobertura ni se reutilizan preguntas como verificadas.",
@@ -109,7 +109,7 @@
       "incisosAuditados": [],
       "normasYArticulosVerificados": [],
       "preguntasVerificadas": [],
-      "pendiente": "Cotejar capítulos I–IV del título III; completar técnicas y órganos de cooperación y relaciones electrónicas 155–158. Validar preguntas.",
+      "pendiente": "Manual inicial de artículos 140–158 redactado y enlazado. Completar segunda revisión de todos los incisos, banco independiente y ficha rápida; no acredita cobertura integral.",
       "mapaNormativoPreliminar": [
         {
           "inciso": "Principios generales",
@@ -135,7 +135,8 @@
           "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
           "consulta": "2026-11-25"
         }
-      ]
+      ],
+      "manualPropio": "content/jccm-2026/tema-04-manual.md"
     },
     {
       "numero": 5,
