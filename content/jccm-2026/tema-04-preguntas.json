@@ -1,6 +1,6 @@
 {
   "tema": 4,
-  "estado": "BORRADOR_PENDIENTE_COTEJO_INDIVIDUAL",
+  "estado": "COTEJADO_EDITORIAL_PENDIENTE_VALIDACION_TECNICA",
   "preguntas": [
     {
       "id": "JCCM-C2-T04-01",
@@ -15,12 +15,14 @@
       "correcta": 2,
       "justificacion": "No confundir cooperación voluntaria con coordinación obligatoria cuando proceda.",
       "trampa": "No confundir cooperación voluntaria con coordinación obligatoria cuando proceda.",
-      "referencia": "Ley 40/2015, art. 140",
+      "referencia": "Ley 40/2015, art. 140.1.d",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a140",
-        "article": "140"
+        "article": "140",
+        "apartado": "140.1.d"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-02",
@@ -35,12 +37,14 @@
       "correcta": 0,
       "justificacion": "No existe subordinación jerárquica general entre Administraciones.",
       "trampa": "No existe subordinación jerárquica general entre Administraciones.",
-      "referencia": "Ley 40/2015, art. 140",
+      "referencia": "Ley 40/2015, art. 140.1.b",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a140",
-        "article": "140"
+        "article": "140",
+        "apartado": "140.1.b"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-03",
@@ -55,12 +59,14 @@
       "correcta": 3,
       "justificacion": "La Ley 40/2015 no excluye las reglas básicas locales.",
       "trampa": "La Ley 40/2015 no excluye las reglas básicas locales.",
-      "referencia": "Ley 40/2015, art. 140",
+      "referencia": "Ley 40/2015, art. 140.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a140",
-        "article": "140"
+        "article": "140",
+        "apartado": "140.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-04",
@@ -75,12 +81,14 @@
       "correcta": 1,
       "justificacion": "La insuficiencia de medios es causa legal; no basta conveniencia.",
       "trampa": "La insuficiencia de medios es causa legal; no basta conveniencia.",
-      "referencia": "Ley 40/2015, art. 141",
+      "referencia": "Ley 40/2015, art. 141.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a141",
-        "article": "141"
+        "article": "141",
+        "apartado": "141.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-05",
@@ -95,12 +103,14 @@
       "correcta": 1,
       "justificacion": "La negativa requiere motivación.",
       "trampa": "La negativa requiere motivación.",
-      "referencia": "Ley 40/2015, art. 141",
+      "referencia": "Ley 40/2015, art. 141.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a141",
-        "article": "141"
+        "article": "141",
+        "apartado": "141.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-06",
@@ -115,12 +125,14 @@
       "correcta": 3,
       "justificacion": "Distinguir técnicas de colaboración de sanciones.",
       "trampa": "Distinguir técnicas de colaboración de sanciones.",
-      "referencia": "Ley 40/2015, art. 142",
+      "referencia": "Ley 40/2015, art. 142.a",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a142",
-        "article": "142"
+        "article": "142",
+        "apartado": "142.a"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-07",
@@ -135,12 +147,14 @@
       "correcta": 0,
       "justificacion": "La integración exige seguridad.",
       "trampa": "La integración exige seguridad.",
-      "referencia": "Ley 40/2015, art. 142",
+      "referencia": "Ley 40/2015, art. 142.b",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a142",
-        "article": "142"
+        "article": "142",
+        "apartado": "142.b"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-08",
@@ -155,12 +169,14 @@
       "correcta": 2,
       "justificacion": "Se formaliza mediante acuerdos o convenios.",
       "trampa": "Se formaliza mediante acuerdos o convenios.",
-      "referencia": "Ley 40/2015, art. 143",
+      "referencia": "Ley 40/2015, art. 143.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a143",
-        "article": "143"
+        "article": "143",
+        "apartado": "143.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-09",
@@ -175,12 +191,14 @@
       "correcta": 2,
       "justificacion": "No confundir con el registro estatal constitutivo.",
       "trampa": "No confundir con el registro estatal constitutivo.",
-      "referencia": "Ley 40/2015, art. 144",
+      "referencia": "Ley 40/2015, art. 144.3",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a144",
-        "article": "144"
+        "article": "144",
+        "apartado": "144.3"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-10",
@@ -195,12 +213,14 @@
       "correcta": 0,
       "justificacion": "La inscripción es requisito de validez en ese supuesto.",
       "trampa": "La inscripción es requisito de validez en ese supuesto.",
-      "referencia": "Ley 40/2015, art. 145",
+      "referencia": "Ley 40/2015, art. 145.3",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a145",
-        "article": "145"
+        "article": "145",
+        "apartado": "145.3"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-11",
@@ -215,12 +235,14 @@
       "correcta": 3,
       "justificacion": "El comité preparatorio tiene presidencia diferente.",
       "trampa": "El comité preparatorio tiene presidencia diferente.",
-      "referencia": "Ley 40/2015, art. 146",
+      "referencia": "Ley 40/2015, art. 146.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a146",
-        "article": "146"
+        "article": "146",
+        "apartado": "146.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-12",
@@ -235,12 +257,14 @@
       "correcta": 1,
       "justificacion": "La presidencia responde al sector material.",
       "trampa": "La presidencia responde al sector material.",
-      "referencia": "Ley 40/2015, art. 147",
+      "referencia": "Ley 40/2015, art. 147.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a147",
-        "article": "147"
+        "article": "147",
+        "apartado": "147.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-13",
@@ -255,12 +279,14 @@
       "correcta": 1,
       "justificacion": "No es un órgano meramente consultivo.",
       "trampa": "No es un órgano meramente consultivo.",
-      "referencia": "Ley 40/2015, art. 148",
+      "referencia": "Ley 40/2015, art. 148.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a148",
-        "article": "148"
+        "article": "148",
+        "apartado": "148.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-14",
@@ -275,12 +301,14 @@
       "correcta": 3,
       "justificacion": "Distinguir frecuencia de convocatoria por iniciativa propia.",
       "trampa": "Distinguir frecuencia de convocatoria por iniciativa propia.",
-      "referencia": "Ley 40/2015, art. 149",
+      "referencia": "Ley 40/2015, art. 149.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a149",
-        "article": "149"
+        "article": "149",
+        "apartado": "149.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-15",
@@ -295,12 +323,14 @@
       "correcta": 0,
       "justificacion": "No confundir solicitud con consentimiento de todos para asuntos no incluidos.",
       "trampa": "No confundir solicitud con consentimiento de todos para asuntos no incluidos.",
-      "referencia": "Ley 40/2015, art. 149",
+      "referencia": "Ley 40/2015, art. 149.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a149",
-        "article": "149"
+        "article": "149",
+        "apartado": "149.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-16",
@@ -315,12 +345,14 @@
       "correcta": 2,
       "justificacion": "Es distinta de la fracción de solicitud de convocatoria.",
       "trampa": "Es distinta de la fracción de solicitud de convocatoria.",
-      "referencia": "Ley 40/2015, art. 149",
+      "referencia": "Ley 40/2015, art. 149.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a149",
-        "article": "149"
+        "article": "149",
+        "apartado": "149.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-17",
@@ -335,12 +367,14 @@
       "correcta": 2,
       "justificacion": "Designación presidencial.",
       "trampa": "Designación presidencial.",
-      "referencia": "Ley 40/2015, art. 150",
+      "referencia": "Ley 40/2015, art. 150.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a150",
-        "article": "150"
+        "article": "150",
+        "apartado": "150.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-18",
@@ -355,12 +389,14 @@
       "correcta": 0,
       "justificacion": "No se vota individualmente por cada miembro.",
       "trampa": "No se vota individualmente por cada miembro.",
-      "referencia": "Ley 40/2015, art. 151",
+      "referencia": "Ley 40/2015, art. 151.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a151",
-        "article": "151"
+        "article": "151",
+        "apartado": "151.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-19",
@@ -375,12 +411,14 @@
       "correcta": 3,
       "justificacion": "Excepción al régimen ordinario de disidencia.",
       "trampa": "Excepción al régimen ordinario de disidencia.",
-      "referencia": "Ley 40/2015, art. 151",
+      "referencia": "Ley 40/2015, art. 151.2.a",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a151",
-        "article": "151"
+        "article": "151",
+        "apartado": "151.2.a"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-20",
@@ -395,12 +433,14 @@
       "correcta": 1,
       "justificacion": "Es órgano de apoyo de la Conferencia.",
       "trampa": "Es órgano de apoyo de la Conferencia.",
-      "referencia": "Ley 40/2015, art. 152",
+      "referencia": "Ley 40/2015, art. 152.2.a-b",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a152",
-        "article": "152"
+        "article": "152",
+        "apartado": "152.2.a-b"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-21",
@@ -415,12 +455,14 @@
       "correcta": 1,
       "justificacion": "Paridad no equivale a composición territorial multilateral.",
       "trampa": "Paridad no equivale a composición territorial multilateral.",
-      "referencia": "Ley 40/2015, art. 153",
+      "referencia": "Ley 40/2015, art. 153.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a153",
-        "article": "153"
+        "article": "153",
+        "apartado": "153.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-22",
@@ -435,12 +477,14 @@
       "correcta": 3,
       "justificacion": "Distinguir de la previsión expresa bilateral.",
       "trampa": "Distinguir de la previsión expresa bilateral.",
-      "referencia": "Ley 40/2015, art. 154",
+      "referencia": "Ley 40/2015, art. 154.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a154",
-        "article": "154"
+        "article": "154",
+        "apartado": "154.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-23",
@@ -455,17 +499,19 @@
       "correcta": 0,
       "justificacion": "El plazo de diez días corresponde al apartado tercero.",
       "trampa": "El plazo de diez días corresponde al apartado tercero.",
-      "referencia": "Ley 40/2015, art. 155",
+      "referencia": "Ley 40/2015, art. 155.3",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a155",
-        "article": "155"
+        "article": "155",
+        "apartado": "155.3"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-24",
       "tema": 4,
-      "pregunta": "¿De qué plazo dispone la cedente para oponerse motivadamente en ese supuesto?",
+      "pregunta": "Según el art. 155.3, ¿de qué plazo dispone la Administración cedente para oponerse motivadamente al tratamiento ulterior comunicado para una finalidad compatible?",
       "opciones": [
         "20 días",
         "5 días",
@@ -475,17 +521,19 @@
       "correcta": 2,
       "justificacion": "No confundir con otros plazos administrativos.",
       "trampa": "No confundir con otros plazos administrativos.",
-      "referencia": "Ley 40/2015, art. 155",
+      "referencia": "Ley 40/2015, art. 155.3",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a155",
-        "article": "155"
+        "article": "155",
+        "apartado": "155.3"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-25",
       "tema": 4,
-      "pregunta": "En ausencia de excepción legal, ¿puede usarse el dato para la nueva finalidad antes de comunicarse la decisión?",
+      "pregunta": "En el supuesto del art. 155.3 y sin excepción legal, ¿puede la cesionaria usar los datos para la nueva finalidad antes de que la cedente comunique su decisión?",
       "opciones": [
         "Sí tras una hora",
         "Sí inmediatamente",
@@ -495,12 +543,14 @@
       "correcta": 2,
       "justificacion": "No hay autorización automática por transcurso del plazo.",
       "trampa": "No hay autorización automática por transcurso del plazo.",
-      "referencia": "Ley 40/2015, art. 155",
+      "referencia": "Ley 40/2015, art. 155.3",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a155",
-        "article": "155"
+        "article": "155",
+        "apartado": "155.3"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-26",
@@ -515,12 +565,14 @@
       "correcta": 0,
       "justificacion": "ENS y ENI tienen objetos distintos.",
       "trampa": "ENS y ENI tienen objetos distintos.",
-      "referencia": "Ley 40/2015, art. 156",
+      "referencia": "Ley 40/2015, art. 156.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a156",
-        "article": "156"
+        "article": "156",
+        "apartado": "156.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-27",
@@ -535,12 +587,14 @@
       "correcta": 3,
       "justificacion": "ENI incluye criterios de seguridad, conservación y normalización.",
       "trampa": "ENI incluye criterios de seguridad, conservación y normalización.",
-      "referencia": "Ley 40/2015, art. 156",
+      "referencia": "Ley 40/2015, art. 156.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a156",
-        "article": "156"
+        "article": "156",
+        "apartado": "156.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-28",
@@ -555,12 +609,14 @@
       "correcta": 1,
       "justificacion": "La excepción exige justificar eficiencia.",
       "trampa": "La excepción exige justificar eficiencia.",
-      "referencia": "Ley 40/2015, art. 157",
+      "referencia": "Ley 40/2015, art. 157.3",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a157",
-        "article": "157"
+        "article": "157",
+        "apartado": "157.3"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-29",
@@ -575,12 +631,14 @@
       "correcta": 1,
       "justificacion": "La reutilización no implica gratuidad incondicional.",
       "trampa": "La reutilización no implica gratuidad incondicional.",
-      "referencia": "Ley 40/2015, art. 157",
+      "referencia": "Ley 40/2015, art. 157.1",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a157",
-        "article": "157"
+        "article": "157",
+        "apartado": "157.1"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     },
     {
       "id": "JCCM-C2-T04-30",
@@ -595,12 +653,14 @@
       "correcta": 3,
       "justificacion": "Los directorios propios deben ser interoperables con el general.",
       "trampa": "Los directorios propios deben ser interoperables con el general.",
-      "referencia": "Ley 40/2015, art. 158",
+      "referencia": "Ley 40/2015, art. 158.2",
       "fuenteNormativa": {
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a158",
-        "article": "158"
+        "article": "158",
+        "apartado": "158.2"
       },
-      "activa": true
+      "activa": true,
+      "cotejo": "BOE consolidado, revisión editorial 26/11/2026"
     }
   ]
 }
