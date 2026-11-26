@@ -1,6 +1,6 @@
 # Ficha rápida · JCCM C2 · Tema 4
 
-Repaso del manual inicial, pendiente de cotejo jurídico definitivo. No sustituye el manual.
+Repaso del manual revisado, pendiente de validación del conjunto. No sustituye el manual.
 
 ## 140. Principios generales
 
@@ -40,13 +40,13 @@ Bilaterales o multilaterales, generales o especiales. Si participa la AGE, la in
 
 ## 146. Conferencia de Presidentes
 
-Órgano multilateral presidido por el **Presidente del Gobierno**, integrado por presidentes autonómicos y de Ceuta y Melilla. Comité preparatorio presidido por un **ministro** e integrado por un consejero de cada comunidad autónoma.
+Órgano multilateral presidido por el **Presidente del Gobierno**, integrado por presidentes autonómicos y de Ceuta y Melilla. Su objeto es deliberar y adoptar acuerdos de interés estatal y autonómico. Comité preparatorio presidido por un **ministro** e integrado por un consejero de cada comunidad autónoma.
 
 > ⚠️ **¡Foco Examen!:** No confundir presidente de la Conferencia con presidente del comité.
 
 ## 147. Conferencias Sectoriales
 
-Órgano multilateral sectorial; preside el **miembro del Gobierno competente** y participan miembros de gobiernos autonómicos y de Ceuta y Melilla. Inscripción estatal necesaria para constitución válida. Reglamento interno aprobado por sus miembros.
+Órgano multilateral sectorial; preside el **miembro del Gobierno competente** y participan miembros de gobiernos autonómicos y de Ceuta y Melilla. Inscripción estatal necesaria para constitución válida. Reglamento interno aprobado por sus miembros; la inscripción también se exige a órganos con otra denominación sujetos al mismo régimen.
 
 > ⚠️ **¡Foco Examen!:** Ámbito sectorial, no general.
 
@@ -58,7 +58,7 @@ Consulta, decisión y coordinación. Información sobre proyectos normativos que
 
 ## 149. Convocatoria
 
-El **ministro presidente** convoca por iniciativa propia al menos **una vez al año**, o a solicitud de **un tercio** de miembros con propuesta de orden del día. Documentos con antelación suficiente. Asuntos no incluidos requieren conformidad de **todos los miembros**. El presidente propone orden del día y carácter de cada asunto. Para informar exclusivamente un proyecto normativo cabe sesión electrónica, telefónica o audiovisual con unidad de acto; lugar de adopción: sede de la presidencia en ese momento. Actas electrónicas posibles.
+El **ministro presidente** convoca por iniciativa propia al menos **una vez al año**, o a solicitud de **un tercio** de miembros con propuesta de orden del día. Documentos con antelación suficiente. Asuntos no incluidos requieren conformidad de **todos los miembros**. El presidente propone orden del día y carácter de cada asunto. Para informar exclusivamente un proyecto normativo cabe sesión electrónica, telefónica o audiovisual con unidad de acto; lugar de adopción: lugar donde se encuentre la presidencia. Actas electrónicas posibles.
 
 > ⚠️ **¡Foco Examen!:** Un tercio solicita; todos consienten asuntos fuera del orden.
 
@@ -70,7 +70,7 @@ Designación por el **presidente**. Prepara reuniones, asiste con voz sin voto, 
 
 ## 151. Decisiones
 
-Voto por representación administrativa. Acuerdos obligatorios y exigibles para quienes quedan vinculados; disidentes quedan fuera hasta adherirse, excepto coordinación estatal legalmente habilitada, que obliga a todos. Planes conjuntos: objetivos, actuaciones, aportaciones, duración y mecanismos de seguimiento, evaluación y modificación. Recomendaciones orientan y exigen motivar apartamiento, salvo disidentes no adheridos.
+Voto por representación administrativa. Acuerdos obligatorios y exigibles para quienes quedan vinculados; disidentes quedan fuera hasta adherirse, excepto coordinación estatal legalmente habilitada, que obliga a todos. Planes conjuntos multilaterales AGE–comunidades autónomas: tienen naturaleza de acuerdo y se publican en el **BOE**. Deben concretar objetivos comunes, actuaciones de cada Administración, medios humanos y materiales, compromisos financieros, duración y mecanismos de seguimiento, evaluación y modificación. Recomendaciones orientan y exigen motivar apartamiento, salvo disidentes no adheridos.
 
 > ⚠️ **¡Foco Examen!:** Acuerdo y recomendación tienen efectos distintos.
 
@@ -94,7 +94,7 @@ Multilaterales para territorios coincidentes o limítrofes y funciones concurren
 
 ## 155. Transmisión de datos
 
-Acceso interadministrativo con garantías de seguridad, integridad y disponibilidad conforme RGPD y LO 3/2018. Prohibición de finalidades incompatibles; archivo de interés público, investigación científica/histórica y estadística no se consideran incompatibles. Para nueva finalidad compatible, fuera del supuesto anterior y sin prohibición especial, comunicación previa; cedente puede oponerse motivadamente en **10 días**. Hasta comunicación de decisión no usar para nueva finalidad. AGE puede suspender cautelarmente transmisión por seguridad nacional, motivadamente y tiempo indispensable. Excepción a espera si norma con rango legal prevé otro fin conforme art. 23.1 RGPD.
+Acceso interadministrativo con garantías de seguridad, integridad y disponibilidad conforme RGPD y LO 3/2018. Prohibición de finalidades incompatibles; archivo de interés público, investigación científica/histórica y estadística no se consideran incompatibles. Para nueva finalidad compatible, fuera del supuesto anterior y sin prohibición especial, comunicación previa; cedente puede oponerse motivadamente en **10 días**. Hasta comunicación de decisión no usar para nueva finalidad. Cuando la **AGE** sea cedente, puede suspender excepcionalmente la transmisión por seguridad nacional, con motivación y durante el tiempo estrictamente indispensable. Excepción a espera si norma con rango legal prevé otro fin conforme art. 23.1 RGPD.
 
 > ⚠️ **¡Foco Examen!:** El plazo corresponde al apartado 3; no es silencio positivo automático.
 
