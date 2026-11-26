@@ -99,4 +99,30 @@ La cesión interadministrativa debe respetar la normativa de protección de dato
 
 > ⚠️ **¡Foco Examen!:** El plazo de **10 días** pertenece al artículo 155.3; el apartado 2 regula la incompatibilidad de finalidades. Mientras no se comunique la decisión, la cesionaria no puede usar los datos para la nueva finalidad.
 
-**Límite editorial:** veintidós preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
+## Relaciones electrónicas: ENI, ENS, reutilización y transferencia (arts. 156–158)
+
+| Concepto | Regla |
+|---|---|
+| ENI (156.1) | Criterios de seguridad, conservación y normalización para garantizar interoperabilidad |
+| ENS (156.2) | Política de seguridad electrónica, principios básicos y requisitos mínimos |
+| Cesión (157.1) | Aplicaciones de titularidad intelectual administrativa, salvo información especialmente protegida por norma; cabe pactar repercusión de costes |
+| Fuentes abiertas (157.2) | Posibilidad, no obligación, cuando favorezca transparencia o incorporación ciudadana a la sociedad de la información |
+| Consulta previa (157.3) | Directorio general antes de adquirir, desarrollar o mantener aplicaciones, cuando requisitos de seguridad e interoperabilidad lo permitan |
+| Reutilización (157.3) | Obligatoria si existe solución disponible total o parcial, salvo justificación de eficiencia conforme al art. 7 LO 2/2012 |
+| Directorios (158) | Actualizados e interoperables; la **Administración General del Estado** mantiene el directorio general y presta apoyo |
+
+> ⚠️ **¡Foco Examen!:** Distinguir la consulta previa, la obligación condicionada de reutilizar y la posibilidad de declarar aplicaciones de fuentes abiertas.
+
+[BOE consolidado, arts. 156–158](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a156), consulta 26/11/2026.
+
+### Preguntas adicionales
+
+23. Política de seguridad electrónica: **ENS**, 156.2.
+24. Criterios de interoperabilidad: **ENI**, 156.1.
+25. Consulta previa: **directorio general de aplicaciones**, 157.3.
+26. Excepción a reutilización: **justificación en términos de eficiencia**, 157.3.
+27. Repercusión de costes: **puede acordarse entre cedente y cesionaria**, 157.1.
+28. Directorio general: **Administración General del Estado**, 158.2.
+29. Directorios administrativos: **plenamente interoperables**, 158.1.
+
+**Límite editorial:** veintinueve preguntas de repaso focal, no simulacro completo ni certificación de todos los artículos. Quedan pendientes el resto de incisos y su integración en el banco interactivo.
