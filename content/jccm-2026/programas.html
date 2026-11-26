@@ -39,7 +39,7 @@ try{
    const links=manuals.length?'<p><strong>Manuales relacionados (sin cotejar):</strong> '+
      manuals.map(path=>'<a href="https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/'+encodeURI(path)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(path.split('/').slice(-3,-1).join(' · '))+'</a>').join(' · ')+'</p>':'<p class="muted">Sin manual candidato identificado en OpoWeb.</p>';
    return '<article class="item"><h3>Tema '+escapeHtml(t.numeroEnBloque)+': '+escapeHtml(t.titulo)+'</h3>'+
-     links+(kind==='c2'&&[3,4].includes(t.numero)?'<p><a href="ley40-repaso.html">Repaso focal de Ley 40/2015 · 7 preguntas interactivas</a></p>':'')+'<small class="state">'+(m?.coberturaAcreditada===true?'Cobertura auditada según matriz editorial':'Cobertura NO acreditada · Pendientes: cotejo de incisos, desarrollo y preguntas verificadas')+'</small></article>';
+     links+(kind==='c2'&&[3,4].includes(t.numero)?'<p><a href="ley40-repaso.html">Repaso focal de Ley 40/2015 · preguntas interactivas</a></p>':'')+'<small class="state">'+(m?.coberturaAcreditada===true?'Cobertura auditada según matriz editorial':'Cobertura NO acreditada · Pendientes: cotejo de incisos, desarrollo y preguntas verificadas')+'</small></article>';
   }).join('')+'</section>').join('')||'<section class="panel"><p>No hay temas que coincidan con la búsqueda.</p></section>';
 }catch(e){count.textContent='No se pudo cargar el programa';root.innerHTML='<section class="panel"><p>Error de carga. Vuelve a intentarlo más tarde.</p></section>';}
 }
